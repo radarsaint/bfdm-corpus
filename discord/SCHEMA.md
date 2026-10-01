@@ -54,7 +54,9 @@ CREATE TABLE attachments (
   filename TEXT,
   url TEXT,
   content_type TEXT,
-  size INTEGER
+  size INTEGER,
+  sha256 TEXT,
+  local_path TEXT  -- repo-relative, e.g. discord/<server-slug>/attachments/<channel_id>/<attachment_id>-<filename>
 );
 
 CREATE TABLE reactions (
@@ -80,7 +82,7 @@ CREATE TRIGGER messages_au AFTER UPDATE ON messages BEGIN
 END;
 ```
 
-Attachments store metadata and URLs only, not the files. Run `VACUUM` before committing.
+Attachment files are downloaded and committed under `discord/<server-slug>/attachments/<channel_id>/<attachment_id>-<filename>`, with `local_path` and `sha256` filled in. Discord CDN URLs expire, so the stored file is the real record and `url` is only the original source. Run `VACUUM` before committing.
 
 ## Example search
 
