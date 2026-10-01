@@ -90,6 +90,6 @@ FROM messages_fts f
 JOIN messages m ON m.rowid = f.rowid
 JOIN channels c ON c.id = m.channel_id
 LEFT JOIN users u ON u.id = m.author_id
-WHERE messages_fts MATCH 'lich NEAR/5 phylactery'
+WHERE messages_fts MATCH 'NEAR(lich phylactery, 5)'
 ORDER BY m.created_at;
 ```
