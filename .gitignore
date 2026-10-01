@@ -1,0 +1,6 @@
+.env
+*.env
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+.DS_Store
