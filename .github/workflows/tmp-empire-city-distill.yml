@@ -12,17 +12,25 @@ permissions:
 jobs:
   extract:
     runs-on: ubuntu-latest
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
     steps:
-      - name: Checkout corpus with LFS
+      - name: Checkout corpus without bulk LFS hydration
         uses: actions/checkout@v4
         with:
-          lfs: true
+          lfs: false
           fetch-depth: 1
+
+      - name: Fetch only Empire City SQLite
+        shell: bash
+        run: |
+          git lfs install --local
+          git lfs pull --include="discord/empire-city/empire-city.sqlite" --exclude=""
+          ls -lh discord/empire-city/empire-city.sqlite
 
       - name: Verify Empire City database
         shell: bash
         run: |
-          ls -lh discord/empire-city/empire-city.sqlite
           python - <<'PY'
           from pathlib import Path
           p=Path("discord/empire-city/empire-city.sqlite")
