@@ -159,6 +159,33 @@ Compare to `BDC-S3-L01` and `BDC-S3-008`: repeated player investment can promote
 **Evidence confidence:** high.  
 **Claim scope:** cross-campaign candidate.
 
+
+### Additional live sequence: the game booths
+
+The broader Ferrytown recovery case is especially clear around the destroyed game booths.
+
+The collaborative Ferrytown master document establishes the booths as repeatable/self-sustaining play:
+- `Ferrytown Master Doc`, Drive `1M2Lj_bTH3fKQxAsnnyDg8C5p_jf59FEC4d4IOVIioJM` — Illo'fae/Coney Island is built as a fairground with repeatable games and prizes; the Week 1 notes explicitly anticipate the booths becoming self-sustaining.
+
+After the July 16 destruction, player Cruithne immediately treats their loss as a problem worth solving:
+- `865468984908709908` — asks whether the game booths will be rebuilt because their familiar had not yet gotten to play.
+- `865556995318611968` — “plan Bring Back Ferrytown Games is go (later).”
+- `865574422206218241` — the character returns to the destroyed booths.
+- `865577566231855154` — uses Marvelous Pigments to repaint the ring-toss stall and adds mundane weapons/plush prizes.
+- `865582540994379786` — the rebuilding is generalized across the booths and framed as an eight-hour in-fiction effort.
+
+Brendon's staff-side response makes the promotion explicit:
+- `865565818481279018` — “I mean, I hadn't planned on it. But players helping rebuild the server is a healing thing.”
+- `865574816647872523` — after hearing the player's plan to rebuild the game booths: “She should … that would be lovely.”
+
+The rebuilt location is not a pristine reset. The player's additions survive into the repaired state:
+- `865908796017868811` — player reports that the pigments worked and the new Grimlock/Mender plush prizes exist.
+- `867076647596195942` — player reports that the booths are starting to reopen.
+- `867327632076308480` — later play still references the player-created mundane plush prizes.
+
+**Refined reusable judgment.** If a player voluntarily repairs campaign damage, the repair can become more valuable when it preserves the player's contribution instead of restoring the exact pre-damage state.
+
+
 ---
 
 ## BDC-S4-L03 — Shared delivery revises private sequence without invalidating either DM's contribution
@@ -198,3 +225,307 @@ In multi-DM play, canon is what the shared game can coherently support after del
 
 **Evidence confidence:** high.  
 **Claim scope:** multi-DM format-specific; candidate for broader “delivered play outranks stale prep” comparison.
+
+---
+
+## BDC-S4-L04 — Pinkerton grows from genre shorthand into rebuilt institutional infrastructure
+
+### Prepared seed
+
+The initial Kingsbridge instruction is extremely compact:
+
+- `864043650589917184` — 2021-07-12 — DM Chat / `admin-to-dm-notes`: “play the pinkertons like a noir detective novel.”
+
+The campaign also establishes Harvey Pinkerton as the main NPC for the area:
+- `851693586243256328` — 2021-06-08 — Kingsbridge Noir / `the-pinkertons`.
+
+### Live attachment signal
+
+A collaborator reports:
+- `865374036200259644` — roleplaying with Pinkerton was “really fun.”
+
+Brendon immediately answers:
+- `865374804646166569` — “I enjoy it pinkerton a lot. There is a lot I want to do with them.”
+
+This provides both halves of the promotion signal: player/collaborator enjoyment and DM interest.
+
+### Functional expansion
+
+Pinkerton's role expands beyond noir voice:
+- `866018394679279658` — Pinkertons become Washington's intelligence division.
+- `867240011182506054` — they become a source of behind-enemy-lines work.
+
+### Consequence
+
+The institution is physically destroyed:
+- `870823601425752125` — 2021-07-31 — “The Pinkertons … has been destroyed.”
+
+The destruction remains true in the world:
+- `873359684944412702` — people are later seen sifting through the building.
+
+### Recovery / transformed return
+
+Weeks later, the intelligence institution returns in changed form:
+- `877030300000059423` — a new Home Office nameplate reads “Howard Pinkerton - Architect.”
+- `877031072066572359` — a player explicitly notes the contradiction: the Pinkertons were destroyed weeks ago.
+- `878864624492085249` — Pinkerton says the Home Office is almost back up and running and can relaunch investigations, while proposing a player for the Captain seat.
+
+### Signal Brendon noticed
+
+Pinkerton was doing more work than the original genre shorthand predicted: players liked interacting with him, Brendon liked performing him, and the institution provided useful investigation/intelligence infrastructure.
+
+### Adaptation
+
+Keep the NPC/function after destruction, but reincorporate it into a changed institution rather than undoing the destruction.
+
+### Reusable judgment candidate
+
+If a functional NPC/institution earns both player attachment and DM interest, let consequences change its form rather than erase its utility. Recovery should preserve history.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4; strong recovery-over-reset case.
+
+---
+
+## BDC-S4-L05 — “The Tax” evolves from a prepared restriction list into a generative borough-wide pressure system
+
+### Prepared structure
+
+The first-draft Kingsbridge script contains a simple scheduled sequence for Week 2:
+- cantrip disruption;
+- disadvantage on saves against magic;
+- abjuration failure;
+- minimum healing;
+- wild magic;
+- third-level slot failure;
+- AOE failure.
+
+Source:
+- `first draft Kingsbridge script`, Drive `1zda4kJMzA7cDJ9r7LaCagE96n_OOPoBhOprWUjmAc34`.
+
+### Campaign framing
+
+Brendon introduces the week as resource extraction from the city's leyline cornerstone:
+- `865910769345757204` — magic powering the city's daily life is being siphoned away without player consent; Week 2 is “The Tax.”
+
+A co-DM clarifies the operating rule:
+- `865931730723274772` — taxes are borough-specific.
+
+### Live mutation
+
+Brendon's delivered taxes diverge substantially from the original simple list and become varied environmental/social mechanics.
+
+Examples:
+- `865933721407193098` — Common language scrambled for cantrip users.
+- `866218699060543500` — sporadic magical darkness.
+- `866557257886203904` — magical yodeling defeats stealth.
+- `866558276526276629` — shared telepathy in Kingsbridge with investigation/perception penalty.
+- `866559620872798218` — weapon mass changes.
+- `867314513233707019` — everyone grows gills and gains a water dependency.
+- `867686991290040330` — half of carried silver is summoned away.
+- `867690767672934440` / `867690853367283743` — the City becomes physically overgrown with damaging roses/spikes.
+
+### Player behavior
+
+The tax becomes an activity players actively plan around:
+- players repeatedly roll for borough taxes when entering/leaving;
+- they seek cures and workarounds;
+- they silver weapons and ammunition in response to interactions between local threats and tax effects;
+- `866562027320246282` / `866562123232837632` — players explicitly notice cross-borough combinations and reason through how the systems interact;
+- `867803704152555605` — a player comments on how crazy the interactions between taxes are.
+
+### Fictional intent protected
+
+Brendon explicitly reminds the server:
+- `867572467006570506` — even if the players find the taxes fun, the characters are being harassed by the Redcoats.
+
+The absurdity is therefore not intended to erase the occupation fiction.
+
+### End condition
+
+- `868190785848356874` — 2021-07-23 — “the tax receeds.”
+
+The system is a temporary campaign-state pressure with an in-fiction end, not an arbitrary permanent rules layer.
+
+### Adaptation
+
+A prepared list becomes a generative design framework: each borough/DM can express the same campaign pressure through mechanics appropriate to local play.
+
+### Reusable judgment candidate
+
+If a campaign-wide pressure is conceptually strong, preserve the shared meaning while allowing local implementations to mutate. The common fiction can unify mechanically diverse effects.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 system-design case; collaborative implementation.
+
+---
+
+## BDC-S4-L06 — Benedict Arnold turns historical inevitability into contestable history
+
+### Prepared expectation
+
+The first-draft Kingsbridge script already includes:
+- “Benedict Arnold, traitor, Failable quest. Oathbreaker Pali”
+
+Source:
+- `first draft Kingsbridge script`, Drive `1zda4kJMzA7cDJ9r7LaCagE96n_OOPoBhOprWUjmAc34`.
+
+The historical hook—Arnold's betrayal—is therefore intentionally preserved.
+
+### Early clue
+
+Long before the planned final-rogue slot:
+- `866861745627987988` — 2021-07-20 — Brendon specifies that “what lies beneath the spreading chestnut tree?” resolves to a betrayal warning and “will lead to Benedict Arnold.”
+
+### Player discovery
+
+By mid-August players have assembled proof:
+- `877057622824603748` — Pinkerton names General Arnold.
+- `877066477390426143` — players send Washington a warning that Arnold is working with Redcoats and tied to Violet.
+- `877390973611704411` — the warning is repeated during Congress.
+
+### World response instead of static trigger
+
+- `879441291845451816` — Brendon says no assassination attempt has happened, but Arnold moved his assets north before the warning reached the front and may aid the British.
+
+The clue changes the antagonist's situation rather than merely unlocking a prewritten encounter.
+
+### Player-authored operation
+
+Players create “Operation Crack the Egg”:
+- `879497142639661107` — explicit player mission plan to infiltrate Arnold's command ship and assassinate him.
+- `879802224727949393` — plan expands to invisible approach, bombs beneath the armada, command-ship assault and escape.
+
+Brendon schedules their plan:
+- `879860620575518790` — “I will be running the Benedict Arnold stealth assassination first tonight…”
+
+### Aftermath
+
+- `879895917296250900` — Washington's side credits the players' information as potentially decisive and issues a letter of marque.
+- `880249982442168341` — the Empire City Post reports that strategically placed explosives cripple/destroy Arnold's armada and prevent a flanking attack on the Continental Navy.
+
+### Adaptation
+
+Historical betrayal remains recognizable, but its consequences are not protected from player interference.
+
+### Reusable judgment candidate
+
+Use famous history as a strong expectation, then make the *consequence* contestable. A historical figure can remain recognizable while players still earn the right to change what their famous action accomplishes.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 historical-mythologization case.
+
+---
+
+## BDC-S4-L07 — Mothman survives by changing function and by letting players carry the mythology forward
+
+### Prior campaign lineage
+
+Targeted source comparison shows Mothman predates S4:
+- S2 collaborative campaign material uses Mothmen as clue/threat/main-event creatures.
+- S3 formalizes Mothmen into the Arcanian cryptid ecology, including fear-based lair mechanics and a discoverable smoke countermeasure.
+
+S3 source:
+- `RoanokeS3W3 Breakdown`, Drive `1n3zktVsIeTPlXix-gBJf-_4Bg28nag9MbCIZdaLsIAY`.
+
+This earlier material is campaign evidence; passage-level authorship must be checked separately where needed.
+
+### S4 player persistence
+
+Mothman becomes a lingering Umbral Cup mystery rather than a one-session fight.
+
+Players repeatedly:
+- connect it to Violet;
+- research/plan around sleep, disguise and abduction;
+- continue discussing it weeks after initial contact;
+- organize their own group specifically to pursue it.
+
+Examples:
+- `870148206074425515` — player concludes Mothman appears to be taking orders.
+- `877062478708764692` — player summarizes the threat as stealing people and disguising itself as them.
+- `879009206064255016` — player notes that Mothman has stayed distant but has not been forgotten.
+- `879077718489198593` — players ask Brendon to schedule a Mothman group.
+- `879178154919481364` — explicit setup for the Mothman Invitational.
+
+### Encounter intent
+
+After the encounter:
+- `879231795567140874` — Brendon explains that the fight was designed to be frustrating because Mothman is recurring and because he wanted to seed a warlock subclass for the next year. He also cites prior behavior involving player simulacra being used to mislead others.
+
+This is direct evidence that the encounter is serving future continuity, not merely immediate combat satisfaction.
+
+### Player-created aftermath
+
+The encounter produces a Mothman egg rather than a clean extermination ending:
+- `879214774100041768` — players search the Mothman queen's nest.
+- `879223649423466566` / `879234649946222613` — a familiar begins guarding the egg.
+- `879241747719417889` — the group plans to take it west.
+- the egg remains present through multiple later scenes and epilogues.
+- `882808770395254826` — Irynx's epilogue literally carries the Mothman egg out of Empire City.
+
+### Adaptation
+
+A recurring cryptid is allowed to change roles across seasons and, within S4, the aftermath becomes player stewardship rather than a DM-authored reset.
+
+### Reusable judgment candidate
+
+When reusing a successful motif, change its game function. If players adopt responsibility for its aftermath, let them become carriers of the mythology into future play.
+
+**Evidence confidence:** high for S4 sequence; medium-high for cross-season developmental interpretation pending full S2 authorship analysis.  
+**Claim scope:** S4 plus bounded S2/S3 comparison.
+
+---
+
+## BDC-S4-L08 — The stock market turns player attention to fiction into an economic feedback loop
+
+### Prepared promise
+
+The Empire City intro tells players that ArcaniaBot allows investment in the Empire City stock market.
+
+Source:
+- `Empire City Intro Video`, Drive `1qj175xuPOnI0pxnN-4jgY-vGdYGVk_efjbSFqllLd0g`.
+
+Brendon also protects DM control over the economy immediately:
+- `863480114708611102` — “The DMs are in charge of stock market, there is no game stop.”
+
+### Public explanation
+
+The July 19 Empire City Post explicitly teaches players that stock movement is not random and that they should use current events to judge company performance.
+
+Source:
+- `Empire City Post 7-19`, Drive `1NkWDZLWPKY1KbUyUUHbPMheXKT1qJXBjfNuRyCTMLFQ`.
+
+### Documented market/world coupling
+
+The dated Posts show large movements that correspond to campaign events.
+
+Examples:
+- Boompaleis Properties: 105 (7/10) -> 145 (7/16) -> 57 (7/17). The 7/17 Post explicitly states that property values crashed after bombings.
+- Continental Currency: 120 (7/16) -> 109 (7/17) -> 16 (7/19).
+- Crown Arms: 87 (7/10) -> 116 (7/17) -> 178 (7/19) -> 225 (7/21).
+- Empire City Gazette: 148 (7/10) -> 194 (7/17) -> 269 (7/19) -> 298 (7/21) -> 315 (7/23).
+
+The evidence establishes event-linked pricing as an intended system. It does not yet establish the exact price algorithm.
+
+### Player uptake
+
+- `867362129862066176` — a player jokes about watching the market with 188 shares.
+- `868997123570561025` — a character says much of their money is tied up in the market.
+
+### Brendon attention signal
+
+The clearest live loop is two consecutive messages:
+- `869126078491406366` — Brendon tells the DM maintaining the market that he saw many people talking about how much they liked it and thanks them for keeping it going.
+- `869126164055216138` — immediately adds: “problems in the noir should be tanking that stock.”
+
+### Adaptation
+
+Player interest reinforces the system, while ongoing fiction is deliberately fed back into prices.
+
+### Reusable judgment candidate
+
+A side system becomes valuable when understanding the fiction helps players use the system and using the system makes them care more about the fiction. Notice when that loop is working and keep feeding world consequences back into it.
+
+**Evidence confidence:** high for feedback loop; medium for any claim about exact price-setting mechanics.  
+**Claim scope:** S4 persistent-world system case.
+
