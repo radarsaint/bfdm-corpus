@@ -524,6 +524,92 @@ When a prepared idea does not appear in live play, classify the absence where ev
 
 Archive absence and non-delivery must not be converted into a false judgment that the material “did not work.”
 
+## 27. Large-scale operation is designed around incomplete participation and distributed attention
+
+Empire City is not structured as one DM running one enormous party.
+
+### Incomplete participation is intentional
+
+Server rule `850795988486586448` states that the server/game is too large for any one player to consume the full content. It explicitly says a player's voice still matters when they miss things.
+
+This converts “I missed content” from a delivery failure into a normal property of the format.
+
+### Real-time rests regulate FOMO
+
+The same rule says real-time long rests exist partly to force time away from the server.
+
+Rule `850798571888312320` makes the operational purpose explicit: long rests are normally taken when leaving for the day, and the mechanic is intended to keep fear of missing out from displacing real life.
+
+End-of-season player feedback independently praises this mechanic for making the player take breaks.
+
+### Time and geography partition attention
+
+The contemporaneous `Game design workflow` document divides:
+- the city into borough programs;
+- seven weeks into rotating featured boroughs;
+- each day into four six-hour blocks;
+- evenings into main-event windows;
+- other periods into flavor/side play for players who cannot attend the main event.
+
+This lets different players receive meaningful play without requiring universal synchronous attendance.
+
+### Authority is partitioned
+
+- borough DMs own substantial local content;
+- mods handle routine support, combat moderation, and loot;
+- `863330929133355018` establishes a DM-to-mod notes channel so DMs can request support in advance;
+- `863586093709262878` shows Brendon pulling mods into active support for another DM.
+
+### Large combats are decomposed
+
+`864826824692334593` describes a combat-heavy main event built from:
+- multiple signups;
+- six-person groups;
+- a captain choosing each group's turn order;
+- staggered reinforcement;
+- early reinforcement when a group falls below four members.
+
+At the finale:
+- `880249349769154610` — with possible attendance reaching 16, Brendon considers splitting into two groups of eight.
+
+The design response to scale is therefore to create smaller tactical units rather than one unbounded initiative list.
+
+### Bespoke story is throttled
+
+Rule `869331287809335367` explains that Invitationals can be requested by players or DMs but are fulfilled only as time and DM interest allow.
+
+The same message explicitly frames the game as a volunteer production problem and asks players to respect the labor required to create “hours and hours” of content.
+
+Invitationals therefore serve two purposes:
+1. preserve responsiveness to emergent player stories;
+2. bound the amount of bespoke DM labor that responsiveness can consume.
+
+### Repetitive delivery is automated
+
+The S3 Change Log already shows the direction:
+- timed prompt automation;
+- public calendars;
+- moderator-safe breakdowns;
+- Group Checks to resolve large-group tasks quickly.
+
+S4 extends this through bots for scheduled messages, dice/combat support, location lookup, market interaction, and other repetitive server functions.
+
+### Operating principle
+
+> At large scale, distribute routine attention through schedule, geography, roles, automation, and small-group structures; reserve scarce human DM attention for judgment, performance, adaptation, and bespoke follow-through.
+
+### Failure boundary
+
+Distribution does not remove the human bottleneck.
+
+S4 still shows failure when:
+- DM coordination is insufficient;
+- the break/pause disrupts momentum;
+- attendance falls below encounter assumptions;
+- high-interest content such as the Clock Tower competes with finale preparation for the same DM bandwidth.
+
+This operating model should therefore be studied together with the production-failure evidence rather than presented as a solved scaling architecture.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
