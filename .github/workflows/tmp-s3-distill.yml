@@ -38,10 +38,7 @@ jobs:
           PY
 
       - name: Run temporary extractor
-        shell: bash
-        run: |
-          git show origin/analysis/s3-distill:analysis/s3_compare_extract.py > /tmp/s3_compare_extract.py
-          python /tmp/s3_compare_extract.py
+        run: python analysis/s3_compare_extract.py
 
       - name: Package output
         run: tar -czf s3-distill-output.tar.gz analysis-output
