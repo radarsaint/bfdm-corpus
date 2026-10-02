@@ -453,6 +453,77 @@ This is useful negative evidence: an intended world affordance can fail if playe
 
 This is stronger than thematic reskinning because the place's mythology becomes an interface.
 
+## 26. Unused prep has different failure modes
+
+Live absence is not evidence that an idea was bad.
+
+Comparing the Kingsbridge/City schedule to the live Discord reveals several distinct reasons prepared material may not become campaign history.
+
+### Prepared but essentially undelivered
+
+**H. H. Holmes**
+- appears in prep as a murder-inn/noir concept;
+- only one live campaign-window mention was found, and it is a player's joke rather than delivered content.
+
+**Jack the Ripper**
+- appears in the prepared Kingsbridge/City schedule;
+- no live campaign-window mentions were found in this pass.
+
+These cases do not support claims about player rejection. They appear primarily undelivered.
+
+### Readiness mismatch
+
+**King Kong / airship fight**
+- `866777909787623465` — Brendon explicitly cancels the airships-vs-Kong encounter because the group has only one armed ship and he will not be prepared in time.
+- he considers preserving it for a later Invitational when the necessary player resources exist.
+- `878069226605260880` — later lists it among campaign material that never happened.
+
+The idea is not rejected; the current state cannot deliver the intended experience.
+
+### Discoverability failure
+
+**Duckton**
+- has explicit prep and art discussion.
+- `878069226605260880` — Brendon later says no one ever found Duckton or Snark.
+
+Prepared content can remain nonexistent from the player's perspective if nobody discovers the entry point.
+
+### Bandwidth failure despite interest
+
+**Clock Tower**
+- 98 campaign-window messages across 17 authors and 25 channels mention the Clock Tower.
+- players repeatedly express interest.
+- Brendon repeatedly attempts to schedule it and at one point considers delaying the finale to make room:
+  - `879943543500734526`.
+- `880188024623874068` — offers to open the Clock Tower if four or more players assemble.
+- `880210385796497439` — finally states: “i can't run it and prep the last battle at the same time.”
+- after the finale players explicitly note that the Clock Tower was never run.
+
+This is strong evidence that viable, desired content can still be lost to finite DM production capacity.
+
+### Low footprint but remembered demand
+
+**Kellogg**
+- comparatively few live messages;
+- `877810143935467551` — late in the season, a DM reports that players in voice specifically want the Kellogg story resumed.
+
+Activity volume alone therefore cannot measure value.
+
+### Research implication
+
+When a prepared idea does not appear in live play, classify the absence where evidence permits:
+
+- rejected / uninteresting;
+- undiscovered;
+- not yet ready;
+- incompatible with current game state;
+- displaced by higher-priority content;
+- impossible within available DM bandwidth;
+- merely deferred;
+- genuinely abandoned.
+
+Archive absence and non-delivery must not be converted into a false judgment that the material “did not work.”
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
