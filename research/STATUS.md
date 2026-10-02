@@ -22,8 +22,25 @@ The intended next archive step is to store Google/project material in:
 - human-readable form;
 - with source IDs, Drive IDs, timestamps, authorship, provenance, and revision relationships retained.
 
-### Other Discord servers
-Not yet fully harvested into this corpus. Grok is expected to continue server harvesting when available. Do not treat S3 as representative simply because it is currently the richest live-play dataset.
+### Roanoke Season 4 / Empire City Discord
+Available in the private corpus:
+
+`discord/empire-city/empire-city.sqlite`
+
+Verified harvest:
+- server ID: `850779382791536640`;
+- 189,761 messages;
+- 247 text channels;
+- 52 threads;
+- 3,528 / 3,528 attachments;
+- observed server message range: 2021-06-05 through 2026-10-01.
+
+The server README explicitly identifies the campaign as **Season 4, Empire City**.
+
+Do not treat the observed server message range as the campaign live window. The server contains later activity that can outlive the campaign. Brendon's account/user identity inside this server remains unresolved in the identity registry.
+
+### Remaining Discord servers
+Additional game servers still need harvesting. S3 and Empire City now provide two major live/server datasets, but cross-season conclusions should still remain provisional until broader coverage exists.
 
 ## Completed research passes
 
@@ -103,12 +120,11 @@ Do not generalize from it yet. It should enter a broader creative-method researc
 
 ## Next research phases after source coverage improves
 
-1. Finish ingestion/harvest coverage.
-2. Build a campaign/source chronology.
-3. Tag campaign format and scale.
-4. Run comparable research passes across multiple eras.
-5. Search for persistence, evolution, abandonment, and format-specific behavior.
-6. Only then write a broad human-readable synthesis for Kit and Brendon to discuss.
+1. Finish remaining ingestion/harvest coverage.
+2. Refine the now-machine-readable campaign/source chronology as stronger live-date and scale evidence arrives.
+3. Run comparable research passes across multiple eras, including Empire City.
+4. Search for persistence, evolution, abandonment, and format-specific behavior.
+5. Only then write a broad human-readable synthesis for Kit and Brendon to discuss.
 
 S3 should remain a methodology testbed until those comparisons exist.
 
