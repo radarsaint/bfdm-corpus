@@ -42,6 +42,24 @@ Do not treat the observed server message range as the campaign live window. The 
 ### Remaining Discord servers
 Additional game servers still need harvesting. S3 and Empire City now provide two major live/server datasets, but cross-season conclusions should still remain provisional until broader coverage exists.
 
+## Empire City / Season 4 research pass
+
+Direct SQLite analysis is now underway using the harvested Empire City server.
+
+Completed first-pass artifacts:
+- `research/empire-city/README.md`;
+- `research/empire-city/decision-cases-v1.md` — 8 bounded DM decision cases;
+- `research/empire-city/longitudinal-decision-cases-v1.md` — 3 multi-step adaptation/development cases;
+- `research/empire-city/player-feedback-v1.md` — small end-of-season player evaluation sample.
+
+Important corrections/findings:
+- Brendon's S4 Discord identity is now immutable-ID confirmed as user `313689699627696139`, username `bfdm`, display name `DM radar`;
+- `BCS-000003` explicitly establishes July 10, 2021 as Week One / Day One;
+- late-season evidence documents roughly 15 active players including mods, 5–8 players on quests, and Brendon's statement that remaining content had been designed assuming about 30 people would remain;
+- attendance decline caused the DM group to move the finale earlier and immediately informed stated S5 plans to advertise and shorten the season.
+
+These are campaign-specific/developmental findings. Cross-S3 recurrence has been noted as a research lead, not promoted to general doctrine.
+
 ## Completed research passes
 
 ### S3 decision cases v1
