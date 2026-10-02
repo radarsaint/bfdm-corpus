@@ -50,7 +50,7 @@ Avoid duplicating ingestion/runtime work unless a gap blocks research.
    - Preserve existing BCS IDs while migrating/reconciling staged source bodies into canonical `bfdm-corpus`.
    - Use `research/legacy-staging/manifest.all.jsonl` as the ID map; do not reassign from memory.
 
-3. **Complete other Discord harvests**
+3. **Complete remaining Discord harvests**
    - Needed before cross-season behavioral conclusions.
    - Preserve server/channel/thread/message/user/attachment/reaction provenance.
 
@@ -59,15 +59,11 @@ Avoid duplicating ingestion/runtime work unless a gap blocks research.
    - Preserve comments, authorship, document relationships, and dates.
    - Keep raw/human-readable versions in addition to searchable indexes.
 
-5. **Build campaign chronology**
-   - campaign;
-   - dates;
-   - approximate scale;
-   - synchronous/asynchronous;
-   - single/multi-DM;
-   - major source families;
-   - known revisions;
-   - major design experiments.
+5. **Refine the machine-readable campaign registry as coverage improves**
+   - baseline chronology/identity registry is now implemented under `registry/`;
+   - replace UNKNOWN fields only with source-supported dates, scale, format, staff, server, and identity evidence;
+   - keep series-level context separate from project-specific claims;
+   - continue recording major source families, revisions, and design experiments without treating the registry as evidence itself.
 
 6. **Preserve mechanical/worldbuilding lineages**
    - early Arcanian race versions → Almanac → 2020 race edits/final handouts;
