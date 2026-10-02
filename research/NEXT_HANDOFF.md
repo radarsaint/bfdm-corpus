@@ -59,7 +59,7 @@ Important invariants:
 - early Roanoke remains pre-Season-2 / likely Season 1 lineage rather than being silently renamed;
 - Season 5 / Legends retains naming uncertainty;
 - S3 Brendon identity is immutable-account-ID scoped;
-- Empire City / Season 4 is harvested and linked to `roanoke-s4`, but Brendon's account mapping there remains unresolved;
+- Empire City / Season 4 is harvested and linked to `roanoke-s4`; Brendon is now account-ID confirmed there as Discord user `313689699627696139`, username `bfdm`, display name `DM radar`;
 - source anchors are project relationships, not passage-level authorship claims;
 - developmental ordering is chronology, not a quality/importance score.
 
