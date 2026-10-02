@@ -877,6 +877,96 @@ S3 `BDC-S3-L01` provides the strongest explicit case:
 
 Restraint is therefore itself a DM action. It requires identifying who owns the unresolved question.
 
+## 31. Failure diagnosis: compare intended function to delivered behavior
+
+Brendon's contemporaneous self-critique repeatedly defines failure in terms of what a design is *doing to play*, not whether players simply succeeded or failed.
+
+### Participation failure
+
+- `864049384831844362` — “Not letting him play is boring.”
+- `864130435545956362` — being stuck as a ghost is explicitly called boring.
+
+A punitive fictional state loses value when its dominant effect is prolonged exclusion from play.
+
+### Invalid gate
+
+- `867087780365205555` — “The original side quest hook to unlock the backroom wasn't picked up last week, so lets just wave it and grant access. It doesn't make sense to gate keep with out a way to open the gate.”
+
+This is a high-value judgment case.
+
+The access requirement is not protected because it existed in prep. Once the delivery path to satisfying the requirement failed, the gate no longer serves a fair/meaningful function.
+
+Candidate rule:
+
+> If the player missed a requirement because the game failed to provide a viable path to satisfy it, waive or repair the requirement rather than treating the delivery failure as player failure.
+
+### Staging / experiential failure
+
+After the July 16 invasion, Brendon reviews his own delivery:
+- `865737718830858271` — maybe the attack should have started at the outskirts and worked inward.
+- `865737851840757790` — maybe there should have been “some theater before hand” rather than only a blitz.
+- `865726723349151745` — regrets failing to accommodate the sky-pirate possibility because it would have been fun to see.
+
+The postmortem is about pacing, telegraphing, and missing affordances, not merely encounter mathematics.
+
+### Scale mismatch
+
+- `877728873230520370` — “Having 5-8 players a quest has really killed my ability to run the events I have planned.”
+
+The prepared event is diagnosed as invalid when its population assumptions no longer match the live population.
+
+### Operational mistake
+
+- `877729415042322464` — “Not advertizing was a mistake too.”
+
+The failure is explicitly assigned partly to a design/operations choice, then carried into next-season planning.
+
+### Bandwidth failure
+
+- `880210385796497439` — the desired Clock Tower content cannot coexist with preparing the final battle: “i can't run it and prep the last battle at the same time.”
+
+The content has player interest; the failure is resource capacity, not value.
+
+### Production failure should not become player punishment
+
+- `879944308457865256` — considers cutting prepared traps to preserve later RP.
+- `879944609306927184` — “im not going to punish the server for running out of time.”
+
+When staff/schedule capacity is the failing variable, prep scope is expendable before player outcome.
+
+### System loopholes are correctable design mistakes
+
+Server rule `850797149025468506` asks players to report exploitable loopholes so DMs can rectify them.
+
+This establishes that accidental exploitability is not automatically accepted as meaningful emergent play. The designer may distinguish:
+- clever use of a legitimate affordance;
+- accidental loophole produced by a rules mistake.
+
+That distinction matters beside the salience evidence for “interesting use.”
+
+### Cross-season architectural failure
+
+S3 `BDC-S3-L07` remains the strongest architecture-level example:
+- planned four-faction structure collapses into harmful two-sided winner-take-all behavior;
+- Brendon rewrites the finale architecture;
+- dependent mechanics are then audited and removed when their meaning no longer fits.
+
+### Candidate diagnostic loop
+
+> intended function -> observed behavior -> identify mismatch -> locate scope of failure -> change the smallest sufficient layer -> audit dependencies -> observe again
+
+Common mismatch signals in S4 include:
+- boredom/exclusion;
+- impossible or invisible access path;
+- inadequate telegraphing/pacing;
+- wrong population assumptions;
+- wrong social incentives;
+- finite DM bandwidth;
+- staff scheduling failure;
+- accidental rules loopholes.
+
+The important question is not “did the prep execute?” It is “did the prep produce the experience it existed to produce?”
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
