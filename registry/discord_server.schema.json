@@ -9,7 +9,10 @@
     "server_name",
     "project_ids",
     "harvest_status",
-    "limitations"
+    "limitations",
+    "server_slug",
+    "thread_count",
+    "brendon_identity_resolution"
   ],
   "properties": {
     "server_id": {
@@ -96,6 +99,20 @@
       "items": {
         "type": "string"
       }
+    },
+    "server_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "thread_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "brendon_identity_resolution": {
+      "type": "object"
     }
   },
   "additionalProperties": true
