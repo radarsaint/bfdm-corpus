@@ -387,6 +387,72 @@ Still open:
 - missing voice/off-platform evidence;
 - generalization beyond the Roanoke lineage.
 
+## 25. Place mythology becomes behavior
+
+S4's strongest place-building examples do not stop at aesthetic transformation. The fantasy explanation changes what players can do.
+
+### Ferrytown
+
+The collaborative Ferrytown master document establishes Feywild bleeds, name etiquette, cold-iron aversion, bargains, and material consequences.
+
+Live play confirms that these rules alter behavior:
+- `863645652666941501` — players are warned never to give away their full name and to be literal with words.
+- `864812541611212800` / `865513776336994324` — a surrendered name becomes a meaningful cost that can change who the character is.
+- `865141691744518174`–`865156612691066881` — cold iron affects Fey trust and physical interaction.
+- `867892423329710090` — a player changes a crafting plan to remove iron because the Fey material system makes it problematic.
+- `870759667586969640` — Brendon explicitly notes that promises have been made to a Fey.
+- `870907865945235527` onward — Redcoats weaponize pure iron during the Ferrytown assault; the borough's response transforms the iron and changes the fight.
+
+The folklore therefore controls etiquette, identity, crafting, occupation strategy, and combat.
+
+### Hampstead
+
+The Quartering Act is the explicit historical foundation of the borough's occupation logic.
+
+Pre-launch campaign design turns it into:
+- scarce/expensive housing and goods;
+- silver confiscation;
+- curfew;
+- fines/arrest;
+- counterfeit passes.
+
+Live play shows players adapting:
+- disguising themselves as Redcoats after curfew;
+- hiding/depositing silver;
+- being searched;
+- sheltering outside patrol routes;
+- gaining wanted status and changing movement;
+- investigating quartered troops as part of a larger invasion scheme.
+
+Brendon summarizes the historical frame in `863577157653757952`: Hampstead grew around the airship port, but the Redcoats' Quartering Act has burdened the borough.
+
+Later:
+- `878568260063338527` — after the Redcoats lose their foothold, quartering and the silver tax explicitly end.
+
+The historical grievance therefore functions as a temporary player-facing social operating system with an in-fiction endpoint.
+
+### The City
+
+Pre-launch Brendon descriptions establish a dense New York-derived transport/economic infrastructure:
+- `852052402013077525` — canals above the city and Jackalope subway warrens below.
+- `852054550877306881` — Wall and Broadway as the colonies' seats of wealth and entertainment.
+
+Live systems make those places usable:
+- `863359808178618369` — Grand Central bombing closes the subway warrens for three days.
+- `867342985528082463` — Grand Central later grants fast-travel access for Jackalopes.
+- airship ports have mooring rules and physical restraints that can be investigated.
+
+When players underuse the intended mobility:
+- `864574781529915432` — Brendon explains that the docks contain discoverable functionality and says: “These are airships, not air condos.”
+
+This is useful negative evidence: an intended world affordance can fail if players perceive it as scenery or housing rather than an actionable system.
+
+### Candidate place-building rule
+
+> choose a local association -> invent the fantasy reason it works that way -> make players change behavior because the reason is true
+
+This is stronger than thematic reskinning because the place's mythology becomes an interface.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
