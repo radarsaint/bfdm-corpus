@@ -1,24 +1,17 @@
 # Next Handoff
 
-**Status:** conversation rollover checkpoint.
+**Status:** Points 1–3 completed on 2026-10-02.
 
-## Completed in the previous conversation
-
-### Point 1 — retrospective/current-project statements as attributable evidence
+## Point 1 — attributable retrospective/current-project evidence
 Completed.
 
 Key additions:
-- `BCS-000068` — curated verbatim ChatGPT project-conversation excerpt source
+- `BCS-000068`
 - `BCE-000005` through `BCE-000013`
 - `BCR-000005` through `BCR-000013`
-- explicit archive-first directive preserved as `BCE-000013`
+- archive-first directive preserved as `BCE-000013`
 
-### Archive-first invariant
-Hardened across repository governance:
-
-> `bfdm-corpus` is not primarily a training dataset. It is the durable research archive of Brendon's D&D creative history. Kit is one consumer of it.
-
-### Point 2 — Work GPT ingestion contract
+## Point 2 — Work GPT ingestion contract
 Completed.
 
 Binding files:
@@ -29,57 +22,35 @@ Binding files:
 - `ingest/ingest_report.schema.json`
 - `ingest/validate_ingest.py`
 
-The contract requires legacy BCS reconciliation, native-ID deduplication, human-readable source containers, revision/comment preservation, one rebuildable non-Discord SQLite index, validation, and explicit ingest reporting.
+## Point 3 — machine-readable campaign/project and identity registries
+Completed.
 
-## NEXT: Point 3
+Primary files:
+- `registry/projects.jsonl`
+- `registry/series.jsonl`
+- `registry/project_relations.jsonl`
+- `registry/people.jsonl`
+- `registry/identities.jsonl`
+- `registry/discord_servers.jsonl`
+- schemas under `registry/*.schema.json`
+- `registry/validate_registry.py`
 
-Build the **machine-readable campaign/project registry and identity registry**.
+Current counts:
+- 11 projects
+- 1 series
+- 4 canonical people
+- 3 identity assertions
+- 2 harvested Discord servers
 
-The prior diagnosis was:
-
-> The chronology is human-readable, but campaign and identity structure are not yet properly machine-readable.
-
-### Campaign/project registry should capture at minimum
-- stable project/campaign ID
-- canonical name
-- aliases
-- approximate dates
-- exact live window when known
-- format
-- approximate player/concurrency scale
-- synchronous/asynchronous
-- single-DM/multi-DM
-- primary Discord server IDs/slugs
-- Drive/source-family relationships
-- collaborators/staff
-- source coverage status
-- known uncertainties
-- relationship to other campaigns/seasons
-- research-era/developmental ordering
-
-### Identity registry should capture at minimum
-- canonical person ID
-- canonical name
-- platform
-- account/user ID
-- server/project ID
-- username
-- display name / nickname
-- valid date range
-- mapping basis
-- confidence
-- notes
-
-Known confirmed Brendon S3 mapping:
-- Brendon Faulkner
-- Discord user ID `313689699627696139`
-- username `bfdm`
-- display name `DM radar`
-
-Brendon has explicitly stated that his screen names change from season to season and that he is also DM radar. This is preserved as `BCE-000011`.
-
-### Method requirement
-The registries must preserve uncertainty. They must not invent exact dates, player counts, or identity mappings from filenames/nickname resemblance.
+Important invariants:
+- source-activity dates are distinct from live campaign windows;
+- the Roanoke 30–100 concurrent-player retrospective range is series-level only, never a season count without season-specific evidence;
+- early Roanoke remains pre-Season-2 / likely Season 1 lineage rather than being silently renamed Season 1;
+- Season 5 / Legends retains its naming uncertainty;
+- S3 Brendon identity is account-ID scoped;
+- Empire City / Season 4 is harvested and linked to `roanoke-s4`, but Brendon's account mapping there remains unresolved;
+- source anchors are project relationships, not passage-level authorship claims;
+- developmental ordering is chronology, not a quality/importance score.
 
 ## Current working branch
 
@@ -89,3 +60,11 @@ Draft PR:
 - #5 — organized BFDM research/evidence/ingestion governance
 
 Do not merge without deliberate review.
+
+## Next cleanup boundary
+
+No Point 4 was defined in the prior handoff.
+
+Before inventing a new numbered phase, perform a deliberate PR #5 consistency review against the archive-first invariant and current workstream ownership. Do not duplicate Work GPT's Drive ingestion or Grok's remaining Discord harvesting.
+
+The preservation/research backlog remains in `research/HANDOFF_AND_BACKLOG.md`.
