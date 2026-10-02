@@ -668,6 +668,146 @@ This is a useful failure signal: character-driven play still depends on an acces
 
 “Freeplay” is therefore not absence of preparation. It requires preparing **things that keep producing play**.
 
+## 29. Salience signals: what catches Brendon's attention
+
+Rule `869331287809335367` says DMs may “riff and improv on the things that catch our attention.” The live record lets that phrase be decomposed into more specific signals.
+
+### Repeated pursuit
+
+A thread becomes harder to treat as incidental when players repeatedly return to it.
+
+Cross-season examples include:
+- S3 Victor: research, letters, delivery, repeated questions -> Invitational.
+- S4 Mothman: weeks of theories, planning, and renewed requests -> Invitational.
+- S4 Arnold: clue investigation -> proof -> player-authored assassination operation.
+- S4 Kellogg: limited delivery but explicit late player request to resume it.
+
+Repeated attention is therefore evidence of value, not merely noise.
+
+### Theorycrafting and curiosity
+
+`869645913390448671` says plot theorycrafting is “some of the most gratifying things a dm can read.”
+
+This makes player curiosity itself a salience signal. Players do not have to solve the plot correctly for their engagement with its possibilities to matter.
+
+### Unexpected use of an existing affordance
+
+`868377211214893097`:
+- a player asks whether the Speaker for the Dead can use the spirit-world ability to search for the Ravens;
+- Brendon responds: “interesting use.”
+- `868377227279093761`: “I'd allow it.”
+
+The signal is not novelty alone. The player has found a use that follows from an existing fiction/mechanic and generates more play.
+
+### Player interpretation as design material
+
+`870157774259105803`:
+- after Finn theorizes about Franklin, Heore, the Mender, and the Masonic family/Board, Brendon says: “I'm down with riffing off of fin's idea on who the board is.”
+
+He immediately begins assigning additional institutional titles and asks another borough DM whether they have a “mechanic” they would like to riff on (`870160147941572669`).
+
+Player theory can therefore become a scaffold for further worldbuilding when it fits the setting and remains collaborative.
+
+### Strong comic image with consequences
+
+`864668719245688832`:
+- the premise begins with the observation that cats bring dead offerings to people they like;
+- Brendon decides it is funnier if Grimlock brings dead bodies to PCs rather than simply an NPC;
+- he says the image would be “amazing”;
+- the collaborator notices that this also pushes players toward other revivers;
+- Brendon likes the resulting “love me I brought you this new problem” structure.
+
+This is a useful example of humor becoming salient because it simultaneously creates an image, relationship behavior, and a new problem.
+
+### Moral/character contradiction
+
+`864636629871755264` and `864636911448489984`:
+- Brendon names a player-created sequence among his favorite moments;
+- he calls the player's justification a “moral backflip.”
+
+This suggests that interesting character reasoning—especially contradiction, rationalization, or an unexpected ethical position—can be more salient than mechanical novelty.
+
+### Entertaining emergent possibility
+
+The July 16 invasion postmortem is a negative example:
+- `865726723349151745` — Brendon regrets not making room for players to become “awesome sky pirates” because it “would have been really fun to see.”
+
+The possibility clearly catches attention even though the game cannot support the swerve in the moment.
+
+This proves the distinction between salience and feasibility.
+
+### Player responsibility / repair
+
+Ferrytown rebuilding:
+- `865565818481279018` — unplanned rebuilding is recognized as “a healing thing.”
+- `865574816647872523` — Brendon enthusiastically endorses the player's plan to rebuild game booths.
+
+Voluntary responsibility for damage or institutions is especially salient because it produces both character meaning and durable world change.
+
+### DM enjoyment and performance chemistry
+
+Examples:
+- `865374804646166569` — Brendon enjoys Pinkerton and has more he wants to do with the character.
+- `870168845502017586` — “I'm having so much fun with nolan as a lamplighter tho.”
+- `867428791743414283` — after enjoying cross-DM riffing, Brendon explicitly invites other DMs to request crossover content.
+
+Brendon's own enjoyment is part of the selection system. This matters because Invitationals are explicitly gated by DM interest.
+
+### Informed player argument
+
+During Congress:
+- `875575891227463690` — “This debate is fun tho.”
+- `875576039298961418` — “Debating and needing to be knowing things.”
+
+Players engaging deeply enough with lore/history to argue from it creates a rewarding form of play.
+
+### Long-term continuity recognition
+
+`879473894350807060`:
+- Brendon says hearing players describe year-to-year lore growth as the best part of playing multiple seasons nearly made him cry;
+- “I love the fact that the players dig it.”
+- `879474061208588288`: “Moments like that make 4 years of work worth it.”
+
+This is powerful evidence that player recognition of accumulated world history is itself a high-value outcome.
+
+### Two-stage model: salience versus promotion
+
+A useful S4 distinction is:
+
+> **Salience:** Would I enjoy seeing what happens if this continues?  
+> **Feasibility:** Can the current game afford to continue it?
+
+Salient ideas can still be blocked by:
+- insufficient prep/readiness;
+- collaborator ownership;
+- fairness/shared-world constraints;
+- campaign timing;
+- player count;
+- DM bandwidth.
+
+Examples:
+- sky-pirate swerve: highly salient, infeasible in the moment;
+- Clock Tower: high player interest, lost to finale-prep bandwidth;
+- Kellogg: remembered player interest, limited delivery;
+- Ferrytown rebuilding: salient and cheap/compatible enough to promote immediately.
+
+### Candidate attention model
+
+High-salience signals include:
+1. repeated voluntary player attention;
+2. theorycrafting/questions about the world;
+3. unexpected but coherent use of existing mechanics;
+4. player interpretations that create usable worldbuilding;
+5. memorable comic or dramatic images with consequences;
+6. moral/character contradictions;
+7. emergent possibilities Brendon personally wants to witness;
+8. voluntary stewardship/repair;
+9. strong DM performance/riffing enjoyment;
+10. informed engagement with lore/history;
+11. recognition of long-term continuity.
+
+Promotion then requires a separate feasibility check.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
