@@ -46,6 +46,20 @@ Known harvest:
 - 1,421 attachments captured;
 - time window 2020-07-18 through 2020-08-22.
 
+## Roanoke Season 4 / Empire City Discord
+
+`discord/empire-city/empire-city.sqlite`
+
+Known harvest:
+- server ID `850779382791536640`;
+- 189,761 messages;
+- 247 text channels;
+- 52 threads;
+- 3,528 attachments captured;
+- observed message range 2021-06-05 through 2026-10-01.
+
+The server explicitly identifies the campaign as **Season 4, Empire City**. The observed server range is not treated as the campaign live window, and Brendon's account mapping in this server is still unresolved.
+
 ## Google Drive / project corpus
 
 Connected Drive contains a much broader creative record than S3 alone, including:
@@ -79,10 +93,10 @@ The gap is now **repository reconciliation**: ensure the older staged containers
 
 ## Other Discords
 
-The remaining game servers still need harvesting. Until those are present, cross-season conclusions should remain provisional.
+S3 and Empire City / Season 4 are harvested. Remaining game servers still need harvesting. Until broader live coverage is present, cross-season conclusions should remain provisional.
 
 ## Coverage principle
 
 Do not infer importance from what is easiest to search.
 
-S3 currently has far denser live evidence than most other campaigns. Later work—especially Earthfall—may be more representative of Brendon's current practice despite having fewer normalized records at present.
+S3 remains unusually dense and methodologically mature, while Empire City now provides a second large live/server archive. Evidence density still must not be mistaken for importance. Later work—especially Earthfall—may be more representative of Brendon's current practice despite having fewer normalized records at present.
