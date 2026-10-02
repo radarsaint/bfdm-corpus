@@ -32,4 +32,10 @@ Before writing, reconcile existing BCS IDs against both:
 - `evidence/catalog.jsonl`
 - `research/legacy-staging/manifest.all.jsonl`
 
+For the 51-source legacy staging body, use:
+- `reconcile_legacy_staging.py`
+- `../research/legacy-staging/RECONCILIATION_2026-10-02.md`
+
+Do not begin overlapping mass ingestion while those source bodies remain only in the Library staging ZIP.
+
 Do not mint BCE or Kit personality/training conclusions during source ingestion.
