@@ -37,7 +37,7 @@ Verified harvest:
 
 The server README explicitly identifies the campaign as **Season 4, Empire City**.
 
-Do not treat the observed server message range as the campaign live window. The server contains later activity that can outlive the campaign. Brendon's account/user identity inside this server remains unresolved in the identity registry.
+Do not treat the observed server message range as the campaign live window. The server contains later activity that can outlive the campaign. Brendon is account-ID confirmed in this server as Discord user `313689699627696139`, username `bfdm`, display name `DM radar`.
 
 ### Remaining Discord servers
 Additional game servers still need harvesting. S3 and Empire City now provide two major live/server datasets, but cross-season conclusions should still remain provisional until broader coverage exists.
