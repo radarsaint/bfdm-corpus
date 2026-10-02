@@ -64,7 +64,16 @@
       "attachments": "3528/3528",
       "observed_message_window": "2021-06-05T16:53:58.434000Z through 2026-10-01T19:24:27.206000Z",
       "harvest_date": "2026-10-02",
-      "caution": "Observed server message range is not treated as campaign live window."
+      "caution": "Observed server message range is not treated as campaign live window.",
+      "brendon_discord_user_id": "313689699627696139",
+      "brendon_username": "bfdm",
+      "brendon_display_name": "DM radar",
+      "brendon_message_count": 9399,
+      "brendon_observed_message_window": "2021-06-05T16:54:03.917000Z through 2023-07-27T05:17:37.599000Z",
+      "live_start_evidence": {
+        "date": "2021-07-10",
+        "basis": "BCS-000003 / Empire City Backlog Notes explicitly labels July 10 as Week One, Day One."
+      }
     }
   },
   "s3_research": [
@@ -228,10 +237,10 @@
       "series": 1,
       "project_relations": 4,
       "people": 4,
-      "identity_assertions": 3,
+      "identity_assertions": 4,
       "discord_servers": 2
     },
-    "identity_note": "S3 Discord identity is account-ID confirmed and scoped to the S3 server/project. Empire City / Season 4 is harvested and server-linked, but Brendon's account mapping there remains explicitly unresolved until account-level evidence is inspected.",
+    "identity_note": "S3 and Empire City / Season 4 now both resolve Brendon to immutable Discord user ID 313689699627696139 (username bfdm, display name DM radar) within their harvested server scopes.",
     "chronology_note": "Human-readable chronology remains research narrative; machine registry stores canonical names/aliases, source-activity versus live dates, format, scale uncertainty, source relationships, coverage, staff, series context, server links, and developmental ordering.",
     "series": "registry/series.jsonl",
     "series_schema": "registry/series.schema.json",
