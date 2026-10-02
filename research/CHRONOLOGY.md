@@ -112,6 +112,9 @@ Current staging includes only limited/comment-incomplete coverage. This is a fut
 This is an important developmental bridge because it begins almost immediately after S3.
 
 ### Empire City / Season 4
+
+`Empire City Backlog Notes` explicitly labels **July 10, 2021** as **Week One, Day One**, establishing a confirmed live-start boundary. The Discord record later documents the final fight on August 25 and epilogue play afterward; the exact final campaign-close timestamp remains unresolved.
+
 - `Empire City RP Sign Up. (Responses)` — created **2020-08-25**
   - ID `1QZCPt1wXvxA0lX_duCOitv7EIpOb7GZoNeDM6kGNf74`
 - later Empire City planning/posts cluster heavily in 2021.
