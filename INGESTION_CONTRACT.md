@@ -24,6 +24,7 @@ Before writing anything, Work GPT MUST read the current versions of:
 - `INGESTION_CONTRACT.md`
 - `evidence/catalog.jsonl`
 - `research/legacy-staging/manifest.all.jsonl`
+- `research/legacy-staging/RECONCILIATION_2026-10-02.md`
 - `research/IDENTITY_RESOLUTION.md`
 
 Current repository state at contract creation:
@@ -40,6 +41,24 @@ Recommended branch:
 `ingest/drive-project-v1`
 
 Do not ingest directly on `main`.
+
+### Legacy reconciliation prerequisite
+
+Before assigning any new BCS ID or importing material that may overlap the 51-source legacy staging body, run:
+
+```bash
+python ingest/reconcile_legacy_staging.py \
+  --archive /path/to/brendon-corpus-staging.zip \
+  --checksums /path/to/CHECKSUMS.sha256 \
+  --repo-root . \
+  --report research/legacy-staging/reconciliation-report.json
+```
+
+Review the dry-run report.
+
+If it is clean, rerun with `--apply` and commit the resulting source-container directories and final report before or as the first logical commit of the larger Drive/Project ingest.
+
+Point 4 is not complete merely because the 51 BCS IDs appear in `evidence/catalog.jsonl`. The actual source bodies, originals, comments, metadata, and assets must exist in the canonical repository.
 
 ## 2. Scope
 
@@ -578,7 +597,7 @@ Do **not** stop merely because authorship is unknown. Preserve source context an
 This ingestion pass is done when:
 
 1. the selected Drive/Project corpus has been enumerated;
-2. legacy source containers are reconciled rather than duplicated;
+2. legacy BCS-000017 through BCS-000067 source bodies are reconciled into the canonical repository rather than merely indexed or duplicated;
 3. each ingested source has stable BCS identity and provenance;
 4. human-readable source containers exist;
 5. comments and revision history have explicit capture status;
