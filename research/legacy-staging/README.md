@@ -62,3 +62,21 @@ Future source-ID assignments should use the manifest rather than memory.
 ## Preserved metadata
 
 [manifest.all.jsonl](manifest.all.jsonl) is copied here exactly as metadata from the legacy staging body. Raw source bodies remain in the staging archive / source-ingestion workflow and should not be duplicated into the research layer.
+
+
+## Reconciliation audit — 2026-10-02
+
+See:
+
+- `RECONCILIATION_2026-10-02.md`
+- `../../ingest/reconcile_legacy_staging.py`
+
+Audit result:
+- all 51 legacy IDs are present in `evidence/catalog.jsonl`;
+- 51/51 source bodies are still absent from canonical `sources/` / `context/`;
+- 284 source-container files remain to be transferred;
+- the archive SHA-256 is `cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a`.
+
+The migration script was tested against the real archive for clean dry-run, apply, idempotence, and conflict refusal.
+
+The current ChatGPT GitHub connector cannot directly transport the roughly 86 MB of binary DOCX/XLSX/image content from a Library file reference. This is an execution limitation, not a reason to weaken the definition of reconciliation.
