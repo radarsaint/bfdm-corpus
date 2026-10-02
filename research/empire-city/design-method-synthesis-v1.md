@@ -211,6 +211,182 @@ Pattern:
 
 Test against S1/S2, S3, S5, Bastion/Redoubt, At War's End, Earthfall, and non-Roanoke experiments.
 
+## 14. Player authority is negotiated and local
+
+S4 repeatedly grants durable player authority after engagement with the shared fiction:
+- reclaimable locations and the Umbral Cup;
+- rebuilding destroyed Ferrytown spaces;
+- Continental Congress decisions;
+- Lamplighter ranks and institutional offices;
+- Nolan Reeve becoming Director.
+
+Boundaries remain around central shared NPCs, deliberately designed vulnerabilities, privileges that cannot scale fairly, collaborator-owned material, and private claims on shared campaign history.
+
+Working model:
+
+> establish shared constraints -> let players act inside them -> promote viable consequences into durable world state -> protect only the pieces whose private ownership would damage the shared game
+
+## 15. Rewards increase jurisdiction, not only power
+
+Empire City rewards include loot, but also:
+- information;
+- secret functionality;
+- access to locations;
+- faction/institution ranks;
+- titles with actual duties;
+- authority to grant ranks to others;
+- new regions/encounters;
+- durable civic or organizational power.
+
+Examples include the Speaker for the Dead role and Lamplighter rank/armory progression.
+
+Candidate principle:
+
+> Reward sustained investment by increasing what the player is allowed to know, access, decide, or change.
+
+## 16. Challenge has a purpose
+
+Direct S4 evidence distinguishes several challenge functions:
+- ordinary encounters should be winnable;
+- explicitly advertised high-risk/high-reward content can be much harsher;
+- deadly-rated encounters can reward smart play without producing deaths;
+- some encounters are ethical lose-lose choices rather than tactical victory tests;
+- all-or-nothing scenarios can gate permanent death behind total failure;
+- recurring villains can use intentionally frustrating encounter structures.
+
+Message `865722271108431873` states the intended emotional target of the Redcoat encounters: make characters hate the Redcoats, not make players hate the DMs.
+
+End-of-season player feedback remains an important counter-signal: some players reported overtuned combat and frequent deaths.
+
+Candidate principle:
+
+> Decide what a challenge is supposed to make players feel, decide, or learn; tune lethality to that job and verify the delivered experience afterward.
+
+## 17. Authored spine and player field
+
+Server rule `850797836022972427` defines S4 as 75% freeplay/character-driven and 25% DM-authored story.
+
+The July 16 postmortem makes the production reason explicit:
+- some linear rails are necessary to deliver a story prepared over a year (`865744435732283392`);
+- this format cannot swerve like a small home game (`865745512719974410`);
+- nevertheless, Brendon regrets a moment when players were not allowed to become “awesome sky pirates” because that direction would have been fun (`865726723349151745`).
+
+This is not unrestricted player authorship. It is a designed negotiation between a campaign spine and a broad field of player-driven play.
+
+## 18. Source material is accumulated before it is needed
+
+Message `875528344018513930` gives unusually direct evidence for Brendon's research reservoir: hyperfocus, learn deeply, leave the knowledge dormant, then retrieve small details years later when building a D&D world.
+
+This supports a two-stage creative process:
+1. accumulate specific historical/folkloric knowledge;
+2. later recognize clusters of facts that become useful together under a campaign premise.
+
+Targeted research still fills gaps during development, but many seeds appear to come from long-retained knowledge rather than just-in-time searching.
+
+## 19. Lore discovery is an activity
+
+The Public Library explicitly defines research as a way to ask a DM for lore or clues (`870750141546627083`).
+
+S4 uses layered information access:
+- public information through announcements, newspaper, radio, rumor;
+- discoverable information through Investigation/History, research institutions, and clue chains;
+- privileged information through faction access, ranks, hidden rooms, attunement, and office-specific records.
+
+Candidate principle:
+
+> Expose enough to create a question; make deeper answers available through places, people, and mechanics that players can actively use.
+
+## 20. Mythic etiology in Empire City
+
+Contemporaneous live lore confirms the current retrospective explanation for the city's name. On July 11 Brendon says Washington called the city “the seat of the empire,” giving Empire City its modern name (`863576520110374923`).
+
+Pre-launch Brendon-authored city descriptions also transform local New York anchors into secret fantasy causes:
+- New Amsterdam -> New Ampsterhold, a Dutch-dwarven settlement;
+- Manhattan remains “The City”;
+- Wall and Broadway are major civic boulevards of wealth and entertainment;
+- subway infrastructure becomes Jackalope warrens;
+- a leyline convergence beneath Manhattan explains the city's magical, engineering, and economic dominance;
+- Kingsbridge/Noir becomes a metaphysical eastern defensive frontier.
+
+This supports a place-building method better described as **mythic etiology**:
+
+> take something recognizable about a place and invent the hidden supernatural reason it is true.
+
+## 21. Identity was structurally present before it was explicitly named
+
+No surviving Brendon message from June 5–July 9 found in this pass literally calls identity the season theme.
+
+However, pre-launch Kingsbridge material already centers:
+- Huginn and Muninn as Thought and Memory;
+- living magic embodying how what people think/do becomes who they are (`852082291760562207`);
+- reincarnation through sacrifice (`852147948295815168`);
+- Shadowborn arising from meaningful objects of the dead (`852150426627473428`);
+- surrendering unwanted memories/thoughts;
+- a private note to build monsters from surrendered memories (`861177705780477973`).
+
+The explicit “identity is this year's theme” statement therefore appears to name a structure already present in the design.
+
+## 22. Intervention levels
+
+S3/S4 evidence supports separating adaptation by scope:
+
+| Level | Core question | Examples |
+|---|---|---|
+| Scene | Is delivery working now? | tempo, telegraphing, rebalance, encounter substitution |
+| Thread | Has this idea earned more story? | Victor, rebuilding, Kellogg, Pinkerton, Arnold |
+| System | Is repeated behavior worth formalizing? | Invitationals, cryptid research, ranks/access |
+| Architecture | Is the campaign structure producing the intended game? | S3 faction rewrite, S4 attendance/finale restructure |
+
+Working loop:
+
+> notice signal -> identify intended experience -> locate the level -> change the smallest sufficient level -> preserve the useful core -> update dependencies -> observe result -> formalize repeated success
+
+Sometimes the correct intervention is less authorship, as in S3 when Brendon explicitly stops steering the Victor conflict after providing access and adjudication.
+
+## 23. Narrow developmental lead: S2 -> S3 -> S4
+
+Targeted source comparison suggests a progression worth broader testing:
+
+- **S2:** mythic/cryptid ingredients often appear as event material and live improvisation.
+- **S3:** recurring ingredients become taxonomies, factions, research/progression systems, repeatable structures, and explicit large-scale scheduling machinery.
+- **S4:** those systems become modular, distributed across boroughs/DMs, and tied more explicitly to social/thematic mechanics.
+
+Mothman is a compact example:
+- S2: clue/threat/main-event material;
+- S3: formal cryptid-hunt ecology with lair mechanics and discoverable counterplay;
+- S4: recurring urban antagonist, identity-disruption tool, and future subclass seed.
+
+This is a developmental hypothesis, not a complete S2/S3/S4 verdict.
+
+## 24. Evidence boundaries still open
+
+Directly supported:
+- 75/25 structure;
+- attention/Invitational rule;
+- identity/social intent;
+- scaling/FOMO rules;
+- distributed DM ownership;
+- history-memory reservoir statement;
+- attendance/finale learning chain;
+- the bounded live decision cases.
+
+Strong inference:
+- semantic density;
+- recognizable-hook preservation;
+- rewards as increased jurisdiction;
+- recovery over reset;
+- shared pressure as cohesion mechanism;
+- encounter -> system -> institution as a maturation path.
+
+Still open:
+- exact pre-launch origin date of the seat-of-empire naming idea;
+- passage-level authorship in collaborative borough documents;
+- exact causality behind every borough genre assignment;
+- stock-market algorithm;
+- deliberate rejection versus simple non-delivery of prepared historical references;
+- missing voice/off-platform evidence;
+- generalization beyond the Roanoke lineage.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
