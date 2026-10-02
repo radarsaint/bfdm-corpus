@@ -610,6 +610,64 @@ S4 still shows failure when:
 
 This operating model should therefore be studied together with the production-failure evidence rather than presented as a solved scaling architecture.
 
+## 28. Freeplay requires an actionable world, not an empty sandbox
+
+Rule `850797836022972427` calls the campaign 75% freeplay/character-driven and 25% DM-authored story.
+
+The live architecture shows what makes that possible.
+
+### Persistent affordances
+
+Players can generate activity through systems and places that remain usable without a bespoke DM scene:
+- businesses, bars, shops, and player-facing services;
+- airships/homes;
+- crafting and learned proficiencies;
+- stock trading;
+- research/library access;
+- faction offices and ranks;
+- transport infrastructure;
+- repeatable games;
+- persistent NPC locations;
+- local mysteries and unfinished consequences.
+
+These surfaces give player-to-player roleplay something concrete to act on.
+
+### Routine questions are pushed away from scarce DM attention
+
+`850793349702221845` defines moderator responsibilities including:
+- basic 5e questions;
+- crafting questions or redirection;
+- where to find things.
+
+This reduces the number of ordinary interactions that require a DM.
+
+### DM attention enters selectively
+
+The freeplay system connects directly to the Invitational rule:
+- players can create threads through ordinary interaction;
+- DMs “riff and improv on the things that catch our attention”;
+- bespoke follow-through is gated by time and DM interest.
+
+This produces an attention ladder:
+
+> persistent world affordance -> player-generated activity -> salient thread -> DM adjudication/promotion -> Invitational or durable consequence
+
+### The break demonstrates the dependency
+
+During the intermission, large parts of the IC world were frozen:
+- `873356284462768198` — Kingsbridge and most of The City placed on pause;
+- other boroughs were also restricted.
+
+End-of-season feedback reports that players felt unable to organize their own events during the extended break and specifically mentions activities such as a shooting competition, crafting, or skill learning.
+
+This is a useful failure signal: character-driven play still depends on an accessible interaction surface.
+
+### Candidate operating principle
+
+> Build enough persistent places, rules, services, projects, and social roles that players can make meaningful moves without asking a DM to invent a scene. Reserve DM attention for judgment, performance, consequences, and promotion of the threads that prove interesting.
+
+“Freeplay” is therefore not absence of preparation. It requires preparing **things that keep producing play**.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
