@@ -14,11 +14,12 @@
     "preplay_time": "2020-06-25T20:51:35.433Z"
   },
   "w2": {
-    "bcs": null,
+    "bcs": "BCS-000029",
     "drive_id": "1mOf7n_EdlJjumVKjmx3Rf7Szt5irSklrD5Yhm6D9-t0",
     "preplay_revision": "13208",
     "preplay_time": "2020-06-25T21:12:06.702Z",
-    "corpus_gap": true
+    "corpus_gap": false,
+    "repository_status": "legacy_staging_reconciliation_pending"
   },
   "w3": {
     "bcs": "BCS-000052",
@@ -27,11 +28,12 @@
     "preplay_time": "2020-06-16T03:08:09.725Z"
   },
   "w4": {
-    "bcs": null,
+    "bcs": "BCS-000037",
     "drive_id": "1hGA7_6N3PJZ5RTu-Kvmqy5hJ2PoS55OMVfdD4kFPw7U",
     "preplay_revision": "5631",
     "preplay_time": "2020-07-13T19:28:29.198Z",
-    "corpus_gap": true
+    "corpus_gap": false,
+    "repository_status": "legacy_staging_reconciliation_pending"
   },
   "w5": {
     "bcs": "BCS-000053",
