@@ -52,6 +52,7 @@ Brendon's message IDs and timestamps are retained so each interpretation can be 
 - `decision-cases-v1.md` — bounded local decision cases.
 - `longitudinal-decision-cases-v1.md` — decisions whose consequences unfold across multiple days or into later campaign design.
 - `../creative-method/historical-mythologization-v1.md` — cross-season analysis of how historical details, local mythology, secret societies/institutions, and cryptids are selected and transformed into playable structures; Empire City is a primary comparison case.
+- `source-fragment-map-v1.md` — S4 map from historical/folkloric source fragments to fictional transformations, table functions, and live evidence.
 
 ## Design-method scope
 
