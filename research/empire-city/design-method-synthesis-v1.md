@@ -967,6 +967,86 @@ Common mismatch signals in S4 include:
 
 The important question is not “did the prep execute?” It is “did the prep produce the experience it existed to produce?”
 
+## 32. Reward design: reinforce the kinds of play worth repeating
+
+S4 rewards are not limited to loot or combat power. They frequently reinforce participation, characterization, responsibility, discovery, and contribution.
+
+### Participation and leadership -> status
+
+`865069916352151553`:
+- participants in the battle earn the rank of Private;
+- team captains earn Specialist;
+- the ranks may be refused: “This is an offer, not a conscription.”
+
+The reward recognizes contribution but does not force a new character identity onto the recipient.
+
+### Committed characterization -> Inspiration
+
+`869377974607171614`:
+- after Irynx individually greets all of her leeches because “they deserve a greeting,” Brendon awards “Inspiration for loving your leeches.”
+
+`869308734634090536`:
+- a PC explains a personal/world-connected reason for joining the leyline mission using the phrase “my own jackalope in the race”;
+- Brendon immediately awards Inspiration.
+
+These are direct examples of rewarding roleplay that adds character specificity or ties a character's motive into the world.
+
+### Setup labor -> shared reward
+
+`876331691952713748`:
+- a player who helped establish an Invitational cannot attend the payoff because of real-life commitments;
+- Brendon says they will “share in the reward for going through the set up.”
+
+The reward recognizes contribution to making the scene possible, not only presence at the final encounter.
+
+### Voluntary exceptional risk -> exceptional reward
+
+`878047549762719815`:
+- the Clock Tower is advertised as a “high risk high reward trap gauntlet.”
+
+This is consistent with the broader challenge model: exceptional risk is signposted and opt-in.
+
+### Institutional responsibility -> jurisdiction
+
+Nolan/Lamplighter progression (`BDC-S4-L09`) turns sustained role performance into:
+- rank;
+- access;
+- authority to grant ranks to others;
+- eventual directorship.
+
+The reward increases the player's ability to affect the shared fiction.
+
+### Discovery/progress -> new affordances
+
+Examples:
+- `870510180692000820` — Grootslang is “unlocked for combat” after prior zoo events.
+- `876332985358618634` — Raven feather grants travel to New Jersey.
+- `876644884625387581` — more Lamplighter weapons may unlock as players venture farther into the Noir.
+- library/research progression grants information/spell access.
+
+These rewards create more possible actions.
+
+### Campaign completion -> player choice
+
+`880333369328681051`:
+- after the finale, everyone is granted one very rare item of their choice.
+
+### Reward interface is also subject to usability
+
+After loot division takes nearly as long as combat:
+- `868713722644938822` — Brendon says he will try individual loot more often.
+- `868713755125637161` — because it may “save everyone a headache.”
+
+The underlying reward can remain while its delivery is simplified if administration is harming pacing.
+
+### Candidate reward rule
+
+> Reward the behaviors you want to become part of the campaign culture. Prefer rewards that create access, responsibility, information, status, or new actions when those fit the behavior being recognized.
+
+A second useful rule:
+
+> Reward contribution to the story/process, not only tactical victory.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
