@@ -91,14 +91,12 @@ Do not mark Point 4 complete until a final dry-run against the canonical checkou
 ## Point 5 — deliberate review and integration of PR #5
 **Status: OPEN.**
 
-Current live PR state as of 2026-10-02:
-- PR #5 is open;
-- draft;
-- mergeable;
-- head branch `research/organize-current-work-v1`;
-- current head SHA `9a67c62a58a523c1c45c1f324fe73ebcf5c71b34`;
-- 27 commits;
-- 110 changed files.
+Durable PR state:
+- PR #5 is the integration PR for this research workspace;
+- head branch: `research/organize-current-work-v1`;
+- it must remain unmerged until deliberate review.
+
+Do not store head SHA, commit count, or changed-file count here: committing this handoff changes those values. Query PR #5 live when beginning Point 5.
 
 Do not blindly merge.
 
