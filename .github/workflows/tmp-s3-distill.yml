@@ -40,12 +40,21 @@ jobs:
       - name: Run temporary extractor
         run: python analysis/s3_compare_extract.py
 
-      - name: Package output
-        run: tar -czf s3-distill-output.tar.gz analysis-output
+      - name: Package output and database
+        run: |
+          tar -czf s3-distill-output.tar.gz analysis-output
+          tar -czf roanoke-s3-db.tar.gz discord/roanoke-season-3/roanoke-season-3.sqlite
 
-      - name: Upload artifact
+      - name: Upload analysis artifact
         uses: actions/upload-artifact@v4
         with:
           name: s3-distill-output
           path: s3-distill-output.tar.gz
           retention-days: 7
+
+      - name: Upload private SQLite artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: roanoke-s3-db
+          path: roanoke-s3-db.tar.gz
+          retention-days: 1
