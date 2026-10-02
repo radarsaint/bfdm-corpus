@@ -108,16 +108,21 @@ That is enough to establish the alias relationship for research.
 For each specific server harvest, still preserve the actual account/user ID and historical display name present in that server.
 
 
-## Current unresolved seasonal mapping
+## Roanoke Season 4 / Empire City mapping
 
-Roanoke Season 4 / Empire City now has a harvested Discord server:
+The harvested Empire City server resolves Brendon directly:
 
 - server ID: `850779382791536640`
-- server label: `Empire City.`
-- campaign label in harvest README: `Season 4, Empire City`
+- campaign label: `Season 4, Empire City`
+- Discord user ID: `313689699627696139`
+- username: `bfdm`
+- display name: `DM radar`
+- attributed messages in the harvest: 9,399
+- observed Brendon-message range: 2021-06-05T16:54:03.917000Z through 2023-07-27T05:17:37.599000Z
 
-Brendon's account/user ID inside that server has **not yet been resolved in this registry**.
+This is the same immutable Discord account ID confirmed in the S3 harvest. The S4 mapping is therefore account-level evidence, not nickname inference.
 
-Do not copy the S3 Discord account mapping into Season 4 merely because Brendon used `DM radar` in S3 or has confirmed that alias generally.
+Machine assertion:
+`identity:brendon:discord:313689699627696139:empire-city`
 
-The Season 4 identity should be added only after inspecting that server's users/messages or receiving direct account-level confirmation.
+This does not imply the same account must be assumed for uninspected seasons; each server should still be resolved from its own account-level evidence.
