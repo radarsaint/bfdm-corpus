@@ -96,9 +96,9 @@ Current live PR state as of 2026-10-02:
 - draft;
 - mergeable;
 - head branch `research/organize-current-work-v1`;
-- current head SHA `8a5ff8d32f9558a4e3c9b583f588f070cdd996b3`;
-- 16 commits;
-- 107 changed files.
+- current head SHA `9a67c62a58a523c1c45c1f324fe73ebcf5c71b34`;
+- 27 commits;
+- 110 changed files.
 
 Do not blindly merge.
 
