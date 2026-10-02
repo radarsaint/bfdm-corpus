@@ -19,11 +19,13 @@ A timestamp is not a motive. A document edited during a session is not automatic
 |---|---|---|
 | Rough Draft (BCS-000045) | Available content revisions end Apr 18 | Aggregate baseline; contains stale/contradictory material |
 | W1 (BCS-000048) | Rev 23476, Jun 25 | Eight live revisions Jul 18–28; mostly maintenance/copy/clarification |
-| W2 (Drive; corpus gap) | Rev 13208, Jun 25 | Jul 30 rev 13522 adds substantive hard-mode branch |
+| W2 (BCS-000029; legacy staging) | Rev 13208, Jun 25 | Jul 30 rev 13522 adds substantive hard-mode branch |
 | W3 (BCS-000052) | Rev 16605, Jun 16 | Ten live revisions Aug 1–7; mostly local role/NPC/delivery edits |
-| W4 (Drive; corpus gap) | Rev 5631, Jul 13 | One live revision; no paragraph-text delta detected |
+| W4 (BCS-000037; legacy staging) | Rev 5631, Jul 13 | One live revision; no paragraph-text delta detected |
 | W5 (BCS-000053) | Rev 1572, May 18 | No available live content revisions; Invitationals/open blocks were preplanned |
 | Change Log (BCS-000046) | Apr–Jun process record | Explains why multiple prep revisions happened |
+
+**Reconciliation note (2026-10-01):** The legacy staging manifest later confirmed that W2 and W4 already had normalized BCS source containers. Their source bodies still need reconciliation into the canonical repository layout, but they are not missing BCS records.
 
 ## Source-of-truth rule
 
