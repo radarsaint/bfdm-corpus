@@ -529,3 +529,186 @@ A side system becomes valuable when understanding the fiction helps players use 
 **Evidence confidence:** high for feedback loop; medium for any claim about exact price-setting mechanics.  
 **Claim scope:** S4 persistent-world system case.
 
+---
+
+## BDC-S4-L09 — Nolan earns institutional authority by repeatedly performing the role
+
+### Initial institution
+
+The Lamplighters begin as established setting infrastructure.
+
+Brendon describes them as the rear guard protecting Kingsbridge/Empire City:
+- `860500862757634049` — their scouting range marks the far edge of possible Redcoat incursions.
+- `863556839429242880` — they are the Minutemen's rear guard in Kingsbridge.
+
+### Crisis and vacancy
+
+During the July 15 invasion, staff instructions explicitly target the Lamplighters:
+- `865372176046358548`, `865392166250872843`.
+
+Afterward:
+- `866017965971472454` — the Lamplighter building has “pulled itself together,” followed by the question of who will fill the task and guard Empire from what lies beyond the light.
+
+### Player uptake
+
+Nolan Reeve repeatedly follows the Kingsbridge hooks.
+
+Early institutional recognition:
+- `866087257789956126` — an office appears labeled “LL Sgt. Reeve.”
+- `866088980319567902` — Nolan learns that the Lamplighters' actual purpose is the rear defense of Empire City and that the lamps must remain lit.
+
+The Home Office starts treating Nolan as the surviving institutional center:
+- `867844474666221608` — the Director position is vacant and Nolan is the highest-ranking officer.
+
+Brendon's meta-commentary confirms the relationship:
+- `868862209709735996` — “It **is** nolan's story.”
+- `868862209709735996` / `868862...` sequence plus `868862209709735996` context — Brendon explains that Nolan has been willing to take Kingsbridge hooks and that the current dark middle act is intentional.
+- `870168845502017586` — “I'm having so much fun with nolan as a lamplighter tho.”
+
+### Deliberate promotion path
+
+By July 29 Brendon states the intended institutional trajectory in DM chat:
+- `870161255346888754` — “the plan is to eventually have them elect nolan as director.”
+- `870163731059978241` — collaborators are invited to test Nolan for “good guy characteristics.”
+
+The promotion is therefore not automatic. It is an evaluative arc conducted through play.
+
+### Increasing jurisdiction
+
+- `876643512744017960` — Nolan is voted Lieutenant.
+- `877030776946954261` — Lieutenant Reeve can grant Lamplighter ranks; rank grants armory/attunement access.
+- `877032207204642846` — official Lamplighters receive their own desks/nameplates.
+
+Authority becomes a player-facing mechanic: Nolan can now change other players' relationship to the institution.
+
+### End state
+
+- `880372134663299103` — Nolan's plaque becomes gold and reads “Director Reeve.”
+- `880630418364313620` — Brendon tells the player that, as Director, they are effectively the beginnings of both the CIA and FBI.
+- `880648538911031306` — the Board's vote is made explicit in fiction.
+
+### Signal Brendon noticed
+
+The player consistently took the Kingsbridge hooks, treated the institution as meaningful, and kept performing its responsibilities.
+
+### Adaptation
+
+Convert recurring participation into rank, then convert rank into real authority over access, other members, information, and future history.
+
+### Reusable judgment candidate
+
+Do not treat titles as static rewards. If a player repeatedly performs an institutional function, let the world increasingly recognize that function until responsibility and jurisdiction become mechanically real.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 institutional-progression case.
+
+---
+
+## BDC-S4-L10 — Speaker for the Dead turns a campaign-level problem into a player job
+
+### Problem in live play
+
+By Week 2, repeated death/resurrection had become mechanically routine enough to threaten the intended meaning of death.
+
+Brendon makes the diagnosis inside the fiction:
+- `867337882074480660` — the cycle of death and rebirth is straining Empire City's souls; death has become “a mechanical rush to the nearest holy place” without last rites, reflection, or words marking a life.
+
+### Intervention
+
+Instead of only changing the resurrection rules, the Ravens create a **player office**:
+- the character is named Speaker for the Dead;
+- once per week they can gain the spirit tag and interact with dead players;
+- they are instructed to honor the dead, help them reflect, and guide wiser decisions after death.
+
+The character also receives a usable moniker:
+- `867338353170448394` — the former Nameless may answer to “Speaker for the Dead.”
+
+### Player adoption
+
+The player immediately uses the title as identity:
+- `867341748288094208` — explicitly expresses delight in the title.
+- `867346903037247488` — seeks out the new function.
+- `868344749835296768` — offers to act as a medium for other player drama.
+- `868360009896038421` / `868360645404397618` — arrives to offer services for the deceased and performs a somber ritual.
+- `869106156545667102` — actively looks for a tarot deck to become better at the role.
+
+### Function is later tested
+
+When the player invokes the title to ask for greater supernatural consideration:
+- `870157021616439356` — Brendon, through the spirit-world figure, asks how the Speaker has actually used the power and states: “A title is words until you fill its function.”
+
+The title therefore creates an obligation, not only status.
+
+### Long-term identity
+
+The role persists into the epilogue and expands:
+- `883291169667289109` — the Speaker accepts an eventual afterlife obligation to tend unwanted dead.
+
+The campaign-generated office has become part of the character's long-term identity.
+
+### Signal Brendon noticed
+
+The game was producing too much death as logistics and too little death as story.
+
+### Adaptation
+
+Create a player-facing office whose mechanic, social expectation, and title all make someone responsible for restoring meaning to the neglected part of play.
+
+### Reusable judgment candidate
+
+When a repeated system starts flattening an important experience, consider assigning a player meaningful responsibility for the missing human/social function rather than solving everything through a rules patch.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 identity/status-system case.
+
+---
+
+## BDC-S4-L11 — Resurrection mechanics operationalize the season's identity theme
+
+### Pre-launch structure
+
+Identity-related metaphysics are present before the campaign opens.
+
+June 9:
+- `852080246723444736` — Huginn and Muninn are Thought and Memory, presiding over the Noir.
+- `852082291760562207` — the Noir's living magic embodies “the essence by which the things we think and do become who we are.”
+- `852147948295815168` — reincarnation has an explicit fixed cost: “One life for another.”
+- `852150426627473428` — Shadowborn arise from precious objects left by the dead; the more meaningful the object, the more developed the resulting being.
+
+This supports identity/selfhood as a structural concern before launch even though the surviving pre-launch record found in this pass does not literally label “identity” as the season theme.
+
+### Live bodily change
+
+The system produces concrete transformations:
+- `865205537745141761` — Bo remains Bo but returns as a changeling.
+- `865205914658406421` — Old Bones is restored in a new high-elf body.
+
+The fiction therefore makes the question unavoidable: continuity of character despite discontinuity of body.
+
+### Direct authorial interpretation
+
+On July 15 Brendon states the intended concern plainly:
+- `865186821951324222` — “Holding on to your story over the mechanics of your body. Thats what is interesting to me.”
+- `865186951275610132` — D&D is framed as improv storytelling rather than a warfare simulator.
+- `865187551291506689` — Brendon calls his resurrection route merciful because race may change but another person gives their life; he says this strengthens bonds.
+- `865189260877758485` — “the social aspect of this system is the point of what I write”; S4 is contrasted with S3 and framed around learning not to trade away who one is.
+
+### Public reflection
+
+The next level-up announcement makes the thematic question explicit to all players:
+- `865906613955854346` — asks what identity means after bodily change, what was superficial, and whether friends treat the changed person differently.
+
+Later Brendon explicitly names the season theme:
+- `867604855710285846` — “identity is this year's theme.”
+
+### Adaptation
+
+The resurrection system does not merely restore access to play. It creates bodily change, sacrifice, social obligation, and reflection, then asks players to interpret those consequences in character.
+
+### Reusable judgment candidate
+
+If a campaign has an abstract theme, build recurring choices and consequences that make players experience that theme through things they value. Then leave room for them to decide what the change means.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 thematic-system case.
+
