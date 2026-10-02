@@ -111,6 +111,14 @@ This may be evidence about how Brendon experiments with the **boundary and physi
 
 Do not generalize from it yet. It should enter a broader creative-method research pass after more of the archive is normalized.
 
+## Numbered cleanup state
+
+- Points 1–3 are complete: attributable retrospective evidence, the Work GPT ingestion contract, and machine-readable project/identity registries.
+- Point 4 is next: reconcile the full 51-source legacy staging body into canonical `bfdm-corpus` while preserving BCS IDs.
+- Point 5 remains open: deliberate review/integration of draft PR #5.
+- Point 6 remains open: recover the complete later Area 6c human-test transcript.
+- Point 7 is complete and governing: archive-first corpus preservation; Kit is one consumer.
+
 ## Current constraints / handoff state
 
 - Work GPT is expected to resume Google/project-file ingestion.
