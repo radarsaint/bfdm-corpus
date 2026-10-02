@@ -125,3 +125,33 @@ These excerpts support different kinds of evidence and must not be flattened tog
 
 > bfdm-corpus is not primarily a training dataset. It is the durable research archive of your D&D creative history. Kit is one consumer of it.
 
+---
+
+## Q-20261002-HISTORICAL-MYTH-A
+
+**Date:** 2026-10-02  
+**Timestamp note:** exact native message timestamp is not exposed to the current connector for this active turn.  
+**Use:** retrospective self-report / creative method
+
+> The foundation is bits of history. Taking some inspiration for things like neverwhere by Neil gaimen. Personified and mythologies based in small facts and details. Roanoke was based on Roanoke because a lost colony is a historic mystery. Empire city is empire city because of a legendary quote about it "being the seat of the empire" which is also where the empire state building and new york's irl mythologies come in.
+
+## Q-20261002-HISTORICAL-MYTH-B
+
+**Date:** 2026-10-02  
+**Timestamp note:** exact native message timestamp is not exposed to the current connector for this active turn.  
+**Use:** retrospective self-report / creative method
+
+> Same with my secret societies. The golden dawn, the masons in s3 , even the Pinkertons in s4
+
+## Q-20261002-HISTORICAL-MYTH-C
+
+**Date:** 2026-10-02  
+**Timestamp note:** exact native message timestamp is not exposed to the current connector for this active turn.  
+**Use:** retrospective self-report / creative method
+
+> Add to that cryptids.
+
+### Interpretation boundary for these additions
+
+These statements are direct evidence of Brendon's present-day account of his source-selection and mythologization method. They support *Neverwhere* as a stated influence, historical mysteries/details as source material, and secret societies/institutions/cryptids as recurring input families. They do not by themselves establish the exact historical origin of any specific campaign element; contemporaneous S3/S4 design and live-play records should be used to test the retrospective account.
+
