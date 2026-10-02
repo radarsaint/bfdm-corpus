@@ -3,7 +3,7 @@
 **Campaign:** Season 4, Empire City  
 **Primary live source:** `discord/empire-city/empire-city.sqlite`  
 **Server ID:** `850779382791536640`  
-**Research status:** first direct decision-analysis pass in progress.
+**Research status:** direct decision-analysis and design-method pass in progress.
 
 ## Source footing
 
@@ -51,6 +51,22 @@ Brendon's message IDs and timestamps are retained so each interpretation can be 
 
 - `decision-cases-v1.md` — bounded local decision cases.
 - `longitudinal-decision-cases-v1.md` — decisions whose consequences unfold across multiple days or into later campaign design.
+- `../creative-method/historical-mythologization-v1.md` — cross-season analysis of how historical details, local mythology, secret societies/institutions, and cryptids are selected and transformed into playable structures; Empire City is a primary comparison case.
+
+## Design-method scope
+
+Lore selection is part of the research question. Empire City should be studied not only for live DM reactions but for how its source material was chosen and converted into play.
+
+Current evidence supports examining:
+
+- small historical details and local myths as campaign seeds;
+- historical/occult societies and institutions as faction/information machinery;
+- cryptids as taxonomy, encounter ecology, lore, and progression;
+- historical pressures such as quartering/taxation as player-facing rules;
+- symbolic/Hermetic structures as a layer beneath the surface history;
+- the relationship between those transformations and the campaign's explicit identity theme.
+
+Brendon's retrospective explanation of this method is preserved as `BCE-000014`. Contemporaneous S3/S4 records are used to test it.
 
 ## Scope warning
 
