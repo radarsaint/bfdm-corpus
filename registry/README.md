@@ -43,7 +43,7 @@ For Discord, prefer:
 - observed username/display name;
 - observed or harvested date window.
 
-A confirmed alias can expand retrieval, but a nickname alone does not authorize attribution in a new server. Empire City / Season 4 is harvested and linked to `roanoke-s4`, but Brendon's account mapping there remains explicitly UNRESOLVED until account-level evidence supports it.
+A confirmed alias can expand retrieval, but a nickname alone does not authorize attribution in a new server. Empire City / Season 4 is now independently resolved from its users table to immutable Discord user ID `313689699627696139`, matching S3. Uninspected servers must still be resolved from their own account-level evidence.
 
 ## Update ownership
 
