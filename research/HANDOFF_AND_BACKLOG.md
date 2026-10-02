@@ -1,6 +1,6 @@
 # Research Handoff and Backlog
 
-**Status date:** 2026-10-01  
+**Status date:** 2026-10-02  
 **Purpose:** Keep current work from being stranded in chat history.
 
 ## Work streams
@@ -36,6 +36,18 @@ Current useful scope:
 - synthesis only when source coverage supports it.
 
 Avoid duplicating ingestion/runtime work unless a gap blocks research.
+
+## Governing numbered cleanup sequence
+
+The current cleanup sequence is authoritative in `research/NEXT_HANDOFF.md`:
+
+- Points 1–3: completed;
+- Point 4: reconcile the 51-source legacy staging body into canonical `bfdm-corpus`;
+- Point 5: deliberately review and integrate PR #5;
+- Point 6: recover the later Area 6c verbatim human-test transcript;
+- Point 7: archive-first invariant, completed and governing.
+
+Do not renumber normal research backlog items as replacements for these points.
 
 ## Immediate preservation priorities
 
