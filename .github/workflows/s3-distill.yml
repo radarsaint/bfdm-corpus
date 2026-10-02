@@ -1,0 +1,48 @@
+name: S3 Distill Extract
+
+on:
+  push:
+    branches:
+      - analysis/s3-distill
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout corpus with LFS
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 1
+
+      - name: Verify LFS database
+        shell: bash
+        run: |
+          ls -lh discord/roanoke-season-3/roanoke-season-3.sqlite
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("discord/roanoke-season-3/roanoke-season-3.sqlite")
+          b=p.read_bytes()[:16]
+          if b != b"SQLite format 3\x00":
+              raise SystemExit(f"Database is not materialized SQLite; header={b!r}")
+          print("SQLite database materialized correctly.")
+          PY
+
+      - name: Extract comparison slices
+        run: python analysis/s3_compare_extract.py
+
+      - name: Package outputs
+        run: |
+          tar -czf s3-distill-output.tar.gz analysis-output
+          ls -lh s3-distill-output.tar.gz
+
+      - name: Upload analysis artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: s3-distill-output
+          path: s3-distill-output.tar.gz
+          retention-days: 7
