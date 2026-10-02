@@ -58,7 +58,7 @@ Known harvest:
 - 3,528 attachments captured;
 - observed message range 2021-06-05 through 2026-10-01.
 
-The server explicitly identifies the campaign as **Season 4, Empire City**. The observed server range is not treated as the campaign live window, and Brendon's account mapping in this server is still unresolved.
+The server explicitly identifies the campaign as **Season 4, Empire City**. The observed server range is not treated as the campaign live window. Brendon's account mapping is now confirmed from the server users table by immutable Discord user ID `313689699627696139`.
 
 ## Google Drive / project corpus
 
