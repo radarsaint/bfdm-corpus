@@ -712,3 +712,207 @@ If a campaign has an abstract theme, build recurring choices and consequences th
 **Evidence confidence:** high.  
 **Claim scope:** S4 thematic-system case.
 
+---
+
+## BDC-S4-L12 — Continental Congress gives players bounded authority to write future government into canon
+
+### Prepared frame
+
+The S4 Master Timeline reserves an intermission week for the Continental Congress:
+- `S4 Master Timeline`, Drive `1Lk2IkEgh1aHjuUl35g1Huk7oxjNSjhmfsKKaHDL1_K8`.
+
+The preparatory document establishes the Congress as campaign structure, but does not itself dictate the final form of government.
+
+### Authority is explicitly handed to players
+
+Brendon opens the live constitutional discussion with:
+- `875148037167644714` — “The future of our nation (and the game) is in your hands.”
+
+He gives players several forms of government to consider and explicitly connects the choice to future game state.
+
+He then states:
+- `875149712158756905` — once the form of government is selected, it will be used to choose the first ruler(s) of Arcania.
+- `875188742195929218` — “Your form of government translates into the game.”
+
+### Bounded pressure rather than prescribed answer
+
+The process has a hard deadline and a fallback:
+- `875774671558160455` — Congress closes at midnight; if the player constitution is not ratified, Vanderbilt's constitution becomes the de facto winner.
+
+When players ask how ratification should work, Brendon does not specify a hidden correct procedure:
+- `875877841487671317` — “You decide how to ratify it.”
+- `875877922244800543` — “just like with the original constitution.”
+
+Players then choose a signature-based procedure and spend the remaining time campaigning for signatures.
+
+### The resulting structure enters later world history
+
+The harvested Discord does not contain a single clean Brendon-authored “the constitution is ratified” announcement. That absence should be preserved.
+
+However, later live/epilogue material consistently treats the player-authored constitution and Triumvirate system as established world state:
+- `878446332979851286` — characters discuss future Triumvirate elections.
+- `880642416271572992` — Vivica's epilogue has her organize the first Triumvirate elections.
+- `880643970370244688` — Finn's epilogue has him serve two terms in the first Triumvirate with George Washington and another founder.
+- `880690771035049984` — later epilogue text refers to “the new Constitution” and the government the characters created.
+- `882351829235687474` — later history still treats the Triumvirate as the governing institution.
+
+These later epilogues are player-authored; they establish accepted end-state use in the shared epilogue space, not independent proof of an official ratification announcement.
+
+### Signal Brendon noticed
+
+The players were willing to do the difficult collaborative work of debating, drafting, revising, and gathering support for an actual governmental structure.
+
+### Adaptation
+
+Provide the political problem, deadline, consequences, and available context; let players define the ratification procedure and produce the solution; allow the resulting structure to become future setting history.
+
+### Reusable judgment candidate
+
+If players are being asked to shape a shared institution, make the authority consequential rather than ceremonial. Give them bounded constraints and real failure conditions, then let their chosen procedure and outcome alter the future world.
+
+**Evidence confidence:** high for delegated authority and later accepted world state; medium for exact ratification transition because the formal result announcement has not been located.  
+**Claim scope:** S4 civic-authority case.
+
+---
+
+## BDC-S4-L13 — The Empire City Post turns local play into shared public memory
+
+### Structural need
+
+A large asynchronous server cannot rely on every participant witnessing every important scene.
+
+Empire City solves part of that problem through an in-world newspaper whose dated issues combine:
+- campaign headlines;
+- changing stock prices;
+- propaganda and opinion;
+- advertisements/hooks;
+- reports of location damage and war;
+- coded information.
+
+The dated Drive sources `BCS-000005`–`BCS-000015` preserve this public record.
+
+### Editorial pipeline
+
+Brendon actively routes live material toward the paper:
+- `863364926227611668` — tells the editor to check the DM bot-upload channel for possible news stories.
+- `863461988461051904` — gives permission to publish the available material if time permits.
+
+The paper also recruits player labor:
+- `863981785364168735` — a PC applies for a reporter job.
+- `864000232806940684` — the editor explains that reporting is freelance and player copy can be submitted for publication.
+
+### Live event becomes collaborative article
+
+After a Redcoat incident, multiple players independently produce accounts.
+
+The editor responds:
+- `864140958925193216` — rather than discard one account, asks the two PCs to collaborate: one writes an accurate report and the other collects reactions/commentary, explicitly turning witnessed play into tomorrow's newspaper material.
+
+The resulting July 13 Post contains “Slothful Redcoats Assault Innocents,” an eyewitness account of the incident:
+- `Empire City Post 7-13`, Drive `1FrQrUzCkyNvMhmZx_7T18SMP88vwRBGlxsCfVZB57TQ`.
+
+Players then read and react to the paper in character:
+- `864571384151015474` onward — PCs browse the issue and discuss its contents.
+
+### Public-memory function
+
+The same mechanism recurs at larger scale:
+- the July 17 Post records the coordinated Redcoat attack and property crash;
+- July 21 reports the airship-port attack, Kingsbridge changes, and Mothman rumors;
+- late-season reporting records the effect of the player attack on Arnold's armada.
+
+The paper therefore does more than announce future content. It converts dispersed events into a common account the rest of the server can use.
+
+### Authorship boundary
+
+Many articles are written or edited by players/collaborators. Their prose must not be attributed to Brendon merely because the paper is part of his campaign.
+
+The BFDM evidence here is the **system design and editorial use**:
+- route events toward publication;
+- permit player reporting;
+- publish consequences;
+- allow those reports to become usable public knowledge.
+
+### Reusable judgment candidate
+
+In a persistent world with incomplete participation, create an in-fiction institution that converts witnessed local play into shared public memory. Let players contribute to that record, but keep enough editorial structure that the output remains usable by the whole campaign.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 large-scale information architecture case.
+
+---
+
+## BDC-S4-L14 — The Umbral Cup moves from private mystery to player stewardship to civic institution
+
+### Initial location
+
+The Umbral Cup begins as a peculiar Kingsbridge location:
+- `863703512135368755` — it is one of the few places outside The City with decent coffee/ale; failed attempts to make color “stick” have left strange prism effects.
+
+Its early mysteries are tightly authored:
+- `864293321995452426` — a clue painting is hidden in Violet's room.
+- `864626813921394709` — four Shadowborn family members were murdered there.
+- `864791987265994762` — Lamplighters reclaim the bodies.
+
+### Local ownership is deliberately assigned
+
+Brendon explicitly says:
+- `866093219153444864` — “The mysteries of the umbral cup are bo's to unlock.”
+
+This is a bounded handoff: the location still contains authored secrets, but one player's sustained interaction is given privileged narrative relevance.
+
+### The location becomes a civic problem
+
+The mystery persists across weeks:
+- Mothman/Violet activity;
+- repeated investigation;
+- physical and supernatural danger;
+- the building's own apparent personality.
+
+The Ravens eventually elevate the location's importance:
+- `870108241844138016` — they say the Cup is the “heart” from which the town drinks and instruct the players to cleanse it so Kingsbridge can become a home rather than only an outpost against the Noir.
+
+The private haunted-location thread has become a civic-healing objective.
+
+### Player stewardship
+
+Bones treats the Cup as an owned responsibility:
+- organizes help to clean/reopen it;
+- seeks cooperation from other restaurants/cafes;
+- welcomes people into it;
+- continues pursuing the Violet/Mothman problem.
+
+Examples:
+- `879095443248783360` — Bones proposes cleaning up the Cup and forming an association with other cafes.
+- `879103174663884850` — describes having acquired the pub and seeks help getting it running.
+
+### Cleansing changes the world state
+
+After the Mothman/Violet climax:
+- `879224553585393684` — Brendon narrates: “the umbral cup is cleansed and begins healing itself. The building's sentience is no longer repressed.”
+- `879225018259767297` — Bones immediately connects the recovery to Gil's legacy.
+
+The location is not merely reopened; its metaphysical state has changed because of the players' work.
+
+### Epilogue: place and character identity merge
+
+Later epilogue material is player-authored but accepted in the shared epilogue space:
+- `883538405051498496` — Bones takes the identity “The Shadow of the Umbral Cup.”
+- `883538495912673332` — the Cup's new identity attracts people and the player frames stewardship of Kingsbridge/Gil's legacy as ongoing work.
+- `883546487815028797` — the player describes the Cup as the hub Gil wanted it to be.
+
+### Signal Brendon noticed
+
+A player kept returning to one authored location, accepted its mysteries and obligations, and treated its recovery as meaningful rather than disposable scenery.
+
+### Adaptation
+
+Move from “this player gets to unlock the mystery” to “this player becomes responsible for the place”; then allow the repaired location to function as civic and character identity in the epilogue.
+
+### Reusable judgment candidate
+
+If a player repeatedly invests in a place, let stewardship become a form of character progression. A setting location can become part of who the character is when responsibility, history, and public function accumulate around it.
+
+**Evidence confidence:** high for live handoff/cleansing; medium-high for long-term civic interpretation because the final form is substantially player-authored epilogue material.  
+**Claim scope:** S4 place-stewardship case.
+
