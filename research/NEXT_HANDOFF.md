@@ -64,7 +64,7 @@ Important invariants:
 - developmental ordering is chronology, not a quality/importance score.
 
 ## Point 4 — reconcile the old 51-source staging body into canonical bfdm-corpus
-**Status: OPEN — NEXT.**
+**Status: IN PROGRESS — audit and migrator complete; binary-safe transfer pending.**
 
 The 51-record legacy manifest is preserved, but the actual historical source containers/originals/assets remain incompletely reconciled with the canonical private repository.
 
@@ -77,6 +77,16 @@ Requirements:
 - produce an explicit reconciliation report showing migrated, already-present, duplicate, missing, and unresolved records.
 
 The old Library staging archive remains a source for reconciliation, not a competing canonical corpus.
+
+Current audited state:
+- archive SHA-256: `cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a`;
+- 51/51 legacy IDs already exist in the evidence catalog;
+- 0/51 actual source-container bodies are present in canonical `sources/` / `context/`;
+- 284 record files remain pending;
+- `ingest/reconcile_legacy_staging.py` is implemented and tested against the real archive;
+- the remaining blocker is binary-safe transfer into authenticated Git/GitHub, not source identification or reconciliation logic.
+
+Do not mark Point 4 complete until a final dry-run against the canonical checkout reports all 51 records `ALREADY_RECONCILED`.
 
 ## Point 5 — deliberate review and integration of PR #5
 **Status: OPEN.**
