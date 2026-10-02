@@ -212,12 +212,17 @@
     "validator": "registry/validate_registry.py",
     "counts": {
       "projects": 11,
+      "series": 1,
       "project_relations": 4,
-      "people": 1,
+      "people": 4,
       "identity_assertions": 3,
       "discord_servers": 2
     },
-    "identity_note": "S3 Discord identity is account-ID confirmed. Empire City / Season 4 is now server-linked, but Brendon's account mapping in that server remains unresolved until its users table is inspected.",
-    "chronology_note": "Human-readable chronology remains research narrative; machine registry stores structured dates/format/scale/coverage with explicit uncertainty."
+    "identity_note": "S3 Discord identity is account-ID confirmed and scoped to the S3 server/project. Empire City / Season 4 is harvested and server-linked, but Brendon's account mapping there remains explicitly unresolved until account-level evidence is inspected.",
+    "chronology_note": "Human-readable chronology remains research narrative; machine registry stores canonical names/aliases, source-activity versus live dates, format, scale uncertainty, source relationships, coverage, staff, series context, server links, and developmental ordering.",
+    "series": "registry/series.jsonl",
+    "series_schema": "registry/series.schema.json",
+    "point_3_status": "COMPLETE",
+    "scale_note": "The retrospective Roanoke 30–100 concurrent-player range is stored only on registry/series.jsonl. Individual seasons remain UNKNOWN until season-specific evidence exists."
   }
 }
