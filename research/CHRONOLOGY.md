@@ -2,7 +2,7 @@
 
 **Status:** source-anchored skeleton, not a complete campaign history.
 
-Machine-readable companion: `registry/projects.jsonl` plus `registry/project_relations.jsonl`. The registry preserves uncertainty explicitly; this Markdown remains the narrative research view.
+Machine-readable companions: `registry/projects.jsonl`, `registry/series.jsonl`, `registry/project_relations.jsonl`, and the identity/server registries under `registry/`. The registry preserves uncertainty explicitly; this Markdown remains the narrative research view.
 
 This chronology exists to stop later research from flattening years of work into one undated "Brendon style."
 
