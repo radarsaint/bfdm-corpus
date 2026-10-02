@@ -8,7 +8,8 @@
     "canonical_name",
     "person_kind",
     "research_role",
-    "notes"
+    "notes",
+    "aliases"
   ],
   "properties": {
     "person_id": {
@@ -34,6 +35,9 @@
       "items": {
         "type": "string"
       }
+    },
+    "aliases": {
+      "type": "array"
     }
   },
   "additionalProperties": true
