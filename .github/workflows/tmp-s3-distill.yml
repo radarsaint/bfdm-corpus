@@ -14,11 +14,15 @@ jobs:
   extract:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout corpus with LFS
+      - name: Checkout corpus
         uses: actions/checkout@v4
         with:
-          lfs: true
           fetch-depth: 1
+
+      - name: Fetch only the SQLite LFS object
+        shell: bash
+        run: |
+          git lfs pull --include="discord/roanoke-season-3/roanoke-season-3.sqlite" --exclude=""
 
       - name: Verify database
         shell: bash
