@@ -1,0 +1,59 @@
+# Empire City / Roanoke Season 4 Research
+
+**Campaign:** Season 4, Empire City  
+**Primary live source:** `discord/empire-city/empire-city.sqlite`  
+**Server ID:** `850779382791536640`  
+**Research status:** first direct decision-analysis pass in progress.
+
+## Source footing
+
+The harvested server contains 189,761 messages and all readable text channels.
+
+Brendon's server identity is now account-level confirmed:
+
+- Discord user ID: `313689699627696139`
+- username: `bfdm`
+- display name: `DM radar`
+- attributed Empire City messages: 9,399
+- observed Brendon-message range: 2021-06-05T16:54:03.917000Z through 2023-07-27T05:17:37.599000Z
+
+This is the same immutable Discord user ID found in the S3 harvest. Attribution in this research is therefore based on platform identity, not nickname resemblance.
+
+## Campaign timing
+
+`BCS-000003` / *Empire City Backlog Notes* explicitly labels:
+
+- WEEK ONE
+- Day One: July 10th
+- Day Seven: July 16th
+
+July 10, 2021 is therefore a confirmed live-start boundary for the planned campaign sequence.
+
+The live record later shows:
+- final fight announced for August 25;
+- “The King is Dead” on August 26;
+- epilogue week announced August 28;
+- epilogues announced to close at week's end on September 2.
+
+The exact final campaign-close timestamp remains unresolved. Do not substitute the server's 2021–2026 message range for the live campaign window.
+
+## Method
+
+This pass uses the same basic discipline as the S3 decision work:
+
+> situation → signal noticed → values in tension → intervention → observed/downstream result → reusable judgment
+
+Player/collaborator messages are paraphrased unless their exact wording is necessary to establish a quantitative or causal fact.
+
+Brendon's message IDs and timestamps are retained so each interpretation can be checked against the raw SQLite source.
+
+## Current research files
+
+- `decision-cases-v1.md` — bounded local decision cases.
+- `longitudinal-decision-cases-v1.md` — decisions whose consequences unfold across multiple days or into later campaign design.
+
+## Scope warning
+
+Empire City is a different operating environment from S3 and is still a large persistent multi-DM Discord campaign.
+
+A repeated pattern between S3 and S4 is a stronger developmental lead than a single-season observation, but it is still not automatically a timeless general trait. Cross-campaign promotion should wait for explicit comparison and later-era evidence.
