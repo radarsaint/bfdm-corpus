@@ -15,7 +15,12 @@
     "discord_servers",
     "coverage",
     "uncertainties",
-    "support_refs"
+    "support_refs",
+    "canonical_name",
+    "aliases",
+    "ordering",
+    "primary_discord_servers",
+    "staff"
   ],
   "properties": {
     "project_id": {
@@ -87,6 +92,22 @@
       "items": {
         "type": "string"
       }
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array"
+    },
+    "ordering": {
+      "type": "object"
+    },
+    "primary_discord_servers": {
+      "type": "array"
+    },
+    "staff": {
+      "type": "array"
     }
   },
   "additionalProperties": true
