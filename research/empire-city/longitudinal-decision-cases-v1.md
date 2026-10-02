@@ -916,3 +916,152 @@ If a player repeatedly invests in a place, let stewardship become a form of char
 **Evidence confidence:** high for live handoff/cleansing; medium-high for long-term civic interpretation because the final form is substantially player-authored epilogue material.  
 **Claim scope:** S4 place-stewardship case.
 
+---
+
+## BDC-S4-L15 — Benjamin Franklin turns a famous historical persona into city infrastructure
+
+### Recognizable historical hook
+
+The S4 version of Benjamin Franklin keeps the public associations that make the reference immediately legible:
+- electricity/lightning;
+- inventor persona;
+- the kite;
+- historical jokes and quotations.
+
+Live examples:
+- `865600521472311328` — Franklin arrives in a flash of lightning.
+- `867443106415902730` — manipulates writing with blue electricity.
+- `867456387574136907` — takes lunch while flying a kite.
+- `869401588010197022` — Brendon explicitly introduces an IRL poem/joke about Franklin.
+- `875501404385603644` / `875501579527127090` — Franklin proposes the turkey as national animal; Brendon immediately notes that this is a real Franklin association.
+
+### Fantasy expansion
+
+The recognizable hook is then expanded into a major setting function.
+
+Franklin says:
+- `867451767863640084` — “Every advancement. Every wonder of this city have I wrought,” listing airships, weapons, ley infrastructure, bridges, roads, and merchant supply.
+
+His laboratory lore makes the transformation even more explicit:
+- `869289895804424233` — Franklin designed the first airship; tapping ley energy is old, but broadcasting it along radio waves becomes the crucial innovation driving the city's “Revolutionary Renaissance.”
+
+He also functions as:
+- Mason/Architect;
+- technological authority;
+- quest/lore source;
+- political actor;
+- recurring NPC.
+
+### Why it survives
+
+Franklin's historical associations support several independent campaign functions without losing recognizability.
+
+The kite/electricity joke remains visible even after the character becomes responsible for major magical infrastructure.
+
+### Reusable judgment candidate
+
+When adapting a famous historical person, preserve the association that makes them instantly recognizable, then ask what large setting system that association could plausibly explain if it were literally/magically true.
+
+**Evidence confidence:** high for S4 transformation.  
+**Claim scope:** S4 historical-person adaptation case.
+
+---
+
+## BDC-S4-L16 — Kellogg converts peculiar historical associations into a mobile cult premise, but remains only partially delivered
+
+### Pre-launch seed
+
+Before the campaign opens, Brendon is already testing the premise in live server development:
+- `852413257494691861` — missionaries espouse the virtues of “Prophet Kellog.”
+- `852413641315319818` — the missionaries combine purity rhetoric, cornflakes, “unnatural thoughts,” and sinusoidal-current electrical treatment.
+
+The source preserves a cluster of recognizable Kellogg-associated ideas and compresses them into one absurd religious/medical sales pitch.
+
+### Intended delivery model
+
+Once the campaign begins:
+- `864085717315354646` — Brendon tells another DM: “Lets start playing Kellogg missionaries… lets run it in pairs like mormons.”
+
+The transformed historical material is therefore designed as **mobile NPC encounter infrastructure**, not only lore text.
+
+The Kingsbridge/The City prep also contains Kellogg/Sugar Cult/BattleCreek material as recurring City-side story content.
+
+### Partial live footprint
+
+Compared with Franklin, Pinkerton, or Mothman, Kellogg has a small live message footprint.
+
+There are later hooks:
+- `867908607651872798` — a mod records a Kellogg lead.
+- `870379747056705546` — staff discuss using another interaction as part of the Kellogg hook.
+- `870755979904569405` — a dead NPC can leave a note pointing players to Kellogg exposition.
+
+### Player-memory signal
+
+Despite limited delivery:
+- `877810143935467551` — 2021-08-19 — a DM reports that players in voice “really wanna pick up the Kellogg story.”
+
+This is important counterevidence to simple message-count measures. A lightly delivered thread can still generate memorable demand.
+
+### Adaptation / outcome
+
+The harvested record does not show a comparably developed late Kellogg resolution. The case should therefore remain labeled **partial/incomplete**, not inflated into a major S4 arc.
+
+### Reusable judgment candidate
+
+A peculiar real-world association can be valuable if it supplies an immediately playable premise, but clever source material does not guarantee delivery. Preserve player requests to return to lightly used material as a distinct signal from raw activity volume.
+
+**Evidence confidence:** high for seed and player-return signal; medium for overall arc because delivery remained limited.  
+**Claim scope:** S4 incomplete historical-reference case.
+
+---
+
+## BDC-S4-L17 — Hidden Masonic/Hermetic symbolism becomes a literal mechanism for setting the city's direction
+
+### Direct authorial intent
+
+On July 15 Brendon explains:
+- `865189667611344896` — he writes from a Hermetic-philosophy point of view because there is “always a deeper thing within the symbolism.”
+- `865189848376672287` — the city contains a cornerstone that will “boil it all down.”
+- `865190138882424832` — the Masons are not visible this year, but “they still set the city on it's course.”
+
+This is unusually explicit evidence that the occult layer is intended as hidden structure rather than foreground faction branding.
+
+### Literalized symbolism
+
+The cornerstone makes symbolic language mechanically real:
+- `867440078572879882` — Franklin presents an empty receptacle representing the cornerstone of his life's work.
+- `867441252684267550` — he intends to determine and mechanically alter the future “by means of simple masonry.”
+
+The metaphor “foundation of a city” becomes an actual magical foundation capable of influencing future social direction.
+
+### Player-facing choice is conceptual rather than tactical
+
+Franklin challenges the Mender's proposed foundation:
+- `868206141300154428` — asks whether the plan is to set the city on foundations of love.
+- `868209654927327293` — says love is good but insufficient because people can love things that hurt them.
+- `868212280481939486` — tells the Mender to repair rather than simply replace the cornerstone.
+
+A later Masonic letter makes the design goal clearer:
+- `869256786190929990` — tells the Mender not to solve Kingsbridge's immediate problems, but to choose words/wisdom that bring its nature into line with the path Empire City ought to follow.
+
+### Persistence
+
+The cornerstone remains privileged setting infrastructure:
+- `868897849604206652` / `868899286761480322` — Home Office emergency systems preserve Cornerstone functionality and restrict some information to the Director.
+- `878815222977159229` — later Kingsbridge acknowledges that players have set cornerstones wisely in the absence of Masons/Tinkers.
+- `880651795939074089` — cornerstone information remains part of the institutional knowledge of the Home Office.
+
+### Transformation
+
+Hermetic/Masonic symbolism is doing three jobs at once:
+1. occult lore continuity;
+2. a hidden explanation for how cities acquire collective character;
+3. a mechanism that asks players to encode values into the future setting.
+
+### Reusable judgment candidate
+
+When using symbolic or occult source material, do not stop at references. Ask what the symbol would *do* if it were literally true. A metaphor becomes powerful campaign material when players can act on it and inherit its consequences.
+
+**Evidence confidence:** high.  
+**Claim scope:** S4 hidden-lore/metaphysical-system case.
+
