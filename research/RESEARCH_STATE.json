@@ -31,7 +31,20 @@
       "assets_total": 75,
       "export_comments_total": 62,
       "native_brendon_comment_supplements": 17,
-      "canonical_repo_reconciliation_pending": true
+      "canonical_repo_reconciliation_pending": true,
+      "archive_sha256": "cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a",
+      "record_files_total": 284,
+      "originals_total": 51,
+      "normalized_source_md_total": 51,
+      "metadata_files_total": 51,
+      "comments_files_total": 51,
+      "native_brendon_comment_files": 5,
+      "cataloged_ids": "51/51",
+      "canonical_source_bodies": "0/51",
+      "point_4_status": "IN_PROGRESS_BINARY_TRANSFER_PENDING",
+      "reconciler": "ingest/reconcile_legacy_staging.py",
+      "reconciliation_baseline": "research/legacy-staging/RECONCILIATION_2026-10-02.md",
+      "definition_of_point_4_done": "Final reconciliation dry-run against canonical checkout reports all 51 legacy records ALREADY_RECONCILED with no checksum conflicts."
     },
     "early_roanoke_2018": {
       "status": "verified_pre_season_2_lineage_formal_season_1_label_unresolved",
