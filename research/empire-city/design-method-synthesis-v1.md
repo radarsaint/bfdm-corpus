@@ -808,6 +808,75 @@ High-salience signals include:
 
 Promotion then requires a separate feasibility check.
 
+## 30. Restraint: when more DM intervention would make the game worse
+
+The decision corpus should model not only when Brendon intervenes, but when he deliberately returns control to players.
+
+### Protect the agency boundary, then stop choosing for them
+
+Server rules:
+- `850796729494536193` — no PvP without a DM present and all parties consenting.
+- `850796778936205333` — this includes attacks, spells, theft, persuasion, intimidation, or other mechanics that take agency from another character.
+
+The DM's role is partly to enforce the boundary that makes genuine player choice possible.
+
+### Do not optimize another player's roleplay choice
+
+`869645913390448671` distinguishes experienced-player optimization from roleplay:
+- experienced players may intentionally make unreliable or mechanically suboptimal choices for character reasons;
+- newer players can feel pressured when their decisions are called suboptimal;
+- Brendon asks players to be gentle about telling one another how to play.
+
+This is evidence for leaving character-owned choices alone even when another option is mechanically stronger.
+
+### Return control explicitly during scenes
+
+During the July 10–August 29 live window, Brendon's account uses the literal prompt “What would you like to do?” 37 times across nine Discord channels.
+
+This count should not be read as proof that every S4 scene was open-ended. It does show a recurring delivery move:
+
+> establish the current fictional state -> ask the player what they do
+
+Examples include:
+- `864043340697567232`;
+- `866267880013561897`;
+- `869842716358496326`;
+- `877291134727127060`;
+- `879181666432729159`.
+
+### If players own the institution, they can own its procedure
+
+Congress:
+- `875877841487671317` — when asked how to ratify the player-written constitution, Brendon says: “You decide how to ratify it.”
+
+The DM provides deadline and consequences but does not secretly choose the civic procedure after delegating the government to players.
+
+### Consent is the prerequisite for escalation
+
+During DM discussion of darker subject matter:
+- `867576578249850940` — “Get consent and then get creepy.”
+
+The useful boundary is not “avoid intense material.” It is “do not assume permission for intensity that affects a participant.”
+
+### Do not turn production failure into in-fiction punishment
+
+Immediately before the finale, time pressure threatens prepared trap/post-trap material:
+- `879944308457865256` — Brendon considers scrapping traps to make room for later RP.
+- `879944609306927184` — “im not going to punish the server for running out of time.”
+
+When the production schedule fails, the cost should be paid by prep scope rather than imposed on players as if they had failed the fiction.
+
+### Cross-season explicit restraint
+
+S3 `BDC-S3-L01` provides the strongest explicit case:
+- after promoting Victor into player-driven content and adjudicating access/conflict, Brendon says he is “taking my hands off the wheel” when the remaining dispute is between players over what should happen to Victor.
+
+### Candidate restraint rule
+
+> Intervene to establish the world, stakes, consent boundary, legibility, and consequences. Stop intervening when the remaining decision properly belongs to the players.
+
+Restraint is therefore itself a DM action. It requires identifying who owns the unresolved question.
+
 ## Supporting research
 
 - `research/empire-city/decision-cases-v1.md`
