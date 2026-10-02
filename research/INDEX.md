@@ -90,3 +90,10 @@ Every new research artifact should answer:
 - [source-leads/early-roanoke-rowing-oak-2018.md](source-leads/early-roanoke-rowing-oak-2018.md) — revision-backed July 2018 early-Roanoke lineage.
 - [source-leads/homebrew-mechanics-worldbuilding.md](source-leads/homebrew-mechanics-worldbuilding.md) — candidate race/class/worldbuilding families for ingestion and longitudinal research.
 - [longitudinal/roanoke-economy-2018-to-s2.md](longitudinal/roanoke-economy-2018-to-s2.md) — explicit 2018→2019 design-learning case.
+
+## Empire City / Season 4
+
+- `empire-city/README.md` — source footing, identity, timing, and method.
+- `empire-city/decision-cases-v1.md` — first bounded S4 DM-judgment cases.
+- `empire-city/longitudinal-decision-cases-v1.md` — live adaptation and developmental chains.
+- `empire-city/player-feedback-v1.md` — end-of-season player evaluation sample, kept separate from Brendon evidence.
