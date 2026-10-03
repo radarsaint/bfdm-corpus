@@ -1,0 +1,4 @@
+I swing at the fourth player.
+Brakka attacks with a Greataxe!
+**To Hit**: 1d20 (2) + 7 = `9`
+**Damage**: 1d12 (3) + 6 [slashing] = `9`

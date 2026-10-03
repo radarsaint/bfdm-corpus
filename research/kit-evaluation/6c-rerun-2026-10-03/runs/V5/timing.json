@@ -1,0 +1,52 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "770769f0-c11e-4706-9d72-42d4396496bd",
+   "committed_at": 1791043796.345999,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 6.351,
+   "prepared_at": 1791043789.9951353
+  },
+  {
+   "turn_id": "3a1598f6-56cf-4b6b-b6db-95f1db58665e",
+   "committed_at": 1791043808.3676536,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 11.893,
+   "prepared_at": 1791043796.4747288
+  },
+  {
+   "turn_id": "c564cccb-7165-42d6-8c43-ae5bf5e8d040",
+   "committed_at": 1791043822.3592403,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 13.865,
+   "prepared_at": 1791043808.4940464
+  },
+  {
+   "turn_id": "21f40a2d-0652-4b22-b214-6c7ec4eb6813",
+   "committed_at": 1791043835.397012,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 12.897,
+   "prepared_at": 1791043822.4995894
+  },
+  {
+   "turn_id": "220fab87-c951-4787-a219-9bb65761f8c9",
+   "committed_at": 1791043855.2539754,
+   "last_rejection": "Exchange scope: the Dealer spoke 7 words (floor 30). Answer the words in reply_to and let the actor pursue the brief tactic; do not pad with generic banter.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 19.693,
+   "prepared_at": 1791043835.560523,
+   "rejected_attempts": 1
+  }
+ ]
+}

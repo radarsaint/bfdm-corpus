@@ -1,0 +1,4 @@
+I put my rapier through his hand.
+Wren attacks with a Rapier!
+**To Hit**: 1d20 (12) + 5 = `17`
+**Damage**: 1d8 (5) + 3 [piercing] = `8`

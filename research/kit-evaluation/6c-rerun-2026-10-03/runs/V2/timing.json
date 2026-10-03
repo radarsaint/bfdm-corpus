@@ -1,0 +1,57 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "8101c9c5-083e-4192-95f9-abdb93ffa1fe",
+   "committed_at": 1791043480.9936492,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 6.346,
+   "prepared_at": 1791043474.6477208
+  },
+  {
+   "turn_id": "2cb8171b-7b0e-4c8d-b509-d042e0006c51",
+   "committed_at": 1791043492.491917,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 11.369,
+   "prepared_at": 1791043481.122972
+  },
+  {
+   "turn_id": "bbe935ac-53a9-41a8-a4d2-97076bb28653",
+   "committed_at": 1791043520.8605344,
+   "last_rejection": "2 problems; fix all of them: (1) reacts_to must quote words actually said or shown this turn (the player's words, the accepted event, or a Narrator or NPC line in this performance). Kit reacts to what happened, not to an imagined version of it. (2) Exchange scope: the Dealer spoke 24 words (floor 30). Answer the words in reply_to and let the actor pursue the brief tactic; do not pad with generic banter.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 28.234,
+   "prepared_at": 1791043492.6269088,
+   "rejected_attempts": 1
+  },
+  {
+   "turn_id": "d1bbfe74-4f85-4e7c-a7ed-0146afdfde82",
+   "committed_at": 1791043547.1924145,
+   "last_rejection": "2 problems; fix all of them: (1) NPC voice: the Door-side player ran 11 words in one sentence; their card's rhythm allows 9. Keep their clipped cadence. (2) NPC voice: the Dealer reused the pet name \"friend\" from a recent turn. A repeated vocative becomes a catchphrase; find a new angle.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 26.207,
+   "prepared_at": 1791043520.985898,
+   "rejected_attempts": 1
+  },
+  {
+   "turn_id": "14187ee0-9d01-4f64-b628-adf63a1a5c2e",
+   "committed_at": 1791043596.3869843,
+   "degraded": true,
+   "last_rejection": "mirror must read \"<low|steady|high> energy, <tight|standard|roomy>, <no|dry|playful> humor: <how>\"",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 49.034,
+   "prepared_at": 1791043547.352601,
+   "rejected_attempts": 2
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "b6301894-63bb-4272-8a0c-ddb00fc52cb3",
+   "committed_at": 1791043378.2316635,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 3.35,
+   "prepared_at": 1791043374.8819373
+  },
+  {
+   "turn_id": "730e638f-8d9e-4b03-9d56-66e5b33bb64f",
+   "committed_at": 1791043396.2106576,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 17.854,
+   "prepared_at": 1791043378.3568637
+  },
+  {
+   "turn_id": "2272a185-48df-4d71-8fce-f0c202a7eb87",
+   "committed_at": 1791043423.5500882,
+   "last_rejection": "A room action is a description (or combat) turn",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 27.204,
+   "prepared_at": 1791043396.3457017,
+   "rejected_attempts": 1
+  },
+  {
+   "turn_id": "f5424f1d-4e3a-4970-bc22-12a256664dd3",
+   "committed_at": 1791043462.8935204,
+   "last_rejection": "Public performance mentioned a private fact",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 39.215,
+   "prepared_at": 1791043423.6785576,
+   "rejected_attempts": 1
+  },
+  {
+   "turn_id": "cc3e3817-bc39-4200-978b-47e079bc8743",
+   "committed_at": 1791043474.3935003,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 11.365,
+   "prepared_at": 1791043463.028636
+  }
+ ]
+}

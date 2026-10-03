@@ -1,0 +1,52 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "eb786731-456f-4b5a-a2fd-5b08f07e736c",
+   "committed_at": 1791043709.9191492,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 6.351,
+   "prepared_at": 1791043703.568579
+  },
+  {
+   "turn_id": "1c748272-6253-4134-a5d5-bdcb501341c9",
+   "committed_at": 1791043733.4061694,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 23.36,
+   "prepared_at": 1791043710.046365
+  },
+  {
+   "turn_id": "2a655ca7-5d0c-48db-af04-e1d7cffdcbdc",
+   "committed_at": 1791043746.9145987,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 13.38,
+   "prepared_at": 1791043733.5346668
+  },
+  {
+   "turn_id": "d3cc0f2b-eff2-4847-a8be-191c0838dddd",
+   "committed_at": 1791043777.2512398,
+   "last_rejection": "The player asked for a detail. Set detail.request to their words and answer the invitation.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 30.206,
+   "prepared_at": 1791043747.0455875,
+   "rejected_attempts": 1
+  },
+  {
+   "turn_id": "49e8cebf-9944-4c39-ab84-a412e178ebc6",
+   "committed_at": 1791043789.7410195,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 12.359,
+   "prepared_at": 1791043777.3822746
+  }
+ ]
+}

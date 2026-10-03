@@ -1,0 +1,4 @@
+Whoever's still standing, I hit with Fire Bolt.
+Nik casts Fire Bolt!
+**To Hit**: 1d20 (12) + 7 = `19`
+**Damage**: 2d10 (4, 5) [fire] = `9`

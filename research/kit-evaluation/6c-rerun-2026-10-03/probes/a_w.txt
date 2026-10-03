@@ -1,0 +1,4 @@
+I stab at the dealer.
+Wren attacks with a Rapier!
+**To Hit**: 1d20 (2) + 5 = `7`
+**Damage**: 1d8 (3) + 3 [piercing] = `6`

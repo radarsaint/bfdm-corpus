@@ -1,0 +1,4 @@
+I cast Fireball at the middle of the card table.
+Nik casts Fireball!
+Each target makes a DEX save.
+**Damage**: 8d6 (4, 3, 5, 2, 6, 1, 4, 3) = `28`

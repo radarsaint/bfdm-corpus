@@ -1,0 +1,56 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "adb52dfa-d19e-410d-9675-e34f4bda4000",
+   "committed_at": 1791043990.741543,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 6.356,
+   "prepared_at": 1791043984.3856468
+  },
+  {
+   "turn_id": "d85825a1-b94e-445b-805b-dbcc04a266a3",
+   "committed_at": 1791044002.2442632,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 11.366,
+   "prepared_at": 1791043990.8778043
+  },
+  {
+   "turn_id": "40f00016-6b9d-4b4f-8cca-5b0c68983786",
+   "committed_at": 1791044028.9101121,
+   "last_rejection": "Public text paraphrases a private fact (keyword set 'false_vampires'). Stay with what the player can perceive.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 26.535,
+   "prepared_at": 1791044002.3748703,
+   "rejected_attempts": 2
+  },
+  {
+   "turn_id": "4ea7f757-b15e-4d85-9df6-c62141146116",
+   "committed_at": 1791044049.2325976,
+   "last_rejection": "Exchange scope: the Dealer spoke 29 words (floor 30). Answer the words in reply_to and let the actor pursue the brief tactic; do not pad with generic banter.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 20.191,
+   "prepared_at": 1791044029.0417788,
+   "rejected_attempts": 1
+  },
+  {
+   "turn_id": "31b4a593-2829-4c87-95e7-6151a1b911cc",
+   "committed_at": 1791044070.565228,
+   "last_rejection": "NPC voice: the Fourth player ran 9 words in one sentence; their card's rhythm allows 8. Keep their clipped cadence.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 21.209,
+   "prepared_at": 1791044049.3562572,
+   "rejected_attempts": 1
+  }
+ ]
+}

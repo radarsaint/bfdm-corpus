@@ -1,0 +1,44 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "3ce5b2ed-4d89-4146-8ec7-12cd198f57e1",
+   "committed_at": 1791043862.8655152,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 7.365,
+   "prepared_at": 1791043855.5006347
+  },
+  {
+   "turn_id": "b89405f2-3ffe-43e3-8649-45d3b1bf5fd7",
+   "committed_at": 1791043905.4994402,
+   "degraded": true,
+   "last_rejection": "Exchange scope was flat (37 performed words in 2 segments; floor 40 words in 2). Add the visible beat or reaction the brief calls for; a price or fact alone is not an exchange.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 42.517,
+   "prepared_at": 1791043862.9827998,
+   "rejected_attempts": 2
+  },
+  {
+   "turn_id": "9e375dac-b8d2-4f7f-a1d4-939968a90914",
+   "committed_at": 1791043919.0103254,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 13.372,
+   "prepared_at": 1791043905.6382499
+  },
+  {
+   "turn_id": "1c6efa41-e924-4117-acc7-11d4208c2419",
+   "committed_at": 1791043931.5056922,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 12.347,
+   "prepared_at": 1791043919.1587765
+  }
+ ]
+}

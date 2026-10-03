@@ -1,0 +1,43 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "35cefeaf-6fcb-4017-b3d2-9acb30ae4485",
+   "committed_at": 1791044185.4456394,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 6.355,
+   "prepared_at": 1791044179.090768
+  },
+  {
+   "turn_id": "aae468dd-3cc8-4eeb-899e-57220a0c2092",
+   "committed_at": 1791044199.4364915,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 13.858,
+   "prepared_at": 1791044185.5788066
+  },
+  {
+   "turn_id": "63bce6ab-124f-4307-9d92-6d4a01cbf7c8",
+   "committed_at": 1791044211.9217546,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 12.349,
+   "prepared_at": 1791044199.5730476
+  },
+  {
+   "turn_id": "923c6025-da5e-4717-a557-2e6465669697",
+   "committed_at": 1791044244.3876812,
+   "last_rejection": "2 problems; fix all of them: (1) Exchange scope: the Dealer spoke 0 words (floor 30). Answer the words in reply_to and let the actor pursue the brief tactic; do not pad with generic banter. (2) Mirror says tight: 145 words (limit 110 for exchange). Give momentum: answer, move the scene, hand the player a choice. No padding.",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 32.208,
+   "prepared_at": 1791044212.179948,
+   "rejected_attempts": 1
+  }
+ ]
+}
