@@ -136,7 +136,7 @@ Do not generalize from it yet. It should enter a broader creative-method researc
 
 - Points 1–3 are complete: attributable retrospective evidence, the Work GPT ingestion contract, and machine-readable project/identity registries.
 - Point 4 remains open: reconciliation logic/audit are complete, but the 86.9 MB binary source-container transfer is blocked by the current chat runtime's lack of an authenticated binary Git transport.
-- Point 5 is under deliberate review in the current pass; integrate only after stale-state/provenance checks are clean.
+- Point 5 deliberate review is complete and passed; see `research/PR5_REVIEW_2026-10-02.md`. PR #5 is ready for integration into `main`.
 - Point 6 remains open: recover the complete later Area 6c human-test transcript.
 - Point 7 is complete and governing: archive-first corpus preservation; Kit is one consumer.
 
