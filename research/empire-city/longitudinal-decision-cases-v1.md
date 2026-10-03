@@ -1065,3 +1065,155 @@ When using symbolic or occult source material, do not stop at references. Ask wh
 **Evidence confidence:** high.  
 **Claim scope:** S4 hidden-lore/metaphysical-system case.
 
+---
+
+# Cross-case distillation
+
+The 17 longitudinal S4 cases support several stronger findings than any single case does.
+
+## A. Prep is a hypothesis about future play
+
+Empire City prep repeatedly predicts a player experience rather than merely scripting scenes:
+- the Tax should make occupation felt;
+- borough genre should create distinct play modes;
+- secret/information institutions should create investigation;
+- resurrection should make identity socially meaningful;
+- Congress should make political victory consequential.
+
+The live record then shows Brendon comparing what happened against that intended function.
+
+When the mismatch is local, he changes delivery.  
+When a thread is unexpectedly strong, he expands it.  
+When a system is working, he feeds it more state.  
+When architecture creates the wrong game, he changes architecture.
+
+This is more precise than “be flexible.” Prep creates a testable expectation.
+
+## B. Interest has to become behavior before it earns expensive follow-through
+
+Repeated behavior matters more than verbal enthusiasm alone.
+
+High-salience signals include:
+- repeatedly returning to an incidental NPC or place;
+- investing money/time/resources;
+- rebuilding;
+- researching;
+- taking responsibility for an office;
+- organizing other players;
+- creating an executable plan;
+- continuing a mystery across days/weeks.
+
+Victor in S3, Ferrytown rebuilding, Nolan/Lamplighters, Mothman, Arnold, and the Umbral Cup all show this.
+
+Candidate rule:
+
+> Treat repeated player action as stronger evidence of interest than stated preference.
+
+## C. Promotion is jointly constrained by interest and production reality
+
+Rule 8 explicitly says improvisational follow-through depends on time and DM interest. S4 then shows attractive material being deferred or reduced when:
+- the DM is not ready;
+- player population does not support the intended scale;
+- collaborator ownership would be violated;
+- a new direction would consume more infrastructure than can be delivered well.
+
+The decision is therefore not “players care, so always say yes.”
+
+Candidate rule:
+
+> Promote live material when player investment, DM interest, fictional fit, and production capacity overlap.
+
+## D. Player authority is most often granted through responsibility
+
+S4 repeatedly gives players more jurisdiction after they perform a function:
+- Nolan performs Lamplighter work -> gains rank -> can rank others -> becomes Director.
+- Speaker for the Dead receives a title/mechanic -> is later challenged to prove the title through use.
+- Congress participants are given authority over future institutions after investing in the Revolution.
+- location stewardship becomes durable when players keep maintaining/rebuilding the place.
+
+This suggests a progression pattern:
+
+> participation -> responsibility -> recognition -> jurisdiction
+
+The reward is often increased capacity to change the shared world.
+
+## E. Consequences are most productive when they generate new work
+
+Bombing, death, institutional destruction, magical taxes, and corrupted places are not valuable merely because they hurt.
+
+Their strongest use is when they create:
+- rebuilding;
+- investigation;
+- new leadership vacancies;
+- political decisions;
+- workarounds;
+- memorial/ritual roles;
+- new institutions;
+- altered public information.
+
+Candidate rule:
+
+> Prefer consequences that leave players with something meaningful to do next.
+
+## F. Public memory is infrastructure
+
+The Post, radio, announcements, stocks, visible damage, and institutional state changes allow a large asynchronous campaign to possess a shared history even though participation is incomplete.
+
+This means recap is not administrative overhead. It is part of persistent-world design.
+
+## G. Historical/mythic references survive when they become causally useful
+
+Franklin, Pinkerton, Arnold, the Quartering Act, Wall Street, Masons/Hermetic symbolism, and cryptids persist because their transformed versions change action.
+
+Kellogg is useful counterevidence: the premise is memorable and players later ask for it, but limited delivery means it never acquires comparable structural weight.
+
+Candidate filter:
+
+> A reference becomes setting infrastructure when players can make decisions differently because it exists.
+
+## H. The recognizable source hook is preserved while the consequence is opened
+
+Arnold still betrays. Franklin is still Franklin-the-inventor. Pinkertons still investigate. Mothman remains recognizable folklore.
+
+But the campaign does not protect the historical/familiar outcome:
+- Arnold's armada can be crippled;
+- Pinkertons can be destroyed/rebuilt differently;
+- Mothman can produce player-carried future mythology;
+- Franklin's associations can explain wholly invented magical infrastructure.
+
+This preserves recognition without reducing play to reenactment.
+
+## I. Theme is strongest when embedded before it is explained
+
+S4's identity concern appears in Thought/Memory, Shadowborn, bodily transformation, sacrifice, and resurrection before the surviving live record explicitly names “identity” as the year's theme.
+
+Candidate design lesson:
+
+> Build the theme into recurring choices and world rules first; thematic language can emerge or be stated later.
+
+## J. Intervention should match the level of the signal
+
+The combined S3/S4 evidence supports four intervention scales:
+
+1. **Scene** — pacing, clarity, telegraphing, difficulty, immediate adjudication.
+2. **Thread** — promote/drop a character, mystery, relationship, or location.
+3. **System** — formalize repeated behavior into ranks, Invitationals, research, economy, information structures.
+4. **Architecture** — change faction structure, season length, finale assumptions, campaign cadence.
+
+Candidate judgment:
+
+> Change the smallest level that actually solves the problem; escalate only when the failure/opportunity is structural.
+
+# Remaining evidence gaps
+
+Before promoting S4 findings into broader BFDM rules, preserve these gaps:
+
+- exact formal ratification/result message for the Continental Congress has not been located;
+- exact stock price-setting algorithm remains unresolved;
+- some borough source choices are collaborative and cannot be attributed to Brendon passage-by-passage;
+- voice chat and off-platform coordination are absent;
+- some prepared ideas may be missing from live play because of bandwidth rather than deliberate rejection;
+- S2 comparison remains targeted rather than comprehensive;
+- cross-lineage generalization still requires S5, Bastion/Redoubt, At War's End, Earthfall, and other work.
+
+
