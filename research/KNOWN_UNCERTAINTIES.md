@@ -19,15 +19,17 @@ Current research wording:
 
 Do not upgrade “likely” without a direct label or equivalent provenance evidence.
 
-## Exact live windows for Seasons 2, 4, and 5
+## Exact live windows for Seasons 2 and 5; Season 4 close
 
 Planning-document creation dates are known.
 
 Season 4 now has a harvested Discord server explicitly identifying itself as `Season 4, Empire City`, but the server's observed 2021–2026 message range is not automatically the campaign's live window.
 
-Exact opening/closing live-play dates for Seasons 2, 4, and 5 still need event/schedule/live-evidence reconstruction.
+`BCS-000003` / *Empire City Backlog Notes* explicitly labels **July 10, 2021** as Week One / Day One, so S4's live opening boundary is confirmed for the planned campaign sequence.
 
-Do not use Drive creation dates or whole-server message ranges as campaign start/end dates.
+The exact final S4 close remains less precise: the final fight is announced for August 25, “The King is Dead” follows August 26, epilogue week is announced August 28, and epilogues are closing by September 2. Seasons 2 and 5 still need stronger live-window reconstruction.
+
+Do not use Drive creation dates or whole-server message ranges as campaign start/end dates; use the confirmed July 10 S4 opening where relevant.
 
 ## Scale by season
 
@@ -161,3 +163,20 @@ Open implementation possibilities include:
 No single use has been selected as the final answer.
 
 The archive should remain rich enough to support several.
+
+
+## Empire City targeted evidence gaps
+
+The broad S4 discovery pass is complete enough that later agents should not restart it from scratch.
+
+Still unresolved:
+- a direct Brendon/DM result announcement for the Continental Congress ratification, if one survives;
+- passage-level authorship for collaborative borough documents;
+- broader S2 research before treating the current S2→S3→S4 developmental lead as comprehensive;
+- voice chat and off-platform coordination that are absent from the Discord harvest.
+
+Resolved in the deep pass:
+- Brendon S4 Discord identity;
+- July 10, 2021 opening boundary;
+- the stock-market implementation (Rob's Sheet: random baseline movement plus authored plot adjustments, bot reload at 6 AM Pacific);
+- the live July 11 “seat of the empire” naming explanation, with pre-launch June 9 “heart of Empire” context.
