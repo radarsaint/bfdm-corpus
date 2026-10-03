@@ -44,6 +44,8 @@ The T3 report: "Saying the carving draws the eye, followed by familiar motifs, d
 
 **Brendon's call (summary).** No check is needed to see it. Describe the north-wall mountain fresco outright, with its carved tunnels and tiny dwarf figures. Then point out the oddity: the occupants aren't dwarven and wouldn't venerate dwarves. That gives the player a question to chase. The hidden stone key is still DC 13 Perception, but only on an active search.
 
+**Addendum (2026-10-03).** Brendon wants Kit to name the north wall a **fresco**, not just "a carved mountain."
+
 **Principle.** Visible features are free. Make them matter by pointing out what doesn't fit, not by asserting that they "draw the eye." Rolls are only for what is actually hidden, and only when the player actively looks.
 
 **Regression checks.**
@@ -198,3 +200,23 @@ These are recorded as found. Nothing has been changed.
 8. **The cheat method in the code differs from Brendon's narration.** The fixture and `kit_cards._deal` model *dealing seconds* ("he gives himself the second card instead of the top one"). Brendon's narration in Call 4 describes a *bottom deal* on the final card. TC-4c is written so that either method passes, as long as the narration matches what the engine did.
 9. **Partly covered already.** `kit_voice.check_kit_asides` (with an explicit comment citing T2's "He could have said hello") already rejects absence claims that the same turn contradicts. Call 5 is broader: no quips in the narrator voice at all, and a "Do you reply?" handoff. TC-5a/b go beyond the existing guard.
 10. **The actor motives don't include the ruse.** Uktarl's `motive` is profit plus displacing Harria. The Dealer card's `wants` are "To learn what this visitor is worth to him and to seat them in a game he deals." Only the doppelganger's motive mentions "preserving its disguise." The bandits' `communication_profile` is still "Unestablished." Call 3 needs the ruse in all four.
+
+## Call 8. Let players substitute skills, but gate the information by skill
+
+**Date:** 2026-10-03 (PT)
+
+**Brendon's call.**
+
+> Players will often want to use their most advantageous skill to help their situation. Perception, investigation and insight might seem interchangeable, but they give different results back to the player. Allowing a player to substitute a roll is fine, you just gate what info they get back differently. Examples: athletics instead of acrobatics to climb a tree; survival versus nature; a person who never wants to roll Perception because their investigation is higher. The DM should tailor around that.
+
+**Gloss.** Perception notices what is present; Investigation deduces from physical evidence; Insight (Wisdom) reads motive and intent, the **WHY**.
+
+**Live example (today's 6c room).** Nik's Insight 21 on the fake-vampire dealer got only physical tells (the powder line and fake fangs), which was an Investigation-style answer. Insight should have revealed why they were posing as vampires.
+
+**Principle.** A player may use a more advantageous skill when the approach makes sense, but the chosen skill controls the information channel. Substitution changes the lens, not the facts that lens can reveal: Perception reports what is present, Investigation infers from physical evidence, and Insight reads motive and intent. The DM should tailor the result to the skill actually used rather than forcing a lower skill or handing out every kind of information.
+
+**Regression checks.**
+
+- **TC-8a Skill substitution (unit test).** A player may propose a plausible substitute (for example, Athletics instead of Acrobatics to climb a tree, or Survival instead of Nature). *Pass:* the substitute is accepted when the approach supports it, and the committed check records the skill used. *Fail:* the player is forced to use the default skill despite a plausible approach, or an implausible substitution is silently accepted.
+- **TC-8b Information gating (unit test + scripted eval).** The result is narrated according to the skill used: Perception notices present details; Investigation deduces from physical evidence; Insight (Wisdom) reads motive and intent. *Fail:* a skill result reveals information belonging to another lens without evidence that the player used that lens.
+- **TC-8c 6c fake-vampire example (scripted eval).** Replay Nik's Insight 21 against the fake-vampire dealer. *Pass:* the result explains why they are posing as vampires (their motive or intent), while physical tells remain Investigation-style evidence. *Fail:* Insight is resolved only as powder, fangs, or other physical tells.
