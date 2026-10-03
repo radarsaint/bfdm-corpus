@@ -58,9 +58,9 @@
   },
   "capture_status": {
     "current_body": "CAPTURED",
-    "comments": "PENDING_NATIVE_CAPTURE",
-    "revision_metadata": "PENDING_NATIVE_CAPTURE",
-    "revision_bodies": "PENDING_NATIVE_CAPTURE",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NONE_AVAILABLE",
     "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
   }
 }

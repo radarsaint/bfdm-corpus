@@ -47,6 +47,22 @@
       "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "size_bytes": 13858,
       "provider_revision_id": null
+    },
+    {
+      "kind": "NATIVE_COMMENTS_JSONL",
+      "path": "sources/empire-city/BCS-000003/comments.jsonl",
+      "sha256": "8dae134c0934d6261a8bfc5ba9304a14aeff2e11f825d58c2498897db9f79b11",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 924,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/empire-city/BCS-000003/revisions.jsonl",
+      "sha256": "ed2141a4e427ca409ca57cae21311ceb7102eec08f324c9f78cbb7e0d6a9e4b4",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 1333,
+      "provider_revision_id": null
     }
   ],
   "normalization": {
@@ -58,9 +74,9 @@
   },
   "capture_status": {
     "current_body": "CAPTURED",
-    "comments": "PENDING_NATIVE_CAPTURE",
-    "revision_metadata": "PENDING_NATIVE_CAPTURE",
-    "revision_bodies": "PENDING_NATIVE_CAPTURE",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NOT_FETCHED_THIS_PASS",
     "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
   }
 }
