@@ -1,0 +1,89 @@
+{
+  "schema": "bfdm-held-out-partition-v1",
+  "id": "HO-2026-10-03-prospective-table-rulings",
+  "created_date": "2026-10-03",
+  "status": "PROSPECTIVE_OPEN_NO_ITEMS",
+  "supersedes": "research/prior-dnd-solo/pr36-kit-decision-extraction/research/decision-corpus/2026-10-01/evaluation/partition.json (empire-city-entire-project, voided 2026-10-03)",
+  "ruling": "Brendon, 2026-10-03: void the Empire City quarantine, log what was gained, and name a new held-out set.",
+  "definition": "Brendon's first-person rulings on specific Kit table moments (table calls, adjudication rulings, 'this is how I would run it' corrections, praise or rejection of a specific Kit move), recorded verbatim with their own timestamp, where the timestamp is later than the freeze point below.",
+  "why_this_set": [
+    "Unread by construction: no item exists before the freeze, so no agent can have read it while building the hypotheses it tests. Every historical source in the corpus has at least title/date exposure, and the legacy staging pipeline normalized the bodies of the remaining unread Drive families, so 'never read' cannot be proven for any of them.",
+    "Highest-grade evidence the project produces: DIRECT, first-person, contemporaneous Brendon judgment (corpus review finding 1).",
+    "Materially different operating environment (solo, current-era, Kit-mediated), which roanoke-s3-to-s4-judgment-v1.md names as the next decisive comparison.",
+    "It tests the corpus hypotheses where they are used: predicting what Brendon would rule at Kit's table."
+  ],
+  "freeze": {
+    "freeze_point": "The author timestamp of the commit that adds this file to radarsaint/bfdm-corpus (verifiable with: git log --diff-filter=A --format=%aI -- research/held-out/partition-2026-10-03.json).",
+    "discovery_baseline_commit": "6337f81 (bfdm-corpus main at the time of the ruling); every research artifact in that tree is discovery",
+    "frozen_hypotheses": [
+      {
+        "path": "research/current-synthesis/working-model-2026-10-01.md",
+        "rev": "6337f81",
+        "sha256": "31d3ec112adb413dd3e46854fbceb2728bf3452182d1697f2fc07dd16125f222"
+      },
+      {
+        "path": "research/longitudinal/roanoke-s3-to-s4-judgment-v1.md",
+        "rev": "6337f81",
+        "sha256": "c9c9453c09b4e85035eab861e569fa0536e7a6df8b155e02b5444ea195142d6a"
+      },
+      {
+        "path": "research/empire-city/design-method-synthesis-v1.md",
+        "rev": "6337f81",
+        "sha256": "c5f9df6ddda866923f6f9d007926ec62c878d3e929d42b578c3f59fd12b9967e"
+      },
+      {
+        "path": "research/empire-city/longitudinal-decision-cases-v1.md",
+        "rev": "6337f81",
+        "sha256": "7a6a0691569262f6f61f606fbdf96512afb84d48d426c48159b0a8919dd486f3"
+      },
+      {
+        "path": "research/empire-city/decision-cases-v1.md",
+        "rev": "6337f81",
+        "sha256": "94f3fa500ddcc1bdcefe2365e50decec89b4addd0f4bf34b7c2a398a769597b8"
+      },
+      {
+        "path": "research/creative-method/historical-mythologization-v1.md",
+        "rev": "6337f81",
+        "sha256": "c7c0f065c8fb4f640c84dd476f38b955ac94ee358479495f9ef1198a08a8abff"
+      },
+      {
+        "path": "research/kit-evaluation/table-calls-6c-2026-10-02.md",
+        "rev": "6337f81",
+        "sha256": "4623af80fcc02fb68b550cb7d965bc70eb768b0c704477ec47036e8e798cb396"
+      },
+      {
+        "path": "radarsaint/dnd-solo:docs/personality/dm-personality-core.md",
+        "rev": "d785819",
+        "sha256": "493e3dec1fea91baca343f802d04e85035cf8df62f8bf6ed5bb1e49c794add86"
+      }
+    ],
+    "hypothesis_rule": "A held-out item is scored against the frozen hypotheses above, or against a later hypothesis snapshot only if that snapshot was committed before the item's timestamp and is named in the item's record."
+  },
+  "partition_order": "Freeze before collection. This file is committed before any eligible item exists. An item is eligible only if its own timestamp is later than the freeze point and later than the hypothesis snapshot it is scored against. Order per item: (1) capture verbatim with timestamp and the Kit moment it rules on; (2) blind prediction from the frozen hypotheses, given the Kit moment with the ruling withheld; (3) score prediction against the ruling; (4) only then may the item inform corpus hypotheses, and it moves to DISCOVERY with an append-only partition_history entry.",
+  "eligible": [
+    "Verbatim Brendon text with a timestamp (chat, Discord, PR comment, doc comment).",
+    "Rulings tied to a specific, preserved Kit moment (transcript excerpt or run id)."
+  ],
+  "ineligible": [
+    "Anything dated at or before the freeze point, including Calls 1-10, the marked-deck and fresco addenda and the live-game praise in research/kit-evaluation/table-calls-6c-2026-10-02.md, and any other Brendon feedback given before the freeze point. These are discovery.",
+    "Relayed or summarized rulings (marked '(summary)'); verbatim only.",
+    "Rulings Brendon gave after seeing a model prediction for the same moment.",
+    "Kit output of any kind. Kit's moves are the stimulus, never evidence.",
+    "Any Empire City or other historical material."
+  ],
+  "runtime_use": "Kit engineering may act on a ruling immediately (fixes, regression targets). The held-out restriction binds the corpus research layer: no hypothesis file under research/ may be revised from an item until that item is scored.",
+  "storage": "research/held-out/items.jsonl (created with the first item). Record fields: item_id (HO-YYYYMMDD-NNN), timestamp, verbatim, kit_moment_ref, captured_by, hypothesis_snapshot, prediction_ref, score, partition, partition_history.",
+  "promotion_gate": [
+    "Verify the item timestamp is after the freeze point.",
+    "Verify authorship is Brendon (verbatim, first person).",
+    "Produce the blind prediction before anyone scoring it reads the ruling, and record the prompt, model and settings.",
+    "After scoring, append partition_history moving the item to DISCOVERY."
+  ],
+  "known_limitations": [
+    "Items arrive slowly and only when Brendon plays or reviews Kit, so the set is small for a while.",
+    "Kit-mediated rulings are about solo play; they test transfer of the Roanoke-era hypotheses but cannot by themselves validate multi-DM or large-table claims.",
+    "The same agents that capture items also do research; the discipline above is procedural, not enforced by tooling."
+  ],
+  "historical_held_out_candidate": "Not designated. At War's End (BCS-000060..BCS-000067) is the least-read historical family (titles and dates only in research), but its bodies were normalized in the legacy staging bundle, authorship is UNKNOWN, and it is prep rather than live play. Brendon can designate it separately if he wants a historical held-out set.",
+  "items": []
+}

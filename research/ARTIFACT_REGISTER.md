@@ -137,6 +137,11 @@ This register is intentionally regenerated from paths rather than storing commit
 - `research/prior-dnd-solo/pr36-kit-decision-extraction/research/decision-corpus/2026-10-01/source-index.json`
 - `research/prior-dnd-solo/pr36-kit-decision-extraction/research/decision-corpus/2026-10-01/trait-evidence.json`
 
+## Held-out evaluation
+
+- `research/held-out/README.md`
+- `research/held-out/partition-2026-10-03.json`
+
 ## Current synthesis
 
 - `research/current-synthesis/working-model-2026-10-01.md`

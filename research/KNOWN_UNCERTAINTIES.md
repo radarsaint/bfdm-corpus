@@ -27,6 +27,8 @@ Season 4 now has a harvested Discord server explicitly identifying itself as `Se
 
 `BCS-000003` / *Empire City Backlog Notes* explicitly labels **July 10, 2021** as Week One / Day One, so S4's live opening boundary is confirmed for the planned campaign sequence.
 
+(2026-10-03: `BCS-000003` was under evaluation quarantine when this was cited. The quarantine is now void, so the citation stands as discovery evidence. See `CORRECTIONS_LOG.md`.)
+
 The exact final S4 close remains less precise: the final fight is announced for August 25, “The King is Dead” follows August 26, epilogue week is announced August 28, and epilogues are closing by September 2. Seasons 2 and 5 still need stronger live-window reconstruction.
 
 Do not use Drive creation dates or whole-server message ranges as campaign start/end dates; use the confirmed July 10 S4 opening where relevant.
@@ -180,3 +182,19 @@ Resolved in the deep pass:
 - July 10, 2021 opening boundary;
 - the stock-market implementation (Rob's Sheet: random baseline movement plus authored plot adjustments, bot reload at 6 AM Pacific);
 - the live July 11 “seat of the empire” naming explanation, with pre-launch June 9 “heart of Empire” context.
+
+
+## Held-out evaluation after the Empire City void (2026-10-03)
+
+### What we know
+- The Empire City quarantine was spent on 2026-10-02 and voided by Brendon on 2026-10-03.
+- The replacement held-out set is prospective: Brendon's verbatim rulings on Kit table moments dated after the freeze commit (`held-out/partition-2026-10-03.json`).
+
+### What remains unresolved
+- Whether the Drive bodies of `BCS-000001`–`BCS-000015` were read on 2026-10-02, or only their titles and dates were cited. They are treated as exposed.
+- Whether the S3 and S4 agreements hold up anywhere else. They were both built from discovery material, so no historical held-out confirmation exists for any cross-season lead.
+- How long it takes for the prospective set to grow large enough to score anything. Items only arrive when Brendon plays or reviews Kit.
+- Whether solo, Kit-mediated rulings can test claims about large multi-DM tables. They test transfer of those claims, not the claims themselves.
+- Whether Brendon also wants a historical held-out set. At War's End is the least-read candidate, but it has never been proven unread.
+
+Do not call any S3/S4 pattern "validated" until it has been scored against an item from the prospective set.
