@@ -358,6 +358,19 @@ Mothman is a compact example:
 
 This is a developmental hypothesis, not a complete S2/S3/S4 verdict.
 
+### Stock-market implementation
+
+The market mechanism is now directly recoverable from Rob's **Wall Street Stock Market** Sheet (Drive `125_rxx6iP7rQg4oZq7T13n9jGSwPJd81ju0yrWJsHVo`) and the bot-development Discord.
+
+The implemented system is hybrid:
+- prices are calculated from starting price plus cumulative dated adjustments;
+- ordinary movement is seeded with `RANDBETWEEN(-10,25)`;
+- major plot shocks are hard-coded as larger daily adjustments;
+- ArcaniaBot reloads the Sheet's prices at 6 AM Pacific;
+- early discussion considered player transaction volume as a price input, but that is not present in the surviving implemented price formula.
+
+This makes the stock market a deliberately noisy **world-state model**, rather than either a pure random walk or a player-demand simulation.
+
 ## 24. Evidence boundaries still open
 
 Directly supported:
