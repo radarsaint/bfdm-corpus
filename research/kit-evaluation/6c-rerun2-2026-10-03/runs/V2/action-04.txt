@@ -1,0 +1,4 @@
+I rage and swing my greataxe at the dealer.
+Brakka attacks with a Greataxe!
+**To Hit**: 1d20 (11) + 7 = `18`
+**Damage**: 1d12 (5) + 6 [slashing] = `11`

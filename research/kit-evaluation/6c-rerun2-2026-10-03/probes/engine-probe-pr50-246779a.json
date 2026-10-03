@@ -1,0 +1,282 @@
+{
+ "V1": [
+  {
+   "line": 1,
+   "action": "I sweep in with a bow. 'Gentlemen of the night! I'd heard the finest company in Undermountain kept a table down here.'",
+   "kind": "social",
+   "public": "You declare: \"I sweep in with a bow. 'Gentlemen of the night! I'd heard the finest company in Undermountain kept a table down here.'\""
+  },
+  {
+   "line": 2,
+   "action": "'Oh, the toll? Harria settled it for me at the well. She said you'd know my face.'\nSela makes a Deception check! 1d20 (12) + 10 = `22`",
+   "kind": "toll_appeal",
+   "public": "The dealer lets it go. No toll for you this time."
+  },
+  {
+   "line": 3,
+   "action": "'You don't have to take my word. But I'd hate to tell her you turned away her guest.'\nSela makes a Persuasion check! 1d20 (1) + 10 = `11`",
+   "kind": "social_check",
+   "public": "The dealer comes around to it."
+  },
+  {
+   "line": 4,
+   "action": "I take the empty chair and ask the dealer what a lady has to do to be dealt in.",
+   "kind": "card_offer",
+   "public": "You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is whatever you bet; the house plays 10 gp a round. Which way?"
+  }
+ ],
+ "V2": [
+  {
+   "line": 1,
+   "action": "I kick the door wide and fill the doorway. 'Who's in charge here?'",
+   "kind": "social",
+   "public": "You declare: \"I kick the door wide and fill the doorway. 'Who's in charge here?'\""
+  },
+  {
+   "line": 2,
+   "action": "Toll? I slam my axe into the table. 'I pay with this. Who wants change?'\nBrakka makes an Intimidation check! 1d20 (15) + 4 = `19`",
+   "kind": "toll_threaten",
+   "public": "The dealer weighs the threat and decides your passage is not worth the trouble. No toll."
+  },
+  {
+   "line": 3,
+   "action": "I grab the nearest pale one by the collar and haul him up to look at his teeth.\nBrakka makes an Athletics check! 1d20 (9) + 7 = `16`",
+   "kind": "physical_act",
+   "public": "You have the door-side player by the collar, and he cannot pull free. Up close, the fangs are a fitted piece sitting proud of his own teeth, with paint caked at the gumline."
+  },
+  {
+   "line": 4,
+   "action": "I rage and swing my greataxe at the dealer.\nBrakka attacks with a Greataxe!\n**To Hit**: 1d20 (11) + 7 = `18`\n**Damage**: 1d12 (5) + 6 [slashing] = `11`",
+   "kind": "combat_round",
+   "public": "Your greataxe hits the dealer. The dealer is hurt. Roll initiative."
+  }
+ ],
+ "V3": [
+  {
+   "line": 1,
+   "action": "I step in and let my eyes catch the light. 'Cousins. I didn't know there were others of the blood this close to the surface.'",
+   "kind": "social",
+   "public": "You declare: \"I step in and let my eyes catch the light. 'Cousins. I didn't know there were others of the blood this close to the surface.'\""
+  },
+  {
+   "line": 2,
+   "action": "I lean over the dealer and breathe in. 'You smell of tallow and sweat. Which nest turned you?'\nVesna makes an Insight check! 1d20 (14) + 4 = `18`",
+   "kind": "check",
+   "public": "Their pallor and fangs are theatrical. They are posing as vampires."
+  },
+  {
+   "line": 3,
+   "action": "Fine, I'll play along. 'Our kind look after our own. No toll between family, surely?'\nVesna makes a Deception check! 1d20 (6) + 6 = `12`",
+   "kind": "toll_appeal",
+   "public": "The dealer lets it go. No toll for you this time."
+  },
+  {
+   "line": 4,
+   "action": "I bare my fangs at the fourth player and ask, very quietly, how long since it last fed.",
+   "kind": "social",
+   "public": "You declare: \"I bare my fangs at the fourth player and ask, very quietly, how long since it last fed.\""
+  }
+ ],
+ "V4": [
+  {
+   "line": 1,
+   "action": "I nod to the table and walk straight past to the north wall. What's this carving?",
+   "kind": "social",
+   "public": "You declare: \"I nod to the table and walk straight past to the north wall. What's this carving?\""
+  },
+  {
+   "line": 2,
+   "action": "Dwarves? I look back at the card players, then I search the little dwarf figures closely.\nNik makes a Perception check! 1d20 (13) + 4 = `17`",
+   "kind": "check",
+   "public": "One carved dwarf lifts out of the fresco. It is a small stone key."
+  },
+  {
+   "line": 3,
+   "action": "I crouch by the stone tub. What's in it?",
+   "kind": "inspect_tub",
+   "public": "You look into the recessed tub and see a bedroll, thieves\u2019 tools, and a bundle of stolen travel gear."
+  },
+  {
+   "line": 4,
+   "action": "'Please, go on with your game. I'm only admiring the stonework.'",
+   "kind": "social",
+   "public": "You declare: \"'Please, go on with your game. I'm only admiring the stonework.'\""
+  }
+ ],
+ "V5": [
+  {
+   "line": 1,
+   "action": "I sit, put down ten gold, and say I'll play. I watch the dealer's hands the whole time.\nWren makes a Perception check! 1d20 (15) + 3 = `18`",
+   "kind": "card_watch",
+   "public": "You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 10 gp. Which way? Your eyes will be on the dealer's hands when he deals."
+  },
+  {
+   "line": 2,
+   "action": "I grab his wrist mid-deal. 'That one came from the bottom. Turn the deck over.'",
+   "kind": "card_accuse",
+   "public": "Nothing on the table proves it. The game stops while every face at the table turns to you."
+  },
+  {
+   "line": 3,
+   "action": "I flip the deck face-down and show everyone the marks on the backs.\nWren makes an Investigation check! 1d20 (12) + 3 = `15`",
+   "kind": "check",
+   "public": "Faint marks run along the card backs, and the dealer reads them as he deals."
+  },
+  {
+   "line": 4,
+   "action": "I put my rapier through his hand.\nWren attacks with a Rapier!\n**To Hit**: 1d20 (12) + 5 = `17`\n**Damage**: 1d8 (5) + 3 [piercing] = `8`",
+   "kind": "combat_round",
+   "public": "Your rapier hits the dealer. The dealer is hurt. The wound bleeds bright and red, and the white paint smears with it. Roll initiative."
+  }
+ ],
+ "V6": [
+  {
+   "line": 1,
+   "action": "Kit, before this: I set off the wailing staff in 6a, then went around through 6b and kicked that rigged door.",
+   "kind": "social",
+   "public": "You declare: \"Kit, before this: I set off the wailing staff in 6a, then went around through 6b and kicked that rigged door.\""
+  },
+  {
+   "line": 2,
+   "action": "I head on toward 6c, axe out, ready for whatever came running.",
+   "kind": "observe",
+   "public": "You look around the room."
+  },
+  {
+   "line": 3,
+   "action": "What's in the room now?",
+   "kind": "social",
+   "public": "You declare: \"What's in the room now?\""
+  }
+ ],
+ "V7": [
+  {
+   "line": 1,
+   "action": "I stop at the door. 'Ten gold just to walk through a room? For what, exactly?'",
+   "kind": "social",
+   "public": "You declare: \"I stop at the door. 'Ten gold just to walk through a room? For what, exactly?'\""
+  },
+  {
+   "line": 2,
+   "action": "'I'll give you three. That's more than this room is worth.'\nNik makes a Persuasion check! 1d20 (10) + 1 = `11`",
+   "kind": "toll_haggle",
+   "public": "3 gp gets no traction. The ask stays at 10 gp."
+  },
+  {
+   "line": 3,
+   "action": "'Then I'm not paying. I'll walk through anyway.'",
+   "kind": "toll_refuse",
+   "public": "You refuse the toll. The table closes ranks: the dealer's courtesy goes cold, the others shift their chairs between you and the south door, and the demand is made again as a warning."
+  },
+  {
+   "line": 4,
+   "action": "Actually, wait. 'Tell you what: I'll play you for it. One hand. I win, I pass free.'",
+   "kind": "card_offer",
+   "public": "The toll rides on the next round: win and it is waived, lose and the 10 gp is paid from the stake. You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is whatever you bet; the house plays 10 gp a round. Which way?"
+  }
+ ],
+ "V8": [
+  {
+   "line": 1,
+   "action": "I pull up a chair. 'Do you lot play blackjack? I don't know your fancy games.'",
+   "kind": "social",
+   "public": "You declare: \"I pull up a chair. 'Do you lot play blackjack? I don't know your fancy games.'\""
+  },
+  {
+   "line": 2,
+   "action": "'I'll bet fifty gold.'",
+   "kind": "card_offer",
+   "public": "The most this table plays is 25 gp a round, so the bet is 25 gp. You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 25 gp. Which way?"
+  },
+  {
+   "line": 3,
+   "action": "'Fine, twenty, and I'll play it out. Hit.'",
+   "kind": "card_mode_play",
+   "public": "Twenty-one, 20 gp a side. Your cards: 2 of spades and 8 of clubs, 10. The dealer shows the 9 of spades. You take the 3 of hearts: 13. Hit or stand?"
+  },
+  {
+   "line": 4,
+   "action": "'Just roll for this one, I'm tired of counting.'\nWren makes a Sleight of Hand check! 1d20 (6) + 7 = `13`",
+   "kind": "card_mode_check",
+   "public": "You set the hand aside and settle it the quick way. One round, 20 gp a side, settled on Sleight of Hand. You lose 20 gp to the house."
+  }
+ ],
+ "V9": [
+  {
+   "line": 1,
+   "action": "From the doorway, before anyone says a word, I cast Fireball at the middle of the card table.\nNik casts Fireball!\n**Damage**: 8d6 (4, 3, 5, 2, 6, 1, 4, 3) [fire] = `28`",
+   "kind": "combat_round",
+   "public": "Your Fireball bursts over the table. The door-side player goes down and does not get up. Greasepaint runs and blisters on the burned faces, and the skin under it is ordinary, reddening skin. The fresco-side player goes down and does not get up. The fourth player is hurt. The dealer is hurt. Roll initiative."
+  },
+  {
+   "line": 2,
+   "action": "Rolling initiative.\n**Initiative**: 1d20 (12) + 2 = `14`",
+   "kind": "combat_round",
+   "public": "Turn order: you, the fourth player, the dealer. The fourth player hits you twice: 14 bludgeoning damage. The dealer breaks off, snatches up what he can reach, and runs out through the south door, shouting blame at the others over his shoulder. Your turn."
+  },
+  {
+   "line": 3,
+   "action": "Whoever's still standing, I hit with Fire Bolt.\nNik casts Fire Bolt!\n**To Hit**: 1d20 (12) + 7 = `19`\n**Damage**: 2d10 (4, 5) [fire] = `9`",
+   "kind": "combat_round",
+   "public": "Your Fire Bolt hits the fourth player. The fourth player is hurt. The fourth player is suddenly at the south door, and then gone through it. Nobody is left in the room to fight you."
+  },
+  {
+   "line": 4,
+   "action": "I let them go and check the table.",
+   "kind": "observe",
+   "public": "You look around the room."
+  }
+ ],
+ "V10": [
+  {
+   "line": 1,
+   "action": "I lean on the table. 'Vampires? I've seen scarier things at a puppet show. Is that flour on your face?'",
+   "kind": "social",
+   "public": "You declare: \"I lean on the table. 'Vampires? I've seen scarier things at a puppet show. Is that flour on your face?'\""
+  },
+  {
+   "line": 2,
+   "action": "I lick my thumb and wipe a streak of paint off the dealer's cheek, in front of everyone.",
+   "kind": "physical_act",
+   "public": "Your hand reaches the dealer's face before he can stop it. The paint comes away in a pale streak, and the skin under it is ordinary and flushed."
+  },
+  {
+   "line": 3,
+   "action": "While they're gaping, I scoop a handful of coins from the pot and pocket them. 'Toll paid.'\nWren makes a Sleight of Hand check! 1d20 (14) + 7 = `21`",
+   "kind": "combat_round",
+   "public": "You come away with a handful of the table coins. That is the line they will not let go: chairs scrape back and blades come out. Roll initiative."
+  },
+  {
+   "line": 4,
+   "action": "I've got my rapier out and wait for them to make the first move.\n**Initiative**: 1d20 (13) + 4 = `17`",
+   "kind": "combat_round",
+   "public": "Turn order: you, the fourth player, the dealer, the door-side player, the fresco-side player. You hold your ground and wait for them to come to you. The fourth player hits you twice: 14 bludgeoning damage. The dealer hits you twice: 6 slashing and 5 piercing damage. You go down."
+  }
+ ],
+ "V11": [
+  {
+   "line": 1,
+   "action": "I walk up to the card table, grab the edge, and heave it over, coins and all.\nBrakka makes an Athletics check! 1d20 (11) + 7 = `18`",
+   "kind": "physical_act",
+   "public": "The table goes over with a crash. Cards, coins, and the silver ring spill across the floor. The door-side player drops to his knees after the coins. His cape trails in the spill as he scrabbles for copper like any man after money; nothing undead about it. The fourth player does not look at the coins at all; it watches you. The dealer's hand closes on the silver ring before anyone else's."
+  },
+  {
+   "line": 2,
+   "action": "I stand in the spill of gold and grin. 'Well, go on. Pick it up.'",
+   "kind": "social",
+   "public": "You declare: \"I stand in the spill of gold and grin. 'Well, go on. Pick it up.'\""
+  },
+  {
+   "line": 3,
+   "action": "I stomp on their hand.",
+   "kind": "pending",
+   "public": "Roll the attack for your stomp in Avrae, with its damage. No turn was committed."
+  },
+  {
+   "line": 4,
+   "action": "Rolling initiative if it comes to that. I rage and swing my greataxe.\n**Initiative**: 1d20 (7) + 1 = `8`\nBrakka attacks with a Greataxe!\n**To Hit**: 1d20 (13) + 7 = `20`\n**Damage**: 1d12 (8) + 6 [slashing] = `14`",
+   "kind": "combat_round",
+   "public": "Turn order: the fourth player, the dealer, the door-side player, the fresco-side player, you. The fourth player swings at you and misses every time. The dealer hits you 3 times: 12 slashing and 5 piercing damage. The door-side player hits you: 8 slashing damage. The fresco-side player hits you: 4 slashing damage. Your greataxe hits the dealer. The dealer is hurt. The fourth player hits you twice: 14 bludgeoning damage. The dealer breaks off, snatches up what he can reach, and runs out through the south door, shouting blame at the others over his shoulder. The door-side player bolts through the south door after the dealer. The fresco-side player shoves past the table and runs out through the south door. Your turn."
+  }
+ ]
+}

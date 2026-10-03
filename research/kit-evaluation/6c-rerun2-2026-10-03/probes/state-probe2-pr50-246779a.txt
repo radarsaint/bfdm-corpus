@@ -1,0 +1,40 @@
+===== Targeted Fireball: Fourth player listed as failing, Kit roll 20 (expect doppelganger 28)
+[combat_round] I cast Fireball at the card table. | Nik casts Fireball! | **DC**: 15 | Fourth player | **DEX Save**: 1d20 (2) + 3 = `5`; Failure! | **Damage**: 8d6 (4, 3, 5, 2
+   -> Your Fireball bursts over the table. The door-side player goes down and does not get up. Greasepaint runs and blisters on the burned faces, and the skin under it is ordinary, reddening skin. The fresco-side player goes down and does not get up. The fourth player is badly hurt. The dealer is hurt. Roll initiative.
+   damage taken: {'bandit_a': 11, 'bandit_b': 11, 'doppelganger': 28, 'uktarl': 14} | status: {'bandit_a': 'dead', 'bandit_b': 'dead', 'doppelganger': 'alive', 'uktarl': 'alive'}
+   events: ['scene_state', 'combat_state', 'actor_status', 'actor_status', 'reveal_fact']
+===== Card context: just roll, skill named in words, plain total
+[card_offer] 'I'll bet ten gold.'
+   -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 10 gp. Which way?
+   events: ['procedure_state', 'toll_state', 'beat']
+[card_mode_check] 'Just roll for it. Sleight of hand, 13.'
+   -> One round, 13 gp a side, settled on Sleight of Hand. You win 13 gp.
+   events: ['procedure_state', 'beat']
+===== Card context: just roll, bare Avrae line, no skill
+[card_offer] 'I'll bet ten gold.'
+   -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 10 gp. Which way?
+   events: ['procedure_state', 'toll_state', 'beat']
+[card_mode_check] 'Just roll for it.' | 1d20 (6) + 7 = `13`
+   -> One round, 10 gp a side, settled on Insight. You lose 10 gp to the house.
+   events: ['procedure_state', 'beat']
+===== Card context: just roll, implied skill (palming)
+[card_offer] 'I'll bet ten gold.'
+   -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 10 gp. Which way?
+   events: ['procedure_state', 'toll_state', 'beat']
+[card_mode_check] 'Just roll it, I'll palm a card if I have to.' | 1d20 (6) + 7 = `13`
+   -> One round, 10 gp a side, settled on Sleight of Hand. You lose 10 gp to the house.
+   events: ['procedure_state', 'beat']
+===== Card context: bet in words + roll title (expect 15 gp, not 18/25)
+[card_offer] 'Deal me in.'
+   -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is whatever you bet; the house plays 10 gp a round. Which way?
+   events: ['procedure_state', 'toll_state', 'beat']
+[card_mode_check] 'Fifteen gold, and I'll just roll for it.' | Wren makes a Sleight of Hand check! 1d20 (18) + 7 = `25`
+   -> One round, 15 gp a side, settled on Sleight of Hand. You win 15 gp.
+   events: ['procedure_state', 'beat']
+===== Bet with Avrae roll only, no amount (expect house 10, not 18)
+[card_offer] 'Deal me in.'
+   -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is whatever you bet; the house plays 10 gp a round. Which way?
+   events: ['procedure_state', 'toll_state', 'beat']
+[card_mode_check] 'Just roll it.' | Wren makes a Sleight of Hand check! 1d20 (18) + 7 = `25`
+   -> One round, 10 gp a side, settled on Sleight of Hand. You win 10 gp.
+   events: ['procedure_state', 'beat']

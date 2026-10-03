@@ -1,0 +1,50 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "4780291f-ca31-404e-9558-9fe82773e193",
+   "committed_at": 1791046045.6103034,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 2.888,
+   "prepared_at": 1791046042.7218566
+  },
+  {
+   "turn_id": "82727d34-04fe-4cd3-8c7b-6c358e7c54d4",
+   "committed_at": 1791046048.64363,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 2.9,
+   "prepared_at": 1791046045.743918
+  },
+  {
+   "turn_id": "8d6c6fce-5ad9-4a8c-ad5b-77bd478e411d",
+   "committed_at": 1791046052.1420743,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 3.363,
+   "prepared_at": 1791046048.778979
+  },
+  {
+   "turn_id": "ef970cdf-fe58-4e99-8887-f97d97d433ea",
+   "committed_at": 1791046096.6389372,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 44.37,
+   "prepared_at": 1791046052.2693458
+  },
+  {
+   "turn_id": "536c38af-7803-4089-95a3-cff101bac561",
+   "committed_at": 1791046111.6294448,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 14.864,
+   "prepared_at": 1791046096.7655702
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+== V1 (sela-bard.json)
+  1. [social] I sweep in with a bow. 'Gentlemen of the night! I'd heard the finest company in Undermountain kept a table down here.'
+       -> You declare: "I sweep in with a bow. 'Gentlemen of the night! I'd heard the finest company in Undermountain kept a table down here.'"
+  2. [toll_appeal] 'Oh, the toll? Harria settled it for me at the well. She said you'd know my face.'
+       | Sela makes a Deception check! 1d20 (12) + 10 = `22`
+       -> The dealer lets it go. No toll for you this time.
+  3. [social_check] 'You don't have to take my word. But I'd hate to tell her you turned away her guest.'
+       | Sela makes a Persuasion check! 1d20 (1) + 10 = `11`
+       -> The dealer comes around to it.
+  4. [card_offer] I take the empty chair and ask the dealer what a lady has to do to be dealt in.
+       -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is whatever you bet; the house plays 10 gp a round. Which way?
+== V2 (brakka-barbarian.json)
+  1. [social] I kick the door wide and fill the doorway. 'Who's in charge here?'
+       -> You declare: "I kick the door wide and fill the doorway. 'Who's in charge here?'"
+  2. [toll_threaten] Toll? I slam my axe into the table. 'I pay with this. Who wants change?'
+       | Brakka makes an Intimidation check! 1d20 (15) + 4 = `19`
+       -> The dealer weighs the threat and decides your passage is not worth the trouble. No toll.
+  3. [physical_act] I grab the nearest pale one by the collar and haul him up to look at his teeth.
+       | Brakka makes an Athletics check! 1d20 (9) + 7 = `16`
+       -> You have the door-side player by the collar, and he cannot pull free. Up close, the fangs are a fitted piece sitting proud of his own teeth, with paint caked at the gumline.
+  4. [combat_round] I rage and swing my greataxe at the dealer.
+       | Brakka attacks with a Greataxe!
+       | **To Hit**: 1d20 (11) + 7 = `18`
+       | **Damage**: 1d12 (5) + 6 [slashing] = `11`
+       -> Your greataxe hits the dealer. The dealer is hurt. Roll initiative.
+== V3 (vesna-dhampir.json)
+  1. [social] I step in and let my eyes catch the light. 'Cousins. I didn't know there were others of the blood this close to the surface.'
+       -> You declare: "I step in and let my eyes catch the light. 'Cousins. I didn't know there were others of the blood this close to the surface.'"
+  2. [check] I lean over the dealer and breathe in. 'You smell of tallow and sweat. Which nest turned you?'
+       | Vesna makes an Insight check! 1d20 (14) + 4 = `18`
+       -> Their pallor and fangs are theatrical. They are posing as vampires.
+  3. [toll_appeal] Fine, I'll play along. 'Our kind look after our own. No toll between family, surely?'
+       | Vesna makes a Deception check! 1d20 (6) + 6 = `12`
+       -> The dealer lets it go. No toll for you this time.
+  4. [social] I bare my fangs at the fourth player and ask, very quietly, how long since it last fed.
+       -> You declare: "I bare my fangs at the fourth player and ask, very quietly, how long since it last fed."
+== V4 (nik.json)
+  1. [social] I nod to the table and walk straight past to the north wall. What's this carving?
+       -> You declare: "I nod to the table and walk straight past to the north wall. What's this carving?"
+  2. [check] Dwarves? I look back at the card players, then I search the little dwarf figures closely.
+       | Nik makes a Perception check! 1d20 (13) + 4 = `17`
+       -> One carved dwarf lifts out of the fresco. It is a small stone key.
+  3. [inspect_tub] I crouch by the stone tub. What's in it?
+       -> You look into the recessed tub and see a bedroll, thieves’ tools, and a bundle of stolen travel gear.
+  4. [social] 'Please, go on with your game. I'm only admiring the stonework.'
+       -> You declare: "'Please, go on with your game. I'm only admiring the stonework.'"
+== V5 (example_pc.json)
+  1. [card_watch] I sit, put down ten gold, and say I'll play. I watch the dealer's hands the whole time.
+       | Wren makes a Perception check! 1d20 (15) + 3 = `18`
+       -> You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 10 gp. Which way? Your eyes will be on the dealer's hands when he deals.
+  2. [card_accuse] I grab his wrist mid-deal. 'That one came from the bottom. Turn the deck over.'
+       -> Nothing on the table proves it. The game stops while every face at the table turns to you.
+  3. [check] I flip the deck face-down and show everyone the marks on the backs.
+       | Wren makes an Investigation check! 1d20 (12) + 3 = `15`
+       -> Faint marks run along the card backs, and the dealer reads them as he deals.
+  4. [combat_round] I put my rapier through his hand.
+       | Wren attacks with a Rapier!
+       | **To Hit**: 1d20 (12) + 5 = `17`
+       | **Damage**: 1d8 (5) + 3 [piercing] = `8`
+       -> Your rapier hits the dealer. The dealer is hurt. The wound bleeds bright and red, and the white paint smears with it. Roll initiative.
+== V6 (brakka-barbarian.json)
+  1. [social] Kit, before this: I set off the wailing staff in 6a, then went around through 6b and kicked that rigged door.
+       -> You declare: "Kit, before this: I set off the wailing staff in 6a, then went around through 6b and kicked that rigged door."
+  2. [observe] I head on toward 6c, axe out, ready for whatever came running.
+       -> You look around the room.
+  3. [social] What's in the room now?
+       -> You declare: "What's in the room now?"
+== V7 (nik.json)
+  1. [social] I stop at the door. 'Ten gold just to walk through a room? For what, exactly?'
+       -> You declare: "I stop at the door. 'Ten gold just to walk through a room? For what, exactly?'"
+  2. [toll_haggle] 'I'll give you three. That's more than this room is worth.'
+       | Nik makes a Persuasion check! 1d20 (10) + 1 = `11`
+       -> 3 gp gets no traction. The ask stays at 10 gp.
+  3. [toll_refuse] 'Then I'm not paying. I'll walk through anyway.'
+       -> You refuse the toll. The table closes ranks: the dealer's courtesy goes cold, the others shift their chairs between you and the south door, and the demand is made again as a warning.
+  4. [card_offer] Actually, wait. 'Tell you what: I'll play you for it. One hand. I win, I pass free.'
+       -> The toll rides on the next round: win and it is waived, lose and the 10 gp is paid from the stake. You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is whatever you bet; the house plays 10 gp a round. Which way?
+== V8 (example_pc.json)
+  1. [social] I pull up a chair. 'Do you lot play blackjack? I don't know your fancy games.'
+       -> You declare: "I pull up a chair. 'Do you lot play blackjack? I don't know your fancy games.'"
+  2. [card_offer] 'I'll bet fifty gold.'
+       -> The most this table plays is 25 gp a round, so the bet is 25 gp. You want in. Two ways to play a round: settle it with one check, or play it out as twenty-one (blackjack), closest to 21 without going over. The stake is your 25 gp. Which way?
+  3. [card_mode_play] 'Fine, twenty, and I'll play it out. Hit.'
+       -> Twenty-one, 20 gp a side. Your cards: 2 of spades and 8 of clubs, 10. The dealer shows the 9 of spades. You take the 3 of hearts: 13. Hit or stand?
+  4. [card_mode_check] 'Just roll for this one, I'm tired of counting.'
+       | Wren makes a Sleight of Hand check! 1d20 (6) + 7 = `13`
+       -> You set the hand aside and settle it the quick way. One round, 20 gp a side, settled on Sleight of Hand. You lose 20 gp to the house.
+== V9 (nik.json)
+  1. [combat_round] From the doorway, before anyone says a word, I cast Fireball at the middle of the card table.
+       | Nik casts Fireball!
+       | **Damage**: 8d6 (4, 3, 5, 2, 6, 1, 4, 3) [fire] = `28`
+       -> Your Fireball bursts over the table. The door-side player goes down and does not get up. Greasepaint runs and blisters on the burned faces, and the skin under it is ordinary, reddening skin. The fresco-side player goes down and does not get up. The fourth player is hurt. The dealer is hurt. Roll initiative.
+  2. [combat_round] Rolling initiative.
+       | **Initiative**: 1d20 (12) + 2 = `14`
+       -> Turn order: you, the fourth player, the dealer. The fourth player hits you twice: 14 bludgeoning damage. The dealer breaks off, snatches up what he can reach, and runs out through the south door, shouting blame at the others over his shoulder. Your turn.
+  3. [combat_round] Whoever's still standing, I hit with Fire Bolt.
+       | Nik casts Fire Bolt!
+       | **To Hit**: 1d20 (12) + 7 = `19`
+       | **Damage**: 2d10 (4, 5) [fire] = `9`
+       -> Your Fire Bolt hits the fourth player. The fourth player is hurt. The fourth player is suddenly at the south door, and then gone through it. Nobody is left in the room to fight you.
+  4. [observe] I let them go and check the table.
+       -> You look around the room.
+== V10 (example_pc.json)
+  1. [social] I lean on the table. 'Vampires? I've seen scarier things at a puppet show. Is that flour on your face?'
+       -> You declare: "I lean on the table. 'Vampires? I've seen scarier things at a puppet show. Is that flour on your face?'"
+  2. [physical_act] I lick my thumb and wipe a streak of paint off the dealer's cheek, in front of everyone.
+       -> Your hand reaches the dealer's face before he can stop it. The paint comes away in a pale streak, and the skin under it is ordinary and flushed.
+  3. [combat_round] While they're gaping, I scoop a handful of coins from the pot and pocket them. 'Toll paid.'
+       | Wren makes a Sleight of Hand check! 1d20 (14) + 7 = `21`
+       -> You come away with a handful of the table coins. That is the line they will not let go: chairs scrape back and blades come out. Roll initiative.
+  4. [combat_round] I've got my rapier out and wait for them to make the first move.
+       | **Initiative**: 1d20 (13) + 4 = `17`
+       -> Turn order: you, the fourth player, the dealer, the door-side player, the fresco-side player. You hold your ground and wait for them to come to you. The fourth player hits you twice: 14 bludgeoning damage. The dealer hits you twice: 6 slashing and 5 piercing damage. You go down.
+== V11 (brakka-barbarian.json)
+  1. [physical_act] I walk up to the card table, grab the edge, and heave it over, coins and all.
+       | Brakka makes an Athletics check! 1d20 (11) + 7 = `18`
+       -> The table goes over with a crash. Cards, coins, and the silver ring spill across the floor. The door-side player drops to his knees after the coins. His cape trails in the spill as he scrabbles for copper like any man after money; nothing undead about it. The fourth player does not look at the coins at all; it watches you. The dealer's hand closes on the silver ring before anyone else's.
+  2. [social] I stand in the spill of gold and grin. 'Well, go on. Pick it up.'
+       -> You declare: "I stand in the spill of gold and grin. 'Well, go on. Pick it up.'"
+  3. [pending] I stomp on their hand.
+       -> Roll the attack for your stomp in Avrae, with its damage. No turn was committed.
+  4. [combat_round] Rolling initiative if it comes to that. I rage and swing my greataxe.
+       | **Initiative**: 1d20 (7) + 1 = `8`
+       | Brakka attacks with a Greataxe!
+       | **To Hit**: 1d20 (13) + 7 = `20`
+       | **Damage**: 1d12 (8) + 6 [slashing] = `14`
+       -> Turn order: the fourth player, the dealer, the door-side player, the fresco-side player, you. The fourth player swings at you and misses every time. The dealer hits you 3 times: 12 slashing and 5 piercing damage. The door-side player hits you: 8 slashing damage. The fresco-side player hits you: 4 slashing damage. Your greataxe hits the dealer. The dealer is hurt. The fourth player hits you twice: 14 bludgeoning damage. The dealer breaks off, snatches up what he can reach, and runs out through the south door, shouting blame at the others over his shoulder. The door-side player bolts through the south door after the dealer. The fresco-side player shoves past the table and runs out through the south door. Your turn.

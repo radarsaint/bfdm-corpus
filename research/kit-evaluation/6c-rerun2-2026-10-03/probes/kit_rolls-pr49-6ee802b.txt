@@ -1,0 +1,90 @@
+## persuasion_title
+   check_roll => Roll(total=22, die=12, modifier=10, label='persuasion', form='avrae', start=31)
+   stated_skill => 'persuasion'
+   initiative => None
+   attack_total => None
+   damage => []
+   damage_total => (0, None)
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => None
+## sleight_title
+   check_roll => Roll(total=13, die=6, modifier=7, label='sleight_of_hand', form='avrae', start=36)
+   stated_skill => 'sleight_of_hand'
+   initiative => None
+   attack_total => None
+   damage => []
+   damage_total => (0, None)
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => None
+## plain
+   check_roll => Roll(total=22, die=None, modifier=None, label='persuasion', form='total', start=0)
+   stated_skill => 'persuasion'
+   initiative => None
+   attack_total => None
+   damage => []
+   damage_total => (0, None)
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => None
+## atk_block
+   check_roll => None
+   stated_skill => None
+   initiative => None
+   attack_total => 18
+   damage => [(11, 'slashing')]
+   damage_total => (11, 'slashing')
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => {'damage': [(11, 'slashing', None)], 'dc': None, 'targets': {}}
+## crit_block
+   check_roll => None
+   stated_skill => None
+   initiative => None
+   attack_total => 27
+   damage => [(20, 'slashing')]
+   damage_total => (20, 'slashing')
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => {'damage': [(20, 'slashing', None)], 'dc': None, 'targets': {}}
+## fireball
+   check_roll => None
+   stated_skill => None
+   initiative => None
+   attack_total => None
+   damage => [(28, 'fire')]
+   damage_total => (28, 'fire')
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => {'damage': [(28, 'fire', None)], 'dc': None, 'targets': {}}
+## firebolt
+   check_roll => None
+   stated_skill => None
+   initiative => None
+   attack_total => 19
+   damage => [(9, 'fire')]
+   damage_total => (9, 'fire')
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => {'damage': [(9, 'fire', None)], 'dc': None, 'targets': {}}
+## init
+   check_roll => None
+   stated_skill => None
+   initiative => 14
+   attack_total => None
+   damage => []
+   damage_total => (0, None)
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => None
+## bet_with_roll
+   check_roll => Roll(total=15, die=12, modifier=3, label='investigation', form='avrae', start=90)
+   stated_skill => 'investigation'
+   initiative => None
+   attack_total => None
+   damage => []
+   damage_total => (0, None)
+   without_rolls => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'without_rolls\'")'
+   number_words => 'ERR AttributeError("module \'runtime.kit_rolls\' has no attribute \'number_words\'")'
+   avrae => None

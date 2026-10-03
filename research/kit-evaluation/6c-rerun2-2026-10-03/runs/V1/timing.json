@@ -1,0 +1,52 @@
+{
+ "stage": "list",
+ "items": [
+  {
+   "turn_id": "f9279b1a-d374-434b-beb7-9b4f51104ecb",
+   "committed_at": 1791045668.16547,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 13.86,
+   "prepared_at": 1791045654.3059285
+  },
+  {
+   "turn_id": "14e81a11-5346-4f25-848a-b96323d8bb33",
+   "committed_at": 1791045712.2293594,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 43.891,
+   "prepared_at": 1791045668.3379042
+  },
+  {
+   "turn_id": "503ff75f-1607-4ccd-88f9-be46847ed5e8",
+   "committed_at": 1791045721.2268007,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 8.874,
+   "prepared_at": 1791045712.3528485
+  },
+  {
+   "turn_id": "0e85b187-625f-4254-a3dd-1509dd4d9397",
+   "committed_at": 1791045880.9668305,
+   "last_rejection": "player_mood cue must quote the player's words, name a player note (feedback nX), or start with pacing:",
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 159.601,
+   "prepared_at": 1791045721.366119,
+   "rejected_attempts": 2
+  },
+  {
+   "turn_id": "d4cf0027-8d1a-4b9c-b742-c2071ba45c5c",
+   "committed_at": 1791045905.4662125,
+   "mode": "one_pass",
+   "outcome": "committed",
+   "performance_variant": "kit_expression_v1",
+   "prepare_to_commit_s": 24.365,
+   "prepared_at": 1791045881.101568
+  }
+ ]
+}

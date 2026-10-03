@@ -1,0 +1,9 @@
+## V2 copy after the axe hit, initiative 5 (a_init.txt)
+EVENT: Turn order: the fourth player, the dealer, the door-side player, the fresco-side player, you. The fourth player hits you once: 7 bludgeoning damage. The dealer breaks off, snatches up what he can reach, and runs out through the south door, shouting blame at the others over his shoulder. The door-side player bolts through the south door after the dealer. The fresco-side player shoves past the table and runs out through the south door. Your turn.
+COMBAT: {"status": "running", "round": 2, "order": ["doppelganger", "uktarl", "bandit_a", "bandit_b", "pc"], "turn": null, "pc_damage": 7, "pc_initiative": 5, "acted": null}
+PC status keys: [] | actors: {'bandit_a': 'fled', 'bandit_b': 'fled', 'doppelganger': 'alive', 'uktarl': 'fled'}
+
+## V10 copy after round 1 (9 taken), rapier miss (a_w.txt)
+EVENT: Your rapier misses the dealer. The fourth player hits you twice: 21 bludgeoning damage. You go down.
+COMBAT: {"status": "running", "round": 3, "order": ["pc", "doppelganger", "uktarl", "bandit_a", "bandit_b"], "turn": null, "pc_damage": 30, "pc_initiative": 17, "acted": null}
+PC status keys: [] | actors: {'bandit_a': 'alive', 'bandit_b': 'alive', 'doppelganger': 'alive', 'uktarl': 'alive'}

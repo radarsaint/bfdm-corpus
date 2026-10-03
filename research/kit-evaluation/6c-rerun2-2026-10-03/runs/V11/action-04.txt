@@ -1,0 +1,5 @@
+Rolling initiative if it comes to that. I rage and swing my greataxe.
+**Initiative**: 1d20 (7) + 1 = `8`
+Brakka attacks with a Greataxe!
+**To Hit**: 1d20 (13) + 7 = `20`
+**Damage**: 1d12 (8) + 6 [slashing] = `14`
