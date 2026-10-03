@@ -50,6 +50,9 @@ This is explicitly provisional. It records what the research currently suggests 
 ## Creative-method leads
 
 - [bowling-event.md](creative-method/bowling-event.md)
+- [historical-mythologization-v1.md](creative-method/historical-mythologization-v1.md) — historical mysteries/details, institutions, local mythology, and transformation into playable structure.
+- [cryptids-s3-s4-v1.md](creative-method/cryptids-s3-s4-v1.md) — bounded comparison of cryptid function across S3/S4.
+- [mythic-institutions-s3-s4-v1.md](creative-method/mythic-institutions-s3-s4-v1.md) — secret-society/institution transformation lead.
 
 This section is for material that may reveal how Brendon pushes the form of D&D, designs mechanics, or turns unusual premises into playable systems.
 
@@ -93,7 +96,12 @@ Every new research artifact should answer:
 
 ## Empire City / Season 4
 
-- `empire-city/README.md` — source footing, identity, timing, and method.
-- `empire-city/decision-cases-v1.md` — first bounded S4 DM-judgment cases.
-- `empire-city/longitudinal-decision-cases-v1.md` — live adaptation and developmental chains.
-- `empire-city/player-feedback-v1.md` — end-of-season player evaluation sample, kept separate from Brendon evidence.
+Read in this order:
+1. `empire-city/design-method-synthesis-v1.md` — current bounded S4 synthesis and evidence boundaries.
+2. `empire-city/longitudinal-decision-cases-v1.md` — 17 prep→play→aftermath cases plus cross-case distillation.
+3. `empire-city/decision-cases-v1.md` — bounded local S4 judgment cases.
+4. `empire-city/source-fragment-map-v1.md` — source seed→mythic transformation→game-function map.
+5. `empire-city/player-feedback-v1.md` — player evaluation sample, kept separate from Brendon evidence.
+6. `empire-city/README.md` — source footing, timing, Work GPT handoff, and targeted open gaps.
+
+Do not restart broad Empire City discovery; return to the raw SQLite/Drive sources only for named gaps or new research questions.
