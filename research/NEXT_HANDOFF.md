@@ -131,7 +131,7 @@ Current audited state:
 Do not mark Point 4 complete until a final dry-run against the canonical checkout reports all 51 records `ALREADY_RECONCILED`.
 
 ## Point 5 — deliberate review and integration of PR #5
-**Status: REVIEW COMPLETE — READY FOR INTEGRATION.**
+**Status: COMPLETE — PR #5 MERGED INTO `main`.**
 
 Durable PR state:
 - PR #5 is the integration PR for this research workspace;
@@ -150,7 +150,7 @@ Reviewed for:
 - private/public boundary problems;
 - duplicated or superseded research files.
 
-The review passed. Integrate PR #5 so agents working only from `main` receive the corpus charter, ingestion contract, registries, methodology, research state, and hygiene rules.
+The review passed and PR #5 was merged. Agents should now treat current `main` as the canonical organizational/research baseline.
 
 ## Point 6 — recover the later Area 6c human-test transcript
 **Status: OPEN.**
@@ -181,11 +181,14 @@ Operational consequence:
 - model-facing/training/RAG/personality artifacts are downstream derivatives;
 - a current Kit architecture never determines what historical material survives.
 
-## Current working branch
+## Current canonical baseline
 
-`research/organize-current-work-v1`
+PR #5 has been deliberately reviewed and merged.
 
-Draft PR:
+New work should branch from current `main` unless a task-specific handoff says otherwise.
+
+Historical integration branch:
+- `research/organize-current-work-v1`
+
+Merged PR:
 - #5 — Organize current BFDM research and Kit evaluation
-
-Do not merge without deliberate review.
