@@ -19,15 +19,17 @@ Do not do personality synthesis, DM-decision extraction, or training-data constr
 
 ## Branch
 
-If PR #5 is not merged:
+PR #5 has been merged.
 
-`ingest/drive-project-v1` MUST branch from `research/organize-current-work-v1`.
-
-If PR #5 is merged:
-
-branch from current `main`.
+Create `ingest/drive-project-v1` from current `main`.
 
 Do not write directly to `main`.
+
+### Current Point 4 transport note
+
+The reconciliation audit and migrator are already complete. The previous chat runtime re-materialized and verified the 86.9 MB Library archive but could not push the binary source containers because it lacked an authenticated/networked binary Git transport.
+
+Work GPT should therefore make **Phase A the first write task**. If its environment has a real authenticated Git checkout or another binary-safe repository path, perform the migration and final dry-run. If it has the same connector-only content-string limitation, stop Phase A and report that exact transport boundary rather than attempting model-visible base64 transport or starting overlapping Phase B ingestion.
 
 ## Phase A — reconcile the existing staging body first
 
