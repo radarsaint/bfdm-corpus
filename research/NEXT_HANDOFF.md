@@ -131,7 +131,7 @@ Current audited state:
 Do not mark Point 4 complete until a final dry-run against the canonical checkout reports all 51 records `ALREADY_RECONCILED`.
 
 ## Point 5 — deliberate review and integration of PR #5
-**Status: OPEN.**
+**Status: REVIEW COMPLETE — READY FOR INTEGRATION.**
 
 Durable PR state:
 - PR #5 is the integration PR for this research workspace;
@@ -140,9 +140,9 @@ Durable PR state:
 
 Do not store head SHA, commit count, or changed-file count here: committing this handoff changes those values. Query PR #5 live when beginning Point 5.
 
-Do not blindly merge.
+Deliberate review is recorded in `research/PR5_REVIEW_2026-10-02.md`.
 
-Before Work GPT begins a large ingest against main, review PR #5 for:
+Reviewed for:
 - archive-first consistency;
 - stale status/provenance statements;
 - schema/validator coherence;
@@ -150,7 +150,7 @@ Before Work GPT begins a large ingest against main, review PR #5 for:
 - private/public boundary problems;
 - duplicated or superseded research files.
 
-After deliberate review, integrate it so agents working only from `main` receive the corpus charter, ingestion contract, registries, methodology, research state, and hygiene rules.
+The review passed. Integrate PR #5 so agents working only from `main` receive the corpus charter, ingestion contract, registries, methodology, research state, and hygiene rules.
 
 ## Point 6 — recover the later Area 6c human-test transcript
 **Status: OPEN.**
