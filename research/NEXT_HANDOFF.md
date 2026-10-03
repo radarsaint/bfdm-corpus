@@ -1,6 +1,6 @@
 # Next Handoff
 
-**Status:** Points 1–3 and 7 completed. Point 4 is next.
+**Status:** Points 1–3 and 7 completed. Point 4 remains next. Empire City / S4 now also has a completed first deep research pass.
 
 ## Point 1 — retrospective/current-project statements as attributable evidence
 **Status: completed.**
@@ -62,6 +62,45 @@ Important invariants:
 - Empire City / Season 4 is harvested and linked to `roanoke-s4`; Brendon is now account-ID confirmed there as Discord user `313689699627696139`, username `bfdm`, display name `DM radar`;
 - source anchors are project relationships, not passage-level authorship claims;
 - developmental ordering is chronology, not a quality/importance score.
+
+
+
+## Empire City / S4 research handoff
+**Status: FIRST DEEP PASS COMPLETE; targeted gaps remain.**
+
+Start here:
+1. `research/empire-city/design-method-synthesis-v1.md`
+2. `research/empire-city/longitudinal-decision-cases-v1.md`
+3. `research/empire-city/decision-cases-v1.md`
+4. `research/empire-city/source-fragment-map-v1.md`
+5. `research/creative-method/historical-mythologization-v1.md`
+6. `research/creative-method/cryptids-s3-s4-v1.md`
+
+The longitudinal file contains 17 prep→play→aftermath cases plus cross-case distillation. Do not restart broad Empire City discovery.
+
+Primary live source: `discord/empire-city/empire-city.sqlite`. Brendon attribution is resolved as Discord account `313689699627696139` / `bfdm` / `DM radar` and is recorded in `registry/identities.jsonl`.
+
+High-value findings include:
+- source seed → mythic transformation → game function → live adaptation;
+- player attention/promotion rules through Invitationals;
+- participation → responsibility → jurisdiction;
+- recovery over reset;
+- public media as shared memory;
+- scene/thread/system/architecture intervention levels;
+- identity embedded mechanically before being explicitly named;
+- historical outcomes made contestable without losing recognizable hooks.
+
+Targeted remaining gaps:
+- direct final Congress ratification/result source;
+- exact stock-price-setting algorithm;
+- passage-level authorship in collaborative borough docs;
+- broader S2 comparison;
+- voice/off-platform evidence remains unavailable.
+
+`BCE-000014` preserves Brendon's retrospective statement about historical mysteries/details, *Neverwhere*, secret societies/institutions, and cryptids as source families.
+
+Temporary branch `analysis/empire-city-distill` was used only to hydrate the LFS database. Do not merge its temporary workflow into main/research.
+
 
 ## Point 4 — reconcile the old 51-source staging body into canonical bfdm-corpus
 **Status: IN PROGRESS — audit and migrator complete; binary-safe transfer pending.**
