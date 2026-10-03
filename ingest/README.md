@@ -24,9 +24,7 @@ The database is a searchable representation, not the sole archive.
 
 ## Current Work GPT instruction
 
-If PR #5 has not yet merged, base `ingest/drive-project-v1` on `research/organize-current-work-v1`.
-
-If PR #5 has merged, base it on current `main`.
+PR #5 has merged. Base `ingest/drive-project-v1` on current `main`.
 
 Before writing, reconcile existing BCS IDs against both:
 - `evidence/catalog.jsonl`
