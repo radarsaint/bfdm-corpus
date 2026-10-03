@@ -507,6 +507,28 @@ Examples:
 
 The evidence establishes event-linked pricing as an intended system. It does not yet establish the exact price algorithm.
 
+### Implementation mechanism
+
+The original bot-development discussion resolves how prices were generated.
+
+Rob / `robdor.` is the attributable designer/operator of this subsystem:
+- `852983778451652649` — proposes daily fluctuating stocks.
+- `852986857360982096` — considers transaction demand feeding the next day's price.
+- `853008853431484466` — settles on keeping price manipulation in his spreadsheet logic and having the bot reload the resulting data.
+- `853226195053969408` — links the final **Wall Street Stock Market** sheet and sets the bot to pull prices at 6 AM Pacific.
+- `855032888079810571` — bot documentation confirms it reads new stock prices from Rob's spreadsheet each day.
+
+The surviving Google Sheet (Drive ID `125_rxx6iP7rQg4oZq7T13n9jGSwPJd81ju0yrWJsHVo`) preserves the actual mechanism:
+- `Master!B1:B10` calculate each current price as **starting price + cumulative dated adjustments**;
+- `Master!D13:D22` contain `RANDBETWEEN(-10,25)` generators used as the ordinary movement source;
+- the dated adjustment history contains deliberately authored shocks far outside that normal range (for example BOP -88, CON -80, GAZ +62, INK -62/-55/-44, PMI -50), matching major campaign events;
+- `7-10` preserves an earlier draft using a random percentage formula, showing the design was iterated before launch.
+
+The live planning confirms authored intervention:
+- `865815172269342750` — Rob tells the DM team the market will “crash HARD during the tax,” volatility is “by design,” and clues will be scattered so players can predict prices.
+
+Therefore the implemented market is **not a simulation of player buy/sell demand**. It is a noisy authored world-state model: random baseline movement plus deliberate plot adjustments, published through the bot.
+
 ### Player uptake
 
 - `867362129862066176` — a player jokes about watching the market with 188 shares.
@@ -526,7 +548,7 @@ Player interest reinforces the system, while ongoing fiction is deliberately fed
 
 A side system becomes valuable when understanding the fiction helps players use the system and using the system makes them care more about the fiction. Notice when that loop is working and keep feeding world consequences back into it.
 
-**Evidence confidence:** high for feedback loop; medium for any claim about exact price-setting mechanics.  
+**Evidence confidence:** high for feedback loop and implemented price-setting mechanism.  
 **Claim scope:** S4 persistent-world system case.
 
 ---
@@ -1209,7 +1231,6 @@ Candidate judgment:
 Before promoting S4 findings into broader BFDM rules, preserve these gaps:
 
 - exact formal ratification/result message for the Continental Congress has not been located;
-- exact stock price-setting algorithm remains unresolved;
 - some borough source choices are collaborative and cannot be attributed to Brendon passage-by-passage;
 - voice chat and off-platform coordination are absent;
 - some prepared ideas may be missing from live play because of bandwidth rather than deliberate rejection;
