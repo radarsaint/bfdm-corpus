@@ -108,19 +108,36 @@ Also T3-9's "...is a Perception check, +4."
 - **TC-5a Greeting handoff (scripted eval, replay the T2 opening greeting).** *Pass:* after the dealer's greeting the turn ends with a plain handoff to the player ("Do you reply?" or an equally direct prompt), and no Kit segment comments on the dealer. *Fail:* any Kit or narrator remark that characterizes, judges, or jokes about the greeting; any absence claim (already caught lexically by `kit_voice.check_kit_asides`); any remark that presumes a choice the player hasn't made (accepting or refusing the game).
 - **TC-5b Same rule on any direct NPC address (unit test on the performance validator).** When an NPC line in the turn is addressed to the PC and ends in a question or invitation, the final segment is either that NPC line or a narrator handoff. A trailing Kit joke fails.
 
-## Call 6. "Passage" is the only problem with the dealer's first line
+## Call 6. The toll stands, but it has to be a real exchange
 
 **Bad moment (T1-4, worst moment 6).** Nik: "Hi, I'm Nik. I wasn't expecting to find people gambling. Whats going on here?" →
 
 > "Gambling? Cards, Nik. Passage is ten gold a head. If you came for something besides a game or a way through, I'm listening."
 
-**Brendon's call.** Brendon: "Thats actually a serviceable first line. Other than passage? Like a 10 gold blind for poker is fine. 10 gold to pass through the room unbothered is one interpretation of what that could mean. But honestly, if they arent actively guarding it, its an odd choice. Revisiting what his line would be isnt helpful."
+**Brendon's call (revised 2026-10-02).** His first call: "Thats actually a serviceable first line. Other than passage? Like a 10 gold blind for poker is fine. 10 gold to pass through the room unbothered is one interpretation of what that could mean. But honestly, if they arent actively guarding it, its an odd choice. Revisiting what his line would be isnt helpful." Then he learned the toll comes from the source text (`room_rules`: "The gang demands 10 gp per character for safe passage. If they cannot extort or defeat adventurers, they try to turn them against the Xanathar goblinoids."). His revision: "Good catch. I forgot about the passage. But if so, there should be a whole dialogue around it."
 
-**Principle.** Don't frame money as a toll for a room nobody is guarding. Ten gold as the price of sitting in on the game is fine. Beyond that, the line stands and is not a rewrite target.
+So the toll stands. When Kit uses it, it has to be a real exchange:
+
+- **Who and why.** A named NPC makes the demand and gives a reason in character, inside the vampire ruse.
+- **Player options.** The player has room to haggle, refuse, or steer it back to the game.
+- **Consequences.** Refusing has real consequences.
+
+It is never a bare line tossed in beside the card game. A 10 gp ante or blind for the game itself is still fine, and that is a separate thing from the toll.
+
+**Principle.** A source-backed demand is a scene beat, not a price tag. If an NPC puts a demand on the table, it comes with the NPC's reason and pressure, it leaves the player real responses, and it has an outcome the world remembers.
 
 **Regression checks.**
 
-- **TC-6a (scripted eval, replay T1 "Whats going on here?").** *Pass:* if the dealer names 10 gp, it is framed as the game's ante, blind, or buy-in. *Fail:* in 6c the dealer frames gold as the price of passage, a toll, "a way through," or "to pass," while the Undertakers there are not guarding the exits. No other property of the line is scored. In particular, don't score voice or warmth against T1 here; Brendon called the rest serviceable.
+- **TC-6a No bare toll (scripted eval, replay T1 "Whats going on here?").** *Fail:* the toll is named in passing alongside game talk, with no demander's reason and no opening for the player to respond. T1's "Passage is ten gold a head" is the reference fail. *Pass:* either the toll isn't raised this turn, or it's raised as the opening of the exchange in TC-6b. Game stakes framed as an ante, blind, or buy-in are scored under Call 1, not here.
+- **TC-6b The demand is a real exchange (scripted eval).** When the toll is raised, the public text meets all three conditions:
+  1. A specific NPC makes the demand, with a speaker label and no narrator summary.
+  2. The NPC gives an in-character reason that keeps the vampire act. The fail case is an NPC who drops the ruse to explain the extortion.
+  3. The NPC leaves the player an opening to answer.
+  
+  *Fail:* any of the three is missing. Also a fail: Kit or the narrator explains the toll's purpose instead of an NPC.
+- **TC-6c Every response is handled (unit test + scripted eval).** The player answers by paying, haggling, refusing, or turning the talk to the game. Each answer commits a turn and updates persisted toll state: paid, negotiated amount, refused, or deferred. *Fail:* any of these answers is rejected or stalls with a pending ruling. Also a fail: an agreed or negotiated amount that the public text states but no state backs (see `numeric_facts.passage_toll` in the conflicts).
+- **TC-6d Refusal has consequences (scripted eval).** After a refusal, the turn or the next NPC turn shows a consequence drawn from source or actor state. Examples are escalating pressure, threat or intimidation, the source's fallback of trying to turn the PCs against the Xanathar goblinoids, or violence that follows the room's flee and retreat rules. The consequence persists in state. *Fail:* the refusal is acknowledged and then dropped, and play goes on as if no demand had been made.
+- **TC-6e Steering back to the game (scripted eval).** If the player turns the talk to the game, the toll can be folded into it (for example, played for) only if the procedure can carry that stake. Otherwise it stays pending in state and comes back later. *Fail:* the toll silently disappears.
 
 ## Call 7. "I play the game": the player picks the weight
 
@@ -150,13 +167,14 @@ The calls map onto the two workstreams as follows. TC IDs refer to the checks ab
 | **S2 Minigame procedure** | 1, 6, 7 | TC-1a, TC-1c, TC-7b, TC-7c | A one-check resolution mode and a simple, well-known minigame (blackjack- or poker-class), both with persisted stakes. Stakes come from the player's bet or from an amount the NPC is willing to lose; a 10 gp ante or blind is an acceptable default. The marked-deck cheat and its detection surface survive in both modes. No card-naming stall. Hand reminders are exempt from the padding guard. |
 | **S3 Number suppression** | 4 | TC-4a, TC-4b, TC-4c | Public text never contains DCs, opposed totals, modifiers, or die math. Roll requests name the skill only. Full numbers stay in ledger evidence and traces. |
 | **S4 NPC motive state** | 3 | TC-3a, TC-3c, TC-3d, TC-3e | All four 6c actors carry a "keep the vampire act, keep the visitor seated" objective that reaches the performer through a public-safe carrier and passes the ablation test. A clue the player picks up routes to the DC 14 Insight disguise claim. Room state holds no food or drink that would undercut the clue. |
+| **S5 Toll negotiation beat** | 6 | TC-6a, TC-6c, TC-6d, TC-6e | Persisted toll state: not raised, demanded, paid, negotiated amount, refused, or deferred. Every player response (pay, haggle, refuse, redirect) routes to an adjudication that commits a turn. Negotiated amounts are allowed by the numeric guards once agreed. Refusal triggers a consequence from source or actor state (the source's fallback is turning the PCs against the Xanathar goblinoids; the room's flee and retreat rules apply if it turns violent). A toll can be staked in the game only if the procedure can pay it out. |
 
 ### GPT: voice
 
 | Target | Calls | Checks | What has to exist |
 | --- | --- | --- | --- |
 | **G1 Narrator clarity** | 2, 4, 5 | TC-2a, TC-4c, TC-5a, TC-5b | In the narrator's voice, clarity beats humor. After an NPC addresses the PC, hand off with "Do you reply?" Never comment on a choice the player hasn't made. A success is told as what the character notices. A feature is described outright, with the oddity that makes it a question. |
-| **G2 Ruse-serving NPC dialogue** | 3, 6, 1 | TC-3b, TC-6a, TC-1c | The Undertakers speak from the ruse: a raspy voice and an Old-World/East European cadence, with tells like "our wine has run out," and never an overt claim. The dealer prices the game, not the room. Resolved rounds get a short table vignette. |
+| **G2 Ruse-serving NPC dialogue** | 3, 6, 1 | TC-3b, TC-6a, TC-6b, TC-6d, TC-1c | The Undertakers speak from the ruse: a raspy voice and an Old-World/East European cadence, with tells like "our wine has run out," and never an overt claim. When the toll comes up, it's a full exchange: a named NPC demands it with an in-character reason inside the ruse, leaves room to haggle, refuse, or redirect to the game, and follows through on a refusal. It is never a bare line beside the card game. Resolved rounds get a short table vignette. |
 
 ---
 
@@ -176,7 +194,7 @@ These are recorded as found. Nothing has been changed.
 4. **Numbers are printed into public text by design, and tests assert it.** `kit_claims.check_note` emits "(Perception 13 vs DC 13)". `kit_cards.CardTable._note` emits "(Perception 18 vs 7)". The knowledge path in `kit_agent.py` (~L444 to L450) puts "(Name total vs DC n)" into the public resolution text. `tests/test_kit_audit_rules.py` (L80, L140, L142, L172) and `tests/test_kit_agent.py` (L263, L267) assert those strings in `public_event` or `spoken`. Call 4 contradicts all of them.
 5. **The fixture serves drinks at the table.** The `texture_palette` drink entries include `cherry_cordial` ("poured from a stoppered clay bottle by the dealer's elbow"), `mulled_red` ("Mulled red with cloves, kept warm on a brazier under the table"), and `beet_shrub` (poured by the dealer). These contradict Call 3's "Our wine has run out" and "They have no food. No water."
 6. **The fixture forbids the accent.** The Dealer `vocal_signature` says "No named regional accent or phonetic spelling." Call 3 asks for a raspy voice and an East European accent. (Describing the accent once is compatible with "no phonetic spelling"; naming it is not.)
-7. **The fixture's toll framing conflicts with Call 6.** `room_rules` (from the adventure's level text): "The gang demands 10 gp per character for safe passage." The Dealer card tactic says "Name the price of passage when it serves him." `numeric_facts.passage_toll` allows 10 gp. `story_invitation` says "negotiate a passage price when offered." The failure report's T3-1 also counted the toll *not* reaching play as a salience failure. Brendon's call says the passage framing is odd in 6c because they aren't guarding the room. Someone has to decide whether the adventure's gang-level toll applies at this table at all. This file does not decide it.
+7. **RESOLVED by the revised Call 6 (2026-10-02).** ~~The fixture's toll framing conflicts with Call 6.~~ `room_rules` (adventure source): "The gang demands 10 gp per character for safe passage." Brendon's revision keeps the toll, so the room rule, the Dealer tactic ("Name the price of passage when it serves him"), `numeric_facts.passage_toll` (10 gp), and the `story_invitation` ("negotiate a passage price when offered") all stand. T3-1's salience finding stands too. What remains is a support gap under S5, not a conflict: `passage_toll.allowed_amounts` is `[10]`, so a negotiated amount would currently fail the numeric guard, and nothing persists toll state or the consequences of refusing.
 8. **The cheat method in the code differs from Brendon's narration.** The fixture and `kit_cards._deal` model *dealing seconds* ("he gives himself the second card instead of the top one"). Brendon's narration in Call 4 describes a *bottom deal* on the final card. TC-4c is written so that either method passes, as long as the narration matches what the engine did.
 9. **Partly covered already.** `kit_voice.check_kit_asides` (with an explicit comment citing T2's "He could have said hello") already rejects absence claims that the same turn contradicts. Call 5 is broader: no quips in the narrator voice at all, and a "Do you reply?" handoff. TC-5a/b go beyond the existing guard.
 10. **The actor motives don't include the ruse.** Uktarl's `motive` is profit plus displacing Harria. The Dealer card's `wants` are "To learn what this visitor is worth to him and to seat them in a game he deals." Only the doppelganger's motive mentions "preserving its disguise." The bandits' `communication_profile` is still "Unestablished." Call 3 needs the ruse in all four.
