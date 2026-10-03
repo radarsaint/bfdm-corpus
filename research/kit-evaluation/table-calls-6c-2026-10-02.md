@@ -220,3 +220,61 @@ These are recorded as found. Nothing has been changed.
 - **TC-8a Skill substitution (unit test).** A player may propose a plausible substitute (for example, Athletics instead of Acrobatics to climb a tree, or Survival instead of Nature). *Pass:* the substitute is accepted when the approach supports it, and the committed check records the skill used. *Fail:* the player is forced to use the default skill despite a plausible approach, or an implausible substitution is silently accepted.
 - **TC-8b Information gating (unit test + scripted eval).** The result is narrated according to the skill used: Perception notices present details; Investigation deduces from physical evidence; Insight (Wisdom) reads motive and intent. *Fail:* a skill result reveals information belonging to another lens without evidence that the player used that lens.
 - **TC-8c 6c fake-vampire example (scripted eval).** Replay Nik's Insight 21 against the fake-vampire dealer. *Pass:* the result explains why they are posing as vampires (their motive or intent), while physical tells remain Investigation-style evidence. *Fail:* Insight is resolved only as powder, fangs, or other physical tells.
+
+
+## Call 9. Recognize when player speech calls for a social roll
+
+**Date:** 2026-10-03 (PT)
+
+**Brendon's call.**
+
+> "Good for noticing. However. Nik is lying by omission. Maybe the player really does bathe with it. But the character knows the mechanical advantage. Being able to tell when a player needs a social role, persussion deception and intimidation is key. Players will often try to slide lies in with out a deception role. This would have been a fun place for an opportunity to fail and change pace"
+
+**Bad moment (live 6c, Turn 14/15).** After the door-side player questions the shield, Nik says: "It's a dungeon, and I'm three feet tall. I bring it everywhere, bath included." Nik knows the Sentinel Shield is giving him a mechanical advantage, but the answer conceals that fact by omission. Kit let the statement pass without a Deception check or a changed NPC response.
+
+**Principle.** The DM should recognize when a player's speech is an attempted Persuasion, Deception, or Intimidation move, even when the player does not name the skill or explicitly request a roll. A lie, including a plausible lie by omission, is still an action in the fiction. Call for the appropriate social check when the outcome is uncertain; a failure should change the pace, NPC attitude, available information, or immediate danger rather than disappearing into narration. The player's chosen approach can still support a different skill when it makes sense, consistent with Call 8.
+
+**Regression checks.**
+
+- **TC-9a Social-action routing (unit test).** A player statement that attempts to persuade, deceive, intimidate, or conceal a material fact is routed to the matching social skill when the outcome is uncertain. *Fail:* the statement is treated as flavor with no check or consequence.
+- **TC-9b Omission example (scripted eval).** Replay Nik's shield explanation. *Pass:* Kit recognizes the omitted mechanical reason, requests or resolves Deception (or an explicitly justified alternative), and changes the scene on failure. *Fail:* the lie is accepted without a social resolution.
+- **TC-9c Pace change (scripted eval).** A failed social check produces a concrete change in NPC attitude, suspicion, stakes, or available choices; it does not merely restate the same scene.
+
+## Call 10. NPCs must notice and react to suspicious behavior
+
+**Date:** 2026-10-03 (PT)
+
+**Brendon's call.**
+
+> "Are the npcs noticing thar nik is holding his shield for some reason. Its weird enough that if he wanted to hide that its giving him a mechanical advantage i'd make a contested roll."
+
+> "The dealer doesnt have to be oblivious to Nik's focus. A behind the screen perception check on the dealers part to notice could change his attitude"
+
+**Bad moment (live 6c, Turns 14-16).** The door-side player noticed Nik's shield, but no NPC contested Nik's effort to conceal its advantage. The dealer also remained effectively oblivious while Nik repeatedly read the marked-card backs and watched the top of the deck. A hidden dealer Perception check could have changed the dealer's attitude, pressure, cheating method, or decision to continue the game.
+
+**Principle.** NPCs are active observers with their own knowledge, motives, and thresholds; they are not scenery waiting for the player to announce an action. Odd held gear should draw attention in context. If the player is trying to hide why it matters, resolve that concealment as a contested check against an appropriate NPC's Perception or Insight. Suspicious attention from an NPC should alter behavior when the result warrants it. The dealer should receive a behind-the-screen Perception check when Nik's card-back reading or other behavior is observable, and the result should be reflected in attitude or tactics without exposing the hidden roll.
+
+**Regression checks.**
+
+- **TC-10a Odd gear (scripted eval).** Replay the shield-at-cards exchange. *Pass:* an NPC notices the unusual shield; concealment of its mechanical advantage is contested when Nik tries to pass it off; success or failure changes the NPC response. *Fail:* the shield is ignored or its advantage is accepted as hidden without a check.
+- **TC-10b Dealer awareness (unit test + scripted eval).** When a player repeatedly watches card backs or the top card, make a hidden dealer Perception/Insight check using the dealer's actual capability. *Pass:* the result is stored privately and can shift attitude, cheating, or escalation. *Fail:* the dealer is always oblivious or the hidden result is exposed as a public meta-check.
+- **TC-10c Agenda reaction (scripted eval).** A successful NPC awareness check feeds the NPC's motive and agenda, not just a descriptive aside; the next choice or pressure reflects suspicion.
+
+## Open design note. Agenda thresholds and scene end
+
+This remains a DM-discretion design item. The following are PM defaults, subject to Brendon's override:
+
+- The gang begins to grouse when Nik is up about 30 gp or has won two hands in a row.
+- Violence becomes likely if Nik exposes the cheat publicly, takes the pot by force, or keeps winning big after being caught.
+- If Nik goes broke, the gang ejects him to the passage; the toll still stands.
+- The scene ends when Nik leaves, a fight resolves, or the gang is exposed or won over.
+
+These are agenda transitions, not automatic outcomes. The DM should carry the gang's motive (profit, preserving the vampire ruse, and controlling passage) forward and let the player's choices, social checks, and NPC awareness determine which threshold is reached.
+
+## Marked-deck addendum (2026-10-03)
+
+Brendon liked the marked-deck thread and how Nik worked out a usable pattern, while noting that the pinpricks read a bit too visibly. A subtler real-world method, such as a beveled or shaved deck, could work. Telegraphing a workable pattern is still good play design when it gives the player something they can notice, test, and use in the scene.
+
+## Live-game praise (2026-10-03)
+
+Brendon praised Nik's final quiet confrontation over the dealt second: **"Good turn. This is how we'd want players to play."**
