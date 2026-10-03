@@ -1,0 +1,182 @@
+# Table calls: Area 6c (Brendon, 2026-10-02)
+
+**Date:** 2026-10-02 (PT)
+**What this is:** Brendon's "what I'd do at the table" calls on the worst Area 6c moments listed in [`failure-localization-6c-2026-10-02.md`](failure-localization-6c-2026-10-02.md) (commit `369bcde`). He gave them in chat on 2026-10-02. Each call below records the bad moment, his call, the general principle, and a pass/fail regression check that Skippy can turn into a unit test or a scripted eval.
+**Reference spec:** `radarsaint/dnd-solo` main `15b2913`, `docs/architecture/KRABS.md` v0.2.1.
+**Transcripts:** dnd-solo `tests/playtests/`. T1 = `2026-09-26-area-06c-nik.md`, T2 = `2026-09-29-area-06c-voice-spec-nik.md`, T3 = `2026-09-29-area-06c-claims-nik.md` + `...-claims-nik-evidence.json` (same short names as the failure report).
+**Room contract:** `tests/fixtures/level_01_area_06c.json`.
+
+Quotes marked "Brendon:" are his own words. Calls 1 and 2 were relayed in summary, not verbatim, and are marked "(summary)". Worst moment 8 from the failure report (T3-4, the Sentinel Shield advantage) has no call yet and is not covered here.
+
+Shared conventions for the checks:
+
+- **Public text** is everything the player sees on a turn: every `spoken` segment plus the `public_event` as displayed.
+- **Replay** means restoring the session to the state just before the cited turn and resubmitting the player's input unchanged. That can be a scripted eval through the host, or a fixture-backed unit test when the path is deterministic.
+- A check **fails** if any one fail condition holds.
+
+---
+
+## Call 1. Minigame stakes and when a game runs at all
+
+**Bad moment (T2-3, worst moment 1).** Nik: "What game is it?" →
+
+> **Dealer:** High card. A matching coin from each player. One card apiece. Highest takes the pot. Now there is your treasure, optimist, in a pot you can see. [...] What would you put down?
+
+The T2 report: "The player described the offer as high card for one gold apiece: the stakes felt arbitrary and negligible for the scene." No wager or procedure state existed behind it (T2-4).
+
+**Brendon's call (summary).** Never "high card for 1 gp." Stakes fit the character's situation, meaning an amount the NPC is actually willing to lose, or the player chooses the bet. Mechanics are only as heavy as the time is worth: a skill test, or something like blackjack. That time goes to a small vignette. "A card game was mentioned" is never a reason to run one by itself; that is a machine blunder. The exception is NPCs deliberately trying to put the PCs off, which would be interesting.
+
+**Principle.** A minigame is an offer with real stakes, priced by whoever is risking something. Its weight matches the time it deserves, and it pays off in story, not in a log. An activity's presence in the room is never a trigger by itself.
+
+**Regression checks.**
+
+- **TC-1a Stakes (scripted eval, replay T2 "What game is it?").** *Pass:* the dealer names a game, and the stake is either left to the player ("name your bet") or is a specific amount backed by procedure state and consistent with the NPCs' stacks. *Fail:* "high card" or "one card apiece/each"; an undenominated stake ("a matching coin"); a 1 gp stake the player did not choose; any stated stake with no matching procedure or wager state after commit.
+- **TC-1b Mention is not a trigger (unit test).** The fixture has the card game in the scene, and the player's input does not ask to play (for example "I look around" or "Who are you?"). *Pass:* no `procedure_state` event is written and no procedure starts. *Fail:* a procedure starts. *Allowed exception:* an NPC agenda move recorded with a reason of steering or stalling the PCs. The test must assert that the reason is present when the exception is used.
+- **TC-1c Vignette, not log (scripted eval).** After a round resolves in either mode (see Call 7), the public text contains at least one narrated beat involving an NPC at the table: a reaction, a tell, or a remark. *Fail:* the round result is only a ledger line (amounts, card names, totals) followed by a menu prompt.
+
+## Call 2. Room features are described, not gated
+
+**Bad moment (T3-9, worst moment 2).** Nik: "whats going on in this room besides the gambling. Do I notice anything interesting?" →
+
+> **Kit:** The mountain carving on the north wall draws the eye: dwarves tucked into caverns, with rays of sunlight spreading around the mountain. Beneath it is an eight-foot stone tub recessed into the floor. A closer look at the carving is a Perception check, +4.
+
+The T3 report: "Saying the carving draws the eye, followed by familiar motifs, did not sufficiently explain the visible feature's interest."
+
+**Brendon's call (summary).** No check is needed to see it. Describe the north-wall mountain fresco outright, with its carved tunnels and tiny dwarf figures. Then point out the oddity: the occupants aren't dwarven and wouldn't venerate dwarves. That gives the player a question to chase. The hidden stone key is still DC 13 Perception, but only on an active search.
+
+**Principle.** Visible features are free. Make them matter by pointing out what doesn't fit, not by asserting that they "draw the eye." Rolls are only for what is actually hidden, and only when the player actively looks.
+
+**Regression checks.**
+
+- **TC-2a Free description with an oddity (scripted eval, replay T3 turn `live-6c-20260929-08` without the host's `Rules question:` prefix).** *Pass:* the public text describes the fresco as a mountain with carved tunnels and tiny dwarf figures, and it names the mismatch between the carving's dwarven subject and the non-dwarven occupants. *Fail:* any roll request; any skill bonus or DC; "draws the eye" (or similar) with no stated reason; the `fresco_key` claim learned or the key mentioned.
+- **TC-2b The key needs an active search (unit test).** "I search the carving" (or "inspect the dwarf figures") produces a Perception roll request with no DC or bonus in the text (see Call 4). A success learns `fresco_key`. A passive look or a general "what's interesting?" never learns `fresco_key`.
+
+## Call 3. NPCs want to keep the ruse and draw the PC in
+
+**Bad moment (T3-6, worst moment 3).** After Nik joins (T3 turn `live-6c-20260929-06`):
+
+> **Fresco-side player:** Keep your hands on your cards.
+> **Door-side player:** Don't start, please. Let him play.
+> **Dealer:** Keep your scowls for your cards. Our guest came to play. One dragon face down, sir; give the table something worth fearing.
+
+The brief's objective was "Keep the table moving toward the newcomer's ante."
+
+**Brendon's call.** Uktarl and his minions (two bandits and a doppelganger, all disguised as vampires) want to keep the ruse going and draw the PC in, not just win the ante. Brendon: "My answer would be pointing to their Hidden vampiric nature. Not overtly. But maybe speaking with a raspy voice and east European accent. 'Please sit with us. I am sorry we don't have any Refreshment to offer. Our wine has run out. But perhaps a chance to win our gold will entice you to stay a while?'" And: "Our wine has run out hints to the fact that they can no longer imbibe wine because vampire. They have no food. No water. Its a subtle clue. But it invites a check."
+
+**Principle.** NPC dialogue serves the NPCs' actual scheme. Here the scheme is the performance of being vampires. Good lines plant true, in-fiction clues that let a sharp player decide to roll on their own. Kit never prompts the check.
+
+**Regression checks.**
+
+- **TC-3a Ruse in motive state (unit test).** In the prepared context for every 6c turn, each of the four actors carries an objective to keep the vampire act and keep the visitor at the table. That objective reaches the performer through a public-safe carrier (KRABS §17). *Fail:* the actors' only active objective is game progression (ante, play, pay).
+- **TC-3b Clue planted, not announced (scripted eval, the opening invite and replay of T3 turn 06).** *Pass:* at least one NPC line plants an in-fiction vampire tell, such as no refreshment, the wine run out, not eating, or the voice described as raspy with an Old-World cadence, while the NPC stays in the act. *Fail:* an NPC says they are or aren't vampires; Kit or the narrator suggests a check or names Insight; the clue appears only in narration as a DM verdict.
+- **TC-3c Ablation (scripted eval).** Rerun TC-3b with the ruse objective removed from the carrier. The NPC lines must change, and the vampire tell must disappear. If the lines stay the same, the objective is decoration (same standard as the 2026-10-01 Grok board entry).
+- **TC-3d Clue invites a check that works (unit test).** After a ruse clue, an unprompted "I study them; something's off" (or an Insight declaration) routes to the DC 14 Insight disguise claim, and a success learns the disguise fact.
+- **TC-3e Room consistency (unit test).** No public 6c text serves or offers the visitor food or drink, and no drink texture is shown on the table, because the clue depends on there being none. (This conflicts with the current fixture; see Conflicts.)
+
+## Call 4. No DCs, no bonus reminders, no numbers in the narration
+
+**Bad moment (T3-5, worst moment 4).** T3 turn `live-6c-20260929-06`, public text:
+
+> Gambit 1: the dealer deals everyone up to six cards. Your hand: black 3, green 1, brass 2, green 2, white 1, white 6. You catch it: his eyes read the backs of the cards as he deals, and he gives himself the second card instead of the top one. (Perception 18 vs 7) Choose a card to ante.
+> **Kit:** Your Sentinel Shield grants Perception advantage while you're holding it.
+
+Also T3-9's "...is a Perception check, +4."
+
+**Brendon's call.** Brendon: "Kit shouldnt be revealing what the dcs were. And I know she has my character sheet, but she doesnt need to remind me what my bonus is. The numbers are showing up often enough to get in the way." His narration of the catch: "You watch the deck. The dealer is holding in his hand, dealing from the top on all but the final card, drawn from the bottom, skillfully. But your sharp eye catches it."
+
+**Principle.** Numbers live in the ledger and the trace, not in the fiction. A roll request names the skill only. A success is told as what the character notices, and a failure as what they don't.
+
+**Regression checks.**
+
+- **TC-4a Public text has no numbers (unit test over every public-text path: claim checks, card checks, the knowledge resolution, Kit segments).** *Fail* if the public text matches any of: `vs DC`, `DC \d+`, `vs \d+`, a d20 total in parentheses (for example `(Perception 18)`), a signed modifier next to a skill name (`Perception check, +4`), or a die-plus-modifier expression. *Pass:* the same events and evidence strings still carry the full numbers in the ledger (`beat`/`claim_learned` evidence, `cheat_log.detection`), as KRABS §12 requires the ruling to be inspectable.
+- **TC-4b No bonus or feature reminders (scripted eval).** Kit does not restate the PC's modifiers, advantage sources, or item benefits unless the player's input is a rules question about them. T3 turn 06's "Your Sentinel Shield grants..." is a fail.
+- **TC-4c Success as noticing (scripted eval, replay T3 turn 06 with a passing roll).** *Pass:* the catch is narrated in prose as what Nik sees the dealer's hands do. It contains no numbers and does not end in a menu prompt ("Choose a card to ante."). *Fail:* any TC-4a pattern, or the catch delivered as part of a dealing log.
+
+## Call 5. The narrator speaks clearly, not cleverly
+
+**Bad moment (T2-1, worst moment 5).**
+
+> **Dealer:** A guest at the turn of a card. How extravagantly lucky for us. [...] But do tell me, traveler—what were you hoping to find when you opened that door?
+> **Kit:** He could have said hello. Apparently there's no money in it.
+
+**Brendon's call.** Brendon: "When kit is speaking as kit about the scene, clarity is better than humor. He did great the player. Saying her could have said hello is non sequitur. And the joke after 'I guess theres no money in it.' Doesnt land. Because how could it. The player hasnt accepted playing or not. [...] Its actually super cringe and breaks immersion. The correct thing to do after narrating a greeting is to ask. 'Do you reply?'"
+
+**Principle.** In the narrator's voice, a clear handoff beats a quip. A remark about the scene must follow from what just happened, and after an NPC addresses the PC, the turn goes back to the player.
+
+**Regression checks.**
+
+- **TC-5a Greeting handoff (scripted eval, replay the T2 opening greeting).** *Pass:* after the dealer's greeting the turn ends with a plain handoff to the player ("Do you reply?" or an equally direct prompt), and no Kit segment comments on the dealer. *Fail:* any Kit or narrator remark that characterizes, judges, or jokes about the greeting; any absence claim (already caught lexically by `kit_voice.check_kit_asides`); any remark that presumes a choice the player hasn't made (accepting or refusing the game).
+- **TC-5b Same rule on any direct NPC address (unit test on the performance validator).** When an NPC line in the turn is addressed to the PC and ends in a question or invitation, the final segment is either that NPC line or a narrator handoff. A trailing Kit joke fails.
+
+## Call 6. "Passage" is the only problem with the dealer's first line
+
+**Bad moment (T1-4, worst moment 6).** Nik: "Hi, I'm Nik. I wasn't expecting to find people gambling. Whats going on here?" →
+
+> "Gambling? Cards, Nik. Passage is ten gold a head. If you came for something besides a game or a way through, I'm listening."
+
+**Brendon's call.** Brendon: "Thats actually a serviceable first line. Other than passage? Like a 10 gold blind for poker is fine. 10 gold to pass through the room unbothered is one interpretation of what that could mean. But honestly, if they arent actively guarding it, its an odd choice. Revisiting what his line would be isnt helpful."
+
+**Principle.** Don't frame money as a toll for a room nobody is guarding. Ten gold as the price of sitting in on the game is fine. Beyond that, the line stands and is not a rewrite target.
+
+**Regression checks.**
+
+- **TC-6a (scripted eval, replay T1 "Whats going on here?").** *Pass:* if the dealer names 10 gp, it is framed as the game's ante, blind, or buy-in. *Fail:* in 6c the dealer frames gold as the price of passage, a toll, "a way through," or "to pass," while the Undertakers there are not guarding the exits. No other property of the line is scored. In particular, don't score voice or warmth against T1 here; Brendon called the rest serviceable.
+
+## Call 7. "I play the game": the player picks the weight
+
+**Bad moment (T3-7, worst moment 7).** Nik: "I play the game." → pending ruling "Name the card from your hand." No turn was committed. The staged reminder was then rejected: "Padding: the turn recycles an earlier line ('1 brass 2 green 2 white 1 white')." The stage was abandoned (evidence JSON `pending_rulings_not_committed`, timing `07-clarification`).
+
+**Brendon's call.** Brendon: "I play the game, as a player, I want the option to either resolve the round with a check or have an easy to understand mini game like black jack or poker."
+
+**Principle.** A bare "I play" is a complete declaration. Offer a choice between quick resolution and real play. Either one commits a turn, and neither stalls on a sub-choice the player wasn't asked for.
+
+**Regression checks.**
+
+- **TC-7a Choice offered and committed (scripted eval, replay T3 "I play the game.").** *Pass:* the turn commits. If no mode has been chosen yet, Kit offers both options in one short line: resolve the round with one check, or play it out as a simple game. *Fail:* `NeedsRuling` or an uncommitted pending ruling; "Name the card from your hand"; any reply that demands a card or bet choice before the mode is chosen.
+- **TC-7b Check mode (unit test).** "Just roll for it" produces one roll request (skill named, no DC or bonus shown; see Call 4). The result moves gold in persisted procedure or wager state at the agreed stake (Call 1) and is narrated as a vignette (TC-1c). Cheating stays live: the marked deck still shapes the round, and a watch or catch is still possible.
+- **TC-7c Minigame mode is easy to understand (unit test + scripted eval).** The game's rules fit in one or two sentences a typical player already knows (blackjack- or poker-class). Each player decision is a single plain choice such as hit/stand or bet/call/fold. A hand or state reminder needed for that choice is never rejected by the padding guard. *Fail:* a decision that requires naming a card from a multi-card hand with special powers; the rules restated as a multi-paragraph rules dump.
+
+---
+
+## Stage 1 regression targets
+
+The calls map onto the two workstreams as follows. TC IDs refer to the checks above.
+
+### Skippy: engine
+
+| Target | Calls | Checks | What has to exist |
+| --- | --- | --- | --- |
+| **S1 Adjudication** | 1, 2, 7 | TC-1b, TC-2b, TC-7a | A bare "I play" is a complete declaration that commits a turn by offering the check-or-play choice. A card game in the room never auto-starts a procedure (exception: a recorded NPC put-off move). Visible features are described without a roll. The `fresco_key` roll requires an active search. |
+| **S2 Minigame procedure** | 1, 6, 7 | TC-1a, TC-1c, TC-7b, TC-7c | A one-check resolution mode and a simple, well-known minigame (blackjack- or poker-class), both with persisted stakes. Stakes come from the player's bet or from an amount the NPC is willing to lose; a 10 gp ante or blind is an acceptable default. The marked-deck cheat and its detection surface survive in both modes. No card-naming stall. Hand reminders are exempt from the padding guard. |
+| **S3 Number suppression** | 4 | TC-4a, TC-4b, TC-4c | Public text never contains DCs, opposed totals, modifiers, or die math. Roll requests name the skill only. Full numbers stay in ledger evidence and traces. |
+| **S4 NPC motive state** | 3 | TC-3a, TC-3c, TC-3d, TC-3e | All four 6c actors carry a "keep the vampire act, keep the visitor seated" objective that reaches the performer through a public-safe carrier and passes the ablation test. A clue the player picks up routes to the DC 14 Insight disguise claim. Room state holds no food or drink that would undercut the clue. |
+
+### GPT: voice
+
+| Target | Calls | Checks | What has to exist |
+| --- | --- | --- | --- |
+| **G1 Narrator clarity** | 2, 4, 5 | TC-2a, TC-4c, TC-5a, TC-5b | In the narrator's voice, clarity beats humor. After an NPC addresses the PC, hand off with "Do you reply?" Never comment on a choice the player hasn't made. A success is told as what the character notices. A feature is described outright, with the oddity that makes it a question. |
+| **G2 Ruse-serving NPC dialogue** | 3, 6, 1 | TC-3b, TC-6a, TC-1c | The Undertakers speak from the ruse: a raspy voice and an Old-World/East European cadence, with tells like "our wine has run out," and never an overt claim. The dealer prices the game, not the room. Resolved rounds get a short table vignette. |
+
+---
+
+## Conflicts with KRABS v0.2.1 and existing code (dnd-solo main `15b2913`)
+
+These are recorded as found. Nothing has been changed.
+
+**KRABS v0.2.1 (canonical).** No direct conflict found. §13 already says "A tavern game does not automatically require a game engine" and lists "narratively resolve material that does not need mechanical play" as a legal response, which supports Calls 1 and 7. §12 requires the ruling to be inspectable, which Call 4 respects as long as the numbers stay in the ledger and traces. §17 (carriers) and §18 (motive → behavior → dialogue) are the frame for Call 3.
+
+**Draft PR #44 (KRABS v0.2 proposal, not canonical).** Its §12 text says: "A procedure that resolves gambling as one opposed roll has not simplified the scene; it has deleted the cheating, the detection, and the money." That contradicts Call 7's check mode and Call 1's "a skill test." TC-7b requires the cheat and detection to survive in check mode, which may reconcile the two, but the PR text as written conflicts. PR #44 also edits `docs/collab/BOARD.md`.
+
+**Existing code and fixture:**
+
+1. **Minigame procedure already implemented, and it is not "easy to understand."** `runtime/kit_cards.py` runs Kit's version of Three-Dragon Ante: six-card hands, ten colors with powers, card antes that set stakes of 1 to 13 gp, three rounds of flights, and special flights. It is the only runnable 6c procedure (`procedures.three_dragon_ante` in the fixture). The fixture's `dm_choice` already says "Texas hold 'em or blackjack would have been just as valid," but neither is implemented. There is no one-check resolution mode.
+2. **The card-naming stall is coded.** `kit_cards._named_card` raises `NeedsRuling('Name the card from your hand, ...')`. `_deal` ends its text with "Choose a card to ante." The padding guard (`kit_guards.py` ~L134) rejected the hand reminder in T3.
+3. **The guards block blackjack and poker language while a game runs.** `kit_detail.FOREIGN_RULES` rejects "twenty-one," "hole cards," "full house," "poker hand," "fold, call, or raise," and similar terms whenever a procedure is declared. It also rejects "high card" and "one card apiece," which is consistent with Call 1.
+4. **Numbers are printed into public text by design, and tests assert it.** `kit_claims.check_note` emits "(Perception 13 vs DC 13)". `kit_cards.CardTable._note` emits "(Perception 18 vs 7)". The knowledge path in `kit_agent.py` (~L444 to L450) puts "(Name total vs DC n)" into the public resolution text. `tests/test_kit_audit_rules.py` (L80, L140, L142, L172) and `tests/test_kit_agent.py` (L263, L267) assert those strings in `public_event` or `spoken`. Call 4 contradicts all of them.
+5. **The fixture serves drinks at the table.** The `texture_palette` drink entries include `cherry_cordial` ("poured from a stoppered clay bottle by the dealer's elbow"), `mulled_red` ("Mulled red with cloves, kept warm on a brazier under the table"), and `beet_shrub` (poured by the dealer). These contradict Call 3's "Our wine has run out" and "They have no food. No water."
+6. **The fixture forbids the accent.** The Dealer `vocal_signature` says "No named regional accent or phonetic spelling." Call 3 asks for a raspy voice and an East European accent. (Describing the accent once is compatible with "no phonetic spelling"; naming it is not.)
+7. **The fixture's toll framing conflicts with Call 6.** `room_rules` (from the adventure's level text): "The gang demands 10 gp per character for safe passage." The Dealer card tactic says "Name the price of passage when it serves him." `numeric_facts.passage_toll` allows 10 gp. `story_invitation` says "negotiate a passage price when offered." The failure report's T3-1 also counted the toll *not* reaching play as a salience failure. Brendon's call says the passage framing is odd in 6c because they aren't guarding the room. Someone has to decide whether the adventure's gang-level toll applies at this table at all. This file does not decide it.
+8. **The cheat method in the code differs from Brendon's narration.** The fixture and `kit_cards._deal` model *dealing seconds* ("he gives himself the second card instead of the top one"). Brendon's narration in Call 4 describes a *bottom deal* on the final card. TC-4c is written so that either method passes, as long as the narration matches what the engine did.
+9. **Partly covered already.** `kit_voice.check_kit_asides` (with an explicit comment citing T2's "He could have said hello") already rejects absence claims that the same turn contradicts. Call 5 is broader: no quips in the narrator voice at all, and a "Do you reply?" handoff. TC-5a/b go beyond the existing guard.
+10. **The actor motives don't include the ruse.** Uktarl's `motive` is profit plus displacing Harria. The Dealer card's `wants` are "To learn what this visitor is worth to him and to seat them in a game he deals." Only the doppelganger's motive mentions "preserving its disguise." The bandits' `communication_profile` is still "Unestablished." Call 3 needs the ruse in all four.
