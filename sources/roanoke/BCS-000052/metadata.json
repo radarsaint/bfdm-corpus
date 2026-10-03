@@ -1,0 +1,19 @@
+{
+  "corpus_id": "BCS-000052",
+  "project": "Roanoke",
+  "title": "RoanokeS3W3 Breakdown.docx",
+  "original_filename": "RoanokeS3W3 Breakdown.docx",
+  "original_sha256": "cb8f631193404f952552315f02fbaae6efe58c0d55782578b7c7a4464db72e97",
+  "normalized_file": "source.md",
+  "normalized_sha256": "0714488a62dc035f5167c97d750d534dd82ada638510a4b6040e4544dd16e483",
+  "normalized_line_count": 716,
+  "assets": [
+    "assets/media/image1.jpg",
+    "assets/media/image2.jpg"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": "brendon-comments.native.json",
+  "original_stored_as": "original/source.docx"
+}

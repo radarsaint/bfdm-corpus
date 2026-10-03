@@ -1,0 +1,18 @@
+{
+  "corpus_id": "BCS-000021",
+  "project": "Roanoke",
+  "title": "Roanoke FAQ.docx",
+  "original_filename": "Roanoke FAQ.docx",
+  "original_sha256": "100f6ff66149000d465c6cebcb000bda91a41f35716c4b05975bb46a3f2205b6",
+  "normalized_file": "source.md",
+  "normalized_sha256": "9abf812c6e634cddd6b27c84a3ac8b4a4e83ea07c45b16b57eeab4c41b37c8b7",
+  "normalized_line_count": 100,
+  "assets": [
+    "assets/media/image1.jpg"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

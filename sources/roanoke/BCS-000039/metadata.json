@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000039",
+  "project": "Roanoke",
+  "title": "Roanoke S3W4 Set List.docx",
+  "original_filename": "Roanoke S3W4 Set List.docx",
+  "original_sha256": "114501de0807c6ac02044a379ce3dfa67faa82039d222cffe747c10b772fd34e",
+  "normalized_file": "source.md",
+  "normalized_sha256": "526844aad102df055b2f0cacc2517f08c469b9407c0aa3dff5e09a11b05e5e4c",
+  "normalized_line_count": 26,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000038",
+  "project": "Roanoke",
+  "title": "Roanoke S3W4 Passdown.docx",
+  "original_filename": "Roanoke S3W4 Passdown.docx",
+  "original_sha256": "0fdfec47514dc603a55f91e9056624fa02695ce4597d7dfd3b226a5e92f8a117",
+  "normalized_file": "source.md",
+  "normalized_sha256": "7105d021223f9d10a4f13e7a35420fc1e66f32a7d8be5088c478f4eed4d5a455",
+  "normalized_line_count": 26,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

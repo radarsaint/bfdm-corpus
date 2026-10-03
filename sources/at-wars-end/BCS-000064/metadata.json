@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000064",
+  "project": "At War's End",
+  "title": "At wars end. Outline",
+  "drive_id": "1vHK76jHdYDbG2F5G-9RExCWvgMr21TTUxkly2MmdHv4",
+  "original_filename": "At wars end. Outline.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "5b48418df3a36e62392946920828a9efb6cc7384320effd918105b44a3d248ae",
+  "normalized_file": "source.md",
+  "normalized_sha256": "e9b811f15e3f7ab4d8e48c34bec8d4c77699907f664e16622405fc3f7432e5f6",
+  "normalized_line_count": 994,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

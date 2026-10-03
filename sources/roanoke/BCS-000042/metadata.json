@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000042",
+  "project": "Roanoke",
+  "title": "Roanoke Season 2.docx",
+  "original_filename": "Roanoke Season 2.docx",
+  "original_sha256": "e47ff7b60f66615ef8ef57d7ae0b0e0e40187ebd4cc1beba17c9ab91f8a0a33a",
+  "normalized_file": "source.md",
+  "normalized_sha256": "497a791a8801eec2aac66553a93e6f4f48c9180d001ac2ed372dabe4c0eea9f7",
+  "normalized_line_count": 52,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

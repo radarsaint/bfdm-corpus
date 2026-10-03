@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000061",
+  "project": "At War's End",
+  "title": "Second draft at wars end",
+  "drive_id": "1-pdQNxblNKYZmzLCoVOomkOOzC7uHq5C9dGm22M8Big",
+  "original_filename": "Second draft at wars end.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "5c55c5ffc6a21114ebd056f7df70eb2c24f6c932dc450e85a66ce8a2af073f14",
+  "normalized_file": "source.md",
+  "normalized_sha256": "41e967c9ac82ea04e8538b48ceb9140038deaac1b1e5930bc27e264691f74b37",
+  "normalized_line_count": 2684,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

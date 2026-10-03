@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000057",
+  "project": "Bastion/Redoubt",
+  "title": "Bastion and Redoubt introduction",
+  "drive_id": "1BF3WaMa_Mg3-2jMr8vnBY94MhRRGJwhxENKjOHBxEaE",
+  "original_filename": "Bastion and Redoubt introduction.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "3a6b60dc5d86f7fc0714babbfa5499512c1ee31ba0a87d4ca881974d018354fd",
+  "normalized_file": "source.md",
+  "normalized_sha256": "2097b0c3694fa70d8198c8b592cef233c1eb3c58cbe72064ba50bdccb4552455",
+  "normalized_line_count": 72,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000046",
+  "project": "Roanoke",
+  "title": "Roanoke Season3 Change Log.docx",
+  "original_filename": "Roanoke Season3 Change Log.docx",
+  "original_sha256": "3e64db1b439a8d538d3152eba5f2c3df2dcc1b709ca22d9dfb59e33807be9a7b",
+  "normalized_file": "source.md",
+  "normalized_sha256": "4580ddd36c9c8a96fb86bf46b05f70a108f66aba917263934c91a22c6a6e2853",
+  "normalized_line_count": 356,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": "brendon-comments.native.json",
+  "original_stored_as": "original/source.docx"
+}

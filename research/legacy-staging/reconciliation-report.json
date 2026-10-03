@@ -1,0 +1,2501 @@
+{
+  "schema": "bfdm_legacy_reconciliation/v1",
+  "archive": {
+    "path": "/workspace/scratch/1391bd64b052/corpus-work/downloads/Brendon Corpus Staging/Current/brendon-corpus-staging.zip",
+    "sha256": "cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a",
+    "legacy_records": 51,
+    "external_checksum_inventory": "/workspace/scratch/1391bd64b052/corpus-work/downloads/Brendon Corpus Staging/Current/CHECKSUMS.sha256",
+    "external_checksums_verified": 295
+  },
+  "repo_root": "/workspace/scratch/1391bd64b052/corpus-work/repo",
+  "mode": "DRY_RUN",
+  "preapply_errors": [],
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "records": 51,
+    "record_status_counts": {
+      "ALREADY_RECONCILED": 51
+    },
+    "file_status_counts": {
+      "ALREADY_PRESENT": 284
+    },
+    "files_copied": 0,
+    "projects": {
+      "At War's End": {
+        "records": 8,
+        "assets_declared": 0,
+        "bundle_comments_declared": 2
+      },
+      "Bastion/Redoubt": {
+        "records": 3,
+        "assets_declared": 0,
+        "bundle_comments_declared": 0
+      },
+      "Earthfall": {
+        "records": 2,
+        "assets_declared": 0,
+        "bundle_comments_declared": 0
+      },
+      "Exploration Impossible": {
+        "records": 1,
+        "assets_declared": 0,
+        "bundle_comments_declared": 31
+      },
+      "Roanoke": {
+        "records": 37,
+        "assets_declared": 75,
+        "bundle_comments_declared": 29
+      }
+    }
+  },
+  "records": [
+    {
+      "corpus_id": "BCS-000017",
+      "project": "Roanoke",
+      "title": "Leaf and Rockman's Roanoke Epilogue.docx",
+      "bundle_path": "sources/roanoke/BCS-000017",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "52220a5579183b633068de49e6c91b9222dd1f95705b69544d9d6a3e25051c36",
+          "target_sha256": "52220a5579183b633068de49e6c91b9222dd1f95705b69544d9d6a3e25051c36",
+          "size_bytes": 438551
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image10.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d95a11cd7d1de3b70c328ead3d397456af39a0506517101f6959aa2b50ffbb21",
+          "target_sha256": "d95a11cd7d1de3b70c328ead3d397456af39a0506517101f6959aa2b50ffbb21",
+          "size_bytes": 888859
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image11.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "73c079f0968435eb1cc7ee41d89472be5984ad897cb47a9aa7d9a81a320eb5f1",
+          "target_sha256": "73c079f0968435eb1cc7ee41d89472be5984ad897cb47a9aa7d9a81a320eb5f1",
+          "size_bytes": 672079
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image2.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "882dd2bc051292d80de6898d7023bd35c154f4c24a91cef0b2ba1b9684f2adc7",
+          "target_sha256": "882dd2bc051292d80de6898d7023bd35c154f4c24a91cef0b2ba1b9684f2adc7",
+          "size_bytes": 621256
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image3.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "850bcd9db7b3830e7ad762c9281216577d1a8564f8217d101e2bc5e3620bf0ad",
+          "target_sha256": "850bcd9db7b3830e7ad762c9281216577d1a8564f8217d101e2bc5e3620bf0ad",
+          "size_bytes": 661537
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image4.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d2059209a5fd4a044851a8a7b38781fcb173610f1a01c73242d7bb877804b666",
+          "target_sha256": "d2059209a5fd4a044851a8a7b38781fcb173610f1a01c73242d7bb877804b666",
+          "size_bytes": 689894
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image5.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "6776f8d4769489e435d76b211b27819f09da06c7f64740842bfb5e2194f07e06",
+          "target_sha256": "6776f8d4769489e435d76b211b27819f09da06c7f64740842bfb5e2194f07e06",
+          "size_bytes": 713870
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image6.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f1ce72d11425abf687a668fd3344b6333d89939889021c39187ac1c81e93b4ff",
+          "target_sha256": "f1ce72d11425abf687a668fd3344b6333d89939889021c39187ac1c81e93b4ff",
+          "size_bytes": 117491
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image7.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4b3c00e7baab791de8360026c79512af3e91ce85e4d7e5066ad99f86409b1895",
+          "target_sha256": "4b3c00e7baab791de8360026c79512af3e91ce85e4d7e5066ad99f86409b1895",
+          "size_bytes": 669632
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image8.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "00e783ba3c5e8ff3ad6c3bf5fec9c8855f889f0d98849aba7cffab77be3a544c",
+          "target_sha256": "00e783ba3c5e8ff3ad6c3bf5fec9c8855f889f0d98849aba7cffab77be3a544c",
+          "size_bytes": 247838
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/assets/media/image9.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4e493b746ae27356234ab4b6b8997558b9555261e4c0b6704fbaba1d58910961",
+          "target_sha256": "4e493b746ae27356234ab4b6b8997558b9555261e4c0b6704fbaba1d58910961",
+          "size_bytes": 686992
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "24280bc765f9e25e88691b07e1626fe8f443d2a62b32a00b639121ea36775454",
+          "target_sha256": "24280bc765f9e25e88691b07e1626fe8f443d2a62b32a00b639121ea36775454",
+          "size_bytes": 133
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b2ae06c1b51f3a2ff130f8aab104cea4dc88c56b98e9142e00741262812748af",
+          "target_sha256": "b2ae06c1b51f3a2ff130f8aab104cea4dc88c56b98e9142e00741262812748af",
+          "size_bytes": 1053
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "230628d07f0fdb546ac49105f13d265645c643fecfb78fc2b9ac45d4a343b5b8",
+          "target_sha256": "230628d07f0fdb546ac49105f13d265645c643fecfb78fc2b9ac45d4a343b5b8",
+          "size_bytes": 6394612
+        },
+        {
+          "path": "sources/roanoke/BCS-000017/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b5f5b4b960f1c388c45456d871efc2dc29f66ddc29d77cef7530d0cb3f7fb1c5",
+          "target_sha256": "b5f5b4b960f1c388c45456d871efc2dc29f66ddc29d77cef7530d0cb3f7fb1c5",
+          "size_bytes": 38418
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000018",
+      "project": "Roanoke",
+      "title": "Roanoke 3 Master Schedule.xlsx",
+      "bundle_path": "sources/roanoke/BCS-000018",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000018/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9df4a90fdee89ee7692d994116ca4f82f03208e76c1e8bccde68a7b6d4915fe7",
+          "target_sha256": "9df4a90fdee89ee7692d994116ca4f82f03208e76c1e8bccde68a7b6d4915fe7",
+          "size_bytes": 86
+        },
+        {
+          "path": "sources/roanoke/BCS-000018/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "8b5ca6d9e3e81272b2f20dda385b342c06090e0897feb3a9a6371621e5a24609",
+          "target_sha256": "8b5ca6d9e3e81272b2f20dda385b342c06090e0897feb3a9a6371621e5a24609",
+          "size_bytes": 840
+        },
+        {
+          "path": "sources/roanoke/BCS-000018/original/source.xlsx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c884756f91dab73547f0b6b9475a83ac9ef34674be24f0f1e3c613dc3a19addb",
+          "target_sha256": "c884756f91dab73547f0b6b9475a83ac9ef34674be24f0f1e3c613dc3a19addb",
+          "size_bytes": 221145
+        },
+        {
+          "path": "sources/roanoke/BCS-000018/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "fe0bd1f14d44dedd4f141e4fb340fbfccdfa6bcf870780a00f75c2576244e565",
+          "target_sha256": "fe0bd1f14d44dedd4f141e4fb340fbfccdfa6bcf870780a00f75c2576244e565",
+          "size_bytes": 2598
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000019",
+      "project": "Roanoke",
+      "title": "Roanoke city directory..docx",
+      "bundle_path": "sources/roanoke/BCS-000019",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000019/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3396c068f90fd60a0da8635ee34c65d4f8cd4d872e556f3222493c1231a53175",
+          "target_sha256": "3396c068f90fd60a0da8635ee34c65d4f8cd4d872e556f3222493c1231a53175",
+          "size_bytes": 121
+        },
+        {
+          "path": "sources/roanoke/BCS-000019/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5b26ce2857506ff93437bb392f712bf297848e62cd23c446aa562f4ef9746c4a",
+          "target_sha256": "5b26ce2857506ff93437bb392f712bf297848e62cd23c446aa562f4ef9746c4a",
+          "size_bytes": 683
+        },
+        {
+          "path": "sources/roanoke/BCS-000019/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "1580f1683ede44891ef18c067ad40154cd62b9e1820c0eba3b60f99e7d153623",
+          "target_sha256": "1580f1683ede44891ef18c067ad40154cd62b9e1820c0eba3b60f99e7d153623",
+          "size_bytes": 8620
+        },
+        {
+          "path": "sources/roanoke/BCS-000019/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "18a0d5bf7bf85812da733fdd9dce512faa50c07cbcd58b314d9307311d475e31",
+          "target_sha256": "18a0d5bf7bf85812da733fdd9dce512faa50c07cbcd58b314d9307311d475e31",
+          "size_bytes": 1794
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000020",
+      "project": "Roanoke",
+      "title": "Roanoke Crafting.docx",
+      "bundle_path": "sources/roanoke/BCS-000020",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000020/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7ce6af8af4fba4387d56222000ba97c6f75400a4dba0ecda9dccb36262b29ed3",
+          "target_sha256": "7ce6af8af4fba4387d56222000ba97c6f75400a4dba0ecda9dccb36262b29ed3",
+          "size_bytes": 1086
+        },
+        {
+          "path": "sources/roanoke/BCS-000020/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "58e57b22a350980ae41c3e6a206f090b30bc9e59c387ac0a12ab109ae69fa5d5",
+          "target_sha256": "58e57b22a350980ae41c3e6a206f090b30bc9e59c387ac0a12ab109ae69fa5d5",
+          "size_bytes": 669
+        },
+        {
+          "path": "sources/roanoke/BCS-000020/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ebdb894ff99acfa11fe924342c1760c032f1c0e1791e864d7d80572b5d7f28ee",
+          "target_sha256": "ebdb894ff99acfa11fe924342c1760c032f1c0e1791e864d7d80572b5d7f28ee",
+          "size_bytes": 12309
+        },
+        {
+          "path": "sources/roanoke/BCS-000020/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "1622a884420455054e78bd64ee00a36cef3c50a1da4d0343b0ac84da4774d0e0",
+          "target_sha256": "1622a884420455054e78bd64ee00a36cef3c50a1da4d0343b0ac84da4774d0e0",
+          "size_bytes": 5382
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000021",
+      "project": "Roanoke",
+      "title": "Roanoke FAQ.docx",
+      "bundle_path": "sources/roanoke/BCS-000021",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000021/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3bcfc082b4369c58ea59d0c333738b777c9faebf543e15d4057ff0abc2a128db",
+          "target_sha256": "3bcfc082b4369c58ea59d0c333738b777c9faebf543e15d4057ff0abc2a128db",
+          "size_bytes": 57591
+        },
+        {
+          "path": "sources/roanoke/BCS-000021/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "811fe5ff7e5bbcba5e93905362efe8cdec73c3af3e1ed25d861b27945502de75",
+          "target_sha256": "811fe5ff7e5bbcba5e93905362efe8cdec73c3af3e1ed25d861b27945502de75",
+          "size_bytes": 109
+        },
+        {
+          "path": "sources/roanoke/BCS-000021/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "91a38ffb6e9fb118c73b4877ec74c0429a5f6ac4cb625ace61cdac23fc48ac63",
+          "target_sha256": "91a38ffb6e9fb118c73b4877ec74c0429a5f6ac4cb625ace61cdac23fc48ac63",
+          "size_bytes": 693
+        },
+        {
+          "path": "sources/roanoke/BCS-000021/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "100f6ff66149000d465c6cebcb000bda91a41f35716c4b05975bb46a3f2205b6",
+          "target_sha256": "100f6ff66149000d465c6cebcb000bda91a41f35716c4b05975bb46a3f2205b6",
+          "size_bytes": 70785
+        },
+        {
+          "path": "sources/roanoke/BCS-000021/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9abf812c6e634cddd6b27c84a3ac8b4a4e83ea07c45b16b57eeab4c41b37c8b7",
+          "target_sha256": "9abf812c6e634cddd6b27c84a3ac8b4a4e83ea07c45b16b57eeab4c41b37c8b7",
+          "size_bytes": 9262
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000022",
+      "project": "Roanoke",
+      "title": "Roanoke Island Beastiary.docx",
+      "bundle_path": "sources/roanoke/BCS-000022",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000022/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "415b3d508f2f33de6efd68cd24074fbaca0ee6a451bcef22c8ef32fee2edbc26",
+          "target_sha256": "415b3d508f2f33de6efd68cd24074fbaca0ee6a451bcef22c8ef32fee2edbc26",
+          "size_bytes": 122
+        },
+        {
+          "path": "sources/roanoke/BCS-000022/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4da928fc0542c807c3c2979cbf56e35aeabfa6f4252af60f9f0fe48a856d2f04",
+          "target_sha256": "4da928fc0542c807c3c2979cbf56e35aeabfa6f4252af60f9f0fe48a856d2f04",
+          "size_bytes": 684
+        },
+        {
+          "path": "sources/roanoke/BCS-000022/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9c9ac26732b2fd991384a2d0618915f060a00522462aaa527de146a2fe483b55",
+          "target_sha256": "9c9ac26732b2fd991384a2d0618915f060a00522462aaa527de146a2fe483b55",
+          "size_bytes": 6605
+        },
+        {
+          "path": "sources/roanoke/BCS-000022/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "8aece630fd3a5d5395070d8e213195ba680bf460cc467e06d0d01ed69d3af0dd",
+          "target_sha256": "8aece630fd3a5d5395070d8e213195ba680bf460cc467e06d0d01ed69d3af0dd",
+          "size_bytes": 137
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000023",
+      "project": "Roanoke",
+      "title": "Roanoke Lore: Chinnokin Prophesy.docx",
+      "bundle_path": "sources/roanoke/BCS-000023",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000023/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2e120436e92ef0e6226e5954d85a980dc55784ab7dc2e020d39db623a6e7f835",
+          "target_sha256": "2e120436e92ef0e6226e5954d85a980dc55784ab7dc2e020d39db623a6e7f835",
+          "size_bytes": 130
+        },
+        {
+          "path": "sources/roanoke/BCS-000023/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "17a7c8e6841d72212e0129bcd0be09d02b9466e847f69075eec4497dd2fc63db",
+          "target_sha256": "17a7c8e6841d72212e0129bcd0be09d02b9466e847f69075eec4497dd2fc63db",
+          "size_bytes": 701
+        },
+        {
+          "path": "sources/roanoke/BCS-000023/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "628866a009442359baf94719a4a5a7fc3590aa6bfba27640794097c5fdd598d2",
+          "target_sha256": "628866a009442359baf94719a4a5a7fc3590aa6bfba27640794097c5fdd598d2",
+          "size_bytes": 7594
+        },
+        {
+          "path": "sources/roanoke/BCS-000023/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e9d6d0c833c9bc4d37b9b374057fbc8ca0c39101285566ab0af840c501e53a7d",
+          "target_sha256": "e9d6d0c833c9bc4d37b9b374057fbc8ca0c39101285566ab0af840c501e53a7d",
+          "size_bytes": 1496
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000024",
+      "project": "Roanoke",
+      "title": "Roanoke S2.docx",
+      "bundle_path": "sources/roanoke/BCS-000024",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "894a2832ae535e4941dde2c78bcee6e6973a50222b1665fe37d90395223b2420",
+          "target_sha256": "894a2832ae535e4941dde2c78bcee6e6973a50222b1665fe37d90395223b2420",
+          "size_bytes": 6828
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image10.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "88ba48109386a644584a48e6d7276e490014705fd7c8e3ac997c90c96b1ee9eb",
+          "target_sha256": "88ba48109386a644584a48e6d7276e490014705fd7c8e3ac997c90c96b1ee9eb",
+          "size_bytes": 49924
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image11.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "223907478fac88abda6da34271b3faf63eae430d4ba456db2e858f05c834d763",
+          "target_sha256": "223907478fac88abda6da34271b3faf63eae430d4ba456db2e858f05c834d763",
+          "size_bytes": 47727
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image12.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0a0f44519d8850bea30bbd8aa53aaa2ad5bbdc2f30531c11e2a38f77d24d2997",
+          "target_sha256": "0a0f44519d8850bea30bbd8aa53aaa2ad5bbdc2f30531c11e2a38f77d24d2997",
+          "size_bytes": 159521
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image13.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "96bac8373f0f51a1c88280fb66ede7db042818b5697affbd6788c7d641a7f7cd",
+          "target_sha256": "96bac8373f0f51a1c88280fb66ede7db042818b5697affbd6788c7d641a7f7cd",
+          "size_bytes": 72109
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image14.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f09d33062e8d03c5b6ae7dac5a3add2728b3efb6e339721b3a2dd846034e63fc",
+          "target_sha256": "f09d33062e8d03c5b6ae7dac5a3add2728b3efb6e339721b3a2dd846034e63fc",
+          "size_bytes": 70276
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image15.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "05a89955fa7f36549b1616c22836575efdd883c690bcce3191c3461762dd12b6",
+          "target_sha256": "05a89955fa7f36549b1616c22836575efdd883c690bcce3191c3461762dd12b6",
+          "size_bytes": 206773
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image16.gif",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7125fd45a4154bafc57ad7b4e27a00f7231ade10abcbd90c617c9c16ccfc8d52",
+          "target_sha256": "7125fd45a4154bafc57ad7b4e27a00f7231ade10abcbd90c617c9c16ccfc8d52",
+          "size_bytes": 27629
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image17.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ef2c16118d2d88592084aa9258ad3fb3c3125dafb0db0aabf560e83c48ac9f63",
+          "target_sha256": "ef2c16118d2d88592084aa9258ad3fb3c3125dafb0db0aabf560e83c48ac9f63",
+          "size_bytes": 167152
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image18.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "18e1f32d17c916e06e8c94d5880d7ef94bc729d5f352ec9a8f4b2c0779d3b707",
+          "target_sha256": "18e1f32d17c916e06e8c94d5880d7ef94bc729d5f352ec9a8f4b2c0779d3b707",
+          "size_bytes": 1118249
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image19.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "eeb4e1c8fcdd466ee86302228f3c340e4d3cf7b3da821194836f7d86601e1265",
+          "target_sha256": "eeb4e1c8fcdd466ee86302228f3c340e4d3cf7b3da821194836f7d86601e1265",
+          "size_bytes": 130230
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image2.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "443b29013eb3e5b5845b918a19cbffd11399a82ad8c6f79a0e5e983d654ad2e9",
+          "target_sha256": "443b29013eb3e5b5845b918a19cbffd11399a82ad8c6f79a0e5e983d654ad2e9",
+          "size_bytes": 57314
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image20.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9e8e854e2340adf33988de0e32f535ec9b8364031622b1474673587bbfa21d9d",
+          "target_sha256": "9e8e854e2340adf33988de0e32f535ec9b8364031622b1474673587bbfa21d9d",
+          "size_bytes": 524605
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image21.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "822ef47cbb3110f2cf9cda99b2808f68f2a4434fdc7a0e3940ca6f526e898797",
+          "target_sha256": "822ef47cbb3110f2cf9cda99b2808f68f2a4434fdc7a0e3940ca6f526e898797",
+          "size_bytes": 109781
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image3.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5ffb038458e71bae5002a7241a86cd614bbc4a436316f1544f3a9f088dd65531",
+          "target_sha256": "5ffb038458e71bae5002a7241a86cd614bbc4a436316f1544f3a9f088dd65531",
+          "size_bytes": 45365
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image4.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ab654e3c576f1a469a10455c0be6d6088a0e4ed21ba9677c5a4c20e31726d4cc",
+          "target_sha256": "ab654e3c576f1a469a10455c0be6d6088a0e4ed21ba9677c5a4c20e31726d4cc",
+          "size_bytes": 219745
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image5.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a2af940be3b48931c934414dcfa81decdb03c5031aeea865b90cb1cc7805ac85",
+          "target_sha256": "a2af940be3b48931c934414dcfa81decdb03c5031aeea865b90cb1cc7805ac85",
+          "size_bytes": 674050
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image6.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ab4b7612dcefbeea5bdb372acbc6210d6916ddd452ff3bea41f378c80439b33a",
+          "target_sha256": "ab4b7612dcefbeea5bdb372acbc6210d6916ddd452ff3bea41f378c80439b33a",
+          "size_bytes": 100062
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image7.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "58f9a3227d5b1cc72e4207d919410735e7dd5bbb0d1526919457aadffb2fe888",
+          "target_sha256": "58f9a3227d5b1cc72e4207d919410735e7dd5bbb0d1526919457aadffb2fe888",
+          "size_bytes": 11026
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image8.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "436bf07c58b03803f98a6e1a70d0357759a4028f345ec27fe81f03643284b52b",
+          "target_sha256": "436bf07c58b03803f98a6e1a70d0357759a4028f345ec27fe81f03643284b52b",
+          "size_bytes": 65658
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/assets/media/image9.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c461c1d950f4cf8d866ef6837595307a3c339ec01b3bfb212b72bdfbf5d237f1",
+          "target_sha256": "c461c1d950f4cf8d866ef6837595307a3c339ec01b3bfb212b72bdfbf5d237f1",
+          "size_bytes": 43403
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "304c7cf2943fee0fa2ebe77295443cd6746f8c06abced47b9323bd722e45b287",
+          "target_sha256": "304c7cf2943fee0fa2ebe77295443cd6746f8c06abced47b9323bd722e45b287",
+          "size_bytes": 108
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4dc3f17e8866af25bb8e9790cc74fb96b1bd76326977b1d54d8e8ddf1559ba24",
+          "target_sha256": "4dc3f17e8866af25bb8e9790cc74fb96b1bd76326977b1d54d8e8ddf1559ba24",
+          "size_bytes": 1324
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e103a5a6fe3681f0d3d84abaefc634c19e751ee8c3fe36c449717e7a4d1f3d83",
+          "target_sha256": "e103a5a6fe3681f0d3d84abaefc634c19e751ee8c3fe36c449717e7a4d1f3d83",
+          "size_bytes": 4185612
+        },
+        {
+          "path": "sources/roanoke/BCS-000024/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f3196ccd803f8cb1628bafdda0c9688b7e3c0ffff871115983c94b5c446f447d",
+          "target_sha256": "f3196ccd803f8cb1628bafdda0c9688b7e3c0ffff871115983c94b5c446f447d",
+          "size_bytes": 149105
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000025",
+      "project": "Roanoke",
+      "title": "Roanoke S3 Lookout hill lodestone..docx",
+      "bundle_path": "sources/roanoke/BCS-000025",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000025/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2bbe76980a6dc88d4a4d44cca120d162f097c7c39eab0f18d80b42368f02ef5d",
+          "target_sha256": "2bbe76980a6dc88d4a4d44cca120d162f097c7c39eab0f18d80b42368f02ef5d",
+          "size_bytes": 98716
+        },
+        {
+          "path": "sources/roanoke/BCS-000025/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2056018d5d881ebfd908d9ca0fb3fc2861f45ed4ebd3d7c9122b160b0a0a8ecc",
+          "target_sha256": "2056018d5d881ebfd908d9ca0fb3fc2861f45ed4ebd3d7c9122b160b0a0a8ecc",
+          "size_bytes": 132
+        },
+        {
+          "path": "sources/roanoke/BCS-000025/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ad94f06a527656da724c32926fa79f991c50d36d6bd7c16bc439d154cce6b213",
+          "target_sha256": "ad94f06a527656da724c32926fa79f991c50d36d6bd7c16bc439d154cce6b213",
+          "size_bytes": 739
+        },
+        {
+          "path": "sources/roanoke/BCS-000025/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "487c845ebf97f721bb0513ab172a6af77b902f84dc704da7c6c43d4988ee038c",
+          "target_sha256": "487c845ebf97f721bb0513ab172a6af77b902f84dc704da7c6c43d4988ee038c",
+          "size_bytes": 424340
+        },
+        {
+          "path": "sources/roanoke/BCS-000025/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c28ed2a2febd6e75d1d1b1acfabcda87105a4650c56c4c7a753be530b71521e2",
+          "target_sha256": "c28ed2a2febd6e75d1d1b1acfabcda87105a4650c56c4c7a753be530b71521e2",
+          "size_bytes": 12844
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000026",
+      "project": "Roanoke",
+      "title": "Roanoke S3 Main Map.docx",
+      "bundle_path": "sources/roanoke/BCS-000026",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000026/assets/media/image1.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b5e309a94574fed1810fa552eada326e4efff1b80d391010e772eca60fe40fb1",
+          "target_sha256": "b5e309a94574fed1810fa552eada326e4efff1b80d391010e772eca60fe40fb1",
+          "size_bytes": 3883195
+        },
+        {
+          "path": "sources/roanoke/BCS-000026/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ed5d1a3388a7ed9ac3423b950374fdaebbcdac0c3eac4d9b847f3da84fd698ee",
+          "target_sha256": "ed5d1a3388a7ed9ac3423b950374fdaebbcdac0c3eac4d9b847f3da84fd698ee",
+          "size_bytes": 117
+        },
+        {
+          "path": "sources/roanoke/BCS-000026/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "80a88293d963cae1b1d8d71f18459445cac64a0d29ef3132f6d5a6e59ed0f048",
+          "target_sha256": "80a88293d963cae1b1d8d71f18459445cac64a0d29ef3132f6d5a6e59ed0f048",
+          "size_bytes": 708
+        },
+        {
+          "path": "sources/roanoke/BCS-000026/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4d35700f7a31fa5a3a77c3bb641d4ed737c01765874b3e4aed52429d39e9e6fb",
+          "target_sha256": "4d35700f7a31fa5a3a77c3bb641d4ed737c01765874b3e4aed52429d39e9e6fb",
+          "size_bytes": 4202403
+        },
+        {
+          "path": "sources/roanoke/BCS-000026/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e90ca2df012fdf5bfd4ef2a0cad0cbac023fcb199d73dee72ba8b18e9d0fd994",
+          "target_sha256": "e90ca2df012fdf5bfd4ef2a0cad0cbac023fcb199d73dee72ba8b18e9d0fd994",
+          "size_bytes": 2648
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000027",
+      "project": "Roanoke",
+      "title": "Roanoke S3 Secret Society Lore.docx",
+      "bundle_path": "sources/roanoke/BCS-000027",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000027/assets/media/image1.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c274e0efb5f10297139a9d7c892ab090f8b0efe829d2ac8b1c15af93075470ce",
+          "target_sha256": "c274e0efb5f10297139a9d7c892ab090f8b0efe829d2ac8b1c15af93075470ce",
+          "size_bytes": 2676303
+        },
+        {
+          "path": "sources/roanoke/BCS-000027/assets/media/image2.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "406174b9fc84393962a8b1af30c63fec8530d9d784a11d0f6424e7d56712f0ac",
+          "target_sha256": "406174b9fc84393962a8b1af30c63fec8530d9d784a11d0f6424e7d56712f0ac",
+          "size_bytes": 2908516
+        },
+        {
+          "path": "sources/roanoke/BCS-000027/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "366c24f2630dd4e75612b1dd4fb279c13fd81449b68070cdac4506204255990a",
+          "target_sha256": "366c24f2630dd4e75612b1dd4fb279c13fd81449b68070cdac4506204255990a",
+          "size_bytes": 128
+        },
+        {
+          "path": "sources/roanoke/BCS-000027/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "636751f97acfe8783283bcf3e2803af8136b6dfab8bfbd62573a66dc89747cd3",
+          "target_sha256": "636751f97acfe8783283bcf3e2803af8136b6dfab8bfbd62573a66dc89747cd3",
+          "size_bytes": 762
+        },
+        {
+          "path": "sources/roanoke/BCS-000027/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c545057d7b089dee2b66f3bef9e8721550525aa00a0e00c9f878f411fa89e41f",
+          "target_sha256": "c545057d7b089dee2b66f3bef9e8721550525aa00a0e00c9f878f411fa89e41f",
+          "size_bytes": 5593749
+        },
+        {
+          "path": "sources/roanoke/BCS-000027/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a475285333e0da27141c32b1fda084b4e8f4f9be5dc93ca5085e969212783d75",
+          "target_sha256": "a475285333e0da27141c32b1fda084b4e8f4f9be5dc93ca5085e969212783d75",
+          "size_bytes": 13785
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000028",
+      "project": "Roanoke",
+      "title": "Roanoke S3 Social Media.docx",
+      "bundle_path": "sources/roanoke/BCS-000028",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000028/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d5d0338e86cddeee573937df351d25a4bdc91aaf6cce8411562e7d4a3b8f05fc",
+          "target_sha256": "d5d0338e86cddeee573937df351d25a4bdc91aaf6cce8411562e7d4a3b8f05fc",
+          "size_bytes": 121
+        },
+        {
+          "path": "sources/roanoke/BCS-000028/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "48db87a1cfcf5fb39ad8c1faf4dc8522e39af4808022709645dfcbc7b74de0e9",
+          "target_sha256": "48db87a1cfcf5fb39ad8c1faf4dc8522e39af4808022709645dfcbc7b74de0e9",
+          "size_bytes": 683
+        },
+        {
+          "path": "sources/roanoke/BCS-000028/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "41f371f082ff71bdb8da4e392047756bce8416ff40b43ab19ab46f2f4d561a35",
+          "target_sha256": "41f371f082ff71bdb8da4e392047756bce8416ff40b43ab19ab46f2f4d561a35",
+          "size_bytes": 10843
+        },
+        {
+          "path": "sources/roanoke/BCS-000028/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "88b021d16db6af6d64ad3772c7a5f93ab507887af2c58a05708bd511150a1572",
+          "target_sha256": "88b021d16db6af6d64ad3772c7a5f93ab507887af2c58a05708bd511150a1572",
+          "size_bytes": 7204
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000029",
+      "project": "Roanoke",
+      "title": "Roanoke S3 v2 W2 Breakdown.docx",
+      "bundle_path": "sources/roanoke/BCS-000029",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image1.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "623f30190e5dbfc5c7f6bfb8fed74a71a59f80dedbf9908f02b553249fa3c95a",
+          "target_sha256": "623f30190e5dbfc5c7f6bfb8fed74a71a59f80dedbf9908f02b553249fa3c95a",
+          "size_bytes": 546140
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image10.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "445a8a2d80136229559511996e7b6c1dc87d497c2c6ad42207b16e93bfb0674d",
+          "target_sha256": "445a8a2d80136229559511996e7b6c1dc87d497c2c6ad42207b16e93bfb0674d",
+          "size_bytes": 1072349
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image11.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f8e5a2dc2802419ca81042e2a5863d4ac3c185e773ffa517f3f7d9315089ef36",
+          "target_sha256": "f8e5a2dc2802419ca81042e2a5863d4ac3c185e773ffa517f3f7d9315089ef36",
+          "size_bytes": 977073
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image12.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "dc2219a4d353f6fd42e77144583fa9ee0665c4801b4fdc21393d05f08b41b030",
+          "target_sha256": "dc2219a4d353f6fd42e77144583fa9ee0665c4801b4fdc21393d05f08b41b030",
+          "size_bytes": 258489
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image13.gif",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7eb5ec4f80ff5c51d50cfd9dc0742dc00087d4245632dab7653f3f54e2c159c7",
+          "target_sha256": "7eb5ec4f80ff5c51d50cfd9dc0742dc00087d4245632dab7653f3f54e2c159c7",
+          "size_bytes": 1261827
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image14.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "69c626a904fbb9b7e4c5b1da048aab6edf95bb4caa1844e9c333c787ef28fc9e",
+          "target_sha256": "69c626a904fbb9b7e4c5b1da048aab6edf95bb4caa1844e9c333c787ef28fc9e",
+          "size_bytes": 81606
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image15.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "754955a32adf24e1190365b912cce4b4aa465b53f7d1f5be90c5255dd3b4ad37",
+          "target_sha256": "754955a32adf24e1190365b912cce4b4aa465b53f7d1f5be90c5255dd3b4ad37",
+          "size_bytes": 511485
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image16.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "378470b3e571fad60cacccf7e4ac73d4f5ead4ba35cc5208f0dad1c6f47746ee",
+          "target_sha256": "378470b3e571fad60cacccf7e4ac73d4f5ead4ba35cc5208f0dad1c6f47746ee",
+          "size_bytes": 869084
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image2.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3a595fa4376418c5eb5bb3c2f54eb3d4216fb351e56228b87c83777fecf83aa9",
+          "target_sha256": "3a595fa4376418c5eb5bb3c2f54eb3d4216fb351e56228b87c83777fecf83aa9",
+          "size_bytes": 429440
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image3.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d1fa9f74ce57fb782f776a9192d8716e6daa98ced4111446f5c2aec22798ccb0",
+          "target_sha256": "d1fa9f74ce57fb782f776a9192d8716e6daa98ced4111446f5c2aec22798ccb0",
+          "size_bytes": 190935
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image4.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "bc2fd48347b63f4cd8f0dd801bf4733ece91c83d0981ffc6616549866522c08f",
+          "target_sha256": "bc2fd48347b63f4cd8f0dd801bf4733ece91c83d0981ffc6616549866522c08f",
+          "size_bytes": 132222
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image5.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5faac9bb0960792eac3e624bc8f481bab6b6b8a9a7f0f2335f7ac51d20185607",
+          "target_sha256": "5faac9bb0960792eac3e624bc8f481bab6b6b8a9a7f0f2335f7ac51d20185607",
+          "size_bytes": 217136
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image6.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c208fdf0950a5abb7f0f61ab57bdb9a0dc3fa850d3eb79f95c335fa77578b78a",
+          "target_sha256": "c208fdf0950a5abb7f0f61ab57bdb9a0dc3fa850d3eb79f95c335fa77578b78a",
+          "size_bytes": 62300
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image7.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a6307926e5641a6da52c0e2b3ae456a4dbac9747dde45e9f6ba492a659fa0b29",
+          "target_sha256": "a6307926e5641a6da52c0e2b3ae456a4dbac9747dde45e9f6ba492a659fa0b29",
+          "size_bytes": 166547
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image8.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d981420a1fbd39aceffd7b249d1a35e074d460b18d3d98d68f63285db347332e",
+          "target_sha256": "d981420a1fbd39aceffd7b249d1a35e074d460b18d3d98d68f63285db347332e",
+          "size_bytes": 232413
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/assets/media/image9.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3925938960c7b654b2b882778f45d184539504f5d77c2f9fd96e17e489fe7539",
+          "target_sha256": "3925938960c7b654b2b882778f45d184539504f5d77c2f9fd96e17e489fe7539",
+          "size_bytes": 193999
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "53f82267e4e3a7851e2c879397de1afd9294c12badc5a4e0358658d0bf39c8a7",
+          "target_sha256": "53f82267e4e3a7851e2c879397de1afd9294c12badc5a4e0358658d0bf39c8a7",
+          "size_bytes": 7557
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3c4d3321007c857367c96009d87ecd8113dfb15980323358d924ea12a7131c95",
+          "target_sha256": "3c4d3321007c857367c96009d87ecd8113dfb15980323358d924ea12a7131c95",
+          "size_bytes": 1195
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "43ef5115d80ffb64f44a4c6a01e7ac5e284bd8671a0468cb90ebe9cf8761c27f",
+          "target_sha256": "43ef5115d80ffb64f44a4c6a01e7ac5e284bd8671a0468cb90ebe9cf8761c27f",
+          "size_bytes": 7222895
+        },
+        {
+          "path": "sources/roanoke/BCS-000029/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0da489108c38f60df2bc1153ee000e6a492cf59f3c95ba495e0ccab388c1d06d",
+          "target_sha256": "0da489108c38f60df2bc1153ee000e6a492cf59f3c95ba495e0ccab388c1d06d",
+          "size_bytes": 38330
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000030",
+      "project": "Roanoke",
+      "title": "Roanoke S3W1 Set List..docx",
+      "bundle_path": "sources/roanoke/BCS-000030",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000030/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e507d1fd03d928b0faba585db35aec4224951bf6faa481d6c302cdc3bfe03fb4",
+          "target_sha256": "e507d1fd03d928b0faba585db35aec4224951bf6faa481d6c302cdc3bfe03fb4",
+          "size_bytes": 120
+        },
+        {
+          "path": "sources/roanoke/BCS-000030/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c380c4b5373a11bd0652bfc7a542035c5b51baae6ec8ce64d7d0053ec72dc5a7",
+          "target_sha256": "c380c4b5373a11bd0652bfc7a542035c5b51baae6ec8ce64d7d0053ec72dc5a7",
+          "size_bytes": 681
+        },
+        {
+          "path": "sources/roanoke/BCS-000030/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "fdcf74175c89b0ebf90080f4880bb39efb4382c81c15dab1bc821c87fc017679",
+          "target_sha256": "fdcf74175c89b0ebf90080f4880bb39efb4382c81c15dab1bc821c87fc017679",
+          "size_bytes": 8876
+        },
+        {
+          "path": "sources/roanoke/BCS-000030/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c046a78d118fc7b32a182203f7a9ef419226be172d85fbf3045176fb9e10c9f9",
+          "target_sha256": "c046a78d118fc7b32a182203f7a9ef419226be172d85fbf3045176fb9e10c9f9",
+          "size_bytes": 2338
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000031",
+      "project": "Roanoke",
+      "title": "Roanoke S3W2 Passdown.docx",
+      "bundle_path": "sources/roanoke/BCS-000031",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000031/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f9346df7bf252420fbc87e4c5b021a3cb8356b18d537f5129aeeb2efa813f741",
+          "target_sha256": "f9346df7bf252420fbc87e4c5b021a3cb8356b18d537f5129aeeb2efa813f741",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000031/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "55f1417bca8a5d7a2345d3c0aedd43d90693cc4660caf36259bd44b8f930b345",
+          "target_sha256": "55f1417bca8a5d7a2345d3c0aedd43d90693cc4660caf36259bd44b8f930b345",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000031/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c0bedc037020044805ec3a88f630315791b4259de839f7f6853f7741fd9a5caa",
+          "target_sha256": "c0bedc037020044805ec3a88f630315791b4259de839f7f6853f7741fd9a5caa",
+          "size_bytes": 7036
+        },
+        {
+          "path": "sources/roanoke/BCS-000031/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "8899aa31526c39999dd4e6bb459c285d4a27ed672e5642d094efe8571472c773",
+          "target_sha256": "8899aa31526c39999dd4e6bb459c285d4a27ed672e5642d094efe8571472c773",
+          "size_bytes": 845
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000032",
+      "project": "Roanoke",
+      "title": "Roanoke S3W2 Set List.docx",
+      "bundle_path": "sources/roanoke/BCS-000032",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000032/assets/media/image1.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d981420a1fbd39aceffd7b249d1a35e074d460b18d3d98d68f63285db347332e",
+          "target_sha256": "d981420a1fbd39aceffd7b249d1a35e074d460b18d3d98d68f63285db347332e",
+          "size_bytes": 232413
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/assets/media/image2.gif",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7eb5ec4f80ff5c51d50cfd9dc0742dc00087d4245632dab7653f3f54e2c159c7",
+          "target_sha256": "7eb5ec4f80ff5c51d50cfd9dc0742dc00087d4245632dab7653f3f54e2c159c7",
+          "size_bytes": 1261827
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/assets/media/image3.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a6307926e5641a6da52c0e2b3ae456a4dbac9747dde45e9f6ba492a659fa0b29",
+          "target_sha256": "a6307926e5641a6da52c0e2b3ae456a4dbac9747dde45e9f6ba492a659fa0b29",
+          "size_bytes": 166547
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/assets/media/image4.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5faac9bb0960792eac3e624bc8f481bab6b6b8a9a7f0f2335f7ac51d20185607",
+          "target_sha256": "5faac9bb0960792eac3e624bc8f481bab6b6b8a9a7f0f2335f7ac51d20185607",
+          "size_bytes": 217136
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/assets/media/image5.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "dc2219a4d353f6fd42e77144583fa9ee0665c4801b4fdc21393d05f08b41b030",
+          "target_sha256": "dc2219a4d353f6fd42e77144583fa9ee0665c4801b4fdc21393d05f08b41b030",
+          "size_bytes": 258489
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ddaa145da28f9b1fe369221af13816518f85b4f8aea47fa2f74ca0d5bb2d0a81",
+          "target_sha256": "ddaa145da28f9b1fe369221af13816518f85b4f8aea47fa2f74ca0d5bb2d0a81",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "65508df7b7b6a976b3b37a2bd33160bafe20514a6182d6358e69193e3bbfe90e",
+          "target_sha256": "65508df7b7b6a976b3b37a2bd33160bafe20514a6182d6358e69193e3bbfe90e",
+          "size_bytes": 836
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cc4282eedc819c6bef33fe58a6c21300082ed594666a1de1643bc6c775eafbd7",
+          "target_sha256": "cc4282eedc819c6bef33fe58a6c21300082ed594666a1de1643bc6c775eafbd7",
+          "size_bytes": 2145903
+        },
+        {
+          "path": "sources/roanoke/BCS-000032/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "461e370b0e05230768f052ea0e87f636327675c2e125e5cfbafac22f0dce5e69",
+          "target_sha256": "461e370b0e05230768f052ea0e87f636327675c2e125e5cfbafac22f0dce5e69",
+          "size_bytes": 4558
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000033",
+      "project": "Roanoke",
+      "title": "Roanoke S3W3 Cast.docx",
+      "bundle_path": "sources/roanoke/BCS-000033",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000033/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7f5a34a3b1969b7e8cc14ea1dd8c8ff297106820986eac296dc919a21538fa70",
+          "target_sha256": "7f5a34a3b1969b7e8cc14ea1dd8c8ff297106820986eac296dc919a21538fa70",
+          "size_bytes": 115
+        },
+        {
+          "path": "sources/roanoke/BCS-000033/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "bafd0fb7b5191e5f457f06d1a49fd76ff84e02832cf71fee368a01ec6fa315a9",
+          "target_sha256": "bafd0fb7b5191e5f457f06d1a49fd76ff84e02832cf71fee368a01ec6fa315a9",
+          "size_bytes": 671
+        },
+        {
+          "path": "sources/roanoke/BCS-000033/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4091962c8571544026abd472798762df691aef248d84b2cbbf632440ed03b485",
+          "target_sha256": "4091962c8571544026abd472798762df691aef248d84b2cbbf632440ed03b485",
+          "size_bytes": 8118
+        },
+        {
+          "path": "sources/roanoke/BCS-000033/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "fcd2a1ffe4752622a172586fb05a69e8acd6fcfb54f26496dd1bacc3adb0611b",
+          "target_sha256": "fcd2a1ffe4752622a172586fb05a69e8acd6fcfb54f26496dd1bacc3adb0611b",
+          "size_bytes": 2285
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000034",
+      "project": "Roanoke",
+      "title": "Roanoke S3W3 Passdown.docx",
+      "bundle_path": "sources/roanoke/BCS-000034",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000034/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "00ca629a3503fce2e7de6dbb01298398c7c94ba6fc5bf7dbe4f630ab82dcc763",
+          "target_sha256": "00ca629a3503fce2e7de6dbb01298398c7c94ba6fc5bf7dbe4f630ab82dcc763",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000034/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9fc704b8af231bd7f4d068378c486e64b453288caa57750ed801cf1731690bbd",
+          "target_sha256": "9fc704b8af231bd7f4d068378c486e64b453288caa57750ed801cf1731690bbd",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000034/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0a58c3f54599808084eb3216f904ead3064e6afd6fb47db1c7342be6427b5f4a",
+          "target_sha256": "0a58c3f54599808084eb3216f904ead3064e6afd6fb47db1c7342be6427b5f4a",
+          "size_bytes": 7036
+        },
+        {
+          "path": "sources/roanoke/BCS-000034/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "231b3d834c2aa1dff17e4e53366eeddb8b20f5dd79f030c1602c4efaa6361708",
+          "target_sha256": "231b3d834c2aa1dff17e4e53366eeddb8b20f5dd79f030c1602c4efaa6361708",
+          "size_bytes": 845
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000035",
+      "project": "Roanoke",
+      "title": "Roanoke S3W3 Set List.docx",
+      "bundle_path": "sources/roanoke/BCS-000035",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000035/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7d993d4a71765a90220a5932cfa61b112b475ee5e286c671701c3d0605cde8e8",
+          "target_sha256": "7d993d4a71765a90220a5932cfa61b112b475ee5e286c671701c3d0605cde8e8",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000035/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b551ab1d40a6e6a4bb3e02eacc6ced390bf11e9fbc62803e78d097fe10645770",
+          "target_sha256": "b551ab1d40a6e6a4bb3e02eacc6ced390bf11e9fbc62803e78d097fe10645770",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000035/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f6e0bab20a775601c54ec719ec02f4e27c63dca96b00a3ddd53bdf45cb6aca6d",
+          "target_sha256": "f6e0bab20a775601c54ec719ec02f4e27c63dca96b00a3ddd53bdf45cb6aca6d",
+          "size_bytes": 8624
+        },
+        {
+          "path": "sources/roanoke/BCS-000035/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b77b0193336a08faf422ec78ecce49a8bdb77d8fbf2c5a9235598de3db4c41c4",
+          "target_sha256": "b77b0193336a08faf422ec78ecce49a8bdb77d8fbf2c5a9235598de3db4c41c4",
+          "size_bytes": 2212
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000036",
+      "project": "Roanoke",
+      "title": "Roanoke S3W3 Voice Event Draft.docx",
+      "bundle_path": "sources/roanoke/BCS-000036",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000036/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9670d8c1dd052525691c7a712d3eb75ca34dd6e67d8b11f5eaef19efe5448533",
+          "target_sha256": "9670d8c1dd052525691c7a712d3eb75ca34dd6e67d8b11f5eaef19efe5448533",
+          "size_bytes": 128
+        },
+        {
+          "path": "sources/roanoke/BCS-000036/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "8d88ca58d51424bf18b3fee772f607b0999d14beb0cf2898043ac419666bfffa",
+          "target_sha256": "8d88ca58d51424bf18b3fee772f607b0999d14beb0cf2898043ac419666bfffa",
+          "size_bytes": 697
+        },
+        {
+          "path": "sources/roanoke/BCS-000036/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "1aa1057b19ef512e8e693acbd572ceedb9f6a34d74fc93b283b0f34e8882a0ed",
+          "target_sha256": "1aa1057b19ef512e8e693acbd572ceedb9f6a34d74fc93b283b0f34e8882a0ed",
+          "size_bytes": 8244
+        },
+        {
+          "path": "sources/roanoke/BCS-000036/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "af6104d98a70ba45e8a82bb9910ac0e20dc57dac0907380bbc2f3dac4b272829",
+          "target_sha256": "af6104d98a70ba45e8a82bb9910ac0e20dc57dac0907380bbc2f3dac4b272829",
+          "size_bytes": 2991
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000037",
+      "project": "Roanoke",
+      "title": "Roanoke s3w4 Break down.docx",
+      "bundle_path": "sources/roanoke/BCS-000037",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000037/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7d8b3d4c2486b10f918fdcda6365c09c541274672b35798c423a98666f118095",
+          "target_sha256": "7d8b3d4c2486b10f918fdcda6365c09c541274672b35798c423a98666f118095",
+          "size_bytes": 87049
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/assets/media/image2.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "00172c1f9c1f4604322ed586e951cb43aa4dd2b48bcc94266901e50ec4809055",
+          "target_sha256": "00172c1f9c1f4604322ed586e951cb43aa4dd2b48bcc94266901e50ec4809055",
+          "size_bytes": 62600
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/assets/media/image3.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "6c913c4e9b9b9b3b444fc4236dbdd19b65ed0a3b89414e70b18ab8bbf2a6c005",
+          "target_sha256": "6c913c4e9b9b9b3b444fc4236dbdd19b65ed0a3b89414e70b18ab8bbf2a6c005",
+          "size_bytes": 74584
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/assets/media/image4.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "8e504c89b214f9ace99b6cb610cc863b8f636e6de6edfe5bb1dce1ccf6084a4f",
+          "target_sha256": "8e504c89b214f9ace99b6cb610cc863b8f636e6de6edfe5bb1dce1ccf6084a4f",
+          "size_bytes": 147839
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/brendon-comments.native.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ce82de1f4510dc561b29bd3645d61983a8a3ba71af9aa534ba4aeca3ccadd22d",
+          "target_sha256": "ce82de1f4510dc561b29bd3645d61983a8a3ba71af9aa534ba4aeca3ccadd22d",
+          "size_bytes": 471
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cae5e3364abbdaca6367a4f486c36ad20ed31a2ae9e373c1964ec16ab7969200",
+          "target_sha256": "cae5e3364abbdaca6367a4f486c36ad20ed31a2ae9e373c1964ec16ab7969200",
+          "size_bytes": 686
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "abffe7c87f7e974aeead2c117fb65d043542e840e5e94abbc84b9f4a5fbd680c",
+          "target_sha256": "abffe7c87f7e974aeead2c117fb65d043542e840e5e94abbc84b9f4a5fbd680c",
+          "size_bytes": 836
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c57823b3abcb26e1434404d7e10da773cdcfd9bd61d260413e815ea27acd1078",
+          "target_sha256": "c57823b3abcb26e1434404d7e10da773cdcfd9bd61d260413e815ea27acd1078",
+          "size_bytes": 698325
+        },
+        {
+          "path": "sources/roanoke/BCS-000037/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f094eea0bcc88710127093ae8519cb08496364a4de1bcbd2f2ce096c43b67e1e",
+          "target_sha256": "f094eea0bcc88710127093ae8519cb08496364a4de1bcbd2f2ce096c43b67e1e",
+          "size_bytes": 15195
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000038",
+      "project": "Roanoke",
+      "title": "Roanoke S3W4 Passdown.docx",
+      "bundle_path": "sources/roanoke/BCS-000038",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000038/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4e50fa71740df31332038741b776594f1f76eb10f91454c6def7b59bc9a5602a",
+          "target_sha256": "4e50fa71740df31332038741b776594f1f76eb10f91454c6def7b59bc9a5602a",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000038/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9af174c55a396b09aece3ccf63c948186399b656d52cac0139fce6b2cb69b66c",
+          "target_sha256": "9af174c55a396b09aece3ccf63c948186399b656d52cac0139fce6b2cb69b66c",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000038/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0fdfec47514dc603a55f91e9056624fa02695ce4597d7dfd3b226a5e92f8a117",
+          "target_sha256": "0fdfec47514dc603a55f91e9056624fa02695ce4597d7dfd3b226a5e92f8a117",
+          "size_bytes": 7036
+        },
+        {
+          "path": "sources/roanoke/BCS-000038/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7105d021223f9d10a4f13e7a35420fc1e66f32a7d8be5088c478f4eed4d5a455",
+          "target_sha256": "7105d021223f9d10a4f13e7a35420fc1e66f32a7d8be5088c478f4eed4d5a455",
+          "size_bytes": 845
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000039",
+      "project": "Roanoke",
+      "title": "Roanoke S3W4 Set List.docx",
+      "bundle_path": "sources/roanoke/BCS-000039",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000039/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "96437384001c1cd5c3638e82414b46185bf0c67c9921b16cba19974ad3e78c0c",
+          "target_sha256": "96437384001c1cd5c3638e82414b46185bf0c67c9921b16cba19974ad3e78c0c",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000039/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b66f767e215798655aa36d2c3865ce39e3ae21f0382d70bccb591d51af0ec006",
+          "target_sha256": "b66f767e215798655aa36d2c3865ce39e3ae21f0382d70bccb591d51af0ec006",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000039/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "114501de0807c6ac02044a379ce3dfa67faa82039d222cffe747c10b772fd34e",
+          "target_sha256": "114501de0807c6ac02044a379ce3dfa67faa82039d222cffe747c10b772fd34e",
+          "size_bytes": 6805
+        },
+        {
+          "path": "sources/roanoke/BCS-000039/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "526844aad102df055b2f0cacc2517f08c469b9407c0aa3dff5e09a11b05e5e4c",
+          "target_sha256": "526844aad102df055b2f0cacc2517f08c469b9407c0aa3dff5e09a11b05e5e4c",
+          "size_bytes": 408
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000040",
+      "project": "Roanoke",
+      "title": "Roanoke S3W5 Passdown.docx",
+      "bundle_path": "sources/roanoke/BCS-000040",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000040/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "1ab25629ee55478ade0458944d780aca51ab064b3654c1947e6a41ffc3cf1ea9",
+          "target_sha256": "1ab25629ee55478ade0458944d780aca51ab064b3654c1947e6a41ffc3cf1ea9",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000040/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cd5cfe595d270fee1eb9fff46665c8fb2b4af30d11cf3ca925513c3e57919efb",
+          "target_sha256": "cd5cfe595d270fee1eb9fff46665c8fb2b4af30d11cf3ca925513c3e57919efb",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000040/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "71aadcaaf776248b8bd44ce011a282430b59ecf050ee28b0680a57dc725738bb",
+          "target_sha256": "71aadcaaf776248b8bd44ce011a282430b59ecf050ee28b0680a57dc725738bb",
+          "size_bytes": 7036
+        },
+        {
+          "path": "sources/roanoke/BCS-000040/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f0a61646a580546b5f4715af47971327795248a0d9f2d30419c7548c62e1fa1f",
+          "target_sha256": "f0a61646a580546b5f4715af47971327795248a0d9f2d30419c7548c62e1fa1f",
+          "size_bytes": 845
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000041",
+      "project": "Roanoke",
+      "title": "ROANOKE S:3 2.0.docx",
+      "bundle_path": "sources/roanoke/BCS-000041",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000041/assets/media/image1.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "1b6246823142fc3a21b4197c5eb32646499c031a1018a6a50ac6467f6b14c21c",
+          "target_sha256": "1b6246823142fc3a21b4197c5eb32646499c031a1018a6a50ac6467f6b14c21c",
+          "size_bytes": 2272698
+        },
+        {
+          "path": "sources/roanoke/BCS-000041/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f0815c510337264fe4a02b405a5db30b7e1966bf1c62d810dd37112ba93909ca",
+          "target_sha256": "f0815c510337264fe4a02b405a5db30b7e1966bf1c62d810dd37112ba93909ca",
+          "size_bytes": 113
+        },
+        {
+          "path": "sources/roanoke/BCS-000041/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "08405af95b4eca89b05fd3e3ea9d00826ffa897ec5867de30fbe6e8d6adecf2c",
+          "target_sha256": "08405af95b4eca89b05fd3e3ea9d00826ffa897ec5867de30fbe6e8d6adecf2c",
+          "size_bytes": 702
+        },
+        {
+          "path": "sources/roanoke/BCS-000041/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d6dd8c1ee3acf79a32fca0a117ac7cc00e027572d85a0dc27f68c94b93f94679",
+          "target_sha256": "d6dd8c1ee3acf79a32fca0a117ac7cc00e027572d85a0dc27f68c94b93f94679",
+          "size_bytes": 3258974
+        },
+        {
+          "path": "sources/roanoke/BCS-000041/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4a8c39e1da65ae73a89e9f93dd387264519e7c9d65a0ceb89c2e0b2fe8e6bdf6",
+          "target_sha256": "4a8c39e1da65ae73a89e9f93dd387264519e7c9d65a0ceb89c2e0b2fe8e6bdf6",
+          "size_bytes": 42031
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000042",
+      "project": "Roanoke",
+      "title": "Roanoke Season 2.docx",
+      "bundle_path": "sources/roanoke/BCS-000042",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000042/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0f5bbc73082c82d6131b0e3fc973989f49f720234993c66358053c8bbe58f5bb",
+          "target_sha256": "0f5bbc73082c82d6131b0e3fc973989f49f720234993c66358053c8bbe58f5bb",
+          "size_bytes": 114
+        },
+        {
+          "path": "sources/roanoke/BCS-000042/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "beedbb4715aaa56681c8c12f0c5524a04976f56a9ef4459b33a9baf6e2fbc98f",
+          "target_sha256": "beedbb4715aaa56681c8c12f0c5524a04976f56a9ef4459b33a9baf6e2fbc98f",
+          "size_bytes": 669
+        },
+        {
+          "path": "sources/roanoke/BCS-000042/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e47ff7b60f66615ef8ef57d7ae0b0e0e40187ebd4cc1beba17c9ab91f8a0a33a",
+          "target_sha256": "e47ff7b60f66615ef8ef57d7ae0b0e0e40187ebd4cc1beba17c9ab91f8a0a33a",
+          "size_bytes": 9070
+        },
+        {
+          "path": "sources/roanoke/BCS-000042/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "497a791a8801eec2aac66553a93e6f4f48c9180d001ac2ed372dabe4c0eea9f7",
+          "target_sha256": "497a791a8801eec2aac66553a93e6f4f48c9180d001ac2ed372dabe4c0eea9f7",
+          "size_bytes": 4536
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000043",
+      "project": "Roanoke",
+      "title": "Roanoke season 3 Brainstorming.docx",
+      "bundle_path": "sources/roanoke/BCS-000043",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000043/brendon-comments.native.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f83da6c0e32eec18d0072427c048ceb354dab89989f504b83402b14d1b41d004",
+          "target_sha256": "f83da6c0e32eec18d0072427c048ceb354dab89989f504b83402b14d1b41d004",
+          "size_bytes": 1817
+        },
+        {
+          "path": "sources/roanoke/BCS-000043/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "45ac16c6d4875927090aa300e703fec6a4dd5c760731ed5f79a11ab88ee0ea9d",
+          "target_sha256": "45ac16c6d4875927090aa300e703fec6a4dd5c760731ed5f79a11ab88ee0ea9d",
+          "size_bytes": 6999
+        },
+        {
+          "path": "sources/roanoke/BCS-000043/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "04f0959086f916a9a42e695809a52ec3077ad2ebf296f7d0c48688f1430b0fac",
+          "target_sha256": "04f0959086f916a9a42e695809a52ec3077ad2ebf296f7d0c48688f1430b0fac",
+          "size_bytes": 724
+        },
+        {
+          "path": "sources/roanoke/BCS-000043/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3bcb51d29dad42e149b85b4a997bf774214ca009112f1cb0e80f158378fbf246",
+          "target_sha256": "3bcb51d29dad42e149b85b4a997bf774214ca009112f1cb0e80f158378fbf246",
+          "size_bytes": 237755
+        },
+        {
+          "path": "sources/roanoke/BCS-000043/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5775f5004497f3da4c0cb99a13c94798ebc22adea2815e870687390c282ed2e6",
+          "target_sha256": "5775f5004497f3da4c0cb99a13c94798ebc22adea2815e870687390c282ed2e6",
+          "size_bytes": 22775
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000044",
+      "project": "Roanoke",
+      "title": "Roanoke Season 3 Lore.docx",
+      "bundle_path": "sources/roanoke/BCS-000044",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000044/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "378a3dae9b1050712fe0e3b892818a55700a5cbcc4ce47007255982d915b951e",
+          "target_sha256": "378a3dae9b1050712fe0e3b892818a55700a5cbcc4ce47007255982d915b951e",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000044/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a806950eca31b637f6679d2e7aae61333f35c74ad6005966a150451e035a542d",
+          "target_sha256": "a806950eca31b637f6679d2e7aae61333f35c74ad6005966a150451e035a542d",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000044/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f4c59eda47fa9c6c5460874bcc11efc3270e5107a5ad862a7a33a839420a4ddf",
+          "target_sha256": "f4c59eda47fa9c6c5460874bcc11efc3270e5107a5ad862a7a33a839420a4ddf",
+          "size_bytes": 47587
+        },
+        {
+          "path": "sources/roanoke/BCS-000044/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "57808e7ed53a38e4276c6951ba8f0e487bf37d9d77015d1655011a65610bbc60",
+          "target_sha256": "57808e7ed53a38e4276c6951ba8f0e487bf37d9d77015d1655011a65610bbc60",
+          "size_bytes": 1836
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000045",
+      "project": "Roanoke",
+      "title": "Roanoke Season 3 Rough Draft.txt",
+      "bundle_path": "sources/roanoke/BCS-000045",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000045/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "97f0fa823457d6768071c5c70da6e07a1eb6e54bc336d966e5930812847276b7",
+          "target_sha256": "97f0fa823457d6768071c5c70da6e07a1eb6e54bc336d966e5930812847276b7",
+          "size_bytes": 88
+        },
+        {
+          "path": "sources/roanoke/BCS-000045/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "35b97a6994237a6dd8b45ecc58b4219f285c15000edf19ebe20cef069dce9d15",
+          "target_sha256": "35b97a6994237a6dd8b45ecc58b4219f285c15000edf19ebe20cef069dce9d15",
+          "size_bytes": 692
+        },
+        {
+          "path": "sources/roanoke/BCS-000045/original/source.txt",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9ba280ea54b9c13312db5ced664f3bcff48b3c3b8640568fec2f42ea7bf4edcb",
+          "target_sha256": "9ba280ea54b9c13312db5ced664f3bcff48b3c3b8640568fec2f42ea7bf4edcb",
+          "size_bytes": 197747
+        },
+        {
+          "path": "sources/roanoke/BCS-000045/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166",
+          "target_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166",
+          "size_bytes": 193415
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000046",
+      "project": "Roanoke",
+      "title": "Roanoke Season3 Change Log.docx",
+      "bundle_path": "sources/roanoke/BCS-000046",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000046/brendon-comments.native.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "85d0a7620560269bfb2cc362ebff2658970f93e5e16cd34ba41527e6e2bb8977",
+          "target_sha256": "85d0a7620560269bfb2cc362ebff2658970f93e5e16cd34ba41527e6e2bb8977",
+          "size_bytes": 4008
+        },
+        {
+          "path": "sources/roanoke/BCS-000046/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "97e65057bdb2d9b4ceaeac6f5c30e25044b3a8563752c97fe48136caba4ba0ad",
+          "target_sha256": "97e65057bdb2d9b4ceaeac6f5c30e25044b3a8563752c97fe48136caba4ba0ad",
+          "size_bytes": 821
+        },
+        {
+          "path": "sources/roanoke/BCS-000046/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9174a6689302e41d480e1c79e444e94fdcd21a7129e03e937cf7fd41b83c0b4f",
+          "target_sha256": "9174a6689302e41d480e1c79e444e94fdcd21a7129e03e937cf7fd41b83c0b4f",
+          "size_bytes": 716
+        },
+        {
+          "path": "sources/roanoke/BCS-000046/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3e64db1b439a8d538d3152eba5f2c3df2dcc1b709ca22d9dfb59e33807be9a7b",
+          "target_sha256": "3e64db1b439a8d538d3152eba5f2c3df2dcc1b709ca22d9dfb59e33807be9a7b",
+          "size_bytes": 17692
+        },
+        {
+          "path": "sources/roanoke/BCS-000046/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4580ddd36c9c8a96fb86bf46b05f70a108f66aba917263934c91a22c6a6e2853",
+          "target_sha256": "4580ddd36c9c8a96fb86bf46b05f70a108f66aba917263934c91a22c6a6e2853",
+          "size_bytes": 11260
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000047",
+      "project": "Roanoke",
+      "title": "Roanoke Song.docx",
+      "bundle_path": "sources/roanoke/BCS-000047",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000047/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "6d1ffcfe734909172d2fc4f471d1bf8fe46410da4daca6d1c532f7c3bee1bd95",
+          "target_sha256": "6d1ffcfe734909172d2fc4f471d1bf8fe46410da4daca6d1c532f7c3bee1bd95",
+          "size_bytes": 110
+        },
+        {
+          "path": "sources/roanoke/BCS-000047/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9cbf11ea8b3a4cfab48348dc147db64b29a379f31ac7cc2222230ee42c3b9c98",
+          "target_sha256": "9cbf11ea8b3a4cfab48348dc147db64b29a379f31ac7cc2222230ee42c3b9c98",
+          "size_bytes": 662
+        },
+        {
+          "path": "sources/roanoke/BCS-000047/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e62aa236e975a43ec8116de2417f444cd72ff24e85ff8996b65aca4242ae5f50",
+          "target_sha256": "e62aa236e975a43ec8116de2417f444cd72ff24e85ff8996b65aca4242ae5f50",
+          "size_bytes": 8379
+        },
+        {
+          "path": "sources/roanoke/BCS-000047/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4b08d811bf1ae586fbf3ccedc270970626743056651d64774331ca8f020e47a9",
+          "target_sha256": "4b08d811bf1ae586fbf3ccedc270970626743056651d64774331ca8f020e47a9",
+          "size_bytes": 2316
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000048",
+      "project": "Roanoke",
+      "title": "RoanokeS3 doc V2 W1.docx",
+      "bundle_path": "sources/roanoke/BCS-000048",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image1.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "99b414ed9fb4a591a8df57d03f29dc233a6a8c4fa5b69d5209c72b55b8b6a6bd",
+          "target_sha256": "99b414ed9fb4a591a8df57d03f29dc233a6a8c4fa5b69d5209c72b55b8b6a6bd",
+          "size_bytes": 659005
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image2.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2fefd62103310b278e975cda3a2c471abc24b31bc8e7c544adf3748d153b1f46",
+          "target_sha256": "2fefd62103310b278e975cda3a2c471abc24b31bc8e7c544adf3748d153b1f46",
+          "size_bytes": 1046515
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image3.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "80555c02e1efb5fafa813670262b4036bd83a0a16aafdb736a6ceec12db758e7",
+          "target_sha256": "80555c02e1efb5fafa813670262b4036bd83a0a16aafdb736a6ceec12db758e7",
+          "size_bytes": 817027
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image4.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f62602bb704d4ad43a252bd7fb5d5f190abbc57c165d176a98e53ce7b48c89b3",
+          "target_sha256": "f62602bb704d4ad43a252bd7fb5d5f190abbc57c165d176a98e53ce7b48c89b3",
+          "size_bytes": 1358058
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image5.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "f9443c77f67f4af53a9403f8444d6078565992fc0df3772a0b74292223cef1ff",
+          "target_sha256": "f9443c77f67f4af53a9403f8444d6078565992fc0df3772a0b74292223cef1ff",
+          "size_bytes": 1224151
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image6.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "37f0af87e46e497721261a6a9a857acc371282872b60ff70c852263084052042",
+          "target_sha256": "37f0af87e46e497721261a6a9a857acc371282872b60ff70c852263084052042",
+          "size_bytes": 82736
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image7.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0e7fa3c8357a8afe94d915ce5bbcddb09da9fc1bf0f48409057c13c9d677231c",
+          "target_sha256": "0e7fa3c8357a8afe94d915ce5bbcddb09da9fc1bf0f48409057c13c9d677231c",
+          "size_bytes": 875477
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image8.png",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7b54728fc091f77f4d97a6e90957bc88e9584f46a7f6f0ae16f33a38958c2011",
+          "target_sha256": "7b54728fc091f77f4d97a6e90957bc88e9584f46a7f6f0ae16f33a38958c2011",
+          "size_bytes": 2265983
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/assets/media/image9.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "31db7500cc07d9339c73e9de4123e58a9862e31dd2f2f0ede1d257399bd46836",
+          "target_sha256": "31db7500cc07d9339c73e9de4123e58a9862e31dd2f2f0ede1d257399bd46836",
+          "size_bytes": 122319
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/brendon-comments.native.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ae1a830adb834143052d0e4eeaafee936da7e78f9f95119268f07460285bef2a",
+          "target_sha256": "ae1a830adb834143052d0e4eeaafee936da7e78f9f95119268f07460285bef2a",
+          "size_bytes": 3496
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "61a6fb382917d50c63e0296a1e14d738e6650109d16cfa96f7f5ba9a60129230",
+          "target_sha256": "61a6fb382917d50c63e0296a1e14d738e6650109d16cfa96f7f5ba9a60129230",
+          "size_bytes": 9795
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c7dcc31b999f9b4a88a954a64802b232a1dbd7f0e1e050c2fc5871cf90c68dc5",
+          "target_sha256": "c7dcc31b999f9b4a88a954a64802b232a1dbd7f0e1e050c2fc5871cf90c68dc5",
+          "size_bytes": 983
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "167ecc7220b91de32b13029d7dfc41c86f9ba4729524a14545d4374ef810b3a0",
+          "target_sha256": "167ecc7220b91de32b13029d7dfc41c86f9ba4729524a14545d4374ef810b3a0",
+          "size_bytes": 8504075
+        },
+        {
+          "path": "sources/roanoke/BCS-000048/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "89e4995a1df6ad9b36176d4d2d8338af7841c83445281e74c9c323394a7e944c",
+          "target_sha256": "89e4995a1df6ad9b36176d4d2d8338af7841c83445281e74c9c323394a7e944c",
+          "size_bytes": 82037
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000049",
+      "project": "Roanoke",
+      "title": "RoanokeS3W1 Cast.docx",
+      "bundle_path": "sources/roanoke/BCS-000049",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000049/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7f6a632c7d97a0d790227130f39f2a7dcab1a50099dfd20cb76acc01170e1ad5",
+          "target_sha256": "7f6a632c7d97a0d790227130f39f2a7dcab1a50099dfd20cb76acc01170e1ad5",
+          "size_bytes": 114
+        },
+        {
+          "path": "sources/roanoke/BCS-000049/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "783727d6b76686977ae118e7b6e024749a8eef91739575b27318b37c9ff07227",
+          "target_sha256": "783727d6b76686977ae118e7b6e024749a8eef91739575b27318b37c9ff07227",
+          "size_bytes": 669
+        },
+        {
+          "path": "sources/roanoke/BCS-000049/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "59d303a142f3c5a863f523f9a290e1a19c3ae49f5c8ce8e911a103780313c16d",
+          "target_sha256": "59d303a142f3c5a863f523f9a290e1a19c3ae49f5c8ce8e911a103780313c16d",
+          "size_bytes": 9701
+        },
+        {
+          "path": "sources/roanoke/BCS-000049/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "8904396141815b93f43614668504b0470a11d5272ccd3d5e8033e6ab86bfe31d",
+          "target_sha256": "8904396141815b93f43614668504b0470a11d5272ccd3d5e8033e6ab86bfe31d",
+          "size_bytes": 5031
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000050",
+      "project": "Roanoke",
+      "title": "RoanokeS3W1 Passdown..docx",
+      "bundle_path": "sources/roanoke/BCS-000050",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000050/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cef277539f936acb0e960c8637e6750a82d0175be37ed86682979c71053da432",
+          "target_sha256": "cef277539f936acb0e960c8637e6750a82d0175be37ed86682979c71053da432",
+          "size_bytes": 119
+        },
+        {
+          "path": "sources/roanoke/BCS-000050/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "575a01bc68861249b82385e8f9311de729e91a0f023f44338101c100cd509d9b",
+          "target_sha256": "575a01bc68861249b82385e8f9311de729e91a0f023f44338101c100cd509d9b",
+          "size_bytes": 679
+        },
+        {
+          "path": "sources/roanoke/BCS-000050/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cba635243627da603434c2977e0b20471afa08024304b0f625352d5f08bd7f12",
+          "target_sha256": "cba635243627da603434c2977e0b20471afa08024304b0f625352d5f08bd7f12",
+          "size_bytes": 7353
+        },
+        {
+          "path": "sources/roanoke/BCS-000050/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a41c9e5360cdbd1b80defeecc32747c4051b4a93376f7d580c66273e14240eb7",
+          "target_sha256": "a41c9e5360cdbd1b80defeecc32747c4051b4a93376f7d580c66273e14240eb7",
+          "size_bytes": 931
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000051",
+      "project": "Roanoke",
+      "title": "RoanokeS3W2 Cast.docx",
+      "bundle_path": "sources/roanoke/BCS-000051",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000051/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "1151200343edc10a75f5a6e31d7977af456b73dab79e0a8d444215ca38584fa3",
+          "target_sha256": "1151200343edc10a75f5a6e31d7977af456b73dab79e0a8d444215ca38584fa3",
+          "size_bytes": 114
+        },
+        {
+          "path": "sources/roanoke/BCS-000051/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "fdec6ca57bb1286cbcf34a49f7fb1e57dc3fc48f734574505eeb71e0ad8d5e50",
+          "target_sha256": "fdec6ca57bb1286cbcf34a49f7fb1e57dc3fc48f734574505eeb71e0ad8d5e50",
+          "size_bytes": 670
+        },
+        {
+          "path": "sources/roanoke/BCS-000051/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ac474f4e0519aba0c8e64498d655503f36deb22361da8857fea0805aa414d786",
+          "target_sha256": "ac474f4e0519aba0c8e64498d655503f36deb22361da8857fea0805aa414d786",
+          "size_bytes": 320134
+        },
+        {
+          "path": "sources/roanoke/BCS-000051/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c68b7626689e7a340b50f36fbf20a3fc44f726f1282d6ac4646b6b472c2329f7",
+          "target_sha256": "c68b7626689e7a340b50f36fbf20a3fc44f726f1282d6ac4646b6b472c2329f7",
+          "size_bytes": 5822
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000052",
+      "project": "Roanoke",
+      "title": "RoanokeS3W3 Breakdown.docx",
+      "bundle_path": "sources/roanoke/BCS-000052",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000052/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "af53323ef73eeb253d648307623b84738cd7fd64ab3b286963e289e4287a17e2",
+          "target_sha256": "af53323ef73eeb253d648307623b84738cd7fd64ab3b286963e289e4287a17e2",
+          "size_bytes": 66268
+        },
+        {
+          "path": "sources/roanoke/BCS-000052/assets/media/image2.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7e52abc9b0a50a024b0c655ad09b297c2fff67607bb44883dea3306f55f2fc43",
+          "target_sha256": "7e52abc9b0a50a024b0c655ad09b297c2fff67607bb44883dea3306f55f2fc43",
+          "size_bytes": 57333
+        },
+        {
+          "path": "sources/roanoke/BCS-000052/brendon-comments.native.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "29da68b27d0d1de3cac2229950bb12e12cf246cf36cfb953a652fb2ccecc1534",
+          "target_sha256": "29da68b27d0d1de3cac2229950bb12e12cf246cf36cfb953a652fb2ccecc1534",
+          "size_bytes": 681
+        },
+        {
+          "path": "sources/roanoke/BCS-000052/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "9dc5ed844e8ed2e7ae9673be2c10aa275ef24cbf35dc7f9c1787ed3cf3d1ab7f",
+          "target_sha256": "9dc5ed844e8ed2e7ae9673be2c10aa275ef24cbf35dc7f9c1787ed3cf3d1ab7f",
+          "size_bytes": 3770
+        },
+        {
+          "path": "sources/roanoke/BCS-000052/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ac0338e639c5da17489b5dc8fa151c525c02da7090d4fe02024ed141d8d6c0c3",
+          "target_sha256": "ac0338e639c5da17489b5dc8fa151c525c02da7090d4fe02024ed141d8d6c0c3",
+          "size_bytes": 770
+        },
+        {
+          "path": "sources/roanoke/BCS-000052/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cb8f631193404f952552315f02fbaae6efe58c0d55782578b7c7a4464db72e97",
+          "target_sha256": "cb8f631193404f952552315f02fbaae6efe58c0d55782578b7c7a4464db72e97",
+          "size_bytes": 153797
+        },
+        {
+          "path": "sources/roanoke/BCS-000052/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0714488a62dc035f5167c97d750d534dd82ada638510a4b6040e4544dd16e483",
+          "target_sha256": "0714488a62dc035f5167c97d750d534dd82ada638510a4b6040e4544dd16e483",
+          "size_bytes": 29708
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000053",
+      "project": "Roanoke",
+      "title": "RoanokeS3W5 Break Down.docx",
+      "bundle_path": "sources/roanoke/BCS-000053",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/roanoke/BCS-000053/assets/media/image1.jpg",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "32d709a2fbc272f2f90cc269a37dd8a446cb533672e1f8e1d9582bbd8fa6f482",
+          "target_sha256": "32d709a2fbc272f2f90cc269a37dd8a446cb533672e1f8e1d9582bbd8fa6f482",
+          "size_bytes": 80656
+        },
+        {
+          "path": "sources/roanoke/BCS-000053/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "49a79ca786ba1846fc7ce9c8cbfad98b31f065a5ef14d3c1d1f3547a1fdc988a",
+          "target_sha256": "49a79ca786ba1846fc7ce9c8cbfad98b31f065a5ef14d3c1d1f3547a1fdc988a",
+          "size_bytes": 120
+        },
+        {
+          "path": "sources/roanoke/BCS-000053/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2114cb25c841e86c77ab8e2bacc8770bdc5ef079225fc80523d6ef80e215eb1d",
+          "target_sha256": "2114cb25c841e86c77ab8e2bacc8770bdc5ef079225fc80523d6ef80e215eb1d",
+          "size_bytes": 715
+        },
+        {
+          "path": "sources/roanoke/BCS-000053/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cccc35967c70d3c7c4cae8f8b89e3026308c045abd59f156e1e30e6160dd73b7",
+          "target_sha256": "cccc35967c70d3c7c4cae8f8b89e3026308c045abd59f156e1e30e6160dd73b7",
+          "size_bytes": 92603
+        },
+        {
+          "path": "sources/roanoke/BCS-000053/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "de28068c3d8dba1f4d6b1fbae30e6f864e3464ef4f2548588fcccdd84b8b0a5a",
+          "target_sha256": "de28068c3d8dba1f4d6b1fbae30e6f864e3464ef4f2548588fcccdd84b8b0a5a",
+          "size_bytes": 8812
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000054",
+      "project": "Earthfall",
+      "title": "earthfall",
+      "bundle_path": "sources/earthfall/BCS-000054",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/earthfall/BCS-000054/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "0575f157f124ddba89378c8098c1331c34f64767cb097112c369135963d9c4b9",
+          "target_sha256": "0575f157f124ddba89378c8098c1331c34f64767cb097112c369135963d9c4b9",
+          "size_bytes": 80
+        },
+        {
+          "path": "sources/earthfall/BCS-000054/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "c15976dd72390ad276e7e10f18b48fee7df6a71330e1277bcd3d0fa455aad9df",
+          "target_sha256": "c15976dd72390ad276e7e10f18b48fee7df6a71330e1277bcd3d0fa455aad9df",
+          "size_bytes": 725
+        },
+        {
+          "path": "sources/earthfall/BCS-000054/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "cecfd8fec717d33a48ea8083ac9d72605ffc9180178c6f43b3d132f6eb3b30a8",
+          "target_sha256": "cecfd8fec717d33a48ea8083ac9d72605ffc9180178c6f43b3d132f6eb3b30a8",
+          "size_bytes": 15018
+        },
+        {
+          "path": "sources/earthfall/BCS-000054/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5c8231a9ddc1aef2856b5c62e9685d84dee526c02ed7257874ddca96e7267c17",
+          "target_sha256": "5c8231a9ddc1aef2856b5c62e9685d84dee526c02ed7257874ddca96e7267c17",
+          "size_bytes": 11395
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000055",
+      "project": "Earthfall",
+      "title": "Rod script",
+      "bundle_path": "sources/earthfall/BCS-000055",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/earthfall/BCS-000055/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a6f2672cd1153c8d1802c29c078d369aed8ae41c243a62a90f3e88b7c47d0d8b",
+          "target_sha256": "a6f2672cd1153c8d1802c29c078d369aed8ae41c243a62a90f3e88b7c47d0d8b",
+          "size_bytes": 81
+        },
+        {
+          "path": "sources/earthfall/BCS-000055/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3249824bd33c0dd7633c8b8261be144090132714c0fb947e53de879ca8598f48",
+          "target_sha256": "3249824bd33c0dd7633c8b8261be144090132714c0fb947e53de879ca8598f48",
+          "size_bytes": 728
+        },
+        {
+          "path": "sources/earthfall/BCS-000055/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b990a6def7af19a011a2f67c1c188f8381f2792366183cc9a1a04845c14d2046",
+          "target_sha256": "b990a6def7af19a011a2f67c1c188f8381f2792366183cc9a1a04845c14d2046",
+          "size_bytes": 18607
+        },
+        {
+          "path": "sources/earthfall/BCS-000055/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "6c81fc2520e2e6528ce89dc9dd0b57d07600acbb88e0779de0d55ff90d1f6903",
+          "target_sha256": "6c81fc2520e2e6528ce89dc9dd0b57d07600acbb88e0779de0d55ff90d1f6903",
+          "size_bytes": 18877
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000056",
+      "project": "Bastion/Redoubt",
+      "title": "Bastion and Redoubt full script",
+      "bundle_path": "sources/bastion-redoubt/BCS-000056",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/bastion-redoubt/BCS-000056/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e79e38cf18d9dcf852ffc475196643d00023c603f73bf3ccbfec0c16856104b2",
+          "target_sha256": "e79e38cf18d9dcf852ffc475196643d00023c603f73bf3ccbfec0c16856104b2",
+          "size_bytes": 102
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000056/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5eb400a1a4eef9fcfef8db00b0f0f7da67fec8a92dc1363f8f6e04817bae489e",
+          "target_sha256": "5eb400a1a4eef9fcfef8db00b0f0f7da67fec8a92dc1363f8f6e04817bae489e",
+          "size_bytes": 776
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000056/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "6a7d2489946f66f4293501d5c535a9324b7d5d156686cbc07e05ce3c643391fa",
+          "target_sha256": "6a7d2489946f66f4293501d5c535a9324b7d5d156686cbc07e05ce3c643391fa",
+          "size_bytes": 388756
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000056/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5a901d05377e05c170a225c05ed3e65eeeb7528b6bb387f66a99353bd959bdeb",
+          "target_sha256": "5a901d05377e05c170a225c05ed3e65eeeb7528b6bb387f66a99353bd959bdeb",
+          "size_bytes": 181864
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000057",
+      "project": "Bastion/Redoubt",
+      "title": "Bastion and Redoubt introduction",
+      "bundle_path": "sources/bastion-redoubt/BCS-000057",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/bastion-redoubt/BCS-000057/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "adf6db413891fb7fd70b325bc2d9ead040bcc5cb993dbd93c31043881846be4d",
+          "target_sha256": "adf6db413891fb7fd70b325bc2d9ead040bcc5cb993dbd93c31043881846be4d",
+          "size_bytes": 103
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000057/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ce4398be96e49db9dd89efad038d51e416db58c7a0db121217786d234d149357",
+          "target_sha256": "ce4398be96e49db9dd89efad038d51e416db58c7a0db121217786d234d149357",
+          "size_bytes": 776
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000057/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3a6b60dc5d86f7fc0714babbfa5499512c1ee31ba0a87d4ca881974d018354fd",
+          "target_sha256": "3a6b60dc5d86f7fc0714babbfa5499512c1ee31ba0a87d4ca881974d018354fd",
+          "size_bytes": 9098
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000057/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2097b0c3694fa70d8198c8b592cef233c1eb3c58cbe72064ba50bdccb4552455",
+          "target_sha256": "2097b0c3694fa70d8198c8b592cef233c1eb3c58cbe72064ba50bdccb4552455",
+          "size_bytes": 4911
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000058",
+      "project": "Bastion/Redoubt",
+      "title": "BaR Character creation",
+      "bundle_path": "sources/bastion-redoubt/BCS-000058",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/bastion-redoubt/BCS-000058/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "d0c7557ec2fc137d9a93d2a20083a1f0e01eec788dbd8beef744bab2a7493b62",
+          "target_sha256": "d0c7557ec2fc137d9a93d2a20083a1f0e01eec788dbd8beef744bab2a7493b62",
+          "size_bytes": 93
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000058/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "ab69d5f1f8f69ddd20244014b291528b6fe2051a86c9f7ca1139e5f1d494f5ad",
+          "target_sha256": "ab69d5f1f8f69ddd20244014b291528b6fe2051a86c9f7ca1139e5f1d494f5ad",
+          "size_bytes": 756
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000058/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "098378c80c22de3808ffca28b19cb573f083218986e195ab2dde1af79b73ec70",
+          "target_sha256": "098378c80c22de3808ffca28b19cb573f083218986e195ab2dde1af79b73ec70",
+          "size_bytes": 8186
+        },
+        {
+          "path": "sources/bastion-redoubt/BCS-000058/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "006e8b48c17e868e6c8195bfd26705b6017cdd5bbb30d8261c8d41118c7adec3",
+          "target_sha256": "006e8b48c17e868e6c8195bfd26705b6017cdd5bbb30d8261c8d41118c7adec3",
+          "size_bytes": 2821
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000059",
+      "project": "Exploration Impossible",
+      "title": "Exploration Impossible (Manuscript)",
+      "bundle_path": "context/exploration-impossible/BCS-000059",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "context/exploration-impossible/BCS-000059/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "a59c5fde13a1d4e774a4fd66080e8a3ef7bd29a85c71a83c6e522a0d8e9562a0",
+          "target_sha256": "a59c5fde13a1d4e774a4fd66080e8a3ef7bd29a85c71a83c6e522a0d8e9562a0",
+          "size_bytes": 26818
+        },
+        {
+          "path": "context/exploration-impossible/BCS-000059/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "25e7e2f26bb6427e2a6ca7f892400f6fb29c61076bf714ed31783147577d4953",
+          "target_sha256": "25e7e2f26bb6427e2a6ca7f892400f6fb29c61076bf714ed31783147577d4953",
+          "size_bytes": 771
+        },
+        {
+          "path": "context/exploration-impossible/BCS-000059/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "711afb388f97a47719fcc11c2f97e2551297b14705f154751b993ce4d835154d",
+          "target_sha256": "711afb388f97a47719fcc11c2f97e2551297b14705f154751b993ce4d835154d",
+          "size_bytes": 49859
+        },
+        {
+          "path": "context/exploration-impossible/BCS-000059/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "43d0dab96437adf2799e6118b08e905639b38f53829f748793db316719cb6bcd",
+          "target_sha256": "43d0dab96437adf2799e6118b08e905639b38f53829f748793db316719cb6bcd",
+          "size_bytes": 73428
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000060",
+      "project": "At War's End",
+      "title": "first draft at wars end",
+      "bundle_path": "sources/at-wars-end/BCS-000060",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000060/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "14f1d49c8b0638c7a11849ae5985c8313971c40f57b10b1aeef9604e2603c7ab",
+          "target_sha256": "14f1d49c8b0638c7a11849ae5985c8313971c40f57b10b1aeef9604e2603c7ab",
+          "size_bytes": 94
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000060/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "435154cd44a3ffb1a0f678e987f9ff047350059c8414bd922166836d8df8f246",
+          "target_sha256": "435154cd44a3ffb1a0f678e987f9ff047350059c8414bd922166836d8df8f246",
+          "size_bytes": 757
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000060/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "6015cfba11ba90cf33067c684b3f17e19f5d70b612630931fd3fed8192e18663",
+          "target_sha256": "6015cfba11ba90cf33067c684b3f17e19f5d70b612630931fd3fed8192e18663",
+          "size_bytes": 75306
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000060/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b6325af54eeb48beed1e6f36d2e4fa0b22f8c3659d0c4b8ff3d6fabe9168bf64",
+          "target_sha256": "b6325af54eeb48beed1e6f36d2e4fa0b22f8c3659d0c4b8ff3d6fabe9168bf64",
+          "size_bytes": 156028
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000061",
+      "project": "At War's End",
+      "title": "Second draft at wars end",
+      "bundle_path": "sources/at-wars-end/BCS-000061",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000061/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "142351eeedcb17485fd5e7cb149c0ff5b6a9dd2e293421a5d502a39b1fb9e5bd",
+          "target_sha256": "142351eeedcb17485fd5e7cb149c0ff5b6a9dd2e293421a5d502a39b1fb9e5bd",
+          "size_bytes": 1437
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000061/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7a70b6305507f75a150732a55807449c6f8ebaff965b77dd646114b8e5992f9c",
+          "target_sha256": "7a70b6305507f75a150732a55807449c6f8ebaff965b77dd646114b8e5992f9c",
+          "size_bytes": 759
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000061/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5c55c5ffc6a21114ebd056f7df70eb2c24f6c932dc450e85a66ce8a2af073f14",
+          "target_sha256": "5c55c5ffc6a21114ebd056f7df70eb2c24f6c932dc450e85a66ce8a2af073f14",
+          "size_bytes": 158659
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000061/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "41e967c9ac82ea04e8538b48ceb9140038deaac1b1e5930bc27e264691f74b37",
+          "target_sha256": "41e967c9ac82ea04e8538b48ceb9140038deaac1b1e5930bc27e264691f74b37",
+          "size_bytes": 338603
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000062",
+      "project": "At War's End",
+      "title": "third draft",
+      "bundle_path": "sources/at-wars-end/BCS-000062",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000062/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7d71818a5d48c415f05ca74d5b6df8acf2d19ba69dce8871423bf28cb60f1a2d",
+          "target_sha256": "7d71818a5d48c415f05ca74d5b6df8acf2d19ba69dce8871423bf28cb60f1a2d",
+          "size_bytes": 82
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000062/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "91300e150f183eb92e2a652d1148306d62178451b5c929769b8949e2a57baeb5",
+          "target_sha256": "91300e150f183eb92e2a652d1148306d62178451b5c929769b8949e2a57baeb5",
+          "size_bytes": 733
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000062/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "edcfa6af6899347555daaf98d62194614c659665d67cd471cacf8f8eeb967a2a",
+          "target_sha256": "edcfa6af6899347555daaf98d62194614c659665d67cd471cacf8f8eeb967a2a",
+          "size_bytes": 169068
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000062/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3f4aa12f5c7384981970d2c33851566e71eafe454bb290d3bf40d81ed0f04ca2",
+          "target_sha256": "3f4aa12f5c7384981970d2c33851566e71eafe454bb290d3bf40d81ed0f04ca2",
+          "size_bytes": 372519
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000063",
+      "project": "At War's End",
+      "title": "At War's End draft 5",
+      "bundle_path": "sources/at-wars-end/BCS-000063",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000063/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "16ebdf9f0cfc42e8aeb91b2e22ea15e8110ea415f1810f2507f950fb2cb67c3e",
+          "target_sha256": "16ebdf9f0cfc42e8aeb91b2e22ea15e8110ea415f1810f2507f950fb2cb67c3e",
+          "size_bytes": 91
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000063/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "84a7372eea300682d51d9c312df92a4dd715314b809324d81726c73332487078",
+          "target_sha256": "84a7372eea300682d51d9c312df92a4dd715314b809324d81726c73332487078",
+          "size_bytes": 751
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000063/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "36195dbdc3673183386f496614b3115f272cf738b59c1a3e3c78b9520c9a81d0",
+          "target_sha256": "36195dbdc3673183386f496614b3115f272cf738b59c1a3e3c78b9520c9a81d0",
+          "size_bytes": 188048
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000063/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2e84dc9bb5b6ca41bd411bca58d3bb6d8b908e1767fb7a108539aeb317ecd62e",
+          "target_sha256": "2e84dc9bb5b6ca41bd411bca58d3bb6d8b908e1767fb7a108539aeb317ecd62e",
+          "size_bytes": 357307
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000064",
+      "project": "At War's End",
+      "title": "At wars end. Outline",
+      "bundle_path": "sources/at-wars-end/BCS-000064",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000064/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "3064dcea2dc8fe8a4adbd96c694b568270be8ab49c95ee05b5a1b44a3f5b6c22",
+          "target_sha256": "3064dcea2dc8fe8a4adbd96c694b568270be8ab49c95ee05b5a1b44a3f5b6c22",
+          "size_bytes": 91
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000064/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "4f7a4669457e37991f22b7500137116f6aae3dc67c091066a7a6b315dd63bb31",
+          "target_sha256": "4f7a4669457e37991f22b7500137116f6aae3dc67c091066a7a6b315dd63bb31",
+          "size_bytes": 750
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000064/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "5b48418df3a36e62392946920828a9efb6cc7384320effd918105b44a3d248ae",
+          "target_sha256": "5b48418df3a36e62392946920828a9efb6cc7384320effd918105b44a3d248ae",
+          "size_bytes": 55870
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000064/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e9b811f15e3f7ab4d8e48c34bec8d4c77699907f664e16622405fc3f7432e5f6",
+          "target_sha256": "e9b811f15e3f7ab4d8e48c34bec8d4c77699907f664e16622405fc3f7432e5f6",
+          "size_bytes": 102542
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000065",
+      "project": "At War's End",
+      "title": "at wars end outline",
+      "bundle_path": "sources/at-wars-end/BCS-000065",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000065/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "fefafef76aa93ffa2d950afcf831d67731fd3a0021eebc24c9f30f5c71748125",
+          "target_sha256": "fefafef76aa93ffa2d950afcf831d67731fd3a0021eebc24c9f30f5c71748125",
+          "size_bytes": 90
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000065/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "e5f6c614e896f1a3d32ffaf89e78e637d388996b503c3a918d195370fdd8c055",
+          "target_sha256": "e5f6c614e896f1a3d32ffaf89e78e637d388996b503c3a918d195370fdd8c055",
+          "size_bytes": 749
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000065/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "321c426b7d7e34e334d39e8f81285df329913b56eff1872f85dd04259622d49c",
+          "target_sha256": "321c426b7d7e34e334d39e8f81285df329913b56eff1872f85dd04259622d49c",
+          "size_bytes": 350909
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000065/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "20db91b05377e28b6f5866d9d543539149f580aa751fedb7274ac3e2edd1af8b",
+          "target_sha256": "20db91b05377e28b6f5866d9d543539149f580aa751fedb7274ac3e2edd1af8b",
+          "size_bytes": 44435
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000066",
+      "project": "At War's End",
+      "title": "Wellsprings in At War's End",
+      "bundle_path": "sources/at-wars-end/BCS-000066",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000066/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "b417d7f530bfab420c24005519d72961cf4c78851532df9c64774010c2cd6fd4",
+          "target_sha256": "b417d7f530bfab420c24005519d72961cf4c78851532df9c64774010c2cd6fd4",
+          "size_bytes": 98
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000066/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "39423e4e242e2400a7a925760c69e6339f854ba6859de8213e04ab7c2e5af37f",
+          "target_sha256": "39423e4e242e2400a7a925760c69e6339f854ba6859de8213e04ab7c2e5af37f",
+          "size_bytes": 764
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000066/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "052df9545df973b86d1b537cd7f9da13daa2f2f0f25297e64d53ffe0ad8fe13d",
+          "target_sha256": "052df9545df973b86d1b537cd7f9da13daa2f2f0f25297e64d53ffe0ad8fe13d",
+          "size_bytes": 30787
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000066/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "afe3f378d1fe7eb3243748d5a9938dc02f289515d2c3a294ed78665d13fda825",
+          "target_sha256": "afe3f378d1fe7eb3243748d5a9938dc02f289515d2c3a294ed78665d13fda825",
+          "size_bytes": 36139
+        }
+      ]
+    },
+    {
+      "corpus_id": "BCS-000067",
+      "project": "At War's End",
+      "title": "at wars end prompt crafting",
+      "bundle_path": "sources/at-wars-end/BCS-000067",
+      "status": "ALREADY_RECONCILED",
+      "files": [
+        {
+          "path": "sources/at-wars-end/BCS-000067/comments.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "328fc2f601f7663d50e60b0a2e1e03d0d772dd65e692154d6f67106a8744415f",
+          "target_sha256": "328fc2f601f7663d50e60b0a2e1e03d0d772dd65e692154d6f67106a8744415f",
+          "size_bytes": 98
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000067/metadata.json",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "7782f9710bab51974a7526eeec5ca6558bfdf1fde2ea107389af240ff3d09d3e",
+          "target_sha256": "7782f9710bab51974a7526eeec5ca6558bfdf1fde2ea107389af240ff3d09d3e",
+          "size_bytes": 763
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000067/original/source.docx",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "2172f3a4aaa57a8240a2cc1562fe81c1edbc85bc34b531fadc7d1c3d4b5cd3ed",
+          "target_sha256": "2172f3a4aaa57a8240a2cc1562fe81c1edbc85bc34b531fadc7d1c3d4b5cd3ed",
+          "size_bytes": 10199
+        },
+        {
+          "path": "sources/at-wars-end/BCS-000067/source.md",
+          "status": "ALREADY_PRESENT",
+          "archive_sha256": "44b8b89819dffef64b6e4d990db6414b780720bda6ba88d1c6c5f562812bd8a9",
+          "target_sha256": "44b8b89819dffef64b6e4d990db6414b780720bda6ba88d1c6c5f562812bd8a9",
+          "size_bytes": 3497
+        }
+      ]
+    }
+  ]
+}

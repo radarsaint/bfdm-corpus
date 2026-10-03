@@ -1,0 +1,18 @@
+{
+  "corpus_id": "BCS-000026",
+  "project": "Roanoke",
+  "title": "Roanoke S3 Main Map.docx",
+  "original_filename": "Roanoke S3 Main Map.docx",
+  "original_sha256": "4d35700f7a31fa5a3a77c3bb641d4ed737c01765874b3e4aed52429d39e9e6fb",
+  "normalized_file": "source.md",
+  "normalized_sha256": "e90ca2df012fdf5bfd4ef2a0cad0cbac023fcb199d73dee72ba8b18e9d0fd994",
+  "normalized_line_count": 65,
+  "assets": [
+    "assets/media/image1.png"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

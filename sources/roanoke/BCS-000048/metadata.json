@@ -1,0 +1,26 @@
+{
+  "corpus_id": "BCS-000048",
+  "project": "Roanoke",
+  "title": "RoanokeS3 doc V2 W1.docx",
+  "original_filename": "RoanokeS3 doc V2 W1.docx",
+  "original_sha256": "167ecc7220b91de32b13029d7dfc41c86f9ba4729524a14545d4374ef810b3a0",
+  "normalized_file": "source.md",
+  "normalized_sha256": "89e4995a1df6ad9b36176d4d2d8338af7841c83445281e74c9c323394a7e944c",
+  "normalized_line_count": 989,
+  "assets": [
+    "assets/media/image1.png",
+    "assets/media/image2.png",
+    "assets/media/image3.png",
+    "assets/media/image4.png",
+    "assets/media/image5.png",
+    "assets/media/image6.png",
+    "assets/media/image7.png",
+    "assets/media/image8.png",
+    "assets/media/image9.jpg"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": "brendon-comments.native.json",
+  "original_stored_as": "original/source.docx"
+}
