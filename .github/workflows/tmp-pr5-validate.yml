@@ -1,0 +1,50 @@
+name: Temporary PR5 validation
+
+on:
+  push:
+    branches:
+      - research/organize-current-work-v1
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile validators
+        run: |
+          python -m py_compile registry/validate_registry.py
+          python -m py_compile ingest/validate_ingest.py
+          python -m py_compile ingest/reconcile_legacy_staging.py
+      - name: Validate registry
+        run: python registry/validate_registry.py
+      - name: Validate current ingest structure
+        run: python ingest/validate_ingest.py --repo .
+      - name: Validate JSON and JSONL syntax
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          failures=[]
+          for p in Path(".").rglob("*"):
+              if ".git" in p.parts or not p.is_file():
+                  continue
+              try:
+                  if p.suffix == ".json":
+                      json.loads(p.read_text(encoding="utf-8"))
+                  elif p.suffix == ".jsonl":
+                      for n,line in enumerate(p.read_text(encoding="utf-8").splitlines(),1):
+                          if line.strip():
+                              json.loads(line)
+              except Exception as e:
+                  failures.append(f"{p}: {e}")
+          if failures:
+              raise SystemExit("\n".join(failures))
+          print("OK: JSON/JSONL syntax")
