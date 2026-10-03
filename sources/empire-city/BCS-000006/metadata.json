@@ -47,6 +47,14 @@
       "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "size_bytes": 534505,
       "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/empire-city/BCS-000006/revisions.jsonl",
+      "sha256": "9ebe3f55227d191184d6f8111b752463dea0bba0ebc538d7b444ec81bb8212ab",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 1474,
+      "provider_revision_id": null
     }
   ],
   "normalization": {
@@ -58,9 +66,9 @@
   },
   "capture_status": {
     "current_body": "CAPTURED",
-    "comments": "PENDING_NATIVE_CAPTURE",
-    "revision_metadata": "PENDING_NATIVE_CAPTURE",
-    "revision_bodies": "PENDING_NATIVE_CAPTURE",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NOT_FETCHED_THIS_PASS",
     "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
   }
 }
