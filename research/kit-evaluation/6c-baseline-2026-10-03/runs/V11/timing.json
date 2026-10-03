@@ -1,0 +1,40 @@
+[
+  {
+    "turn_id": "50b8d955-667c-4681-a7ac-805dba3a199d",
+    "committed_at": 1791040153.8198693,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 6.835,
+    "prepared_at": 1791040146.9849548
+  },
+  {
+    "turn_id": "c9d5a66e-9eb3-43b3-bc40-da7ce69ea7a0",
+    "committed_at": 1791040168.2819645,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 14.344,
+    "prepared_at": 1791040153.937881
+  },
+  {
+    "turn_id": "c21a3b11-80d2-4355-8fe5-1fec99a5b221",
+    "committed_at": 1791040190.0841107,
+    "last_rejection": "NPC voice: the Dealer reused the pet name \"mountain\" from a recent turn. A repeated vocative becomes a catchphrase; find a new angle.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 21.686,
+    "prepared_at": 1791040168.3979874,
+    "rejected_attempts": 1
+  },
+  {
+    "turn_id": "e6f187f3-6946-42b9-9516-cec097f1f8b9",
+    "committed_at": 1791040198.5513437,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 8.352,
+    "prepared_at": 1791040190.1992462
+  }
+]

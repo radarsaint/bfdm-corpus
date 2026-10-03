@@ -1,0 +1,33 @@
+[
+  {
+    "turn_id": "ecf90056-c82c-4f53-89ca-3cd0db0bd2f2",
+    "committed_at": 1791039912.270691,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 7.34,
+    "prepared_at": 1791039904.9310555
+  },
+  {
+    "turn_id": "ba0adac3-fa3a-4a87-bd6b-9d4ef62bd355",
+    "committed_at": 1791039935.0367599,
+    "last_rejection": "A social bid with no rules or mechanics question is not a ruling; answer it in the fiction (npc_reply with exchange scope).",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 22.65,
+    "prepared_at": 1791039912.386376,
+    "rejected_attempts": 1
+  },
+  {
+    "turn_id": "97939ee6-309c-4b92-b90c-94cbe4f27dce",
+    "committed_at": 1791039960.910484,
+    "last_rejection": "mirror must say how Kit answers the mood in a few words",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 25.661,
+    "prepared_at": 1791039935.2491524,
+    "rejected_attempts": 1
+  }
+]

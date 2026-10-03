@@ -17,6 +17,7 @@ Do not use Kit failures as evidence about Brendon's historical DM behavior.
 - [playtest-01-character-onboarding.md](playtest-01-character-onboarding.md) — 2026-09-23 character creation → campaign handoff.
 - [playtest-02-area-6c-gambling.md](playtest-02-area-6c-gambling.md) — 2026-09-29 Area 6c gambling/marked-deck test.
 - [6c-variety-scenarios.md](6c-variety-scenarios.md) — 2026-10-03 eleven varied Area 6c openings (bard, barbarian, dhampir, fresco, cheat, noise, toll, blackjack, three combat openers) for scripted ChatGPT runs.
+- [6c-baseline-2026-10-03/SCORECARD.md](6c-baseline-2026-10-03/SCORECARD.md) — 2026-10-03 first batch run of all eleven variety scenarios (Grok as Kit via the dnd-solo batch runner, PR #48): pass/fail per check, latency, top five failures.
 - [REGRESSION_TARGETS.md](REGRESSION_TARGETS.md) — cross-test behavioral targets.
 
 ## Evaluation discipline

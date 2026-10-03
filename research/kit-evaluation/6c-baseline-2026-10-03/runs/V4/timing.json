@@ -1,0 +1,53 @@
+[
+  {
+    "turn_id": "717787fb-c85a-4141-bde7-d5bdb0371d7e",
+    "committed_at": 1791039721.2500663,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 6.839,
+    "prepared_at": 1791039714.41127
+  },
+  {
+    "turn_id": "4f058740-1c94-4909-b92d-aa7fe7742431",
+    "committed_at": 1791039757.8799703,
+    "last_rejection": "Specificity floor: the detail needs a proper noun, a number, a sensory word from this place's texture, or a real-world or published basis.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 36.517,
+    "prepared_at": 1791039721.362859,
+    "rejected_attempts": 2
+  },
+  {
+    "turn_id": "1090f9c6-962e-4a3c-9d89-7d02b7e736df",
+    "committed_at": 1791039780.6607387,
+    "last_rejection": "NPC voice: the Dealer reused the pet name \"little scholar\" from a recent turn. A repeated vocative becomes a catchphrase; find a new angle.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 22.666,
+    "prepared_at": 1791039757.995062,
+    "rejected_attempts": 1
+  },
+  {
+    "turn_id": "53c80c52-af30-4be1-9f07-6fd2a6ec644f",
+    "committed_at": 1791039823.2754524,
+    "last_rejection": "Specificity floor: the detail needs a proper noun, a number, a sensory word from this place's texture, or a real-world or published basis.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 42.499,
+    "prepared_at": 1791039780.7762709,
+    "rejected_attempts": 2
+  },
+  {
+    "turn_id": "8cb8a835-cc41-47ec-921c-0213b8af828d",
+    "committed_at": 1791039838.2549691,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 14.863,
+    "prepared_at": 1791039823.391961
+  }
+]

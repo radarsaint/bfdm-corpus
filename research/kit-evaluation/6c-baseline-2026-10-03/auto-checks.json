@@ -1,0 +1,617 @@
+{
+ "rows": [
+  {
+   "scenario": "V1",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 3.5,
+   "flags": []
+  },
+  {
+   "scenario": "V1",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I sweep in with a bow. 'Gentlemen of the night! I'd heard the finest company",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 50.5,
+   "flags": []
+  },
+  {
+   "scenario": "V1",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"'Oh, the toll? Harria settled it for me at the well. She said you'd know my ",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 24.0,
+   "flags": []
+  },
+  {
+   "scenario": "V1",
+   "step": 3,
+   "outcome": "abandoned_after_rejections",
+   "engine_read": "abandoned_after_rejections",
+   "event": "You declare: \"'You don't have to take my word. But I'd hate to tell her you turned away he",
+   "rejections": 4,
+   "degraded": false,
+   "total_s": 82.5,
+   "flags": []
+  },
+  {
+   "scenario": "V1",
+   "step": 4,
+   "outcome": "abandoned_after_rejections",
+   "engine_read": "abandoned_after_rejections",
+   "event": "You declare: \"I take the empty chair and ask the dealer what a lady has to do to be dealt ",
+   "rejections": 4,
+   "degraded": false,
+   "total_s": 92.6,
+   "flags": []
+  },
+  {
+   "scenario": "V2",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 15.5,
+   "flags": []
+  },
+  {
+   "scenario": "V2",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I kick the door wide and fill the doorway. 'Who's in charge here?'\"",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 14.5,
+   "flags": []
+  },
+  {
+   "scenario": "V2",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "toll_pay",
+   "event": "You count out 10 gp for passage. The toll is paid.",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 33.3,
+   "flags": []
+  },
+  {
+   "scenario": "V2",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "observe",
+   "event": "You take a look.",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 39.3,
+   "flags": []
+  },
+  {
+   "scenario": "V2",
+   "step": 4,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I rage and swing my greataxe at the dealer. I rolled 18 to hit, 11 slashing ",
+   "rejections": 3,
+   "degraded": true,
+   "total_s": 48.5,
+   "flags": []
+  },
+  {
+   "scenario": "V3",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 7.5,
+   "flags": []
+  },
+  {
+   "scenario": "V3",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I step in and let my eyes catch the light. 'Cousins. I didn't know there wer",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 15.5,
+   "flags": []
+  },
+  {
+   "scenario": "V3",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I lean over the dealer and breathe in. 'You smell of tallow and sweat. Which",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 24.0,
+   "flags": []
+  },
+  {
+   "scenario": "V3",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "toll_refuse",
+   "event": "You refuse the toll. The table closes ranks: the dealer's courtesy goes cold, the others s",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 16.5,
+   "flags": []
+  },
+  {
+   "scenario": "V3",
+   "step": 4,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I bare my fangs at the fourth player and ask, very quietly, how long since i",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 26.8,
+   "flags": []
+  },
+  {
+   "scenario": "V4",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 7.0,
+   "flags": []
+  },
+  {
+   "scenario": "V4",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I nod to the table and walk straight past to the north wall. What's this car",
+   "rejections": 2,
+   "degraded": true,
+   "total_s": 36.6,
+   "flags": []
+  },
+  {
+   "scenario": "V4",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "check",
+   "event": "One carved dwarf lifts out of the fresco. It is a small stone key.",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 22.8,
+   "flags": []
+  },
+  {
+   "scenario": "V4",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I crouch by the stone tub. What's in it?\"",
+   "rejections": 2,
+   "degraded": true,
+   "total_s": 42.6,
+   "flags": []
+  },
+  {
+   "scenario": "V4",
+   "step": 4,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"'Please, go on with your game. I'm only admiring the stonework.'\"",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 15.0,
+   "flags": []
+  },
+  {
+   "scenario": "V5",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 6.5,
+   "flags": []
+  },
+  {
+   "scenario": "V5",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "card_watch",
+   "event": "You settle your eyes on the dealer's hands for the next deal.",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 13.5,
+   "flags": []
+  },
+  {
+   "scenario": "V5",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "card_offer",
+   "event": "You want in. Two ways to play a round: settle it with one check, or play it out as twenty-",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 16.5,
+   "flags": []
+  },
+  {
+   "scenario": "V5",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "check",
+   "event": "Faint marks run along the card backs, and the dealer reads them as he deals.",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 15.5,
+   "flags": []
+  },
+  {
+   "scenario": "V5",
+   "step": 4,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I put my rapier through his hand. I rolled 17 to hit, 8 piercing damage.\"",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 14.5,
+   "flags": []
+  },
+  {
+   "scenario": "V6",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 7.5,
+   "flags": []
+  },
+  {
+   "scenario": "V6",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"Kit, before this: I set off the wailing staff in 6a, then went around throug",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 22.8,
+   "flags": []
+  },
+  {
+   "scenario": "V6",
+   "step": 2,
+   "outcome": "pending_ruling",
+   "engine_read": "physical action refused",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V6",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"What's in the room now?\"",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 25.8,
+   "flags": []
+  },
+  {
+   "scenario": "V7",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 7.0,
+   "flags": []
+  },
+  {
+   "scenario": "V7",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "exit",
+   "event": "You go through the south door into the short passage.",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 23.3,
+   "flags": [
+    "no handoff question"
+   ]
+  },
+  {
+   "scenario": "V7",
+   "step": 2,
+   "outcome": "pending_ruling",
+   "engine_read": "left the room (slice ends)",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V7",
+   "step": 3,
+   "outcome": "pending_ruling",
+   "engine_read": "left the room (slice ends)",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V7",
+   "step": 4,
+   "outcome": "pending_ruling",
+   "engine_read": "left the room (slice ends)",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V8",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 10.5,
+   "flags": []
+  },
+  {
+   "scenario": "V8",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I pull up a chair. 'Do you lot play blackjack? I don't know your fancy games",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 16.0,
+   "flags": []
+  },
+  {
+   "scenario": "V8",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "card_offer",
+   "event": "You want in. Two ways to play a round: settle it with one check, or play it out as twenty-",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 14.0,
+   "flags": []
+  },
+  {
+   "scenario": "V8",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "card_mode_play",
+   "event": "Twenty-one, 25 gp a side. Your cards: 7 of diamonds and 2 of spades, 9. The dealer shows t",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 13.5,
+   "flags": []
+  },
+  {
+   "scenario": "V8",
+   "step": 4,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"'Just roll for this one, I'm tired of counting.' [Sleight Of Hand: I rolled ",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 12.5,
+   "flags": []
+  },
+  {
+   "scenario": "V9",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 6.5,
+   "flags": []
+  },
+  {
+   "scenario": "V9",
+   "step": 1,
+   "outcome": "pending_ruling",
+   "engine_read": "combat stall",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V9",
+   "step": 2,
+   "outcome": "pending_ruling",
+   "engine_read": "combat stall",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V9",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"Whoever's still standing, I hit with Fire Bolt. 19 to hit, 9 fire damage.\"",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 9.5,
+   "flags": []
+  },
+  {
+   "scenario": "V9",
+   "step": 4,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I let them go and check the table.\"",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 20.8,
+   "flags": []
+  },
+  {
+   "scenario": "V10",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 7.0,
+   "flags": []
+  },
+  {
+   "scenario": "V10",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I lean on the table. 'Vampires? I've seen scarier things at a puppet show. I",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 14.0,
+   "flags": []
+  },
+  {
+   "scenario": "V10",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I lick my thumb and wipe a streak of paint off the dealer's cheek, in front ",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 15.0,
+   "flags": []
+  },
+  {
+   "scenario": "V10",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"While they're gaping, I scoop a handful of coins from the pot and pocket the",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 15.5,
+   "flags": []
+  },
+  {
+   "scenario": "V10",
+   "step": 4,
+   "outcome": "pending_ruling",
+   "engine_read": "combat stall",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  },
+  {
+   "scenario": "V11",
+   "step": 0,
+   "outcome": "committed",
+   "engine_read": "opening",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 7.0,
+   "flags": []
+  },
+  {
+   "scenario": "V11",
+   "step": 1,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I walk up to the card table, grab the edge, and heave it over, coins and all",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 14.5,
+   "flags": []
+  },
+  {
+   "scenario": "V11",
+   "step": 2,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I stand in the spill of gold and grin. 'Well, go on. Pick it up.'\"",
+   "rejections": 1,
+   "degraded": false,
+   "total_s": 21.8,
+   "flags": []
+  },
+  {
+   "scenario": "V11",
+   "step": 3,
+   "outcome": "committed",
+   "engine_read": "social",
+   "event": "You declare: \"I stomp on their hand.\"",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 8.5,
+   "flags": []
+  },
+  {
+   "scenario": "V11",
+   "step": 4,
+   "outcome": "pending_ruling",
+   "engine_read": "combat stall",
+   "event": "",
+   "rejections": 0,
+   "degraded": false,
+   "total_s": 0.1,
+   "flags": []
+  }
+ ],
+ "latency": {
+  "player_turn_total": {
+   "n": 33,
+   "median_s": 16.5,
+   "max_s": 50.5
+  },
+  "engine_only": {
+   "n": 33,
+   "median_s": 0.3,
+   "max_s": 0.6
+  },
+  "dm_model": {
+   "n": 33,
+   "median_s": 16.2,
+   "max_s": 50.2
+  }
+ }
+}

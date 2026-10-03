@@ -1,0 +1,49 @@
+[
+  {
+    "turn_id": "f2b0d7c9-7299-4598-9562-622d3645f2e2",
+    "committed_at": 1791039631.4838629,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 7.343,
+    "prepared_at": 1791039624.1410534
+  },
+  {
+    "turn_id": "e80c5cf3-3a82-41ec-bc0f-f57ed06cad3e",
+    "committed_at": 1791039646.953793,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 15.356,
+    "prepared_at": 1791039631.5973415
+  },
+  {
+    "turn_id": "6aed1e13-633f-4a04-8370-d6941559ace4",
+    "committed_at": 1791039670.9169254,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 23.852,
+    "prepared_at": 1791039647.065053
+  },
+  {
+    "turn_id": "f93ba501-d1d9-4e58-a0ed-7f572d374aa2",
+    "committed_at": 1791039687.3734376,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 16.343,
+    "prepared_at": 1791039671.0306668
+  },
+  {
+    "turn_id": "8c8bc70c-57cb-4466-91ce-7bc5efe0bca5",
+    "committed_at": 1791039714.1779559,
+    "last_rejection": "Public text paraphrases a private fact (keyword set 'false_vampires'). Stay with what the player can perceive.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 26.684,
+    "prepared_at": 1791039687.4940546,
+    "rejected_attempts": 1
+  }
+]

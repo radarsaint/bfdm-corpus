@@ -1,0 +1,49 @@
+[
+  {
+    "turn_id": "76426042-d49a-44dc-8042-6bfa198d1ba2",
+    "committed_at": 1791039223.2451138,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 3.339,
+    "prepared_at": 1791039219.9058588
+  },
+  {
+    "turn_id": "272eef3e-efa8-4857-9cdb-8d8d6ffd7221",
+    "committed_at": 1791039273.7356877,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 50.375,
+    "prepared_at": 1791039223.3609111
+  },
+  {
+    "turn_id": "7e7d06d8-7b6b-4510-94de-16aa8653a61e",
+    "committed_at": 1791039297.727692,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 23.865,
+    "prepared_at": 1791039273.8621964
+  },
+  {
+    "turn_id": "fd4e764d-51c6-44a4-865c-bcab948742c2",
+    "abandoned_at": 1791039380.2749166,
+    "last_rejection": "The toll is a real exchange, not a line beside the game: the Dealer names it in passing. Make the demand its own beat, with a reason in character and an opening for the player to answer.",
+    "mode": "one_pass",
+    "outcome": "abandoned",
+    "performance_variant": "kit_expression_v1",
+    "prepared_at": 1791039297.838208,
+    "rejected_attempts": 4
+  },
+  {
+    "turn_id": "f3c2bef8-cdd5-490a-a9c3-33e32d63da7e",
+    "abandoned_at": 1791039472.8375468,
+    "last_rejection": "A card game in the room is not a reason to start one: start a table procedure only when the player asks to play or about the game, or record an NPC agenda move whose why is steering or stalling the PCs.",
+    "mode": "one_pass",
+    "outcome": "abandoned",
+    "performance_variant": "kit_expression_v1",
+    "prepared_at": 1791039380.384508,
+    "rejected_attempts": 4
+  }
+]

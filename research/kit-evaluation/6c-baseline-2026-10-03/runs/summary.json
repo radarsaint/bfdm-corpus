@@ -1,0 +1,517 @@
+{
+ "scenarios": {
+  "V1": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 3470,
+    "prepare_ms": 130,
+    "dm_ms": 3205,
+    "complete_ms": 132,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 50489,
+    "prepare_ms": 121,
+    "dm_ms": 50223,
+    "complete_ms": 145,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 23993,
+    "prepare_ms": 127,
+    "dm_ms": 23713,
+    "complete_ms": 151,
+    "attempts": 1
+   },
+   {
+    "step": 3,
+    "outcome": "abandoned_after_rejections",
+    "total_ms": 82544,
+    "prepare_ms": 111,
+    "dm_ms": 81846,
+    "complete_ms": 482,
+    "attempts": 4
+   },
+   {
+    "step": 4,
+    "outcome": "abandoned_after_rejections",
+    "total_ms": 92563,
+    "prepare_ms": 111,
+    "dm_ms": 91854,
+    "complete_ms": 497,
+    "attempts": 4
+   }
+  ],
+  "V2": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 15463,
+    "prepare_ms": 126,
+    "dm_ms": 15209,
+    "complete_ms": 127,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 14457,
+    "prepare_ms": 111,
+    "dm_ms": 14210,
+    "complete_ms": 135,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 33283,
+    "prepare_ms": 112,
+    "dm_ms": 32920,
+    "complete_ms": 250,
+    "attempts": 2
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 39300,
+    "prepare_ms": 113,
+    "dm_ms": 38923,
+    "complete_ms": 263,
+    "attempts": 2
+   },
+   {
+    "step": 4,
+    "outcome": "committed",
+    "total_ms": 48462,
+    "prepare_ms": 117,
+    "dm_ms": 47834,
+    "complete_ms": 509,
+    "attempts": 4
+   }
+  ],
+  "V3": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 7468,
+    "prepare_ms": 125,
+    "dm_ms": 7206,
+    "complete_ms": 136,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 15469,
+    "prepare_ms": 113,
+    "dm_ms": 15209,
+    "complete_ms": 146,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 23961,
+    "prepare_ms": 110,
+    "dm_ms": 23713,
+    "complete_ms": 137,
+    "attempts": 1
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 16456,
+    "prepare_ms": 114,
+    "dm_ms": 16210,
+    "complete_ms": 130,
+    "attempts": 1
+   },
+   {
+    "step": 4,
+    "outcome": "committed",
+    "total_ms": 26806,
+    "prepare_ms": 122,
+    "dm_ms": 26419,
+    "complete_ms": 264,
+    "attempts": 2
+   }
+  ],
+  "V4": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 6964,
+    "prepare_ms": 129,
+    "dm_ms": 6705,
+    "complete_ms": 130,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 36631,
+    "prepare_ms": 114,
+    "dm_ms": 36128,
+    "complete_ms": 387,
+    "attempts": 3
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 22780,
+    "prepare_ms": 115,
+    "dm_ms": 22416,
+    "complete_ms": 247,
+    "attempts": 2
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 42614,
+    "prepare_ms": 117,
+    "dm_ms": 42129,
+    "complete_ms": 368,
+    "attempts": 3
+   },
+   {
+    "step": 4,
+    "outcome": "committed",
+    "total_ms": 14982,
+    "prepare_ms": 118,
+    "dm_ms": 14709,
+    "complete_ms": 154,
+    "attempts": 1
+   }
+  ],
+  "V5": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 6461,
+    "prepare_ms": 120,
+    "dm_ms": 6207,
+    "complete_ms": 133,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 13475,
+    "prepare_ms": 116,
+    "dm_ms": 13208,
+    "complete_ms": 150,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 16472,
+    "prepare_ms": 113,
+    "dm_ms": 16209,
+    "complete_ms": 148,
+    "attempts": 1
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 15455,
+    "prepare_ms": 107,
+    "dm_ms": 15209,
+    "complete_ms": 137,
+    "attempts": 1
+   },
+   {
+    "step": 4,
+    "outcome": "committed",
+    "total_ms": 14466,
+    "prepare_ms": 120,
+    "dm_ms": 14209,
+    "complete_ms": 137,
+    "attempts": 1
+   }
+  ],
+  "V6": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 7468,
+    "prepare_ms": 128,
+    "dm_ms": 7206,
+    "complete_ms": 133,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 22762,
+    "prepare_ms": 114,
+    "dm_ms": 22415,
+    "complete_ms": 232,
+    "attempts": 2
+   },
+   {
+    "step": 2,
+    "outcome": "pending_ruling",
+    "total_ms": 105,
+    "prepare_ms": 105,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 25768,
+    "prepare_ms": 108,
+    "dm_ms": 25416,
+    "complete_ms": 242,
+    "attempts": 2
+   }
+  ],
+  "V7": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 6979,
+    "prepare_ms": 128,
+    "dm_ms": 6706,
+    "complete_ms": 144,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 23285,
+    "prepare_ms": 125,
+    "dm_ms": 22914,
+    "complete_ms": 243,
+    "attempts": 2
+   },
+   {
+    "step": 2,
+    "outcome": "pending_ruling",
+    "total_ms": 109,
+    "prepare_ms": 109,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   },
+   {
+    "step": 3,
+    "outcome": "pending_ruling",
+    "total_ms": 101,
+    "prepare_ms": 100,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   },
+   {
+    "step": 4,
+    "outcome": "pending_ruling",
+    "total_ms": 103,
+    "prepare_ms": 102,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   }
+  ],
+  "V8": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 10481,
+    "prepare_ms": 125,
+    "dm_ms": 10206,
+    "complete_ms": 148,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 15976,
+    "prepare_ms": 112,
+    "dm_ms": 15709,
+    "complete_ms": 154,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 14007,
+    "prepare_ms": 112,
+    "dm_ms": 13709,
+    "complete_ms": 184,
+    "attempts": 1
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 13456,
+    "prepare_ms": 114,
+    "dm_ms": 13208,
+    "complete_ms": 132,
+    "attempts": 1
+   },
+   {
+    "step": 4,
+    "outcome": "committed",
+    "total_ms": 12476,
+    "prepare_ms": 118,
+    "dm_ms": 12208,
+    "complete_ms": 149,
+    "attempts": 1
+   }
+  ],
+  "V9": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 6484,
+    "prepare_ms": 137,
+    "dm_ms": 6206,
+    "complete_ms": 141,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "pending_ruling",
+    "total_ms": 103,
+    "prepare_ms": 103,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   },
+   {
+    "step": 2,
+    "outcome": "pending_ruling",
+    "total_ms": 101,
+    "prepare_ms": 100,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 9472,
+    "prepare_ms": 119,
+    "dm_ms": 9207,
+    "complete_ms": 145,
+    "attempts": 1
+   },
+   {
+    "step": 4,
+    "outcome": "committed",
+    "total_ms": 20801,
+    "prepare_ms": 121,
+    "dm_ms": 20415,
+    "complete_ms": 263,
+    "attempts": 2
+   }
+  ],
+  "V10": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 6967,
+    "prepare_ms": 129,
+    "dm_ms": 6706,
+    "complete_ms": 131,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 13969,
+    "prepare_ms": 120,
+    "dm_ms": 13708,
+    "complete_ms": 141,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 14956,
+    "prepare_ms": 108,
+    "dm_ms": 14710,
+    "complete_ms": 136,
+    "attempts": 1
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 15477,
+    "prepare_ms": 112,
+    "dm_ms": 15210,
+    "complete_ms": 154,
+    "attempts": 1
+   },
+   {
+    "step": 4,
+    "outcome": "pending_ruling",
+    "total_ms": 119,
+    "prepare_ms": 118,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   }
+  ],
+  "V11": [
+   {
+    "step": 0,
+    "outcome": "committed",
+    "total_ms": 6975,
+    "prepare_ms": 144,
+    "dm_ms": 6706,
+    "complete_ms": 125,
+    "attempts": 1
+   },
+   {
+    "step": 1,
+    "outcome": "committed",
+    "total_ms": 14463,
+    "prepare_ms": 119,
+    "dm_ms": 14208,
+    "complete_ms": 136,
+    "attempts": 1
+   },
+   {
+    "step": 2,
+    "outcome": "committed",
+    "total_ms": 21801,
+    "prepare_ms": 116,
+    "dm_ms": 21415,
+    "complete_ms": 268,
+    "attempts": 2
+   },
+   {
+    "step": 3,
+    "outcome": "committed",
+    "total_ms": 8468,
+    "prepare_ms": 120,
+    "dm_ms": 8208,
+    "complete_ms": 139,
+    "attempts": 1
+   },
+   {
+    "step": 4,
+    "outcome": "pending_ruling",
+    "total_ms": 112,
+    "prepare_ms": 112,
+    "dm_ms": 0,
+    "complete_ms": 0,
+    "attempts": null
+   }
+  ]
+ },
+ "latency_ms": {
+  "n": 44,
+  "median": 15218.5,
+  "max": 50489
+ }
+}

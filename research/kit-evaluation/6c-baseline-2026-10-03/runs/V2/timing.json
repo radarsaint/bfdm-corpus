@@ -1,0 +1,53 @@
+[
+  {
+    "turn_id": "92617b1e-3797-4547-abf7-dc5d7897eea0",
+    "committed_at": 1791039488.4035907,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 15.339,
+    "prepared_at": 1791039473.0644639
+  },
+  {
+    "turn_id": "a2345a5b-ef86-4906-b5d7-875f114051c5",
+    "committed_at": 1791039502.8582156,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 14.343,
+    "prepared_at": 1791039488.5154917
+  },
+  {
+    "turn_id": "15036063-84c2-41d4-89ca-7af81c05e3c8",
+    "committed_at": 1791039536.1441293,
+    "last_rejection": "A room action is a description (or combat) turn",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 33.172,
+    "prepared_at": 1791039502.972214,
+    "rejected_attempts": 1
+  },
+  {
+    "turn_id": "efbc582f-3ae1-4ebc-a62c-1a28e5685945",
+    "committed_at": 1791039575.442808,
+    "last_rejection": "Public performance mentioned a private fact",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 39.186,
+    "prepared_at": 1791039536.257239,
+    "rejected_attempts": 1
+  },
+  {
+    "turn_id": "e7876d0a-f5f3-4a4c-865c-f008234aad73",
+    "committed_at": 1791039623.9049838,
+    "last_rejection": "Scene fit: the Dealer calls the player \"dwarf\", but the player character is Brakka, a Dwarf (Mountain) (public view your_character). Get who they are right.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 48.345,
+    "prepared_at": 1791039575.5596251,
+    "rejected_attempts": 3
+  }
+]

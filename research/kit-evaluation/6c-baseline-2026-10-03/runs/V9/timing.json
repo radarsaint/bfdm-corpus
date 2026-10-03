@@ -1,0 +1,31 @@
+[
+  {
+    "turn_id": "d9617554-3c03-45b6-ae04-438ae8f84e35",
+    "committed_at": 1791040064.6689823,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 6.348,
+    "prepared_at": 1791040058.320998
+  },
+  {
+    "turn_id": "e19d7e2b-3126-4e93-aab8-830f0560a117",
+    "committed_at": 1791040074.343291,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 9.351,
+    "prepared_at": 1791040064.9925606
+  },
+  {
+    "turn_id": "077d31b5-6563-43bd-864b-7670697e7581",
+    "committed_at": 1791040095.1482973,
+    "last_rejection": "NPC voice: the Dealer said \"honestly\", which their voice contract rules out. Speak from that card's register.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 20.682,
+    "prepared_at": 1791040074.4665768,
+    "rejected_attempts": 1
+  }
+]

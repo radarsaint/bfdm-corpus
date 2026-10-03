@@ -1,0 +1,22 @@
+[
+  {
+    "turn_id": "faf17419-e384-4936-9a08-943fda74f900",
+    "committed_at": 1791039967.9869494,
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 6.851,
+    "prepared_at": 1791039961.1361902
+  },
+  {
+    "turn_id": "b5ddb34a-392e-4232-b6e4-9801c25b5ccc",
+    "committed_at": 1791039991.2719822,
+    "last_rejection": "Public text paraphrases a private fact (keyword set 'fresco_key_loose'). Stay with what the player can perceive.",
+    "mode": "one_pass",
+    "outcome": "committed",
+    "performance_variant": "kit_expression_v1",
+    "prepare_to_commit_s": 23.161,
+    "prepared_at": 1791039968.1105864,
+    "rejected_attempts": 1
+  }
+]
