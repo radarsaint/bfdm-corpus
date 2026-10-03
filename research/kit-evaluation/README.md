@@ -19,6 +19,7 @@ Do not use Kit failures as evidence about Brendon's historical DM behavior.
 - [6c-variety-scenarios.md](6c-variety-scenarios.md) — 2026-10-03 eleven varied Area 6c openings (bard, barbarian, dhampir, fresco, cheat, noise, toll, blackjack, three combat openers) for scripted ChatGPT runs.
 - [6c-baseline-2026-10-03/SCORECARD.md](6c-baseline-2026-10-03/SCORECARD.md) — 2026-10-03 first batch run of all eleven variety scenarios (Grok as Kit via the dnd-solo batch runner, PR #48): pass/fail per check, latency, top five failures.
 - [6c-rerun-2026-10-03/SCORECARD.md](6c-rerun-2026-10-03/SCORECARD.md): 2026-10-03 rerun of V1–V11 against dnd-solo PR #50 (stacked on #49), with real Avrae roll format. Fixed / still failing / newly broken per scenario vs the baseline, Skippy's open items, Avrae parsing probes, and merge readiness.
+- [persona-continuity-eval.md](persona-continuity-eval.md): 2026-10-03 cross-context eval for "same identity, different authority". It covers ordinary talk ("Hello, Kit.", "What are you?"), creative and debrief work, live 6c play through the bridge, and a transition script, plus a rubric with hard fails and a routing pre-check. [persona-continuity-play.json](persona-continuity-play.json) is the live segment for the offline batch runner.
 - [REGRESSION_TARGETS.md](REGRESSION_TARGETS.md) — cross-test behavioral targets.
 
 ## Evaluation discipline
