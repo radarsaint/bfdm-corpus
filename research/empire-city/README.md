@@ -105,12 +105,16 @@ For continuation, read in this order:
 
 Then return to the raw SQLite/Drive sources only for the specific unresolved questions listed in those files. Do **not** restart broad Empire City source discovery from scratch.
 
+## Resolved during deep pass
+
+- **Stock-market implementation:** Rob's **Wall Street Stock Market** Google Sheet is the price engine. The bot reloads prices at 6 AM Pacific. The master sheet calculates current price as starting price plus cumulative dated adjustments; ordinary movement is seeded with `RANDBETWEEN(-10,25)`, while large plot shocks are manually authored into the dated adjustment history. Early discussion considered buy/sell demand as an input, but the surviving implemented sheet uses random baseline movement plus authored plot adjustments.
+- **Seat-of-empire evidence:** the exact naming explanation is present in live S4 Discord on July 11, 2021. Pre-launch June 9 city material already describes Manhattan as the “heart of Empire,” but this pass found no pre-launch copy of the exact Washington “seat of the empire” naming line.
+
 ## Current unresolved S4 questions
 
 - locate a direct result/ratification source for the Continental Congress if one exists;
-- recover the exact stock-price update procedure if it survives;
 - improve passage-level authorship separation in collaborative borough documents;
-- determine whether more direct prep evidence survives for the initial “seat of the empire” naming choice;
+- the exact “seat of the empire” naming explanation first survives in Discord on July 11; pre-launch June 9 material already calls Manhattan the “heart of Empire,” but no pre-launch copy of the exact naming quote has been found;
 - continue targeted S2/S3/S4 developmental comparison without treating targeted S2 findings as a full S2 analysis;
 - preserve voice/off-platform absence as an evidence limitation.
 
