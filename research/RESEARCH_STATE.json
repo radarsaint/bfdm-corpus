@@ -44,7 +44,8 @@
       "point_4_status": "IN_PROGRESS_BINARY_TRANSFER_PENDING",
       "reconciler": "ingest/reconcile_legacy_staging.py",
       "reconciliation_baseline": "research/legacy-staging/RECONCILIATION_2026-10-02.md",
-      "definition_of_point_4_done": "Final reconciliation dry-run against canonical checkout reports all 51 legacy records ALREADY_RECONCILED with no checksum conflicts."
+      "definition_of_point_4_done": "Final reconciliation dry-run against canonical checkout reports all 51 legacy records ALREADY_RECONCILED with no checksum conflicts.",
+      "transport_boundary": "The current chat runtime can materialize and verify the 86.9 MB Library ZIP, but has no authenticated/networked binary Git path; the GitHub connector's low-level blob API accepts content strings rather than container file references. Canonical binary transfer therefore remains pending."
     },
     "early_roanoke_2018": {
       "status": "verified_pre_season_2_lineage_formal_season_1_label_unresolved",
@@ -190,7 +191,7 @@
     "path": "evidence/",
     "current_max_ids": {
       "source_container": "BCS-000068",
-      "attributable_evidence": "BCE-000013",
+      "attributable_evidence": "BCE-000014",
       "relation": "BCR-000013"
     },
     "retrospective_source": "BCS-000068",
@@ -203,7 +204,8 @@
       "BCE-000010",
       "BCE-000011",
       "BCE-000012",
-      "BCE-000013"
+      "BCE-000013",
+      "BCE-000014"
     ],
     "portability_note": "BCS-000068 is a curated verbatim ChatGPT excerpt snapshot with exact UTC timestamps; stable native message IDs are unavailable through the current connector.",
     "public_sync": "Do not copy private conversation excerpts/evidence into public dnd-solo without explicit review."
@@ -246,5 +248,28 @@
     "series_schema": "registry/series.schema.json",
     "point_3_status": "COMPLETE",
     "scale_note": "The retrospective Roanoke 30–100 concurrent-player range is stored only on registry/series.jsonl. Individual seasons remain UNKNOWN until season-specific evidence exists."
+  },
+  "empire_city_research": {
+    "status": "FIRST_DEEP_PASS_COMPLETE_TARGETED_GAPS_REMAIN",
+    "start_here": [
+      "research/empire-city/design-method-synthesis-v1.md",
+      "research/empire-city/longitudinal-decision-cases-v1.md",
+      "research/empire-city/decision-cases-v1.md",
+      "research/empire-city/source-fragment-map-v1.md",
+      "research/creative-method/historical-mythologization-v1.md",
+      "research/creative-method/cryptids-s3-s4-v1.md"
+    ],
+    "longitudinal_cases": 17,
+    "direct_local_cases": 8,
+    "stock_market_mechanism": "RESOLVED_RANDOM_BASELINE_PLUS_AUTHORED_PLOT_ADJUSTMENTS",
+    "stock_sheet_drive_id": "125_rxx6iP7rQg4oZq7T13n9jGSwPJd81ju0yrWJsHVo",
+    "seat_of_empire_evidence": "Exact naming explanation survives in live Discord on 2021-07-11; pre-launch 2021-06-09 city material already says 'heart of Empire', but no pre-launch copy of the exact naming line has been found.",
+    "targeted_gaps": [
+      "Direct final Continental Congress ratification/result source",
+      "Passage-level authorship in collaborative borough documents",
+      "Broader S2 comparison before comprehensive S2→S3→S4 claims",
+      "Voice/off-platform evidence remains unavailable"
+    ],
+    "retrospective_method_evidence": "BCE-000014"
   }
 }
