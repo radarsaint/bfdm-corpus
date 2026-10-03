@@ -1,6 +1,6 @@
 # Area 6c variety scenarios (2026-10-03)
 
-**What this is:** eight short scripted openings for Area 6c that come at the room from different directions. The four existing playtests (T1 to T3 plus the claims QA) all follow one path: Nik, a wizard, walks in, asks what's going on, and gets pulled into cards. These scenarios test whether Kit plays the *room* well, or only that one path.
+**What this is:** eleven short scripted openings for Area 6c that come at the room from different directions. The four existing playtests (T1 to T3 plus the claims QA) all follow one path: Nik, a wizard, walks in, asks what's going on, and gets pulled into cards. These scenarios test whether Kit plays the *room* well, or only that one path.
 **Scoring source:** [`table-calls-6c-2026-10-02.md`](table-calls-6c-2026-10-02.md) (Calls 1 to 7 and their TC checks).
 **Room seed:** dnd-solo `tests/fixtures/level_01_area_06c.json` at main `f90e1af` (PR #47 merged).
 **Brendon's guidance:** don't get into the weeds perfecting each test. The lines below are openings, not full scripts. The tester can improvise after them as long as the character stays in their lane.
@@ -12,7 +12,7 @@
 - **Exercises:** the table calls and TC checks this run can produce evidence for. Every run is also scored on the always-on checks below.
 - **A good DM would...:** plain expectations. These are judged by reading the transcript, not by matching exact words.
 
-**Always-on checks (every scenario):** TC-4a and TC-4b (no DCs, totals, modifiers, or bonus reminders in public text), TC-5a and TC-5b (clear narrator, "Do you reply?"-style handoff after an NPC addresses the PC, no quips), and TC-3e (nothing to eat or drink is served or offered). Also log the wall-clock time of each turn (Stage 1 latency).
+**Always-on checks (every scenario):** TC-4a and TC-4b (no DCs, totals, modifiers, or bonus reminders in public text), TC-5a and TC-5b (clear narrator, "Do you reply?"-style handoff after an NPC addresses the PC, no quips), and TC-3e (nothing to eat or drink is served or offered). Also log the wall-clock time of each turn (Stage 1 latency). V9 to V11 also share a set of combat expectations, listed in their section.
 
 ---
 
@@ -143,6 +143,67 @@
 - Handle the 50 gp bet in the fiction: the dealer notices her purse can't cover it, or names his own cap. Don't accept a stake nothing backs.
 - Switch to one roll when she asks, keep the marked deck in play, and give each round a short table moment (a reaction, a tell, a remark), not just a ledger line.
 
+## Combat openers (V9 to V11, added 2026-10-03)
+
+Brendon flagged combat openers as a priority. These three start or force a fight. They share the rules below, so each scenario's expectations only add what's specific to it.
+
+**Known gap, check this first:** the runtime has no combat yet. `kit_agent.py` turns any attack into a pending ruling: "Fights are not run in this slice yet: it has no initiative or tactical resolver. No turn was committed." So right now V9 to V11 (and V2 line 4 and V5 line 4) will stall at the first blow. Running them anyway records that stall as the baseline failure. The expectations below are the target once combat exists.
+
+**Shared combat expectations (V9 to V11):**
+- **Fake vampires, real bandits.** The four have no vampire abilities: no regeneration, no charm, no bite, no misty escape, no sunlight or holy weakness. They fight as what they are, a bandit captain, two bandits, and a doppelganger, with scimitars, daggers, and light crossbows. Uktarl gets Multiattack and Parry; the doppelganger gets Multiattack, Ambusher, and Surprise Attack. Holy water or radiant damage hurts them like it would any human.
+- **The act holds until it breaks.** Until something cracks the ruse, they keep playing vampires: the hiss, the pale menace, "you dare raise steel against the dead?" What cracks it is ordinary physical fact: red blood from a cut, makeup smearing, false fangs falling out, a bandit yelling a real name, or someone panicking and running. Once it breaks, it stays broken. Kit shows the crack. She never announces "they aren't vampires" as a narrator verdict.
+- **Retreat as written.** As soon as Uktarl takes damage or sees an underling fall, he abandons the fight and heads south toward area 7, blaming someone on the way out. When he goes, the two bandits and the doppelganger break toward area 8 to join Harria. Nobody fights to the death, and the retreat leaves things behind (the pot, the ring, the tub's contents). Pursuing them is the player's choice and leads into new areas, not a cutscene.
+- **The doppelganger is its own creature.** It cares about its own disguise and safety first. It may read the PC's surface thoughts (Read Thoughts) and react to what it learns. It hits hardest on the first round against a target that hasn't acted yet (Ambusher, Surprise Attack). When things go bad, it may slip away in another shape instead of running with the bandits. When its own face shows (it reverts on death, or a tell like rippling skin), that's a separate reveal from the fake-vampire reveal: "one of them really was a monster."
+- **Starting combat at a play-by-post table with Avrae.** Players roll their own dice in Discord with Avrae, and Kit never rolls for them. On the first hostile act, Kit settles surprise first. Usually no one is surprised: the PC walked in openly, and the gang is watching. A PC who stays hidden until the attack can earn surprise with Stealth against the gang's passive Perception. Then Kit calls for initiative in one plain line ("Roll initiative"). She takes the totals the player reports (Avrae's `!init` tracker or a posted roll), handles the NPCs' initiative herself, and posts a short turn order. Each post covers one actor's turn or one round summary, ends by naming whose turn it is, and asks the player only for what they need to post next (attack roll, damage, save). The player's opening blow, declared before initiative, resolves as their first action. It is never voided or replayed. No DCs, AC numbers, or NPC hit points appear in public text (Call 4). Narrate hits and wounds, not totals.
+
+## V9. First blood: Nik attacks before anyone speaks
+
+**PC:** Nik, harengon wizard (Chronurgy), `tests/fixtures/characters/nik.json`.
+**Player lines:**
+1. "From the doorway, before anyone says a word, I cast Fireball at the middle of the card table."
+2. "Rolling initiative." (report the total)
+3. "Whoever's still standing, I hit with Fire Bolt."
+4. "If they run, I let them go and check the table."
+
+**Rolls:** Initiative 14. The Fireball save is the NPCs', so Kit rolls it. Fireball damage 28 (Avrae). Fire Bolt attack 19, damage 9.
+**Exercises:** the shared combat expectations (surprise, initiative, Avrae roll intake, no numbers), retreat rules (an underling falling sends Uktarl to area 7 even if he isn't hurt), the ruse cracking under fire (burnt makeup, a scream that isn't undead), Call 4, and Call 1 (TC-1b: an attack on the game is not the game). Also the loot left behind.
+**A good DM would...**
+- Resolve the Fireball as the declared opening action before or alongside initiative, without re-asking or voiding it. The NPCs roll their saves privately. The narration shows who's burned and who's down, with no numbers.
+- Let the fire break the act on the spot: smoking capes, running greasepaint, a bandit shrieking for his mother. Uktarl, whether hurt or seeing a man drop, bolts for area 7. The others scatter toward area 8.
+- Leave the aftermath to play out: scorched coins, possibly melted, and a ring in the ashes. If the doppelganger survives, it slips out in a shape Nik didn't see coming.
+
+## V10. Make them swing first: Wren provokes the "vampires"
+
+**PC:** Wren, human rogue, `tests/fixtures/characters/example_pc.json`.
+**Player lines:**
+1. "I lean on the table. 'Vampires? I've seen scarier things at a puppet show. Is that flour on your face?'"
+2. "I lick my thumb and wipe a streak of paint off the dealer's cheek, in front of everyone."
+3. "While they're gaping, I scoop a handful of coins from the pot and pocket them. 'Toll paid.'"
+4. "If they come at me: I've got my rapier out and wait for them to make the first move."
+
+**Rolls:** Sleight of Hand 21 on line 3 (the grab is meant to be seen, so the roll is about how much she gets away with). Initiative 17. Then whatever attacks follow.
+**Exercises:** the shared expectations, especially the act holding until it breaks. Line 2 is a deliberate crack, a public, physical tell. Also Call 3 (TC-3b, TC-3d: the NPCs' motive to keep the ruse alive under insult), Call 6 (TC-6d: the gang's answer to a "toll paid" with their own money), and who attacks first and why (a provocation is not automatically a fight).
+**A good DM would...**
+- Let the NPCs try to save the act before resorting to violence: a cold "you mistake our patience," the dealer covering the smear, a bandit hissing on cue. Uktarl's first instinct is control, not risk.
+- Treat the paint wipe as real evidence: skin under the paint, and a man who flinches like a man. Each NPC reacts in character (the doppelganger goes very still). It's shown, not declared.
+- Make the theft the line they can't let go. Someone moves on her, and who it is matters: probably a bandit, sent by Uktarl rather than going himself. Then combat starts properly (initiative, Avrae), and the NPC who attacked first gets that action.
+
+## V11. Flip the table: Brakka scatters the pot
+
+**PC:** Brakka, mountain dwarf barbarian (Berserker), `6c-variety-sheets/brakka-barbarian.json`.
+**Player lines:**
+1. "I walk up to the card table, grab the edge, and heave it over, coins and all."
+2. "I stand in the spill of gold and grin. 'Well, go on. Pick it up.'"
+3. "When anyone bends for a coin, I stomp on their hand."
+4. "Rolling initiative if it comes to that. I rage."
+
+**Rolls:** Athletics 18 on line 1 (if Kit asks). Initiative 8. Greataxe attack 20, damage 14.
+**Exercises:** the shared expectations; NPC priorities when money is loose (greed against fear against the act); who goes for whom; the ruse cracking because real vampires wouldn't grovel for copper; retreat rules; Call 4 (no coin counts or numbers in the chaos); and the pot and ring as world state (where the gold ends up, who pocketed what).
+**A good DM would...**
+- Give each NPC their own instinct in the half-second after the crash: a bandit drops to his knees for the gold (the act cracks at once), Uktarl goes for the ring and the biggest stack, never for the dwarf, and the doppelganger watches Brakka, not the coins, and may read his thoughts.
+- Treat the flip as a hostile act that may or may not start combat. If nobody swings, it's a standoff over money. The stomp on line 3 is an attack, so roll initiative there, with Avrae, and narrate from that point.
+- Track the money after the scramble: some coins pocketed by fleeing bandits, some left on the floor, the ring with whoever reached it first (and if that's Uktarl, it leaves with him toward area 7). Don't reset the pot as if nothing happened.
+
 ---
 
 ## Coverage at a glance
@@ -157,6 +218,9 @@
 | V6 Drawn out by noise | Brakka (barbarian) | seed boundary, 5 | seed precondition |
 | V7 Not paying that | Nik (wizard) | 6, 7 | 6b, 6c, 6d, 6e, 7a |
 | V8 Blackjack, fifty | Wren (rogue) | 7, 1, 4 | 7a, 7b, 7c, 1a, 1c |
+| V9 First blood | Nik (wizard) | combat, retreat, 4, 1 | 1b, 4a; combat start |
+| V10 Make them swing first | Wren (rogue) | combat, 3, 6, retreat | 3b, 3d, 6d; combat start |
+| V11 Flip the table | Brakka (barbarian) | combat, retreat, 4 | 4a; combat start, loot state |
 
 TC-3c (ablation) isn't covered by these openings. It's a paired rerun of V1 or V3 with the ruse objective removed. Call 4 and Call 5 are always on.
 
