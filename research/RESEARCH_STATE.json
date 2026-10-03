@@ -6,7 +6,13 @@
     "branch": "research/organize-current-work-v1",
     "draft_pr": 5,
     "title": "Organize current BFDM research and Kit evaluation",
-    "merge_policy": "do_not_merge_without_deliberate_review"
+    "merge_policy": "do_not_merge_without_deliberate_review",
+    "deliberate_review": {
+      "status": "PASSED_READY_FOR_INTEGRATION",
+      "report": "research/PR5_REVIEW_2026-10-02.md",
+      "validation_run_id": 37085994361,
+      "validation_conclusion": "success"
+    }
   },
   "source_archive": {
     "roanoke_s3_discord": {
