@@ -1,0 +1,97 @@
+{
+  "schema": "character_sheet_v1",
+  "_note": "Scenario PC for the 6c variety set (research/kit-evaluation/6c-variety-scenarios.md). Minimal, made up for testing; not a real player's character.",
+  "name": "Sela",
+  "ancestry": "Tiefling",
+  "class": "Bard (College of Eloquence)",
+  "level": 5,
+  "background": "Charlatan",
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 18
+  },
+  "proficiency_bonus": 3,
+  "skills": {
+    "acrobatics": 2,
+    "animal_handling": 0,
+    "arcana": 1,
+    "athletics": -1,
+    "deception": 10,
+    "history": 1,
+    "insight": 3,
+    "intimidation": 4,
+    "investigation": 1,
+    "medicine": 0,
+    "nature": 1,
+    "perception": 0,
+    "performance": 7,
+    "persuasion": 10,
+    "religion": 1,
+    "sleight_of_hand": 5,
+    "stealth": 5,
+    "survival": 0
+  },
+  "expertise": [
+    "deception",
+    "persuasion"
+  ],
+  "passives": {
+    "perception": 10,
+    "insight": 13,
+    "investigation": 11
+  },
+  "ac": 13,
+  "hp": 33,
+  "speed_ft": 30,
+  "gold_gp": 60,
+  "languages": [
+    "Common",
+    "Infernal",
+    "Elvish"
+  ],
+  "features": [
+    "Bardic Inspiration (d8)",
+    "Silver Tongue",
+    "Unsettling Words",
+    "Jack of All Trades",
+    "Font of Inspiration",
+    "Darkvision 60 ft"
+  ],
+  "spells": {
+    "cantrips": [
+      "Vicious Mockery",
+      "Friends",
+      "Minor Illusion",
+      "Thaumaturgy"
+    ],
+    "1": [
+      "Charm Person",
+      "Disguise Self",
+      "Healing Word",
+      "Dissonant Whispers"
+    ],
+    "2": [
+      "Suggestion",
+      "Hellish Rebuke (racial)",
+      "Enthrall"
+    ],
+    "3": [
+      "Hypnotic Pattern"
+    ]
+  },
+  "slots": {
+    "1": 4,
+    "2": 3,
+    "3": 2
+  },
+  "gear": [
+    "rapier",
+    "lute",
+    "fine clothes",
+    "forgery kit"
+  ]
+}

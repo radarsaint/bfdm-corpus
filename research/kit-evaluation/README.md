@@ -16,6 +16,7 @@ Do not use Kit failures as evidence about Brendon's historical DM behavior.
 
 - [playtest-01-character-onboarding.md](playtest-01-character-onboarding.md) — 2026-09-23 character creation → campaign handoff.
 - [playtest-02-area-6c-gambling.md](playtest-02-area-6c-gambling.md) — 2026-09-29 Area 6c gambling/marked-deck test.
+- [6c-variety-scenarios.md](6c-variety-scenarios.md) — 2026-10-03 eight varied Area 6c openings (bard, barbarian, dhampir, fresco, cheat, noise, toll, blackjack) for scripted ChatGPT runs.
 - [REGRESSION_TARGETS.md](REGRESSION_TARGETS.md) — cross-test behavioral targets.
 
 ## Evaluation discipline

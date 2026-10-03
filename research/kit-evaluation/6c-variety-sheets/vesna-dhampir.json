@@ -1,0 +1,86 @@
+{
+  "schema": "character_sheet_v1",
+  "_note": "Scenario PC for the 6c variety set (research/kit-evaluation/6c-variety-scenarios.md). Minimal, made up for testing; not a real player's character.",
+  "name": "Vesna",
+  "ancestry": "Dhampir (human lineage)",
+  "class": "Warlock (The Undead)",
+  "level": 5,
+  "background": "Haunted One",
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 12,
+    "wis": 13,
+    "cha": 17
+  },
+  "proficiency_bonus": 3,
+  "skills": {
+    "acrobatics": 2,
+    "animal_handling": 1,
+    "arcana": 1,
+    "athletics": 0,
+    "deception": 6,
+    "history": 1,
+    "insight": 4,
+    "intimidation": 6,
+    "investigation": 1,
+    "medicine": 1,
+    "nature": 1,
+    "perception": 4,
+    "performance": 3,
+    "persuasion": 3,
+    "religion": 4,
+    "sleight_of_hand": 2,
+    "stealth": 5,
+    "survival": 1
+  },
+  "expertise": [],
+  "passives": {
+    "perception": 14,
+    "insight": 14,
+    "investigation": 11
+  },
+  "ac": 13,
+  "hp": 38,
+  "speed_ft": 35,
+  "gold_gp": 45,
+  "languages": [
+    "Common",
+    "Abyssal"
+  ],
+  "features": [
+    "Darkvision 60 ft",
+    "Deathless Nature (doesn't need to breathe)",
+    "Spider Climb",
+    "Vampiric Bite",
+    "Form of Dread",
+    "Eldritch Invocations: Agonizing Blast, Mask of Many Faces, Devil's Sight"
+  ],
+  "spells": {
+    "cantrips": [
+      "Eldritch Blast",
+      "Chill Touch",
+      "Mage Hand"
+    ],
+    "1": [
+      "Hex",
+      "False Life"
+    ],
+    "2": [
+      "Hold Person",
+      "Phantasmal Force"
+    ],
+    "3": [
+      "Speak with Dead",
+      "Fear"
+    ]
+  },
+  "slots": {
+    "3": 2
+  },
+  "gear": [
+    "light crossbow",
+    "arcane focus (a tarnished silver locket)"
+  ]
+}
