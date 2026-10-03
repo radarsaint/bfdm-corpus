@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000060",
+  "project": "At War's End",
+  "title": "first draft at wars end",
+  "drive_id": "1jGiNmzPiiGCSXZH_Jw_KJ4NAAknsAcyHapbnpfBBH1I",
+  "original_filename": "first draft at wars end.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "6015cfba11ba90cf33067c684b3f17e19f5d70b612630931fd3fed8192e18663",
+  "normalized_file": "source.md",
+  "normalized_sha256": "b6325af54eeb48beed1e6f36d2e4fa0b22f8c3659d0c4b8ff3d6fabe9168bf64",
+  "normalized_line_count": 1343,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000044",
+  "project": "Roanoke",
+  "title": "Roanoke Season 3 Lore.docx",
+  "original_filename": "Roanoke Season 3 Lore.docx",
+  "original_sha256": "f4c59eda47fa9c6c5460874bcc11efc3270e5107a5ad862a7a33a839420a4ddf",
+  "normalized_file": "source.md",
+  "normalized_sha256": "57808e7ed53a38e4276c6951ba8f0e487bf37d9d77015d1655011a65610bbc60",
+  "normalized_line_count": 46,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

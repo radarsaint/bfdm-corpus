@@ -1,0 +1,17 @@
+{
+  "corpus_id": "BCS-000059",
+  "project": "Exploration Impossible",
+  "title": "Exploration Impossible (Manuscript)",
+  "source_role": "CONTEXT_ONLY_THIRD_PARTY",
+  "authorship": "Michael Kennish",
+  "drive_id": "1t4xOCSj7E6WlEDNyHuBrsBkqwui0IRgMIzTaUCqOy_g",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "711afb388f97a47719fcc11c2f97e2551297b14705f154751b993ce4d835154d",
+  "normalized_file": "source.md",
+  "normalized_sha256": "43d0dab96437adf2799e6118b08e905639b38f53829f748793db316719cb6bcd",
+  "normalized_line_count": 963,
+  "assets": [],
+  "comments_file": "comments.json",
+  "seed_eligibility": "CONTEXT_ONLY",
+  "provenance_note": "Third-party manuscript by Michael Kennish retained only to contextualize Brendon editorial evidence."
+}

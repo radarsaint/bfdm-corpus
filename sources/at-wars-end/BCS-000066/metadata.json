@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000066",
+  "project": "At War's End",
+  "title": "Wellsprings in At War's End",
+  "drive_id": "1lLh1vvzHi19-IVJWjwnnURLDAPBCefL3o6k3riMN9bk",
+  "original_filename": "Wellsprings in At War's End.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "052df9545df973b86d1b537cd7f9da13daa2f2f0f25297e64d53ffe0ad8fe13d",
+  "normalized_file": "source.md",
+  "normalized_sha256": "afe3f378d1fe7eb3243748d5a9938dc02f289515d2c3a294ed78665d13fda825",
+  "normalized_line_count": 549,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000036",
+  "project": "Roanoke",
+  "title": "Roanoke S3W3 Voice Event Draft.docx",
+  "original_filename": "Roanoke S3W3 Voice Event Draft.docx",
+  "original_sha256": "1aa1057b19ef512e8e693acbd572ceedb9f6a34d74fc93b283b0f34e8882a0ed",
+  "normalized_file": "source.md",
+  "normalized_sha256": "af6104d98a70ba45e8a82bb9910ac0e20dc57dac0907380bbc2f3dac4b272829",
+  "normalized_line_count": 46,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

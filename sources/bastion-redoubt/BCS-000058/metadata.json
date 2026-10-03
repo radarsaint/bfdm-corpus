@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000058",
+  "project": "Bastion/Redoubt",
+  "title": "BaR Character creation",
+  "drive_id": "1JzhnsCZ4JQ0XKXgebCjYbyBwVsGulmHPqwLUK4G4xj8",
+  "original_filename": "BaR Character creation.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "098378c80c22de3808ffca28b19cb573f083218986e195ab2dde1af79b73ec70",
+  "normalized_file": "source.md",
+  "normalized_sha256": "006e8b48c17e868e6c8195bfd26705b6017cdd5bbb30d8261c8d41118c7adec3",
+  "normalized_line_count": 46,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

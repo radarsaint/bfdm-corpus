@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000051",
+  "project": "Roanoke",
+  "title": "RoanokeS3W2 Cast.docx",
+  "original_filename": "RoanokeS3W2 Cast.docx",
+  "original_sha256": "ac474f4e0519aba0c8e64498d655503f36deb22361da8857fea0805aa414d786",
+  "normalized_file": "source.md",
+  "normalized_sha256": "c68b7626689e7a340b50f36fbf20a3fc44f726f1282d6ac4646b6b472c2329f7",
+  "normalized_line_count": 120,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000062",
+  "project": "At War's End",
+  "title": "third draft",
+  "drive_id": "1HqyI7YPRHtHo6n9rJ0e_9PkWeI6x-F4xNQfjTG4GOQw",
+  "original_filename": "third draft.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "edcfa6af6899347555daaf98d62194614c659665d67cd471cacf8f8eeb967a2a",
+  "normalized_file": "source.md",
+  "normalized_sha256": "3f4aa12f5c7384981970d2c33851566e71eafe454bb290d3bf40d81ed0f04ca2",
+  "normalized_line_count": 2506,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

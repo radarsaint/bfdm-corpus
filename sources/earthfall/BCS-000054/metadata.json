@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000054",
+  "project": "Earthfall",
+  "title": "earthfall",
+  "drive_id": "1wanB5h7MgUCvQBU0mvwSrpM9RxYlFi-c0EnjjAnL08k",
+  "original_filename": "earthfall.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "cecfd8fec717d33a48ea8083ac9d72605ffc9180178c6f43b3d132f6eb3b30a8",
+  "normalized_file": "source.md",
+  "normalized_sha256": "5c8231a9ddc1aef2856b5c62e9685d84dee526c02ed7257874ddca96e7267c17",
+  "normalized_line_count": 361,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

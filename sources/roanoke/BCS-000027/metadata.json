@@ -1,0 +1,19 @@
+{
+  "corpus_id": "BCS-000027",
+  "project": "Roanoke",
+  "title": "Roanoke S3 Secret Society Lore.docx",
+  "original_filename": "Roanoke S3 Secret Society Lore.docx",
+  "original_sha256": "c545057d7b089dee2b66f3bef9e8721550525aa00a0e00c9f878f411fa89e41f",
+  "normalized_file": "source.md",
+  "normalized_sha256": "a475285333e0da27141c32b1fda084b4e8f4f9be5dc93ca5085e969212783d75",
+  "normalized_line_count": 109,
+  "assets": [
+    "assets/media/image1.png",
+    "assets/media/image2.png"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

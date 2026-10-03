@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000043",
+  "project": "Roanoke",
+  "title": "Roanoke season 3 Brainstorming.docx",
+  "original_filename": "Roanoke season 3 Brainstorming.docx",
+  "original_sha256": "3bcb51d29dad42e149b85b4a997bf774214ca009112f1cb0e80f158378fbf246",
+  "normalized_file": "source.md",
+  "normalized_sha256": "5775f5004497f3da4c0cb99a13c94798ebc22adea2815e870687390c282ed2e6",
+  "normalized_line_count": 552,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": "brendon-comments.native.json",
+  "original_stored_as": "original/source.docx"
+}

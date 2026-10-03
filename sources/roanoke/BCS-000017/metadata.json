@@ -1,0 +1,28 @@
+{
+  "corpus_id": "BCS-000017",
+  "project": "Roanoke",
+  "title": "Leaf and Rockman's Roanoke Epilogue.docx",
+  "original_filename": "Leaf and Rockman's Roanoke Epilogue.docx",
+  "original_sha256": "230628d07f0fdb546ac49105f13d265645c643fecfb78fc2b9ac45d4a343b5b8",
+  "normalized_file": "source.md",
+  "normalized_sha256": "b5f5b4b960f1c388c45456d871efc2dc29f66ddc29d77cef7530d0cb3f7fb1c5",
+  "normalized_line_count": 220,
+  "assets": [
+    "assets/media/image1.jpg",
+    "assets/media/image10.jpg",
+    "assets/media/image11.jpg",
+    "assets/media/image2.jpg",
+    "assets/media/image3.jpg",
+    "assets/media/image4.jpg",
+    "assets/media/image5.jpg",
+    "assets/media/image6.png",
+    "assets/media/image7.jpg",
+    "assets/media/image8.jpg",
+    "assets/media/image9.jpg"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

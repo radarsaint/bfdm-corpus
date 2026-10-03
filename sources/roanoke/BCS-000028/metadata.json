@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000028",
+  "project": "Roanoke",
+  "title": "Roanoke S3 Social Media.docx",
+  "original_filename": "Roanoke S3 Social Media.docx",
+  "original_sha256": "41f371f082ff71bdb8da4e392047756bce8416ff40b43ab19ab46f2f4d561a35",
+  "normalized_file": "source.md",
+  "normalized_sha256": "88b021d16db6af6d64ad3772c7a5f93ab507887af2c58a05708bd511150a1572",
+  "normalized_line_count": 76,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}
