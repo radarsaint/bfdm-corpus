@@ -50,7 +50,7 @@ Current counts:
 - 1 series;
 - 4 project relations;
 - 4 canonical people;
-- 3 identity assertions;
+- 4 identity assertions;
 - 2 harvested Discord servers.
 
 Important invariants:
@@ -90,10 +90,13 @@ High-value findings include:
 - identity embedded mechanically before being explicitly named;
 - historical outcomes made contestable without losing recognizable hooks.
 
+Resolved during the deep pass:
+- Stock-market implementation is now resolved from Rob's **Wall Street Stock Market** Sheet plus the bot-development Discord: random baseline movement + authored plot adjustments, with the bot reloading sheet prices daily at 6 AM Pacific.
+
 Targeted remaining gaps:
 - direct final Congress ratification/result source;
-- exact stock-price-setting algorithm;
 - passage-level authorship in collaborative borough docs;
+- exact “seat of the empire” wording is live by July 11; pre-launch June 9 material says “heart of Empire,” but no pre-launch copy of the exact naming line has been found;
 - broader S2 comparison;
 - voice/off-platform evidence remains unavailable.
 
