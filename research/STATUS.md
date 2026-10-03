@@ -67,7 +67,7 @@ These are campaign-specific/developmental findings. Cross-S3 recurrence has been
 
 ### S3 decision cases v1
 Branch: `derived/s3-decision-cases-v1`  
-PR #2 — closed as superseded by PR #5; unmerged
+PR #2 — closed as superseded by merged PR #5
 
 Focus:
 - single decision moments;
@@ -79,7 +79,7 @@ Focus:
 
 ### S3 longitudinal cases v2
 Branch: `derived/s3-longitudinal-cases-v2`  
-PR #3 — closed as superseded by PR #5; unmerged
+PR #3 — closed as superseded by merged PR #5
 
 Focus:
 - prepared expectation;
@@ -89,7 +89,7 @@ Focus:
 
 ### S3 revision-family pass v3
 Branch: `derived/s3-revision-family-v3`  
-PR #4 — closed as superseded by PR #5; unmerged
+PR #4 — closed as superseded by merged PR #5
 
 Focus:
 - prep-driven change vs live response;
@@ -136,7 +136,7 @@ Do not generalize from it yet. It should enter a broader creative-method researc
 
 - Points 1–3 are complete: attributable retrospective evidence, the Work GPT ingestion contract, and machine-readable project/identity registries.
 - Point 4 remains open: reconciliation logic/audit are complete, but the 86.9 MB binary source-container transfer is blocked by the current chat runtime's lack of an authenticated binary Git transport.
-- Point 5 deliberate review is complete and passed; see `research/PR5_REVIEW_2026-10-02.md`. PR #5 is ready for integration into `main`.
+- Point 5 is complete: deliberate review passed and PR #5 is merged into `main`; see `research/PR5_REVIEW_2026-10-02.md`.
 - Point 6 remains open: recover the complete later Area 6c human-test transcript.
 - Point 7 is complete and governing: archive-first corpus preservation; Kit is one consumer.
 
