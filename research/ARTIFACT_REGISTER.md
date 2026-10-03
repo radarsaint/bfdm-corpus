@@ -4,7 +4,7 @@ Generated from the current changed-file set in draft PR #5 (`research/organize-c
 
 **Status:** organizational register. File presence does not imply source authority, validation, or current truth.
 
-**Current changed paths:** 120
+**Current changed paths:** 121
 
 This register is intentionally regenerated from paths rather than storing commit-count/ahead-behind state, because updating the register itself changes those values.
 
@@ -153,6 +153,7 @@ This register is intentionally regenerated from paths rather than storing commit
 - `research/METHOD.md`
 - `research/METHODOLOGY_AUDIT_2026-10-02.md`
 - `research/NEXT_HANDOFF.md`
+- `research/PR5_REVIEW_2026-10-02.md`
 - `research/PROJECT_DECISIONS.md`
 - `research/PROJECT_MAP.md`
 - `research/QUESTIONS.md`
