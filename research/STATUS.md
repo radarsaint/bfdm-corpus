@@ -44,13 +44,16 @@ Additional game servers still need harvesting. S3 and Empire City now provide tw
 
 ## Empire City / Season 4 research pass
 
-Direct SQLite analysis is now underway using the harvested Empire City server.
+The first deep direct SQLite/document analysis pass is complete; targeted evidence gaps remain.
 
-Completed first-pass artifacts:
-- `research/empire-city/README.md`;
-- `research/empire-city/decision-cases-v1.md` — 8 bounded DM decision cases;
-- `research/empire-city/longitudinal-decision-cases-v1.md` — 3 multi-step adaptation/development cases;
-- `research/empire-city/player-feedback-v1.md` — small end-of-season player evaluation sample.
+Current S4 artifacts:
+- `research/empire-city/README.md` — source footing, Work GPT start order, and targeted gaps;
+- `research/empire-city/design-method-synthesis-v1.md` — current bounded S4 design-method model;
+- `research/empire-city/decision-cases-v1.md` — 8 bounded local DM decision cases;
+- `research/empire-city/longitudinal-decision-cases-v1.md` — 17 prep→play→aftermath cases plus cross-case distillation;
+- `research/empire-city/source-fragment-map-v1.md` — historical/folkloric seed→transformation map;
+- `research/empire-city/player-feedback-v1.md` — small end-of-season player evaluation sample;
+- `research/creative-method/historical-mythologization-v1.md` and `cryptids-s3-s4-v1.md` — bounded cross-season creative-method leads.
 
 Important corrections/findings:
 - Brendon's S4 Discord identity is now immutable-ID confirmed as user `313689699627696139`, username `bfdm`, display name `DM radar`;
@@ -132,8 +135,8 @@ Do not generalize from it yet. It should enter a broader creative-method researc
 ## Numbered cleanup state
 
 - Points 1–3 are complete: attributable retrospective evidence, the Work GPT ingestion contract, and machine-readable project/identity registries.
-- Point 4 is next: reconcile the full 51-source legacy staging body into canonical `bfdm-corpus` while preserving BCS IDs.
-- Point 5 remains open: deliberate review/integration of draft PR #5.
+- Point 4 remains open: reconciliation logic/audit are complete, but the 86.9 MB binary source-container transfer is blocked by the current chat runtime's lack of an authenticated binary Git transport.
+- Point 5 is under deliberate review in the current pass; integrate only after stale-state/provenance checks are clean.
 - Point 6 remains open: recover the complete later Area 6c human-test transcript.
 - Point 7 is complete and governing: archive-first corpus preservation; Kit is one consumer.
 
