@@ -392,10 +392,9 @@ Strong inference:
 - encounter -> system -> institution as a maturation path.
 
 Still open:
-- exact pre-launch origin date of the seat-of-empire naming idea;
+- exact seat-of-empire naming wording first survives on July 11; no pre-launch copy of the exact line has been found;
 - passage-level authorship in collaborative borough documents;
 - exact causality behind every borough genre assignment;
-- stock-market algorithm;
 - deliberate rejection versus simple non-delivery of prepared historical references;
 - missing voice/off-platform evidence;
 - generalization beyond the Roanoke lineage.
