@@ -218,6 +218,8 @@ Where material has been designated held-out/evaluation-only, respect that partit
 
 Do not use evaluation-quarantined sources to build the hypothesis that they are meant to test.
 
+The current held-out set is described in `held-out/README.md`. Freeze a held-out set and record its hypothesis commit before anyone reads it. If quarantined material is read without that freeze, record it in `CORRECTIONS_LOG.md` the same day.
+
 When practical, formulate the research question before opening held-out evidence.
 
 ## Keep the archive open-ended

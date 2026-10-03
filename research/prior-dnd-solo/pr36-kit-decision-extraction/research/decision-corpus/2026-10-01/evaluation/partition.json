@@ -51,5 +51,48 @@
   "case_status": "No held-out decisions or model evaluations created yet.",
   "partition_order": "Saved before first substantive Roanoke source read on 2026-10-01 UTC; no content from Empire City used in discovery.",
   "active_runtime_baseline_commit": "4f4f0a35af3f54ef73bf6d7e59c2ffd001ac848e",
-  "candidate_personality_status": "PR #23 remains an unmerged hypothesis; its source evidence is discovery-exposed."
+  "candidate_personality_status": "PR #23 remains an unmerged hypothesis; its source evidence is discovery-exposed.",
+  "current_status": "VOIDED_2026-10-03",
+  "status_history": [
+    {
+      "date": "2026-10-01",
+      "status": "PROSPECTIVE_QUARANTINE_NOT_VALIDATED_HELD_OUT_SET",
+      "note": "Original prospective quarantine of the whole Empire City project (IMP-001..IMP-015 / BCS-000001..BCS-000015). Fields above this block are preserved as written on 2026-10-01."
+    },
+    {
+      "date": "2026-10-02",
+      "status": "SPENT_UNRECORDED",
+      "note": "The Empire City deep pass ingested discord/empire-city/empire-city.sqlite (commit 888c0e7) and read the project to build 25 decision cases, a design-method synthesis, a longitudinal case file and the S3->S4 comparison. The promotion gate (freeze discovery hypotheses and record their commit before reading) was not followed, and no record of the change was made at the time."
+    },
+    {
+      "date": "2026-10-03",
+      "status": "VOIDED",
+      "note": "Brendon ruled on finding 2 of the 2026-10-03 corpus review (dnd-solo draft PR #67): void the Empire City quarantine, log what was gained, and name a new held-out set."
+    }
+  ],
+  "void": {
+    "date": "2026-10-03",
+    "ruled_by": "Brendon",
+    "reason": "Empire City content was used in discovery on 2026-10-02, so it cannot test hypotheses it helped build. The 'partition_order' and 'case_status' claims above describe 2026-10-01 and are no longer true.",
+    "effect": "All 15 source ids move to DISCOVERY. No Empire City material is eligible as held-out evaluation evidence. The cases list stays empty: no held-out evaluation was ever run against this partition.",
+    "catalog_records": [
+      "BCS-000001",
+      "BCS-000002",
+      "BCS-000003",
+      "BCS-000004",
+      "BCS-000005",
+      "BCS-000006",
+      "BCS-000007",
+      "BCS-000008",
+      "BCS-000009",
+      "BCS-000010",
+      "BCS-000011",
+      "BCS-000012",
+      "BCS-000013",
+      "BCS-000014",
+      "BCS-000015"
+    ],
+    "gains_logged_in": "research/CORRECTIONS_LOG.md (2026-10-03 entry)",
+    "superseded_by": "research/held-out/partition-2026-10-03.json"
+  }
 }

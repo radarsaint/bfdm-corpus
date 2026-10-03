@@ -126,6 +126,39 @@ This is a lead, not yet a conclusion.
 
 ---
 
+## 2026-10-03 — The Empire City held-out set was spent, and the records said it wasn't
+
+### What happened
+On 2026-10-01, `prior-dnd-solo/pr36-kit-decision-extraction/research/decision-corpus/2026-10-01/evaluation/partition.json` quarantined the whole Empire City project (`IMP-001`–`IMP-015`, catalog `BCS-000001`–`BCS-000015`) as `EVALUATION_QUARANTINE`. The plan was to build hypotheses from Roanoke and then test them against Empire City material no one had read.
+
+On 2026-10-02 the Empire City Discord harvest was ingested (`888c0e7`) and a deep pass read the project and built discovery research from it. The promotion gate ("freeze discovery hypotheses and record their commit before reading quarantine content") was not followed. Nothing recorded the change, and all 15 catalog records kept saying `EVALUATION_QUARANTINE` / `NOT_READ_THIS_PASS`. The 2026-10-03 corpus review (dnd-solo draft PR #67, finding 2) caught it.
+
+### Brendon ruling
+> Void the Empire City quarantine, log what was gained, and name a new held-out set.
+
+### What was gained from reading Empire City (all now discovery)
+- `empire-city/decision-cases-v1.md`: 8 bounded decision cases (`BDC-S4-001`–`BDC-S4-008`).
+- `empire-city/longitudinal-decision-cases-v1.md`: 17 prep → play → aftermath cases (`BDC-S4-L01`–`BDC-S4-L17`) plus a cross-case distillation.
+- `empire-city/design-method-synthesis-v1.md`: the S4 design-method model.
+- `empire-city/source-fragment-map-v1.md`: the map from historical and folkloric fragments to table functions.
+- `empire-city/player-feedback-v1.md`.
+- `longitudinal/roanoke-s3-to-s4-judgment-v1.md`: the S3 → S4 comparison and its persistence and scope labels.
+- `creative-method/historical-mythologization-v1.md`, `cryptids-s3-s4-v1.md` and `mythic-institutions-s3-s4-v1.md`: the Empire City halves of the cross-season comparisons.
+- Facts resolved: Brendon's S4 Discord identity (user ID `313689699627696139`), the July 10, 2021 Week One boundary (`BCS-000003`), the stock-market implementation, and the "seat of the empire" naming explanation.
+
+That is the first cross-season comparison the corpus has had. Without it, every claim would still be S3-only.
+
+### What was lost
+- No clean historical test set remains. Any hypothesis that S3 and S4 now share was built with both, so agreement between them is a developmental lead, not a held-out confirmation.
+- Whether the Drive bodies of `BCS-000001`–`BCS-000015` were read, or only their titles and dates were cited, was never recorded. All 15 are now treated as exposed.
+
+### Method change
+- The quarantine is void. `partition.json` keeps its 2026-10-01 fields and gains an append-only `status_history` and `void` block. The 15 catalog records move to `DISCOVERY` / `EXPOSED_QUARANTINE_VOIDED`, with their prior values kept in `partition_history`.
+- New held-out set: `HO-2026-10-03-prospective-table-rulings` (`held-out/partition-2026-10-03.json`). It covers Brendon's verbatim rulings on Kit table moments dated after the freeze commit, scored by blind prediction before they may inform any hypothesis.
+- Freeze before reading. A held-out set has to be frozen, with its hypothesis commit recorded, before anyone reads its contents. Reading quarantined material without a recorded freeze is a correction-log event, logged the same day.
+
+---
+
 ## Rule
 
 When later research invalidates or substantially refines an earlier synthesis:

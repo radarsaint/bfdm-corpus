@@ -1,5 +1,7 @@
 # Source index
 
+> **2026-10-03:** The `EVALUATION_QUARANTINE` labels below are preserved as written on 2026-10-01. That quarantine was voided by Brendon on 2026-10-03 (see `evaluation/partition.json` `void`, and `research/CORRECTIONS_LOG.md`). Current partition state is in `evidence/catalog.jsonl`.
+
 Import dates are not original writing dates. Containers can have multiple authors; decision records attribute the particular contribution. Machine locators and full reliability notes are in [source-index.json](source-index.json).
 
 | Source ID | Source | Project | Source date | Authorship | Partition |

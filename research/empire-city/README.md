@@ -5,6 +5,8 @@
 **Server ID:** `850779382791536640`  
 **Research status:** first deep direct decision/design-method pass complete; targeted evidence gaps remain.
 
+> **Partition note (2026-10-03).** On 2026-10-01 this whole project was set aside as an evaluation quarantine. The 2026-10-02 pass read it anyway. Brendon voided the quarantine on 2026-10-03, so everything here is discovery material, not held-out. See `../CORRECTIONS_LOG.md` and `../held-out/README.md`.
+
 ## Source footing
 
 The harvested server contains 189,761 messages and all readable text channels.
