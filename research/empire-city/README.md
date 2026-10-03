@@ -3,7 +3,7 @@
 **Campaign:** Season 4, Empire City  
 **Primary live source:** `discord/empire-city/empire-city.sqlite`  
 **Server ID:** `850779382791536640`  
-**Research status:** direct decision-analysis and design-method pass in progress.
+**Research status:** first deep direct decision/design-method pass complete; targeted evidence gaps remain.
 
 ## Source footing
 
@@ -49,8 +49,9 @@ Brendon's message IDs and timestamps are retained so each interpretation can be 
 
 ## Current research files
 
+- `design-method-synthesis-v1.md` — start here for the current S4 model, attribution boundaries, direct-vs-inference distinctions, and open hypotheses.
 - `decision-cases-v1.md` — bounded local decision cases.
-- `longitudinal-decision-cases-v1.md` — decisions whose consequences unfold across multiple days or into later campaign design.
+- `longitudinal-decision-cases-v1.md` — **17** prep→play→aftermath cases plus cross-case distillation; this is the strongest current evidence for how S4 decisions actually changed over time.
 - `../creative-method/historical-mythologization-v1.md` — cross-season analysis of how historical details, local mythology, secret societies/institutions, and cryptids are selected and transformed into playable structures; Empire City is a primary comparison case.
 - `source-fragment-map-v1.md` — S4 map from historical/folkloric source fragments to fictional transformations, table functions, and live evidence.
 
@@ -74,3 +75,42 @@ Brendon's retrospective explanation of this method is preserved as `BCE-000014`.
 Empire City is a different operating environment from S3 and is still a large persistent multi-DM Discord campaign.
 
 A repeated pattern between S3 and S4 is a stronger developmental lead than a single-season observation, but it is still not automatically a timeless general trait. Cross-campaign promotion should wait for explicit comparison and later-era evidence.
+
+
+## Current high-signal findings
+
+The first deep pass supports these bounded S4 findings:
+
+- culturally charged history/folklore is repeatedly converted into playable systems rather than used only as reference;
+- the five boroughs function as distinct play modes held together by shared campaign pressures;
+- Rule 8 / Invitationals provide an explicit attention-and-promotion mechanism for emergent material;
+- repeated player behavior is stronger evidence of interest than a single request;
+- player progression frequently moves from participation to responsibility to real jurisdiction over the setting;
+- consequences are strongest when they create repair, investigation, replacement institutions, or other new work;
+- public media and visible state changes function as shared memory for an asynchronous population;
+- S4's identity theme is mechanically present before the surviving record explicitly names it;
+- Brendon changes scenes, threads, systems, or architecture at different scales depending on what is actually failing;
+- attendance failure is explicitly diagnosed and carried into Season 5 planning.
+
+## Work GPT start point
+
+For continuation, read in this order:
+
+1. `design-method-synthesis-v1.md`
+2. `longitudinal-decision-cases-v1.md`
+3. `decision-cases-v1.md`
+4. `source-fragment-map-v1.md`
+5. `../creative-method/historical-mythologization-v1.md`
+6. `../creative-method/cryptids-s3-s4-v1.md`
+
+Then return to the raw SQLite/Drive sources only for the specific unresolved questions listed in those files. Do **not** restart broad Empire City source discovery from scratch.
+
+## Current unresolved S4 questions
+
+- locate a direct result/ratification source for the Continental Congress if one exists;
+- recover the exact stock-price update procedure if it survives;
+- improve passage-level authorship separation in collaborative borough documents;
+- determine whether more direct prep evidence survives for the initial “seat of the empire” naming choice;
+- continue targeted S2/S3/S4 developmental comparison without treating targeted S2 findings as a full S2 analysis;
+- preserve voice/off-platform absence as an evidence limitation.
+
