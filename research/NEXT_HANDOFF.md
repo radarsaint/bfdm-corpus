@@ -134,12 +134,8 @@ Do not mark Point 4 complete until a final dry-run against the canonical checkou
 **Status: COMPLETE — PR #5 MERGED INTO `main`.**
 
 Durable PR state:
-- PR #5 is the integration PR for this research workspace;
-- head branch: `research/organize-current-work-v1`;
-- it must remain unmerged until deliberate review.
-
-Do not store head SHA, commit count, or changed-file count here: committing this handoff changes those values. Query PR #5 live when beginning Point 5.
-
+- PR #5 was deliberately reviewed and merged into `main`;
+- historical head branch: `research/organize-current-work-v1`;
 Deliberate review is recorded in `research/PR5_REVIEW_2026-10-02.md`.
 
 Reviewed for:
