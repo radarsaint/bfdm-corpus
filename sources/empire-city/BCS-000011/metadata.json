@@ -1,0 +1,66 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000011",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Post 7-19",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Empire City Post 7-19.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-07-18T04:23:59.749Z",
+  "modified_at": "2021-07-19T03:56:50.395Z",
+  "ingested_at": "2026-10-03T18:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1NkWDZLWPKY1KbUyUUHbPMheXKT1qJXBjfNuRyCTMLFQ",
+      "url": "https://docs.google.com/document/d/1NkWDZLWPKY1KbUyUUHbPMheXKT1qJXBjfNuRyCTMLFQ/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_3f0c0263b08c8191b138a19413e6e317",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Post 7-19.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000011/source.md",
+      "sha256": "1af22812c1c48d576dfb9379aad45b552c90aed13bfb3acedbfc319be67d129a",
+      "mime_type": "text/plain",
+      "size_bytes": 3395,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000011/original/source.docx",
+      "sha256": "8e02cf63610ab3c35bb70195cd20c3c5d9354f877f9897ec234a9ad6a278c51f",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 534603,
+      "provider_revision_id": null
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PENDING_NATIVE_CAPTURE",
+    "revision_metadata": "PENDING_NATIVE_CAPTURE",
+    "revision_bodies": "PENDING_NATIVE_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}
