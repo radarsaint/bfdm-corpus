@@ -8,11 +8,14 @@
     "title": "Organize current BFDM research and Kit evaluation",
     "merge_policy": "do_not_merge_without_deliberate_review",
     "deliberate_review": {
-      "status": "PASSED_READY_FOR_INTEGRATION",
+      "status": "PASSED_AND_MERGED",
       "report": "research/PR5_REVIEW_2026-10-02.md",
       "validation_run_id": 37085994361,
       "validation_conclusion": "success"
-    }
+    },
+    "status": "MERGED_TO_MAIN",
+    "merged_pr": 5,
+    "merge_commit": "186a66cd75fceb966b38a56b12dc6602c55d501f"
   },
   "source_archive": {
     "roanoke_s3_discord": {
@@ -229,7 +232,7 @@
     "ingest_report_schema": "ingest/ingest_report.schema.json",
     "validator": "ingest/validate_ingest.py",
     "planned_sqlite": "indexes/documents.sqlite",
-    "branch_rule": "If PR #5 is unmerged, base ingest/drive-project-v1 on research/organize-current-work-v1; otherwise base on current main.",
+    "branch_rule": "Base new Work GPT ingestion/reconciliation work on current main.",
     "scope_rule": "Archive source history first; no BCE/personality/training synthesis during ingestion."
   },
   "machine_registry": {
