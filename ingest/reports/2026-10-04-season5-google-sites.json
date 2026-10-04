@@ -2,13 +2,14 @@
   "schema_version": "bfdm_google_sites_harvest_report/v1",
   "project_id": "roanoke-s5-legends",
   "source_family": "season-5-google-sites",
-  "completed_at": "2026-10-04T22:06:01.980538Z",
+  "completed_at": "2026-10-04T22:07:35.871915Z",
   "site_count": 26,
   "sites_captured": 26,
   "sites_failed": 0,
   "pages_attempted": 26,
   "pages_captured": 26,
   "failures": 0,
+  "discovered_google_sites_not_in_manifest": [],
   "sites": [
     {
       "site_slug": "catalogs5",

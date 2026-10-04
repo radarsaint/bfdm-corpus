@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/s5mining/home
 - Final URL: https://sites.google.com/view/s5mining/home
-- Retrieved: 2026-10-04T22:05:53.358816Z
+- Retrieved: 2026-10-04T22:07:26.955196Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

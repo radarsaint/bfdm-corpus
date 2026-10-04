@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/char-gen/home
 - Final URL: https://sites.google.com/view/char-gen/home
-- Retrieved: 2026-10-04T22:06:00.520745Z
+- Retrieved: 2026-10-04T22:07:34.514859Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

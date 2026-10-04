@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/path-of-the-lumber-jacked/home
 - Final URL: https://sites.google.com/view/path-of-the-lumber-jacked/home
-- Retrieved: 2026-10-04T22:05:56.980135Z
+- Retrieved: 2026-10-04T22:07:30.659252Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

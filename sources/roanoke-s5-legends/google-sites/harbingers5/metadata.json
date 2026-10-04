@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/harbingers5/home",
   "role": "character_option_verify",
   "capture_started_from": "https://sites.google.com/view/harbingers5/home",
-  "captured_at": "2026-10-04T22:05:55.547766Z",
+  "captured_at": "2026-10-04T22:07:29.205899Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/harbingers5/home",
-      "fetched_at": "2026-10-04T22:05:55.184411Z",
+      "fetched_at": "2026-10-04T22:07:28.812999Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/harbingers5/home",
       "title": "Harbingers5",
       "raw_path": "sources/roanoke-s5-legends/google-sites/harbingers5/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/harbingers5/pages/home.md",
-      "sha256_html": "78d78782f5893ad1349d4e1968b93268ffd50721b5bb84fd23f8cf3ccf1c0384",
+      "sha256_html": "d3a27018b666ac5d9fb0deeda97b68c6b2172cceb40bfe00fd098372175dd400",
       "sha256_text": "6ff7112eea25ea3ce28efaf26e32a240a699f0cd1c8260d56156e711569f7067",
       "links_all": [
         "https://sites.google.com/view/harbingers5/home"

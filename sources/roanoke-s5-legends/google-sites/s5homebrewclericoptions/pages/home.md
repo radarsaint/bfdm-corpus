@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/s5homebrewclericoptions/home
 - Final URL: https://sites.google.com/view/s5homebrewclericoptions/home
-- Retrieved: 2026-10-04T22:06:01.519875Z
+- Retrieved: 2026-10-04T22:07:35.448662Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/spellshotwizard/home",
   "role": "wizard_option",
   "capture_started_from": "https://sites.google.com/view/spellshotwizard/home",
-  "captured_at": "2026-10-04T22:05:55.828731Z",
+  "captured_at": "2026-10-04T22:07:29.504417Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/spellshotwizard/home",
-      "fetched_at": "2026-10-04T22:05:55.548612Z",
+      "fetched_at": "2026-10-04T22:07:29.206591Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/spellshotwizard/home",
       "title": "Spellshot Wizard.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/spellshotwizard/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/spellshotwizard/pages/home.md",
-      "sha256_html": "8fcb816008272fe219250ffc12b8c500065294659d07c3a3e9858a2989f6e2b0",
+      "sha256_html": "0f52585f80e98ece0f9b588f7a735d29be61d1a3b9f04eb3e83fcf06049a1455",
       "sha256_text": "87a39b1de6e6d70bf66294310f22c82603cf68241f8b073e3732cc8c516ea31f",
       "links_all": [
         "https://sites.google.com/view/spellshotwizard/home"

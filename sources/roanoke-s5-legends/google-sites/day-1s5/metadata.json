@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/day-1s5/home",
   "role": "day_one_player_facing",
   "capture_started_from": "https://sites.google.com/view/day-1s5/home",
-  "captured_at": "2026-10-04T22:05:54.474884Z",
+  "captured_at": "2026-10-04T22:07:28.134817Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/day-1s5/home",
-      "fetched_at": "2026-10-04T22:05:54.146989Z",
+      "fetched_at": "2026-10-04T22:07:27.752314Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/day-1s5/home",
       "title": "DAY 1",
       "raw_path": "sources/roanoke-s5-legends/google-sites/day-1s5/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/day-1s5/pages/home.md",
-      "sha256_html": "aae23932e441672f1b79287bfb3572208722a0f41e350a85afd1c7f809103106",
+      "sha256_html": "39594ca62635986c7b679b79772596797f43f0189697f10ef13ae8da8b7ba8b8",
       "sha256_text": "3f9a668fbcfb8da906113fbbc7fbbec9cf829baffe27a26c7fd452f729ec1866",
       "links_all": [
         "https://sites.google.com/view/day-1s5/home"

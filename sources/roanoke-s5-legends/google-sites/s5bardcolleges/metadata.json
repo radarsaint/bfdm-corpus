@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5bardcolleges/home",
   "role": "bard_options",
   "capture_started_from": "https://sites.google.com/view/s5bardcolleges/home",
-  "captured_at": "2026-10-04T22:05:54.844790Z",
+  "captured_at": "2026-10-04T22:07:28.438370Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5bardcolleges/home",
-      "fetched_at": "2026-10-04T22:05:54.475666Z",
+      "fetched_at": "2026-10-04T22:07:28.135640Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5bardcolleges/home",
       "title": "s5 bard colleges",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5bardcolleges/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5bardcolleges/pages/home.md",
-      "sha256_html": "4bd4b9a49136481ec36233226020f9d1ef2399e407852241102abb30253a7c70",
+      "sha256_html": "89797191050f247c88061e37d7c9134baeb47519e87f6c43227f0c89287e80a7",
       "sha256_text": "966d85beb7ef722acc43394cb2ea94af1a1ee6be0d079f37df28a5a4c479da6c",
       "links_all": [
         "https://sites.google.com/view/s5bardcolleges/home"

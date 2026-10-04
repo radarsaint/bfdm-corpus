@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/char-gen/home",
   "role": "character_creation",
   "capture_started_from": "https://sites.google.com/view/char-gen/home",
-  "captured_at": "2026-10-04T22:06:00.866498Z",
+  "captured_at": "2026-10-04T22:07:34.876916Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/char-gen/home",
-      "fetched_at": "2026-10-04T22:06:00.520745Z",
+      "fetched_at": "2026-10-04T22:07:34.514859Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/char-gen/home",
       "title": "Char-gen",
       "raw_path": "sources/roanoke-s5-legends/google-sites/char-gen/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/char-gen/pages/home.md",
-      "sha256_html": "ab81e8e10eaabaa451e3e191d23dee0bf30b41fd2b956f65015133523a61a4b5",
+      "sha256_html": "2cfe71f222a047a83f0af2fe8b6b1379383d53d009edfe543df70d567a430562",
       "sha256_text": "e339197174cc9fd323021cb1be631eb269ff2c04c0d375b647ad314ee8c64fcc",
       "links_all": [
         "https://sites.google.com/view/arcanian-monk-options/home",

@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/arcanian-monk-options/home
 - Final URL: https://sites.google.com/view/arcanian-monk-options/home
-- Retrieved: 2026-10-04T22:06:00.867482Z
+- Retrieved: 2026-10-04T22:07:34.877605Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

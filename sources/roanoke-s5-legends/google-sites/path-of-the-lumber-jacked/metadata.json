@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
   "role": "barbarian_option",
   "capture_started_from": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
-  "captured_at": "2026-10-04T22:05:57.309507Z",
+  "captured_at": "2026-10-04T22:07:31.034800Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
-      "fetched_at": "2026-10-04T22:05:56.980135Z",
+      "fetched_at": "2026-10-04T22:07:30.659252Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
       "title": "Path of the Lumber Jacked",
       "raw_path": "sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/pages/home.md",
-      "sha256_html": "ae564f30db42dab51f7725d610ea191250ece5ddb2cebb8adb1e070d00179366",
+      "sha256_html": "bd86a278536b2be1a90f107042cab6410ac07dd96f8a2ceb289b2b62457a7e30",
       "sha256_text": "e33eeccd06eba768199e8db90e75cd99335096df09320b0b60406f8a804cdf02",
       "links_all": [
         "https://sites.google.com/view/path-of-the-lumber-jacked/home"

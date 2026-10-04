@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/tales-in-legend/home",
   "role": "campaign_setting_material_verify",
   "capture_started_from": "https://sites.google.com/view/tales-in-legend/home",
-  "captured_at": "2026-10-04T22:05:59.456787Z",
+  "captured_at": "2026-10-04T22:07:33.409129Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/tales-in-legend/home",
-      "fetched_at": "2026-10-04T22:05:59.135998Z",
+      "fetched_at": "2026-10-04T22:07:33.086211Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/tales-in-legend/home",
       "title": "Tales in Legend.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/tales-in-legend/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/tales-in-legend/pages/home.md",
-      "sha256_html": "697359c8064c66ce2e7fd2ace533067f34d00fc2276aea0b8a293950da70a054",
+      "sha256_html": "4c613005a0f9d01bbeca1b21f4a632700c93f207ad7b6ad7b90dbf904ed8417d",
       "sha256_text": "84887aa357cd0e61b6b2d5c661aecb2e90a91c72b7861a06c9008e7d33b6d04b",
       "links_all": [
         "https://docs.google.com/forms/d/e/1FAIpQLSeJ3SyCvUPDibY2BrKs860LFpOZY6JP4q-xtCeytkoMC7SAJg/viewform",

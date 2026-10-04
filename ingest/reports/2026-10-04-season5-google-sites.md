@@ -1,6 +1,6 @@
 # Season 5 Google Sites harvest report
 
-- Completed: 2026-10-04T22:06:01.980538Z
+- Completed: 2026-10-04T22:07:35.871915Z
 - Sites in manifest: 26
 - Sites with at least one captured page: 26
 - Sites with zero captured pages: 0
@@ -35,6 +35,10 @@
 | arcanian-monk-options | CAPTURED | 1/1 | 0 | monk_options_linked_from_character_creation |
 | s5-codebound | CAPTURED | 1/1 | 0 | paladin_codebound_option |
 | s5homebrewclericoptions | CAPTURED | 1/1 | 0 | cleric_options |
+
+## Google Sites discovered outside manifest
+
+- None. The manifest covers every Google Sites /view/ namespace linked by the captured pages.
 
 ## Evidence boundary
 

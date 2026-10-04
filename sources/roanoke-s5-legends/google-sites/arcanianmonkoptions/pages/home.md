@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/arcanianmonkoptions/home
 - Final URL: https://sites.google.com/view/arcanianmonkoptions/home
-- Retrieved: 2026-10-04T22:05:58.490934Z
+- Retrieved: 2026-10-04T22:07:32.421903Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 
