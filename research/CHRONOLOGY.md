@@ -148,6 +148,13 @@ compare S3 lessons against immediately subsequent large-format work rather than 
 - `Season 5 character creation` — created **2023-04-29**
   - ID `1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8`
 - `Legends sign up` — created **2023-04-30**
+
+### Season 5 published implementation / revision layer
+- `BCS-000113` — **S5 Site Changelog / To Change** created **2023-07-28**, modified through **2023-07-31**. It records proposed corrections, unresolved mechanics questions, wording changes, and page-access/editing state across the Season 5 Sites.
+- `BCS-000105` — **Tales in Legend** published landing page. It advertises servers opening July 28 and game dates July 30–August 19, with 30 signup spots and 24-hour play-by-post RP. The page does not print the year; placement in 2023 is a strong inference from the contemporaneous July 2023 S5 Site changelog.
+- `BCS-000109` — **Char-gen** published player-facing character creation: difficulty tiers, life paths, approved/unapproved/homebrew races, no multiclassing, level 6 start, encumbrance/ammunition tracking, XP advancement, and class/subclass options.
+- `BCS-000108` — published Season 5 server/social contract, including spotlight, PvP consent, exploit reporting, real-time-rest rationale, clique handling, and the stated 75% player-driven / 25% DM-authored-story split.
+- `BCS-000087`–`BCS-000112` — complete currently linked Google Sites publication family captured and canonically admitted.
   - ID `12xmsqaB6x09sOn2wBvsWAFpEsAM5fFukKBH5h9eC5UA`
 
 This cluster deserves its own corpus/source family rather than being inferred from S3.
