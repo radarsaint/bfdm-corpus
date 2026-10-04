@@ -58,10 +58,11 @@
   },
   "capture_status": {
     "current_body": "CAPTURED",
-    "comments": "PENDING_NATIVE_CAPTURE",
-    "revision_metadata": "PENDING_NATIVE_CAPTURE",
-    "revision_bodies": "PENDING_NATIVE_CAPTURE",
-    "assets": "NOT_APPLICABLE_OR_PRESERVED_IN_XLSX_EXPORT"
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "CAPTURED_ALL_LISTED",
+    "assets": "NOT_APPLICABLE_OR_PRESERVED_IN_XLSX_EXPORT",
+    "revision_body_integrity": "PER_BODY_SHA256_BACKFILL_PENDING"
   },
   "spreadsheet": {
     "title": "Empire City RP Sign Up. (Responses)",
