@@ -56,10 +56,15 @@
   "capture_metadata_path": "sources/roanoke-s5-legends/google-sites/arcanianmonkoptions/capture.json",
   "source_links": [
     {
-      "link_type": "VERSION_FAMILY_MEMBER",
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
       "to_corpus_id": "BCS-000110",
       "basis": "Thin/stale shell; Season 5 Character Creation links to arcanian-monk-options, which contains the complete published Way of Gun Fu subclass.",
-      "confidence": "STRONG"
+      "confidence": "STRONG",
+      "target_kind": "SOURCE",
+      "support_refs": [
+        "BCS-000103",
+        "BCS-000110"
+      ]
     }
   ]
 }
