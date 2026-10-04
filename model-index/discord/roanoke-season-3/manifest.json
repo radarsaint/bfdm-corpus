@@ -1,0 +1,408 @@
+{
+  "date_coverage": {
+    "first": "2020-07-18T15:09:44.724000Z",
+    "last": "2020-08-22T06:59:43.567000Z"
+  },
+  "files": [
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0001.jsonl",
+      "sha256": "ce9809a3412de11e0f7359002e6cc2c07e58c4ceb6ac33c21a5d50da197ffd0a"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0002.jsonl",
+      "sha256": "b5a118e6fa03cd5787a6e8fdb1caa31ad440f158669f6bba819768d96a00daa9"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0003.jsonl",
+      "sha256": "ca24e14aece99eef7be78763facfed752fc256472f41722af7e69356f11d4df8"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0004.jsonl",
+      "sha256": "9d9adf0b0e0054073ac9d08d7287fde69674c1300388a79b3810e3bd0c0c230e"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0005.jsonl",
+      "sha256": "423336d58d4d8c7ceed813a8a7d65e9fa5decb5449f53ccf6893e339566913b1"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0006.jsonl",
+      "sha256": "769725ef34e110cb9ec43e74542aa8f9eafa499f9477964c94a3abdbb0ea2b4c"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0007.jsonl",
+      "sha256": "0a690ddb205af9543ac815cd95fbb9e62d59d005acfd328b933662bc599cb2c1"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0008.jsonl",
+      "sha256": "22d605b78327dfdc28d69afe29918890282d6f40a010cdd27be2c2cb676ae79f"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0009.jsonl",
+      "sha256": "10cd4fd4ade0a434c8c4f9545ea235c2c30b3877b443ac904a156d110b82c882"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0010.jsonl",
+      "sha256": "89b2d76cb9d7c4ee6d794ffcc8460ec5260b46d648155d69f6e1c5ea4b3a6ad2"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0011.jsonl",
+      "sha256": "5be5497368c02fdb5a8a264bc4b0f5ed629e59eaa161c884824a8d63da4a00f0"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0012.jsonl",
+      "sha256": "0c48d428cf708232f707c7323fd7f391252ea9f3b5e49568016872ecb136bff5"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0013.jsonl",
+      "sha256": "ea0d9a00627f51cbd3405c5278e467b029350d83e16d1165363746a83c7770c4"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0014.jsonl",
+      "sha256": "f6e87dd86f1b31632b1bb62379bb2acb1a1d5e813c07e75db9beda37b5767531"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0015.jsonl",
+      "sha256": "3905372195959c7ecb27d9b3876fcce03037c47d94e574893d49f70f4cf47d83"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0016.jsonl",
+      "sha256": "0ce9698eab150a7dddbbd74bcb575cd86e08f5657d1ec47ce4451bd30ba69c4e"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0017.jsonl",
+      "sha256": "81c32f6f634b219344f9ab37b7a899d4546f2c83146ac4098671e0b0bc3d4bc9"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0018.jsonl",
+      "sha256": "bfbae64d5a6293781d22c1a2592b5e88071965b4836110cab21f5aec60b905dc"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0019.jsonl",
+      "sha256": "e4fde5d77004c7a318059bdca7419cbca5c471ce7cdfe80049ae66a4aa28270f"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0020.jsonl",
+      "sha256": "a913759357852d32df29e8d86c54c1374c0829b2eee73367dc7b395da3352179"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0021.jsonl",
+      "sha256": "39469a02c3a7a1462e2b937998e362fc0e4a8535016a8fdd89af784900d7bdad"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0022.jsonl",
+      "sha256": "a8dea71c0ba548769c8ee9c77c5ed8647119dedd4b0b457a79881411cbafb7de"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0023.jsonl",
+      "sha256": "400c2aed8fda34481c0e9ed79e0c70122e07f2dc8bb872f2d127e1f620ce57b9"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0024.jsonl",
+      "sha256": "821054b740be2f825c3803f6987061f8e443a70fe747c3bde303e15d9ce99317"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0025.jsonl",
+      "sha256": "8af265338fdc38c2ecbe0ec971d486b5a19cb6586a249f92103cee63b30f2e4d"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0026.jsonl",
+      "sha256": "745b583e5e52ed2c8451bbf47be3f77a59f94f088bf66c84fce1cd90d7b525d3"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0027.jsonl",
+      "sha256": "5dfb6d97d3f0e8830ceb7d9079bf09cd2bd6fd98dc1116b909ebb1e603f04703"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0028.jsonl",
+      "sha256": "ec4580c3b563921c2c98f67f6c77106b4c9f33f0e39953a75e074b78b2a54f82"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0029.jsonl",
+      "sha256": "e151bf1a8d20d0af733fb8a6451edf0dfa1be56742eda7a43a78aacebb6e3b70"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0030.jsonl",
+      "sha256": "6055e54c53ad30f5eebe22b41e4e7fbb0da9bea7c34005f430ac95320917b0c5"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0031.jsonl",
+      "sha256": "ac771044df6160a5746b00761f1066473bac6105b09759273446c34680c568a7"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0032.jsonl",
+      "sha256": "e13b6ef9197fc8e2b5a4ef930739d1c6c2f486b81e4706d1516c6e8f959eb289"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0033.jsonl",
+      "sha256": "4da6ac58cc0dce66d577a2db365ddd836f059801c755059ecaa65b84169c6b15"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0034.jsonl",
+      "sha256": "803f92e181d86f4dbfc588613e1ab033f55212f178937f8e85c7ae16ef406087"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0035.jsonl",
+      "sha256": "a7a7270ab5a7d46ede0f44e2afe6795a2bd2bc546ec12fed58dbd8f805477002"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0036.jsonl",
+      "sha256": "e8dafdd8d6e920c7d3573e32e95ef358a1c5269478360d45566bb2f736bd9acf"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0037.jsonl",
+      "sha256": "3cbd80fd40d5a8a4e6d0edb4c9b0c4a9a4b741c79a2f38896c89f184fdb6c7a9"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0038.jsonl",
+      "sha256": "e5257688333fa95b8241ce9a3ffbd37274f01f0f30a045597bbece1aa394e348"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0039.jsonl",
+      "sha256": "1db0874a68d27dfb378a16ff3a4cc50d8d76ee08a4736b48d2057c6201aa88e7"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0040.jsonl",
+      "sha256": "cf091f2d08a9089a646fca39c8cf18e79b55292b580b5395ff3f0598e3026286"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0041.jsonl",
+      "sha256": "2f25a6ecee5073f22ea0116a9cc2b280441661a1461473b7566ad88d443ec6ae"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0042.jsonl",
+      "sha256": "0f03019dcb1a8cb4c3c30c2832b44440f34a254e8f4f453d9bcf55d892a94d3d"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0043.jsonl",
+      "sha256": "afceaf97b15e1cb4facbaab889570108ab2b5bdb433705f4d239d61377779ded"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0044.jsonl",
+      "sha256": "e256a703c4da929f1d29c775aecacadfa29292282bfdb263264d609d8eebfdac"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0045.jsonl",
+      "sha256": "2a4cc2ed5276620d76fb6c8b8d80c00fe709c94f03a2c22dd3fae76b44babd48"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0046.jsonl",
+      "sha256": "c0b48fad8673bdf1d494dd1a0265f89de8aa00077a856ca862fbc7db8ca07538"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0047.jsonl",
+      "sha256": "d4bcb28ea84a77ce2fd1a12bfce390b5387d22e0f2df4f612beca896f1492ec4"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0048.jsonl",
+      "sha256": "a91dc6405b2165dc2bc1affdc59009cc614a79d7ea1224a9425230933cb630df"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0049.jsonl",
+      "sha256": "dfbdb9dfc4c5e827303464c178d7c19ffac9c992789efd48ce048c2160da652e"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0050.jsonl",
+      "sha256": "e7f6031349df5011a4bf236bfd7df577cd707aab4dd278fdcc7e3f7603cf391d"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0051.jsonl",
+      "sha256": "dd1530987c67ecdb373d333ae2d7d2dab3c14d14b272f59f68e8763e3bded54c"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0052.jsonl",
+      "sha256": "dbbe5b6657c98a9ab93ae976a90bacdf91e04c85c01d458614706a26c79a628d"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0053.jsonl",
+      "sha256": "4fa29c488b0c8e387ac8807d1870d5367159f6e184cb831584d7275a0ba75dbf"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0054.jsonl",
+      "sha256": "a40fd66f4b7861a9d5fefb3404b8808a579460f1d90f700b75c6b16a1e1fcff1"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0055.jsonl",
+      "sha256": "0a4cd3d26df8fd4cb8f9cdcaf0213f932af01b45a592b758416770e7e6f16788"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0056.jsonl",
+      "sha256": "a03c2b69b521d1668c377fc9501c2a1c74127754d763578e8351463da6c34ebd"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0057.jsonl",
+      "sha256": "dfe2e585c9ed1e04c2c621a0b7dd1e2232d0573dcff043944b9a470a16a7e717"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0058.jsonl",
+      "sha256": "55dd26ea21d10fb33a1202d66b97e9ad437609bd2982d07b344c3466b40c17a5"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0059.jsonl",
+      "sha256": "80420760007c92204291e46f10788eb842c4390201ec74d6d5e82bcc2fb272a5"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0060.jsonl",
+      "sha256": "a6f5e32f8101a6043f7a3904430def99438077e5a94ec747a1834ac04c5a161a"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0061.jsonl",
+      "sha256": "2ae18f70877c19e46854d42cb48f76831f9f66d109bc8dd52a6bbe3c13ee425c"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0062.jsonl",
+      "sha256": "70b155e37b27ad3e6fdb654dbca0cd0436419fa080d068dd9b59ade9704aa553"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0063.jsonl",
+      "sha256": "96e5d1e32073efef63ad0a408faa0ed86353b17a40868c8e4d48bda2a69bad13"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0064.jsonl",
+      "sha256": "033802232c6376deb34c2232271b9516c5f1975dd636fc317c3df62409c5bfa7"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0065.jsonl",
+      "sha256": "681897ff2ce934f7bccd9abc4e02b054741c487cee32d21b183563030b6dd5d9"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0066.jsonl",
+      "sha256": "6fbaf59bae6168bce5c8bae6ef412c771a9aa173bd74bf9e04312aaa06591394"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0067.jsonl",
+      "sha256": "42b01a706c3a250499ccbae412bb2917c565e478bb49e1ee256e781b3f1e0c3d"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0068.jsonl",
+      "sha256": "cb2313a5f136197d6c23befb80d82f33206eb1b1c696a3d7430908562bd35c30"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0069.jsonl",
+      "sha256": "59bb32cb1a6f8089188394b7b24059c6af21c756c74ba52f765d19157c67cf72"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0070.jsonl",
+      "sha256": "7ae4d78ddd83eb82379c9775af93756afa257fb9c78a881130aade1bb3e516cc"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0071.jsonl",
+      "sha256": "caa4eb2bb289c222503b3c72c52bc8386f10ffda3acfec5e29d8ee21c6e9c3d7"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0072.jsonl",
+      "sha256": "71d013ad689ee1f7c872d475e4be2bd8f86ad29d2b0feb04a6a01a8e2fda800f"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0073.jsonl",
+      "sha256": "c95e62e094df746f2da6ae4b65be1dff1e86e54b6cfbcfc7c716939e3202bc3b"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0074.jsonl",
+      "sha256": "aa355b798bd2de174152db8d09b26486cbb9e75c7342b537106603faf63dd6a3"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0075.jsonl",
+      "sha256": "a9585bda50c5ea6c8943ab0fb0775dff4edfd3181ed560192f32834d585d546d"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0076.jsonl",
+      "sha256": "b9bbd0a3bcdd0c63d6e760e9a26c8a673c4b1787718a69a435157a5246d3259f"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0077.jsonl",
+      "sha256": "c5c358b140600cb5f7eab1b8fe1827e1195b3a3d570d963887e0ba283479c4e7"
+    },
+    {
+      "messages": 2500,
+      "path": "model-index/discord/roanoke-season-3/messages-0078.jsonl",
+      "sha256": "dfe6614450858dc0d10b75f222ad7ec580c01caf1c753c2c5e7c78fe633c3b32"
+    },
+    {
+      "messages": 2013,
+      "path": "model-index/discord/roanoke-season-3/messages-0079.jsonl",
+      "sha256": "125ad017d1510a3ac5cc0a99794203a174ea066c915a626680e2d2790a960fb8"
+    }
+  ],
+  "message_count": 197013,
+  "schema_version": 1,
+  "server_slug": "roanoke-season-3",
+  "shard_messages": 2500,
+  "source_database": "discord/roanoke-season-3/roanoke-season-3.sqlite"
+}
