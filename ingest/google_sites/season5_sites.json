@@ -118,6 +118,21 @@
       "slug": "char-gen",
       "url": "https://sites.google.com/view/char-gen/home",
       "role": "character_creation"
+    },
+    {
+      "slug": "arcanian-monk-options",
+      "url": "https://sites.google.com/view/arcanian-monk-options/home",
+      "role": "monk_options_linked_from_character_creation"
+    },
+    {
+      "slug": "s5-codebound",
+      "url": "https://sites.google.com/view/s5-codebound/home",
+      "role": "paladin_codebound_option"
+    },
+    {
+      "slug": "s5homebrewclericoptions",
+      "url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+      "role": "cleric_options"
     }
   ]
 }
