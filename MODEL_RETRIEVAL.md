@@ -58,3 +58,21 @@ For Discord, a usable projection requires all of the following:
 - an inventory row pointing at the generated mirror.
 
 A model should distinguish “source missing,” “mirror missing,” “search returned no indexed match,” and “exhaustive projection search returned zero.” Those are different claims.
+
+
+## Deterministic term routing
+
+GitHub connector code search is not treated as a required dependency. Every Discord projection also contains a deterministic term-to-shard index under:
+
+`model-index/discord/<server>/terms/<prefix>.jsonl`
+
+Normalize a lookup term by case-folding it, converting curly apostrophes to ASCII apostrophes, and taking the first three characters. Replace any character outside `[a-z0-9]` with `_`; pad short terms with `_`. Tokens shorter than three characters are not indexed.
+
+Examples:
+
+- `Sandigil` -> `sandigil` -> `san` -> `terms/san.jsonl`
+- `Gil` -> `gil` -> `gil` -> `terms/gil.jsonl`
+
+Each term row contains the normalized token, the number of messages containing it, and the exact message shard filenames where it occurs. Fetch only those shards, then inspect the complete message rows and adjacent context.
+
+This routing index gives a GitHub-connected model a direct retrieval path even when repository code search is unavailable, stale, or returns no results.
