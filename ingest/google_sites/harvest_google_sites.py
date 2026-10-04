@@ -86,18 +86,24 @@ def text_from_html(html: str) -> tuple[str, str]:
     return title, "\n\n".join(lines).strip() + "\n"
 
 
-def same_site_links(html: str, page_url: str, root_prefix: str) -> list[str]:
+def page_links(html: str, page_url: str, root_prefix: str) -> tuple[list[str], list[str], list[str]]:
     soup = BeautifulSoup(html, "html.parser")
     root = canonicalize(root_prefix).rstrip("/") + "/"
-    out = set()
+    all_links = set()
+    same_site = set()
+    drive_links = set()
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         if not href or href.startswith(SKIP_SCHEMES) or href.startswith("#"):
             continue
         target = canonicalize(urljoin(page_url, href))
+        all_links.add(target)
         if target.startswith(root):
-            out.add(target)
-    return sorted(out)
+            same_site.add(target)
+        host = urlsplit(target).netloc.lower()
+        if host in {"drive.google.com", "docs.google.com"}:
+            drive_links.add(target)
+    return sorted(all_links), sorted(same_site), sorted(drive_links)
 
 
 def write_json(path: Path, obj) -> None:
@@ -136,7 +142,9 @@ def harvest_site(session: requests.Session, site: dict, root: Path) -> dict:
             "text_path": None,
             "sha256_html": None,
             "sha256_text": None,
+            "links_all": [],
             "links_same_site": [],
+            "google_drive_links": [],
             "error": None,
         }
         try:
@@ -146,9 +154,11 @@ def harvest_site(session: requests.Session, site: dict, root: Path) -> dict:
             resp.raise_for_status()
             html = resp.text
             title, text = text_from_html(html)
-            links = same_site_links(html, resp.url, root_prefix)
+            all_links, links, drive_links = page_links(html, resp.url, root_prefix)
             rec["title"] = title
+            rec["links_all"] = all_links
             rec["links_same_site"] = links
+            rec["google_drive_links"] = drive_links
 
             stem = safe_name(url, root_prefix)
             raw_path = raw_dir / f"{stem}.html"
@@ -199,7 +209,7 @@ def harvest_site(session: requests.Session, site: dict, root: Path) -> dict:
         "pages": records,
         "limitations": [
             "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-            "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+            "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
             "Publication is evidence of player-facing implementation state, not proof of live use."
         ]
     }
