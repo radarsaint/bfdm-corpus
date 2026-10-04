@@ -1,0 +1,51 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000113",
+  "project": "Roanoke Season 5 / Legends",
+  "project_slug": "roanoke-s5-legends",
+  "title": "S5 Site Changelog / To Change",
+  "source_role": "publication_revision_changelog",
+  "source_kind": "google_drive_file",
+  "document_family_id": "roanoke-s5-google-sites-revision-process",
+  "original_filename": "S5 Site Changelog / To Change",
+  "mime_type": "text/plain",
+  "created_at": "2023-07-28T22:16:58.717Z",
+  "modified_at": "2023-07-31T00:55:39.277Z",
+  "ingested_at": "2026-10-04T22:07:35Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The document contains first-person editor notes plus pasted notes attributed to others; whole-document authorship is not established.",
+    "project_ownership_context": "Season 5 Google Sites revision/proofing process."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1Dk0JwcnTxVW41c1wHlnEoURrE2qkkEUBdMYQCSOUTuI",
+      "url": "https://drive.google.com/file/d/1Dk0JwcnTxVW41c1wHlnEoURrE2qkkEUBdMYQCSOUTuI/view"
+    }
+  ],
+  "representations": [],
+  "normalization": {
+    "method": "Connected Drive readable text preserved as current body and provider text snapshot.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Representation checksums will be backfilled during the binary-safe Drive/index consolidation pass."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED_THIS_PASS",
+    "revision_metadata": "NOT_CAPTURED_THIS_PASS",
+    "revision_bodies": "NOT_CAPTURED_THIS_PASS",
+    "assets": "NO_SEPARATE_ASSET_CAPTURE_THIS_PASS"
+  },
+  "source_links": [
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "external_locator": "sources/roanoke-s5-legends/google-sites/",
+      "basis": "The document explicitly tracks site-by-site wording, mechanics, access, and correction work for the Season 5 Sites.",
+      "confidence": "STRONG"
+    }
+  ]
+}
