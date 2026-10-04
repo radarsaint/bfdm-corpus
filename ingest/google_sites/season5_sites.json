@@ -108,6 +108,16 @@
       "slug": "homebrew-races",
       "url": "https://sites.google.com/view/homebrew-races/home",
       "role": "race_options"
+    },
+    {
+      "slug": "arcanian-server-rules",
+      "url": "https://sites.google.com/view/arcanian-server-rules/home",
+      "role": "server_rules"
+    },
+    {
+      "slug": "char-gen",
+      "url": "https://sites.google.com/view/char-gen/home",
+      "role": "character_creation"
     }
   ]
 }
