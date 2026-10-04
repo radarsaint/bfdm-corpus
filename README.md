@@ -26,12 +26,13 @@ See [CORPUS_CHARTER.md](CORPUS_CHARTER.md) for the project boundary and research
 - `discord/` holds searchable SQLite harvests, one database per server. See [discord/SCHEMA.md](discord/SCHEMA.md).
 - `sources/` holds canonical human-readable non-Discord BCS source containers.
 - `context/` holds context-only BCS source containers.
-- `indexes/` holds rebuildable searchable indexes such as `documents.sqlite`.
+- `indexes/` holds rebuildable local indexes such as `documents.sqlite`.
+- `model-index/` holds rebuildable, non-LFS model-facing projections and deterministic term-routing indexes. See [MODEL_RETRIEVAL.md](MODEL_RETRIEVAL.md).
 - `registry/` holds machine-readable project/campaign, Discord-server, person, and identity mappings.
 - `evidence/` holds the private BCS/BCE/BCR source/evidence registry and portable evidence snapshots.
 - `research/` holds derived analysis, methodology, evaluation records, and source leads. Research is not source truth.
 
-`.sqlite` databases and Discord attachment files are stored with Git LFS.
+`.sqlite` databases and Discord attachment files are stored with Git LFS. Canonical Discord SQLite remains source truth; model-facing JSONL projections are downstream retrieval artifacts.
 
 ## Provenance
 

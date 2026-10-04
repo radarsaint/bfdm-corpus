@@ -1,6 +1,6 @@
 # Next Handoff
 
-**Status:** Points 1–3 and 7 completed. Point 4 remains next. Empire City / S4 now also has a completed first deep research pass.
+**Status:** Points 1–3 and 7 completed. Point 4 remains next. Empire City / S4 has a completed first deep research pass. Model-facing Discord retrieval infrastructure is now complete and validated.
 
 ## Point 1 — retrospective/current-project statements as attributable evidence
 **Status: completed.**
@@ -51,7 +51,7 @@ Current counts:
 - 4 project relations;
 - 4 canonical people;
 - 4 identity assertions;
-- 2 harvested Discord servers.
+- 3 harvested Discord servers.
 
 Important invariants:
 - source-activity dates remain distinct from live campaign windows;
@@ -63,6 +63,59 @@ Important invariants:
 - source anchors are project relationships, not passage-level authorship claims;
 - developmental ordering is chronology, not a quality/importance score.
 
+
+
+## Model-facing corpus retrieval infrastructure
+**Status: COMPLETE AND VALIDATED.**
+
+The Git-LFS accessibility failure exposed by the Roanoke Season 3 Sandigil/Gil retrieval case is resolved without changing archive authority.
+
+Canonical source remains:
+- `discord/<server>/<server>.sqlite` in Git LFS.
+
+Model-facing retrieval now lives under:
+- `model-index/discord/<server>/manifest.json`;
+- byte-capped `messages-NNNN.jsonl` shards;
+- deterministic `terms/<prefix>.jsonl` term-to-shard routing files.
+
+Operational files:
+- `MODEL_RETRIEVAL.md`;
+- `bfdm_inventory.jsonl`;
+- `scripts/export_discord_model_index.py`;
+- `scripts/search_corpus.py`;
+- `scripts/sync_inventory_from_model_index.py`;
+- `scripts/validate_model_index.py`;
+- `.github/workflows/refresh-model-index.yml`.
+
+Current mirrored Discord archives:
+- Roanoke Season 3 — 197,013 messages;
+- Empire City live server — 189,761 messages;
+- Empire City Dev Corpus — 12,692 messages.
+
+Important retrieval rule:
+- do **not** depend on GitHub code search for Discord-message discovery;
+- route a normalized term through `terms/<first-three-characters>.jsonl`, fetch the listed message shard(s), then expand local context;
+- environments with shell access may use `scripts/search_corpus.py` for exhaustive projection search and a `coverage_report`;
+- a zero result must not become a claim of absence when intended source families were inaccessible or only non-exhaustive discovery was attempted.
+
+Original failure proof:
+- `sandigil` resolves through `model-index/discord/roanoke-season-3/terms/san.jsonl`;
+- the term index reports 81 S3 messages containing the exact token and routes to exact message shards;
+- fetching routed shards returns original Discord rows with stable message IDs, timestamps, channels, authors, and adjacent context;
+- `gil` similarly resolves through `terms/gil.jsonl`.
+
+Automation:
+- the workflow hydrates only Discord SQLite LFS objects, not attachment payloads;
+- refresh runs are serialized;
+- generated commits rebase onto current `main` before push to avoid non-fast-forward races;
+- accessibility inventory is synchronized from actual generated mirrors;
+- publication is blocked unless model-index integrity and inventory validation pass.
+
+Validated CI run:
+- workflow run `37243125394` completed successfully on 2026-10-04;
+- checkout, targeted LFS hydration, export, inventory synchronization, model-index validation, inventory audit, commit, rebase, and push all passed.
+
+Treat this as infrastructure, not derived research. The raw archive remains canonical; the model index is disposable/rebuildable retrieval machinery.
 
 
 ## Empire City / S4 research handoff
