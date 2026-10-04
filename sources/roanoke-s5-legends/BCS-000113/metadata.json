@@ -45,7 +45,35 @@
       "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
       "external_locator": "sources/roanoke-s5-legends/google-sites/",
       "basis": "The document explicitly tracks site-by-site wording, mechanics, access, and correction work for the Season 5 Sites.",
-      "confidence": "STRONG"
+      "confidence": "STRONG",
+      "target_kind": "EXTERNAL_SOURCE",
+      "support_refs": [
+        "BCS-000113"
+      ]
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source is the Season 5 Site Changelog / To Change and explicitly belongs to the Season 5 Google Sites revision process.",
+        "support_refs": [
+          "BCS-000113",
+          "registry:roanoke-s5-legends"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The document tracks edits, corrections, mechanics, wording, and access changes while Season 5 player-facing Sites were being revised.",
+        "support_refs": [
+          "BCS-000113"
+        ]
+      }
+    ]
+  }
 }
