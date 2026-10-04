@@ -8,6 +8,7 @@ on:
       - "discord/**/*.sqlite"
       - "scripts/export_discord_model_index.py"
       - "scripts/sync_inventory_from_model_index.py"
+      - "scripts/validate_model_index.py"
       - "registry/discord_servers.jsonl"
       - ".github/workflows/refresh-model-index.yml"
 
@@ -37,6 +38,10 @@ jobs:
           done
       - name: Synchronize accessibility inventory
         run: python scripts/sync_inventory_from_model_index.py
+      - name: Validate model-facing index
+        run: |
+          python scripts/validate_model_index.py
+          python scripts/audit_inventory.py
       - name: Commit changed projections
         run: |
           set -euo pipefail
