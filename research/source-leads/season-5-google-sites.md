@@ -2,7 +2,7 @@
 
 **Project:** `roanoke-s5-legends`  
 **Source family:** Google Sites player-facing / rules / homebrew publication layer  
-**Status:** archived on ingest branch; 26/26 linked sites captured successfully  
+**Status:** archived and canonically admitted; 26/26 linked sites captured successfully  
 **Recorded:** 2026-10-04
 
 ## Why this source family matters
@@ -67,6 +67,7 @@ The chat/web crawler was unreliable on a number of pages, but the repository-sid
 - Harvest report: `ingest/reports/2026-10-04-season5-google-sites.md`
 - Machine report: `ingest/reports/2026-10-04-season5-google-sites.json`
 - Source root: `sources/roanoke-s5-legends/google-sites/`
+- Canonical BCS range: `BCS-000087`–`BCS-000112` for the 26 Sites; `BCS-000113` Site changelog; `BCS-000114` Gun-Fu Drive version-family source.
 - Capture: **26/26 sites, 26/26 seed pages, zero fetch failures**
 - Each site retains raw HTTP HTML, a normalized readable Markdown mirror, page-level URL/hash/retrieval metadata, outbound links, and Google Drive/Docs links exposed in page anchors.
 - The harvester is retained at `ingest/google_sites/harvest_google_sites.py`.
@@ -111,6 +112,41 @@ The `char-gen` page records a three-tier difficulty scheme (Tenderfoot, Aces, De
 The `arcanian-server-rules` page records the campaign's explicit social/operational contract, including player spotlight, real-time-rest rationale, PvP consent, inventory honesty, exploit reporting, clique handling, and the stated split of roughly 75% freeplay/character-driven play and 25% DM-authored story.
 
 These are unusually strong sources for reconstructing intended Season 5 operating philosophy, but must remain distinct from evidence of what actually happened in play.
+
+## Canonical BCS mapping
+
+| BCS | Site slug | Role |
+|---|---|---|
+| `BCS-000087` | `catalogs5` | items / equipment / catalog |
+| `BCS-000088` | `s5backgrounds` | backgrounds / character creation |
+| `BCS-000089` | `s5mining` | life path / mining |
+| `BCS-000090` | `lifepathrancher` | life path / ranching |
+| `BCS-000091` | `day-1s5` | day-one player-facing content |
+| `BCS-000092` | `s5bardcolleges` | bard options |
+| `BCS-000093` | `homebrew-spells` | homebrew spells |
+| `BCS-000094` | `harbingers5` | character option |
+| `BCS-000095` | `spellshotwizard` | wizard option |
+| `BCS-000096` | `lifepathgambler` | life path / gambling |
+| `BCS-000097` | `s5-training` | training rules |
+| `BCS-000098` | `s5warlockoptions` | warlock options |
+| `BCS-000099` | `path-of-the-lumber-jacked` | barbarian option |
+| `BCS-000100` | `oath-of-the-drifter` | paladin option |
+| `BCS-000101` | `s5rogueoptions` | rogue options |
+| `BCS-000102` | `improvised-weapon-for-enforcer` | improvised-weapon / enforcer rules |
+| `BCS-000103` | `arcanianmonkoptions` | thin/stale Monk shell |
+| `BCS-000104` | `arcanian-house-rules` | house rules |
+| `BCS-000105` | `tales-in-legend` | Season 5 landing / orientation |
+| `BCS-000106` | `arcanian-worldlore` | world lore |
+| `BCS-000107` | `homebrew-races` | race options |
+| `BCS-000108` | `arcanian-server-rules` | server/social rules |
+| `BCS-000109` | `char-gen` | character creation |
+| `BCS-000110` | `arcanian-monk-options` | full Way of Gun Fu published page |
+| `BCS-000111` | `s5-codebound` | Codebound paladin option |
+| `BCS-000112` | `s5homebrewclericoptions` | cleric options |
+
+Bridge sources:
+- `BCS-000113` — `S5 Site Changelog / To Change`.
+- `BCS-000114` — `Subclass - Monk - The Way of Gun Fu - The Homebrewery.pdf`.
 
 ## Remaining archival/research work
 
