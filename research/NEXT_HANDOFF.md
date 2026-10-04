@@ -106,29 +106,45 @@ Temporary branch `analysis/empire-city-distill` was used only to hydrate the LFS
 
 
 ## Point 4 — reconcile the old 51-source staging body into canonical bfdm-corpus
-**Status: IN PROGRESS — audit and migrator complete; binary-safe transfer pending.**
+**Status: COMPLETE ON `ingest/drive-project-v3`; merge/validation remains.**
 
-The 51-record legacy manifest is preserved, but the actual historical source containers/originals/assets remain incompletely reconciled with the canonical private repository.
+The full legacy staging body `BCS-000017`–`BCS-000067` has been reconciled into canonical source/context containers without changing corpus IDs.
 
-Requirements:
-- preserve every existing BCS ID;
-- use `research/legacy-staging/manifest.all.jsonl` as the reconciliation map;
-- reconcile originals, normalized/human-readable forms, assets, comments, and provenance where they exist;
-- deduplicate against native Drive IDs/checksums rather than minting replacement source IDs;
-- do not maintain the Library staging archive as a second canonical source store;
-- produce an explicit reconciliation report showing migrated, already-present, duplicate, missing, and unresolved records.
+Verified state on the ingest branch:
+- 51/51 reconciliation records report `ALREADY_RECONCILED`;
+- zero reconciliation conflicts;
+- originals, normalized/human-readable forms, metadata, comments, and staged assets are preserved where present;
+- `BCS-000059` remains under `context/exploration-impossible/` rather than being silently promoted to first-party source material;
+- every `BCS-000017`–`BCS-000067` catalog record now points to its canonical portable snapshot;
+- a GitHub compare-response 300-file cap initially omitted 44 Roanoke files during branch rebasing; this was detected by tree-to-tree verification and repaired in commit `09ebe9b9ec758a24c9c439a037958df5a7244dfd`.
 
-The old Library staging archive remains a source for reconciliation, not a competing canonical corpus.
+Archive SHA-256 used for reconciliation:
+- `cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a`.
 
-Current audited state:
-- archive SHA-256: `cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a`;
-- 51/51 legacy IDs already exist in the evidence catalog;
-- 0/51 actual source-container bodies are present in canonical `sources/` / `context/`;
-- 284 record files remain pending;
-- `ingest/reconcile_legacy_staging.py` is implemented and tested against the real archive;
-- the remaining blocker is binary-safe transfer into authenticated Git/GitHub, not source identification or reconciliation logic.
+Do not repeat the legacy import. Future verification should compare the canonical tree/report and fail closed on checksum conflicts.
 
-Do not mark Point 4 complete until a final dry-run against the canonical checkout reports all 51 records `ALREADY_RECONCILED`.
+## Google Drive corpus construction
+**Status: ACTIVE on `ingest/drive-project-v3`.**
+
+Completed:
+- `BCS-000001`–`BCS-000016` now have canonical Empire City source containers;
+- `BCS-000002`'s previously missing native Drive identity was recovered without minting a replacement BCS ID;
+- current readable bodies and exact Google-native DOCX/XLSX export snapshots are preserved;
+- native Drive comments/replies are captured where Google returns them;
+- available native revision metadata and retrievable historical revision bodies are captured for the original Empire City batch;
+- all `BCS-000001`–`BCS-000067` catalog rows now link to canonical portable snapshots;
+- a deduplicated Drive discovery ledger records 224 unique search hits, 66 already represented by native Drive ID, and 158 uncataloged candidates under `research/drive-inventory/2026-10-03/`.
+
+Current rule:
+- a Drive search hit is a candidate, not an attribution claim or automatic corpus admission;
+- do not assign a BCS ID until source identity, project relationship, authorship/provenance boundary, duplicate/version-family relationship, and first-party/collaborator/third-party/noise class have been checked.
+
+Next:
+1. classify the 158 uncataloged Drive candidates;
+2. ingest high-confidence first-party historical sources in bounded project batches;
+3. keep collaborator/context and third-party references separated rather than flattening them into Brendon-authored evidence;
+4. backfill per-revision body SHA-256 values and extract embedded assets separately where doing so adds archival value;
+5. validate and merge the ingest branch only after catalog/container consistency checks pass.
 
 ## Point 5 — deliberate review and integration of PR #5
 **Status: COMPLETE — PR #5 MERGED INTO `main`.**
