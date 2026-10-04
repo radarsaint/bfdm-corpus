@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/s5-training/home
 - Final URL: https://sites.google.com/view/s5-training/home
-- Retrieved: 2026-10-04T21:58:09.684982Z
+- Retrieved: 2026-10-04T21:59:55.613410Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

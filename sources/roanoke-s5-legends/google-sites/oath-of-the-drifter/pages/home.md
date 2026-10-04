@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/oath-of-the-drifter/home
 - Final URL: https://sites.google.com/view/oath-of-the-drifter/home
-- Retrieved: 2026-10-04T21:58:10.777567Z
+- Retrieved: 2026-10-04T21:59:56.782352Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

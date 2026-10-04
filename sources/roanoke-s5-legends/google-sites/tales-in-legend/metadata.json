@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/tales-in-legend/home",
   "role": "campaign_setting_material_verify",
   "capture_started_from": "https://sites.google.com/view/tales-in-legend/home",
-  "captured_at": "2026-10-04T21:58:12.835016Z",
+  "captured_at": "2026-10-04T21:59:59.251442Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,38 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/tales-in-legend/home",
-      "fetched_at": "2026-10-04T21:58:12.520250Z",
+      "fetched_at": "2026-10-04T21:59:58.889149Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/tales-in-legend/home",
       "title": "Tales in Legend.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/tales-in-legend/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/tales-in-legend/pages/home.md",
-      "sha256_html": "6447695da5943932a24fb314776c5a793469652cc164c11e1565acfd5bf99509",
+      "sha256_html": "11b48b8362ba9d43eb49fb6da8d01f8a40cdd4e629ec489b5c3018699384a971",
       "sha256_text": "84887aa357cd0e61b6b2d5c661aecb2e90a91c72b7861a06c9008e7d33b6d04b",
+      "links_all": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSeJ3SyCvUPDibY2BrKs860LFpOZY6JP4q-xtCeytkoMC7SAJg/viewform",
+        "https://sites.google.com/view/arcanian-house-rules/home",
+        "https://sites.google.com/view/arcanian-server-rules/home",
+        "https://sites.google.com/view/arcanian-worldlore/home",
+        "https://sites.google.com/view/char-gen/home",
+        "https://sites.google.com/view/homebrew-races/home",
+        "https://sites.google.com/view/lifepathrancher/home",
+        "https://sites.google.com/view/s5backgrounds/home",
+        "https://sites.google.com/view/s5mining/home",
+        "https://sites.google.com/view/tales-in-legend/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/tales-in-legend/home"
+      ],
+      "google_drive_links": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSeJ3SyCvUPDibY2BrKs860LFpOZY6JP4q-xtCeytkoMC7SAJg/viewform"
       ],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

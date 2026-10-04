@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/homebrew-races/home",
   "role": "race_options",
   "capture_started_from": "https://sites.google.com/view/homebrew-races/home",
-  "captured_at": "2026-10-04T21:58:13.651225Z",
+  "captured_at": "2026-10-04T22:00:00.137132Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/homebrew-races/home",
-      "fetched_at": "2026-10-04T21:58:13.198016Z",
+      "fetched_at": "2026-10-04T21:59:59.644213Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/homebrew-races/home",
       "title": "Homebrew Races.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/homebrew-races/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/homebrew-races/pages/home.md",
-      "sha256_html": "6ede7b2c35ed44b1a15f5c685a2272289aef4fb6df29ce4899ccd72a9b8c47f0",
+      "sha256_html": "38712b591e990968ac13584d5b67629f8626b2dc3c74e6b3439f4f3c936d9072",
       "sha256_text": "fbe66ba1a9b51dd032f8d79a02ec03b49bee484017a38ad4a3e2c0cf6e6eb305",
+      "links_all": [
+        "https://sites.google.com/view/homebrew-races/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/homebrew-races/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

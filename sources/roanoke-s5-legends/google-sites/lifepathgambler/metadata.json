@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/lifepathgambler/home",
   "role": "life_path_gambler",
   "capture_started_from": "https://sites.google.com/view/lifepathgambler/home",
-  "captured_at": "2026-10-04T21:58:09.684525Z",
+  "captured_at": "2026-10-04T21:59:55.612649Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/lifepathgambler/home",
-      "fetched_at": "2026-10-04T21:58:09.326591Z",
+      "fetched_at": "2026-10-04T21:59:55.106549Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/lifepathgambler/home",
       "title": "Life Path, Gambler",
       "raw_path": "sources/roanoke-s5-legends/google-sites/lifepathgambler/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/lifepathgambler/pages/home.md",
-      "sha256_html": "fa9989fb9b534852b9215c029c60d9d692f70e3c285dddedcf3bfa8223a5bb6c",
+      "sha256_html": "f8aed6b2571d9993230efa105ae2091f808ebe63a249b7f65e5e3862324085a7",
       "sha256_text": "9630417a47dd12ea5eae4bdf7ab6d79d5c5a1b6e97526dfac13d381a713484d1",
+      "links_all": [
+        "https://sites.google.com/view/lifepathgambler/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/lifepathgambler/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

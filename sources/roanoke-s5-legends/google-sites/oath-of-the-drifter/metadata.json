@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/oath-of-the-drifter/home",
   "role": "paladin_option",
   "capture_started_from": "https://sites.google.com/view/oath-of-the-drifter/home",
-  "captured_at": "2026-10-04T21:58:11.095918Z",
+  "captured_at": "2026-10-04T21:59:57.187899Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,21 +15,23 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/oath-of-the-drifter/home",
-      "fetched_at": "2026-10-04T21:58:10.777567Z",
+      "fetched_at": "2026-10-04T21:59:56.782352Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/oath-of-the-drifter/home",
       "title": "Home",
       "raw_path": "sources/roanoke-s5-legends/google-sites/oath-of-the-drifter/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/oath-of-the-drifter/pages/home.md",
-      "sha256_html": "23853357d3dfc428ef01126491418a20bc64963f016bc97ad28511276cfa634b",
+      "sha256_html": "c8f4143a265560966a9911b26a1f499f48d145dec0b91aa2b4672231ac7add84",
       "sha256_text": "faa740e5388671e4374d09fde5eb9cf1123bc8c5e7129a29cd8b5e793b5ae42f",
+      "links_all": [],
       "links_same_site": [],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/spellshotwizard/home
 - Final URL: https://sites.google.com/view/spellshotwizard/home
-- Retrieved: 2026-10-04T21:58:09.005197Z
+- Retrieved: 2026-10-04T21:59:54.725609Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

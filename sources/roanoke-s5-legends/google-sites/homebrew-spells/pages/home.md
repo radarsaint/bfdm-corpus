@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/homebrew-spells/home
 - Final URL: https://sites.google.com/view/homebrew-spells/home
-- Retrieved: 2026-10-04T21:58:08.271649Z
+- Retrieved: 2026-10-04T21:59:53.777084Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

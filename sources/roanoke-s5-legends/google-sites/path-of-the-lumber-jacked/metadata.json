@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
   "role": "barbarian_option",
   "capture_started_from": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
-  "captured_at": "2026-10-04T21:58:10.777055Z",
+  "captured_at": "2026-10-04T21:59:56.781486Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
-      "fetched_at": "2026-10-04T21:58:10.392390Z",
+      "fetched_at": "2026-10-04T21:59:56.416041Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
       "title": "Path of the Lumber Jacked",
       "raw_path": "sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/pages/home.md",
-      "sha256_html": "1d3d52604c56cc384d7a891002be415009ec86e437f09bc444626e5c4cc19330",
+      "sha256_html": "345a916f57466665ec9bf6b2b36b6a39a326b2dfb9a440f92155d3c044d87c97",
       "sha256_text": "e33eeccd06eba768199e8db90e75cd99335096df09320b0b60406f8a804cdf02",
+      "links_all": [
+        "https://sites.google.com/view/path-of-the-lumber-jacked/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/path-of-the-lumber-jacked/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

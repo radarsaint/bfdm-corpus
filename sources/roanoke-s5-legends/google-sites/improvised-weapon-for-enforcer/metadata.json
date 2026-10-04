@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
   "role": "enforcer_rule_option",
   "capture_started_from": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
-  "captured_at": "2026-10-04T21:58:11.900080Z",
+  "captured_at": "2026-10-04T21:59:58.148709Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
-      "fetched_at": "2026-10-04T21:58:11.457055Z",
+      "fetched_at": "2026-10-04T21:59:57.575602Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
       "title": "Improvised weapon for enforcers s5",
       "raw_path": "sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/pages/home.md",
-      "sha256_html": "a626f45e0b3933c81d589484dbd9aaea5818ff4874782775de68d930f27ed0f8",
+      "sha256_html": "b66edc9c0faaa93745415df2a8827d90ff60b8cf544b51b4c6a50670a7afdddc",
       "sha256_text": "dc5e6cf035932b49ad7626ac0269582d642adaafa70d14c391138a309d7fed4f",
+      "links_all": [
+        "https://sites.google.com/view/improvised-weapon-for-enforcer/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/improvised-weapon-for-enforcer/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

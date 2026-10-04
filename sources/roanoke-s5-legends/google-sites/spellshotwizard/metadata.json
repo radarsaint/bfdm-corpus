@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/spellshotwizard/home",
   "role": "wizard_option",
   "capture_started_from": "https://sites.google.com/view/spellshotwizard/home",
-  "captured_at": "2026-10-04T21:58:09.326132Z",
+  "captured_at": "2026-10-04T21:59:55.105833Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/spellshotwizard/home",
-      "fetched_at": "2026-10-04T21:58:09.005197Z",
+      "fetched_at": "2026-10-04T21:59:54.725609Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/spellshotwizard/home",
       "title": "Spellshot Wizard.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/spellshotwizard/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/spellshotwizard/pages/home.md",
-      "sha256_html": "5e5214b0ec07265578b5724636664cfb856c2649355bf4af03e7d396bfec682f",
+      "sha256_html": "b0622c9b21850381f1a179a431e1491f439e6ce1aacc180988cd0edca7398401",
       "sha256_text": "87a39b1de6e6d70bf66294310f22c82603cf68241f8b073e3732cc8c516ea31f",
+      "links_all": [
+        "https://sites.google.com/view/spellshotwizard/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/spellshotwizard/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

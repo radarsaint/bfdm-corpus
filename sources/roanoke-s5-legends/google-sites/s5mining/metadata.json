@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5mining/home",
   "role": "life_path_mining",
   "capture_started_from": "https://sites.google.com/view/s5mining/home",
-  "captured_at": "2026-10-04T21:58:07.122063Z",
+  "captured_at": "2026-10-04T21:59:52.568235Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5mining/home",
-      "fetched_at": "2026-10-04T21:58:06.633547Z",
+      "fetched_at": "2026-10-04T21:59:52.016212Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5mining/home",
       "title": "Mining",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5mining/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5mining/pages/home.md",
-      "sha256_html": "d2e50e9204385a74c7129d58b66fecd04e5830f5b61f5f49fc14072c5bb15d73",
+      "sha256_html": "b86db5a2405bdeee992e5e13f3d8f70120f49ab4e4508e59fb5a4c0123cfbbdc",
       "sha256_text": "60cf2a39be65f3260b7e23796b697fbc4a5492c11f1adb87450b93fabe5fffc8",
+      "links_all": [
+        "https://sites.google.com/view/s5mining/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/s5mining/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }

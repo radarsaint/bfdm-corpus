@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/arcanian-worldlore/home
 - Final URL: https://sites.google.com/view/arcanian-worldlore/home
-- Retrieved: 2026-10-04T21:58:12.835444Z
+- Retrieved: 2026-10-04T21:59:59.252275Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

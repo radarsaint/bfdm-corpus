@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5bardcolleges/home",
   "role": "bard_options",
   "capture_started_from": "https://sites.google.com/view/s5bardcolleges/home",
-  "captured_at": "2026-10-04T21:58:08.271265Z",
+  "captured_at": "2026-10-04T21:59:53.776316Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,23 +15,27 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5bardcolleges/home",
-      "fetched_at": "2026-10-04T21:58:07.917006Z",
+      "fetched_at": "2026-10-04T21:59:53.378734Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5bardcolleges/home",
       "title": "s5 bard colleges",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5bardcolleges/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5bardcolleges/pages/home.md",
-      "sha256_html": "63c113993374687a60f0db82aecad73ee2008cf846ae3f732464a8c58bb036aa",
+      "sha256_html": "2335ae059c8756ba62ece888d11522c35bd0e2ebb4b5c9e0d39229dc1f56361c",
       "sha256_text": "966d85beb7ef722acc43394cb2ea94af1a1ee6be0d079f37df28a5a4c479da6c",
+      "links_all": [
+        "https://sites.google.com/view/s5bardcolleges/home"
+      ],
       "links_same_site": [
         "https://sites.google.com/view/s5bardcolleges/home"
       ],
+      "google_drive_links": [],
       "error": null
     }
   ],
   "limitations": [
     "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
     "Publication is evidence of player-facing implementation state, not proof of live use."
   ]
 }
