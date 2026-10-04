@@ -982,3 +982,53 @@ A useful export test is:
 > Can Kit apply the derived method to a structurally similar synthetic or unrelated D&D situation without access to the original campaign nouns?
 
 That should become part of methodology validation before a BFDM finding graduates into portable Kit cognition.
+
+
+## 25. Human and agent research access is a first-class subsystem
+
+The architecture survey originally underweighted a basic requirement: the corpus must remain directly searchable and inspectable by humans and research agents, independently of Kit's runtime retrieval stack.
+
+This is required for discovery, source checking, provenance review, ad hoc exploration, debugging, and reproducible research. A researcher must be able to find facts, ideas, characters, mechanics, phrases, places, and historical connections without first running Kit or a custom retrieval service.
+
+The existing ingestion contract already requires human-readable `source.md` representations and a searchable SQLite representation. The LFS-pointer incident demonstrates that those guarantees are insufficient if ordinary repository/code-search interfaces expose only an LFS pointer.
+
+### Access-plane invariant
+
+> **No textual historical content may be effectively hidden behind a binary container, LFS pointer, opaque database, embedding index, or proprietary retrieval layer as its only practical discovery path.**
+
+Raw/binary preservation and machine indexes remain valuable, but text-extractable material must also have a directly searchable human-readable representation.
+
+### Required representations
+
+For textual or text-extractable sources, maintain:
+1. canonical/raw bytes or provider snapshot, which may live in LFS;
+2. UTF-8 Markdown/text suitable for ordinary repository/code search;
+3. structured provenance and metadata tied to the BCS identity;
+4. rebuildable machine indexes such as SQLite FTS or later search services;
+5. searchable metadata/description for binaries and assets linked to their source container.
+
+Search must work across current bodies, available revisions, comments/replies, Discord messages, research artifacts, and metadata where technically appropriate.
+
+Results should resolve to stable source identities and readable context, not merely opaque database rows.
+
+### Human-readable projections
+
+Machine-readable research objects also require inspectable projections:
+- case records → readable case pages;
+- method records → readable methods with scope, evidence lineage, and counterexamples;
+- graph links → inspectable source/case relationships;
+- evaluation objects → readable scenarios, with hidden answer keys separated where necessary.
+
+### Two distinct planes
+
+The **BFDM research access plane** optimizes for broad discovery, transparency, provenance inspection, exploratory search, reproducibility, and human review.
+
+The **Kit cognition plane** optimizes for bounded context, salience, intent compatibility, latency, permissions, and structured precedent retrieval.
+
+The cognitive runtime must never become the only practical way to interrogate the archive.
+
+### Acceptance test
+
+A researcher with repository access but without Kit, a vector database, an embedding model, the live cognitive runtime, or knowledge of internal row IDs should still be able to search for a name, phrase, concept, mechanic, or idea and reach readable source context with stable provenance.
+
+If that fails, the corpus is not sufficiently observable even if the underlying data technically exists.
