@@ -1,0 +1,35 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000078",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Crafting with Class (Public Doc)",
+  "source_role": "public_rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Crafting with Class (Public Doc).docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-20T23:10:59.985Z",
+  "modified_at": "2020-08-22T08:54:39.484Z",
+  "ingested_at": "2026-10-04T18:30:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Explicit byline in source: Rob Hubbard, Brendon Faulkner, Noah Carr.",
+    "project_ownership_context": "Roanoke Season 3 crafting-system public rules."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1KzG9w3BzqqLqjjVXtRdleyR7JlCYQV8t6vYqVdNYjsQ",
+      "url": "https://docs.google.com/document/d/1KzG9w3BzqqLqjjVXtRdleyR7JlCYQV8t6vYqVdNYjsQ/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}
