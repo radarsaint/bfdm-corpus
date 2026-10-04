@@ -1,0 +1,42 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000090",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Golden Dawn quest arc",
+  "source_role": "quest_arc_design",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-golden-dawn",
+  "original_filename": "Golden Dawn quest arc.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-16T03:41:07.254Z",
+  "modified_at": "2020-07-28T05:05:55.264Z",
+  "ingested_at": "2026-10-04T19:35:00Z",
+  "authorship": {
+    "status": "OTHER_AUTHOR",
+    "basis": "Drive revision metadata attributes three of four preserved revisions to user 'robdor'; Brendon Faulkner appears in native comments. One revision has no identified modifier.",
+    "project_ownership_context": "Roanoke Season 3 Golden Dawn quest design."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1buLyesma53pgJ-szB1m3ce91YoTWn0rNef8Dbt1dRJk",
+      "url": "https://docs.google.com/document/d/1buLyesma53pgJ-szB1m3ce91YoTWn0rNef8Dbt1dRJk/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "PROVIDER_ACCESSIBLE_GITHUB_TEXT_MIRROR_BLOCKED_BY_TOOL_GUARD",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "normalization": {
+    "method": "Exact current DOCX export preserved. Human-readable Git mirror deferred because the tool safety layer blocked transfer of the extracted text body.",
+    "tool": "Google Drive connector + GitHub connector",
+    "warnings": [
+      "No source.md mirror exists for this container yet; use native Drive locator or DOCX export until a permitted text-transfer path is available."
+    ]
+  }
+}
