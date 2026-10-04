@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "spellshotwizard",
+  "seed_url": "https://sites.google.com/view/spellshotwizard/home",
+  "role": "wizard_option",
+  "capture_started_from": "https://sites.google.com/view/spellshotwizard/home",
+  "captured_at": "2026-10-04T22:07:29.504417Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/spellshotwizard/home",
+      "fetched_at": "2026-10-04T22:07:29.206591Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/spellshotwizard/home",
+      "title": "Spellshot Wizard.",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/spellshotwizard/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/spellshotwizard/pages/home.md",
+      "sha256_html": "0f52585f80e98ece0f9b588f7a735d29be61d1a3b9f04eb3e83fcf06049a1455",
+      "sha256_text": "87a39b1de6e6d70bf66294310f22c82603cf68241f8b073e3732cc8c516ea31f",
+      "links_all": [
+        "https://sites.google.com/view/spellshotwizard/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/spellshotwizard/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}
