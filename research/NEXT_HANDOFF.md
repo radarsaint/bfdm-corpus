@@ -159,7 +159,7 @@ Temporary branch `analysis/empire-city-distill` was used only to hydrate the LFS
 
 
 ## Point 4 — reconcile the old 51-source staging body into canonical bfdm-corpus
-**Status: IN PROGRESS — audit and migrator complete; binary-safe transfer pending.**
+**Status: IN PROGRESS — exact Library archive recovered and independently validated; binary-safe Git transfer remains pending.**
 
 The 51-record legacy manifest is preserved, but the actual historical source containers/originals/assets remain incompletely reconciled with the canonical private repository.
 
@@ -174,12 +174,21 @@ Requirements:
 The old Library staging archive remains a source for reconciliation, not a competing canonical corpus.
 
 Current audited state:
-- archive SHA-256: `cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a`;
+- exact Library archive recovered: `brendon-corpus-staging.zip`, 86,948,434 bytes;
+- archive SHA-256 independently reverified: `cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a`;
+- archive manifest contains exactly 51 unique BCS records across Roanoke (37), At War's End (8), Bastion/Redoubt (3), Earthfall (2), and Exploration Impossible context (1);
+- all 51 normalized-body hashes match the archive manifest;
+- all 51 original-file hashes match the archive manifest;
+- every declared asset and every declared Brendon-native-comment file is present;
+- 0 missing bundle files and 0 declared-hash mismatches were found;
+- the previously reported 284 pending bundle files are independently reproduced: 51 `source.md`, 51 `metadata.json`, 51 `comments.json`, 5 `brendon-comments.native.json`, 51 originals, and 75 assets;
+- those 284 canonical bundle files total 88,791,012 bytes;
 - 51/51 legacy IDs already exist in the evidence catalog;
 - 0/51 actual source-container bodies are present in canonical `sources/` / `context/`;
-- 284 record files remain pending;
-- `ingest/reconcile_legacy_staging.py` is implemented and tested against the real archive;
-- the remaining blocker is binary-safe transfer into authenticated Git/GitHub, not source identification or reconciliation logic.
+- `ingest/reconcile_legacy_staging.py` remains the canonical checkout migrator;
+- `ingest/audit_legacy_staging_archive.py` now independently validates the staging archive before a checkout is involved and can emit an exact file-level transfer manifest;
+- `research/legacy-staging/TRANSFER_AUDIT_2026-10-04.md` records the recovered-archive and transport state;
+- the remaining blocker is specifically authenticated binary transfer into Git/GitHub. The Work shell has no GitHub credential and no outbound network; the GitHub connector has no local-file/file-reference upload action for arbitrary repository blobs. Source identification, archive identity, layout, and checksums are resolved.
 
 Do not mark Point 4 complete until a final dry-run against the canonical checkout reports all 51 records `ALREADY_RECONCILED`.
 
