@@ -1,0 +1,213 @@
+{
+  "file": "/mnt/data/brendon-corpus-raw/roanoke/RoanokeS3 doc V2 W1.docx",
+  "comment_count": 9,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Noah Carr",
+      "date": "2020-04-14T07:10:54Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Homage to Venrir and his oath after the Death of Machidiel. The Knights du Roi Soleil's highest ranking chapter member is titled as the Eclipse Knight and is granted a protection ward against evil and a boon to help guide the leader to his quest.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Afterwards, Florian stands back up and latches a medallion around his neck displaying an eclipsed sun with a knight’s helmet in the center. He goes to work closing the eyes of his comrades and welcome"
+            },
+            {
+              "where": "end",
+              "text": "Afterwards, Florian stands back up and latches a medallion around his neck displaying an eclipsed sun with a knight’s helmet in the center. He goes to work closing the eyes of his comrades and welcome"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "author": "Noah Carr",
+      "date": "2020-04-17T23:55:47Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Tune is the melody of Blackheart by Two Steps from Hell",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "[Players presumably accept the quest] [Relic of musical note puzzle for final relic]"
+            },
+            {
+              "where": "end",
+              "text": "[Players presumably accept the quest] [Relic of musical note puzzle for final relic]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "author": "Noah Carr",
+      "date": "2020-04-18T05:16:06Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Underground ambient music",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "https://open.spotify.com/playlist/5Qhtamj9NCxluijLnQ4edN?si=QM5VrmhCQceCMhUHpf7OVg"
+            },
+            {
+              "where": "end",
+              "text": "https://open.spotify.com/playlist/5Qhtamj9NCxluijLnQ4edN?si=QM5VrmhCQceCMhUHpf7OVg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "author": "Noah Carr",
+      "date": "2020-04-18T05:17:27Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Sewer ambient noise (Dripping Water, Echoes, Scurrying creatures)",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "https://open.spotify.com/track/5CgVzsuFcHGFlfZ6pq1Nzn?si=qQembLhVRw2WI43zJs-CcQ"
+            },
+            {
+              "where": "end",
+              "text": "https://open.spotify.com/track/5CgVzsuFcHGFlfZ6pq1Nzn?si=qQembLhVRw2WI43zJs-CcQ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "author": "Noah Carr",
+      "date": "2020-04-22T21:34:33Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Florian will always have a natural 1 for initiative to give a mechanical reason that he hasn't attacked/showed off",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Roll Initiative/Proceed with Surprise Round."
+            },
+            {
+              "where": "end",
+              "text": "Roll Initiative/Proceed with Surprise Round."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "author": "Noah Carr",
+      "date": "2020-04-21T23:57:35Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Swarm Of Rats\nMedium swarm of tiny beasts, unaligned\nArmor Class 10\nHit Points 24 (7d8-7)\nSpeed 30 ft.\nSTR\n9 (-1) DEX\n11 (+0) CON\n9 (-1) INT\n2 (-4) WIS\n10 (+0) CHA\n3 (-4)\nDamage Resistance Bludgeoning, Piercing, Slashing\nCondition Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Darkvision 30 Ft., passive Perception 10\nChallenge 1/4 (50 XP)\nKeen Smell. The swarm has advantage on Wisdom (Perception) checks that rely on smell.\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points.\nActions\nBites (swarm has more than half HP). Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. Hit: (2d6) piercing damage.\nBites (swarm has half HP or less). Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. Hit: (1d6) piercing damage.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            },
+            {
+              "where": "end",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "author": "Noah Carr",
+      "date": "2020-04-21T23:58:12Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Stirge\nTiny beast, unaligned\nArmor Class 14 (Natural Armor)\nHit Points 2 (1d4)\nSpeed 10 ft., fly 40 ft.\nSTR\n4 (-3)\nDEX\n16 (+3)\nCON\n11 (+0)\nINT\n2 (-4)\nWIS\n8 (-1)\nCHA\n6 (-2)\nSenses Darkvision 60 ft., Passive Perception 9\nLanguages --\nChallenge 1/8 (25 XP)\nActions\nBlood Drain. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.\nThe stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            },
+            {
+              "where": "end",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "author": "Noah Carr",
+      "date": "2020-04-22T01:00:10Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Swarm Of Bats\nMedium swarm of tiny beasts, unaligned\nArmor Class 12\nHit Points 50 (5d8)\nSpeed 0 ft., fly 30 ft.\nSTR\n5 (-3) DEX\n15 (+2) CON\n10 (+0) INT\n2 (-4) WIS\n12 (+1) CHA\n4 (-3)\nDamage Resistance Bludgeoning, Piercing, Slashing\nCondition Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Blindsight 60 Ft., passive Perception 11\nChallenge 1/4 (50 XP)\nEcholocation. The swarm can't use its blindsight while deafened.\nKeen Hearing. The swarm has advantage on Wisdom (Perception) checks that rely on hearing.\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points.\nActions\nBites (swarm has more than half HP). Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: (2d4) piercing damage.\nBites (swarm has half HP or less). Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: (1d4) piercing damage.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            },
+            {
+              "where": "end",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "author": "Noah Carr",
+      "date": "2020-04-22T00:00:22Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Crocodile\nLarge beast, unaligned\nArmor Class 12 (Natural Armor)\nHit Points 19 (3d10+3)\nSpeed 20 ft., swim 30 ft.\nSTR\n15 (+2) DEX\n10 (+0) CON\n13 (+1) INT\n2 (-4) WIS\n10 (+0) CHA\n5 (-3)\nSkills Stealth +2\nSenses passive Perception 10\nChallenge 1/2 (100 XP)\nHold Breath. The crocodile can hold its breath for 15 minutes.\nActions\nBite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: (1d10 + 2) piercing damage. The target is grappled (escape dc 12) Until this grapple ends, the target is restrained, and the crocodile can't bite another target",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            },
+            {
+              "where": "end",
+              "text": "2-4 Swarms of rats, 3-6 stirges, 1 Entire Colony/Swarm of Bats, 2-5 crocodiles"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

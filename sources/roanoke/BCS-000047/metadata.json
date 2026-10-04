@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000047",
+  "project": "Roanoke",
+  "title": "Roanoke Song.docx",
+  "original_filename": "Roanoke Song.docx",
+  "original_sha256": "e62aa236e975a43ec8116de2417f444cd72ff24e85ff8996b65aca4242ae5f50",
+  "normalized_file": "source.md",
+  "normalized_sha256": "4b08d811bf1ae586fbf3ccedc270970626743056651d64774331ca8f020e47a9",
+  "normalized_line_count": 164,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}
