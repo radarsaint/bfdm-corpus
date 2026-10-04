@@ -1,0 +1,37 @@
+name: Refresh model-facing corpus index
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "discord/**/*.sqlite"
+      - "scripts/export_discord_model_index.py"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+      - name: Export Discord projections
+        run: |
+          set -euo pipefail
+          for db in discord/*/*.sqlite; do
+            [ -f "$db" ] || continue
+            python scripts/export_discord_model_index.py "$db"
+          done
+      - name: Commit changed projections
+        run: |
+          set -euo pipefail
+          git add model-index/discord
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "bfdm-corpus-indexer"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "chore: refresh model-facing Discord index"
+          git push
