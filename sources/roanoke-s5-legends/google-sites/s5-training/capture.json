@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "s5-training",
+  "seed_url": "https://sites.google.com/view/s5-training/home",
+  "role": "training_rules",
+  "capture_started_from": "https://sites.google.com/view/s5-training/home",
+  "captured_at": "2026-10-04T22:07:30.222951Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/s5-training/home",
+      "fetched_at": "2026-10-04T22:07:29.912039Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/s5-training/home",
+      "title": "s5 training",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/s5-training/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/s5-training/pages/home.md",
+      "sha256_html": "208cdfd3d397d8f5b80eb8191f9f8899ffdab8e9fd9ff58c57cc20c1f6155db4",
+      "sha256_text": "a9960bf623e35a442748dbaaa41d09d3d2dff3a38a449e69cc24c084df6cf4f2",
+      "links_all": [
+        "https://sites.google.com/view/s5-training/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/s5-training/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}
