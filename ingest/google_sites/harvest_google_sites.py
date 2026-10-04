@@ -257,6 +257,24 @@ def main() -> int:
         print(f"[harvest] {site['slug']} {site['url']}", flush=True)
         results.append(harvest_site(session, site, output))
 
+    manifest_slugs = {s["slug"] for s in manifest["sites"]}
+    discovered_google_sites = {}
+    for result in results:
+        for page in result.get("pages", []):
+            for link in page.get("links_all", []):
+                match = re.match(r"^https://sites\\.google\\.com/view/([^/]+)(?:/|$)", link)
+                if match and match.group(1) not in manifest_slugs:
+                    discovered_google_sites.setdefault(match.group(1), {
+                        "slug": match.group(1),
+                        "url": f"https://sites.google.com/view/{match.group(1)}/home",
+                        "discovered_from": []
+                    })
+                    discovered_google_sites[match.group(1)]["discovered_from"].append({
+                        "site_slug": result["site_slug"],
+                        "page_url": page["url"],
+                        "link": link
+                    })
+
     summary = {
         "schema_version": "bfdm_google_sites_harvest_report/v1",
         "project_id": manifest["project_id"],
@@ -268,6 +286,7 @@ def main() -> int:
         "pages_attempted": sum(r["page_count_attempted"] for r in results),
         "pages_captured": sum(r["page_count_captured"] for r in results),
         "failures": sum(r["failure_count"] for r in results),
+        "discovered_google_sites_not_in_manifest": sorted(discovered_google_sites.values(), key=lambda x: x["slug"]),
         "sites": [
             {
                 "site_slug": r["site_slug"],
@@ -304,6 +323,14 @@ def main() -> int:
             f"{r['page_count_captured']}/{r['page_count_attempted']} | "
             f"{r['failure_count']} | {r['role']} |"
         )
+    rows += ["", "## Google Sites discovered outside manifest", ""]
+    if summary["discovered_google_sites_not_in_manifest"]:
+        for item in summary["discovered_google_sites_not_in_manifest"]:
+            origins = ", ".join(sorted({x["site_slug"] for x in item["discovered_from"]}))
+            rows.append(f"- \`{item['slug']}\`: {item['url']} (linked from: {origins})")
+    else:
+        rows.append("- None. The manifest covers every Google Sites /view/ namespace linked by the captured pages.")
+
     rows += [
         "",
         "## Evidence boundary",
