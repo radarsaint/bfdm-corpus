@@ -1,0 +1,35 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000085",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Player backgrounds",
+  "source_role": "player_background_design",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-player-backgrounds",
+  "original_filename": "Player backgrounds.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-12T20:48:08.246Z",
+  "modified_at": "2020-04-28T23:13:08.693Z",
+  "ingested_at": "2026-10-04T19:10:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Roanoke S3 Directory credits Player Backgrounds to Brendon Faulkner and Jack Warren.",
+    "project_ownership_context": "Roanoke Season 3 player-background design."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1nytbHJ9gMKpBdYAW9V4DlamAoB3TaO9rqQjgJ1BqkgY",
+      "url": "https://docs.google.com/document/d/1nytbHJ9gMKpBdYAW9V4DlamAoB3TaO9rqQjgJ1BqkgY/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}
