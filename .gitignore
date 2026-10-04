@@ -4,3 +4,7 @@
 *.sqlite-wal
 *.sqlite-shm
 .DS_Store
+.cache/
+__pycache__/
+*.pyc
+indexes/.discord-export-*/

@@ -78,3 +78,7 @@ but must preserve support references and avoid replacing source evidence with re
 ## Point 3 structured fields
 
 Project records now expose canonical names, aliases, source-activity dates versus live windows, synchronous/asynchronous play, DM model, project-specific scale fields, primary Discord server IDs/slugs, source relationships, staff references, coverage, uncertainties, and developmental ordering. `ordering.development_index` is chronology, not a quality or importance score.
+
+## Discord character aliases
+
+`discord_entities.jsonl` contains small, campaign/server-scoped character alias assertions with native source-message support. These are retrieval keys, not new corpus/evidence IDs or character summaries. Multiple entities may share an alias: consumers must return all candidates and preserve ambiguity. Never treat an account identity as a character identity; one author can play several characters. The exporter validates every supporting message and adds links into generated shards.

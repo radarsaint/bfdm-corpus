@@ -1,0 +1,39 @@
+name: Rebuild Discord retrieval
+on:
+  workflow_dispatch:
+  push:
+    branches: ['ingest/discord-retrieval-v1']
+    paths:
+      - 'retrieval/discord_search.py'
+      - '.github/workflows/rebuild-discord-retrieval.yml'
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: git lfs pull --include='discord/*/*.sqlite' --exclude=''
+      - run: python -m unittest discover -s retrieval/tests -v
+      - run: python -m retrieval.discord_search export
+      - run: python -m retrieval.discord_search verify
+      - run: python -m retrieval.discord_search build-index
+      - run: python -m retrieval.acceptance
+      - name: Commit generated text to the selected branch
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add indexes/discord
+          if ! git diff --cached --quiet; then
+            git commit -q -m 'Rebuild model-facing Discord retrieval from canonical archives'
+            git push origin "HEAD:refs/heads/$TARGET_BRANCH"
+          fi

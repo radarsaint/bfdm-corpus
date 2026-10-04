@@ -2,7 +2,7 @@
 
 ## Purpose
 
-bfdm-corpus is the canonical private archive and research environment for Brendon's D&D creative body of work and the live-play context around it.
+bfdm-corpus is the canonical archive and research environment for Brendon's D&D creative body of work and the live-play context around it.
 
 It is broader than:
 - a Discord archive
@@ -113,7 +113,7 @@ Do not average these into one timeless persona.
 
 ## Privacy and attribution
 
-The archive contains other people's messages and collaborative work.
+The archive contains other people's messages and collaborative work. Current repository access follows the owner decision recorded in README.md; historical private-source labels do not override that decision.
 
 Private storage does not remove the need for:
 - correct authorship

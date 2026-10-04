@@ -1,0 +1,38 @@
+name: Discord retrieval
+on:
+  pull_request:
+    paths:
+      - 'retrieval/**'
+      - 'indexes/discord/**'
+      - 'discord/*/*.sqlite'
+      - 'registry/discord_entities.jsonl'
+      - 'registry/discord_servers.jsonl'
+      - 'registry/projects.jsonl'
+      - '.github/workflows/discord-retrieval.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'retrieval/**'
+      - 'indexes/discord/**'
+      - 'discord/*/*.sqlite'
+      - 'registry/discord_entities.jsonl'
+      - 'registry/discord_servers.jsonl'
+      - 'registry/projects.jsonl'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  retrieval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s retrieval/tests -v
+      - run: python -m retrieval.discord_search check-freshness
+      - run: python -m retrieval.discord_search build-index
+      - run: python -m retrieval.acceptance

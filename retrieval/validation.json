@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-04",
+  "base_commit": "d69a773215d7806b920514052f02a346aae67333",
+  "unit_tests": {
+    "passed": 13
+  },
+  "source_parity": {
+    "messages": {
+      "empire-city": 189761,
+      "empire-city-dev": 12692,
+      "roanoke-season-3": 197013
+    },
+    "verified_files": 13018
+  },
+  "determinism": {
+    "passed": true,
+    "identical_files": 13057,
+    "bytes": 319848871
+  },
+  "acceptance": {
+    "alias_support_messages": [
+      "735158331332624514",
+      "739533579134042193"
+    ],
+    "attachment_id": "737113252395352184",
+    "attachment_message_id": "737113252726702111",
+    "canonical_sqlite_required_by_consumer": false,
+    "channel_author_hits": 2,
+    "connector_navigation": "PASS (ordinary text files only)",
+    "exact_phrase_hits": 6,
+    "gil_hits": 1268,
+    "passed": true,
+    "sandigil_hits": 1268
+  },
+  "attachment_lfs_oid_parity": {
+    "empire-city": 3528,
+    "empire-city-dev": 639,
+    "roanoke-season-3": 1421
+  },
+  "access": "Owner-authorized public repository; no other publication destination",
+  "canonical_archives_modified": false,
+  "new_bcs_bce_bcr_ids": 0,
+  "publication": {
+    "implementation_commit": "a8d0dab91f7dae5fcc071e75dabd1136037b795c",
+    "state": "OWNER_AUTHORIZED_PENDING_PUBLICATION",
+    "reason": "Owner explicitly authorized the generated text index publication to the currently public repository on 2026-10-04",
+    "remote_branch_exists": false,
+    "pr": null,
+    "remote_connector_test": "NOT_RUN",
+    "actions_ci": "NOT_RUN"
+  }
+}
