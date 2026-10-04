@@ -883,3 +883,102 @@ The strongest evidence points toward:
 Kit can still appear to the player as one Dungeon Master.
 
 The complexity belongs behind the screen.
+
+
+## 22. Provenance, permissions, and the private-to-portable boundary
+
+The private BFDM corpus creates an additional requirement that ordinary agent-memory benchmarks often ignore: some knowledge may be useful to Kit while the underlying evidence remains private, person-specific, or inappropriate to expose in another user's game.
+
+Recent work strengthens the case for making provenance operational rather than decorative.
+
+### SEEM
+
+Structured Episodic Event Memory (SEEM) converts interaction streams into structured Episodic Event Frames anchored by precise provenance pointers, then reconstructs broader narrative context through graph/episode interaction and reverse provenance expansion.
+
+Source:
+- Lu et al., "Structured Episodic Event Memory," ACL 2026.
+- https://aclanthology.org/2026.acl-long.277/
+
+**Steal:** episodes and distilled knowledge should maintain machine-readable pointers back to the evidence/cases they were derived from.
+
+### MemORAI
+
+MemORAI uses a provenance-enriched multi-relational graph with factual origins tracked at turn level and query-adaptive subgraph retrieval.
+
+Source:
+- Pham Van et al., "MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents," Findings ACL 2026.
+- https://aclanthology.org/2026.findings-acl.1408/
+
+**Steal:** provenance should coexist with relationships and query-time retrieval rather than being stored in a disconnected citation table.
+
+### Hindsight
+
+Hindsight separates world, experience, observation, and opinion networks, making objective fact versus subjective belief explicit.
+
+Source:
+- Latimer et al., "Hindsight: Structured Agent Memory that Retains, Recalls, and Reflects," ACL 2026 Demo.
+- https://aclanthology.org/2026.acl-demo.27/
+
+**Steal:** Kit should not flatten world fact, player/NPC belief, Kit hypothesis, director preference, and research conclusion. These should be separately typed and carry confidence/source lineage.
+
+### MAP-Graph / permission-aware provenance
+
+MAP-Graph is recent preprint work exploring provenance-aware shared memory where ancestry, permissions, trust, and action risk participate directly in retrieval/action gating.
+
+Source:
+- Wang et al., "MAP-Graph: Provenance-Aware Shared Memory for Multi-Agent Workflows," 2026.
+- https://arxiv.org/abs/2608.10509
+
+This is not mature enough to adopt wholesale, but the design question is directly relevant.
+
+### Security implication
+
+Research on tool-using agents has demonstrated that agents with memory-access tools can become data-exfiltration surfaces.
+
+Source:
+- Zhang and Pei, "Your LLM Agent Can Leak Your Data: Data Exfiltration via Backdoored Tool Use," Findings ACL 2026.
+- https://aclanthology.org/2026.findings-acl.1257/
+
+Therefore the BFDM-to-Kit boundary should not rely only on prompting Kit "not to reveal private history."
+
+A portable runtime should receive sanitized methods, abstract precedents, approved concepts, and privacy-safe provenance handles. Direct raw BFDM access, when used for research/director work, should be a separately permissioned capability.
+
+### Proposed provenance fields for exported cognition
+
+Every distilled object should be capable of carrying:
+- `knowledge_id`
+- `knowledge_type`
+- `visibility_scope`
+- `derived_from_private`
+- `evidence_handles` (resolvable only in privileged research context)
+- `confidence`
+- `review_status`
+- `created_by_process`
+- `last_reviewed`
+- `supersedes`
+- `allowed_use_modes`
+- `redaction/sanitization_version`
+
+This permits Kit to use a professional lesson without exposing the historical private incident that produced it.
+
+## 23. Revised principle: provenance is part of cognition
+
+For Kit, provenance serves at least four functions:
+1. **truth support** — why should this fact or method be trusted?
+2. **scope** — is this historical Brendon-specific evidence, portable professional knowledge, or current campaign truth?
+3. **permissions** — may this information be used or surfaced in the present context?
+4. **revision** — when a method is challenged, which underlying cases must be re-examined?
+
+This means provenance belongs in the cognitive data model, not only in BFDM's archive layer.
+
+## 24. Additional research implication
+
+The BFDM research program should test whether a distilled method remains useful **after historical names, campaign lore, and private source text are removed**.
+
+If utility collapses after sanitization, we have probably encoded anecdote rather than transferable expertise.
+
+A useful export test is:
+
+> Can Kit apply the derived method to a structurally similar synthetic or unrelated D&D situation without access to the original campaign nouns?
+
+That should become part of methodology validation before a BFDM finding graduates into portable Kit cognition.
