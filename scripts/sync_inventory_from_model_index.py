@@ -10,8 +10,13 @@ REG=Path("registry/discord_servers.jsonl")
 ROOT=Path("model-index/discord")
 
 def rows(path):
-    if not path.exists(): return []
-    return [json.loads(x) for x in path.read_text(encoding="utf-8").splitlines() if x.strip()]
+    if not path.exists():
+        return []
+    text=path.read_text(encoding="utf-8")
+    # Tolerate the original seed file's accidental literal "\\n" EOF marker.
+    if "\n" not in text and text.endswith("\\n"):
+        text=text[:-2]+"\n"
+    return [json.loads(x) for x in text.splitlines() if x.strip()]
 
 def is_lfs_pointer(path: Path) -> bool:
     try:
