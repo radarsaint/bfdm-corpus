@@ -1,41 +1,58 @@
 {
-  "schema_version": "bfdm_google_site_capture/v1",
-  "project_id": "roanoke-s5-legends",
-  "source_family": "season-5-google-sites",
-  "site_slug": "homebrew-spells",
-  "seed_url": "https://sites.google.com/view/homebrew-spells/home",
-  "role": "homebrew_spells",
-  "capture_started_from": "https://sites.google.com/view/homebrew-spells/home",
-  "captured_at": "2026-10-04T22:07:28.812369Z",
-  "status": "CAPTURED",
-  "page_count_attempted": 1,
-  "page_count_captured": 1,
-  "failure_count": 0,
-  "page_limit": 250,
-  "pages": [
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000093",
+  "project": "Roanoke Season 5 / Legends",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Blood Magic",
+  "source_role": "homebrew_spells",
+  "source_kind": "google_sites_publication",
+  "document_family_id": null,
+  "original_filename": null,
+  "mime_type": "text/html",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-04T22:07:35Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Published Season 5 player-facing source. Whole-page authorship is not established from publication ownership alone.",
+    "project_ownership_context": "Roanoke Season 5 / Legends player-facing Google Sites publication layer."
+  },
+  "locators": [
     {
-      "url": "https://sites.google.com/view/homebrew-spells/home",
-      "fetched_at": "2026-10-04T22:07:28.439149Z",
-      "http_status": 200,
-      "final_url": "https://sites.google.com/view/homebrew-spells/home",
-      "title": "Blood Magic",
-      "raw_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/raw/home.html",
-      "text_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/pages/home.md",
-      "sha256_html": "8475cd31030c821e99fd8befa75bc4e4f7a8b6455d91d02ffc7b0db0dae6562b",
-      "sha256_text": "e82be2bc285dd2f1c67729c540416b6625255629026ab32fac2d3fe161dc3ce2",
-      "links_all": [
-        "https://sites.google.com/view/homebrew-spells/home"
-      ],
-      "links_same_site": [
-        "https://sites.google.com/view/homebrew-spells/home"
-      ],
-      "google_drive_links": [],
-      "error": null
+      "provider": "google_sites",
+      "locator_type": "public_site_page",
+      "native_id": "homebrew-spells",
+      "url": "https://sites.google.com/view/homebrew-spells/home"
     }
   ],
-  "limitations": [
-    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
-    "Publication is evidence of player-facing implementation state, not proof of live use."
-  ]
+  "representations": [
+    {
+      "kind": "RAW_HTTP_HTML",
+      "path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/raw/home.html",
+      "sha256": "8475cd31030c821e99fd8befa75bc4e4f7a8b6455d91d02ffc7b0db0dae6562b",
+      "mime_type": "text/html"
+    },
+    {
+      "kind": "NORMALIZED_READABLE_MARKDOWN",
+      "path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/pages/home.md",
+      "sha256": "e82be2bc285dd2f1c67729c540416b6625255629026ab32fac2d3fe161dc3ce2",
+      "mime_type": "text/markdown"
+    }
+  ],
+  "normalization": {
+    "method": "Google Sites HTML visible-text extraction with capture header; raw HTML retained separately.",
+    "tool": "ingest/google_sites/harvest_google_sites.py",
+    "warnings": [
+      "Dynamic embedded assets may require separate provider capture; raw page HTML and source locator are retained."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_RAW_HTML_AND_NORMALIZED_TEXT",
+    "comments": "NOT_APPLICABLE_OR_NOT_EXPOSED_BY_PUBLIC_SITE",
+    "revision_metadata": "NOT_EXPOSED_BY_PUBLIC_SITE_CAPTURE",
+    "revision_bodies": "NOT_EXPOSED_BY_PUBLIC_SITE_CAPTURE",
+    "assets": "PAGE_HTML_CAPTURED; EMBEDDED_BINARY_ASSETS_NOT_SYSTEMATICALLY_ARCHIVED"
+  },
+  "capture_metadata_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/capture.json",
+  "source_links": []
 }
