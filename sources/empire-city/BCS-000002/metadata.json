@@ -1,0 +1,90 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000002",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Draft to do list",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Draft to do list.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-01-07T00:49:38.570Z",
+  "modified_at": "2021-01-07T01:03:26.733Z",
+  "ingested_at": "2026-10-03T19:58:00-07:00",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Whole-document authorship not established by current evidence; native Drive identity verified against the existing Library import.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1tpwRTozhJZQ5ffCWlXJoEUwmF1WJ7ZC7QIpDw28VPQ8",
+      "url": "https://docs.google.com/document/d/1tpwRTozhJZQ5ffCWlXJoEUwmF1WJ7ZC7QIpDw28VPQ8/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_041b29c026c081919f79ec125ef9fd13",
+      "source_path": "/Dnd solo source imports/Empire City/Draft to do list.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000002/source.md",
+      "sha256": "28717b378b9c5ccdfb7f8c0892829d3d409eef3bedf90bb742e3a823c83de212",
+      "mime_type": "text/plain",
+      "size_bytes": 778,
+      "provider_revision_id": "374"
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000002/original/source.docx",
+      "sha256": "645ec93f296da65c62b934425fc40988f716ee90659c3d4ea75704e4431e25f1",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7353,
+      "provider_revision_id": "374"
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/empire-city/BCS-000002/revisions.jsonl",
+      "sha256": "7c9b899632d4de41858667034da7caf01a4fe73a5c8fda32bcad7818b3eff9ff",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 1166,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_BODY",
+      "path": "sources/empire-city/BCS-000002/revisions/1.md",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "mime_type": "text/plain",
+      "size_bytes": null,
+      "provider_revision_id": "1"
+    },
+    {
+      "kind": "REVISION_BODY",
+      "path": "sources/empire-city/BCS-000002/revisions/374.md",
+      "sha256": "28717b378b9c5ccdfb7f8c0892829d3d409eef3bedf90bb742e3a823c83de212",
+      "mime_type": "text/plain",
+      "size_bytes": null,
+      "provider_revision_id": "374"
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some Google Docs visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "CAPTURED_ALL_LISTED",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}
