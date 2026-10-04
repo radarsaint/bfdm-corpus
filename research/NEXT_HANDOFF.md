@@ -188,3 +188,20 @@ Historical integration branch:
 
 Merged PR:
 - #5 — Organize current BFDM research and Kit evaluation
+
+
+## Season 5 / Legends source integration
+**Status: GOOGLE SITES CANONICALLY INTEGRATED; DEV DISCORD PENDING.**
+
+Current canonical source chain:
+- existing Season 5 Drive planning anchors in `registry/projects.jsonl`;
+- `BCS-000113` — S5 Site Changelog / To Change;
+- `BCS-000087`–`BCS-000112` — 26 linked player-facing Google Sites;
+- `BCS-000114` — Way of Gun Fu Drive version-family source.
+
+The Google Sites are no longer merely a source-lead archive: each has canonical BCS metadata/catalog admission, raw + normalized representations, project-registry anchors, chronology/coverage integration, and preserved capture metadata.
+
+BCS IDs `000069`–`000086` remain reserved because they are already allocated on active branch `ingest/drive-project-v3`; the Season 5 integration starts at `BCS-000087` to avoid collision.
+
+Do not infer live use from publication. Next high-value step after the Season 5 dev Discord lands is:
+`Drive planning -> dev deliberation -> Site changelog/revision -> published Site -> partial live evidence`.

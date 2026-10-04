@@ -60,6 +60,27 @@ Known harvest:
 
 The server explicitly identifies the campaign as **Season 4, Empire City**. The observed server range is not treated as the campaign live window. Brendon's account mapping is now confirmed from the server users table by immutable Discord user ID `313689699627696139`.
 
+## Roanoke Season 5 / Legends — Drive + Google Sites
+
+Canonical project: `roanoke-s5-legends`.
+
+The player-facing Google Sites publication layer is now canonically admitted rather than preserved only as a source lead:
+
+- 26 linked Google Sites namespaces captured;
+- 26/26 seed pages fetched successfully;
+- zero fetch failures in the final harvest;
+- raw HTML and normalized readable Markdown retained for every site;
+- BCS range `BCS-000087`–`BCS-000112` assigned to the 26 published Sites;
+- `BCS-000113` preserves **S5 Site Changelog / To Change**, the July 2023 revision/proofing bridge;
+- `BCS-000114` preserves the readable Drive extraction of **Subclass - Monk - The Way of Gun Fu - The Homebrewery.pdf** and links it to the published Monk version family.
+
+The published landing page states that signups were limited to 30 spots, servers opened July 28, and advertised game dates ran July 30 through August 19. The page itself does not state the year; the 2023 year is a strong chronology inference from the contemporaneous July 2023 Site changelog and Season 5 planning cluster.
+
+This source family provides strong evidence for **published/player-facing implementation state**. It does not establish that every published rule was used, or that the campaign completed its advertised schedule.
+
+Season 5 development Discord coverage remains pending canonical ingest/registration.
+
+
 ## Google Drive / project corpus
 
 Connected Drive contains a much broader creative record than S3 alone, including:

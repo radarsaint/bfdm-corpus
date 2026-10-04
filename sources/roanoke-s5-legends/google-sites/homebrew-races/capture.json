@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "homebrew-races",
+  "seed_url": "https://sites.google.com/view/homebrew-races/home",
+  "role": "race_options",
+  "capture_started_from": "https://sites.google.com/view/homebrew-races/home",
+  "captured_at": "2026-10-04T22:07:34.210322Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/homebrew-races/home",
+      "fetched_at": "2026-10-04T22:07:33.798141Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/homebrew-races/home",
+      "title": "Homebrew Races.",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/homebrew-races/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/homebrew-races/pages/home.md",
+      "sha256_html": "d4c3d8a540bf8d846fe5ba9c1960fa15c4a34a54ca4f58efda4fc50773c8ddfa",
+      "sha256_text": "fbe66ba1a9b51dd032f8d79a02ec03b49bee484017a38ad4a3e2c0cf6e6eb305",
+      "links_all": [
+        "https://sites.google.com/view/homebrew-races/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/homebrew-races/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

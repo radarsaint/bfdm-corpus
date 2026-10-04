@@ -1,0 +1,52 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000114",
+  "project": "Roanoke Season 5 / Legends",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Subclass - Monk - The Way of Gun Fu - The Homebrewery.pdf",
+  "source_role": "subclass_design_source",
+  "source_kind": "google_drive_pdf",
+  "document_family_id": "roanoke-s5-way-of-gun-fu",
+  "original_filename": "Subclass - Monk - The Way of Gun Fu - The Homebrewery.pdf",
+  "mime_type": "application/pdf",
+  "created_at": "2022-03-24T05:59:15.533Z",
+  "modified_at": "2022-03-24T06:05:32.068Z",
+  "ingested_at": "2026-10-04T22:07:35Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Connected Drive source in the Season 5 source family; sole authorship is not established.",
+    "project_ownership_context": "Way of Gun Fu subclass source/version family."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1qL8Q1E4gnDwlk37uOAXjk9A2cMEdHI6l",
+      "url": "https://drive.google.com/file/d/1qL8Q1E4gnDwlk37uOAXjk9A2cMEdHI6l/view?usp=drivesdk"
+    }
+  ],
+  "representations": [],
+  "normalization": {
+    "method": "Readable text extraction returned by connected Google Drive.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Original PDF bytes remain provider-side and should be captured in a later binary-safe Drive reconciliation pass.",
+      "Representation checksum will be backfilled during index consolidation."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_TEXT_EXTRACTION",
+    "comments": "NOT_APPLICABLE_OR_NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED_THIS_PASS",
+    "revision_bodies": "NOT_CAPTURED_THIS_PASS",
+    "assets": "ORIGINAL_PDF_PROVIDER_SIDE_NOT_COPIED_THIS_PASS"
+  },
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "to_corpus_id": "BCS-000110",
+      "basis": "Matching Way of Gun Fu subclass content in the published Season 5 Monk page.",
+      "confidence": "STRONG"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ This directory preserves the known public Google Sites publication layer for `ro
 ## Capture
 
 - 26 linked Google Sites namespaces are in the manifest.
+- Canonical BCS IDs are `BCS-000087`–`BCS-000112`.
 - 26/26 seed pages were fetched successfully on 2026-10-04.
 - Fetch failures: 0.
 - The final link-graph check found no Google Sites `/view/` namespaces linked by captured pages that were absent from the manifest.
@@ -25,7 +26,8 @@ Each site directory contains:
 
 - `raw/` — source-faithful HTTP HTML snapshot.
 - `pages/` — normalized readable Markdown for search/research.
-- `metadata.json` — page URL, final URL, HTTP status, retrieval time, SHA-256 hashes, same-site links, outbound links, and exposed Google Drive/Docs links.
+- `capture.json` — original harvester metadata: page URL, final URL, HTTP status, retrieval time, SHA-256 hashes, same-site links, outbound links, and exposed Google Drive/Docs links.
+- `metadata.json` — canonical `bfdm_source_metadata/v1` BCS metadata used by the corpus ingestion/provenance layer.
 - `README.md` — site-level capture summary.
 
 The raw HTML is the preserved web-source snapshot. The Markdown mirror is a retrieval aid and must not silently replace the raw source when exact presentation or embedding matters.

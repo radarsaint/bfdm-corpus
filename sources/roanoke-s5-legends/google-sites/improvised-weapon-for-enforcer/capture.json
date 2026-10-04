@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "improvised-weapon-for-enforcer",
+  "seed_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+  "role": "enforcer_rule_option",
+  "capture_started_from": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+  "captured_at": "2026-10-04T22:07:32.421221Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+      "fetched_at": "2026-10-04T22:07:31.883171Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+      "title": "Improvised weapon for enforcers s5",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/pages/home.md",
+      "sha256_html": "af419832d95499b1fa778f116fc9ba148b08812260eb28f8dbe070961d064f0c",
+      "sha256_text": "dc5e6cf035932b49ad7626ac0269582d642adaafa70d14c391138a309d7fed4f",
+      "links_all": [
+        "https://sites.google.com/view/improvised-weapon-for-enforcer/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/improvised-weapon-for-enforcer/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

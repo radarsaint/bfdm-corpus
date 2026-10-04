@@ -1,41 +1,58 @@
 {
-  "schema_version": "bfdm_google_site_capture/v1",
-  "project_id": "roanoke-s5-legends",
-  "source_family": "season-5-google-sites",
-  "site_slug": "s5warlockoptions",
-  "seed_url": "https://sites.google.com/view/s5warlockoptions/home",
-  "role": "warlock_options",
-  "capture_started_from": "https://sites.google.com/view/s5warlockoptions/home",
-  "captured_at": "2026-10-04T22:07:30.658532Z",
-  "status": "CAPTURED",
-  "page_count_attempted": 1,
-  "page_count_captured": 1,
-  "failure_count": 0,
-  "page_limit": 250,
-  "pages": [
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000098",
+  "project": "Roanoke Season 5 / Legends",
+  "project_slug": "roanoke-s5-legends",
+  "title": "s5 warlock options",
+  "source_role": "warlock_options",
+  "source_kind": "google_sites_publication",
+  "document_family_id": null,
+  "original_filename": null,
+  "mime_type": "text/html",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-04T22:07:35Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Published Season 5 player-facing source. Whole-page authorship is not established from publication ownership alone.",
+    "project_ownership_context": "Roanoke Season 5 / Legends player-facing Google Sites publication layer."
+  },
+  "locators": [
     {
-      "url": "https://sites.google.com/view/s5warlockoptions/home",
-      "fetched_at": "2026-10-04T22:07:30.223700Z",
-      "http_status": 200,
-      "final_url": "https://sites.google.com/view/s5warlockoptions/home",
-      "title": "s5 warlock options",
-      "raw_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/raw/home.html",
-      "text_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/pages/home.md",
-      "sha256_html": "5f06c2e2b6ad185bf1246746af964d2210093edc8693916785664ef7d12405d2",
-      "sha256_text": "4af8cbc26ebb7c3ab9999336eea35baa8eb2fc18113ac8b690dfb1938945579b",
-      "links_all": [
-        "https://sites.google.com/view/s5warlockoptions/home"
-      ],
-      "links_same_site": [
-        "https://sites.google.com/view/s5warlockoptions/home"
-      ],
-      "google_drive_links": [],
-      "error": null
+      "provider": "google_sites",
+      "locator_type": "public_site_page",
+      "native_id": "s5warlockoptions",
+      "url": "https://sites.google.com/view/s5warlockoptions/home"
     }
   ],
-  "limitations": [
-    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
-    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
-    "Publication is evidence of player-facing implementation state, not proof of live use."
-  ]
+  "representations": [
+    {
+      "kind": "RAW_HTTP_HTML",
+      "path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/raw/home.html",
+      "sha256": "5f06c2e2b6ad185bf1246746af964d2210093edc8693916785664ef7d12405d2",
+      "mime_type": "text/html"
+    },
+    {
+      "kind": "NORMALIZED_READABLE_MARKDOWN",
+      "path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/pages/home.md",
+      "sha256": "8972004017a4ac558d60a9d06715f887374ee3f2dc0758725980cd9f33c9c775",
+      "mime_type": "text/markdown"
+    }
+  ],
+  "normalization": {
+    "method": "Google Sites HTML visible-text extraction with capture header; raw HTML retained separately.",
+    "tool": "ingest/google_sites/harvest_google_sites.py",
+    "warnings": [
+      "Dynamic embedded assets may require separate provider capture; raw page HTML and source locator are retained."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_RAW_HTML_AND_NORMALIZED_TEXT",
+    "comments": "NOT_APPLICABLE_OR_NOT_EXPOSED_BY_PUBLIC_SITE",
+    "revision_metadata": "NOT_EXPOSED_BY_PUBLIC_SITE_CAPTURE",
+    "revision_bodies": "NOT_EXPOSED_BY_PUBLIC_SITE_CAPTURE",
+    "assets": "PAGE_HTML_CAPTURED; EMBEDDED_BINARY_ASSETS_NOT_SYSTEMATICALLY_ARCHIVED"
+  },
+  "capture_metadata_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/capture.json",
+  "source_links": []
 }
