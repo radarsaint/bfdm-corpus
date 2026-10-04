@@ -6,6 +6,8 @@
 **Canonical world URL:** `https://www.worldanvil.com/w/tales-from-aracania-roanokerpg`  
 **Empire City campaign dashboard UUID:** `d330377d-a94e-46d0-9a5b-6389dc6a4523`  
 **Known public campaign URL:** `https://www.worldanvil.com/epic/EmpireCity`  
+**Known public article:** `https://www.worldanvil.com/w/tales-from-aracania-roanokerpg/a/a-brief-introduction-to-empire-city-article`  
+**Known world map:** `https://www.worldanvil.com/w/tales-from-aracania-roanokerpg/map/e72022ed-db53-4a53-88ca-7fce26fe6c15`  
 **Admission status:** discovery lead only; do not allocate a BCS ID until the World Anvil world/article identities and authorship/provenance boundaries are resolved.
 
 ## What is currently confirmed
@@ -55,9 +57,23 @@ It may also provide a public-facing bridge among the existing Arcania source fam
 - 2021 Empire City / S4;
 - later Arcania setting-book work.
 
+## Preferred acquisition path
+
+World Anvil provides an owner-controlled **Export World** function. Its advanced export can produce a structured ZIP containing world metadata/content serialized as JSON plus a basic human-readable HTML representation. This is preferable to reconstructing the source family from search-engine crawl fragments because it preserves the owner's world as a coherent package and gives BFDM both machine-readable and human-readable representations.
+
+Preferred workflow:
+1. obtain a World Anvil owner export for **Tales from Aracania**;
+2. preserve the original export ZIP unchanged as the source-faithful representation;
+3. inventory its objects and native identifiers before allocating BCS IDs;
+4. preserve the supplied JSON as machine-readable provider data rather than creating a competing canonical rewrite;
+5. preserve/extract the supplied HTML as the human-readable representation;
+6. deduplicate exported objects against existing Drive/public-export material;
+7. retain public URLs such as the article and map deep-links as provider locators;
+8. keep private/draft/public state and chronology where the export exposes them.
+
 ## Required archival pass
 
-When the World Anvil surface can be crawled reliably:
+After export acquisition (or, failing that, when the public World Anvil surface can be crawled reliably):
 
 1. enumerate all accessible articles, timelines, maps, images, campaign pages, character pages, handouts, and other public records;
 2. preserve article title, canonical URL/native identifier, publication/update timestamps when exposed, category/folder structure, and outbound/internal relationships;
@@ -74,7 +90,8 @@ Testing on 2026-10-04 found:
 - the authenticated `/heroes/.../dashboard` surface is not publicly crawlable;
 - the public `/epic/EmpireCity` campaign page is indexed and readable through search results;
 - exact-title searches for the visible Empire City lore links currently collapse back to the campaign page rather than exposing the underlying article URLs;
-- generic site search does not yet enumerate the broader `tales-from-aracania-roanokerpg` article graph.
+- generic site search does not yet enumerate the broader `tales-from-aracania-roanokerpg` article graph;
+- a direct public article deep-link and a direct map deep-link are now known, but the research fetch path still receives World Anvil cache misses on those object pages.
 
 This is an access/discovery limitation, not evidence that the underlying World Anvil articles are absent.
 
