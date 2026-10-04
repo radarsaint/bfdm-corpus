@@ -1,0 +1,249 @@
+{
+  "schema_version": "bfdm_google_sites_harvest_report/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "completed_at": "2026-10-04T22:07:35.871915Z",
+  "site_count": 26,
+  "sites_captured": 26,
+  "sites_failed": 0,
+  "pages_attempted": 26,
+  "pages_captured": 26,
+  "failures": 0,
+  "discovered_google_sites_not_in_manifest": [],
+  "sites": [
+    {
+      "site_slug": "catalogs5",
+      "seed_url": "https://sites.google.com/view/catalogs5/home",
+      "role": "items_equipment_catalog",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5backgrounds",
+      "seed_url": "https://sites.google.com/view/s5backgrounds/home",
+      "role": "backgrounds_character_creation",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5mining",
+      "seed_url": "https://sites.google.com/view/s5mining/home",
+      "role": "life_path_mining",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "lifepathrancher",
+      "seed_url": "https://sites.google.com/view/lifepathrancher/home",
+      "role": "life_path_rancher",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "day-1s5",
+      "seed_url": "https://sites.google.com/view/day-1s5/home",
+      "role": "day_one_player_facing",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5bardcolleges",
+      "seed_url": "https://sites.google.com/view/s5bardcolleges/home",
+      "role": "bard_options",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "homebrew-spells",
+      "seed_url": "https://sites.google.com/view/homebrew-spells/home",
+      "role": "homebrew_spells",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "harbingers5",
+      "seed_url": "https://sites.google.com/view/harbingers5/home",
+      "role": "character_option_verify",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "spellshotwizard",
+      "seed_url": "https://sites.google.com/view/spellshotwizard/home",
+      "role": "wizard_option",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "lifepathgambler",
+      "seed_url": "https://sites.google.com/view/lifepathgambler/home",
+      "role": "life_path_gambler",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5-training",
+      "seed_url": "https://sites.google.com/view/s5-training/home",
+      "role": "training_rules",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5warlockoptions",
+      "seed_url": "https://sites.google.com/view/s5warlockoptions/home",
+      "role": "warlock_options",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "path-of-the-lumber-jacked",
+      "seed_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+      "role": "barbarian_option",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "oath-of-the-drifter",
+      "seed_url": "https://sites.google.com/view/oath-of-the-drifter/home",
+      "role": "paladin_option",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5rogueoptions",
+      "seed_url": "https://sites.google.com/view/s5rogueoptions/home",
+      "role": "rogue_options",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "improvised-weapon-for-enforcer",
+      "seed_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+      "role": "enforcer_rule_option",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "arcanianmonkoptions",
+      "seed_url": "https://sites.google.com/view/arcanianmonkoptions/home",
+      "role": "monk_options",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "arcanian-house-rules",
+      "seed_url": "https://sites.google.com/view/arcanian-house-rules/home",
+      "role": "house_rules",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "tales-in-legend",
+      "seed_url": "https://sites.google.com/view/tales-in-legend/home",
+      "role": "campaign_setting_material_verify",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "arcanian-worldlore",
+      "seed_url": "https://sites.google.com/view/arcanian-worldlore/home",
+      "role": "world_lore",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "homebrew-races",
+      "seed_url": "https://sites.google.com/view/homebrew-races/home",
+      "role": "race_options",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "arcanian-server-rules",
+      "seed_url": "https://sites.google.com/view/arcanian-server-rules/home",
+      "role": "server_rules",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "char-gen",
+      "seed_url": "https://sites.google.com/view/char-gen/home",
+      "role": "character_creation",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "arcanian-monk-options",
+      "seed_url": "https://sites.google.com/view/arcanian-monk-options/home",
+      "role": "monk_options_linked_from_character_creation",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5-codebound",
+      "seed_url": "https://sites.google.com/view/s5-codebound/home",
+      "role": "paladin_codebound_option",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5homebrewclericoptions",
+      "seed_url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+      "role": "cleric_options",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "lifepathrancher",
+  "seed_url": "https://sites.google.com/view/lifepathrancher/home",
+  "role": "life_path_rancher",
+  "capture_started_from": "https://sites.google.com/view/lifepathrancher/home",
+  "captured_at": "2026-10-04T22:07:27.751621Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/lifepathrancher/home",
+      "fetched_at": "2026-10-04T22:07:27.394428Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/lifepathrancher/home",
+      "title": "Life Path, Rancher",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/lifepathrancher/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/lifepathrancher/pages/home.md",
+      "sha256_html": "eedd4aa2aa11fa6cf0890fcd723c755e71df1e49679852279db115a6f0a61362",
+      "sha256_text": "46794f11e94de65660b629f80e2ddcb19ea3eb02ce672ca0b2f2583ac1dcedff",
+      "links_all": [
+        "https://sites.google.com/view/lifepathrancher/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/lifepathrancher/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "s5homebrewclericoptions",
+  "seed_url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+  "role": "cleric_options",
+  "capture_started_from": "https://sites.google.com/view/s5homebrewclericoptions/home",
+  "captured_at": "2026-10-04T22:07:35.871028Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+      "fetched_at": "2026-10-04T22:07:35.448662Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+      "title": "S5 Homebrew Cleric options.",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/s5homebrewclericoptions/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/s5homebrewclericoptions/pages/home.md",
+      "sha256_html": "baf89acc0c9e9b4a4039808c02403632e8769e2dcb98c8c825cb3e073d3a86c4",
+      "sha256_text": "aad0d6945d2c1bdc38a51371294ea2f9323cc1b48b785b85e248aac4e5eef97e",
+      "links_all": [
+        "https://sites.google.com/view/s5homebrewclericoptions/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/s5homebrewclericoptions/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

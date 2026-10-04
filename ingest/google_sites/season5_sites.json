@@ -1,0 +1,138 @@
+{
+  "schema_version": "bfdm_google_sites_manifest/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "captured_from_user_supplied_urls_on": "2026-10-04",
+  "sites": [
+    {
+      "slug": "catalogs5",
+      "url": "https://sites.google.com/view/catalogs5/home",
+      "role": "items_equipment_catalog"
+    },
+    {
+      "slug": "s5backgrounds",
+      "url": "https://sites.google.com/view/s5backgrounds/home",
+      "role": "backgrounds_character_creation"
+    },
+    {
+      "slug": "s5mining",
+      "url": "https://sites.google.com/view/s5mining/home",
+      "role": "life_path_mining"
+    },
+    {
+      "slug": "lifepathrancher",
+      "url": "https://sites.google.com/view/lifepathrancher/home",
+      "role": "life_path_rancher"
+    },
+    {
+      "slug": "day-1s5",
+      "url": "https://sites.google.com/view/day-1s5/home",
+      "role": "day_one_player_facing"
+    },
+    {
+      "slug": "s5bardcolleges",
+      "url": "https://sites.google.com/view/s5bardcolleges/home",
+      "role": "bard_options"
+    },
+    {
+      "slug": "homebrew-spells",
+      "url": "https://sites.google.com/view/homebrew-spells/home",
+      "role": "homebrew_spells"
+    },
+    {
+      "slug": "harbingers5",
+      "url": "https://sites.google.com/view/harbingers5/home",
+      "role": "character_option_verify"
+    },
+    {
+      "slug": "spellshotwizard",
+      "url": "https://sites.google.com/view/spellshotwizard/home",
+      "role": "wizard_option"
+    },
+    {
+      "slug": "lifepathgambler",
+      "url": "https://sites.google.com/view/lifepathgambler/home",
+      "role": "life_path_gambler"
+    },
+    {
+      "slug": "s5-training",
+      "url": "https://sites.google.com/view/s5-training/home",
+      "role": "training_rules"
+    },
+    {
+      "slug": "s5warlockoptions",
+      "url": "https://sites.google.com/view/s5warlockoptions/home",
+      "role": "warlock_options"
+    },
+    {
+      "slug": "path-of-the-lumber-jacked",
+      "url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+      "role": "barbarian_option"
+    },
+    {
+      "slug": "oath-of-the-drifter",
+      "url": "https://sites.google.com/view/oath-of-the-drifter/home",
+      "role": "paladin_option"
+    },
+    {
+      "slug": "s5rogueoptions",
+      "url": "https://sites.google.com/view/s5rogueoptions/home",
+      "role": "rogue_options"
+    },
+    {
+      "slug": "improvised-weapon-for-enforcer",
+      "url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+      "role": "enforcer_rule_option"
+    },
+    {
+      "slug": "arcanianmonkoptions",
+      "url": "https://sites.google.com/view/arcanianmonkoptions/home",
+      "role": "monk_options"
+    },
+    {
+      "slug": "arcanian-house-rules",
+      "url": "https://sites.google.com/view/arcanian-house-rules/home",
+      "role": "house_rules"
+    },
+    {
+      "slug": "tales-in-legend",
+      "url": "https://sites.google.com/view/tales-in-legend/home",
+      "role": "campaign_setting_material_verify"
+    },
+    {
+      "slug": "arcanian-worldlore",
+      "url": "https://sites.google.com/view/arcanian-worldlore/home",
+      "role": "world_lore"
+    },
+    {
+      "slug": "homebrew-races",
+      "url": "https://sites.google.com/view/homebrew-races/home",
+      "role": "race_options"
+    },
+    {
+      "slug": "arcanian-server-rules",
+      "url": "https://sites.google.com/view/arcanian-server-rules/home",
+      "role": "server_rules"
+    },
+    {
+      "slug": "char-gen",
+      "url": "https://sites.google.com/view/char-gen/home",
+      "role": "character_creation"
+    },
+    {
+      "slug": "arcanian-monk-options",
+      "url": "https://sites.google.com/view/arcanian-monk-options/home",
+      "role": "monk_options_linked_from_character_creation"
+    },
+    {
+      "slug": "s5-codebound",
+      "url": "https://sites.google.com/view/s5-codebound/home",
+      "role": "paladin_codebound_option"
+    },
+    {
+      "slug": "s5homebrewclericoptions",
+      "url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+      "role": "cleric_options"
+    }
+  ]
+}
