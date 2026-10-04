@@ -1,0 +1,31 @@
+name: Validate Drive Reconciliation
+
+on:
+  push:
+    branches:
+      - ingest/drive-relations-reconcile-v1
+  pull_request:
+    paths:
+      - 'sources/**'
+      - 'context/**'
+      - 'evidence/**'
+      - 'registry/**'
+      - 'ingest/**'
+      - 'research/drive-integration/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate ingestion
+        run: python ingest/validate_ingest.py
+      - name: Validate registries
+        run: python registry/validate_registry.py
+      - name: Validate source relationships
+        run: python ingest/validate_source_relationships.py
