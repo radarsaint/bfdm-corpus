@@ -1,0 +1,10 @@
+{"message_count":1,"shards":["messages-0009.jsonl"],"token":"msg1"}
+{"message_count":1,"shards":["messages-0009.jsonl"],"token":"msg2"}
+{"message_count":1,"shards":["messages-0015.jsonl"],"token":"msg2_aer"}
+{"message_count":1,"shards":["messages-0015.jsonl"],"token":"msg2_aer2"}
+{"message_count":2,"shards":["messages-0015.jsonl"],"token":"msg2_other2"}
+{"message_count":3,"shards":["messages-0015.jsonl"],"token":"msg_aer1"}
+{"message_count":3,"shards":["messages-0015.jsonl"],"token":"msg_aer2"}
+{"message_count":2,"shards":["messages-0015.jsonl"],"token":"msg_aer2'"}
+{"message_count":3,"shards":["messages-0015.jsonl"],"token":"msg_other1"}
+{"message_count":3,"shards":["messages-0015.jsonl"],"token":"msg_other2"}

@@ -1,0 +1,5 @@
+{"message_count":23,"shards":["messages-0001.jsonl","messages-0007.jsonl","messages-0009.jsonl","messages-0011.jsonl","messages-0012.jsonl","messages-0016.jsonl","messages-0018.jsonl","messages-0020.jsonl","messages-0022.jsonl","messages-0023.jsonl","messages-0024.jsonl","messages-0025.jsonl"],"token":"join"}
+{"message_count":3,"shards":["messages-0014.jsonl","messages-0026.jsonl"],"token":"joined"}
+{"message_count":3,"shards":["messages-0009.jsonl","messages-0018.jsonl","messages-0023.jsonl"],"token":"joining"}
+{"message_count":2,"shards":["messages-0018.jsonl","messages-0026.jsonl"],"token":"joins"}
+{"message_count":1,"shards":["messages-0024.jsonl"],"token":"joint"}

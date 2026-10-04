@@ -1,0 +1,4 @@
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"rop"}
+{"message_count":10,"shards":["messages-0002.jsonl","messages-0003.jsonl","messages-0004.jsonl","messages-0025.jsonl"],"token":"rope"}
+{"message_count":2,"shards":["messages-0008.jsonl","messages-0024.jsonl"],"token":"roped"}
+{"message_count":2,"shards":["messages-0002.jsonl","messages-0024.jsonl"],"token":"ropes"}

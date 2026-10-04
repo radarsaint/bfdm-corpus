@@ -1,0 +1,5 @@
+{"message_count":5,"shards":["messages-0006.jsonl","messages-0017.jsonl","messages-0023.jsonl","messages-0024.jsonl"],"token":"hex"}
+{"message_count":6,"shards":["messages-0002.jsonl","messages-0021.jsonl","messages-0023.jsonl","messages-0024.jsonl","messages-0025.jsonl"],"token":"hexblade"}
+{"message_count":2,"shards":["messages-0017.jsonl","messages-0025.jsonl"],"token":"hexblades"}
+{"message_count":2,"shards":["messages-0020.jsonl"],"token":"hexblood"}
+{"message_count":2,"shards":["messages-0020.jsonl","messages-0025.jsonl"],"token":"hexs"}

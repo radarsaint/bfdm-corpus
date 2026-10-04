@@ -1,0 +1,7 @@
+{"message_count":2,"shards":["messages-0022.jsonl","messages-0025.jsonl"],"token":"poof"}
+{"message_count":1,"shards":["messages-0001.jsonl"],"token":"poofed"}
+{"message_count":4,"shards":["messages-0005.jsonl","messages-0009.jsonl","messages-0024.jsonl"],"token":"pool"}
+{"message_count":2,"shards":["messages-0013.jsonl","messages-0020.jsonl"],"token":"poop"}
+{"message_count":10,"shards":["messages-0001.jsonl","messages-0003.jsonl","messages-0006.jsonl","messages-0008.jsonl","messages-0009.jsonl","messages-0012.jsonl","messages-0014.jsonl"],"token":"poor"}
+{"message_count":1,"shards":["messages-0009.jsonl"],"token":"poorer"}
+{"message_count":2,"shards":["messages-0014.jsonl","messages-0021.jsonl"],"token":"poorly"}

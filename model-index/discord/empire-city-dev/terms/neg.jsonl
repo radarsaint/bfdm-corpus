@@ -1,0 +1,5 @@
+{"message_count":11,"shards":["messages-0001.jsonl","messages-0004.jsonl","messages-0006.jsonl","messages-0009.jsonl","messages-0015.jsonl","messages-0019.jsonl","messages-0023.jsonl","messages-0026.jsonl"],"token":"negative"}
+{"message_count":1,"shards":["messages-0019.jsonl"],"token":"negatives"}
+{"message_count":1,"shards":["messages-0022.jsonl"],"token":"negator"}
+{"message_count":1,"shards":["messages-0011.jsonl"],"token":"neglect"}
+{"message_count":1,"shards":["messages-0019.jsonl"],"token":"negligable"}

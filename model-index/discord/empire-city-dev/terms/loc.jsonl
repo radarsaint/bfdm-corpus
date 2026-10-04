@@ -1,0 +1,14 @@
+{"message_count":8,"shards":["messages-0001.jsonl","messages-0005.jsonl","messages-0008.jsonl","messages-0009.jsonl","messages-0010.jsonl","messages-0018.jsonl","messages-0021.jsonl"],"token":"local"}
+{"message_count":1,"shards":["messages-0006.jsonl"],"token":"locale"}
+{"message_count":1,"shards":["messages-0001.jsonl"],"token":"localized"}
+{"message_count":1,"shards":["messages-0018.jsonl"],"token":"locally"}
+{"message_count":3,"shards":["messages-0014.jsonl","messages-0023.jsonl","messages-0024.jsonl"],"token":"located"}
+{"message_count":1,"shards":["messages-0010.jsonl"],"token":"locatha"}
+{"message_count":12,"shards":["messages-0005.jsonl","messages-0006.jsonl","messages-0007.jsonl","messages-0010.jsonl","messages-0012.jsonl","messages-0014.jsonl","messages-0019.jsonl","messages-0021.jsonl","messages-0025.jsonl"],"token":"location"}
+{"message_count":23,"shards":["messages-0005.jsonl","messages-0006.jsonl","messages-0007.jsonl","messages-0012.jsonl","messages-0014.jsonl","messages-0019.jsonl","messages-0020.jsonl","messages-0021.jsonl","messages-0022.jsonl","messages-0023.jsonl","messages-0025.jsonl"],"token":"locations"}
+{"message_count":2,"shards":["messages-0010.jsonl","messages-0011.jsonl"],"token":"loch"}
+{"message_count":10,"shards":["messages-0001.jsonl","messages-0005.jsonl","messages-0006.jsonl","messages-0007.jsonl","messages-0008.jsonl","messages-0012.jsonl","messages-0021.jsonl","messages-0025.jsonl"],"token":"lock"}
+{"message_count":2,"shards":["messages-0007.jsonl","messages-0025.jsonl"],"token":"lockdown"}
+{"message_count":4,"shards":["messages-0016.jsonl","messages-0024.jsonl"],"token":"locked"}
+{"message_count":2,"shards":["messages-0005.jsonl"],"token":"locks"}
+{"message_count":1,"shards":["messages-0009.jsonl"],"token":"locusts"}

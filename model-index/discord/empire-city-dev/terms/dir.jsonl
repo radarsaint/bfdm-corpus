@@ -1,0 +1,10 @@
+{"message_count":14,"shards":["messages-0001.jsonl","messages-0005.jsonl","messages-0006.jsonl","messages-0009.jsonl","messages-0013.jsonl","messages-0015.jsonl","messages-0020.jsonl","messages-0022.jsonl","messages-0025.jsonl"],"token":"direct"}
+{"message_count":1,"shards":["messages-0022.jsonl"],"token":"directed"}
+{"message_count":6,"shards":["messages-0001.jsonl","messages-0002.jsonl","messages-0006.jsonl","messages-0018.jsonl","messages-0022.jsonl","messages-0023.jsonl"],"token":"direction"}
+{"message_count":3,"shards":["messages-0014.jsonl","messages-0018.jsonl","messages-0022.jsonl"],"token":"directions"}
+{"message_count":11,"shards":["messages-0001.jsonl","messages-0004.jsonl","messages-0005.jsonl","messages-0006.jsonl","messages-0012.jsonl","messages-0018.jsonl","messages-0019.jsonl","messages-0021.jsonl","messages-0022.jsonl"],"token":"directly"}
+{"message_count":5,"shards":["messages-0005.jsonl","messages-0006.jsonl","messages-0007.jsonl","messages-0009.jsonl","messages-0011.jsonl"],"token":"directory"}
+{"message_count":6,"shards":["messages-0005.jsonl","messages-0007.jsonl","messages-0009.jsonl","messages-0020.jsonl"],"token":"directory-and-docs"}
+{"message_count":1,"shards":["messages-0006.jsonl"],"token":"directs"}
+{"message_count":2,"shards":["messages-0004.jsonl","messages-0017.jsonl"],"token":"dirt"}
+{"message_count":3,"shards":["messages-0008.jsonl","messages-0012.jsonl","messages-0026.jsonl"],"token":"dirty"}

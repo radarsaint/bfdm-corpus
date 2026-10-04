@@ -1,0 +1,4 @@
+{"message_count":1,"shards":["messages-0203.jsonl"],"token":"wot"}
+{"message_count":8,"shards":["messages-0004.jsonl","messages-0078.jsonl","messages-0116.jsonl","messages-0126.jsonl","messages-0205.jsonl","messages-0360.jsonl","messages-0373.jsonl"],"token":"wotc"}
+{"message_count":1,"shards":["messages-0031.jsonl"],"token":"woth"}
+{"message_count":2,"shards":["messages-0038.jsonl","messages-0051.jsonl"],"token":"wothout"}

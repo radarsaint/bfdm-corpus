@@ -1,0 +1,6 @@
+{"message_count":17,"shards":["messages-0002.jsonl","messages-0018.jsonl","messages-0020.jsonl","messages-0021.jsonl","messages-0025.jsonl"],"token":"lizard"}
+{"message_count":1,"shards":["messages-0020.jsonl"],"token":"lizard-people"}
+{"message_count":13,"shards":["messages-0003.jsonl","messages-0010.jsonl","messages-0018.jsonl","messages-0020.jsonl","messages-0021.jsonl"],"token":"lizardfolk"}
+{"message_count":1,"shards":["messages-0017.jsonl"],"token":"lizardman"}
+{"message_count":1,"shards":["messages-0020.jsonl"],"token":"lizardmen"}
+{"message_count":4,"shards":["messages-0018.jsonl","messages-0020.jsonl"],"token":"lizards"}

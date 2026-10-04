@@ -1,0 +1,10 @@
+{"message_count":3,"shards":["messages-0063.jsonl","messages-0124.jsonl","messages-0275.jsonl"],"token":"reject"}
+{"message_count":4,"shards":["messages-0275.jsonl","messages-0326.jsonl","messages-0334.jsonl"],"token":"rejected"}
+{"message_count":12,"shards":["messages-0011.jsonl","messages-0023.jsonl","messages-0050.jsonl","messages-0102.jsonl","messages-0137.jsonl","messages-0147.jsonl","messages-0185.jsonl","messages-0242.jsonl","messages-0270.jsonl","messages-0295.jsonl","messages-0336.jsonl","messages-0392.jsonl"],"token":"rejoin"}
+{"message_count":1,"shards":["messages-0173.jsonl"],"token":"rejoined"}
+{"message_count":1,"shards":["messages-0064.jsonl"],"token":"rejoining"}
+{"message_count":1,"shards":["messages-0249.jsonl"],"token":"rejoins"}
+{"message_count":1,"shards":["messages-0204.jsonl"],"token":"rejudged"}
+{"message_count":2,"shards":["messages-0146.jsonl","messages-0282.jsonl"],"token":"rejuvenate"}
+{"message_count":3,"shards":["messages-0135.jsonl","messages-0242.jsonl","messages-0352.jsonl"],"token":"rejuvenated"}
+{"message_count":1,"shards":["messages-0215.jsonl"],"token":"rejuvenating"}

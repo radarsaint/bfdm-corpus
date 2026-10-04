@@ -1,0 +1,5 @@
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"wrap"}
+{"message_count":1,"shards":["messages-0001.jsonl"],"token":"wrapped"}
+{"message_count":1,"shards":["messages-0019.jsonl"],"token":"wrapping"}
+{"message_count":2,"shards":["messages-0011.jsonl"],"token":"wraps"}
+{"message_count":3,"shards":["messages-0001.jsonl","messages-0012.jsonl","messages-0019.jsonl"],"token":"wrath"}

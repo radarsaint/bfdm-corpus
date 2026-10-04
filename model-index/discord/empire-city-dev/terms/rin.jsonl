@@ -1,0 +1,4 @@
+{"message_count":1,"shards":["messages-0022.jsonl"],"token":"rind"}
+{"message_count":8,"shards":["messages-0004.jsonl","messages-0008.jsonl","messages-0014.jsonl","messages-0018.jsonl","messages-0022.jsonl","messages-0024.jsonl","messages-0025.jsonl"],"token":"ring"}
+{"message_count":4,"shards":["messages-0011.jsonl","messages-0012.jsonl"],"token":"ringmaster"}
+{"message_count":2,"shards":["messages-0008.jsonl","messages-0019.jsonl"],"token":"rings"}

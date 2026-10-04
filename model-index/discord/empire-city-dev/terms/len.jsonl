@@ -1,0 +1,5 @@
+{"message_count":3,"shards":["messages-0012.jsonl","messages-0018.jsonl","messages-0021.jsonl"],"token":"lend"}
+{"message_count":1,"shards":["messages-0023.jsonl"],"token":"lends"}
+{"message_count":4,"shards":["messages-0018.jsonl","messages-0020.jsonl","messages-0021.jsonl","messages-0022.jsonl"],"token":"length"}
+{"message_count":1,"shards":["messages-0018.jsonl"],"token":"lengths"}
+{"message_count":1,"shards":["messages-0022.jsonl"],"token":"lenses"}

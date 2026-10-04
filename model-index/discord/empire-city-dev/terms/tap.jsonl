@@ -1,0 +1,3 @@
+{"message_count":1,"shards":["messages-0006.jsonl"],"token":"tap"}
+{"message_count":2,"shards":["messages-0006.jsonl","messages-0012.jsonl"],"token":"tapping"}
+{"message_count":2,"shards":["messages-0002.jsonl","messages-0022.jsonl"],"token":"taps"}

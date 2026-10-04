@@ -1,0 +1,4 @@
+{"message_count":1,"shards":["messages-0004.jsonl"],"token":"rivaling"}
+{"message_count":2,"shards":["messages-0004.jsonl","messages-0005.jsonl"],"token":"rivalry"}
+{"message_count":5,"shards":["messages-0003.jsonl","messages-0005.jsonl","messages-0011.jsonl","messages-0013.jsonl","messages-0014.jsonl"],"token":"river"}
+{"message_count":1,"shards":["messages-0008.jsonl"],"token":"riverboat"}

@@ -1,0 +1,5 @@
+{"message_count":2,"shards":["messages-0009.jsonl","messages-0011.jsonl"],"token":"wield"}
+{"message_count":3,"shards":["messages-0015.jsonl","messages-0019.jsonl"],"token":"wielder"}
+{"message_count":1,"shards":["messages-0023.jsonl"],"token":"wielder's"}
+{"message_count":5,"shards":["messages-0011.jsonl","messages-0015.jsonl","messages-0019.jsonl","messages-0023.jsonl"],"token":"wielding"}
+{"message_count":2,"shards":["messages-0003.jsonl","messages-0013.jsonl"],"token":"wierd"}

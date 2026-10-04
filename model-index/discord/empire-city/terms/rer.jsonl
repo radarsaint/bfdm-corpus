@@ -1,0 +1,10 @@
+{"message_count":9,"shards":["messages-0017.jsonl","messages-0032.jsonl","messages-0104.jsonl","messages-0206.jsonl","messages-0293.jsonl","messages-0360.jsonl","messages-0373.jsonl","messages-0375.jsonl"],"token":"reread"}
+{"message_count":2,"shards":["messages-0308.jsonl","messages-0374.jsonl"],"token":"rereading"}
+{"message_count":33,"shards":["messages-0007.jsonl","messages-0014.jsonl","messages-0031.jsonl","messages-0055.jsonl","messages-0057.jsonl","messages-0058.jsonl","messages-0064.jsonl","messages-0075.jsonl","messages-0087.jsonl","messages-0121.jsonl","messages-0126.jsonl","messages-0128.jsonl","messages-0137.jsonl","messages-0140.jsonl","messages-0153.jsonl","messages-0167.jsonl","messages-0171.jsonl","messages-0191.jsonl","messages-0195.jsonl","messages-0197.jsonl","messages-0208.jsonl","messages-0250.jsonl","messages-0263.jsonl","messages-0290.jsonl","messages-0296.jsonl","messages-0320.jsonl","messages-0329.jsonl","messages-0340.jsonl","messages-0344.jsonl","messages-0350.jsonl"],"token":"reroll"}
+{"message_count":2,"shards":["messages-0326.jsonl","messages-0330.jsonl"],"token":"rerolled"}
+{"message_count":6,"shards":["messages-0140.jsonl","messages-0147.jsonl","messages-0171.jsonl","messages-0207.jsonl","messages-0250.jsonl"],"token":"rerolling"}
+{"message_count":1,"shards":["messages-0340.jsonl"],"token":"rerolls"}
+{"message_count":1,"shards":["messages-0090.jsonl"],"token":"reroute"}
+{"message_count":1,"shards":["messages-0039.jsonl"],"token":"reroutes"}
+{"message_count":1,"shards":["messages-0236.jsonl"],"token":"rerun"}
+{"message_count":1,"shards":["messages-0049.jsonl"],"token":"reruns"}

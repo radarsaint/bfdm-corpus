@@ -1,0 +1,4 @@
+{"message_count":2,"shards":["messages-0200.jsonl","messages-0203.jsonl"],"token":"202"}
+{"message_count":8,"shards":["messages-0031.jsonl","messages-0038.jsonl","messages-0039.jsonl","messages-0060.jsonl","messages-0066.jsonl","messages-0357.jsonl","messages-0386.jsonl"],"token":"2020"}
+{"message_count":1,"shards":["messages-0257.jsonl"],"token":"2020-08-09"}
+{"message_count":1,"shards":["messages-0319.jsonl"],"token":"2021"}

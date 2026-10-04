@@ -1,0 +1,7 @@
+{"message_count":5,"shards":["messages-0038.jsonl","messages-0280.jsonl","messages-0304.jsonl","messages-0305.jsonl","messages-0345.jsonl"],"token":"reopen"}
+{"message_count":3,"shards":["messages-0059.jsonl","messages-0163.jsonl","messages-0370.jsonl"],"token":"reopened"}
+{"message_count":1,"shards":["messages-0368.jsonl"],"token":"reopening"}
+{"message_count":1,"shards":["messages-0022.jsonl"],"token":"reopens"}
+{"message_count":3,"shards":["messages-0043.jsonl","messages-0065.jsonl","messages-0084.jsonl"],"token":"reorganize"}
+{"message_count":3,"shards":["messages-0043.jsonl","messages-0077.jsonl","messages-0347.jsonl"],"token":"reorganizing"}
+{"message_count":1,"shards":["messages-0105.jsonl"],"token":"reorients"}

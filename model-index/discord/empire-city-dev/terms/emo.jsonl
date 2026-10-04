@@ -1,0 +1,9 @@
+{"message_count":10,"shards":["messages-0001.jsonl","messages-0010.jsonl","messages-0013.jsonl","messages-0018.jsonl","messages-0024.jsonl"],"token":"emoji"}
+{"message_count":2,"shards":["messages-0020.jsonl","messages-0023.jsonl"],"token":"emoji's"}
+{"message_count":7,"shards":["messages-0024.jsonl"],"token":"emojis"}
+{"message_count":3,"shards":["messages-0001.jsonl","messages-0011.jsonl","messages-0013.jsonl"],"token":"emote"}
+{"message_count":2,"shards":["messages-0003.jsonl"],"token":"emoticons"}
+{"message_count":1,"shards":["messages-0011.jsonl"],"token":"emotion"}
+{"message_count":1,"shards":["messages-0016.jsonl"],"token":"emotional"}
+{"message_count":1,"shards":["messages-0022.jsonl"],"token":"emotionally"}
+{"message_count":3,"shards":["messages-0001.jsonl","messages-0009.jsonl","messages-0010.jsonl"],"token":"emotions"}

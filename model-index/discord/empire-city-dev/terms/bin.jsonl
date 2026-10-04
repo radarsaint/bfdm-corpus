@@ -1,0 +1,5 @@
+{"message_count":2,"shards":["messages-0012.jsonl","messages-0023.jsonl"],"token":"bind"}
+{"message_count":2,"shards":["messages-0001.jsonl","messages-0012.jsonl"],"token":"binding"}
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"binged"}
+{"message_count":1,"shards":["messages-0024.jsonl"],"token":"binging"}
+{"message_count":3,"shards":["messages-0004.jsonl","messages-0022.jsonl","messages-0025.jsonl"],"token":"bingo"}

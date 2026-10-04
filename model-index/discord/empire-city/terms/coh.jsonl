@@ -1,0 +1,4 @@
+{"message_count":4,"shards":["messages-0115.jsonl","messages-0161.jsonl","messages-0292.jsonl"],"token":"coherent"}
+{"message_count":1,"shards":["messages-0140.jsonl"],"token":"cohesion"}
+{"message_count":4,"shards":["messages-0270.jsonl","messages-0378.jsonl"],"token":"cohesive"}
+{"message_count":1,"shards":["messages-0083.jsonl"],"token":"cohesiveness"}

@@ -1,0 +1,3 @@
+{"message_count":3,"shards":["messages-0007.jsonl","messages-0017.jsonl"],"token":"snow"}
+{"message_count":1,"shards":["messages-0017.jsonl"],"token":"snowflake"}
+{"message_count":4,"shards":["messages-0005.jsonl","messages-0007.jsonl","messages-0018.jsonl"],"token":"snowpiercer"}

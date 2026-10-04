@@ -1,0 +1,4 @@
+{"message_count":2,"shards":["messages-0002.jsonl","messages-0024.jsonl"],"token":"abuse"}
+{"message_count":1,"shards":["messages-0020.jsonl"],"token":"abuseable"}
+{"message_count":1,"shards":["messages-0004.jsonl"],"token":"abused"}
+{"message_count":1,"shards":["messages-0021.jsonl"],"token":"abusing"}

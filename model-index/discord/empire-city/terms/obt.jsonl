@@ -1,0 +1,4 @@
+{"message_count":7,"shards":["messages-0010.jsonl","messages-0036.jsonl","messages-0077.jsonl","messages-0139.jsonl","messages-0140.jsonl","messages-0183.jsonl","messages-0202.jsonl"],"token":"obtain"}
+{"message_count":8,"shards":["messages-0009.jsonl","messages-0070.jsonl","messages-0119.jsonl","messages-0140.jsonl","messages-0187.jsonl","messages-0192.jsonl","messages-0312.jsonl"],"token":"obtained"}
+{"message_count":3,"shards":["messages-0085.jsonl","messages-0167.jsonl","messages-0192.jsonl"],"token":"obtaining"}
+{"message_count":1,"shards":["messages-0034.jsonl"],"token":"obtaining-wise"}

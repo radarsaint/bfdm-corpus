@@ -1,0 +1,4 @@
+{"message_count":11,"shards":["messages-0037.jsonl","messages-0038.jsonl","messages-0158.jsonl","messages-0240.jsonl","messages-0254.jsonl","messages-0274.jsonl","messages-0343.jsonl","messages-0365.jsonl","messages-0383.jsonl","messages-0387.jsonl"],"token":"toxic"}
+{"message_count":3,"shards":["messages-0037.jsonl","messages-0343.jsonl","messages-0346.jsonl"],"token":"toxicity"}
+{"message_count":2,"shards":["messages-0317.jsonl","messages-0378.jsonl"],"token":"toxin"}
+{"message_count":1,"shards":["messages-0387.jsonl"],"token":"toxins"}

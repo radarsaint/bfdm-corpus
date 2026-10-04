@@ -1,0 +1,4 @@
+{"message_count":4,"shards":["messages-0005.jsonl","messages-0012.jsonl","messages-0013.jsonl"],"token":"loyal"}
+{"message_count":1,"shards":["messages-0018.jsonl"],"token":"loyalist"}
+{"message_count":3,"shards":["messages-0012.jsonl","messages-0018.jsonl"],"token":"loyalists"}
+{"message_count":1,"shards":["messages-0012.jsonl"],"token":"loyalty"}

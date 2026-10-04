@@ -1,0 +1,3 @@
+{"message_count":1,"shards":["messages-0002.jsonl"],"token":"novel"}
+{"message_count":2,"shards":["messages-0002.jsonl","messages-0003.jsonl"],"token":"novella"}
+{"message_count":1,"shards":["messages-0006.jsonl"],"token":"november"}

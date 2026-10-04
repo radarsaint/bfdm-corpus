@@ -1,0 +1,8 @@
+{"message_count":5,"shards":["messages-0002.jsonl","messages-0006.jsonl","messages-0016.jsonl","messages-0020.jsonl","messages-0022.jsonl"],"token":"load"}
+{"message_count":3,"shards":["messages-0022.jsonl","messages-0023.jsonl"],"token":"loaded"}
+{"message_count":3,"shards":["messages-0023.jsonl"],"token":"loading"}
+{"message_count":3,"shards":["messages-0005.jsonl","messages-0010.jsonl","messages-0011.jsonl"],"token":"loads"}
+{"message_count":2,"shards":["messages-0001.jsonl","messages-0020.jsonl"],"token":"loan"}
+{"message_count":1,"shards":["messages-0024.jsonl"],"token":"loaned"}
+{"message_count":3,"shards":["messages-0001.jsonl","messages-0005.jsonl","messages-0018.jsonl"],"token":"loans"}
+{"message_count":1,"shards":["messages-0010.jsonl"],"token":"loathing"}

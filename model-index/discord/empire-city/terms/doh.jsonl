@@ -1,0 +1,5 @@
+{"message_count":2,"shards":["messages-0039.jsonl","messages-0079.jsonl"],"token":"doh"}
+{"message_count":1,"shards":["messages-0006.jsonl"],"token":"dohbar"}
+{"message_count":10,"shards":["messages-0091.jsonl","messages-0092.jsonl","messages-0093.jsonl"],"token":"dohbar1"}
+{"message_count":9,"shards":["messages-0091.jsonl","messages-0092.jsonl","messages-0093.jsonl"],"token":"dohbar2"}
+{"message_count":10,"shards":["messages-0091.jsonl","messages-0092.jsonl","messages-0093.jsonl"],"token":"dohbar3"}

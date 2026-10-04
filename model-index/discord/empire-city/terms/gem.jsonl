@@ -1,0 +1,6 @@
+{"message_count":24,"shards":["messages-0066.jsonl","messages-0125.jsonl","messages-0132.jsonl","messages-0187.jsonl","messages-0230.jsonl","messages-0231.jsonl","messages-0234.jsonl","messages-0246.jsonl","messages-0256.jsonl","messages-0265.jsonl","messages-0278.jsonl","messages-0294.jsonl","messages-0313.jsonl","messages-0318.jsonl","messages-0322.jsonl","messages-0335.jsonl","messages-0355.jsonl"],"token":"gem"}
+{"message_count":1,"shards":["messages-0311.jsonl"],"token":"gemini"}
+{"message_count":1,"shards":["messages-0146.jsonl"],"token":"gemr"}
+{"message_count":24,"shards":["messages-0008.jsonl","messages-0089.jsonl","messages-0145.jsonl","messages-0155.jsonl","messages-0168.jsonl","messages-0173.jsonl","messages-0199.jsonl","messages-0217.jsonl","messages-0221.jsonl","messages-0230.jsonl","messages-0232.jsonl","messages-0238.jsonl","messages-0241.jsonl","messages-0287.jsonl","messages-0288.jsonl","messages-0310.jsonl","messages-0335.jsonl","messages-0338.jsonl","messages-0341.jsonl"],"token":"gems"}
+{"message_count":1,"shards":["messages-0168.jsonl"],"token":"gemstone"}
+{"message_count":3,"shards":["messages-0089.jsonl","messages-0205.jsonl","messages-0346.jsonl"],"token":"gemstones"}

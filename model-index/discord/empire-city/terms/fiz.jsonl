@@ -1,0 +1,8 @@
+{"message_count":1,"shards":["messages-0072.jsonl"],"token":"fiz"}
+{"message_count":18,"shards":["messages-0004.jsonl","messages-0016.jsonl","messages-0021.jsonl","messages-0028.jsonl","messages-0029.jsonl","messages-0039.jsonl","messages-0053.jsonl","messages-0054.jsonl","messages-0079.jsonl","messages-0133.jsonl","messages-0144.jsonl","messages-0228.jsonl","messages-0260.jsonl"],"token":"fizz"}
+{"message_count":3,"shards":["messages-0004.jsonl","messages-0015.jsonl","messages-0047.jsonl"],"token":"fizz'"}
+{"message_count":4,"shards":["messages-0164.jsonl","messages-0217.jsonl","messages-0233.jsonl"],"token":"fizzing"}
+{"message_count":1,"shards":["messages-0010.jsonl"],"token":"fizzle"}
+{"message_count":1,"shards":["messages-0352.jsonl"],"token":"fizzled"}
+{"message_count":7,"shards":["messages-0005.jsonl","messages-0010.jsonl","messages-0078.jsonl","messages-0159.jsonl","messages-0290.jsonl","messages-0291.jsonl"],"token":"fizzles"}
+{"message_count":12,"shards":["messages-0125.jsonl","messages-0160.jsonl","messages-0163.jsonl","messages-0164.jsonl","messages-0217.jsonl","messages-0233.jsonl","messages-0234.jsonl"],"token":"fizzy"}

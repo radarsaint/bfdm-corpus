@@ -1,0 +1,8 @@
+{"message_count":3,"shards":["messages-0049.jsonl","messages-0068.jsonl","messages-0289.jsonl"],"token":"130"}
+{"message_count":1,"shards":["messages-0069.jsonl"],"token":"130-ish"}
+{"message_count":9,"shards":["messages-0003.jsonl","messages-0011.jsonl","messages-0049.jsonl","messages-0171.jsonl","messages-0351.jsonl","messages-0361.jsonl","messages-0365.jsonl"],"token":"1300"}
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"1300-1500"}
+{"message_count":1,"shards":["messages-0148.jsonl"],"token":"13000"}
+{"message_count":4,"shards":["messages-0007.jsonl","messages-0156.jsonl","messages-0171.jsonl","messages-0356.jsonl"],"token":"1300g"}
+{"message_count":1,"shards":["messages-0148.jsonl"],"token":"13050"}
+{"message_count":2,"shards":["messages-0207.jsonl"],"token":"1309"}

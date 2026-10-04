@@ -1,0 +1,3 @@
+{"message_count":3,"shards":["messages-0011.jsonl","messages-0017.jsonl","messages-0020.jsonl"],"token":"vote"}
+{"message_count":2,"shards":["messages-0014.jsonl","messages-0017.jsonl"],"token":"votes"}
+{"message_count":1,"shards":["messages-0017.jsonl"],"token":"voting"}

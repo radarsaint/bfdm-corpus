@@ -1,0 +1,4 @@
+{"message_count":1,"shards":["messages-0020.jsonl"],"token":"reoccurring"}
+{"message_count":1,"shards":["messages-0011.jsonl"],"token":"reorganize"}
+{"message_count":2,"shards":["messages-0007.jsonl","messages-0011.jsonl"],"token":"reorganized"}
+{"message_count":2,"shards":["messages-0010.jsonl","messages-0021.jsonl"],"token":"reorganizing"}

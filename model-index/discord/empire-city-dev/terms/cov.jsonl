@@ -1,0 +1,6 @@
+{"message_count":8,"shards":["messages-0003.jsonl","messages-0007.jsonl","messages-0012.jsonl","messages-0016.jsonl","messages-0019.jsonl","messages-0020.jsonl","messages-0022.jsonl","messages-0023.jsonl"],"token":"cover"}
+{"message_count":2,"shards":["messages-0009.jsonl","messages-0021.jsonl"],"token":"coverage"}
+{"message_count":12,"shards":["messages-0003.jsonl","messages-0004.jsonl","messages-0006.jsonl","messages-0007.jsonl","messages-0009.jsonl","messages-0017.jsonl","messages-0018.jsonl","messages-0020.jsonl"],"token":"covered"}
+{"message_count":2,"shards":["messages-0004.jsonl","messages-0015.jsonl"],"token":"covering"}
+{"message_count":5,"shards":["messages-0004.jsonl","messages-0008.jsonl","messages-0020.jsonl","messages-0026.jsonl"],"token":"covers"}
+{"message_count":6,"shards":["messages-0009.jsonl","messages-0012.jsonl","messages-0016.jsonl","messages-0017.jsonl"],"token":"covid"}

@@ -1,0 +1,3 @@
+{"message_count":24,"shards":["messages-0008.jsonl","messages-0011.jsonl","messages-0055.jsonl","messages-0068.jsonl","messages-0162.jsonl","messages-0163.jsonl","messages-0164.jsonl","messages-0233.jsonl","messages-0247.jsonl","messages-0338.jsonl","messages-0342.jsonl","messages-0344.jsonl","messages-0352.jsonl","messages-0353.jsonl"],"token":"auction"}
+{"message_count":1,"shards":["messages-0068.jsonl"],"token":"auctioned"}
+{"message_count":3,"shards":["messages-0068.jsonl","messages-0162.jsonl","messages-0185.jsonl"],"token":"auctions"}

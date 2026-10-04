@@ -1,0 +1,4 @@
+{"message_count":10,"shards":["messages-0001.jsonl","messages-0002.jsonl","messages-0006.jsonl","messages-0012.jsonl","messages-0019.jsonl","messages-0021.jsonl"],"token":"oath"}
+{"message_count":1,"shards":["messages-0019.jsonl"],"token":"oathbows"}
+{"message_count":4,"shards":["messages-0021.jsonl"],"token":"oathbreaker"}
+{"message_count":1,"shards":["messages-0024.jsonl"],"token":"oaths"}

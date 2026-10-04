@@ -1,0 +1,9 @@
+{"message_count":2,"shards":["messages-0023.jsonl","messages-0024.jsonl"],"token":"gate"}
+{"message_count":1,"shards":["messages-0024.jsonl"],"token":"gatekeep"}
+{"message_count":1,"shards":["messages-0008.jsonl"],"token":"gates"}
+{"message_count":3,"shards":["messages-0008.jsonl","messages-0018.jsonl"],"token":"gather"}
+{"message_count":2,"shards":["messages-0001.jsonl","messages-0015.jsonl"],"token":"gathered"}
+{"message_count":2,"shards":["messages-0017.jsonl","messages-0018.jsonl"],"token":"gathering"}
+{"message_count":5,"shards":["messages-0001.jsonl","messages-0003.jsonl","messages-0006.jsonl","messages-0007.jsonl"],"token":"gatling"}
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"gators"}
+{"message_count":1,"shards":["messages-0004.jsonl"],"token":"gattling"}

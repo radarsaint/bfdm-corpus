@@ -1,0 +1,5 @@
+{"message_count":1,"shards":["messages-0012.jsonl"],"token":"utm_campaign"}
+{"message_count":1,"shards":["messages-0012.jsonl"],"token":"utm_content"}
+{"message_count":2,"shards":["messages-0012.jsonl","messages-0020.jsonl"],"token":"utm_medium"}
+{"message_count":2,"shards":["messages-0012.jsonl","messages-0020.jsonl"],"token":"utm_source"}
+{"message_count":1,"shards":["messages-0012.jsonl"],"token":"utm_term"}

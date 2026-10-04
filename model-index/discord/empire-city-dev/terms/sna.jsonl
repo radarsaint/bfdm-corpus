@@ -1,0 +1,10 @@
+{"message_count":1,"shards":["messages-0002.jsonl"],"token":"snack"}
+{"message_count":10,"shards":["messages-0001.jsonl","messages-0010.jsonl","messages-0012.jsonl","messages-0014.jsonl","messages-0019.jsonl","messages-0021.jsonl"],"token":"snake"}
+{"message_count":1,"shards":["messages-0010.jsonl"],"token":"snake-like"}
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"snakebite"}
+{"message_count":3,"shards":["messages-0010.jsonl","messages-0011.jsonl"],"token":"snakes"}
+{"message_count":2,"shards":["messages-0020.jsonl","messages-0021.jsonl"],"token":"snap"}
+{"message_count":2,"shards":["messages-0012.jsonl","messages-0014.jsonl"],"token":"snare"}
+{"message_count":1,"shards":["messages-0001.jsonl"],"token":"snare-soldiers"}
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"snark"}
+{"message_count":1,"shards":["messages-0013.jsonl"],"token":"snarky"}

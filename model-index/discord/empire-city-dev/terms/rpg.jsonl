@@ -1,0 +1,3 @@
+{"message_count":5,"shards":["messages-0006.jsonl","messages-0008.jsonl","messages-0009.jsonl","messages-0023.jsonl"],"token":"rpg"}
+{"message_count":1,"shards":["messages-0006.jsonl"],"token":"rpg-products"}
+{"message_count":2,"shards":["messages-0008.jsonl","messages-0019.jsonl"],"token":"rpgs"}

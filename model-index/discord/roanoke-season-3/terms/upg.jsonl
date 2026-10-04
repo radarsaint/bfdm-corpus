@@ -1,0 +1,3 @@
+{"message_count":13,"shards":["messages-0025.jsonl","messages-0095.jsonl","messages-0177.jsonl","messages-0181.jsonl","messages-0221.jsonl","messages-0245.jsonl","messages-0324.jsonl","messages-0327.jsonl","messages-0367.jsonl"],"token":"upgrade"}
+{"message_count":3,"shards":["messages-0060.jsonl","messages-0177.jsonl","messages-0356.jsonl"],"token":"upgraded"}
+{"message_count":5,"shards":["messages-0007.jsonl","messages-0029.jsonl","messages-0030.jsonl","messages-0054.jsonl"],"token":"upgrades"}

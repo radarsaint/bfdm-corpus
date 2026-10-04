@@ -1,0 +1,4 @@
+{"message_count":1,"shards":["messages-0005.jsonl"],"token":"hoof"}
+{"message_count":6,"shards":["messages-0006.jsonl","messages-0011.jsonl","messages-0013.jsonl","messages-0015.jsonl"],"token":"hook"}
+{"message_count":4,"shards":["messages-0003.jsonl","messages-0006.jsonl","messages-0015.jsonl","messages-0022.jsonl"],"token":"hooks"}
+{"message_count":1,"shards":["messages-0003.jsonl"],"token":"hookshot"}

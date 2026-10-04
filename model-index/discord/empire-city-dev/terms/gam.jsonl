@@ -1,0 +1,13 @@
+{"message_count":1,"shards":["messages-0004.jsonl"],"token":"gambit"}
+{"message_count":2,"shards":["messages-0001.jsonl","messages-0013.jsonl"],"token":"gambler"}
+{"message_count":1,"shards":["messages-0008.jsonl"],"token":"gamblers"}
+{"message_count":5,"shards":["messages-0004.jsonl","messages-0012.jsonl","messages-0018.jsonl"],"token":"gambling"}
+{"message_count":189,"shards":["messages-0001.jsonl","messages-0002.jsonl","messages-0003.jsonl","messages-0004.jsonl","messages-0005.jsonl","messages-0006.jsonl","messages-0007.jsonl","messages-0008.jsonl","messages-0009.jsonl","messages-0010.jsonl","messages-0011.jsonl","messages-0012.jsonl","messages-0013.jsonl","messages-0014.jsonl","messages-0015.jsonl","messages-0016.jsonl","messages-0017.jsonl","messages-0018.jsonl","messages-0019.jsonl","messages-0020.jsonl","messages-0021.jsonl","messages-0022.jsonl","messages-0023.jsonl","messages-0024.jsonl","messages-0025.jsonl","messages-0026.jsonl"],"token":"game"}
+{"message_count":42,"shards":["messages-0001.jsonl","messages-0002.jsonl"],"token":"game-dates"}
+{"message_count":16,"shards":["messages-0009.jsonl","messages-0010.jsonl","messages-0015.jsonl","messages-0016.jsonl","messages-0017.jsonl","messages-0023.jsonl","messages-0025.jsonl"],"token":"game_die"}
+{"message_count":1,"shards":["messages-0025.jsonl"],"token":"gamebooth"}
+{"message_count":1,"shards":["messages-0020.jsonl"],"token":"gameplay"}
+{"message_count":2,"shards":["messages-0020.jsonl","messages-0021.jsonl"],"token":"gamer"}
+{"message_count":2,"shards":["messages-0003.jsonl","messages-0024.jsonl"],"token":"gamers"}
+{"message_count":29,"shards":["messages-0003.jsonl","messages-0005.jsonl","messages-0007.jsonl","messages-0009.jsonl","messages-0010.jsonl","messages-0012.jsonl","messages-0015.jsonl","messages-0016.jsonl","messages-0017.jsonl","messages-0018.jsonl","messages-0019.jsonl","messages-0020.jsonl","messages-0021.jsonl","messages-0022.jsonl","messages-0024.jsonl","messages-0025.jsonl"],"token":"games"}
+{"message_count":5,"shards":["messages-0001.jsonl","messages-0003.jsonl","messages-0020.jsonl","messages-0025.jsonl"],"token":"gaming"}

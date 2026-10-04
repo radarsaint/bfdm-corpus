@@ -1,0 +1,5 @@
+{"message_count":3,"shards":["messages-0017.jsonl","messages-0021.jsonl","messages-0024.jsonl"],"token":"reread"}
+{"message_count":1,"shards":["messages-0009.jsonl"],"token":"rereading"}
+{"message_count":2,"shards":["messages-0003.jsonl","messages-0019.jsonl"],"token":"reroll"}
+{"message_count":1,"shards":["messages-0017.jsonl"],"token":"rerolled"}
+{"message_count":1,"shards":["messages-0017.jsonl"],"token":"rerun"}

@@ -1,0 +1,4 @@
+{"message_count":11,"shards":["messages-0004.jsonl","messages-0008.jsonl","messages-0011.jsonl","messages-0012.jsonl","messages-0018.jsonl","messages-0022.jsonl"],"token":"size"}
+{"message_count":6,"shards":["messages-0004.jsonl","messages-0008.jsonl","messages-0011.jsonl","messages-0020.jsonl","messages-0021.jsonl","messages-0024.jsonl"],"token":"sized"}
+{"message_count":1,"shards":["messages-0023.jsonl"],"token":"sizenus"}
+{"message_count":3,"shards":["messages-0006.jsonl","messages-0007.jsonl"],"token":"sizes"}
