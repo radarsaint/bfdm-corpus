@@ -205,3 +205,29 @@ BCS IDs `000069`–`000086` remain reserved because they are already allocated o
 
 Do not infer live use from publication. Next high-value step after the Season 5 dev Discord lands is:
 `Drive planning -> dev deliberation -> Site changelog/revision -> published Site -> partial live evidence`.
+
+## Drive relationship reconciliation pilot
+**Status: IMPLEMENTED ON FRESH MAIN-BASED BRANCH; PILOT VALIDATION IN PROGRESS.**
+
+Branch: `ingest/drive-relations-reconcile-v1`
+
+Do **not** merge `ingest/drive-project-v3` wholesale. It is now a donor/source branch containing archival artifacts that must be selectively reconciled into current main.
+
+Completed in the pilot:
+- minimal historical source relationship model in source `metadata.json`;
+- deterministic collision plan preserving canonical main IDs;
+- donor collision mapping `087→115`, `088→116`, `089→117`, `090→118`, `091→119`, `092→120`, `093→121`;
+- exact artifact-preserving port of Roanoke crafting sources `BCS-000077`–`BCS-000080`;
+- exact donor Git blobs retained for source bodies, comments/revision metadata where present, and DOCX export snapshots;
+- explicit S3 project/stage/family/publication relationships;
+- message-backed `IMPLEMENTED_IN` link from the public crafting rules to the S3 live `crafting-questions` channel;
+- Season 5 relationship bridge using `BCS-000113`, `BCS-000114`, and published `BCS-000110`;
+- research usability test under `research/drive-integration/USABILITY_TEST_2026-10-04.md`.
+
+Important unresolved work:
+- scale the proven reconciliation pattern to the remaining donor source containers rather than summarizing them away;
+- apply the renumber map only when porting donor `BCS-000087`–`BCS-000093`;
+- port the At War's End family next as a clean draft-lineage test;
+- preserve donor revision bodies/assets wherever they exist;
+- build/rebuild the non-Discord `indexes/documents.sqlite` only when the broader Drive reconciliation is ready; current main does not contain that database;
+- do not infer live outcomes merely from publication or same-server presence.
