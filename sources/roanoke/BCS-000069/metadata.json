@@ -1,0 +1,76 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000069",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Season 3 Directory",
+  "source_role": "project_index",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Season 3 Directory.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-04T03:42:53.215Z",
+  "modified_at": "2020-08-26T19:40:50.354Z",
+  "ingested_at": "2026-10-04T14:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Project-source identity is clear from document content and Drive context, but whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1WVcShB8oAPNPnuxWLJWm5p86-UKVq8CazHXNB-Qo2cQ",
+      "url": "https://docs.google.com/document/d/1WVcShB8oAPNPnuxWLJWm5p86-UKVq8CazHXNB-Qo2cQ/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000069/source.md",
+      "sha256": "9bcf2e2cbf583469dc4e8c52e50cc7e6edbd205f6b52fd65acedfcaad4bab805",
+      "mime_type": "text/plain",
+      "size_bytes": 3618,
+      "provider_revision_id": "3924"
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000069/original/source.docx",
+      "sha256": "6641eff770ea7d1924429e0764d57901ef734025b6555fed78b1d527e85e7e0c",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 14354,
+      "provider_revision_id": "3924"
+    },
+    {
+      "kind": "NATIVE_COMMENTS_JSONL",
+      "path": "sources/roanoke/BCS-000069/comments.jsonl",
+      "sha256": "a037c50589cdb8c8892477cecd46548a5c7695f630b71e2e9b8ab8830b47b0b2",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 1618,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000069/revisions.jsonl",
+      "sha256": "256549398b626e0a853aba851684a188f1c483c53ea3c2e8a5a6fb1f797b6d77",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 45482,
+      "provider_revision_id": null
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}
