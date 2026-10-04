@@ -1,0 +1,31 @@
+{
+  "schema_version": "bfdm_season5_corpus_integration/v1",
+  "completed_on": "2026-10-04",
+  "project_id": "roanoke-s5-legends",
+  "site_count": 26,
+  "site_bcs_start": "BCS-000087",
+  "site_bcs_end": "BCS-000112",
+  "bridge_sources": [
+    "BCS-000113",
+    "BCS-000114"
+  ],
+  "reserved_ids_due_to_active_drive_branch": {
+    "start": "BCS-000069",
+    "end": "BCS-000086",
+    "branch": "ingest/drive-project-v3"
+  },
+  "changes": [
+    "Converted per-site harvester metadata.json to capture.json and installed canonical bfdm_source_metadata/v1 metadata.json.",
+    "Added all 26 Sites to evidence/catalog.jsonl.",
+    "Admitted the S5 Site Changelog and Way of Gun Fu Drive source as canonical BCS containers.",
+    "Updated roanoke-s5-legends project registry coverage, format, source anchors, schedule evidence, aliases, and uncertainties.",
+    "Updated SOURCE_COVERAGE, CHRONOLOGY, source lead, source-family README, and NEXT_HANDOFF."
+  ],
+  "known_remaining_gaps": [
+    "Season 5 development Discord not yet canonically ingested/registered.",
+    "Unified indexes/documents.sqlite is still a repo-wide pending deliverable and should be rebuilt after active Drive ingestion consolidates.",
+    "Original PDF bytes for BCS-000114 remain provider-side pending binary-safe Drive reconciliation.",
+    "Passage-level authorship remains unresolved for collaborative/unknown Season 5 sources.",
+    "Published schedule is not proof of observed campaign completion."
+  ]
+}
