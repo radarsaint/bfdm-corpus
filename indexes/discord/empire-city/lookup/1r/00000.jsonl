@@ -1,0 +1,3 @@
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863607983837282304/00005.jsonl"}],"term":"1rare"}
+{"message_hits":3,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/872664665728106566/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850836384397918228/00001.jsonl"}],"term":"1roll"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779735780491276/00000.jsonl"}],"term":"1ru6n8rkqef5eyibthfzvzd7dbgvi0nbiwhdfhto4qz4"}

@@ -1,0 +1,5 @@
+{"message_hits":4,"part":1,"parts":1,"shard_count":4,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746816311664967753/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746939355003748354/00004.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746943487366397984/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/764223310657355826/00005.jsonl"}],"term":"35"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/747785722634961006/00000.jsonl"}],"term":"3535762"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/747287820221284362/00000.jsonl"}],"term":"3566516"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/747915178187817123/00002.jsonl"}],"term":"3570482"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746816311664967753/00001.jsonl"}],"term":"35k"}

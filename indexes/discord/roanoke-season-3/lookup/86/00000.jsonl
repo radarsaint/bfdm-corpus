@@ -1,0 +1,5 @@
+{"message_hits":3,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/733827406078410763/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/733827922749685830/00013.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/735293812775321650/00011.jsonl"}],"term":"86"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636015324772171787/00004.jsonl"}],"term":"8618"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00109.jsonl"}],"term":"8623491"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/638590342005784588/00010.jsonl"}],"term":"8662"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00114.jsonl"}],"term":"869580397"}

@@ -1,0 +1,2 @@
+{"message_hits":3,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00099.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/863314297870221312/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/875137859592531978/00001.jsonl"}],"term":"s1"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00038.jsonl"}],"term":"s10e6"}

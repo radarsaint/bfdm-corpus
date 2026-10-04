@@ -1,0 +1,4 @@
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/733827680490881095/00027.jsonl"}],"term":"7a2daf5f8065eee5d54906756eaa0874726650fe"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/734864101892685976/00001.jsonl"}],"term":"7a9f0eb7ffe71c8cf780e0e2cdf1fef3"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/722271441873272874/00010.jsonl"}],"term":"7aitbw7tqke1qakanwjxug"}
+{"message_hits":4,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/636012145204527127/00138.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00131.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/638590342005784588/00015.jsonl"}],"term":"7am"}

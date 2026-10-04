@@ -1,0 +1,4 @@
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00000.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/876646958482198528/00000.jsonl"}],"term":"ds"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00190.jsonl"}],"term":"ds9fk"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00000.jsonl"}],"term":"dsay"}
+{"message_hits":4,"part":1,"parts":1,"shard_count":4,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00112.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00329.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/861700807626588220/00078.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/876646958482198528/00000.jsonl"}],"term":"dst"}

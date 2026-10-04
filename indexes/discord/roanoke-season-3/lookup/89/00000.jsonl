@@ -1,0 +1,5 @@
+{"message_hits":3,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/732919665235591169/00010.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/733826617524224050/00003.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/739055141759615027/00009.jsonl"}],"term":"89"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/739055141759615027/00009.jsonl"}],"term":"890"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/647890633763323924/00015.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/742548616119451730/00001.jsonl"}],"term":"8911367"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/698489628289925130/00009.jsonl"}],"term":"8932"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00230.jsonl"}],"term":"8991943"}

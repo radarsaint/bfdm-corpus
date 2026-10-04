@@ -1,0 +1,6 @@
+{"message_hits":6,"part":1,"parts":1,"shard_count":5,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/738913921217593454/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/733826617524224050/00006.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/733827764133822465/00023.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/733827832635195424/00003.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/736721702586679419/00003.jsonl"}],"term":"82"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/739055402120904784/00027.jsonl"}],"term":"8200gp"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/709304697713852446/00000.jsonl"}],"term":"8220"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/737838464560791552/00000.jsonl"}],"term":"824985213910184234"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/636014704854040577/00001.jsonl"}],"term":"827682248037975"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00114.jsonl"}],"term":"829878826"}

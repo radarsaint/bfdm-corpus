@@ -1,0 +1,11 @@
+{"message_hits":3,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/746962734939242559/00002.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746943458195013642/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/747785722634961006/00001.jsonl"}],"term":"40"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/747056417524940880/00000.jsonl"}],"term":"400"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/764223310657355826/00001.jsonl"}],"term":"400ish"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746939355003748354/00019.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/770779075920396339/00000.jsonl"}],"term":"402542822797869057"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/747260330463199332/00000.jsonl"}],"term":"4034"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746939431696728086/00002.jsonl"}],"term":"403783497564684291"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/747234419244531841/00000.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746962734939242559/00002.jsonl"}],"term":"404"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/747916438970564708/00000.jsonl"}],"term":"404fb25eb6bdfd63bbb1229d0be19000"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/747915178187817123/00000.jsonl"}],"term":"40821"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746813707803295744/00000.jsonl"}],"term":"40gp"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746939355003748354/00030.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746939355003748354/00031.jsonl"}],"term":"40x40"}

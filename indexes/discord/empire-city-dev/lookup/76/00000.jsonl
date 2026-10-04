@@ -1,0 +1,4 @@
+{"message_hits":7,"part":1,"parts":1,"shard_count":4,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/746845355869732964/00000.jsonl"},{"attachment_hits":0,"hits":4,"path":"messages/747785722634961006/00002.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/747309419225677864/00000.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/747785722634961006/00003.jsonl"}],"term":"76"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/764223310657355826/00001.jsonl"}],"term":"768001798703153173"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/764223310657355826/00002.jsonl"}],"term":"768505542380617738"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/764223310657355826/00002.jsonl"}],"term":"768505603617194014"}

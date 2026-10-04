@@ -1,0 +1,2 @@
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746816613923291197/00000.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746939355003748354/00006.jsonl"}],"term":"ox"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/746939355003748354/00004.jsonl"}],"term":"oxen"}

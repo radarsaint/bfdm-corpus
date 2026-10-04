@@ -1,0 +1,3 @@
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00036.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00130.jsonl"}],"term":"fx"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/722271441873272874/00011.jsonl"}],"term":"fx1p"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/738913921217593454/00003.jsonl"}],"term":"fxkc"}

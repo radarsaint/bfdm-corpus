@@ -1,0 +1,4 @@
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863470940183724082/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/865913981406806046/00002.jsonl"}],"term":"nk"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/863933045849849897/00001.jsonl"}],"term":"nkoqk0qd"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/880392907335548988/00000.jsonl"}],"term":"nkt"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00164.jsonl"}],"term":"nkw"}

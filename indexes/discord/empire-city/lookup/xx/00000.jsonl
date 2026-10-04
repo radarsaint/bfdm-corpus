@@ -1,0 +1,3 @@
+{"message_hits":4,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/863470940183724082/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/863362543585329162/00002.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/863554465458290694/00000.jsonl"}],"term":"xx"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00027.jsonl"}],"term":"xxwrpbd"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863554465458290694/00000.jsonl"}],"term":"xxx"}

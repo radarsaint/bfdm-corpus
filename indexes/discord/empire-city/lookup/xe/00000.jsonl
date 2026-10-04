@@ -1,0 +1,5 @@
+{"message_hits":2,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/863470940183724082/00001.jsonl"}],"term":"xe"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/852731936349880390/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/863470940183724082/00001.jsonl"}],"term":"xem"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00112.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00188.jsonl"}],"term":"xenoblade"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863455851674992660/00002.jsonl"}],"term":"xenotype"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/852731936349880390/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/861700807626588220/00017.jsonl"}],"term":"xey"}

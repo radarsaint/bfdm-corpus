@@ -1,0 +1,4 @@
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/739546506184491089/00005.jsonl"}],"term":"ib"}
+{"message_hits":4,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/733827922749685830/00018.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00215.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/739240413269065890/00005.jsonl"}],"term":"iberia"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/709304697713852446/00009.jsonl"}],"term":"iberian"}
+{"message_hits":3,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/636012145204527127/00070.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/636020443219886091/00004.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/736489917806542878/00001.jsonl"}],"term":"ibuc"}

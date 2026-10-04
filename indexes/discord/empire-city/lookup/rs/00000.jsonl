@@ -1,0 +1,5 @@
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/852738741537865769/00009.jsonl"}],"term":"rs"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850782019310714932/00000.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850782019310714932/00001.jsonl"}],"term":"rsd"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00146.jsonl"}],"term":"rss"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":1,"hits":1,"path":"messages/850808447003656242/00000.jsonl"}],"term":"rsz"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00010.jsonl"}],"term":"rszqkd1bfto"}

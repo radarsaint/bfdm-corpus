@@ -1,0 +1,13 @@
+{"message_hits":3,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00323.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00001.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00004.jsonl"}],"term":"2f"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00004.jsonl"}],"term":"2f20"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00004.jsonl"}],"term":"2f4088600020228"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00323.jsonl"}],"term":"2f5005628"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00019.jsonl"}],"term":"2f6"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00004.jsonl"}],"term":"2faldprdproductimages"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/861700807626588220/00051.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/863743873411317800/00091.jsonl"}],"term":"2fdspj98"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00323.jsonl"}],"term":"2fimages"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00004.jsonl"}],"term":"2fmedia"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00323.jsonl"}],"term":"2fphoto"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/863631111585660938/00004.jsonl"}],"term":"2fresized"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00001.jsonl"}],"term":"2fwatch"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00001.jsonl"}],"term":"2fwww"}

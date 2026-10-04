@@ -1,0 +1,4 @@
+{"message_hits":5,"part":1,"parts":1,"shard_count":4,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/850792255224152104/00009.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00033.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00026.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/855881575308066927/00007.jsonl"}],"term":"lt"}
+{"message_hits":2,"part":1,"parts":1,"shard_count":2,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00233.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/850779383656218636/00262.jsonl"}],"term":"lthe"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/861700807626588220/00003.jsonl"}],"term":"lthree"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/850783697946804234/00013.jsonl"}],"term":"ltmku6y86ys"}

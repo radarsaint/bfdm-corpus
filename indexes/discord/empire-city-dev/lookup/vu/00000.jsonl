@@ -1,0 +1,4 @@
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/764223310657355826/00003.jsonl"}],"term":"vu"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/804900048743038976/00000.jsonl"}],"term":"vulture"}
+{"message_hits":1,"part":1,"parts":1,"shard_count":1,"shards":[{"attachment_hits":0,"hits":1,"path":"messages/746818810954121236/00002.jsonl"}],"term":"vultures"}
+{"message_hits":4,"part":1,"parts":1,"shard_count":3,"shards":[{"attachment_hits":0,"hits":2,"path":"messages/746939355003748354/00031.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746818810954121236/00002.jsonl"},{"attachment_hits":0,"hits":1,"path":"messages/746818810954121236/00003.jsonl"}],"term":"vuman"}
