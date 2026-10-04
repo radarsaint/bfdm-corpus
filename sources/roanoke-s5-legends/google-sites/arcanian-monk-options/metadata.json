@@ -56,10 +56,15 @@
   "capture_metadata_path": "sources/roanoke-s5-legends/google-sites/arcanian-monk-options/capture.json",
   "source_links": [
     {
-      "link_type": "PUBLISHED_VERSION_OF_OR_RELATED_TO",
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
       "to_corpus_id": "BCS-000114",
       "basis": "Published page and connected Drive PDF contain matching Way of Gun Fu subclass material; treat as a version family rather than independent corroboration.",
-      "confidence": "STRONG"
+      "confidence": "STRONG",
+      "target_kind": "SOURCE",
+      "support_refs": [
+        "BCS-000110",
+        "BCS-000114"
+      ]
     }
   ]
 }
