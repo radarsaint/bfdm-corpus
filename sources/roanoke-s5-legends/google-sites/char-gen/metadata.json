@@ -1,0 +1,56 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "char-gen",
+  "seed_url": "https://sites.google.com/view/char-gen/home",
+  "role": "character_creation",
+  "capture_started_from": "https://sites.google.com/view/char-gen/home",
+  "captured_at": "2026-10-04T22:03:39.478887Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/char-gen/home",
+      "fetched_at": "2026-10-04T22:03:39.072622Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/char-gen/home",
+      "title": "Char-gen",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/char-gen/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/char-gen/pages/home.md",
+      "sha256_html": "bc68083d43fc5b5d49f9fe3eeedee133a5c84cf1347aa8544434679f61a798c3",
+      "sha256_text": "e339197174cc9fd323021cb1be631eb269ff2c04c0d375b647ad314ee8c64fcc",
+      "links_all": [
+        "https://sites.google.com/view/arcanian-monk-options/home",
+        "https://sites.google.com/view/char-gen/home",
+        "https://sites.google.com/view/homebrew-races/home",
+        "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
+        "https://sites.google.com/view/lifepathgambler/home",
+        "https://sites.google.com/view/lifepathrancher/home",
+        "https://sites.google.com/view/oath-of-the-drifter/home",
+        "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+        "https://sites.google.com/view/s5-codebound/home",
+        "https://sites.google.com/view/s5backgrounds/home",
+        "https://sites.google.com/view/s5bardcolleges/home",
+        "https://sites.google.com/view/s5homebrewclericoptions/home",
+        "https://sites.google.com/view/s5mining/home",
+        "https://sites.google.com/view/s5rogueoptions/home",
+        "https://sites.google.com/view/s5warlockoptions/home",
+        "https://sites.google.com/view/spellshotwizard/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/char-gen/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

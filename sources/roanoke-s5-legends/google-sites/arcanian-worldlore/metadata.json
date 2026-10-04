@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/arcanian-worldlore/home",
   "role": "world_lore",
   "capture_started_from": "https://sites.google.com/view/arcanian-worldlore/home",
-  "captured_at": "2026-10-04T21:59:59.643409Z",
+  "captured_at": "2026-10-04T22:03:38.335227Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/arcanian-worldlore/home",
-      "fetched_at": "2026-10-04T21:59:59.252275Z",
+      "fetched_at": "2026-10-04T22:03:37.998320Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/arcanian-worldlore/home",
       "title": "World Lore",
       "raw_path": "sources/roanoke-s5-legends/google-sites/arcanian-worldlore/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/arcanian-worldlore/pages/home.md",
-      "sha256_html": "4772abe6683acd3f7139bad22339da7f1f243214e06ca4d725c85a359351d54b",
+      "sha256_html": "b8f0ac3d2f5b92ca7009b050150363bb8827333e7591e75f7cf8464902fde8bc",
       "sha256_text": "47424bcb04e2a976793bc85aac416edaed0548abacc7a7a951901e32f7a885a8",
       "links_all": [
         "https://sites.google.com/view/arcanian-worldlore/home"

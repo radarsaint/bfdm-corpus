@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/lifepathgambler/home
 - Final URL: https://sites.google.com/view/lifepathgambler/home
-- Retrieved: 2026-10-04T21:59:55.106549Z
+- Retrieved: 2026-10-04T22:03:33.961060Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
   "role": "enforcer_rule_option",
   "capture_started_from": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
-  "captured_at": "2026-10-04T21:59:58.148709Z",
+  "captured_at": "2026-10-04T22:03:36.741112Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
-      "fetched_at": "2026-10-04T21:59:57.575602Z",
+      "fetched_at": "2026-10-04T22:03:36.268897Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/improvised-weapon-for-enforcer/home",
       "title": "Improvised weapon for enforcers s5",
       "raw_path": "sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/pages/home.md",
-      "sha256_html": "b66edc9c0faaa93745415df2a8827d90ff60b8cf544b51b4c6a50670a7afdddc",
+      "sha256_html": "9710e6f77fc631f3091de4c5c821da3c71e1a957dc62f0b8f9bdd4e8c4845791",
       "sha256_text": "dc5e6cf035932b49ad7626ac0269582d642adaafa70d14c391138a309d7fed4f",
       "links_all": [
         "https://sites.google.com/view/improvised-weapon-for-enforcer/home"

@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/s5warlockoptions/home
 - Final URL: https://sites.google.com/view/s5warlockoptions/home
-- Retrieved: 2026-10-04T21:59:56.007334Z
+- Retrieved: 2026-10-04T22:03:34.691128Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

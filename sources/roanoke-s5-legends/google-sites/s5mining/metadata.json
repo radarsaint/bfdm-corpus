@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5mining/home",
   "role": "life_path_mining",
   "capture_started_from": "https://sites.google.com/view/s5mining/home",
-  "captured_at": "2026-10-04T21:59:52.568235Z",
+  "captured_at": "2026-10-04T22:03:31.910689Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5mining/home",
-      "fetched_at": "2026-10-04T21:59:52.016212Z",
+      "fetched_at": "2026-10-04T22:03:30.335042Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5mining/home",
       "title": "Mining",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5mining/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5mining/pages/home.md",
-      "sha256_html": "b86db5a2405bdeee992e5e13f3d8f70120f49ab4e4508e59fb5a4c0123cfbbdc",
+      "sha256_html": "a8b0821b5b589bd6fa79202cafed70472dbff2ad487a165d1252ae6548648286",
       "sha256_text": "60cf2a39be65f3260b7e23796b697fbc4a5492c11f1adb87450b93fabe5fffc8",
       "links_all": [
         "https://sites.google.com/view/s5mining/home"

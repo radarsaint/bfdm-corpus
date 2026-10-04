@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5backgrounds/home",
   "role": "backgrounds_character_creation",
   "capture_started_from": "https://sites.google.com/view/s5backgrounds/home",
-  "captured_at": "2026-10-04T21:59:52.015370Z",
+  "captured_at": "2026-10-04T22:03:30.334398Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5backgrounds/home",
-      "fetched_at": "2026-10-04T21:59:51.630961Z",
+      "fetched_at": "2026-10-04T22:03:29.973868Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5backgrounds/home",
       "title": "s5 backgrounds",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5backgrounds/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5backgrounds/pages/home.md",
-      "sha256_html": "69bc7b155c5814b56c553ccca1c7e3cd8fec5bb68c0c4a42afa7daabe7fc25c7",
+      "sha256_html": "dabf7f56c654cd592ec5f983034cf99953556240c9f836af580c0a70b3e54366",
       "sha256_text": "48eca994b0ccd81f582e590a8d2b141cb5d334d068d1bf840d619c31c5b5b9a7",
       "links_all": [
         "https://sites.google.com/view/arcanian-worldlore/home",

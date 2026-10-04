@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/tales-in-legend/home
 - Final URL: https://sites.google.com/view/tales-in-legend/home
-- Retrieved: 2026-10-04T21:59:58.889149Z
+- Retrieved: 2026-10-04T22:03:37.679705Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

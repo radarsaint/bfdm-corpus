@@ -1,10 +1,10 @@
 # Season 5 Google Sites harvest report
 
-- Completed: 2026-10-04T22:00:00.137780Z
-- Sites in manifest: 21
-- Sites with at least one captured page: 21
+- Completed: 2026-10-04T22:03:39.479313Z
+- Sites in manifest: 23
+- Sites with at least one captured page: 23
 - Sites with zero captured pages: 0
-- Pages captured: 21 / 21
+- Pages captured: 23 / 23
 - Fetch failures: 0
 
 | Site | Status | Pages captured | Failures | Role |
@@ -30,6 +30,8 @@
 | tales-in-legend | CAPTURED | 1/1 | 0 | campaign_setting_material_verify |
 | arcanian-worldlore | CAPTURED | 1/1 | 0 | world_lore |
 | homebrew-races | CAPTURED | 1/1 | 0 | race_options |
+| arcanian-server-rules | CAPTURED | 1/1 | 0 | server_rules |
+| char-gen | CAPTURED | 1/1 | 0 | character_creation |
 
 ## Evidence boundary
 

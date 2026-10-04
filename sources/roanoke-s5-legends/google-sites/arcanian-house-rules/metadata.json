@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/arcanian-house-rules/home",
   "role": "house_rules",
   "capture_started_from": "https://sites.google.com/view/arcanian-house-rules/home",
-  "captured_at": "2026-10-04T21:59:58.888317Z",
+  "captured_at": "2026-10-04T22:03:37.679127Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/arcanian-house-rules/home",
-      "fetched_at": "2026-10-04T21:59:58.514422Z",
+      "fetched_at": "2026-10-04T22:03:37.292976Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/arcanian-house-rules/home",
       "title": "House rules",
       "raw_path": "sources/roanoke-s5-legends/google-sites/arcanian-house-rules/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/arcanian-house-rules/pages/home.md",
-      "sha256_html": "1648eada8c71298e2e3cadf536247d099392c5df0fdf89ed245e98419499b412",
+      "sha256_html": "aa6dd047cae4b4cdf37d1ca78e1d01bb5c7e3eb416ea9504a0ec9c52145acaad",
       "sha256_text": "e250295b1a1cf8da29c0aa0aafa5cbb1f2059246a4f4d430c1baea0ba7c37759",
       "links_all": [
         "https://sites.google.com/view/arcanian-house-rules/home",
