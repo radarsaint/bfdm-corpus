@@ -5,389 +5,2292 @@
   },
   "files": [
     {
-      "messages": 2500,
+      "bytes": 174718,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0001.jsonl",
-      "sha256": "80c9ac569821bbf45a9e5c4b1ca5aef185bcb11af95815239014e475e56b06ed"
+      "sha256": "7aef2c3ecea92c943c6696d140dfdec4d6ba4dc761c168111abf660f53d47a00"
     },
     {
-      "messages": 2500,
+      "bytes": 160187,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0002.jsonl",
-      "sha256": "e25ca6a8a7edf13087395e417706ddfda078412245c1ffbe97522088057c0cc3"
+      "sha256": "3314881fe4925c6f9e4e2f6e2b4f1e0a31c89622db45290046a81f5799f1d8c1"
     },
     {
-      "messages": 2500,
+      "bytes": 201534,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0003.jsonl",
-      "sha256": "ddf27a03497a7634c97872903b33946281136f194113a1cc698952f95f7af4cc"
+      "sha256": "485c60aae4018a216b9fc3bd8c4afa3ce93898900611f2f87d45c8db2ef2d4b4"
     },
     {
-      "messages": 2500,
+      "bytes": 222894,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0004.jsonl",
-      "sha256": "6bfc09218bba3718c626505d222dc8ced246c8fc3900ab76007bd0944cfc08e0"
+      "sha256": "bead5925f60a1568e6e50d4a3cfd4c13a58c69eea4f7fbdbc0780e8e25e773bf"
     },
     {
-      "messages": 2500,
+      "bytes": 222868,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0005.jsonl",
-      "sha256": "55a882f03272b98de5a749ceb1488a02cac39cbec5a050ffaa04b96f2cb5506e"
+      "sha256": "4addc8cd6df790649f3d032f65a58250167a7caefbabed904be1ee3ac71e12f4"
     },
     {
-      "messages": 2500,
+      "bytes": 208871,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0006.jsonl",
-      "sha256": "6ffc22d01264739cf57e64771d028664c0af02a7c7397ee7cf97a7beca252ca1"
+      "sha256": "bbdfe394937b913de4cc37578d10221791354f46ce65f194b09923dbcc5f3c63"
     },
     {
-      "messages": 2500,
+      "bytes": 219769,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0007.jsonl",
-      "sha256": "fe7ef2bcecd4b8d148040a000d419cbf78dc79f6a8f321ade0d9fb6d5ddd97a3"
+      "sha256": "bcd2c545582567c353170a98d4029536f7d2d9ea855af75c7d92c79604bb6cb8"
     },
     {
-      "messages": 2500,
+      "bytes": 216240,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0008.jsonl",
-      "sha256": "94bd54b227bd20697cf81cea92645d4983997bf1a5e396bc5927e62c08f4bbd1"
+      "sha256": "4cbb7efeeff054bf98dce8777b0e489fa608d58310562f81a900df6b533e84ba"
     },
     {
-      "messages": 2500,
+      "bytes": 204369,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0009.jsonl",
-      "sha256": "f044e124246be26794cf7f116030d19506f9736db97ef6b6de48f3e38574d40c"
+      "sha256": "7de05a76ea8c3663cca371b8bf49b353c0197c3dda8ae6146ca1e748bcdd6313"
     },
     {
-      "messages": 2500,
+      "bytes": 202279,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0010.jsonl",
-      "sha256": "13cdcec560fac5a9be9e974b64b4bb23019fd06b419daeab9c401f80be89cf98"
+      "sha256": "44095d78086cbf7c1b019bcabdc79fa9eb63730928754c5883337a72e5e5202a"
     },
     {
-      "messages": 2500,
+      "bytes": 210001,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0011.jsonl",
-      "sha256": "e89607dba32389c933d0c877c66a72317476e83073803c957387e35dd30bde1c"
+      "sha256": "47b3ecaa4783cf8c7881b3513517a50f8c6b093f9f822b9be0d7091c2eaec235"
     },
     {
-      "messages": 2500,
+      "bytes": 209314,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0012.jsonl",
-      "sha256": "a30846ae7013e8198aff4ceccf6c0f089c2ce1b00778c949d63fbcb72c17ad8f"
+      "sha256": "783a6540b4ccb2638af0e0344966c86d16258ecffee662418a98a857747dc4ed"
     },
     {
-      "messages": 2500,
+      "bytes": 213110,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0013.jsonl",
-      "sha256": "32dad91dcb268dbc1285b18e293cf7cbd7abf2e23b3eebea2b81fd7c421982d1"
+      "sha256": "c303b28c401c97d5a177a5e03e15762fca28e5693f5e70341b436e85f2c4adb4"
     },
     {
-      "messages": 2500,
+      "bytes": 208088,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0014.jsonl",
-      "sha256": "d24219f1bbc8be97823bd8db5c4f31978f1818213cddb028e16a57eaa9efa1a8"
+      "sha256": "6763d5f47c50ebec3079a2408dd464c4ff06c6e9e5e0d04e029031d2fc45a5c8"
     },
     {
-      "messages": 2500,
+      "bytes": 206367,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0015.jsonl",
-      "sha256": "c22a22dcd851b2bd3227c0d7903e94c3a1475971969d5d0476552aca5056be3e"
+      "sha256": "2a9a22e4a2ac4e2cb8a6f4b2ea64c5e5c5f1127e099f57b53feda8e9e13b8b29"
     },
     {
-      "messages": 2500,
+      "bytes": 197159,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0016.jsonl",
-      "sha256": "cf06e83cb893199db0deb52753ef2540f9039a5f7e0b65afc3c6fe83bebb43bf"
+      "sha256": "0496d146b307ff5c4a692c6f42a8e7f44bd13f6536c7feee0d1e22945f41a711"
     },
     {
-      "messages": 2500,
+      "bytes": 198012,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0017.jsonl",
-      "sha256": "f7f37d3c76bddf4c4106ba551a0d5fbc408ae22a96f4cfc36285edbe053bf98d"
+      "sha256": "54e970dce1312b813ab15ee27877e95e535e7cc4608eb6bbf32beaefdeb046bc"
     },
     {
-      "messages": 2500,
+      "bytes": 199385,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0018.jsonl",
-      "sha256": "b9b109e3ad158b1332ae43949e2bd5ea0166c8edad43403ac5d131f9921fa45e"
+      "sha256": "adc01fcc1f52761ad2e72dfd08ef5e16ed768dc7444f58682cfe12d7491fd2b9"
     },
     {
-      "messages": 2500,
+      "bytes": 209390,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0019.jsonl",
-      "sha256": "c47204d2d1daed3e4c4dd1c949497504d58752244bfb5782a3ae6771bf00da4b"
+      "sha256": "a5eaff884574e621c15c00c914ba47f4d5692b9ca23339a2c5c2e9098633c264"
     },
     {
-      "messages": 2500,
+      "bytes": 203720,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0020.jsonl",
-      "sha256": "00487d2745f0951b25c9031edce1feef6c615623d2fb423eed7b1f21867cdef8"
+      "sha256": "6d99cffc0564d81d437abe60d2a129c701c64b21a84472c90913c0dd013dbf55"
     },
     {
-      "messages": 2500,
+      "bytes": 202841,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0021.jsonl",
-      "sha256": "4f3aaabd676b534eee17a49474d0d9143e5c09a7bd3b4213c2ad4186b7368ada"
+      "sha256": "0c745140ab95ef834d2a16f8d7b16c0f78eba76c57d3c3109817fb864c25ae05"
     },
     {
-      "messages": 2500,
+      "bytes": 207734,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0022.jsonl",
-      "sha256": "849c396b3a5eea93643356be83924c57a98b0e44b55d2a2b11a0cf0eb377218d"
+      "sha256": "74533d7c8e6a7e8074587af6b778176ffe83cf25f261eaf9deae3180839395ea"
     },
     {
-      "messages": 2500,
+      "bytes": 203244,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0023.jsonl",
-      "sha256": "66eb3e246dd0cf31dd427f36c71f677891b6b4bb1f431aa0277a9a8f4b8b839d"
+      "sha256": "5ad86ddb713153569bc058a8dc19ca2d1409cb21d04a6f1b4f1b49a839a76e79"
     },
     {
-      "messages": 2500,
+      "bytes": 197702,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0024.jsonl",
-      "sha256": "b257a145568f1f7e154cda179e2d9d4999d3bf641f5636c08e20744e78cc6e09"
+      "sha256": "ee792023b3e3638d7856388afec8345ed047163fe4d99661a77c8ad54cd6ecdf"
     },
     {
-      "messages": 2500,
+      "bytes": 204730,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0025.jsonl",
-      "sha256": "e0190e36e2000c397063f311431aea203dc5273a0aacf96d9628f575330ee9fb"
+      "sha256": "39da0ed4c4eb190f2ec0d11d5598708e4c050c1128220762f26b2fe0f8732c92"
     },
     {
-      "messages": 2500,
+      "bytes": 208982,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0026.jsonl",
-      "sha256": "d534d54d27245249f9ae93ffde36d0be3f72683f5ac4b7f47ed7808484863b66"
+      "sha256": "dc12db3f570c7abf03260c4f612a0f7d35553ab921bb3363597e09e0e05c70f9"
     },
     {
-      "messages": 2500,
+      "bytes": 194681,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0027.jsonl",
-      "sha256": "ce9308ad94ad9ca471d3581f4eddaa9047b61deb84967de3ef10221076f9437b"
+      "sha256": "a28713fa1b02c0dee052c417992227dd4a3c0971929eeabeca232e8e62f7670e"
     },
     {
-      "messages": 2500,
+      "bytes": 201963,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0028.jsonl",
-      "sha256": "a656b2435fc604359d5b2536bab77d2293afc639279bd9fd40944f9841ceeecf"
+      "sha256": "efafe5964b891aae520511720839fdd1d7233f98365f9b75f2009a666868bd0f"
     },
     {
-      "messages": 2500,
+      "bytes": 201501,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0029.jsonl",
-      "sha256": "ac30e3aa3712a7c9be8c056d9956fc47ebe3e0b16e3a93e11298fe1780ce05d9"
+      "sha256": "971c9948d07e9bb5eb2be7577e9451ddb3f96943272854b886e8b378bffba121"
     },
     {
-      "messages": 2500,
+      "bytes": 202433,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0030.jsonl",
-      "sha256": "c2d9d272ea03514213d7bfff550978c523d9a2bdd116317b31bd4cb6762dbff9"
+      "sha256": "4c10fc910cbdce746ae5efac2b9c8503816a53ea3d7c7d9d5ae744f5ad1f4534"
     },
     {
-      "messages": 2500,
+      "bytes": 197892,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0031.jsonl",
-      "sha256": "a0dbdac4fa1b36c38c4574746d2a55b55b2330ebb99ec69452b9604a2e0a3c0e"
+      "sha256": "b8e9b1bcbaf3554e082e8239bb9e49d26b3d92e5683f3f179c0a75fe3bcab8e6"
     },
     {
-      "messages": 2500,
+      "bytes": 203676,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0032.jsonl",
-      "sha256": "5bb1add0b89f819891d5f25045df4e57c7669803d15701486c3bba1141ffcca5"
+      "sha256": "35ffcac42fb4f6a6f35631e353746f60c20babb7877d96950b48ef83471c4104"
     },
     {
-      "messages": 2500,
+      "bytes": 198225,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0033.jsonl",
-      "sha256": "0b33b3cb87e136a0505c0734f08346e22b242fd84d21cf0adf989f492fe10b59"
+      "sha256": "98b194af766a9482548b70e9502b5f836aa41d6b657ced2fe162b54012fa1e8c"
     },
     {
-      "messages": 2500,
+      "bytes": 193958,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0034.jsonl",
-      "sha256": "3673380fdaf33ce4d04d6c7a4b7378e0e7df863c008aa23efb3b8caee6787bde"
+      "sha256": "0a11091b2f4dd0b5cee3226b0b14e489d5fd0d506d5228cfb2cb25fc24ae69ac"
     },
     {
-      "messages": 2500,
+      "bytes": 209797,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0035.jsonl",
-      "sha256": "ccc941df01cd4340ac8b077a5ef460e17444eb250f8a77186ba035f71b5e6cea"
+      "sha256": "a9883d052baf74524dae2b564fac4c91fc85fe12cdf271de5de8e7fb4901f852"
     },
     {
-      "messages": 2500,
+      "bytes": 205786,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0036.jsonl",
-      "sha256": "c28ad676a7c198fe23b545e02b678c29f1b59b603406e8efb80eebf779fb0e1f"
+      "sha256": "46cadfa990750abffad1f1cd1f211943d379e4c521473fe9079d53700fb27484"
     },
     {
-      "messages": 2500,
+      "bytes": 196725,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0037.jsonl",
-      "sha256": "bda42b4f2cf1344dbb536d08d487bd5af37e87118a8b33288a3dc2bcc73b5090"
+      "sha256": "dee311d029bc0ee0e7ef348cdc8e7050bfec2c80b990b461832e012b102d3bfc"
     },
     {
-      "messages": 2500,
+      "bytes": 206451,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0038.jsonl",
-      "sha256": "8ac3a938b9d50d949a173912910cdf68152d73ff29e5a1e942ad13fcca025e91"
+      "sha256": "45282edf14a18360dab919baf2c256d17b56e8168661cff9e7a6af0619afad46"
     },
     {
-      "messages": 2500,
+      "bytes": 208973,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0039.jsonl",
-      "sha256": "8e397ca59bd2ca6f3d082968df6d1638cf98030fee78965cb1fe6c76e6b7ca02"
+      "sha256": "22a315406817a8d7df439ab5676d6c219c38a784571eca11221aec46e5d25ef7"
     },
     {
-      "messages": 2500,
+      "bytes": 197404,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0040.jsonl",
-      "sha256": "02b6d549cb861541f1603a9868135ca0ff709185017c0e821309d13d8d5b5067"
+      "sha256": "4f7b6cdbc2884a519801eb59558d9351c0c177fdeb662ee17ba030d782b813e2"
     },
     {
-      "messages": 2500,
+      "bytes": 189912,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0041.jsonl",
-      "sha256": "907cff161b56a8d94b2cf710f71db4242c23fd7edd8ac7b98ebd5e69ba4ce601"
+      "sha256": "0fe875435fd274d192dd9edde0b6e6d7120cb7ddac8571da1f517765ca37a4b9"
     },
     {
-      "messages": 2500,
+      "bytes": 190327,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0042.jsonl",
-      "sha256": "a301ab80ca3397483324a7fae92a745b89c4fe69497237387901ffe35fc68acd"
+      "sha256": "49dc5e00a4b73572445fb667907f5240e7bbc12786b039cbfa6526c0c65f0084"
     },
     {
-      "messages": 2500,
+      "bytes": 199475,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0043.jsonl",
-      "sha256": "ec1f429440581f73b5361a6cbf9f97acad37de4cf4baa7a4af9c010fbe5042cf"
+      "sha256": "0fbd2cdb030a8fa65b1ac2e1a84cd1f185062a6d648c0cd51f745d1455e104e1"
     },
     {
-      "messages": 2500,
+      "bytes": 202806,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0044.jsonl",
-      "sha256": "4494db9d71e729ddec0363d0fdc3bfd56583d71cf52cb4dd108e60057dda6151"
+      "sha256": "e92d937b10ab4eab59b256656db3146cffc69a9871f692871c9c69419b440c2b"
     },
     {
-      "messages": 2500,
+      "bytes": 189411,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0045.jsonl",
-      "sha256": "a07f5ebf52bbc982239c486f24c3a2545deb0a81f74990749af61acd56ead0c6"
+      "sha256": "7846c8dc1b04a92d754b49846e88da9e354dc9efca1773159b21cf8687dd34d8"
     },
     {
-      "messages": 2500,
+      "bytes": 188302,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0046.jsonl",
-      "sha256": "81bc34051b40cc6d39fb8a1ba4745d741cbb7e26c9118d8605a49c569c94b0a0"
+      "sha256": "72da346ddc7effb65a8fa0e0f487338b2e4d7b9fdf865070da463d3487f8cf00"
     },
     {
-      "messages": 2500,
+      "bytes": 203605,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0047.jsonl",
-      "sha256": "bbba433732ce2180e6c43042c574ea6a02a8dce90458738230e369e2befa6779"
+      "sha256": "10eb892c324150454d86c110bdd6b1b22bf548a74d8eb636a9de13112f958b3b"
     },
     {
-      "messages": 2500,
+      "bytes": 208310,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0048.jsonl",
-      "sha256": "674973f873014f19c7770fbc322526afb2e1526928520e66326539a4ad42714e"
+      "sha256": "36b6b724b32ebbc5969006e9ca6cab8bfa8eacb58b6f3c428e42254dcbf1d2ff"
     },
     {
-      "messages": 2500,
+      "bytes": 220469,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0049.jsonl",
-      "sha256": "1f3a8ec76303dd4275992e5895a216833874098ab07f165ee1ad143b6197c49f"
+      "sha256": "c7a42a8481cd15b20d162f64d2d44029dcc18d5cb614e3f53818edc60075d41d"
     },
     {
-      "messages": 2500,
+      "bytes": 204210,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0050.jsonl",
-      "sha256": "bc127a9744d22b7d0b6058014a4088f31b470666d061cf1e393609ea1142eb8e"
+      "sha256": "d3cec024a28efceaa6074b449cb2cb67cd97736ed8ffa007be83a4480c3f7cfa"
     },
     {
-      "messages": 2500,
+      "bytes": 204568,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0051.jsonl",
-      "sha256": "cda7aef714bd3fa711d30743d55a88ea898ac6b60c854e4eb7d1ba81485eae3b"
+      "sha256": "1b7757ddb41faaf1c1cfc335ecd85f5b0cb5378e0c71df3bf1df51fd40262f7f"
     },
     {
-      "messages": 2500,
+      "bytes": 194821,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0052.jsonl",
-      "sha256": "dedda50a9babf471161b2f43fc8a7fedaf8717bf721ddaf4f87ef4026a7b5166"
+      "sha256": "4d1310c2857d15dbdfaea6dca5bd37e8cc9001f006979c4167801d619dcab9ec"
     },
     {
-      "messages": 2500,
+      "bytes": 195735,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0053.jsonl",
-      "sha256": "dac27c65f4cde02889d909c8979e8c66a849531394395281533dc3afe2bdaeab"
+      "sha256": "d54a52cbc9ce7216babb7fc2e0a1b2c715a7fe3fc45f7653f151444477328c69"
     },
     {
-      "messages": 2500,
+      "bytes": 196800,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0054.jsonl",
-      "sha256": "052aa2de959034f1201ebe2ed999cd3550648cb1f43053b34bf4b2ec90929569"
+      "sha256": "5bcd25ca48991943db5e43f79ab4d5b33da76720063e24127d4c22fd384a99bb"
     },
     {
-      "messages": 2500,
+      "bytes": 201280,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0055.jsonl",
-      "sha256": "3f90d990a3ca1508a02043e172d9b884f106047eb4e836619714a1be94f9445a"
+      "sha256": "73a782241bf0eb8128c4c3d3999dac0d195b9509b5d51dbfd046ba63d642f8be"
     },
     {
-      "messages": 2500,
+      "bytes": 196661,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0056.jsonl",
-      "sha256": "1e47e9cdf01ce20c1229d78ef515e7862c342a7c72dedbe9e3cb9c38a9f3a395"
+      "sha256": "f101a5e6338315937ba299cece227daf3545264d3454ba9702d0657d19045aa6"
     },
     {
-      "messages": 2500,
+      "bytes": 193446,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0057.jsonl",
-      "sha256": "f53d4bfa7233aaa87a1f22fe66e6b6e6fce134bf2e1174b72486a7b97b489160"
+      "sha256": "f80187ba26cecff5aeb51061ec106ff06ea6a4da959afbc09cb8891ff44d3159"
     },
     {
-      "messages": 2500,
+      "bytes": 206336,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0058.jsonl",
-      "sha256": "93d7ee0fdec7cd3794fdb8805d78fd67b2bfb0646298a6451ef0bf6d1e039303"
+      "sha256": "186ac6751e2ebde56e52a8e5af571b18761308e40157ec0b240293addb43dea8"
     },
     {
-      "messages": 2500,
+      "bytes": 193573,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0059.jsonl",
-      "sha256": "f553454df286606a9113db3079f40c637edd4ce7335916965e8f8e6b5f66d57a"
+      "sha256": "ce81e9e8891effe05396a7b3f11a093a374d0a8a9f620fdf1570c856533da6f3"
     },
     {
-      "messages": 2500,
+      "bytes": 194570,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0060.jsonl",
-      "sha256": "d7abc41b7aac9a37cdf79ae6bfa23fee31a07be9c32b804e9e3beb390b808a44"
+      "sha256": "95935b86662e2ad333dee243f90d27b45ffe0db8aa40a5129d3eee02c684ca03"
     },
     {
-      "messages": 2500,
+      "bytes": 204355,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0061.jsonl",
-      "sha256": "6c8682be05632f26de682ff472ef86a752576df6249c84743fa29d97eccf4e5b"
+      "sha256": "af6eba865bfc34a2df2ab5f4002385a8aeac6c9f3ff46b12290281f273f52199"
     },
     {
-      "messages": 2500,
+      "bytes": 198621,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0062.jsonl",
-      "sha256": "6694fd252b0fcad97f7bf2aad417722dd8b57ce1c9a4626ebc7791a67d267f35"
+      "sha256": "7a46fb74d7dc7624a1c37f6209493076513702f940be364ca2e61d9bca986de6"
     },
     {
-      "messages": 2500,
+      "bytes": 194167,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0063.jsonl",
-      "sha256": "17816b98214222d5f44508c59ecc1b7b9913720ae868e6017b192548fde269d7"
+      "sha256": "4fa2039698d58b711f795ae80f5b307ad11a965077ca0c97c813ea69e1608c95"
     },
     {
-      "messages": 2500,
+      "bytes": 197683,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0064.jsonl",
-      "sha256": "fb864d8592fa6f518e870f8af7f5811c2ec9d77fcde30ab9e612d9cd37773be0"
+      "sha256": "83b2926d66ffd5689b46048df253d794ffcada80670877f1cec860db6da0f34c"
     },
     {
-      "messages": 2500,
+      "bytes": 202359,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0065.jsonl",
-      "sha256": "8b6262062d85db014554dae11b29a3075a6039676b9bcceea8bbb3dedf7ec0b8"
+      "sha256": "a57b600861cf484c8b788fc644cf7a2d6c768014bfffb313bf16c269ee9b5938"
     },
     {
-      "messages": 2500,
+      "bytes": 198387,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0066.jsonl",
-      "sha256": "d91593287141d9e26fd841499eabe796928bb2113b55dbb68f0e6fcfcb86e2de"
+      "sha256": "0a2e47c9e1d6bb67badb66bcd743af8fa17d8c9991a389495b53f3dec6905ae9"
     },
     {
-      "messages": 2500,
+      "bytes": 193125,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0067.jsonl",
-      "sha256": "6131febabc5ce5c87ca3bc19306021b59f17812b4478277af8b018bfa71d69b7"
+      "sha256": "7f10ae2e1b4811106fb33cf23e43c733af0464a526fa24d5179dee56d66018df"
     },
     {
-      "messages": 2500,
+      "bytes": 201631,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0068.jsonl",
-      "sha256": "f3e78ab2d5b2212d0263ff65e0edda06d9b96f37ae15ef5d866524142b82bf0a"
+      "sha256": "d77c79826364acfc66719f739656911a1b836263f0da955e6ecd34963f7afb64"
     },
     {
-      "messages": 2500,
+      "bytes": 204127,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0069.jsonl",
-      "sha256": "385e594f0ee695d39c7ecca0eb40501166f29dd30d91bc1aeb741c51164427f8"
+      "sha256": "e0304fbb465444d9b9f562b1ff680642be3720e6dbc2eadf2340e21111e25682"
     },
     {
-      "messages": 2500,
+      "bytes": 197374,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0070.jsonl",
-      "sha256": "b57d9e7598e96c3006b55a165270f3150e885cd0e11b834d5c09472c91925f82"
+      "sha256": "e7d247209e001c0e7dbcf2e4882cec17efc1505b18f92737834f41ef76995167"
     },
     {
-      "messages": 2500,
+      "bytes": 216130,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0071.jsonl",
-      "sha256": "303bb373f67614d201db8981f0d99391aed306138ec6c778dbadb6330cc728ea"
+      "sha256": "03d46a28e5d56fe7c81e17f5efd416a96df6dfaa3bd70b1b7623796f063f7085"
     },
     {
-      "messages": 2500,
+      "bytes": 205878,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0072.jsonl",
-      "sha256": "48fb35a9ad23077a8dff03b8429299cf8ff9ad7fa5ca4e78639da4be980bc209"
+      "sha256": "b3ad437f52d667ed6745535c4d2a796150de7084dc6436a10b24da7c945ab3d6"
     },
     {
-      "messages": 2500,
+      "bytes": 201872,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0073.jsonl",
-      "sha256": "b0157c2ceaf92bca4b02bae0a122abe14eb753f835fe43e2ea5c8855d98b96e5"
+      "sha256": "ff2087db67f2fce402e6950961b14bb0619bcc16e4b1aa379fa3f9d01f0d2f3e"
     },
     {
-      "messages": 2500,
+      "bytes": 197440,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0074.jsonl",
-      "sha256": "0ddcf4de3b2327a8dce1ae9c902c9f42281a3c76425455cd6b83cad7a2f3a707"
+      "sha256": "d1b7a5c96b0ffdde205637661c9fa139ffeb3cacb0d9e52d618980cbc15d9f1e"
     },
     {
-      "messages": 2500,
+      "bytes": 202642,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0075.jsonl",
-      "sha256": "3d4a13701b62a6107d30aacb6e0c946b70d6f69b8d892ef7cb452db9eaa0a442"
+      "sha256": "989e39cdaf7ab630f3ceae5f0dac2aef0ca6a602a940b4a62ed5da6078a33444"
     },
     {
-      "messages": 2261,
+      "bytes": 207013,
+      "messages": 500,
       "path": "model-index/discord/empire-city/messages-0076.jsonl",
-      "sha256": "ca024b73deb15dfdcd3e5c7067766f6c7afa12ddad9b05815b13a89c47a470fe"
+      "sha256": "42135c60441b3070defe45d250f6ce0aecef9110edc2ce243aa9cda21aa2939b"
+    },
+    {
+      "bytes": 204487,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0077.jsonl",
+      "sha256": "68152ece7f59f87329f059eb1a2da18e540a74999bc965935059ed1723a27007"
+    },
+    {
+      "bytes": 199603,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0078.jsonl",
+      "sha256": "2573d163d9a69ca0f8eb91854392ff5aa62a8824f9000cd33b667d077106cf84"
+    },
+    {
+      "bytes": 191773,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0079.jsonl",
+      "sha256": "4cc7df45be602abd543238e8179fa3864f2f5e0b58cb8b218c07f9a5c8ecfa8e"
+    },
+    {
+      "bytes": 190627,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0080.jsonl",
+      "sha256": "e8d23837eab7619726e4b37d008a2f956a55250f1ec298972da057f6389d77c7"
+    },
+    {
+      "bytes": 201149,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0081.jsonl",
+      "sha256": "461bf863b3ce30abd2aeb37f80907060f7bd269406333e9e0d3773408dd20ca0"
+    },
+    {
+      "bytes": 195749,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0082.jsonl",
+      "sha256": "9dc80579504fd615c96665de719b30add45b7453e883c46bb4809f4b31a6c9c5"
+    },
+    {
+      "bytes": 193238,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0083.jsonl",
+      "sha256": "df6d37a2ed5ff670714513ab9039b64c38465d35573daa276d1bdc74893236a5"
+    },
+    {
+      "bytes": 202442,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0084.jsonl",
+      "sha256": "45314ddb2a71fb036fd8c5440bcff181ccd4a618d603a3f4f3a65fde8b33b8e1"
+    },
+    {
+      "bytes": 202563,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0085.jsonl",
+      "sha256": "428693618070c020d82b0613a9170223d622d4ba5b60be1758eed12f2d4f6c80"
+    },
+    {
+      "bytes": 199860,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0086.jsonl",
+      "sha256": "a9e508e9111004b72519f9e064d5a7bb0893b4a0edae6ac285f736194c6e1a9a"
+    },
+    {
+      "bytes": 201718,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0087.jsonl",
+      "sha256": "434728db04a423a3a29aca07befa1784a4aed5a2af4e5f1cd26859ee70598f8a"
+    },
+    {
+      "bytes": 199818,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0088.jsonl",
+      "sha256": "29d6261d6e4b0bd8b0568978b6a91128229f3edc93ba2f155e3491c4be5dd5e7"
+    },
+    {
+      "bytes": 209224,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0089.jsonl",
+      "sha256": "029dc4e6c0454dad44619f10b1ff9daad7554e753c925211837a327dc5822902"
+    },
+    {
+      "bytes": 205516,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0090.jsonl",
+      "sha256": "0bd524a6a009b84f32b04b930ab47b14750fa386336ba60f125450a64914d04b"
+    },
+    {
+      "bytes": 199896,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0091.jsonl",
+      "sha256": "b05e6bba95be51a2840783d40a1b9d2fe931606c33078accaa29b35ac2a1613a"
+    },
+    {
+      "bytes": 187815,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0092.jsonl",
+      "sha256": "ab669bdab1b4ea7ccf68e97652d27f37c83902dd78a9b9e09f79386b96c97e2a"
+    },
+    {
+      "bytes": 195024,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0093.jsonl",
+      "sha256": "d22e5d26555f46385a527ec357d3805e7fd21b1c3368c58276d812c100497e39"
+    },
+    {
+      "bytes": 196088,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0094.jsonl",
+      "sha256": "d3b910f7b03041e505fe227787cfc084459a05e67b53d840e71fe1b7ea4c1c33"
+    },
+    {
+      "bytes": 207723,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0095.jsonl",
+      "sha256": "1b699ee9d76a52d18ada930966c8111fd2dff8a6f10ff87794b2bde3275e4f1b"
+    },
+    {
+      "bytes": 204527,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0096.jsonl",
+      "sha256": "8910bec88f8d94dae270c8dfdec8b8af35afeb1b76b64c1a254e545f6263d531"
+    },
+    {
+      "bytes": 210767,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0097.jsonl",
+      "sha256": "6b7106bf1ab593b9acc71183d5f398cd05a378b276f407abf4be64691e6afd89"
+    },
+    {
+      "bytes": 201470,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0098.jsonl",
+      "sha256": "db763283f1591a6be27c2a970b7259da89f6a5d195f5569625b721823a5c37a9"
+    },
+    {
+      "bytes": 197541,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0099.jsonl",
+      "sha256": "829d32480a957553dff27a9a85402015ded3d0ed206edae9bcdaaec466e410b9"
+    },
+    {
+      "bytes": 198471,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0100.jsonl",
+      "sha256": "999a2125f3330ba14f74cf7e145bffd84ea116f32a0ba5c6175510be067bf364"
+    },
+    {
+      "bytes": 203145,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0101.jsonl",
+      "sha256": "ef7ce38f8a9e04798f321353f2e701bc1618fef540b80470c8d4231cd8028b31"
+    },
+    {
+      "bytes": 198407,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0102.jsonl",
+      "sha256": "e769e987b663cd639490059f67c6527ae0c61f0cbcd41323039f831966a0e8a8"
+    },
+    {
+      "bytes": 204981,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0103.jsonl",
+      "sha256": "2164d6c0d63211cf1f792a0dd22028ea88ba6bbaf08b45c58efcf68b120725a7"
+    },
+    {
+      "bytes": 199984,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0104.jsonl",
+      "sha256": "e80b20673fe0fbcbfbb1fccd3ac423eda4be43b0c066ca6c47b936ef6e9983c3"
+    },
+    {
+      "bytes": 197266,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0105.jsonl",
+      "sha256": "e822f5a48112c066c9bc859fed3822e6c2e9c329cdf260bbd107d3cd94c193d6"
+    },
+    {
+      "bytes": 190357,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0106.jsonl",
+      "sha256": "75bba62346404e5951f995a5537d44c583651184e4d8c38621bec44e6f5ebea4"
+    },
+    {
+      "bytes": 205636,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0107.jsonl",
+      "sha256": "a6b0631df63244c7e678eb0690ee5cf66a8993ce2754e32cab50af26cddeaef8"
+    },
+    {
+      "bytes": 201902,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0108.jsonl",
+      "sha256": "32a3648dd2717da2830e4a8dffd3b4929fe5eed400bd0f1112ae0cb7268a1aa3"
+    },
+    {
+      "bytes": 197778,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0109.jsonl",
+      "sha256": "549e3746535a0da33228c76d187528a9df98f8f0601ffc7bf2126e8950d8f3cc"
+    },
+    {
+      "bytes": 194308,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0110.jsonl",
+      "sha256": "7cbc60f5d77ec0b9380d8bda09a50794c269c231558692867dcb068757f46fa7"
+    },
+    {
+      "bytes": 199196,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0111.jsonl",
+      "sha256": "631c2d95e8be6c55a8c5bbf6d2d920ff3e59f95e1f88de3b85cb22545cf162f1"
+    },
+    {
+      "bytes": 194721,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0112.jsonl",
+      "sha256": "4ddbfce896e4fb3772c0e8fef562f9eeccce1de5cc10272ec64da27c5f3cb22f"
+    },
+    {
+      "bytes": 200678,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0113.jsonl",
+      "sha256": "6a4389626c25ae1e737958c35c4b42f4d76cba287f902cf11b9dfa79043d3ba4"
+    },
+    {
+      "bytes": 194108,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0114.jsonl",
+      "sha256": "ef8f2d2620e99b4d1117d8b4557c71e9adcb95e39cb0e5a5aa08c5fdce895ac9"
+    },
+    {
+      "bytes": 193760,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0115.jsonl",
+      "sha256": "1fb20a2431ee6dc86a5c8987e66cbcebc1b31bfed44ed1c0911cee0552626ebd"
+    },
+    {
+      "bytes": 206586,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0116.jsonl",
+      "sha256": "0514e921369fd3d7ff4b405467378f9806b9dd26a2e3c8265c97b472cb634817"
+    },
+    {
+      "bytes": 202357,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0117.jsonl",
+      "sha256": "3eda86e90fdfe2ffaf563a2c342c47b0aa8a2478ba6d817a93ed4c8eb00ac3cb"
+    },
+    {
+      "bytes": 187955,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0118.jsonl",
+      "sha256": "78813779887560db4017c013ca583b74950940ac44e9d72f3cc1c5bb3ad74135"
+    },
+    {
+      "bytes": 197608,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0119.jsonl",
+      "sha256": "dc788276acf33ac58134d4dc625e5a2b55443d32b2de3306edb0098b55aa9273"
+    },
+    {
+      "bytes": 198199,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0120.jsonl",
+      "sha256": "55cd7c4c79383872d6b852767053a3cb738f71e820044e6cd98fc30868fb80ac"
+    },
+    {
+      "bytes": 202242,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0121.jsonl",
+      "sha256": "4ac8630c083f89fe582f9700e53121e959dd554edfd550799a3acb3d60aad226"
+    },
+    {
+      "bytes": 202928,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0122.jsonl",
+      "sha256": "50a353ddafce6cf7eaff5a745f1eaca41c781c08afe3f6db0257e6b693676a8e"
+    },
+    {
+      "bytes": 200251,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0123.jsonl",
+      "sha256": "a4f6693bc28a116fcdad239fba353ecb2b20d3a7dd2762f261b991d00b88bb24"
+    },
+    {
+      "bytes": 191331,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0124.jsonl",
+      "sha256": "fd57b139e79c01f6ead2522276d2a9ecb78ffdeccc9e0ac4ef4b4d6d9147c1ae"
+    },
+    {
+      "bytes": 198150,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0125.jsonl",
+      "sha256": "8548db3e2179c6516e6d198f810863aa36b2741a1b94d94af6dc776287562401"
+    },
+    {
+      "bytes": 195435,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0126.jsonl",
+      "sha256": "f359aa137ed717182e809de77ca6e4ea5f2c8606a78d9eb91c40b4fb260eea9d"
+    },
+    {
+      "bytes": 189000,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0127.jsonl",
+      "sha256": "7779913e5cf949e56547dac6bc52cffcd63488decb9b9b8e972b4b7e75552b66"
+    },
+    {
+      "bytes": 198897,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0128.jsonl",
+      "sha256": "3c8e0c8c00529aad43c0e7224e4db4632ee46444478a8848cee6ca22c75a8c7a"
+    },
+    {
+      "bytes": 203104,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0129.jsonl",
+      "sha256": "34bc44efffc828ec95c2c407d0bd91a0d3933a596b66a7fdaf6c5728bb35bf8c"
+    },
+    {
+      "bytes": 204346,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0130.jsonl",
+      "sha256": "4906ddb0772a0f72e43a16737a6bb7e8d3db9b79af761e2eec4afdd1b6ad83c2"
+    },
+    {
+      "bytes": 189738,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0131.jsonl",
+      "sha256": "5961081f54668d5161be3900d5ef04d43a18db528659ace3a3cf1c53891b50ca"
+    },
+    {
+      "bytes": 191665,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0132.jsonl",
+      "sha256": "9ff03a96ed8d6752be0527143085c223092e93f1e48649e2dec3099bf66e00ff"
+    },
+    {
+      "bytes": 190688,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0133.jsonl",
+      "sha256": "86eb9e867297209b44752f647fd434bb6d61c73ea08a3bb2fd70039f0ccca6c1"
+    },
+    {
+      "bytes": 194458,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0134.jsonl",
+      "sha256": "734964edb7c18c1326f819225470e794267469ab2a11ae64b00451fc7694b279"
+    },
+    {
+      "bytes": 200075,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0135.jsonl",
+      "sha256": "1b6f90f91c1801d0b879f038d12571630402e25285c8ae9a8359eb8aa683bde3"
+    },
+    {
+      "bytes": 210779,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0136.jsonl",
+      "sha256": "a3c09c4e0b2a9bc8800e5857f6c27698c84f318c8109cb5911d96c80bfc76e3e"
+    },
+    {
+      "bytes": 202283,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0137.jsonl",
+      "sha256": "3a452fba54b25358e8eed764a4087c4bd6b95548d89dd7e94d6a755ffa53e3ea"
+    },
+    {
+      "bytes": 202947,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0138.jsonl",
+      "sha256": "d9594fbb7a1dce46434ce17393b210158a7db3574ef49588840be9a9058930de"
+    },
+    {
+      "bytes": 194927,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0139.jsonl",
+      "sha256": "946701b730d1ebbf935c2f4733d595d0f143b28908e641c4efc4f607fbbd684d"
+    },
+    {
+      "bytes": 211187,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0140.jsonl",
+      "sha256": "e2840b2fa7432e3675dc54ba00ad7547c398ef40a9a937eeb6e9908243ff7fbc"
+    },
+    {
+      "bytes": 204065,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0141.jsonl",
+      "sha256": "cb1fef30190d33a62a2dac554f8d5dd9f3fb30d57681cbaa4c7c2f925900ba68"
+    },
+    {
+      "bytes": 203218,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0142.jsonl",
+      "sha256": "ea8f2d4e2bd553084728c91e9194bc838a0415af5fe461feae48e27e9c2fd232"
+    },
+    {
+      "bytes": 201060,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0143.jsonl",
+      "sha256": "22c22112db4570e2fef69a2a625fe4ead38a64ed586f43d061193eb593f3f496"
+    },
+    {
+      "bytes": 189370,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0144.jsonl",
+      "sha256": "d9ac47480cd98d04c3fe05d084e2df2537933821fcd480605d7c775516424bf7"
+    },
+    {
+      "bytes": 195496,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0145.jsonl",
+      "sha256": "046c04db43b6c88dd8833b0b2f9d9da90096d14e10a9cbbda801d1fa0aa5722d"
+    },
+    {
+      "bytes": 195241,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0146.jsonl",
+      "sha256": "f659a70759905000f6da1ca6d6767534c4f3f635ce628bd0be1724d9964bc159"
+    },
+    {
+      "bytes": 197143,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0147.jsonl",
+      "sha256": "fb9c8b48a05b4b1475867fb03d23ba2fbbe8befbe66f9cb7ac407481b036f528"
+    },
+    {
+      "bytes": 205057,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0148.jsonl",
+      "sha256": "75bdda453fb168d23a5247bcc64d10b4ab1853c5ead2a8100469a5d7aecb8713"
+    },
+    {
+      "bytes": 201369,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0149.jsonl",
+      "sha256": "1de93c3c967d9da4cca018cf744660cfa8bf09c4e63eba43331610bd30eaf735"
+    },
+    {
+      "bytes": 200885,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0150.jsonl",
+      "sha256": "05349b4e702cae6c11073e8f9f19d1649a09e9641a0f58ce498a60da6e6268ce"
+    },
+    {
+      "bytes": 203915,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0151.jsonl",
+      "sha256": "c0259f4646c29eec6dcee2d192089b571e83f16e3b23642ad001636d32e2456a"
+    },
+    {
+      "bytes": 197247,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0152.jsonl",
+      "sha256": "defc9a52e76643ba62709d7b331896151208a5e28a8640797a0d42703e029d39"
+    },
+    {
+      "bytes": 206774,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0153.jsonl",
+      "sha256": "a24006c1986aa9131bb38751d2c35c281cb9fc50db35ed3ad967e1a8341256b6"
+    },
+    {
+      "bytes": 197341,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0154.jsonl",
+      "sha256": "ed578015115e83ec9f242d4eb12a12ba24c493886cdf3754dae45d69b3331530"
+    },
+    {
+      "bytes": 214810,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0155.jsonl",
+      "sha256": "58fdfb56d0c8c8fa4d278cff13117e5a4709dda4fa252a34b0b55935be028e00"
+    },
+    {
+      "bytes": 205072,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0156.jsonl",
+      "sha256": "feaf9d80d73d4d0fe3905125a053a5f2d192c42c8525efc8794572a9c21593d4"
+    },
+    {
+      "bytes": 196079,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0157.jsonl",
+      "sha256": "9df32456ccc4923aa7e0a1be4f93cb5f6d6f47cc85da42fdf89bee5b10a82ce3"
+    },
+    {
+      "bytes": 202549,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0158.jsonl",
+      "sha256": "c53c7fec3554fad926013214cc1c8687d4fe1c7977ddaf5bf7a8dd27f3314bf3"
+    },
+    {
+      "bytes": 200288,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0159.jsonl",
+      "sha256": "7594ef6a74d0e16324002116b54e624567fb8fe2a3fa5010caea9db46783bb05"
+    },
+    {
+      "bytes": 203826,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0160.jsonl",
+      "sha256": "5339a988fab6c77d827301e43110fdab05d24aa34072aa2172390c1fc481127d"
+    },
+    {
+      "bytes": 198583,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0161.jsonl",
+      "sha256": "12049f123396f82fe73d60d549445f77ca226d61c022111a18114425fb3a75ae"
+    },
+    {
+      "bytes": 207827,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0162.jsonl",
+      "sha256": "28fbd98f8cb6fa0268d62f856fb0656287fe63e7bd5995de3753b09a41758dc1"
+    },
+    {
+      "bytes": 207127,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0163.jsonl",
+      "sha256": "5cfe5e7d1fa261461b1ded5d3b5b0fc30395a2b979d9751befe846b90b98a291"
+    },
+    {
+      "bytes": 209484,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0164.jsonl",
+      "sha256": "c3b5a7b5ca158221055d845aae4d5bef597c9f3fce6832b219b5c3cdfcbdfc99"
+    },
+    {
+      "bytes": 206641,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0165.jsonl",
+      "sha256": "b0bf14eaf394418af696befcfb3ea2a97d7990dd41fbbeaa0bfa8bdb532a50d4"
+    },
+    {
+      "bytes": 199031,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0166.jsonl",
+      "sha256": "df964d33c8dad1c8ae8232accdf92eeb35cfe81344d17e5d7ed64f89e1af02b8"
+    },
+    {
+      "bytes": 189458,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0167.jsonl",
+      "sha256": "218513fd776ddd5e5d21182573b6423c8e069c9a2e514fc96ef71bfc2dfbc035"
+    },
+    {
+      "bytes": 196001,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0168.jsonl",
+      "sha256": "2bfaec59244395e93accde58443dd1b534196c411eb33ab599a912f5abcb7d16"
+    },
+    {
+      "bytes": 200274,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0169.jsonl",
+      "sha256": "2368755da3867d5f05a10808c89e3a084a318ec501ce1fd7c5e1a2bbeb796cd0"
+    },
+    {
+      "bytes": 200567,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0170.jsonl",
+      "sha256": "cab7d4ca1d2478f30a53aa252e2aaff2b72cf87f4fddcabe2ec8911bba75336f"
+    },
+    {
+      "bytes": 191798,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0171.jsonl",
+      "sha256": "a59ffb4b5291ed4e33d2f3560f76a2f66a1ce3d53c1d29c98efec2219c4b1f91"
+    },
+    {
+      "bytes": 203795,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0172.jsonl",
+      "sha256": "b46ea3914342079e71cf11b7f066f9d66240e7d1f28e268e61cdf4d42d8ca92e"
+    },
+    {
+      "bytes": 196806,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0173.jsonl",
+      "sha256": "0a464bd91bc24cff274bad2207fafd30a65985ab4528f69742b1c62627bd277c"
+    },
+    {
+      "bytes": 201354,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0174.jsonl",
+      "sha256": "0b71f04473a16ee038fe31693c5738bd74c59cd31b49eb592d60a7d31bacef0b"
+    },
+    {
+      "bytes": 203561,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0175.jsonl",
+      "sha256": "e9cadcffbb78281a0018e9edff46356e0987c9b3b273e91a9f3207f318ef80fd"
+    },
+    {
+      "bytes": 196265,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0176.jsonl",
+      "sha256": "9d0d1906c5ff23c0b7b5222b533654ef28d695e455a5df5560140004907e2ddc"
+    },
+    {
+      "bytes": 193060,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0177.jsonl",
+      "sha256": "0557e4f08b178263b76232dd42de2bf0f65b18121a19a4cd120b4a2a68609f83"
+    },
+    {
+      "bytes": 188554,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0178.jsonl",
+      "sha256": "f3e642f46deeae9f28ff184686ffaef6b41777bc4ca2dbf63ebfee3949dd4962"
+    },
+    {
+      "bytes": 193637,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0179.jsonl",
+      "sha256": "f43e8a2375112e94c010cadacba6806ab00822bc0b6fdd6513cbe1893a78245e"
+    },
+    {
+      "bytes": 200665,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0180.jsonl",
+      "sha256": "a5d1307d73e0692b36153a7afa212b634507961df85ec62aa370360c92a67325"
+    },
+    {
+      "bytes": 204624,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0181.jsonl",
+      "sha256": "750f66c702d1912744ff2c3935e304dafa104529aa67a7d38de1e1cee8244f4e"
+    },
+    {
+      "bytes": 200321,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0182.jsonl",
+      "sha256": "c8515e028805f9b303c2e80e8d0711910c546f522b0f36cb1a6d321d3c5b566a"
+    },
+    {
+      "bytes": 202632,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0183.jsonl",
+      "sha256": "a2f3674886dff5747e7ae913f9fed36542aca226dfdd600ac8160029b30b1efe"
+    },
+    {
+      "bytes": 204306,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0184.jsonl",
+      "sha256": "76bb2cd51984436ce31f75d8f5c030c2c9b7c496b9df0625eb677db91bcbf2c9"
+    },
+    {
+      "bytes": 195490,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0185.jsonl",
+      "sha256": "3fb177b1a1bbb54f5194c13b53c455224be4d2717f1cb9e9eb9eaaf710c4653c"
+    },
+    {
+      "bytes": 198487,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0186.jsonl",
+      "sha256": "5e6877cf931ea6aca7c57f190e4c36c2c7dc38aa6ead4e2f47b7a0efd9b4c8fc"
+    },
+    {
+      "bytes": 194442,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0187.jsonl",
+      "sha256": "230c441a1cad2258adc3cbad668674bec2e467c321e231ba59cff5a234b0449e"
+    },
+    {
+      "bytes": 196075,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0188.jsonl",
+      "sha256": "2b5d4aa6c0b85d88cf9a5af274952c06ccf224eeeafc298d2fc9b884a3f79553"
+    },
+    {
+      "bytes": 190876,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0189.jsonl",
+      "sha256": "b461875f1855bf6579b793943b16eba114f7b8d62e0634cdd22081bcd56ff4ab"
+    },
+    {
+      "bytes": 202316,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0190.jsonl",
+      "sha256": "12d05ebb80b8624c6af11af2ab07ac5653dad53f0b7cd3a346a7c01555b65288"
+    },
+    {
+      "bytes": 199621,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0191.jsonl",
+      "sha256": "0f6cb741c26351fca4c78bdf6c5290ab896de23f55433593b975fa81d798b375"
+    },
+    {
+      "bytes": 200615,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0192.jsonl",
+      "sha256": "4f6a12bde0836c379ed422a7f466270c9d9725c1d7fdf338ba31fab038573fbd"
+    },
+    {
+      "bytes": 205947,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0193.jsonl",
+      "sha256": "f889095be8b40bf598bcc0a3cb557c86990cfbbefa6d2fedbc4f05180bb6f7ca"
+    },
+    {
+      "bytes": 208208,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0194.jsonl",
+      "sha256": "8481ba30572134c67337f3fb0f25abff744d3b4c25d86c685f558e2c1ecef713"
+    },
+    {
+      "bytes": 201022,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0195.jsonl",
+      "sha256": "17c2f49080fe9600086569aa43ac7517ec641104be600176bb4521dac79e7812"
+    },
+    {
+      "bytes": 201247,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0196.jsonl",
+      "sha256": "0b1063e1c2f4584bdaa5d838835d278bb51314e49b4bf6275716dc8b0318e3f9"
+    },
+    {
+      "bytes": 203263,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0197.jsonl",
+      "sha256": "b6eeaafa442948c29f9eff0034667d96a242e933b9bc1d5b84ed83605ce54eee"
+    },
+    {
+      "bytes": 198695,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0198.jsonl",
+      "sha256": "bcfd36b9d8553a92cf5f8ceff765de1509dce4c7471cf44bddc038ab0e109a04"
+    },
+    {
+      "bytes": 205634,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0199.jsonl",
+      "sha256": "38057c1efca37a944622982e22017ab4b748e904f7a35bca02f8d5a0390af1e6"
+    },
+    {
+      "bytes": 201766,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0200.jsonl",
+      "sha256": "db00b409fa4c3125e4e3667d5652541a83e12ebcec2b7442449aa1eca2564218"
+    },
+    {
+      "bytes": 207324,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0201.jsonl",
+      "sha256": "49e574b8d99f21d65999f63c070721868f0f68c13da00c1e732bfbe2e9cf7c33"
+    },
+    {
+      "bytes": 197866,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0202.jsonl",
+      "sha256": "3e6b4214dec776463591b98fa9e2de043d9ea57acea178c0a310a8a0c494ed0f"
+    },
+    {
+      "bytes": 194841,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0203.jsonl",
+      "sha256": "c94bed62fcb62862929de2483a7b777cd6c1f1ef03344e3bea63c8cbf10cff94"
+    },
+    {
+      "bytes": 195494,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0204.jsonl",
+      "sha256": "47bf1499c6fabefcedda38463d39c9e7a3d2507a9426d947b90f1262383af15f"
+    },
+    {
+      "bytes": 194695,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0205.jsonl",
+      "sha256": "ef5d67b5c98c05785767de8b31115aa54f9ccce5868e454564b5342beeab4ff7"
+    },
+    {
+      "bytes": 199022,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0206.jsonl",
+      "sha256": "4abab3f1ccf559ebd24fbce83802d82d27df7e4dffc8263dd38103d3a7b9ae8b"
+    },
+    {
+      "bytes": 201126,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0207.jsonl",
+      "sha256": "65b6a947d38bb2ecc8cfc2b0e53f98c65c84078947bc952551fdaed5c1b49a7a"
+    },
+    {
+      "bytes": 193086,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0208.jsonl",
+      "sha256": "e3aca3a3f9d39186d195277f8b316becf343568d047201ee016ac0f093b96cac"
+    },
+    {
+      "bytes": 198627,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0209.jsonl",
+      "sha256": "5397674ccbbe009da5e6012524e03f489482e61a98e0cb1d88bc8adfe764d4a1"
+    },
+    {
+      "bytes": 195897,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0210.jsonl",
+      "sha256": "a822933c575198fedd455e81c7470bf3b04853d4d1b5c2a300aecf1648e89767"
+    },
+    {
+      "bytes": 199465,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0211.jsonl",
+      "sha256": "c1a9d5437ecf3226eaa14fe45b1d76821d52ec385b85d6dfa13aa5f7e1f279b7"
+    },
+    {
+      "bytes": 202317,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0212.jsonl",
+      "sha256": "1e5ad6c02db73d0c1f4e178f88b87b6fa4b6877b5e701fc8869ee1b8af2c9dab"
+    },
+    {
+      "bytes": 194508,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0213.jsonl",
+      "sha256": "41e3bb9516b600899f505e15e69d79e9d4bc3258964fc305dbdc76de8859ce17"
+    },
+    {
+      "bytes": 198747,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0214.jsonl",
+      "sha256": "2ceff44415045167f450de0f202a18c9d755f1593ac4a1d57be938528ab0fbc2"
+    },
+    {
+      "bytes": 209968,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0215.jsonl",
+      "sha256": "2a7d7d5f2874d39fb076d23bc6f376571f7bb3be2f7f8959c172c23823c27e83"
+    },
+    {
+      "bytes": 206454,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0216.jsonl",
+      "sha256": "76919bf69cc637f31559559aaeefa00c794e1e65c37db13e634070d7a3d115c6"
+    },
+    {
+      "bytes": 202203,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0217.jsonl",
+      "sha256": "7cff391b5d0d5e48d9fd43366124ecb29879abe59c9dbb3c09062831fc791a5d"
+    },
+    {
+      "bytes": 199649,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0218.jsonl",
+      "sha256": "7d460aaafe03f1a247708b906a713b3d10a00b92f77e134822931a1a3426e50f"
+    },
+    {
+      "bytes": 204805,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0219.jsonl",
+      "sha256": "8380ceb6e52f68e5991b4aca13056d49bb2b47b77c4da8daa481a46ceaf03e27"
+    },
+    {
+      "bytes": 199300,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0220.jsonl",
+      "sha256": "c40a5b0ee64f6d97cbd298d2b6bcfdd443e5fbab458d9141f7d4c17556010a7a"
+    },
+    {
+      "bytes": 204119,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0221.jsonl",
+      "sha256": "3f873a3065c725750412c4964a382f31f11077203a278ef3ae847846fcf40528"
+    },
+    {
+      "bytes": 194876,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0222.jsonl",
+      "sha256": "90e2946367d74adad7180485b35cec73fd9af143fffca9d51d362ce1eebaa9c5"
+    },
+    {
+      "bytes": 198299,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0223.jsonl",
+      "sha256": "9d96cbdb1d05ab03881977c224b80739fdd6f6ec367394dd9d3acf1a2a447d14"
+    },
+    {
+      "bytes": 190857,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0224.jsonl",
+      "sha256": "6ed74c1aa50c4887fd2eece1fead1312f83ab6f99746d92e1779e9d5153a589f"
+    },
+    {
+      "bytes": 204946,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0225.jsonl",
+      "sha256": "1a6f9b5d88986394fb5d154882550ee9af11fc7733d58bec72a001431b4dc62c"
+    },
+    {
+      "bytes": 210085,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0226.jsonl",
+      "sha256": "03791fc729e0f926007bee4c60f47c1aa2a556d2c217075669eac70b23256898"
+    },
+    {
+      "bytes": 205925,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0227.jsonl",
+      "sha256": "c3cdbbc242c3e51a283759cd1c2e233014bb66a8d8afd6a63f90bff8d586cd1e"
+    },
+    {
+      "bytes": 197604,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0228.jsonl",
+      "sha256": "b87f4164f60936459678aec433d756d67dc00b27d5867059eb0899fc02fc5668"
+    },
+    {
+      "bytes": 196147,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0229.jsonl",
+      "sha256": "354841a6f17e576dfd04dfe4e3144b913aa553de999215e43857620df37c9b7d"
+    },
+    {
+      "bytes": 206105,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0230.jsonl",
+      "sha256": "42258ee7b2e275439309b70dd1f902142731743d15110f4dcb4a9079cfccc9af"
+    },
+    {
+      "bytes": 195827,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0231.jsonl",
+      "sha256": "07ca44f27a027850fbc81a86c9d4685094188db5e1addb30d9a7b3294f1e36a9"
+    },
+    {
+      "bytes": 194943,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0232.jsonl",
+      "sha256": "e269a35d4e69024cb7056933c3fd8289bf1049d447ab6063ffe07266778c3ff0"
+    },
+    {
+      "bytes": 204101,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0233.jsonl",
+      "sha256": "9f8d8f2b6eb918d6350f8ee8dfdcd3e260006043edf3ff1de2fb3b5194c83b80"
+    },
+    {
+      "bytes": 205359,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0234.jsonl",
+      "sha256": "edfa906f7cbc65af0f7d7499adf83a453dc9139a0b85a90b239827a70bc2bd04"
+    },
+    {
+      "bytes": 212715,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0235.jsonl",
+      "sha256": "d127eb2c22c398a34f366f6f1720e8ca9d308ea70587af686db85cb0a3f18b8f"
+    },
+    {
+      "bytes": 206996,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0236.jsonl",
+      "sha256": "756e0d3a6d8b0d2806f7c0ee0f8f653020399bcb1611becd74a469bfc7078b0a"
+    },
+    {
+      "bytes": 211250,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0237.jsonl",
+      "sha256": "5f5d359a857e7ebdc0de88a2321e9bd2517e0988ed18e31ea590aff843af94a7"
+    },
+    {
+      "bytes": 208289,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0238.jsonl",
+      "sha256": "2c2d77988067fc6d7066bf351138cbba4ada8484da0b4f148662f97e46262305"
+    },
+    {
+      "bytes": 203106,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0239.jsonl",
+      "sha256": "1f869bbff8562ea07dddc5342fd4c68b98b3bd2bd45701ceac818a8b4a9e7aca"
+    },
+    {
+      "bytes": 201491,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0240.jsonl",
+      "sha256": "8498fcc89b2fbc1f7ee70cf7b26e6ed2473b1191b5051ad99cbda8be44cce142"
+    },
+    {
+      "bytes": 206865,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0241.jsonl",
+      "sha256": "6324296894b27c304228b9aa9a853b5a58bf20246876d3c1015226ab07313f03"
+    },
+    {
+      "bytes": 198251,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0242.jsonl",
+      "sha256": "91a683267dbf3fd7fa590315d79b4e5dd9b968e2c0423dae00c62aecdbbf146f"
+    },
+    {
+      "bytes": 191340,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0243.jsonl",
+      "sha256": "99062f93fa82455b6ae060c8548c25c8a6fe1e9d08e568950d22bffcb48cef47"
+    },
+    {
+      "bytes": 193854,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0244.jsonl",
+      "sha256": "fbad1f5bc2766920a17b5a3447829aa81ea66b91c96be22d7d305955e8eba63f"
+    },
+    {
+      "bytes": 189215,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0245.jsonl",
+      "sha256": "377642bc94eea4e63b8b74090987df83f2e50606e29e96c7b2a64f7b8474a087"
+    },
+    {
+      "bytes": 194556,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0246.jsonl",
+      "sha256": "7ac6fc0dbcaa3666b8232c9781def6b1d73fa0263bccab0ec1fec2408c707fe0"
+    },
+    {
+      "bytes": 196246,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0247.jsonl",
+      "sha256": "21c4574fef676a695ba571c0f07ab09fe64e922c3fd2a41809aac4c918dc89ea"
+    },
+    {
+      "bytes": 202417,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0248.jsonl",
+      "sha256": "141329d7d379b555110a691e97e0b9c64524a1cd22874c59f737bd3833b4fa68"
+    },
+    {
+      "bytes": 198940,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0249.jsonl",
+      "sha256": "8cb23f974a6dbc09a3436f768c7caee9d87acd83a2b1fe60c88e84504a89cf79"
+    },
+    {
+      "bytes": 197046,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0250.jsonl",
+      "sha256": "9a13235c7ccc61f399c754737a9963ee01bdd4d444bf9207316e8eadc22b2220"
+    },
+    {
+      "bytes": 205952,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0251.jsonl",
+      "sha256": "4eb15f661dd58a388894390abaaa67c8c9cbcb8708acfa03a9875000de13a41a"
+    },
+    {
+      "bytes": 200008,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0252.jsonl",
+      "sha256": "14595f60517a8ab18f73e288e032f9056ab2a53866f2f869dd2323b63667514d"
+    },
+    {
+      "bytes": 193414,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0253.jsonl",
+      "sha256": "e5242fbdc6b16c38ec5bdf415557875e48a92c021df9000e2f05e21eb1b3bf67"
+    },
+    {
+      "bytes": 190994,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0254.jsonl",
+      "sha256": "8903607606df53cdfb679fc0224c8289cad4f3cf497ac573b9d4523d606266b4"
+    },
+    {
+      "bytes": 193244,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0255.jsonl",
+      "sha256": "77f753d3feb4d41d0f431e8596868a04067eaa9334282724755199f1adaed136"
+    },
+    {
+      "bytes": 195451,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0256.jsonl",
+      "sha256": "9b6fd3444433e67c1092c531704e24c2c61476f88e3702ae79dbf14dcb810015"
+    },
+    {
+      "bytes": 196931,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0257.jsonl",
+      "sha256": "20f3a72cc017947ca62bfa473b78d870a6e5898626d4a816da858149a1d8af64"
+    },
+    {
+      "bytes": 197908,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0258.jsonl",
+      "sha256": "28440ad292adf93a3ce745bbbfded965b94e32d403a81ddf1a8caff3ac442cf1"
+    },
+    {
+      "bytes": 199606,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0259.jsonl",
+      "sha256": "c0549ced6d840f436e0495a23ecfc848cb352de3d4db0186e5c3f2b6d5bf9d97"
+    },
+    {
+      "bytes": 202927,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0260.jsonl",
+      "sha256": "cfc463d602b47019d3520175353665b7ae4467d56903729b732229be3aaf410a"
+    },
+    {
+      "bytes": 200760,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0261.jsonl",
+      "sha256": "3973a9b249578f7a980249e59001af578290f4c21dfd4264efde0e6c6dee4548"
+    },
+    {
+      "bytes": 196534,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0262.jsonl",
+      "sha256": "c5585b3bccdb1379b61b0de8f42b46a27f9978d6334e4b345cd0eddae4a654aa"
+    },
+    {
+      "bytes": 202210,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0263.jsonl",
+      "sha256": "0375da7b77b333491fce86a6bb138ddf4a9be846206ae37881403fc1a5377309"
+    },
+    {
+      "bytes": 202780,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0264.jsonl",
+      "sha256": "01babc6880bfddf1a1f9aeddd1734d0257d6d2b2e3ca2f1eeeea93ae997a7584"
+    },
+    {
+      "bytes": 196127,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0265.jsonl",
+      "sha256": "c0fa4f70345166f0da6ed067c2219efad0acfe7ea1ce7d7cbdaed4a16e9227bc"
+    },
+    {
+      "bytes": 207129,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0266.jsonl",
+      "sha256": "900aa4b9c5b06bf707b5b86f84f44a63776010a4e783d0c4037a74e86a5f9ea7"
+    },
+    {
+      "bytes": 208389,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0267.jsonl",
+      "sha256": "2c2559673f52bf52955456938c18e509bb0046cda85977bc6c160739dc871dc6"
+    },
+    {
+      "bytes": 218023,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0268.jsonl",
+      "sha256": "cd6243f5c23c525329a26ecc1300541e9aa3a6c64932bf09613c429b70bd6b0f"
+    },
+    {
+      "bytes": 227931,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0269.jsonl",
+      "sha256": "105b457ab03211f36c476521bba276e8f76b626dab1b672f882d98dabd9b7732"
+    },
+    {
+      "bytes": 227016,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0270.jsonl",
+      "sha256": "b5fd7c8ea64e4a74f99c97aa0cb9f6dbb224c0c67480cee9fff982810fa6cf7d"
+    },
+    {
+      "bytes": 223775,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0271.jsonl",
+      "sha256": "995cb6ac79ee8c8c4744542ba9ad420dfaeab1a556bb5c8888ae706310353e6b"
+    },
+    {
+      "bytes": 205109,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0272.jsonl",
+      "sha256": "8abc2a45485ccf2910d6716a48f184de68bd2e60ec1b7dfdab9f5dcb2303a063"
+    },
+    {
+      "bytes": 205954,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0273.jsonl",
+      "sha256": "44efc3a8e236155bbc40d4bebef227bf6cb98669bb0c4a949a00484b156d0024"
+    },
+    {
+      "bytes": 204587,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0274.jsonl",
+      "sha256": "8d94e6d42c30c4a382451d1a4273569792783a54a103e3e767baeec04e32c5dd"
+    },
+    {
+      "bytes": 196941,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0275.jsonl",
+      "sha256": "4e3a6bf63139fa5ab13915b72ef52e66dd860d38fce57e496a75596feb86493f"
+    },
+    {
+      "bytes": 204873,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0276.jsonl",
+      "sha256": "794d710fed76b0fc491956c75b72f2da70ac32e3ed7c0af016bbe8e924d1f7a3"
+    },
+    {
+      "bytes": 201598,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0277.jsonl",
+      "sha256": "d856d2e6e7e787758811880ffceb3306e9faf92340237166da8c1bfa671c7c6c"
+    },
+    {
+      "bytes": 204093,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0278.jsonl",
+      "sha256": "5bb51eb246dddeb3698f76a03c8a1d9839dc892206ae35f68d3dad8fa1b695e5"
+    },
+    {
+      "bytes": 204735,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0279.jsonl",
+      "sha256": "ffb41b62aa8f3be3e6aa50378668442b0a1f01534d1078a1cb8ace73c65e9b9d"
+    },
+    {
+      "bytes": 207198,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0280.jsonl",
+      "sha256": "910b89d45871ffffdcf0744cb76c0a05b637be16628f57da6e890286af00c8d1"
+    },
+    {
+      "bytes": 205496,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0281.jsonl",
+      "sha256": "2c8f602c7058cbc1f1b84e21679e750882a79c609d6992aecfbc3e7aabe3c344"
+    },
+    {
+      "bytes": 207961,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0282.jsonl",
+      "sha256": "2b2d460772e9f265aa3b18c0ddf09e27b1d51c5caa698568f5c755b358bd6b3f"
+    },
+    {
+      "bytes": 208099,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0283.jsonl",
+      "sha256": "9abc718e81172dd043add1e0f0e3e2440c73bb2eb118ef749afb76fa21f29750"
+    },
+    {
+      "bytes": 204482,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0284.jsonl",
+      "sha256": "978e277d92c6dbd48cd25b5e2fde035b67ddfafd0202c5b22a828f5394697541"
+    },
+    {
+      "bytes": 201265,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0285.jsonl",
+      "sha256": "fe0156f162384151db4dd6b845b3ef2f179c099f167cf9fb8a00a13e7e0e56a8"
+    },
+    {
+      "bytes": 200919,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0286.jsonl",
+      "sha256": "5850251bf1bb5be47b7d86d5c394022cb91cc3560f934eef23c44f71d2388349"
+    },
+    {
+      "bytes": 207113,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0287.jsonl",
+      "sha256": "d7ff98bb4c06767b9ab3dff27cbdb86433a4c31e10d0d06452f27c4552af808c"
+    },
+    {
+      "bytes": 199870,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0288.jsonl",
+      "sha256": "063ad3455604e83f6a868c587c19fcce9e47c694e8ab949db2b7d6fc5a294e2e"
+    },
+    {
+      "bytes": 194952,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0289.jsonl",
+      "sha256": "dfa225a81c2adb9d008f0574d4bea88c005b0a053c168e47067a4092661aa5e2"
+    },
+    {
+      "bytes": 186853,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0290.jsonl",
+      "sha256": "0469b2c5db32ff106411e6c9baa2ba673b929daa91610792d875171d60c0995e"
+    },
+    {
+      "bytes": 197268,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0291.jsonl",
+      "sha256": "b7e9951e25fe9e8d5828e57fcbda8d198de4aa680ca5d259df4c3c118eb32ba3"
+    },
+    {
+      "bytes": 196083,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0292.jsonl",
+      "sha256": "752ff5a2537e0ad41d1238b98d26db2a159e1808b4eee72e7bcc40aced4a3a41"
+    },
+    {
+      "bytes": 201496,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0293.jsonl",
+      "sha256": "8c302fd44b90e6109e19cba6db52ee583ea28c0afb05518623d5e20dfacd033c"
+    },
+    {
+      "bytes": 202957,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0294.jsonl",
+      "sha256": "8d6d3f49cfbd0091a6a5835905cc693e53fb6c09b859689bf192ddd1b60e8357"
+    },
+    {
+      "bytes": 191755,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0295.jsonl",
+      "sha256": "473e65eb303760dc24ec9e0dfd4caf710a3254eb20198edf5a22ecaa5749c397"
+    },
+    {
+      "bytes": 193630,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0296.jsonl",
+      "sha256": "d37191a41336666e468d35c792f86a1935eaf9704e7b9a3b062f663ca4bf38d0"
+    },
+    {
+      "bytes": 206272,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0297.jsonl",
+      "sha256": "6e98cd30fc1ff6f2fa9727630c22394308c3852538946c34aa66584017d29704"
+    },
+    {
+      "bytes": 207102,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0298.jsonl",
+      "sha256": "62ddd1d9e0c60c5f235cebb7ba68ff059cb8fef05a02f93dcd423a370c343f24"
+    },
+    {
+      "bytes": 207153,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0299.jsonl",
+      "sha256": "ea091617cec1d144644743170de10598f8666ffa72cc4bbfda3ab2a20a52682e"
+    },
+    {
+      "bytes": 214837,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0300.jsonl",
+      "sha256": "014579a3fdad0367f0074a3bf162342bf9123569efe4e15a983d956818b5819e"
+    },
+    {
+      "bytes": 207004,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0301.jsonl",
+      "sha256": "9219699f4310a040db6e3cd320b54e5216fa0356fe63e82fa078a956a95e7b8d"
+    },
+    {
+      "bytes": 197476,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0302.jsonl",
+      "sha256": "fd318e472d2bd165db438d3cb51e6f2a9b02fc232d0ad147f398ddf98d1e469e"
+    },
+    {
+      "bytes": 196924,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0303.jsonl",
+      "sha256": "68b0e2c2c2c2618d073313b67d799cf914fe8e212b47a0a28b593b9b8f81c18e"
+    },
+    {
+      "bytes": 207560,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0304.jsonl",
+      "sha256": "f099263121b01a00e4888fbc4ed846ef3021a8d498d269d1fae57691cc562e68"
+    },
+    {
+      "bytes": 204228,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0305.jsonl",
+      "sha256": "a55e1324d4bade3fa134efb745c983eea4bf28bbc7492d860d596248fc8befa6"
+    },
+    {
+      "bytes": 201698,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0306.jsonl",
+      "sha256": "908720385fad2d75e377fe3b8c1e7dda3db9ffe0725b2560368642f67fc494cd"
+    },
+    {
+      "bytes": 200205,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0307.jsonl",
+      "sha256": "9eb2905dce8c598d2d0eb28d3d7453490ad9bf2e56db026ecfd720c82bcacc82"
+    },
+    {
+      "bytes": 203338,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0308.jsonl",
+      "sha256": "250133fc1ceb9650f303d63638a39ca998526c23dc135db15feb072efbeeb8bd"
+    },
+    {
+      "bytes": 194853,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0309.jsonl",
+      "sha256": "69868ceb2eb205ab9d6ec8d7682d25d3741e899fdab7a9c0b41ff972037f9675"
+    },
+    {
+      "bytes": 203707,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0310.jsonl",
+      "sha256": "b3d10fb5703b7a819c47994f28d57e9d76cadf0fdee29e8d52c18ca9fd4ea63d"
+    },
+    {
+      "bytes": 199117,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0311.jsonl",
+      "sha256": "e9ebb4a0dc1db54894049c3c91ffa1fd0b9278e21901a5c0aea7127d07acaa1b"
+    },
+    {
+      "bytes": 200341,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0312.jsonl",
+      "sha256": "9455cdc91fa433ca7b4af91ef43bffcdc479b3b75cca25f9369a5b1a36075fa8"
+    },
+    {
+      "bytes": 197657,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0313.jsonl",
+      "sha256": "9035014d397a415028190ce9e5ada07ec03556eea837b69d50bf9605ad45078f"
+    },
+    {
+      "bytes": 195007,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0314.jsonl",
+      "sha256": "ca93c56e56390c655dac08eda789428b442ad9ab6d1007d78b79fc15b127b956"
+    },
+    {
+      "bytes": 201689,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0315.jsonl",
+      "sha256": "89caef3bdc31753b0bd4024c242774645507cdb6f063e35d6abee37cbbe60bbe"
+    },
+    {
+      "bytes": 213252,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0316.jsonl",
+      "sha256": "ef7a6957a5658359db2c89b4e07e6a7ec0f04c400108c3d0f921af081a5bced3"
+    },
+    {
+      "bytes": 208191,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0317.jsonl",
+      "sha256": "0a72f79d92da68b4cb4755c3e3a1dabc72f900e04b374d6519a664d0df00101c"
+    },
+    {
+      "bytes": 204793,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0318.jsonl",
+      "sha256": "4478996eacdfdd8d571e6c99d3317a221022837583f9ffcf7d54423d801db22d"
+    },
+    {
+      "bytes": 207034,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0319.jsonl",
+      "sha256": "e95999e73803fddc1216f144dd3070ddb5780457f595ef6556976f70a121f247"
+    },
+    {
+      "bytes": 192230,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0320.jsonl",
+      "sha256": "feb9a1c8cc3e2f5a34435d284516db2a9a5caa3d52fd26633dabebce5ef041af"
+    },
+    {
+      "bytes": 198186,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0321.jsonl",
+      "sha256": "d39bef67fb51fb96d986b139cdfa66ef7689c8087dfcba00b31012f73b6fb7c4"
+    },
+    {
+      "bytes": 197406,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0322.jsonl",
+      "sha256": "99072ad04f6cc591abbe084c26fd2606f762014e0e8b5853a7d950a13267b1e3"
+    },
+    {
+      "bytes": 195351,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0323.jsonl",
+      "sha256": "f96eaebc7ba45803363a107ccea8de847f90881ca600c6a2a43b6a54c01b40be"
+    },
+    {
+      "bytes": 209276,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0324.jsonl",
+      "sha256": "0533b3d1833f42c3f919e80781899112ff2fd0919bf0bc92813b28cd5990b93e"
+    },
+    {
+      "bytes": 207572,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0325.jsonl",
+      "sha256": "7b19ab6b1f0c8bfdad310146364210716904d24aef783e867ffebb8857f30c7b"
+    },
+    {
+      "bytes": 205509,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0326.jsonl",
+      "sha256": "639c2297ebf63b96b8e73d5933543fa1a511ccaec34dd917705c00e5025bfb82"
+    },
+    {
+      "bytes": 198956,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0327.jsonl",
+      "sha256": "008290e6db9b9acb9623462503b4b5cd67b6094668ae6607de683dd2e69e16c7"
+    },
+    {
+      "bytes": 203822,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0328.jsonl",
+      "sha256": "f207514085a1d7ae4a8f83d9b1bd65500aa3cc03b69bba3093478f921f1f5591"
+    },
+    {
+      "bytes": 198531,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0329.jsonl",
+      "sha256": "1477a7660a45f24a53d7ff83b3f68b45b634e6f6a0975666f85c65688857f3d6"
+    },
+    {
+      "bytes": 201006,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0330.jsonl",
+      "sha256": "39a452253f6784199a5b968d3e7d4c52322b6a4d0faddd5b3af93b289c69bb01"
+    },
+    {
+      "bytes": 205555,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0331.jsonl",
+      "sha256": "527c7bac178353c3a40fa70cb8a3d2795b88a630f28d70f2ed4759f47e0f60bd"
+    },
+    {
+      "bytes": 199982,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0332.jsonl",
+      "sha256": "d34ef3e119d63d8f135fa7de3e93ac40dfdfd3b2b088e07d93b57e6fb426d792"
+    },
+    {
+      "bytes": 205450,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0333.jsonl",
+      "sha256": "6765c762f2b4b5ee0b50977bc91b60494bcc2aa0ec85c840785819fa16866b4f"
+    },
+    {
+      "bytes": 205139,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0334.jsonl",
+      "sha256": "0563177c5b1f5836ccdbb8b63f42ebbe0a81f8b199aa726f9556473d872120cc"
+    },
+    {
+      "bytes": 204753,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0335.jsonl",
+      "sha256": "bb6dcc4e8b7bc9e5b02341da78f3caeea379146cef7f2d7cfc9245061bf79aa6"
+    },
+    {
+      "bytes": 202342,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0336.jsonl",
+      "sha256": "1d89786c613f9a58ec4f6555af268e6e4724bce039df1198dd4b76c99bc3628f"
+    },
+    {
+      "bytes": 189877,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0337.jsonl",
+      "sha256": "94914a903543bad2182a17b62544e933bcbbf022d2a4e155185f297ca1d4e15c"
+    },
+    {
+      "bytes": 206662,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0338.jsonl",
+      "sha256": "5695c8e9758d54caa985f9c4f8338ffdc95fb8999e19e860b41f3aa7f17a73fe"
+    },
+    {
+      "bytes": 200786,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0339.jsonl",
+      "sha256": "c8a7c7da35335a4c5f41c365901efd17f1290a553f9711f0d47cab4a81f6e29a"
+    },
+    {
+      "bytes": 202617,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0340.jsonl",
+      "sha256": "75ad642fbc165f4e3a43ee7d6319653b1cfc28e1547d47be41e8d2a19109864f"
+    },
+    {
+      "bytes": 206556,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0341.jsonl",
+      "sha256": "66d2b07714a79dd3c42a5bf86b5983453cc669fce78b4ee681f3e0c7d9a398b9"
+    },
+    {
+      "bytes": 211300,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0342.jsonl",
+      "sha256": "add04fbdf0dae827efdd99a38b598a3aea8159947c3748004fd6c68e72be95f8"
+    },
+    {
+      "bytes": 205394,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0343.jsonl",
+      "sha256": "a82d06a708b46236bfd50af6df8c078d68a4b4d3b79d64c667960635a76d3b89"
+    },
+    {
+      "bytes": 203133,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0344.jsonl",
+      "sha256": "bf01c58a466a1ba43e187381d37caad810713d774f3a6b992cc74ea460600ea4"
+    },
+    {
+      "bytes": 196093,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0345.jsonl",
+      "sha256": "90cd1c4b4dfd077e4809a8167c481f2177280fc4a30b7871dddcb4a9994cd8d1"
+    },
+    {
+      "bytes": 199977,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0346.jsonl",
+      "sha256": "e248f4d6d51062d3dad8539692980219d9fe24691993c7acb650c86b3c7a7155"
+    },
+    {
+      "bytes": 197002,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0347.jsonl",
+      "sha256": "f676c9e26bdb43aa3105868265fbaef325df1c686ccd6b655bed4c47e1176776"
+    },
+    {
+      "bytes": 199510,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0348.jsonl",
+      "sha256": "f9e6e3a3ff46027822b471862345274d8e4d626619f8324f8bb9539a620becd9"
+    },
+    {
+      "bytes": 204863,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0349.jsonl",
+      "sha256": "78b0f83be1b4da7b21747be5e6204b45538898ff8e70e43669699f37fbd9691e"
+    },
+    {
+      "bytes": 201661,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0350.jsonl",
+      "sha256": "a35d0b73d24ebbd75c3b0ec85c8be85730dbe0a1e95a395b98f17f5aff3ffaaf"
+    },
+    {
+      "bytes": 203834,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0351.jsonl",
+      "sha256": "f06bdba4da983a8e85f6d6223cf73f936e2ca33bdf570ffe7262894e71a820a6"
+    },
+    {
+      "bytes": 202902,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0352.jsonl",
+      "sha256": "4ca4a5d4969351cf68baf1334f64a696b1ad8b18e0027fcd94c966629e3666c5"
+    },
+    {
+      "bytes": 203357,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0353.jsonl",
+      "sha256": "091cd240beafa7e70077ea6bac7bc13f03b89fd4c117b8fb76753e2ffeb7669d"
+    },
+    {
+      "bytes": 207169,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0354.jsonl",
+      "sha256": "b272d1258c514b8432533cc2fc80ca509b1772188f608d55be27b26f3c703b63"
+    },
+    {
+      "bytes": 207277,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0355.jsonl",
+      "sha256": "7dc419f7b332dbdfefca5c9d7fc21082df2fe4fcb3332e4800c46c814e609fa0"
+    },
+    {
+      "bytes": 202123,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0356.jsonl",
+      "sha256": "06dd319a71c4a98784f0a54671a85cad4346fe4b4fc9d7c190873329cfda88c2"
+    },
+    {
+      "bytes": 209584,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0357.jsonl",
+      "sha256": "2c27e41dd1d3859fd95b8ea715c2a96ec94c45191e601599413240dbf1677666"
+    },
+    {
+      "bytes": 222171,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0358.jsonl",
+      "sha256": "6d79f0cfc08b8ea41c998c377f717cfe7e0a383969bf1ab421d86c8bfcaa46a2"
+    },
+    {
+      "bytes": 207329,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0359.jsonl",
+      "sha256": "7d5d4c0e7c15fb106983c38e3b891dd07534e67bd035c3463212f878c7840d82"
+    },
+    {
+      "bytes": 206111,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0360.jsonl",
+      "sha256": "71410ef45142c81645f15cdd35f0e8c9d28b31f7a05043bfcdf4f3835e76334b"
+    },
+    {
+      "bytes": 197142,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0361.jsonl",
+      "sha256": "9713ef11a4453d3610d6cf043e55d37f34aef96b5ce591228515b1adb01b72ab"
+    },
+    {
+      "bytes": 202309,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0362.jsonl",
+      "sha256": "d6e1251a420e36382599ef45b1153b562b3244a65856da311226459bae9fd8d4"
+    },
+    {
+      "bytes": 203908,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0363.jsonl",
+      "sha256": "01acfc61b383e9ecbb8f871253550384364258edabdb795895b011e62e22adeb"
+    },
+    {
+      "bytes": 201820,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0364.jsonl",
+      "sha256": "072bf8783684dbb906988723b25365af0c2262561ac836222d3f8cd2ec91f82f"
+    },
+    {
+      "bytes": 200008,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0365.jsonl",
+      "sha256": "5e61d88ba6e04315b8de7c45a4459745d5ab0be0519c8d9e15f6c043631334fd"
+    },
+    {
+      "bytes": 209673,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0366.jsonl",
+      "sha256": "8f177d3f6017df664f50073ea4379d056fb3f912347cd2f602975a4d3a419242"
+    },
+    {
+      "bytes": 199078,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0367.jsonl",
+      "sha256": "061fb6a43aedd42589af2c2b54813280737a16ce4d33e7f5feeec07cf9fc4c4c"
+    },
+    {
+      "bytes": 203338,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0368.jsonl",
+      "sha256": "b5fdd344191a7aa7a9004bb301d0dae087ae2ccfcd1f7a9b898d7f844b7c3edc"
+    },
+    {
+      "bytes": 210723,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0369.jsonl",
+      "sha256": "cc35c6a9458be7b91e9a97e6b4b26cc533a0b562d067ce6acf4fdb65a88832cf"
+    },
+    {
+      "bytes": 211463,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0370.jsonl",
+      "sha256": "55398190f6bf470b5f9623bd91dd7486ff6d24258396ec39e10adc1b2d2b2451"
+    },
+    {
+      "bytes": 213418,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0371.jsonl",
+      "sha256": "514ebeb07c686bd496094bf7e8493583de63a4d03d28341419b6e5a549199e81"
+    },
+    {
+      "bytes": 218415,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0372.jsonl",
+      "sha256": "c7cba46e986ed10c9cbc2308c5b09be60cc3bfb0274ede67765afa4252b28c9e"
+    },
+    {
+      "bytes": 204022,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0373.jsonl",
+      "sha256": "dd56c24f1d71a09efac93668f3328510961332511a6ab0e441b8ef7ca56947c1"
+    },
+    {
+      "bytes": 198681,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0374.jsonl",
+      "sha256": "36844d58a1cf94eb0c2da6eb4f0060765f2e151383357e59e9a878e22943cdbf"
+    },
+    {
+      "bytes": 204103,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0375.jsonl",
+      "sha256": "d2c398a95d14791908bf6d6bfc1e59c4ae31142ee829f76912788a3ac238a1b0"
+    },
+    {
+      "bytes": 192790,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0376.jsonl",
+      "sha256": "14ff4a8819d1d40d66330bb9900fd7a3d64ef0f798bac925bc81abd118ec4caf"
+    },
+    {
+      "bytes": 188848,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0377.jsonl",
+      "sha256": "061a4c2ef079158fa6a1f356d408f7949b8a23e9c6234bd2fbecb8e91072b765"
+    },
+    {
+      "bytes": 231058,
+      "messages": 500,
+      "path": "model-index/discord/empire-city/messages-0378.jsonl",
+      "sha256": "4ff83abb559d6bea2d3ce64e9338561ac095d3e1253a3e82befa14e37f2893f6"
+    },
+    {
+      "bytes": 248689,
+      "messages": 360,
+      "path": "model-index/discord/empire-city/messages-0379.jsonl",
+      "sha256": "5834e29623edbb4ee9f878ea41165d725f6c945476084efbc048b8071e60fe20"
+    },
+    {
+      "bytes": 161767,
+      "messages": 401,
+      "path": "model-index/discord/empire-city/messages-0380.jsonl",
+      "sha256": "45d94dfb5d15f8c46be007dfee79d35e5ad9763f1467882fff19274b05bc98b2"
     }
   ],
   "message_count": 189761,
-  "schema_version": 1,
+  "schema_version": 2,
   "server_slug": "empire-city",
-  "shard_messages": 2500,
+  "shard_limits": {
+    "bytes": 250000,
+    "messages": 500
+  },
   "source_database": "discord/empire-city/empire-city.sqlite"
 }
