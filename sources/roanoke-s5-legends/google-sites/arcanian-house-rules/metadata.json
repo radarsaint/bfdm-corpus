@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "arcanian-house-rules",
+  "seed_url": "https://sites.google.com/view/arcanian-house-rules/home",
+  "role": "house_rules",
+  "capture_started_from": "https://sites.google.com/view/arcanian-house-rules/home",
+  "captured_at": "2026-10-04T21:58:12.519837Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/arcanian-house-rules/home",
+      "fetched_at": "2026-10-04T21:58:12.188611Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/arcanian-house-rules/home",
+      "title": "House rules",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/arcanian-house-rules/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/arcanian-house-rules/pages/home.md",
+      "sha256_html": "badc1350e45f9d38b74dd4686b97fcc0b4dcf2d9d58f7cc8b1e06628a4d02108",
+      "sha256_text": "e250295b1a1cf8da29c0aa0aafa5cbb1f2059246a4f4d430c1baea0ba7c37759",
+      "links_same_site": [
+        "https://sites.google.com/view/arcanian-house-rules/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

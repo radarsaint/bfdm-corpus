@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "day-1s5",
+  "seed_url": "https://sites.google.com/view/day-1s5/home",
+  "role": "day_one_player_facing",
+  "capture_started_from": "https://sites.google.com/view/day-1s5/home",
+  "captured_at": "2026-10-04T21:58:07.916609Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/day-1s5/home",
+      "fetched_at": "2026-10-04T21:58:07.494654Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/day-1s5/home",
+      "title": "DAY 1",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/day-1s5/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/day-1s5/pages/home.md",
+      "sha256_html": "385d3a71a02d76b16ccc91452f536e431a64b77b463f98cf54a764c46aa5ffae",
+      "sha256_text": "3f9a668fbcfb8da906113fbbc7fbbec9cf829baffe27a26c7fd452f729ec1866",
+      "links_same_site": [
+        "https://sites.google.com/view/day-1s5/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "homebrew-spells",
+  "seed_url": "https://sites.google.com/view/homebrew-spells/home",
+  "role": "homebrew_spells",
+  "capture_started_from": "https://sites.google.com/view/homebrew-spells/home",
+  "captured_at": "2026-10-04T21:58:08.609844Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/homebrew-spells/home",
+      "fetched_at": "2026-10-04T21:58:08.271649Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/homebrew-spells/home",
+      "title": "Blood Magic",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/pages/home.md",
+      "sha256_html": "a9736641318af73f625e1c5fbbe9f33afb3344bafe9dd2e03c7859aca8863c61",
+      "sha256_text": "e82be2bc285dd2f1c67729c540416b6625255629026ab32fac2d3fe161dc3ce2",
+      "links_same_site": [
+        "https://sites.google.com/view/homebrew-spells/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

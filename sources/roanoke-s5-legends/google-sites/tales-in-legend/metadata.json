@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "tales-in-legend",
+  "seed_url": "https://sites.google.com/view/tales-in-legend/home",
+  "role": "campaign_setting_material_verify",
+  "capture_started_from": "https://sites.google.com/view/tales-in-legend/home",
+  "captured_at": "2026-10-04T21:58:12.835016Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/tales-in-legend/home",
+      "fetched_at": "2026-10-04T21:58:12.520250Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/tales-in-legend/home",
+      "title": "Tales in Legend.",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/tales-in-legend/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/tales-in-legend/pages/home.md",
+      "sha256_html": "6447695da5943932a24fb314776c5a793469652cc164c11e1565acfd5bf99509",
+      "sha256_text": "84887aa357cd0e61b6b2d5c661aecb2e90a91c72b7861a06c9008e7d33b6d04b",
+      "links_same_site": [
+        "https://sites.google.com/view/tales-in-legend/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

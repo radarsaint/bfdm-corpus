@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "s5warlockoptions",
+  "seed_url": "https://sites.google.com/view/s5warlockoptions/home",
+  "role": "warlock_options",
+  "capture_started_from": "https://sites.google.com/view/s5warlockoptions/home",
+  "captured_at": "2026-10-04T21:58:10.391855Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/s5warlockoptions/home",
+      "fetched_at": "2026-10-04T21:58:10.048139Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/s5warlockoptions/home",
+      "title": "s5 warlock options",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/pages/home.md",
+      "sha256_html": "2d069001ad95146d5522e26b882d4f5f9159e57f183b2ea1301e440cb06884f8",
+      "sha256_text": "4af8cbc26ebb7c3ab9999336eea35baa8eb2fc18113ac8b690dfb1938945579b",
+      "links_same_site": [
+        "https://sites.google.com/view/s5warlockoptions/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

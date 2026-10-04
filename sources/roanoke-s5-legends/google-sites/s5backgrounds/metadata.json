@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "s5backgrounds",
+  "seed_url": "https://sites.google.com/view/s5backgrounds/home",
+  "role": "backgrounds_character_creation",
+  "capture_started_from": "https://sites.google.com/view/s5backgrounds/home",
+  "captured_at": "2026-10-04T21:58:06.633078Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/s5backgrounds/home",
+      "fetched_at": "2026-10-04T21:58:06.241155Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/s5backgrounds/home",
+      "title": "s5 backgrounds",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/s5backgrounds/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/s5backgrounds/pages/home.md",
+      "sha256_html": "49e850c8f31eda274e3e49ffda09c2d02c39fb918bd10781cdf3d04b43787b7c",
+      "sha256_text": "48eca994b0ccd81f582e590a8d2b141cb5d334d068d1bf840d619c31c5b5b9a7",
+      "links_same_site": [
+        "https://sites.google.com/view/s5backgrounds/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

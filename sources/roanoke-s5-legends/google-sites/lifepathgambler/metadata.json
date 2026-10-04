@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "lifepathgambler",
+  "seed_url": "https://sites.google.com/view/lifepathgambler/home",
+  "role": "life_path_gambler",
+  "capture_started_from": "https://sites.google.com/view/lifepathgambler/home",
+  "captured_at": "2026-10-04T21:58:09.684525Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/lifepathgambler/home",
+      "fetched_at": "2026-10-04T21:58:09.326591Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/lifepathgambler/home",
+      "title": "Life Path, Gambler",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/lifepathgambler/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/lifepathgambler/pages/home.md",
+      "sha256_html": "fa9989fb9b534852b9215c029c60d9d692f70e3c285dddedcf3bfa8223a5bb6c",
+      "sha256_text": "9630417a47dd12ea5eae4bdf7ab6d79d5c5a1b6e97526dfac13d381a713484d1",
+      "links_same_site": [
+        "https://sites.google.com/view/lifepathgambler/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

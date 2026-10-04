@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "path-of-the-lumber-jacked",
+  "seed_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+  "role": "barbarian_option",
+  "capture_started_from": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+  "captured_at": "2026-10-04T21:58:10.777055Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+      "fetched_at": "2026-10-04T21:58:10.392390Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/path-of-the-lumber-jacked/home",
+      "title": "Path of the Lumber Jacked",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/pages/home.md",
+      "sha256_html": "1d3d52604c56cc384d7a891002be415009ec86e437f09bc444626e5c4cc19330",
+      "sha256_text": "e33eeccd06eba768199e8db90e75cd99335096df09320b0b60406f8a804cdf02",
+      "links_same_site": [
+        "https://sites.google.com/view/path-of-the-lumber-jacked/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

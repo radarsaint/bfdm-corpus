@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "harbingers5",
+  "seed_url": "https://sites.google.com/view/harbingers5/home",
+  "role": "character_option_verify",
+  "capture_started_from": "https://sites.google.com/view/harbingers5/home",
+  "captured_at": "2026-10-04T21:58:09.004710Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/harbingers5/home",
+      "fetched_at": "2026-10-04T21:58:08.610302Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/harbingers5/home",
+      "title": "Harbingers5",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/harbingers5/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/harbingers5/pages/home.md",
+      "sha256_html": "1458dcd7ba6cbd8848972854a9e1eb43303cba6e1c6463605fa6e170415ed3b6",
+      "sha256_text": "6ff7112eea25ea3ce28efaf26e32a240a699f0cd1c8260d56156e711569f7067",
+      "links_same_site": [
+        "https://sites.google.com/view/harbingers5/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

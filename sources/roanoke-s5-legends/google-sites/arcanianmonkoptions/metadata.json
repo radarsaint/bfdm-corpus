@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "arcanianmonkoptions",
+  "seed_url": "https://sites.google.com/view/arcanianmonkoptions/home",
+  "role": "monk_options",
+  "capture_started_from": "https://sites.google.com/view/arcanianmonkoptions/home",
+  "captured_at": "2026-10-04T21:58:12.188214Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/arcanianmonkoptions/home",
+      "fetched_at": "2026-10-04T21:58:11.900525Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/arcanianmonkoptions/home",
+      "title": "Arcanian Monk Options",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/arcanianmonkoptions/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/arcanianmonkoptions/pages/home.md",
+      "sha256_html": "23b88a8867ba78cf74dc26f310f8224e1f05e59320dec4aaf1813a4287f34172",
+      "sha256_text": "d1a052eceb795ab351d7ec6019e09c33424cb22dcc2be48c238013a7fc7770d1",
+      "links_same_site": [
+        "https://sites.google.com/view/arcanianmonkoptions/home"
+      ],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Embedded Drive files are recorded through page links but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}
