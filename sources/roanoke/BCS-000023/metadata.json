@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000023",
+  "project": "Roanoke",
+  "title": "Roanoke Lore: Chinnokin Prophesy.docx",
+  "original_filename": "Roanoke Lore: Chinnokin Prophesy.docx",
+  "original_sha256": "628866a009442359baf94719a4a5a7fc3590aa6bfba27640794097c5fdd598d2",
+  "normalized_file": "source.md",
+  "normalized_sha256": "e9d6d0c833c9bc4d37b9b374057fbc8ca0c39101285566ab0af840c501e53a7d",
+  "normalized_line_count": 20,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

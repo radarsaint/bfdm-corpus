@@ -1,0 +1,33 @@
+{
+  "corpus_id": "BCS-000029",
+  "project": "Roanoke",
+  "title": "Roanoke S3 v2 W2 Breakdown.docx",
+  "original_filename": "Roanoke S3 v2 W2 Breakdown.docx",
+  "original_sha256": "43ef5115d80ffb64f44a4c6a01e7ac5e284bd8671a0468cb90ebe9cf8761c27f",
+  "normalized_file": "source.md",
+  "normalized_sha256": "0da489108c38f60df2bc1153ee000e6a492cf59f3c95ba495e0ccab388c1d06d",
+  "normalized_line_count": 752,
+  "assets": [
+    "assets/media/image1.png",
+    "assets/media/image10.png",
+    "assets/media/image11.png",
+    "assets/media/image12.png",
+    "assets/media/image13.gif",
+    "assets/media/image14.jpg",
+    "assets/media/image15.jpg",
+    "assets/media/image16.png",
+    "assets/media/image2.jpg",
+    "assets/media/image3.png",
+    "assets/media/image4.png",
+    "assets/media/image5.png",
+    "assets/media/image6.jpg",
+    "assets/media/image7.png",
+    "assets/media/image8.png",
+    "assets/media/image9.png"
+  ],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

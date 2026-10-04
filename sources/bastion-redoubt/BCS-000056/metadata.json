@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000056",
+  "project": "Bastion/Redoubt",
+  "title": "Bastion and Redoubt full script",
+  "drive_id": "1EH5DFUEzPqqXZkaHVongVHLn_eXOHmdSIoSKty8TM8w",
+  "original_filename": "Bastion and Redoubt full script.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "6a7d2489946f66f4293501d5c535a9324b7d5d156686cbc07e05ce3c643391fa",
+  "normalized_file": "source.md",
+  "normalized_sha256": "5a901d05377e05c170a225c05ed3e65eeeb7528b6bb387f66a99353bd959bdeb",
+  "normalized_line_count": 4568,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

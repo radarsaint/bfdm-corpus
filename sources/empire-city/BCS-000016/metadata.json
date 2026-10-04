@@ -1,0 +1,84 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000016",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City RP Sign Up. (Responses)",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Empire City RP Sign Up. (Responses).xlsx",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "created_at": "2020-08-25T19:28:30.470Z",
+  "modified_at": "2022-05-04T06:45:19.873Z",
+  "ingested_at": "2026-10-03T18:55:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; this is a collaborative form-response sheet.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_spreadsheet",
+      "native_id": "1QZCPt1wXvxA0lX_duCOitv7EIpOb7GZoNeDM6kGNf74",
+      "url": "https://docs.google.com/spreadsheets/d/1QZCPt1wXvxA0lX_duCOitv7EIpOb7GZoNeDM6kGNf74/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_bcaeb2a67acf8191be21477f041d03ab",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City RP Sign Up. (Responses).xlsx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000016/source.md",
+      "sha256": "1919185de2db86be4e9ab3255b308f392724e77966077e38e68f1b007ab22fb3",
+      "mime_type": "text/csv",
+      "size_bytes": 21201,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000016/original/source.xlsx",
+      "sha256": "53b2f85f028f2e320cb7e7804eb44f929fd8c950a167a4afb9840a4c50bd29ee",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 16295,
+      "provider_revision_id": null
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive spreadsheet text extraction to CSV-like line-oriented source.md; exact current XLSX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Spreadsheet formulas, formatting, validation, comments, hidden cells/sheets, and rich cell objects may not be represented in the text extraction."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PENDING_NATIVE_CAPTURE",
+    "revision_metadata": "PENDING_NATIVE_CAPTURE",
+    "revision_bodies": "PENDING_NATIVE_CAPTURE",
+    "assets": "NOT_APPLICABLE_OR_PRESERVED_IN_XLSX_EXPORT"
+  },
+  "spreadsheet": {
+    "title": "Empire City RP Sign Up. (Responses)",
+    "locale": "en_US",
+    "time_zone": "America/Los_Angeles",
+    "sheets": [
+      {
+        "sheetId": 964356642,
+        "title": "Form Responses 1",
+        "index": 0,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 134,
+          "columnCount": 16,
+          "frozenRowCount": 1
+        }
+      }
+    ]
+  }
+}

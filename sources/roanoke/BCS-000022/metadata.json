@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000022",
+  "project": "Roanoke",
+  "title": "Roanoke Island Beastiary.docx",
+  "original_filename": "Roanoke Island Beastiary.docx",
+  "original_sha256": "9c9ac26732b2fd991384a2d0618915f060a00522462aaa527de146a2fe483b55",
+  "normalized_file": "source.md",
+  "normalized_sha256": "8aece630fd3a5d5395070d8e213195ba680bf460cc467e06d0d01ed69d3af0dd",
+  "normalized_line_count": 8,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

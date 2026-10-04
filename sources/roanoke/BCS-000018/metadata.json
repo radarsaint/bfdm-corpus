@@ -1,0 +1,25 @@
+{
+  "corpus_id": "BCS-000018",
+  "project": "Roanoke",
+  "title": "Roanoke 3 Master Schedule.xlsx",
+  "original_filename": "Roanoke 3 Master Schedule.xlsx",
+  "original_sha256": "c884756f91dab73547f0b6b9475a83ac9ef34674be24f0f1e3c613dc3a19addb",
+  "normalized_file": "source.md",
+  "normalized_sha256": "fe0bd1f14d44dedd4f141e4fb340fbfccdfa6bcf870780a00f75c2576244e565",
+  "normalized_line_count": 18,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "spreadsheet_extraction": {
+    "tool": "artifact_tool",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "range": "A1:G7"
+      }
+    ]
+  },
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.xlsx"
+}

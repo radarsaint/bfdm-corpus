@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000055",
+  "project": "Earthfall",
+  "title": "Rod script",
+  "drive_id": "14PPosE_BXQUJBatDQnswH5A5Fs5029XK6IwYJrRut70",
+  "original_filename": "Rod script.docx",
+  "original_stored_as": "original/source.docx",
+  "original_sha256": "b990a6def7af19a011a2f67c1c188f8381f2792366183cc9a1a04845c14d2046",
+  "normalized_file": "source.md",
+  "normalized_sha256": "6c81fc2520e2e6528ce89dc9dd0b57d07600acbb88e0779de0d55ff90d1f6903",
+  "normalized_line_count": 1014,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+}

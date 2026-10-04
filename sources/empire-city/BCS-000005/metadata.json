@@ -1,0 +1,74 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000005",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Post 7-10",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Empire City Post 7-10.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-12-23T21:28:35.826Z",
+  "modified_at": "2021-07-10T11:00:50.864Z",
+  "ingested_at": "2026-10-03T18:35:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1AX7lJwU9zJjAfEYxpVjspzxlyN0elm7D_0NQFn-FaZI",
+      "url": "https://docs.google.com/document/d/1AX7lJwU9zJjAfEYxpVjspzxlyN0elm7D_0NQFn-FaZI/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_61e1b4b428588191ba296e6deac4c57e",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Post 7-10.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000005/source.md",
+      "sha256": "75a40d8f429d7901e9ba370f237ec90a7f876be48f3cbd94abda853f13780d1f",
+      "mime_type": "text/plain",
+      "size_bytes": 3534,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000005/original/source.docx",
+      "sha256": "7faa2a5824fa59735c13a74e412bc3f3a01df0cb93a80bf935bd56f800ffbc21",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 534837,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/empire-city/BCS-000005/revisions.jsonl",
+      "sha256": "c6311b3aae69102fd0dc62478c7cc15557a760da8f735f9ddaba082ab8110d68",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 3442,
+      "provider_revision_id": null
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NOT_FETCHED_THIS_PASS",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}

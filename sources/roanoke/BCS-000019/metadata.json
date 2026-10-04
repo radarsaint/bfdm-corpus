@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000019",
+  "project": "Roanoke",
+  "title": "Roanoke city directory..docx",
+  "original_filename": "Roanoke city directory..docx",
+  "original_sha256": "1580f1683ede44891ef18c067ad40154cd62b9e1820c0eba3b60f99e7d153623",
+  "normalized_file": "source.md",
+  "normalized_sha256": "18a0d5bf7bf85812da733fdd9dce512faa50c07cbcd58b314d9307311d475e31",
+  "normalized_line_count": 78,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

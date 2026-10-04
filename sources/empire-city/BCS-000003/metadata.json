@@ -1,0 +1,82 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000003",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Backlog Notes",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Empire City Backlog Notes.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-06-21T19:44:01.982Z",
+  "modified_at": "2021-07-12T17:09:17.609Z",
+  "ingested_at": "2026-10-03T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; Drive ownership/location are not treated as authorship evidence.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1s_zHpWDL1NOGDNVNUqbYGMo2-A7ixyy6bopoSbnfKsk",
+      "url": "https://docs.google.com/document/d/1s_zHpWDL1NOGDNVNUqbYGMo2-A7ixyy6bopoSbnfKsk/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_080fcc48fbe08191a6e2a5cdc1e2163c",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Backlog Notes.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000003/source.md",
+      "sha256": "3c165ec9ac778f10c276630bf920b50d93148d861a1099a3ddf869b2be23134a",
+      "mime_type": "text/plain",
+      "size_bytes": 3056,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000003/original/source.docx",
+      "sha256": "28cd4e117495b9155e5cdb7de9aa2d96293682f1ee7031e14f66f51c3c3ac543",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 13858,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "NATIVE_COMMENTS_JSONL",
+      "path": "sources/empire-city/BCS-000003/comments.jsonl",
+      "sha256": "8dae134c0934d6261a8bfc5ba9304a14aeff2e11f825d58c2498897db9f79b11",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 924,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/empire-city/BCS-000003/revisions.jsonl",
+      "sha256": "ed2141a4e427ca409ca57cae21311ceb7102eec08f324c9f78cbb7e0d6a9e4b4",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 1333,
+      "provider_revision_id": null
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NOT_FETCHED_THIS_PASS",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000045",
+  "project": "Roanoke",
+  "title": "Roanoke Season 3 Rough Draft.txt",
+  "original_filename": "Roanoke Season 3 Rough Draft.txt",
+  "original_sha256": "9ba280ea54b9c13312db5ced664f3bcff48b3c3b8640568fec2f42ea7bf4edcb",
+  "normalized_file": "source.md",
+  "normalized_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166",
+  "normalized_line_count": 4476,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.txt"
+}

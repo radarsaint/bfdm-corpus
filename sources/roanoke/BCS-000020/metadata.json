@@ -1,0 +1,16 @@
+{
+  "corpus_id": "BCS-000020",
+  "project": "Roanoke",
+  "title": "Roanoke Crafting.docx",
+  "original_filename": "Roanoke Crafting.docx",
+  "original_sha256": "ebdb894ff99acfa11fe924342c1760c032f1c0e1791e864d7d80572b5d7f28ee",
+  "normalized_file": "source.md",
+  "normalized_sha256": "1622a884420455054e78bd64ee00a36cef3c50a1da4d0343b0ac84da4774d0e0",
+  "normalized_line_count": 96,
+  "assets": [],
+  "comments_file": "comments.json",
+  "warnings": [],
+  "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+  "brendon_native_comments_file": null,
+  "original_stored_as": "original/source.docx"
+}

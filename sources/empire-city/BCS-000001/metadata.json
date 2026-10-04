@@ -1,0 +1,66 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000001",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Crafting in Empire City",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": "Crafting in Empire City.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-07-03T13:13:25.365Z",
+  "modified_at": "2022-05-24T21:55:00.193Z",
+  "ingested_at": "2026-10-03T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; Drive ownership/location are not treated as authorship evidence.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1I35lWE2O12_dD9DggHH3YLpG3BwccCCDh-rBsaN0C6k",
+      "url": "https://docs.google.com/document/d/1I35lWE2O12_dD9DggHH3YLpG3BwccCCDh-rBsaN0C6k/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_5f79d3b35ff48191b31f6ebfbc44aec1",
+      "source_path": "/Dnd solo source imports/Empire City/Crafting in Empire City.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000001/source.md",
+      "sha256": "be65f4d32b1aa71e52a9468acc3464830d47543710cb5f2d3c469cc7b188c10c",
+      "mime_type": "text/plain",
+      "size_bytes": 6311,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000001/original/source.docx",
+      "sha256": "15352c50aa82b9be74e837c0e0ea21ca78440f009b4418ba22e815febf761f62",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 10678,
+      "provider_revision_id": null
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NONE_AVAILABLE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  }
+}
