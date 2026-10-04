@@ -1,0 +1,30 @@
+{
+  "authorities": {
+    "attributable_evidence": 14,
+    "derived_case": 42,
+    "harvest_metadata": 3,
+    "registry": 25,
+    "relation": 13,
+    "research_note": 41,
+    "source_catalog": 96
+  },
+  "format_version": 1,
+  "generator": "access/1",
+  "input_count": 160,
+  "inputs_sha256": "1b1b8891ef602a6fc320a3cb94f9b6f02936d8dec67469dcfc30b16c98d88458",
+  "note": "Generated index. Rebuild with python -m access build. Not a canonical source.",
+  "record_classes": {
+    "derived_case": 42,
+    "discord_server": 3,
+    "evidence": 14,
+    "identity": 5,
+    "person": 4,
+    "project": 11,
+    "project_relation": 4,
+    "relation": 13,
+    "research_note": 41,
+    "series": 1,
+    "source_container": 96
+  },
+  "record_count": 234
+}
