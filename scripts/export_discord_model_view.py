@@ -26,13 +26,21 @@ def main():
         raise SystemExit("messages table not found")
 
     cols={r[1] for r in con.execute("pragma table_info(messages)")}
-    preferred=["id","channel_id","author_id","author_name","author_display_name","timestamp","created_at","content","reply_to_message_id","thread_id"]
-    selected=[c for c in preferred if c in cols]
-    if "id" not in selected or "content" not in selected:
-        raise SystemExit(f"messages table lacks required id/content columns; has {sorted(cols)}")
+    required={"id","channel_id","author_id","created_at","content"}
+    if not required.issubset(cols):
+        raise SystemExit(f"messages table lacks required columns {sorted(required-cols)}; has {sorted(cols)}")
 
-    order = "timestamp" if "timestamp" in cols else ("created_at" if "created_at" in cols else "id")
-    sql=f"select {','.join(selected)} from messages order by {order}, id"
+    # Join names into every record so GitHub/code search results are useful without SQL.
+    sql="""select
+      m.id, m.channel_id, c.name as channel_name, c.category as channel_category,
+      m.thread_id, t.name as thread_name,
+      m.author_id, u.username as author_username, u.display_name as author_display_name,
+      m.created_at, m.edited_at, m.content, m.reply_to_id
+    from messages m
+    left join channels c on c.id=m.channel_id
+    left join threads t on t.id=m.thread_id
+    left join users u on u.id=m.author_id
+    order by m.created_at, m.id"""
     count=0; shard=0; fh=None; shard_count=0; shard_meta=[]
     sha=hashlib.sha256()
     try:
@@ -45,7 +53,7 @@ def main():
                 name=f"messages-{shard:04d}.jsonl"
                 fh=(args.out/name).open("w",encoding="utf-8",newline="\n")
                 shard_meta.append({"path":name,"messages":0})
-            obj={k: row[k] for k in selected}
+            obj={k: row[k] for k in row.keys()}
             line=json.dumps(obj,ensure_ascii=False,separators=(",",":"))+"\n"
             fh.write(line); sha.update(line.encode("utf-8"))
             count += 1; shard_count += 1
