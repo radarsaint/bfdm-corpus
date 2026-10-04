@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/arcanian-server-rules/home
 - Final URL: https://sites.google.com/view/arcanian-server-rules/home
-- Retrieved: 2026-10-04T22:03:38.734186Z
+- Retrieved: 2026-10-04T22:06:00.201934Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

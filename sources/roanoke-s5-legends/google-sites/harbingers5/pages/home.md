@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/harbingers5/home
 - Final URL: https://sites.google.com/view/harbingers5/home
-- Retrieved: 2026-10-04T22:03:33.226545Z
+- Retrieved: 2026-10-04T22:05:55.184411Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

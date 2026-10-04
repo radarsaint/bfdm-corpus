@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5-training/home",
   "role": "training_rules",
   "capture_started_from": "https://sites.google.com/view/s5-training/home",
-  "captured_at": "2026-10-04T22:03:34.661228Z",
+  "captured_at": "2026-10-04T22:05:56.539495Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5-training/home",
-      "fetched_at": "2026-10-04T22:03:34.319285Z",
+      "fetched_at": "2026-10-04T22:05:56.230338Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5-training/home",
       "title": "s5 training",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5-training/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5-training/pages/home.md",
-      "sha256_html": "7b415b26c7a40584e6f9c7f42f06ac21e750d69518c5c2ed8eed357402510c82",
+      "sha256_html": "1a753a1228be709bb8fabc224d47d701db618ccbc5ccd8e852f69f4faf49d33b",
       "sha256_text": "a9960bf623e35a442748dbaaa41d09d3d2dff3a38a449e69cc24c084df6cf4f2",
       "links_all": [
         "https://sites.google.com/view/s5-training/home"

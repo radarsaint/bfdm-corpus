@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/arcanian-house-rules/home
 - Final URL: https://sites.google.com/view/arcanian-house-rules/home
-- Retrieved: 2026-10-04T22:03:37.292976Z
+- Retrieved: 2026-10-04T22:05:58.802718Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/arcanian-server-rules/home",
   "role": "server_rules",
   "capture_started_from": "https://sites.google.com/view/arcanian-server-rules/home",
-  "captured_at": "2026-10-04T22:03:39.071995Z",
+  "captured_at": "2026-10-04T22:06:00.519958Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/arcanian-server-rules/home",
-      "fetched_at": "2026-10-04T22:03:38.734186Z",
+      "fetched_at": "2026-10-04T22:06:00.201934Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/arcanian-server-rules/home",
       "title": "server rules.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/arcanian-server-rules/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/arcanian-server-rules/pages/home.md",
-      "sha256_html": "4ac2cb98afc9e513d36c69deb074e011ea19d875f57b0bab343db268ca7cfe1e",
+      "sha256_html": "57cab15a2c0004cc33be8180efeda58fa2d63af3514dee9e725de8e330a047bb",
       "sha256_text": "81231dc4466e9bc4fa04e1ae1e32e1f73c8b48dfe58c235e7ce2a13ef98249b6",
       "links_all": [
         "https://sites.google.com/view/arcanian-server-rules/home"

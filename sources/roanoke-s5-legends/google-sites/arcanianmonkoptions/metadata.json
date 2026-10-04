@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/arcanianmonkoptions/home",
   "role": "monk_options",
   "capture_started_from": "https://sites.google.com/view/arcanianmonkoptions/home",
-  "captured_at": "2026-10-04T22:03:37.205577Z",
+  "captured_at": "2026-10-04T22:05:58.801972Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/arcanianmonkoptions/home",
-      "fetched_at": "2026-10-04T22:03:36.823046Z",
+      "fetched_at": "2026-10-04T22:05:58.490934Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/arcanianmonkoptions/home",
       "title": "Arcanian Monk Options",
       "raw_path": "sources/roanoke-s5-legends/google-sites/arcanianmonkoptions/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/arcanianmonkoptions/pages/home.md",
-      "sha256_html": "5bddcd6a3a21883eb3a5be66fce0262c36b5cbfd91cc59eda05baefbae53c923",
+      "sha256_html": "df8fd5aac8d66d3e56942d4af94efb3592bc598e6ea32c795a8227c822e0f49c",
       "sha256_text": "d1a052eceb795ab351d7ec6019e09c33424cb22dcc2be48c238013a7fc7770d1",
       "links_all": [
         "https://sites.google.com/view/arcanianmonkoptions/home"

@@ -1,10 +1,10 @@
 # Season 5 Google Sites harvest report
 
-- Completed: 2026-10-04T22:03:39.479313Z
-- Sites in manifest: 23
-- Sites with at least one captured page: 23
+- Completed: 2026-10-04T22:06:01.980538Z
+- Sites in manifest: 26
+- Sites with at least one captured page: 26
 - Sites with zero captured pages: 0
-- Pages captured: 23 / 23
+- Pages captured: 26 / 26
 - Fetch failures: 0
 
 | Site | Status | Pages captured | Failures | Role |
@@ -32,6 +32,9 @@
 | homebrew-races | CAPTURED | 1/1 | 0 | race_options |
 | arcanian-server-rules | CAPTURED | 1/1 | 0 | server_rules |
 | char-gen | CAPTURED | 1/1 | 0 | character_creation |
+| arcanian-monk-options | CAPTURED | 1/1 | 0 | monk_options_linked_from_character_creation |
+| s5-codebound | CAPTURED | 1/1 | 0 | paladin_codebound_option |
+| s5homebrewclericoptions | CAPTURED | 1/1 | 0 | cleric_options |
 
 ## Evidence boundary
 

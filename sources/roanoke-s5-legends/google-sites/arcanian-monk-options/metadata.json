@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "arcanian-monk-options",
+  "seed_url": "https://sites.google.com/view/arcanian-monk-options/home",
+  "role": "monk_options_linked_from_character_creation",
+  "capture_started_from": "https://sites.google.com/view/arcanian-monk-options/home",
+  "captured_at": "2026-10-04T22:06:01.184277Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/arcanian-monk-options/home",
+      "fetched_at": "2026-10-04T22:06:00.867482Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/arcanian-monk-options/home",
+      "title": "Arcanian Monk Options",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/arcanian-monk-options/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/arcanian-monk-options/pages/home.md",
+      "sha256_html": "ba9c2fce444cf1d15fc58d1a04dfabaca29d41c2a3b6b3316236f953f3cd625b",
+      "sha256_text": "a320a72e4d1cc66f9157b816ca5a132146dc441d0ddbb112df7757ebddaf9849",
+      "links_all": [
+        "https://sites.google.com/view/arcanian-monk-options/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/arcanian-monk-options/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}

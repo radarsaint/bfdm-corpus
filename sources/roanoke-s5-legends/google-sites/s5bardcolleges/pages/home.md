@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/s5bardcolleges/home
 - Final URL: https://sites.google.com/view/s5bardcolleges/home
-- Retrieved: 2026-10-04T22:03:32.562226Z
+- Retrieved: 2026-10-04T22:05:54.475666Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

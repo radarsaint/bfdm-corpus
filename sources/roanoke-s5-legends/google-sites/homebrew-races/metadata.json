@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/homebrew-races/home",
   "role": "race_options",
   "capture_started_from": "https://sites.google.com/view/homebrew-races/home",
-  "captured_at": "2026-10-04T22:03:38.733480Z",
+  "captured_at": "2026-10-04T22:06:00.201148Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/homebrew-races/home",
-      "fetched_at": "2026-10-04T22:03:38.335832Z",
+      "fetched_at": "2026-10-04T22:05:59.781390Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/homebrew-races/home",
       "title": "Homebrew Races.",
       "raw_path": "sources/roanoke-s5-legends/google-sites/homebrew-races/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/homebrew-races/pages/home.md",
-      "sha256_html": "f91c2a2f5d22f93cf62e0f90010e1210132ce3b28ec5aeb1c7e329cdd8c17938",
+      "sha256_html": "a1f85bffa7699b6116d3bf4ad44164d682bfb875d85821310e09d240b1c86e1a",
       "sha256_text": "fbe66ba1a9b51dd032f8d79a02ec03b49bee484017a38ad4a3e2c0cf6e6eb305",
       "links_all": [
         "https://sites.google.com/view/homebrew-races/home"

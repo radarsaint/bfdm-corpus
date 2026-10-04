@@ -2,12 +2,12 @@
   "schema_version": "bfdm_google_sites_harvest_report/v1",
   "project_id": "roanoke-s5-legends",
   "source_family": "season-5-google-sites",
-  "completed_at": "2026-10-04T22:03:39.479313Z",
-  "site_count": 23,
-  "sites_captured": 23,
+  "completed_at": "2026-10-04T22:06:01.980538Z",
+  "site_count": 26,
+  "sites_captured": 26,
   "sites_failed": 0,
-  "pages_attempted": 23,
-  "pages_captured": 23,
+  "pages_attempted": 26,
+  "pages_captured": 26,
   "failures": 0,
   "sites": [
     {
@@ -212,6 +212,33 @@
       "site_slug": "char-gen",
       "seed_url": "https://sites.google.com/view/char-gen/home",
       "role": "character_creation",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "arcanian-monk-options",
+      "seed_url": "https://sites.google.com/view/arcanian-monk-options/home",
+      "role": "monk_options_linked_from_character_creation",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5-codebound",
+      "seed_url": "https://sites.google.com/view/s5-codebound/home",
+      "role": "paladin_codebound_option",
+      "status": "CAPTURED",
+      "page_count_attempted": 1,
+      "page_count_captured": 1,
+      "failure_count": 0
+    },
+    {
+      "site_slug": "s5homebrewclericoptions",
+      "seed_url": "https://sites.google.com/view/s5homebrewclericoptions/home",
+      "role": "cleric_options",
       "status": "CAPTURED",
       "page_count_attempted": 1,
       "page_count_captured": 1,

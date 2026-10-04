@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/homebrew-spells/home",
   "role": "homebrew_spells",
   "capture_started_from": "https://sites.google.com/view/homebrew-spells/home",
-  "captured_at": "2026-10-04T22:03:33.225930Z",
+  "captured_at": "2026-10-04T22:05:55.183597Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/homebrew-spells/home",
-      "fetched_at": "2026-10-04T22:03:32.885720Z",
+      "fetched_at": "2026-10-04T22:05:54.845498Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/homebrew-spells/home",
       "title": "Blood Magic",
       "raw_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/homebrew-spells/pages/home.md",
-      "sha256_html": "e8c486638ecd467fb05af234e7e47e04e90c038f31605c261ed6f78fb7cac8a2",
+      "sha256_html": "7153a058c98d8a2ac169b8d3425ad479ddb4bed50f688702a6027c7ab53c97e0",
       "sha256_text": "e82be2bc285dd2f1c67729c540416b6625255629026ab32fac2d3fe161dc3ce2",
       "links_all": [
         "https://sites.google.com/view/homebrew-spells/home"

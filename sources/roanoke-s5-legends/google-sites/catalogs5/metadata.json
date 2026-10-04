@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/catalogs5/home",
   "role": "items_equipment_catalog",
   "capture_started_from": "https://sites.google.com/view/catalogs5/home",
-  "captured_at": "2026-10-04T22:03:29.973149Z",
+  "captured_at": "2026-10-04T22:05:52.951455Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/catalogs5/home",
-      "fetched_at": "2026-10-04T22:03:29.438586Z",
+      "fetched_at": "2026-10-04T22:05:52.455938Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/catalogs5/home",
       "title": "guns",
       "raw_path": "sources/roanoke-s5-legends/google-sites/catalogs5/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/catalogs5/pages/home.md",
-      "sha256_html": "0f0e832c666c70d2490eb82c20fad2a9b80d7f51f5de2d972f403e8c3b75266a",
+      "sha256_html": "9c04ca4be3b2765ff7d38a055c25ad79c27d80b16d105bff9e7c2c8f9f190c03",
       "sha256_text": "7bb4e9f4d6e30843e7d10ada84e5d5e2dcd3a150db7162a6ff7ffb753561f1d4",
       "links_all": [
         "https://sites.google.com/view/catalogs5/home"

@@ -6,7 +6,7 @@
   "seed_url": "https://sites.google.com/view/s5warlockoptions/home",
   "role": "warlock_options",
   "capture_started_from": "https://sites.google.com/view/s5warlockoptions/home",
-  "captured_at": "2026-10-04T22:03:35.052683Z",
+  "captured_at": "2026-10-04T22:05:56.979344Z",
   "status": "CAPTURED",
   "page_count_attempted": 1,
   "page_count_captured": 1,
@@ -15,13 +15,13 @@
   "pages": [
     {
       "url": "https://sites.google.com/view/s5warlockoptions/home",
-      "fetched_at": "2026-10-04T22:03:34.691128Z",
+      "fetched_at": "2026-10-04T22:05:56.540265Z",
       "http_status": 200,
       "final_url": "https://sites.google.com/view/s5warlockoptions/home",
       "title": "s5 warlock options",
       "raw_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/raw/home.html",
       "text_path": "sources/roanoke-s5-legends/google-sites/s5warlockoptions/pages/home.md",
-      "sha256_html": "8024117f8a3e67aeb736ca04c5a1849891cc2875e1a93861a3bf85eca95d3ccf",
+      "sha256_html": "8af61059ca3aeacac6a6f90f2dd59c89902b88f7af53ea522bba8375ba2b5103",
       "sha256_text": "4af8cbc26ebb7c3ab9999336eea35baa8eb2fc18113ac8b690dfb1938945579b",
       "links_all": [
         "https://sites.google.com/view/s5warlockoptions/home"

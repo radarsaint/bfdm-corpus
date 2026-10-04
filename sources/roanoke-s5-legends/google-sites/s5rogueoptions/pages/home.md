@@ -2,7 +2,7 @@
 
 - Source URL: https://sites.google.com/view/s5rogueoptions/home
 - Final URL: https://sites.google.com/view/s5rogueoptions/home
-- Retrieved: 2026-10-04T22:03:35.875036Z
+- Retrieved: 2026-10-04T22:05:57.639717Z
 - Project: roanoke-s5-legends
 - Evidence state: PUBLISHED_PLAYER_FACING_SOURCE
 

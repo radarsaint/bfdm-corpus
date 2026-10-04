@@ -1,0 +1,41 @@
+{
+  "schema_version": "bfdm_google_site_capture/v1",
+  "project_id": "roanoke-s5-legends",
+  "source_family": "season-5-google-sites",
+  "site_slug": "s5-codebound",
+  "seed_url": "https://sites.google.com/view/s5-codebound/home",
+  "role": "paladin_codebound_option",
+  "capture_started_from": "https://sites.google.com/view/s5-codebound/home",
+  "captured_at": "2026-10-04T22:06:01.519097Z",
+  "status": "CAPTURED",
+  "page_count_attempted": 1,
+  "page_count_captured": 1,
+  "failure_count": 0,
+  "page_limit": 250,
+  "pages": [
+    {
+      "url": "https://sites.google.com/view/s5-codebound/home",
+      "fetched_at": "2026-10-04T22:06:01.185113Z",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/s5-codebound/home",
+      "title": "S5 Pali Options",
+      "raw_path": "sources/roanoke-s5-legends/google-sites/s5-codebound/raw/home.html",
+      "text_path": "sources/roanoke-s5-legends/google-sites/s5-codebound/pages/home.md",
+      "sha256_html": "f927426a92d3461b93eca0da963fd5bc6a5337af15e075d8cc62a5b71daaa69f",
+      "sha256_text": "29123c127539ef8c50d9171ef3226c5355fcfddad7c7a577c7b20919e39b802d",
+      "links_all": [
+        "https://sites.google.com/view/s5-codebound/home"
+      ],
+      "links_same_site": [
+        "https://sites.google.com/view/s5-codebound/home"
+      ],
+      "google_drive_links": [],
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Snapshot covers public HTTP content reachable from the supplied Google Sites namespace at capture time.",
+    "Google Drive/Docs links exposed in page anchors are recorded but are not automatically treated as duplicate source bodies.",
+    "Publication is evidence of player-facing implementation state, not proof of live use."
+  ]
+}
