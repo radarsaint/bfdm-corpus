@@ -1,0 +1,38 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000093",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Jackalope Verbatim",
+  "source_role": "public_lore_render_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-jackalope-lore",
+  "original_filename": "The Jackalope Verbatim.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-12T01:43:34.137Z",
+  "modified_at": "2023-06-26T02:47:26.832Z",
+  "ingested_at": "2026-10-04T20:00:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke lore render source, but whole-document authorship is not explicitly established.",
+    "project_ownership_context": "Roanoke lore source with later post-S3 modification."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1M2gzmzpBIjliR1Sdmyude5SDt4SlRLSruIkgDHBP2wI",
+      "url": "https://docs.google.com/document/d/1M2gzmzpBIjliR1Sdmyude5SDt4SlRLSruIkgDHBP2wI/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED_WITH_VERSION_DRIFT_FLAG",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT"
+  },
+  "version_notes": [
+    "Document was created in 2020 but modified in 2023. Current body contains material that may post-date Roanoke S3; do not treat the current snapshot as a clean 2020 state without revision-body comparison."
+  ]
+}
