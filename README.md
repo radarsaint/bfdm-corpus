@@ -26,10 +26,25 @@ See [CORPUS_CHARTER.md](CORPUS_CHARTER.md) for the project boundary and research
 - `discord/` holds searchable SQLite harvests, one database per server. See [discord/SCHEMA.md](discord/SCHEMA.md).
 - `sources/` holds canonical human-readable non-Discord BCS source containers.
 - `context/` holds context-only BCS source containers.
-- `indexes/` holds rebuildable searchable indexes such as `documents.sqlite`.
+- `indexes/` holds rebuildable searchable indexes such as `documents.sqlite` and the readable-family snapshot `indexes/access/`.
 - `registry/` holds machine-readable project/campaign, Discord-server, person, and identity mappings.
 - `evidence/` holds the private BCS/BCE/BCR source/evidence registry and portable evidence snapshots.
 - `research/` holds derived analysis, methodology, evaluation records, and source leads. Research is not source truth.
+
+## Query the readable checkout
+
+`python -m access` searches registry rows, BCS/BCE/BCR records, Season 5 Google Sites markdown, and derived research in one JSON interface. It labels every hit with its authority and reports families it did not search.
+
+It does **not** search Discord message bodies. Those databases are Git LFS in this checkout. The message export is developed separately as `python -m retrieval.discord_search` on `ingest/discord-retrieval-v1`.
+
+```bash
+python -m access coverage
+python -m access search "Golden Dawn" --project roanoke-s3
+python -m access entity "DM radar"
+python -m access evidence BDC-S3-001
+```
+
+Commands, record fields, and the coverage rules are in [access/README.md](access/README.md).
 
 `.sqlite` databases and Discord attachment files are stored with Git LFS.
 
