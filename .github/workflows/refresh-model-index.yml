@@ -7,6 +7,8 @@ on:
     paths:
       - "discord/**/*.sqlite"
       - "scripts/export_discord_model_index.py"
+      - "scripts/sync_inventory_from_model_index.py"
+      - "registry/discord_servers.jsonl"
       - ".github/workflows/refresh-model-index.yml"
 
 permissions:
@@ -29,10 +31,12 @@ jobs:
             [ -f "$db" ] || continue
             python scripts/export_discord_model_index.py "$db"
           done
+      - name: Synchronize accessibility inventory
+        run: python scripts/sync_inventory_from_model_index.py
       - name: Commit changed projections
         run: |
           set -euo pipefail
-          git add model-index/discord
+          git add model-index/discord bfdm_inventory.jsonl
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "bfdm-corpus-indexer"
           git config user.email "actions@users.noreply.github.com"
