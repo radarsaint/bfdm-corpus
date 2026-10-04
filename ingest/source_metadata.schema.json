@@ -391,7 +391,9 @@
               "DISCUSSED_DURING",
               "ALTERED_DURING_PLAY",
               "ABANDONED_BEFORE_PLAY",
-              "OUTCOME_DOCUMENTED_IN"
+              "OUTCOME_DOCUMENTED_IN",
+              "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+              "SOURCE_VERSION_FAMILY_MEMBER"
             ]
           },
           "target_kind": {
