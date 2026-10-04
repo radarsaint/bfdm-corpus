@@ -2,7 +2,7 @@
 
 **Project:** `roanoke-s5-legends`  
 **Source family:** Google Sites player-facing / rules / homebrew publication layer  
-**Status:** discovery inventory; archival capture pending  
+**Status:** archived on ingest branch; 21/21 known sites captured successfully  
 **Recorded:** 2026-10-04
 
 ## Why this source family matters
@@ -26,22 +26,22 @@ There are 21 unique known Season 5 / Arcanian Google Sites URLs in the current i
 | S5 Mining | https://sites.google.com/view/s5mining/home | DIRECTLY_READABLE | life path / economy / mining rules |
 | Life Path Rancher | https://sites.google.com/view/lifepathrancher/home | DIRECTLY_READABLE | life path / economy |
 | Day 1 S5 | https://sites.google.com/view/day-1s5/home | DIRECTLY_READABLE | launch / player-facing day-one content |
-| S5 Bard Colleges | https://sites.google.com/view/s5bardcolleges/home | FETCH_INTERNAL_ERROR | class/subclass options |
-| Homebrew Spells | https://sites.google.com/view/homebrew-spells/home | FETCH_INTERNAL_ERROR | spells |
-| Harbinger S5 | https://sites.google.com/view/harbingers5/home | FETCH_INTERNAL_ERROR | class/subclass or character option; verify from source |
-| Spellshot Wizard | https://sites.google.com/view/spellshotwizard/home | FETCH_INTERNAL_ERROR | wizard option |
-| Life Path Gambler | https://sites.google.com/view/lifepathgambler/home | FETCH_INTERNAL_ERROR | life path / economy |
+| S5 Bard Colleges | https://sites.google.com/view/s5bardcolleges/home | CAPTURED_DIRECT_HTTP | class/subclass options |
+| Homebrew Spells | https://sites.google.com/view/homebrew-spells/home | CAPTURED_DIRECT_HTTP | spells |
+| Harbinger S5 | https://sites.google.com/view/harbingers5/home | CAPTURED_DIRECT_HTTP | class/subclass or character option; verify from source |
+| Spellshot Wizard | https://sites.google.com/view/spellshotwizard/home | CAPTURED_DIRECT_HTTP | wizard option |
+| Life Path Gambler | https://sites.google.com/view/lifepathgambler/home | CAPTURED_DIRECT_HTTP | life path / economy |
 | S5 Training | https://sites.google.com/view/s5-training/home | DIRECTLY_READABLE | training rules |
-| S5 Warlock Options | https://sites.google.com/view/s5warlockoptions/home | FETCH_INTERNAL_ERROR | warlock options |
-| Path of the Lumber Jacked | https://sites.google.com/view/path-of-the-lumber-jacked/home | FETCH_INTERNAL_ERROR | barbarian option |
-| Oath of the Drifter | https://sites.google.com/view/oath-of-the-drifter/home | FETCH_INTERNAL_ERROR | paladin option |
-| S5 Rogue Options | https://sites.google.com/view/s5rogueoptions/home | FETCH_INTERNAL_ERROR | rogue options |
-| Improvised Weapon for Enforcer | https://sites.google.com/view/improvised-weapon-for-enforcer/home | FETCH_INTERNAL_ERROR | rule / option; verify from source |
-| Arcanian Monk Options | https://sites.google.com/view/arcanianmonkoptions/home | FETCH_INTERNAL_ERROR | monk options |
+| S5 Warlock Options | https://sites.google.com/view/s5warlockoptions/home | CAPTURED_DIRECT_HTTP | warlock options |
+| Path of the Lumber Jacked | https://sites.google.com/view/path-of-the-lumber-jacked/home | CAPTURED_DIRECT_HTTP | barbarian option |
+| Oath of the Drifter | https://sites.google.com/view/oath-of-the-drifter/home | CAPTURED_DIRECT_HTTP | paladin option |
+| S5 Rogue Options | https://sites.google.com/view/s5rogueoptions/home | CAPTURED_DIRECT_HTTP | rogue options |
+| Improvised Weapon for Enforcer | https://sites.google.com/view/improvised-weapon-for-enforcer/home | CAPTURED_DIRECT_HTTP | rule / option; verify from source |
+| Arcanian Monk Options | https://sites.google.com/view/arcanianmonkoptions/home | CAPTURED_DIRECT_HTTP | monk options |
 | Arcanian House Rules | https://sites.google.com/view/arcanian-house-rules/home | DIRECTLY_READABLE | house rules |
-| Tales in Legend | https://sites.google.com/view/tales-in-legend/home | FETCH_INTERNAL_ERROR | campaign/setting material; verify from source |
+| Tales in Legend | https://sites.google.com/view/tales-in-legend/home | CAPTURED_DIRECT_HTTP | campaign/setting material; verify from source |
 | Arcanian World Lore | https://sites.google.com/view/arcanian-worldlore/home | DIRECTLY_READABLE | world lore |
-| Homebrew Races | https://sites.google.com/view/homebrew-races/home | FETCH_INTERNAL_ERROR | race options |
+| Homebrew Races | https://sites.google.com/view/homebrew-races/home | CAPTURED_DIRECT_HTTP | race options |
 
 ## Confirmed readable examples
 
@@ -52,21 +52,23 @@ The directly readable pages demonstrate that this family contains substantive me
 - `catalogs5` contains substantial player-facing equipment and magic-item/catalog content, including custom firearms, costs, properties, and special effects.
 - `arcanian-house-rules`, `s5-training`, `lifepathrancher`, `day-1s5`, and `arcanian-worldlore` are also directly retrievable as full Google Sites pages.
 
-## Retrieval caution
+## Archive result
 
-A `FETCH_INTERNAL_ERROR` result is not evidence that the site is private or absent. The supplied URLs are preserved as known source locators. Google Sites retrieval is inconsistent across pages; failed pages should be retried via direct fetch, search-engine cache/index discovery, linked-page traversal, or an owner-side export/copy method if necessary.
+The chat/web crawler was unreliable on a number of these pages, but a repository-side direct HTTP harvest succeeded on all 21 known sites.
 
-Search results from unrelated Google Sites must not be used as substitutes for these specific Season 5 pages.
+- Harvest report: `ingest/reports/2026-10-04-season5-google-sites.md`
+- Machine report: `ingest/reports/2026-10-04-season5-google-sites.json`
+- Source root: `sources/roanoke-s5-legends/google-sites/`
+- Capture: 21/21 sites, 21/21 seed pages, zero fetch failures.
+- Each site retains raw HTTP HTML, a normalized readable Markdown mirror, page-level URL/hash/retrieval metadata, outbound links, and Google Drive/Docs links exposed in page anchors.
+- The harvester is retained at `ingest/google_sites/harvest_google_sites.py` with the exact user-supplied manifest at `ingest/google_sites/season5_sites.json`.
 
-## Archival plan
+The earlier `CAPTURED_DIRECT_HTTP` classifications were artifacts of the chat crawler and are superseded by the successful direct harvest. They were not evidence that those Sites were inaccessible.
 
-1. Preserve each known URL as a stable provider locator.
-2. Capture full readable text for directly accessible pages.
-3. Enumerate navigation/subpages and embedded Google Drive files from each site.
-4. Retry failed URLs and classify the actual access failure before calling anything unavailable.
-5. Preserve page titles and update/publication metadata where exposed.
-6. Preserve images/embedded assets when practical and attributable.
-7. Deduplicate content against existing Season 5 Drive documents without collapsing the distinct publication state.
-8. Cross-link published mechanics to their Drive drafts and Season 5 dev-Discord discussions.
-9. Keep `planned`, `published`, `partially delivered`, and `observed in play` as separate evidence states.
-10. Only allocate BCS/source records after page identity, source role, and duplication relationships have been checked.
+## Remaining archival work
+
+1. Inspect exposed Drive/Docs links and deduplicate against already-ingested Season 5 Drive sources.
+2. Preserve embedded images/assets separately where they carry design evidence not recoverable from the raw HTML snapshot.
+3. Cross-link published mechanics to Drive drafts and Season 5 dev-Discord deliberation.
+4. Keep `planned`, `published`, `partially delivered`, and `observed in play` as separate evidence states.
+5. Allocate canonical source records only after source identity, role, authorship boundaries, and duplication relationships have been reviewed.
