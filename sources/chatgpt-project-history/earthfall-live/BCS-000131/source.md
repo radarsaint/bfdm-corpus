@@ -12,7 +12,7 @@ evidence_family: CONTEMPORANEOUS_DM_WORKBENCH
 
 ## Provenance
 
-This source preserves only the message excerpts exposed by the current ChatGPT Project context. It is not a complete transcript. Conversation identity is not exposed. User and assistant roles are not silently reconstructed.
+This source preserves only the message excerpts exposed by the current ChatGPT Project context. It is not a complete transcript. Conversation identity is not exposed.
 
 ## Evidence-state labels
 
@@ -26,9 +26,7 @@ This source preserves only the message excerpts exposed by the current ChatGPT P
 
 The screen spits out relevent ominous info about this
 
-Tony, 43, is a solutions architect and data analyst from St. Louis who has spent most of his life balancing analytical thinking with practical skills. An Eagle Scout growing up, Tony developed a lifelong habit of preparedness and problem solving. Over the years he trained extensively in martial arts, earning a black belt in karate as well as a black belt in a weapons-focused style that includes training with multiple melee weapons. Outside of work he enjoys gaming, fishing, shooting sports, and continuing martial arts training. Friends describe
-
-[PROJECT CONTEXT TRUNCATES THIS MESSAGE HERE]
+[PUBLIC-REPO REDACTION: the remainder of this message contains a detailed third-party personal profile. The omission is explicit; no substitute text is inferred.]
 
 ### USER
 
