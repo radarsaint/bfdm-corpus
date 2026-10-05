@@ -1,102 +1,98 @@
 # Project Map
 
-This file describes where different kinds of work currently belong.
+This file describes where current work belongs. It is project organization, not historical evidence.
 
-It is project organization, not historical corpus evidence.
-
-## `radarsaint/bfdm-corpus` — private archive and research
-
-Canonical private corpus repository.
+## `radarsaint/bfdm-corpus` — canonical corpus and research
 
 Use it for:
-- raw/private Discord harvests;
-- machine-readable campaign/project and identity registries under `registry/`;
-- normalized campaign/source material;
-- source provenance and chronology;
+- canonical Discord harvests;
+- model-facing corpus retrieval projections;
+- machine-readable project/identity/source-history registries;
+- normalized historical source containers;
+- provenance, revisions, comments, and chronology;
 - derived BFDM research;
-- Kit evaluation records that need to remain private/research-oriented;
-- cross-campaign synthesis.
+- Kit evaluation records that belong with research history;
+- cross-campaign comparison.
 
-Current research workspace:
-- branch `research/organize-current-work-v1`
-- draft PR #5
+Repository visibility may change during active work; visibility is not part of corpus authority.
+
+Current canonical branch: `main`.
+
+Current operational handoff:
+- `research/NEXT_HANDOFF.md`
+
+Current open research branch:
+- `research/phase2-decision-trajectories`
+- draft PR #28 — Phase 2 decision contrast families.
 
 ## `radarsaint/dnd-solo` — Kit product/runtime
 
 Use it for:
 - Kit runtime;
-- Dungeon of the Mad Mage source/runtime integration;
-- state, bridge, adjudication, memory, claims, procedures;
-- tests and fixtures;
+- Dungeon of the Mad Mage/runtime integration;
+- current game state, bridge, adjudication, memory, claims, procedures;
+- tests/fixtures;
 - active personality/product specifications;
 - implementation experiments.
 
-It also contains earlier public research scaffolding and historical research PRs. Those are being indexed/copied into `bfdm-corpus/research/prior-dnd-solo/` where useful.
+Historical public research scaffolding from `dnd-solo` is preserved/indexed in `bfdm-corpus/research/prior-dnd-solo/` where useful. `bfdm-corpus` is the canonical historical/research body.
 
-## Public corpus scaffold in `dnd-solo`
+## Current work boundaries
 
-Important merged lineage:
-- PR #39 — source-centric Brendon corpus index;
-- PR #40 — Exploration Impossible attribution correction;
-- PR #41 — source-container vs attributable-evidence ontology.
+### Corpus/source work
 
-Those established useful public IDs/policies without publishing the full private corpus.
+Stage 1 is substantially landed. Remaining work is bounded:
+- selective containerization from the triaged Drive backlog;
+- explicit unreadable/archive gaps;
+- missing live-contact evidence;
+- broader live-play coverage.
 
-The private `bfdm-corpus` is now the canonical body. Public scaffold IDs and provenance rules should remain compatible where possible.
+Do not redo PR #25's source-history integration.
 
-## Current human/agent work split
+### Research work
 
-### Brendon
-Provides:
-- source access/ownership context;
-- remaining Discord-server assignments;
-- direct corrections;
-- live Kit evaluation;
-- final product/design judgment.
+Stage 2 is active on draft PR #28:
+- decision trajectories;
+- contrasts;
+- restraint;
+- failures;
+- corrections;
+- boundary conditions.
 
-Do not turn him into the routine terminal/operator layer.
+Do not turn Stage 2 directly into runtime infrastructure.
 
-### Work GPT
-Current expected focus:
-- Google Drive/project ingestion;
-- searchable + human-readable source storage;
-- provenance, revisions, comments, IDs.
+### Runtime/cognition work
 
-Binding assignment and schema:
-- `INGESTION_CONTRACT.md`
-- `ingest/WORK_GPT_TASK.md`
-- `ingest/document_archive_schema.sql`
-- `ingest/source_metadata.schema.json`
-- `ingest/ingest_report.schema.json`
+Stage 3 and Stage 4 are later experimental/architectural work:
+- precedent cards and simple retrieval;
+- decision classification;
+- context assembly;
+- deferred binding;
+- attention representation;
+- only then heavier campaign cognition/memory architecture if experiments justify it.
 
-Work GPT should not improvise a competing ingestion layout.
+## Current open PRs
 
-### Grok
-Current expected focus:
-- additional Discord harvesting;
-- lower-level Kit/runtime/GitHub engineering.
+- **#28** — active draft Phase 2 research.
+- **#24** — older Drive relationship/pilot path; source bodies are not uniquely ahead of merged #25.
+- **#26** — older Drive-history path; useful candidate-ledger material was incorporated into merged #25.
 
-### Research GPT
-Current focus:
-- organize research;
-- preserve corrections;
-- identify source gaps;
-- revision-aware / cross-source analysis;
-- cross-era research once source coverage supports it.
+PR #25 is merged and is the canonical Drive-history baseline.
 
 ## Non-duplication rule
 
-Before creating a new corpus record or research artifact:
-1. check whether it already exists in legacy staging;
-2. check `bfdm-corpus`;
-3. check the relevant `dnd-solo` research/PR lineage;
-4. preserve stable IDs rather than inventing replacements.
+Before creating a new source or research artifact:
+1. check current `main`;
+2. check legacy staging/history;
+3. check the Drive candidate ledger/triage;
+4. check relevant prior research branches;
+5. preserve stable IDs and explicit uncertainty.
 
 ## Authority distinction
 
-- Source archive answers: **what exists / what happened?**
-- Evidence layer answers: **what can be attributed and reconstructed?**
-- Research layer answers: **what might it mean?**
-- Kit runtime answers: **what is true and actionable in the current game?**
+- Source archive: **what exists?**
+- Historical/evidence layer: **what can be attributed or linked?**
+- Research layer: **what might it mean?**
+- Runtime: **what is true/actionable in the current game?**
 
 No layer should silently impersonate another.
