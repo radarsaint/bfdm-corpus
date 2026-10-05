@@ -1,6 +1,6 @@
 # Research Status
 
-**Current as of:** 2026-10-04  
+**Current as of:** 2026-10-05  
 **Canonical branch:** `main`
 
 This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
