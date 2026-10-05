@@ -1,6 +1,6 @@
 # Next Handoff
 
-**Current as of:** 2026-10-04  
+**Current as of:** 2026-10-05  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
@@ -46,11 +46,13 @@ Read:
 
 The candidate pool is a classified backlog. It is not "134 unreviewed files" anymore. Significant campaign material remains for selective containerization; five candidates are explicitly unreadable/unavailable.
 
-## What remains before Stage 1 hardening is considered finished
+## Stage 1 after the 2026-10-05 consolidation
 
-Do not treat "PR #25 merged" as "the entire archive is complete."
+PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. Canonical BCS range is BCS-000001–BCS-000172.
 
-Remaining substrate work is bounded:
+The reconciled additions are research-critical historical Drive sources (BCS-000131–BCS-000151), Earthfall contemporary DM-workbench Project history (BCS-000152–BCS-000162), and Saturday D&D contemporary DM-workbench Project history (BCS-000163–BCS-000172). Earthfall and Saturday histories remain partial recoveries. Donor PRs #32, #34, and #35 are closed without merge and are not active ingestion paths.
+
+Remaining source gaps are bounded and should not block the next research stages:
 - selectively containerize high-value campaign material from the triaged Drive backlog;
 - preserve/resolve the five unreadable/404 cases without inventing content;
 - close source-family gaps where additional evidence supports a relationship;
@@ -72,6 +74,13 @@ Readiness discipline:
 
 ## Current open PRs relevant to this handoff
 
+### PR #33 — OPEN DRAFT
+
+Branch: `research/human-object-index-v0`  
+Title: **Prototype corpus-wide human-object index**
+
+The original seed is architectural. It has not been expanded across the reconciled corpus. Next GPT work can expand it across BCS-000001–BCS-000172. Do not treat the seed as a completed human-object index.
+
 ### PR #28 — OPEN DRAFT
 
 Branch: `research/phase2-decision-trajectories`  
@@ -80,7 +89,7 @@ Title: **Phase 2: decision contrast families**
 Primary artifact:
 `research/phase2/contrast-families-v1.md`
 
-Phase 2A is the live-judgment draft. Its current evidence is S3/S4. Earthfall, Bastion/Redoubt, and At War's End do not supply that live record. They are eligible for Phase 2B design-method claims now. A design claim is not evidence the material was run.
+Phase 2A is the live-judgment draft. Its current contrast families are not yet updated for the newly canonical Earthfall and Saturday D&D workbench sources. Those sources are partial recoveries and are available for a later SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE pass. That pass has not been done. Bastion/Redoubt and At War's End remain eligible for Phase 2B design-method claims. A design claim is not evidence the material was run.
 
 `zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
 

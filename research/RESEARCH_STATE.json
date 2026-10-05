@@ -1,9 +1,9 @@
 {
   "schema": "bfdm_research_state/v2",
-  "as_of": "2026-10-04",
+  "as_of": "2026-10-05",
   "canonical_repo": "radarsaint/bfdm-corpus",
   "canonical_branch": "main",
-  "program_position": "STAGE_1_TO_STAGE_2_TRANSITION",
+  "program_position": "STAGE_1_HARDENED_STAGE_2_NOT_DONE",
   "discord_retrieval": {
     "status": "COMPLETE_AND_VALIDATED",
     "canonical": "discord/<server>/<server>.sqlite",
@@ -25,7 +25,25 @@
     "triage_report": "research/drive-inventory/2026-10-03/TRIAGE_PASS_2026-10-05.md",
     "source_history_tool": "scripts/query_source_history.py",
     "week5_map": "BCS-000130",
-    "bcs_000022": "GENUINELY_BLANK_AT_SOURCE"
+    "bcs_000022": "GENUINELY_BLANK_AT_SOURCE",
+    "reconciled_source_ingest": {
+      "status": "LANDED_ON_MAIN",
+      "substrate_pr": 31,
+      "substrate_merge": "c4569a0111d47356ec3f9bcc4dde912bff1d2103",
+      "integration_pr": 36,
+      "integration_merge": "8c56d17247fad8feae0a4b465516c4f794fb6393",
+      "canonical_bcs_range": "BCS-000001-BCS-000172",
+      "historical_recovery": "BCS-000131-BCS-000151",
+      "earthfall_project_history": "BCS-000152-BCS-000162",
+      "saturday_dnd_project_history": "BCS-000163-BCS-000172",
+      "earthfall_and_saturday_recovery": "PARTIAL",
+      "document_index": "indexes/documents.sqlite",
+      "superseded_donor_prs_closed_without_merge": [
+        32,
+        34,
+        35
+      ]
+    }
   },
   "research_lanes": {
     "broad_bfdm_judgment_claims": "NOT_READY",
@@ -45,7 +63,9 @@
   "open_prs": {
     "24": "OPEN_DRAFT_OLDER_DRIVE_RELATIONSHIP_PATH_SUPERSEDED_IN_SUBSTANCE_BY_MERGED_PR25",
     "26": "OPEN_DRAFT_OLDER_DRIVE_HISTORY_PATH_USEFUL_LEDGER_MATERIAL_IN_MERGED_PR25",
-    "28": "OPEN_DRAFT_ACTIVE_PHASE2_DECISION_CONTRAST_RESEARCH"
+    "27": "OPEN_DISCORD_RETRIEVAL_MAINTENANCE_NOT_ABSORBED_BY_2026-10-05_CONSOLIDATION",
+    "28": "OPEN_DRAFT_PHASE2_DECISION_CONTRAST_RESEARCH_NOT_YET_UPDATED_FOR_EARTHFALL_SATURDAY",
+    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS"
   },
   "research_stages": {
     "stage_1": {
@@ -95,7 +115,8 @@
       "Season 5 live play",
       "Season 2 live play",
       "Earthfall live evidence sufficient for Phase 2A confirmation; this does not block Phase 2B design-method claims",
-      "many source families lack bounded prep-to-live links"
+      "many source families lack bounded prep-to-live links",
+      "Earthfall and Saturday D&D Project histories are partial recoveries, not complete transcripts"
     ],
     "archive": [
       "five triaged Drive candidates unreadable/unavailable",
@@ -118,5 +139,10 @@
     "open PR != canonical main"
   ],
   "current_handoff": "research/NEXT_HANDOFF.md",
-  "superseded_handoff": "research/HANDOFF_AND_BACKLOG.md"
+  "superseded_handoff": "research/HANDOFF_AND_BACKLOG.md",
+  "closed_superseded_prs": {
+    "32": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
+    "34": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
+    "35": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36"
+  }
 }

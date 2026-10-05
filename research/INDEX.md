@@ -33,7 +33,7 @@ Status: landed and validated on `main`.
 - `scripts/query_source_history.py` — source-family/history traversal.
 - [legacy-staging/README.md](legacy-staging/README.md) and [legacy-staging/manifest.all.jsonl](legacy-staging/manifest.all.jsonl) — staging provenance/history, no longer the current migration blocker.
 
-Status: PR #25 is merged. Stage 1 is substantially landed but not exhaustive; candidate admission, unreadable sources, missing live evidence, and broader live coverage remain.
+Status: PR #25, PR #31, and PR #36 are merged. Canonical containers run through BCS-000172, including historical Drive recovery and partial Earthfall/Saturday DM-workbench histories. Stage 1 is substantially broader and hardened, not exhaustive. Unreadable candidates, missing live evidence, and broader live coverage remain. Donor PRs #32, #34, and #35 are closed without merge.
 
 ## Stage 2 — Reconstruct expert judgment
 
@@ -47,7 +47,7 @@ Phase 2 has two lanes. The contrast files are on draft PR #28 until it merges. N
 
 Broad BFDM judgment claims are `NOT_READY`. Bounded S3/S4 live-judgment work is `READY_WITH_SCOPE_LIMITS`. Creative-method research is `READY_WITH_SOURCE_LIMITS`.
 
-Substrate queries on this branch, once merged:
+Substrate queries on main:
 - `scripts/query_source_history.py`
 - `scripts/query_source_family.py`
 - `scripts/query_project_history.py`

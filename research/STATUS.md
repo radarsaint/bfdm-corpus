@@ -48,6 +48,18 @@ Landed work includes:
 - Week 5 map `BCS-000130`;
 - explicit recognition that `BCS-000022` is blank at the source rather than a failed extraction.
 
+### Reconciled source corpus (2026-10-05)
+
+PR #31 and PR #36 are merged. Canonical source containers now run through `BCS-000172`.
+
+Landed additions:
+- research-critical historical Drive sources, `BCS-000131`–`BCS-000151`;
+- Earthfall contemporary DM-workbench Project history, `BCS-000152`–`BCS-000162`, partial recovery, same Earthfall project;
+- Saturday D&D contemporary DM-workbench Project history, `BCS-000163`–`BCS-000172`, partial recovery, separate project.
+
+Donor PRs #32, #34, and #35 were closed without merge. Their provisional numbering must not be reintroduced. #36 is the canonical integration path. Combined `indexes/documents.sqlite` is the rebuilt non-Discord index.
+
+
 Primary current source-history/readiness files:
 - `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`;
 - `research/drive-inventory/2026-10-03/TRIAGE_PASS_2026-10-05.md`;
@@ -67,7 +79,7 @@ The Drive candidate pool is no longer "134 unreviewed candidates."
 
 Every candidate in the preserved 2026-10-03 ledger received a first-pass open attempt or a documented read failure. The result is a classified backlog, not admitted sources.
 
-High-value campaign material remains for selective later containerization, including Ferrytown, Hampstead, Pigeon Lord, Mirabelle, Daysong, Rowing Oak, Arcanian material, and other items named in the triage report.
+The research-critical names from that triage pass — Ferrytown, Hampstead, Pigeon Lord, Mirabelle, Daysong, Rowing Oak, and the Arcanian almanac/lore — are now containers in BCS-000131–BCS-000151. Other triaged candidates remain a classified backlog, not admitted sources.
 
 Five candidates remain unreadable/unavailable for documented reasons:
 - three Drive 404s;
@@ -113,6 +125,12 @@ Three research scopes, which are not the same word "ready":
 - Creative-method / worldbuilding research: `READY_WITH_SOURCE_LIMITS`. Design artifacts may support design claims. They are not evidence of live implementation.
 
 A Discord phrase search that returns zero, with `zero_match_means_absence`, establishes that the phrase is absent from the exhaustively searched Discord projection. It does not establish that a Drive document does not exist. The Season 4 Master Timeline was posted as a bare URL. The title is not in the message text.
+
+## OPEN PR — next research drafts
+
+PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Expansion across BCS-000131–BCS-000172 has not been done.
+
+PR #28 (`research/phase2-decision-trajectories`) is the Phase 2 contrast-family draft. Earthfall and Saturday D&D workbench sources are now on main for a later cross-format pass. That pass has not been done.
 
 ## OPEN PR — older Drive branches
 

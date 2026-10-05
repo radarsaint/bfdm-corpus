@@ -46,9 +46,9 @@ It preserves and makes researchable:
 
 ## Current program position
 
-Stage 1 source accessibility/integration is substantially landed on `main`: model-facing Discord retrieval works, the historical Drive/source-container integration from PR #25 is merged, and remaining Drive candidates are a classified backlog rather than an unreviewed blob.
+Stage 1 source accessibility/integration is substantially broader and hardened on `main`: model-facing Discord retrieval works, PR #25, PR #31, and PR #36 are merged, and canonical source containers run through BCS-000172. The reconciled additions include research-critical historical Drive sources plus partial Earthfall and Saturday D&D DM-workbench Project histories. Remaining Drive candidates are a classified backlog. Donor PRs #32, #34, and #35 are closed without merge.
 
-Stage 2 has two lanes. Phase 2A, live judgment, is the open draft PR #28 and needs live-decision evidence. Phase 2B, creative method and worldbuilding, may use design artifacts without treating them as proof the material was run. No Phase 2B result set has landed. Broad judgment claims are not ready.
+Stage 2 has two lanes and neither is complete. Phase 2A, live judgment, is the open draft PR #28. The next cross-format pass can use the newly canonical Earthfall and Saturday D&D workbench sources; that pass has not been done. Phase 2B, creative method and worldbuilding, may use design artifacts without treating them as proof the material was run. No Phase 2B result set has landed. The human-object index draft is PR #33 and has not been expanded across the reconciled corpus. Broad judgment claims are not ready.
 
 Stage 3 precedent cards/runtime retrieval and Stage 4 cognitive architecture are intentionally later work. Do not skip ahead merely because the source substrate is now much stronger.
 
