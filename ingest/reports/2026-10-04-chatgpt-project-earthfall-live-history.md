@@ -34,3 +34,14 @@ Existing Earthfall canonical sources referenced: BCS-000054, BCS-000055
 ## Research-layer restraint
 
 No BCE records, personality conclusions, decision principles, precedent cards, or Phase 2 claims were created.
+
+## Batch 2
+
+Ingested:
+- BCS-000134 — Build Earthfall App
+- BCS-000135 — Build Fryvern Fight
+- BCS-000136 — Dnd Arcade Consumables
+
+This batch preserves the implementation/art workflow, Fryvern encounter-development corrections, explicit abandonment of the in-thread Fryvern art direction, Starcade power-up telegraphing, safe-room prep, and arcade consumable work.
+
+Conversation-source count now ingested: 6.
