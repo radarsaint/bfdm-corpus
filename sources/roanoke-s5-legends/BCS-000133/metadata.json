@@ -85,11 +85,6 @@
         "question": "live_use",
         "status": "NOT_ESTABLISHED",
         "basis": "Guidance is not observed table practice."
-      },
-      {
-        "question": "referenced_sources_absent",
-        "status": "ARCHIVE_GAP",
-        "basis": "Hyperlinks not yet containers: Arcanian Lore 1_LOJIQ1fXy9CUw4NxwvMVff3u2SXPx8LkrZ4QLTjhM4 and Character Creation 1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8."
       }
     ]
   },
@@ -104,6 +99,30 @@
         "BCS-000133",
         "BCS-000134",
         "drive:19q9mnafswYmNIUK3DK57O2MPqtSl78M4UcJSfBZfhA8"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000144",
+      "confidence": "CONFIRMED",
+      "basis": "The guide's Lore hyperlink is this Drive id.",
+      "support_refs": [
+        "BCS-000133",
+        "BCS-000144",
+        "drive:1_LOJIQ1fXy9CUw4NxwvMVff3u2SXPx8LkrZ4QLTjhM4"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000145",
+      "confidence": "CONFIRMED",
+      "basis": "The guide's Character Creation hyperlink is this Drive id.",
+      "support_refs": [
+        "BCS-000133",
+        "BCS-000145",
+        "drive:1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8"
       ]
     }
   ]

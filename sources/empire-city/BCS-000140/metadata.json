@@ -1,0 +1,110 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000140",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Ferrytown Main Event Schedule",
+  "source_role": "operations_schedule",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s4-ferrytown-schedule",
+  "original_filename": "Ferrytown Main Event Schedule",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2020-08-27T22:45:52.271Z",
+    "modified": "2020-09-27T09:51:29.647Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner is Brendon Faulkner. The schedule does not sign an author.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "134nblLb3PbfnnWj72rFstSzA17X39dOKapaFn6s3IEM",
+      "url": "https://docs.google.com/document/d/134nblLb3PbfnnWj72rFstSzA17X39dOKapaFn6s3IEM/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000140/original/source.docx",
+      "sha256": "5e02df488f08f65c6240d61ec68326ee80b241261e57283c2a7fb0c968f7217d",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9595
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000140/source.md",
+      "sha256": "0b37e93d0756601e909e27bc2bbf434912b4577c10fa16b7a159b821c3fb28ab",
+      "mime_type": "text/markdown",
+      "size_bytes": 4744
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The days and week titles match the S4 Master Timeline: July 10, The Tax, The Redcoats are coming, Ferrytown. This file does not say Season 4, and it was last modified in September 2020 while the timeline file was still modified in August 2021.",
+        "support_refs": [
+          "BCS-000140",
+          "BCS-000131"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "Day-by-day Ferrytown main events with NPCs. A schedule is not a record the event was run.",
+        "support_refs": [
+          "BCS-000140"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Planned main events are not observed play."
+      },
+      {
+        "question": "same_text_as_the_2021_timeline",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This file stopped changing in September 2020. The master timeline file was modified again in August 2021."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000131",
+      "confidence": "STRONG",
+      "basis": "Same borough dates and the same week titles as the master timeline. Not a claim that one file revised the other.",
+      "support_refs": [
+        "BCS-000140",
+        "BCS-000131"
+      ]
+    }
+  ]
+}
