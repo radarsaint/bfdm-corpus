@@ -60,6 +60,17 @@
         "BCS-000140",
         "BCS-000141"
       ]
+    },
+    {
+      "batch": 4,
+      "new_bcs": [],
+      "artifacts": [
+        "recovery-fragments.md",
+        "recovery-fragments.json",
+        "registry/projects.jsonl"
+      ]
     }
-  ]
+  ],
+  "older_recovery_fragments": 9,
+  "registry_updated": true
 }
