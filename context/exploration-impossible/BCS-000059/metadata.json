@@ -1,0 +1,91 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000059",
+  "project": "Exploration Impossible",
+  "project_slug": "exploration-impossible",
+  "title": "Exploration Impossible (Manuscript)",
+  "source_role": "CONTEXT_ONLY_THIRD_PARTY",
+  "source_kind": "google_drive_native",
+  "document_family_id": null,
+  "original_filename": null,
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "OTHER_AUTHOR",
+    "basis": "Third-party manuscript by Michael Kennish retained only to contextualize Brendon editorial evidence."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1t4xOCSj7E6WlEDNyHuBrsBkqwui0IRgMIzTaUCqOy_g",
+      "url": "https://docs.google.com/document/d/1t4xOCSj7E6WlEDNyHuBrsBkqwui0IRgMIzTaUCqOy_g/edit"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "context/exploration-impossible/BCS-000059/source.md",
+      "sha256": "43d0dab96437adf2799e6118b08e905639b38f53829f748793db316719cb6bcd",
+      "size_bytes": 73428
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "context/exploration-impossible/BCS-000059/original/source.docx",
+      "sha256": "711afb388f97a47719fcc11c2f97e2551297b14705f154751b993ce4d835154d",
+      "size_bytes": 49859
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "context/exploration-impossible/BCS-000059/comments.json",
+      "sha256": "a59c5fde13a1d4e774a4fd66080e8a3ef7bd29a85c71a83c6e522a0d8e9562a0",
+      "size_bytes": 26818
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Exploration Impossible",
+    "title": "Exploration Impossible (Manuscript)",
+    "source_role": "CONTEXT_ONLY_THIRD_PARTY",
+    "authorship": "Michael Kennish",
+    "drive_id": "1t4xOCSj7E6WlEDNyHuBrsBkqwui0IRgMIzTaUCqOy_g",
+    "original_stored_as": "original/source.docx",
+    "original_sha256": "711afb388f97a47719fcc11c2f97e2551297b14705f154751b993ce4d835154d",
+    "normalized_file": "source.md",
+    "normalized_sha256": "43d0dab96437adf2799e6118b08e905639b38f53829f748793db316719cb6bcd",
+    "normalized_line_count": 963,
+    "assets": [],
+    "comments_file": "comments.json",
+    "seed_eligibility": "CONTEXT_ONLY",
+    "provenance_note": "Third-party manuscript by Michael Kennish retained only to contextualize Brendon editorial evidence."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "exploration-impossible",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The container is the Exploration Impossible manuscript, preserved as third-party context.",
+        "support_refs": [
+          "BCS-000059"
+        ]
+      }
+    ],
+    "production_stages": []
+  }
+}

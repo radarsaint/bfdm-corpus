@@ -54,5 +54,29 @@
     "assets": "PAGE_HTML_CAPTURED; EMBEDDED_BINARY_ASSETS_NOT_SYSTEMATICALLY_ARCHIVED"
   },
   "capture_metadata_path": "sources/roanoke-s5-legends/google-sites/harbingers5/capture.json",
-  "source_links": []
+  "source_links": [],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The container is a captured public Google Site in the Season 5 / Legends harvest.",
+        "support_refs": [
+          "BCS-000094",
+          "registry:roanoke-s5-legends"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The container preserves a published Google Site page. Publication is not evidence the page was used in live play.",
+        "support_refs": [
+          "BCS-000094"
+        ]
+      }
+    ]
+  }
 }

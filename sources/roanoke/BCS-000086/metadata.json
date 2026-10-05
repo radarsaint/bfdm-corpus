@@ -1,0 +1,142 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000086",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "S3 Uru/Wudgie Lore.",
+  "source_role": "faction_lore_design",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-uru-halfwudgie",
+  "original_filename": "S3 Uru Wudgie Lore.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-15T07:47:30.182Z",
+  "modified_at": "2020-08-03T02:11:08.774Z",
+  "ingested_at": "2026-10-04T19:15:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 faction/lore source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 Uru and Halfwudgie design."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000086/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000086/source.md",
+      "sha256": "b9617c0494c26f83972cdca14c894b6f2d1adcb1b663e0f16956ebb94364de4c",
+      "size_bytes": 3636
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000086/original/source.docx",
+      "sha256": "fc7ed0d08c14e5b064238272aa2ec2cfa8b0923365d1f39d08e1a8ca869bd847",
+      "size_bytes": 8949
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000086/revisions.jsonl",
+      "sha256": "7ab3c7a13ae5674e852759c5826311e1216a0846b42418c791e9bf271265b30b",
+      "size_bytes": 2018
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "S3 Uru/Wudgie Lore.",
+    "source_role": "faction_lore_design",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-uru-halfwudgie",
+    "original_filename": "S3 Uru Wudgie Lore.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-04-15T07:47:30.182Z",
+    "modified_at": "2020-08-03T02:11:08.774Z",
+    "ingested_at": "2026-10-04T19:15:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 faction/lore source; whole-document authorship is not established.",
+      "project_ownership_context": "Roanoke Season 3 Uru and Halfwudgie design."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1oLsfcQKG8MDA6pKsPbiSEoXP5qm_raAt58xY1Ytj3Ns",
+        "url": "https://docs.google.com/document/d/1oLsfcQKG8MDA6pKsPbiSEoXP5qm_raAt58xY1Ytj3Ns/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is S3 Uru/Wudgie Lore.",
+        "support_refs": [
+          "BCS-000086"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The body is faction lore for the Uru and Halfwudgies, written as design material.",
+        "support_refs": [
+          "BCS-000086"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "BCS-000119 is the Halfwudgie verbatim player-facing render of the same Uru/Halfwudgie material.",
+      "support_refs": [
+        "BCS-000086",
+        "BCS-000119"
+      ],
+      "to_corpus_id": "BCS-000119"
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "BCS-000120 is the Urucokra verbatim render paired with this S3 Uru/Halfwudgie lore.",
+      "support_refs": [
+        "BCS-000086",
+        "BCS-000120"
+      ],
+      "to_corpus_id": "BCS-000120"
+    }
+  ]
+}

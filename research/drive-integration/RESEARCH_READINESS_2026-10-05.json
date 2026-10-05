@@ -1,0 +1,1639 @@
+[
+  {
+    "corpus_id": "BCS-000001",
+    "title": "Crafting in Empire City",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-crafting",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000002",
+    "title": "Draft to do list",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000003",
+    "title": "Empire City Backlog Notes",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000004",
+    "title": "Empire City Into Video",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000005",
+    "title": "Empire City Post 7-10",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000006",
+    "title": "Empire City Post 7-11",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000007",
+    "title": "Empire City Post 7-12",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000008",
+    "title": "Empire City Post 7-13",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000009",
+    "title": "Empire City Post 7-16",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000010",
+    "title": "Empire City Post 7-17",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000011",
+    "title": "Empire City Post 7-19",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000012",
+    "title": "Empire City Post 7-21",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000013",
+    "title": "Empire City Post 7-22",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000014",
+    "title": "Empire City Post 7-23",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000015",
+    "title": "Empire City Post 7-24",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-post",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000016",
+    "title": "Empire City RP Sign Up. (Responses)",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000017",
+    "title": "Leaf and Rockman's Roanoke Epilogue.docx",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "document_family_id": null,
+    "status": "ARCHIVED_ONLY",
+    "stages": [],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000018",
+    "title": "Roanoke 3 Master Schedule.xlsx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000019",
+    "title": "Roanoke city directory..docx",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "document_family_id": null,
+    "status": "ARCHIVED_ONLY",
+    "stages": [],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000020",
+    "title": "Roanoke Crafting.docx",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "document_family_id": "roanoke-crafting-system",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [],
+    "readable_body": true,
+    "placement_gap": "exact season not established; kept in roanoke-crafting-system without a project link"
+  },
+  {
+    "corpus_id": "BCS-000021",
+    "title": "Roanoke FAQ.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-player-faq",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000022",
+    "title": "Roanoke Island Beastiary.docx",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "document_family_id": null,
+    "status": "ARCHIVED_ONLY",
+    "stages": [],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000023",
+    "title": "Roanoke Lore: Chinnokin Prophesy.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000024",
+    "title": "Roanoke S2.docx",
+    "project": "Roanoke Season 2",
+    "project_slug": "roanoke-s2",
+    "document_family_id": "roanoke-s2-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000025",
+    "title": "Roanoke S3 Lookout hill lodestone..docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-encounters",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000026",
+    "title": "Roanoke S3 Main Map.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-cartography",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000027",
+    "title": "Roanoke S3 Secret Society Lore.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000028",
+    "title": "Roanoke S3 Social Media.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000029",
+    "title": "Roanoke S3 v2 W2 Breakdown.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000030",
+    "title": "Roanoke S3W1 Set List..docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000031",
+    "title": "Roanoke S3W2 Passdown.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000032",
+    "title": "Roanoke S3W2 Set List.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000033",
+    "title": "Roanoke S3W3 Cast.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000034",
+    "title": "Roanoke S3W3 Passdown.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000035",
+    "title": "Roanoke S3W3 Set List.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000036",
+    "title": "Roanoke S3W3 Voice Event Draft.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000037",
+    "title": "Roanoke s3w4 Break down.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000038",
+    "title": "Roanoke S3W4 Passdown.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000039",
+    "title": "Roanoke S3W4 Set List.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000040",
+    "title": "Roanoke S3W5 Passdown.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000041",
+    "title": "ROANOKE S:3 2.0.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-campaign-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000042",
+    "title": "Roanoke Season 2.docx",
+    "project": "Roanoke Season 2",
+    "project_slug": "roanoke-s2",
+    "document_family_id": "roanoke-s2-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000043",
+    "title": "Roanoke season 3 Brainstorming.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-campaign-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "BRAINSTORMING"
+    ],
+    "link_types": [
+      "PREDECESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000044",
+    "title": "Roanoke Season 3 Lore.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO",
+      "COMPANION_TO",
+      "COMPANION_TO",
+      "COMPANION_TO",
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000045",
+    "title": "Roanoke Season 3 Rough Draft.txt",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-campaign-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "PREDECESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000046",
+    "title": "Roanoke Season3 Change Log.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-campaign-manuscript",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "REVISES"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000047",
+    "title": "Roanoke Song.docx",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "document_family_id": null,
+    "status": "ARCHIVED_ONLY",
+    "stages": [],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000048",
+    "title": "RoanokeS3 doc V2 W1.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000049",
+    "title": "RoanokeS3W1 Cast.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000050",
+    "title": "RoanokeS3W1 Passdown..docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000051",
+    "title": "RoanokeS3W2 Cast.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000052",
+    "title": "RoanokeS3W3 Breakdown.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000053",
+    "title": "RoanokeS3W5 Break Down.docx",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000054",
+    "title": "earthfall",
+    "project": "Earthfall",
+    "project_slug": "earthfall",
+    "document_family_id": "earthfall-rod",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000055",
+    "title": "Rod script",
+    "project": "Earthfall",
+    "project_slug": "earthfall",
+    "document_family_id": "earthfall-rod",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000056",
+    "title": "Bastion and Redoubt full script",
+    "project": "Bastion and Redoubt",
+    "project_slug": "bastion-redoubt",
+    "document_family_id": "bastion-redoubt-campaign",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000057",
+    "title": "Bastion and Redoubt introduction",
+    "project": "Bastion and Redoubt",
+    "project_slug": "bastion-redoubt",
+    "document_family_id": "bastion-redoubt-campaign",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000058",
+    "title": "BaR Character creation",
+    "project": "Bastion and Redoubt",
+    "project_slug": "bastion-redoubt",
+    "document_family_id": "bastion-redoubt-campaign",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000059",
+    "title": "Exploration Impossible (Manuscript)",
+    "project": "Exploration Impossible",
+    "project_slug": "exploration-impossible",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000060",
+    "title": "first draft at wars end",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000061",
+    "title": "Second draft at wars end",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000062",
+    "title": "third draft",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000063",
+    "title": "At War's End draft 5",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [
+      "SUCCESSOR_OF"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000064",
+    "title": "At wars end. Outline",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000065",
+    "title": "at wars end outline",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-manuscript",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000066",
+    "title": "Wellsprings in At War's End",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-wellsprings",
+    "status": "FAMILY_LINKED",
+    "stages": [],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000067",
+    "title": "at wars end prompt crafting",
+    "project": "At War's End",
+    "project_slug": "at-wars-end",
+    "document_family_id": "at-wars-end-writing-process",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000069",
+    "title": "Season 3 Directory",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000070",
+    "title": "Master Timeline",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-campaign-structure",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000071",
+    "title": "Mod Directory",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-live-operations",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "CAMPAIGN_OPERATIONS"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000072",
+    "title": "Season 4 Directory ",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-planning",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000073",
+    "title": "Airship Qualification Module",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-airship",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "IMPLEMENTED_IN"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000074",
+    "title": "Boss Monsters",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-encounters",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000075",
+    "title": "The Red Coats",
+    "project": "Roanoke Season 4 / Empire City",
+    "project_slug": "roanoke-s4",
+    "document_family_id": "empire-city-public-lore",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [
+      "DERIVED_FROM"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000076",
+    "title": "Public Lore Document.",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000077",
+    "title": "Crafting with Class (Dev Doc)",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-crafting-system",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "PREPRODUCTION",
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "DEV_PUBLIC_PAIR"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000078",
+    "title": "Crafting with Class (Public Doc)",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-crafting-system",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [
+      "IMPLEMENTED_IN"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000079",
+    "title": "Brendon's copy of crafting.",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-crafting-system",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION",
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000080",
+    "title": "Crafting, another attempt",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "document_family_id": "roanoke-crafting-system",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "PREDECESSOR_OF"
+    ],
+    "readable_body": true,
+    "placement_gap": "exact season not established; kept in roanoke-crafting-system without a project link"
+  },
+  {
+    "corpus_id": "BCS-000081",
+    "title": "Map Key",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-cartography",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000082",
+    "title": "Cryptid Beastiary",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-bestiary",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000083",
+    "title": "Cryptid Bestiary",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-bestiary",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000084",
+    "title": "Complete Manuscript.",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-master-material",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000085",
+    "title": "Player backgrounds",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-player-backgrounds",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000086",
+    "title": "S3 Uru/Wudgie Lore.",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-uru-halfwudgie",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO",
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000087",
+    "title": "guns",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000088",
+    "title": "s5 backgrounds",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000089",
+    "title": "Mining",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000090",
+    "title": "Life Path, Rancher",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000091",
+    "title": "DAY 1",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000092",
+    "title": "s5 bard colleges",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000093",
+    "title": "Blood Magic",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000094",
+    "title": "Harbingers5",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000095",
+    "title": "Spellshot Wizard.",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000096",
+    "title": "Life Path, Gambler",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000097",
+    "title": "s5 training",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000098",
+    "title": "s5 warlock options",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000099",
+    "title": "Path of the Lumber Jacked",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000100",
+    "title": "Home",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000101",
+    "title": "S5 rogue options.",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000102",
+    "title": "Improvised weapon for enforcers s5",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000103",
+    "title": "Arcanian Monk Options",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": "roanoke-s5-way-of-gun-fu",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [
+      "SOURCE_VERSION_FAMILY_MEMBER"
+    ],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000104",
+    "title": "House rules",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000105",
+    "title": "Tales in Legend.",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000106",
+    "title": "World Lore",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000107",
+    "title": "Homebrew Races.",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000108",
+    "title": "server rules.",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000109",
+    "title": "Char-gen",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000110",
+    "title": "Arcanian Monk Options",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": "roanoke-s5-way-of-gun-fu",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [
+      "SOURCE_VERSION_FAMILY_MEMBER"
+    ],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000111",
+    "title": "S5 Pali Options",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000112",
+    "title": "S5 Homebrew Cleric options.",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": null,
+    "status": "PLACED",
+    "stages": [
+      "PUBLIC_PLAYER_FACING_PUBLICATION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000113",
+    "title": "S5 Site Changelog / To Change",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": "roanoke-s5-google-sites-revision-process",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "REVISES",
+      "REVISES",
+      "REVISES",
+      "REVISES",
+      "REVISES"
+    ],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000114",
+    "title": "Subclass - Monk - The Way of Gun Fu - The Homebrewery.pdf",
+    "project": "Roanoke Season 5 / Legends",
+    "project_slug": "roanoke-s5-legends",
+    "document_family_id": "roanoke-s5-way-of-gun-fu",
+    "status": "CROSS_MEDIUM_LINKED",
+    "stages": [
+      "SYSTEM_DEVELOPMENT"
+    ],
+    "link_types": [
+      "SOURCE_VERSION_FAMILY_MEMBER",
+      "PUBLISHED_AS"
+    ],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000115",
+    "title": "Timeline disambiguation",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-campaign-structure",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000116",
+    "title": "RS3 Public docs copy editing.",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-public-docs",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000117",
+    "title": "Island games draft",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-island-games",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [
+      "COMPANION_TO"
+    ],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000118",
+    "title": "Golden Dawn quest arc",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-golden-dawn",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": false
+  },
+  {
+    "corpus_id": "BCS-000119",
+    "title": "The Halfwudgie Verbatim",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-halwudgie-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000120",
+    "title": "The Urucokra Verbatim",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-uru-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  },
+  {
+    "corpus_id": "BCS-000121",
+    "title": "The Jackalope Verbatim",
+    "project": "Roanoke Season 3",
+    "project_slug": "roanoke-s3",
+    "document_family_id": "roanoke-s3-jackalope-lore",
+    "status": "FAMILY_LINKED",
+    "stages": [
+      "PREPRODUCTION"
+    ],
+    "link_types": [],
+    "readable_body": true
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000083",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Cryptid Bestiary",
+  "source_role": "bestiary_index",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-bestiary",
+  "original_filename": "Cryptid Bestiary.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-13T10:34:24.266Z",
+  "modified_at": "2020-06-19T07:30:39.622Z",
+  "ingested_at": "2026-10-04T18:55:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 bestiary/index source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 bestiary development."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000083/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000083/source.md",
+      "sha256": "0ade240805c4d576d715bdc7ab0a1421383b8744a47fe7e85073cccb75d46cc5",
+      "size_bytes": 509
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000083/original/source.docx",
+      "sha256": "d48831ab91cf4cedb5c92672f1a23974ada43a6ad5882e6280bf8eaaa716a019",
+      "size_bytes": 252210
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000083/revisions.jsonl",
+      "sha256": "eef42950dc278192f6fe114874a6d1556a5174c7091c8cce5efb4017a15ebad2",
+      "size_bytes": 5061
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "Cryptid Bestiary",
+    "source_role": "bestiary_index",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-bestiary",
+    "original_filename": "Cryptid Bestiary.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-05-13T10:34:24.266Z",
+    "modified_at": "2020-06-19T07:30:39.622Z",
+    "ingested_at": "2026-10-04T18:55:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 bestiary/index source; whole-document authorship is not established.",
+      "project_ownership_context": "Roanoke Season 3 bestiary development."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "161xINCE7BZ_RPvoVgJpBQYhTtLdKnpmZGsiCTYiIRh0",
+        "url": "https://docs.google.com/document/d/161xINCE7BZ_RPvoVgJpBQYhTtLdKnpmZGsiCTYiIRh0/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "It is the index half of the Season 3 cryptid bestiary family whose writing guide uses the Season 3 week ladder.",
+        "support_refs": [
+          "BCS-000083",
+          "BCS-000082"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is an encounter index of named cryptids, not a record of which were used in play.",
+        "support_refs": [
+          "BCS-000083"
+        ]
+      }
+    ]
+  }
+}

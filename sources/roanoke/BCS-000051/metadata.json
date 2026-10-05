@@ -1,0 +1,98 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000051",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "RoanokeS3W2 Cast.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-live-operations",
+  "original_filename": "RoanokeS3W2 Cast.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000051/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000051/source.md",
+      "sha256": "c68b7626689e7a340b50f36fbf20a3fc44f726f1282d6ac4646b6b472c2329f7",
+      "size_bytes": 5822
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000051/original/source.docx",
+      "sha256": "ac474f4e0519aba0c8e64498d655503f36deb22361da8857fea0805aa414d786",
+      "size_bytes": 320134
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000051/comments.json",
+      "sha256": "1151200343edc10a75f5a6e31d7977af456b73dab79e0a8d444215ca38584fa3",
+      "size_bytes": 114
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "RoanokeS3W2 Cast.docx",
+    "original_filename": "RoanokeS3W2 Cast.docx",
+    "original_sha256": "ac474f4e0519aba0c8e64498d655503f36deb22361da8857fea0805aa414d786",
+    "normalized_file": "source.md",
+    "normalized_sha256": "c68b7626689e7a340b50f36fbf20a3fc44f726f1282d6ac4646b6b472c2329f7",
+    "normalized_line_count": 120,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is RoanokeS3W2 Cast.",
+        "support_refs": [
+          "BCS-000051"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The document is a schedule, set list, cast list, passdown, breakdown, directory, or social plan for running Season 3 weeks. It is not treated as proof of what players did.",
+        "support_refs": [
+          "BCS-000051"
+        ]
+      }
+    ]
+  }
+}

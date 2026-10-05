@@ -1,0 +1,103 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000037",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke s3w4 Break down.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-live-operations",
+  "original_filename": "Roanoke s3w4 Break down.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000037/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000037/source.md",
+      "sha256": "f094eea0bcc88710127093ae8519cb08496364a4de1bcbd2f2ce096c43b67e1e",
+      "size_bytes": 15195
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000037/original/source.docx",
+      "sha256": "c57823b3abcb26e1434404d7e10da773cdcfd9bd61d260413e815ea27acd1078",
+      "size_bytes": 698325
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000037/comments.json",
+      "sha256": "cae5e3364abbdaca6367a4f486c36ad20ed31a2ae9e373c1964ec16ab7969200",
+      "size_bytes": 686
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "LISTED_IN_DONOR_METADATA"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke s3w4 Break down.docx",
+    "original_filename": "Roanoke s3w4 Break down.docx",
+    "original_sha256": "c57823b3abcb26e1434404d7e10da773cdcfd9bd61d260413e815ea27acd1078",
+    "normalized_file": "source.md",
+    "normalized_sha256": "f094eea0bcc88710127093ae8519cb08496364a4de1bcbd2f2ce096c43b67e1e",
+    "normalized_line_count": 443,
+    "assets": [
+      "assets/media/image1.jpg",
+      "assets/media/image2.jpg",
+      "assets/media/image3.jpg",
+      "assets/media/image4.png"
+    ],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": "brendon-comments.native.json",
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body is headed RoanokeS3 doc v2.1 Week four.",
+        "support_refs": [
+          "BCS-000037"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The document is a schedule, set list, cast list, passdown, breakdown, directory, or social plan for running Season 3 weeks. It is not treated as proof of what players did.",
+        "support_refs": [
+          "BCS-000037"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000029",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke S3 v2 W2 Breakdown.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-live-operations",
+  "original_filename": "Roanoke S3 v2 W2 Breakdown.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000029/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000029/source.md",
+      "sha256": "0da489108c38f60df2bc1153ee000e6a492cf59f3c95ba495e0ccab388c1d06d",
+      "size_bytes": 38330
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000029/original/source.docx",
+      "sha256": "43ef5115d80ffb64f44a4c6a01e7ac5e284bd8671a0468cb90ebe9cf8761c27f",
+      "size_bytes": 7222895
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000029/comments.json",
+      "sha256": "53f82267e4e3a7851e2c879397de1afd9294c12badc5a4e0358658d0bf39c8a7",
+      "size_bytes": 7557
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "LISTED_IN_DONOR_METADATA"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke S3 v2 W2 Breakdown.docx",
+    "original_filename": "Roanoke S3 v2 W2 Breakdown.docx",
+    "original_sha256": "43ef5115d80ffb64f44a4c6a01e7ac5e284bd8671a0468cb90ebe9cf8761c27f",
+    "normalized_file": "source.md",
+    "normalized_sha256": "0da489108c38f60df2bc1153ee000e6a492cf59f3c95ba495e0ccab388c1d06d",
+    "normalized_line_count": 752,
+    "assets": [
+      "assets/media/image1.png",
+      "assets/media/image10.png",
+      "assets/media/image11.png",
+      "assets/media/image12.png",
+      "assets/media/image13.gif",
+      "assets/media/image14.jpg",
+      "assets/media/image15.jpg",
+      "assets/media/image16.png",
+      "assets/media/image2.jpg",
+      "assets/media/image3.png",
+      "assets/media/image4.png",
+      "assets/media/image5.png",
+      "assets/media/image6.jpg",
+      "assets/media/image7.png",
+      "assets/media/image8.png",
+      "assets/media/image9.png"
+    ],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is Roanoke S3 v2 W2 Breakdown.",
+        "support_refs": [
+          "BCS-000029"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The document is a schedule, set list, cast list, passdown, breakdown, directory, or social plan for running Season 3 weeks. It is not treated as proof of what players did.",
+        "support_refs": [
+          "BCS-000029"
+        ]
+      }
+    ]
+  }
+}

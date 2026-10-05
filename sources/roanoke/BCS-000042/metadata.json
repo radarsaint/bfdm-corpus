@@ -1,0 +1,98 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000042",
+  "project": "Roanoke Season 2",
+  "project_slug": "roanoke-s2",
+  "title": "Roanoke Season 2.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s2-planning",
+  "original_filename": "Roanoke Season 2.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000042/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000042/source.md",
+      "sha256": "497a791a8801eec2aac66553a93e6f4f48c9180d001ac2ed372dabe4c0eea9f7",
+      "size_bytes": 4536
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000042/original/source.docx",
+      "sha256": "e47ff7b60f66615ef8ef57d7ae0b0e0e40187ebd4cc1beba17c9ab91f8a0a33a",
+      "size_bytes": 9070
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000042/comments.json",
+      "sha256": "0f5bbc73082c82d6131b0e3fc973989f49f720234993c66358053c8bbe58f5bb",
+      "size_bytes": 114
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke Season 2.docx",
+    "original_filename": "Roanoke Season 2.docx",
+    "original_sha256": "e47ff7b60f66615ef8ef57d7ae0b0e0e40187ebd4cc1beba17c9ab91f8a0a33a",
+    "normalized_file": "source.md",
+    "normalized_sha256": "497a791a8801eec2aac66553a93e6f4f48c9180d001ac2ed372dabe4c0eea9f7",
+    "normalized_line_count": 52,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s2",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body says it outlines the Roanoke season two guide for a 2019 event.",
+        "support_refs": [
+          "BCS-000042"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The document is explicitly goals, ideas, and a wish list for organizing Season 2 before play.",
+        "support_refs": [
+          "BCS-000042"
+        ]
+      }
+    ]
+  }
+}

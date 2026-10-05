@@ -1,0 +1,124 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000115",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Timeline disambiguation",
+  "source_role": "campaign_flow_design",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-campaign-structure",
+  "original_filename": "Timeline disambiguation.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-14T05:50:05.099Z",
+  "modified_at": "2020-04-23T06:22:57.602Z",
+  "ingested_at": "2026-10-04T19:15:00Z",
+  "authorship": {
+    "status": "MIXED_OR_PARTIALLY_VERIFIED",
+    "basis": "Google revision metadata attributes the document's first six preserved revisions to Brendon Faulkner; the latest preserved revision has no identified modifier, so sole authorship is not asserted.",
+    "project_ownership_context": "Roanoke Season 3 campaign-flow planning."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000115/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000115/source.md",
+      "sha256": "d17b845edb664636cc178f52cbf4bd8c35f0b3cc4944dad94e397244aa205853",
+      "size_bytes": 2538
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000115/original/source.docx",
+      "sha256": "afbad2b5b3a12963bb75dc8b80cf23e372cc81eb198e414798352e76dc12539a",
+      "size_bytes": 8472
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000115/revisions.jsonl",
+      "sha256": "9d0334c828fdf8759803acae9d4d6c224be98f02841577d88b09f1f8aaeba080",
+      "size_bytes": 3393
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "Timeline disambiguation",
+    "source_role": "campaign_flow_design",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-campaign-structure",
+    "original_filename": "Timeline disambiguation.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-04-14T05:50:05.099Z",
+    "modified_at": "2020-04-23T06:22:57.602Z",
+    "ingested_at": "2026-10-04T19:15:00Z",
+    "authorship": {
+      "status": "MIXED_OR_PARTIALLY_VERIFIED",
+      "basis": "Google revision metadata attributes the document's first six preserved revisions to Brendon Faulkner; the latest preserved revision has no identified modifier, so sole authorship is not asserted.",
+      "project_ownership_context": "Roanoke Season 3 campaign-flow planning."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1c4pQmwAXT0HQd1VKwJXgHM4rMSEiPUqkDCFwz0DjyVc",
+        "url": "https://docs.google.com/document/d/1c4pQmwAXT0HQd1VKwJXgHM4rMSEiPUqkDCFwz0DjyVc/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "reconciliation": {
+    "donor_corpus_id": "BCS-000087",
+    "canonical_corpus_id": "BCS-000115",
+    "collision_note": "Donor id collided with a canonical Season 5 source on main and was remapped."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The note is about Day Fifteen, August 1st, on Roanoke, including when players learn the crafting system. That date is Day 15 on the Season 3 master schedule.",
+        "support_refs": [
+          "BCS-000115",
+          "BCS-000018"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The note revises how consecutive campaign days hand off, including the crafting introduction.",
+        "support_refs": [
+          "BCS-000115"
+        ]
+      }
+    ]
+  }
+}

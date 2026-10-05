@@ -268,6 +268,176 @@
         }
       },
       "additionalProperties": true
+    },
+    "historical_context": {
+      "type": "object",
+      "properties": {
+        "project_links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "project_id",
+              "relation",
+              "confidence",
+              "basis",
+              "support_refs"
+            ],
+            "properties": {
+              "project_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relation": {
+                "enum": [
+                  "BELONGS_TO_PROJECT",
+                  "RELATES_TO_PROJECT",
+                  "CROSS_PROJECT"
+                ]
+              },
+              "confidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "basis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "support_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "production_stages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "stage",
+              "confidence",
+              "basis",
+              "support_refs"
+            ],
+            "properties": {
+              "stage": {
+                "enum": [
+                  "RESEARCH_INSPIRATION",
+                  "BRAINSTORMING",
+                  "PREPRODUCTION",
+                  "SYSTEM_DEVELOPMENT",
+                  "CAMPAIGN_OPERATIONS",
+                  "LIVE_USE_ARTIFACT",
+                  "PUBLIC_PLAYER_FACING_PUBLICATION",
+                  "POSTMORTEM_CORRECTION",
+                  "LATER_RETROSPECTIVE"
+                ]
+              },
+              "confidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "basis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "support_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "link_type",
+          "target_kind",
+          "confidence",
+          "basis",
+          "support_refs"
+        ],
+        "properties": {
+          "link_type": {
+            "enum": [
+              "VERSION_OF",
+              "PREDECESSOR_OF",
+              "SUCCESSOR_OF",
+              "REVISES",
+              "SUPERSEDES",
+              "PUBLISHED_AS",
+              "DEV_PUBLIC_PAIR",
+              "DERIVED_FROM",
+              "COPIED_REPRESENTATION_OF",
+              "RESPONDS_TO",
+              "COMPANION_TO",
+              "IMPLEMENTED_IN",
+              "DISCUSSED_DURING",
+              "ALTERED_DURING_PLAY",
+              "ABANDONED_BEFORE_PLAY",
+              "OUTCOME_DOCUMENTED_IN",
+              "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+              "SOURCE_VERSION_FAMILY_MEMBER"
+            ]
+          },
+          "target_kind": {
+            "enum": [
+              "SOURCE",
+              "DISCORD_MESSAGE",
+              "DISCORD_CHANNEL",
+              "DISCORD_SERVER",
+              "EXTERNAL_SOURCE",
+              "RESEARCH_RECORD"
+            ]
+          },
+          "to_corpus_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^BCS-[0-9]{6}$"
+          },
+          "external_locator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "basis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "support_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": true
+      }
     }
   },
   "additionalProperties": true

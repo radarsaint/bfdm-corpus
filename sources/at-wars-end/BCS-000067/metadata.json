@@ -1,0 +1,112 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000067",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "at wars end prompt crafting",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-writing-process",
+  "original_filename": "at wars end prompt crafting.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Be1DJAjxq8Dqrczp_rGfRR_cqpeinBClzeybjEIBERY",
+      "url": "https://docs.google.com/document/d/1Be1DJAjxq8Dqrczp_rGfRR_cqpeinBClzeybjEIBERY/edit"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000067/source.md",
+      "sha256": "44b8b89819dffef64b6e4d990db6414b780720bda6ba88d1c6c5f562812bd8a9",
+      "size_bytes": 3497
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000067/original/source.docx",
+      "sha256": "2172f3a4aaa57a8240a2cc1562fe81c1edbc85bc34b531fadc7d1c3d4b5cd3ed",
+      "size_bytes": 10199
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000067/comments.json",
+      "sha256": "328fc2f601f7663d50e60b0a2e1e03d0d772dd65e692154d6f67106a8744415f",
+      "size_bytes": 98
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "At War's End",
+    "title": "at wars end prompt crafting",
+    "drive_id": "1Be1DJAjxq8Dqrczp_rGfRR_cqpeinBClzeybjEIBERY",
+    "original_filename": "at wars end prompt crafting.docx",
+    "original_stored_as": "original/source.docx",
+    "original_sha256": "2172f3a4aaa57a8240a2cc1562fe81c1edbc85bc34b531fadc7d1c3d4b5cd3ed",
+    "normalized_file": "source.md",
+    "normalized_sha256": "44b8b89819dffef64b6e4d990db6414b780720bda6ba88d1c6c5f562812bd8a9",
+    "normalized_line_count": 62,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The prompt says it guides assistance to Brendon Faulkner on At War's End.",
+        "support_refs": [
+          "BCS-000067"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The document is a writing-process prompt for the manuscript, not a chapter draft and not evidence the work was played.",
+        "support_refs": [
+          "BCS-000067"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "The prompt says it is for assisting work on At War's End using the existing documents. It is not ordered as a draft.",
+      "support_refs": [
+        "BCS-000067",
+        "BCS-000063"
+      ],
+      "to_corpus_id": "BCS-000063"
+    }
+  ]
+}

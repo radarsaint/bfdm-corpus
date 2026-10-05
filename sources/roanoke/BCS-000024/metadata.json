@@ -1,0 +1,134 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000024",
+  "project": "Roanoke Season 2",
+  "project_slug": "roanoke-s2",
+  "title": "Roanoke S2.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s2-planning",
+  "original_filename": "Roanoke S2.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000024/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000024/source.md",
+      "sha256": "f3196ccd803f8cb1628bafdda0c9688b7e3c0ffff871115983c94b5c446f447d",
+      "size_bytes": 149105
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000024/original/source.docx",
+      "sha256": "e103a5a6fe3681f0d3d84abaefc634c19e751ee8c3fe36c449717e7a4d1f3d83",
+      "size_bytes": 4185612
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000024/comments.json",
+      "sha256": "304c7cf2943fee0fa2ebe77295443cd6746f8c06abced47b9323bd722e45b287",
+      "size_bytes": 108
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "LISTED_IN_DONOR_METADATA"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke S2.docx",
+    "original_filename": "Roanoke S2.docx",
+    "original_sha256": "e103a5a6fe3681f0d3d84abaefc634c19e751ee8c3fe36c449717e7a4d1f3d83",
+    "normalized_file": "source.md",
+    "normalized_sha256": "f3196ccd803f8cb1628bafdda0c9688b7e3c0ffff871115983c94b5c446f447d",
+    "normalized_line_count": 3058,
+    "assets": [
+      "assets/media/image1.jpg",
+      "assets/media/image10.jpg",
+      "assets/media/image11.jpg",
+      "assets/media/image12.jpg",
+      "assets/media/image13.jpg",
+      "assets/media/image14.jpg",
+      "assets/media/image15.jpg",
+      "assets/media/image16.gif",
+      "assets/media/image17.jpg",
+      "assets/media/image18.png",
+      "assets/media/image19.jpg",
+      "assets/media/image2.jpg",
+      "assets/media/image20.jpg",
+      "assets/media/image21.jpg",
+      "assets/media/image3.png",
+      "assets/media/image4.png",
+      "assets/media/image5.png",
+      "assets/media/image6.jpg",
+      "assets/media/image7.jpg",
+      "assets/media/image8.jpg",
+      "assets/media/image9.jpg"
+    ],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s2",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "Native title is Roanoke S2, and the project registry already anchors this container to Season 2. The body is a Discord engagement guide and does not restate the season number.",
+        "support_refs": [
+          "BCS-000024",
+          "registry:roanoke-s2"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is a guide for building the remote-play Discord environment used to run Roanoke.",
+        "support_refs": [
+          "BCS-000024"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "Both containers are the preserved Season 2 planning pair: this Discord engagement guide and the season-two goals document.",
+      "support_refs": [
+        "BCS-000024",
+        "BCS-000042"
+      ],
+      "to_corpus_id": "BCS-000042"
+    }
+  ]
+}

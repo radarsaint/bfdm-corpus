@@ -46,7 +46,49 @@
       "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
       "to_corpus_id": "BCS-000110",
       "basis": "Matching Way of Gun Fu subclass content in the published Season 5 Monk page.",
-      "confidence": "STRONG"
+      "confidence": "STRONG",
+      "target_kind": "SOURCE",
+      "support_refs": [
+        "BCS-000114",
+        "BCS-000110"
+      ]
+    },
+    {
+      "link_type": "PUBLISHED_AS",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000110",
+      "confidence": "STRONG",
+      "basis": "The Drive source and the published Season 5 Monk page contain matching Way of Gun Fu subclass material; the existing version-family record already links these sources.",
+      "support_refs": [
+        "BCS-000114",
+        "BCS-000110"
+      ]
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The Drive PDF is registered as a source/version-family member for the published Season 5 Way of Gun Fu material.",
+        "support_refs": [
+          "BCS-000114",
+          "BCS-000110",
+          "registry:roanoke-s5-legends"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The Drive PDF is an earlier/source version of the Way of Gun Fu subclass later present on a published Season 5 Monk page.",
+        "support_refs": [
+          "BCS-000114",
+          "BCS-000110"
+        ]
+      }
+    ]
+  }
 }

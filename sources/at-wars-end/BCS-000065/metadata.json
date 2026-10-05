@@ -1,0 +1,103 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000065",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "at wars end outline",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-manuscript",
+  "original_filename": "at wars end outline.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "128BltD2VK70w_Vt56GCYvIMfsLBa99POSSmj00cnS2Y",
+      "url": "https://docs.google.com/document/d/128BltD2VK70w_Vt56GCYvIMfsLBa99POSSmj00cnS2Y/edit"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000065/source.md",
+      "sha256": "20db91b05377e28b6f5866d9d543539149f580aa751fedb7274ac3e2edd1af8b",
+      "size_bytes": 44435
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000065/original/source.docx",
+      "sha256": "321c426b7d7e34e334d39e8f81285df329913b56eff1872f85dd04259622d49c",
+      "size_bytes": 350909
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000065/comments.json",
+      "sha256": "fefafef76aa93ffa2d950afcf831d67731fd3a0021eebc24c9f30f5c71748125",
+      "size_bytes": 90
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "At War's End",
+    "title": "at wars end outline",
+    "drive_id": "128BltD2VK70w_Vt56GCYvIMfsLBa99POSSmj00cnS2Y",
+    "original_filename": "at wars end outline.docx",
+    "original_stored_as": "original/source.docx",
+    "original_sha256": "321c426b7d7e34e334d39e8f81285df329913b56eff1872f85dd04259622d49c",
+    "normalized_file": "source.md",
+    "normalized_sha256": "20db91b05377e28b6f5866d9d543539149f580aa751fedb7274ac3e2edd1af8b",
+    "normalized_line_count": 1826,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is at wars end outline, and it outlines Chapter 1: An Aubade of Queen Seraphine.",
+        "support_refs": [
+          "BCS-000065"
+        ]
+      }
+    ],
+    "production_stages": []
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "CONFIRMED",
+      "basis": "This outline and draft 5 both open on Chapter 1: An Aubade of Queen Seraphine.",
+      "support_refs": [
+        "BCS-000065",
+        "BCS-000063"
+      ],
+      "to_corpus_id": "BCS-000063"
+    }
+  ]
+}

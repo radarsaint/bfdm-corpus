@@ -1,0 +1,125 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000081",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Map Key",
+  "source_role": "map_key",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-cartography",
+  "original_filename": "Map Key.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-07T21:17:57.699Z",
+  "modified_at": "2020-06-28T19:13:53.230Z",
+  "ingested_at": "2026-10-04T18:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 cartography/planning source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 cartography source."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000081/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000081/source.md",
+      "sha256": "0a0a980fcd187555373d7a27d0233a87b56e0f2e8502f31b7063c9d277d0ca6f",
+      "size_bytes": 1567
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000081/original/source.docx",
+      "sha256": "931c3d9e3bbbba33e83b8245cf7cab750c32c4e7d8a86d7d6f742de3205a94a6",
+      "size_bytes": 317959
+    },
+    {
+      "kind": "NATIVE_COMMENTS_JSONL",
+      "path": "sources/roanoke/BCS-000081/comments.jsonl",
+      "sha256": "e9ee479cf44c998e7d93b7cb1e72d4baaabd5115d1eb7118738adf8edc59ec47",
+      "size_bytes": 6614
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000081/revisions.jsonl",
+      "sha256": "67dc15465be11132c6a0c892ba0b94d8c382d8fc0d99cb808658444dafb6ea8a",
+      "size_bytes": 10537
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "Map Key",
+    "source_role": "map_key",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-cartography",
+    "original_filename": "Map Key.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-04-07T21:17:57.699Z",
+    "modified_at": "2020-06-28T19:13:53.230Z",
+    "ingested_at": "2026-10-04T18:45:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 cartography/planning source; whole-document authorship is not established.",
+      "project_ownership_context": "Roanoke Season 3 cartography source."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1U49BILhdgEcUKcc5MsLzJpqzzACk2mzx56E2c8GU0ME",
+        "url": "https://docs.google.com/document/d/1U49BILhdgEcUKcc5MsLzJpqzzACk2mzx56E2c8GU0ME/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The hex key matches the Roanoke S3 Main Map entry for entry, including Cape Antler and Half Wudgie hollow.",
+        "support_refs": [
+          "BCS-000081",
+          "BCS-000026"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The document is the text key for the Season 3 hex map.",
+        "support_refs": [
+          "BCS-000081"
+        ]
+      }
+    ]
+  }
+}

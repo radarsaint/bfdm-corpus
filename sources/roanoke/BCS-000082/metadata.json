@@ -1,0 +1,131 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000082",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Cryptid Beastiary",
+  "source_role": "bestiary_design_dev",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-bestiary",
+  "original_filename": "Cryptid Beastiary.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-10T05:24:01.709Z",
+  "modified_at": "2020-04-10T16:47:54.696Z",
+  "ingested_at": "2026-10-04T18:50:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 cryptid/bestiary design source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 bestiary development."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000082/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000082/source.md",
+      "sha256": "d73f5452ae5e11a168965cc1b126c1627e66caf9040bbad92c1db73c1a336bab",
+      "size_bytes": 11384
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000082/original/source.docx",
+      "sha256": "b6630fb981c6e6ba257e34e29934feaa17846f709ec705be745b44eeb4f49d29",
+      "size_bytes": 1984529
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000082/revisions.jsonl",
+      "sha256": "54186c5c4fb1e5522e1b6abf7d632c75953c8167be609be5700100047ef97f41",
+      "size_bytes": 2020
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "Cryptid Beastiary",
+    "source_role": "bestiary_design_dev",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-bestiary",
+    "original_filename": "Cryptid Beastiary.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-04-10T05:24:01.709Z",
+    "modified_at": "2020-04-10T16:47:54.696Z",
+    "ingested_at": "2026-10-04T18:50:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 cryptid/bestiary design source; whole-document authorship is not established.",
+      "project_ownership_context": "Roanoke Season 3 bestiary development."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1bnzyxyeK9b6qmEntuPB16hbcHra_1rA-nvI-jYNEPLs",
+        "url": "https://docs.google.com/document/d/1bnzyxyeK9b6qmEntuPB16hbcHra_1rA-nvI-jYNEPLs/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The cryptid-writing guidelines use the five-week CR ladder that structures Season 3's weeks.",
+        "support_refs": [
+          "BCS-000082"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The body sets cryptid CR bands and writing rules for the five campaign weeks.",
+        "support_refs": [
+          "BCS-000082"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "BCS-000082 is the cryptid writing guide and BCS-000083 is the cryptid bestiary index in the same family.",
+      "support_refs": [
+        "BCS-000082",
+        "BCS-000083"
+      ],
+      "to_corpus_id": "BCS-000083"
+    }
+  ]
+}

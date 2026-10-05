@@ -1,0 +1,75 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000019",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke city directory..docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": null,
+  "original_filename": "Roanoke city directory..docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000019/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000019/source.md",
+      "sha256": "18a0d5bf7bf85812da733fdd9dce512faa50c07cbcd58b314d9307311d475e31",
+      "size_bytes": 1794
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000019/original/source.docx",
+      "sha256": "1580f1683ede44891ef18c067ad40154cd62b9e1820c0eba3b60f99e7d153623",
+      "size_bytes": 8620
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000019/comments.json",
+      "sha256": "3396c068f90fd60a0da8635ee34c65d4f8cd4d872e556f3222493c1231a53175",
+      "size_bytes": 121
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke city directory..docx",
+    "original_filename": "Roanoke city directory..docx",
+    "original_sha256": "1580f1683ede44891ef18c067ad40154cd62b9e1820c0eba3b60f99e7d153623",
+    "normalized_file": "source.md",
+    "normalized_sha256": "18a0d5bf7bf85812da733fdd9dce512faa50c07cbcd58b314d9307311d475e31",
+    "normalized_line_count": 78,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  }
+}

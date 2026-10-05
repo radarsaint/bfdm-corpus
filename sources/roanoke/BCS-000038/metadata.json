@@ -1,0 +1,98 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000038",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke S3W4 Passdown.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-live-operations",
+  "original_filename": "Roanoke S3W4 Passdown.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000038/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000038/source.md",
+      "sha256": "7105d021223f9d10a4f13e7a35420fc1e66f32a7d8be5088c478f4eed4d5a455",
+      "size_bytes": 845
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000038/original/source.docx",
+      "sha256": "0fdfec47514dc603a55f91e9056624fa02695ce4597d7dfd3b226a5e92f8a117",
+      "size_bytes": 7036
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000038/comments.json",
+      "sha256": "4e50fa71740df31332038741b776594f1f76eb10f91454c6def7b59bc9a5602a",
+      "size_bytes": 119
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke S3W4 Passdown.docx",
+    "original_filename": "Roanoke S3W4 Passdown.docx",
+    "original_sha256": "0fdfec47514dc603a55f91e9056624fa02695ce4597d7dfd3b226a5e92f8a117",
+    "normalized_file": "source.md",
+    "normalized_sha256": "7105d021223f9d10a4f13e7a35420fc1e66f32a7d8be5088c478f4eed4d5a455",
+    "normalized_line_count": 26,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body is headed Roanoke S3 V2.1, Week 4 Passdown.",
+        "support_refs": [
+          "BCS-000038"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The document is a schedule, set list, cast list, passdown, breakdown, directory, or social plan for running Season 3 weeks. It is not treated as proof of what players did.",
+        "support_refs": [
+          "BCS-000038"
+        ]
+      }
+    ]
+  }
+}

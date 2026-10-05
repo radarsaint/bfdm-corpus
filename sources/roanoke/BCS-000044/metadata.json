@@ -1,0 +1,155 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000044",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke Season 3 Lore.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-lore",
+  "original_filename": "Roanoke Season 3 Lore.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000044/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000044/source.md",
+      "sha256": "57808e7ed53a38e4276c6951ba8f0e487bf37d9d77015d1655011a65610bbc60",
+      "size_bytes": 1836
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000044/original/source.docx",
+      "sha256": "f4c59eda47fa9c6c5460874bcc11efc3270e5107a5ad862a7a33a839420a4ddf",
+      "size_bytes": 47587
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000044/comments.json",
+      "sha256": "378a3dae9b1050712fe0e3b892818a55700a5cbcc4ce47007255982d915b951e",
+      "size_bytes": 119
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke Season 3 Lore.docx",
+    "original_filename": "Roanoke Season 3 Lore.docx",
+    "original_sha256": "f4c59eda47fa9c6c5460874bcc11efc3270e5107a5ad862a7a33a839420a4ddf",
+    "normalized_file": "source.md",
+    "normalized_sha256": "57808e7ed53a38e4276c6951ba8f0e487bf37d9d77015d1655011a65610bbc60",
+    "normalized_line_count": 46,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is Roanoke Season 3 Lore.",
+        "support_refs": [
+          "BCS-000044"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The document is an internal Season 3 lore index linking backgrounds, societies, public lore, and faction docs.",
+        "support_refs": [
+          "BCS-000044"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "CONFIRMED",
+      "basis": "The Season 3 lore index links the Player backgrounds Drive file whose native id is BCS-000085.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000085"
+      ],
+      "to_corpus_id": "BCS-000085"
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "CONFIRMED",
+      "basis": "The Season 3 lore index links the Public Lore doc Drive file whose native id is BCS-000076.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000076"
+      ],
+      "to_corpus_id": "BCS-000076"
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "CONFIRMED",
+      "basis": "The Season 3 lore index links the Uru/Halfwudgie Drive file whose native id is BCS-000086.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000086"
+      ],
+      "to_corpus_id": "BCS-000086"
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "The Season 3 lore index lists a Chinnokin Prophecy document, and this container's native title is Roanoke Lore: Chinnokin Prophesy. The legacy container has no preserved Drive id, so identity is title-level rather than id-level.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000023"
+      ],
+      "to_corpus_id": "BCS-000023"
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "The Season 3 lore index lists Secret Societies, and BCS-000027 is titled Roanoke S3 Secret Society Lore. Drive-id identity was not preserved on the legacy container.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000027"
+      ],
+      "to_corpus_id": "BCS-000027"
+    }
+  ]
+}

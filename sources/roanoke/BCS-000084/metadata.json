@@ -1,0 +1,133 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000084",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Complete Manuscript.",
+  "source_role": "campaign_manuscript",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-master-material",
+  "original_filename": "Complete Manuscript..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-29T21:37:22.982Z",
+  "modified_at": "2020-05-29T21:48:20.200Z",
+  "ingested_at": "2026-10-04T19:05:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 campaign manuscript; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 master/campaign material."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000084/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000084/source.md",
+      "sha256": "cf035459d28ab299fa8f24947becccb9b5f2e24702eb25edca950fcc29a19c46",
+      "size_bytes": 13318
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000084/original/source.docx",
+      "sha256": "0f7aa4430e032b3393e56d732c36fc4d4df60f1163eec9986cf1a39a84c6a645",
+      "size_bytes": 14773
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000084/revisions.jsonl",
+      "sha256": "2eb953fe20eb5c0f5de6c9a8bcae2a3159640b8ae435ed1d036edab0778f69a8",
+      "size_bytes": 1009
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "Complete Manuscript.",
+    "source_role": "campaign_manuscript",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-master-material",
+    "original_filename": "Complete Manuscript..docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-05-29T21:37:22.982Z",
+    "modified_at": "2020-05-29T21:48:20.200Z",
+    "ingested_at": "2026-10-04T19:05:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 campaign manuscript; whole-document authorship is not established.",
+      "project_ownership_context": "Roanoke Season 3 master/campaign material."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1fvvQodFXjtmwh8UNJv8rXL9yjtHJ_j7ZjGBZZCvBJIk",
+        "url": "https://docs.google.com/document/d/1fvvQodFXjtmwh8UNJv8rXL9yjtHJ_j7ZjGBZZCvBJIk/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body opens on Week 1, 07/18/2020, Opening day, which is the Season 3 live start recorded in the master schedule and FAQ.",
+        "support_refs": [
+          "BCS-000084",
+          "BCS-000018",
+          "BCS-000021"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The manuscript compiles week-by-week campaign material, beginning with the July 18 opening.",
+        "support_refs": [
+          "BCS-000084"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "Both are preserved Week 1 Season 3 campaign writeups; this manuscript compiles day content and BCS-000048 is the Week 1 breakdown.",
+      "support_refs": [
+        "BCS-000084",
+        "BCS-000048"
+      ],
+      "to_corpus_id": "BCS-000048"
+    }
+  ]
+}

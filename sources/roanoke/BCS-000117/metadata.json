@@ -1,0 +1,137 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000117",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Island games draft",
+  "source_role": "event_design_draft",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-island-games",
+  "original_filename": "Island games draft.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-01T05:40:18.588Z",
+  "modified_at": "2020-05-02T08:25:55.130Z",
+  "ingested_at": "2026-10-04T19:25:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 event-design draft; whole-document authorship is not explicitly established in the source.",
+    "project_ownership_context": "Roanoke Season 3 Island Games event design."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000117/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000117/source.md",
+      "sha256": "f053ae8564f0eba6add29c8ad8a4686095786ac492e4ae52eb279e95521baa54",
+      "size_bytes": 2399
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000117/original/source.docx",
+      "sha256": "17983b678be44083bd7debfb505aaff4f1e7e7a5d6224f6092010516011e57e2",
+      "size_bytes": 8345
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000117/revisions.jsonl",
+      "sha256": "502604f573669a04bbae4ef9968a97333901fa85954eedba2fb9ef3a28d29367",
+      "size_bytes": 2024
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "Island games draft",
+    "source_role": "event_design_draft",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-island-games",
+    "original_filename": "Island games draft.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-05-01T05:40:18.588Z",
+    "modified_at": "2020-05-02T08:25:55.130Z",
+    "ingested_at": "2026-10-04T19:25:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 event-design draft; whole-document authorship is not explicitly established in the source.",
+      "project_ownership_context": "Roanoke Season 3 Island Games event design."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1p9Z1Q-lTk8I06-eYd3DA8hkYJ_j2uMzAepe6otfXNcQ",
+        "url": "https://docs.google.com/document/d/1p9Z1Q-lTk8I06-eYd3DA8hkYJ_j2uMzAepe6otfXNcQ/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+    }
+  },
+  "reconciliation": {
+    "donor_corpus_id": "BCS-000089",
+    "canonical_corpus_id": "BCS-000117",
+    "collision_note": "Donor id collided with a canonical Season 5 source on main and was remapped."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The draft is set at the Lake of the Woes with the Fishmother's envoy, and the Season 3 Week 4 set list names Lake of the Woes \u2014 Island games.",
+        "support_refs": [
+          "BCS-000117",
+          "BCS-000039"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is a timed event draft for the island games.",
+        "support_refs": [
+          "BCS-000117"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "The Week 4 set list slots Island games at the Lake of the Woes, which is the setting of this draft.",
+      "support_refs": [
+        "BCS-000117",
+        "BCS-000039"
+      ],
+      "to_corpus_id": "BCS-000039"
+    }
+  ]
+}

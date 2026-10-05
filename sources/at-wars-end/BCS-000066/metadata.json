@@ -1,0 +1,103 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000066",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "Wellsprings in At War's End",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-wellsprings",
+  "original_filename": "Wellsprings in At War's End.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1lLh1vvzHi19-IVJWjwnnURLDAPBCefL3o6k3riMN9bk",
+      "url": "https://docs.google.com/document/d/1lLh1vvzHi19-IVJWjwnnURLDAPBCefL3o6k3riMN9bk/edit"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000066/source.md",
+      "sha256": "afe3f378d1fe7eb3243748d5a9938dc02f289515d2c3a294ed78665d13fda825",
+      "size_bytes": 36139
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000066/original/source.docx",
+      "sha256": "052df9545df973b86d1b537cd7f9da13daa2f2f0f25297e64d53ffe0ad8fe13d",
+      "size_bytes": 30787
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000066/comments.json",
+      "sha256": "b417d7f530bfab420c24005519d72961cf4c78851532df9c64774010c2cd6fd4",
+      "size_bytes": 98
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "At War's End",
+    "title": "Wellsprings in At War's End",
+    "drive_id": "1lLh1vvzHi19-IVJWjwnnURLDAPBCefL3o6k3riMN9bk",
+    "original_filename": "Wellsprings in At War's End.docx",
+    "original_stored_as": "original/source.docx",
+    "original_sha256": "052df9545df973b86d1b537cd7f9da13daa2f2f0f25297e64d53ffe0ad8fe13d",
+    "normalized_file": "source.md",
+    "normalized_sha256": "afe3f378d1fe7eb3243748d5a9938dc02f289515d2c3a294ed78665d13fda825",
+    "normalized_line_count": 549,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is Wellsprings in At War's End.",
+        "support_refs": [
+          "BCS-000066"
+        ]
+      }
+    ],
+    "production_stages": []
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "The wellsprings cosmology is companion world material for the At War's End manuscript, not another numbered draft.",
+      "support_refs": [
+        "BCS-000066",
+        "BCS-000063"
+      ],
+      "to_corpus_id": "BCS-000063"
+    }
+  ]
+}

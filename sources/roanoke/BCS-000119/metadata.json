@@ -1,0 +1,124 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000119",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "The Halfwudgie Verbatim",
+  "source_role": "public_lore_render_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-halwudgie-lore",
+  "original_filename": "The Halfwudgie Verbatim.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-12T00:31:43.143Z",
+  "modified_at": "2020-05-12T01:05:04.587Z",
+  "ingested_at": "2026-10-04T19:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 formatted lore source; whole-document authorship is not explicitly established in the source.",
+    "project_ownership_context": "Roanoke Season 3 Halfwudgie public-lore material."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000119/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000119/source.md",
+      "sha256": "91a7401b91b2dcfcc36f083b7e843abc00bd9ad99370f71125b61d4274e55240",
+      "size_bytes": 6788
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000119/original/source.docx",
+      "sha256": "b513dfbd8b7432e2e337606720d991171a4843e975992c885bc86930ca81a3bf",
+      "size_bytes": 10468
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000119/revisions.jsonl",
+      "sha256": "ed2bb8544e9b839a5c2a0883b9854983b9fc7f0d71ec87008c1b78722b35d8cb",
+      "size_bytes": 1010
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "The Halfwudgie Verbatim",
+    "source_role": "public_lore_render_source",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-halwudgie-lore",
+    "original_filename": "The Halfwudgie Verbatim.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-05-12T00:31:43.143Z",
+    "modified_at": "2020-05-12T01:05:04.587Z",
+    "ingested_at": "2026-10-04T19:45:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke S3 formatted lore source; whole-document authorship is not explicitly established in the source.",
+      "project_ownership_context": "Roanoke Season 3 Halfwudgie public-lore material."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "14vVz2fIl3qBSOzVLn-EwerVU1LRjAJT-gDjbhzRQET0",
+        "url": "https://docs.google.com/document/d/14vVz2fIl3qBSOzVLn-EwerVU1LRjAJT-gDjbhzRQET0/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED",
+      "comments": "NOT_QUERIED_THIS_PASS",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; EXTERNAL_IMAGE LINKS REMAIN IN SOURCE"
+    }
+  },
+  "reconciliation": {
+    "donor_corpus_id": "BCS-000091",
+    "canonical_corpus_id": "BCS-000119",
+    "collision_note": "Donor id collided with a canonical Season 5 source on main and was remapped."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The Halfwudgie verbatim was captured with the other May 12 2020 S3 race renders and is the public-style render of the S3 Uru/Wudgie lore.",
+        "support_refs": [
+          "BCS-000119",
+          "BCS-000086"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Homebrewery-style markup presents the race for players, but this pass does not show that the verbatim was published as its own site.",
+        "support_refs": [
+          "BCS-000119"
+        ]
+      }
+    ]
+  }
+}

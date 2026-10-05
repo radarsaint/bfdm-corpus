@@ -1,0 +1,113 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000007",
+  "project": "Roanoke Season 4 / Empire City",
+  "project_slug": "roanoke-s4",
+  "title": "Empire City Post 7-12",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-post",
+  "original_filename": "Empire City Post 7-12.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-07-12T02:23:43.796Z",
+  "modified_at": "2021-07-12T13:01:56.806Z",
+  "ingested_at": "2026-10-03T18:35:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1MrJ26mO9trl1B6Tkc6rMEzx4acLFsBUWozGcJScPFiY",
+      "url": "https://docs.google.com/document/d/1MrJ26mO9trl1B6Tkc6rMEzx4acLFsBUWozGcJScPFiY/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_acb7cbcd5874819181c627dd02f2340a",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Post 7-12.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "CURRENT_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000007/source.md",
+      "sha256": "09fab20a1416ec98b1b84a13623bf6fdcf0aae21ad34b9b3454e1c1befc2cc02",
+      "mime_type": "text/plain",
+      "size_bytes": 2725,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000007/original/source.docx",
+      "sha256": "eff1c1a4cccec5f922acd4b2117a223a565c0f0b394c1b0f46d1dd47c415e519",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 534540,
+      "provider_revision_id": null
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/empire-city/BCS-000007/revisions.jsonl",
+      "sha256": "c47101705cae5cef53bd671f54c58f66b92031604d230d4c2a45d8ca19d83568",
+      "mime_type": "application/x-ndjson",
+      "size_bytes": 1969,
+      "provider_revision_id": null,
+      "donor_recorded_sha256": "c3bd60d0da1c29847ed084c0db89c76af17b8b36b4180e456269589addcf9213"
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout.",
+      "One or more representation sha256 values were corrected to the preserved file bytes. The previous recorded hash is kept as donor_recorded_sha256."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "CAPTURED_ALL_LISTED",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY",
+    "revision_body_integrity": "PER_BODY_SHA256_BACKFILL_PENDING"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The document is an Empire City Post issue dated July 12th, 1776.",
+        "support_refs": [
+          "BCS-000007"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The issue is written as a player-facing newspaper. A headline search of the Empire City Discord harvest did not show these issues being posted, so live distribution is not claimed.",
+        "support_refs": [
+          "BCS-000007"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "SUCCESSOR_OF",
+      "target_kind": "SOURCE",
+      "confidence": "CONFIRMED",
+      "basis": "Both are Empire City Post issues. This issue is dated July 12th, 1776; the previous preserved issue is July 11th, 1776. Issue order is not supersession.",
+      "support_refs": [
+        "BCS-000007",
+        "BCS-000006"
+      ],
+      "to_corpus_id": "BCS-000006"
+    }
+  ]
+}

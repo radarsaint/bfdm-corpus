@@ -1,0 +1,719 @@
+{
+  "file": "/mnt/data/Exploration Impossible (Manuscript).docx",
+  "comment_count": 31,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T04:41:33Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Feel like the dialog here should be used to make Argo's speech be a little more grandiose. We need Patton or William Wallace.  Your missing a huge character development beat by not grandstanding more.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Ladies and gentlemen, we stand here today in hopes of finally ending this war!” I began, “About nine years ago, I was forced to join the Federation after stealing a ship and wiping out a whole platoo"
+            },
+            {
+              "where": "end",
+              "text": "“Ladies and gentlemen, we stand here today in hopes of finally ending this war!” I began, “About nine years ago, I was forced to join the Federation after stealing a ship and wiping out a whole platoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T04:59:40Z",
+      "initials": null,
+      "resolved": false,
+      "text": "The first sentence is redundant.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "The EMPs that we just used are very effective when in a situation that involves a huge number difference. In order for it to be used effectively, however, the enemy needs to be within twenty yards of "
+            },
+            {
+              "where": "end",
+              "text": "The EMPs that we just used are very effective when in a situation that involves a huge number difference. In order for it to be used effectively, however, the enemy needs to be within twenty yards of "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T05:00:51Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Actually a lot of this is good exposition but it still feels janky. You might want to find a way to put this idea earlier, preflight.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "The EMPs that we just used are very effective when in a situation that involves a huge number difference. In order for it to be used effectively, however, the enemy needs to be within twenty yards of "
+            },
+            {
+              "where": "end",
+              "text": "The EMPs that we just used are very effective when in a situation that involves a huge number difference. In order for it to be used effectively, however, the enemy needs to be within twenty yards of "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "author": "Brendon Faulkner",
+      "date": "2020-04-29T20:24:50Z",
+      "initials": null,
+      "resolved": false,
+      "text": "add more descriptions. \"Through the void of space, all I could see was his face disappearing in the smoke issuing from the interior of his cockpit.\" ect.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "I give gentle nudges to the throttle in order to move towards Rorke's ship. As I get closer I can immediately see that the cockpit cover is fogged up from the inside by black smoke. It’s so thick that"
+            },
+            {
+              "where": "end",
+              "text": "I give gentle nudges to the throttle in order to move towards Rorke's ship. As I get closer I can immediately see that the cockpit cover is fogged up from the inside by black smoke. It’s so thick that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "author": "Brendon Faulkner",
+      "date": "2020-04-29T20:26:50Z",
+      "initials": null,
+      "resolved": false,
+      "text": "good space mumbo jumbo. How does it feel to move through these actions. how does he secure the eblade, what is it like to have to use a life rope, when did he last get certified to use it, or has he had to make frequent uses of it so that it is now a routine experience to space walk? don't push past your character's thoughts just to get to action.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "I set my ship to idle mode and open the cockpit hatch. With an Eblade I grabbed from my utility belt and Liferope held in my other hand to keep me connected to the seat of the cockpit, I began to push"
+            },
+            {
+              "where": "end",
+              "text": "I set my ship to idle mode and open the cockpit hatch. With an Eblade I grabbed from my utility belt and Liferope held in my other hand to keep me connected to the seat of the cockpit, I began to push"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "author": "Brendon Faulkner",
+      "date": "2020-04-29T20:27:50Z",
+      "initials": null,
+      "resolved": false,
+      "text": "good call back to scraps in the void. tie it back to the first page.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Before I could completely launch myself from the cockpit, I was met with a flash and knocked back into my seat as Rorke’s ship flashed and shrapnel flew everywhere in the void. Most of the scraps disi"
+            },
+            {
+              "where": "end",
+              "text": "Before I could completely launch myself from the cockpit, I was met with a flash and knocked back into my seat as Rorke’s ship flashed and shrapnel flew everywhere in the void. Most of the scraps disi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T05:02:15Z",
+      "initials": null,
+      "resolved": false,
+      "text": "This may as well have a willhelm scream. Find something more interesting to say at rorke's death, if you want it to be meaningful.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"RORKE IS GONE!\" I scream to other shadows, or maybe to the universe. Or maybe I just opened my mouth. I realize in a burst of laser light that I can see the mirrored reflection of my face in the cock"
+            },
+            {
+              "where": "end",
+              "text": "\"RORKE IS GONE!\" I scream to other shadows, or maybe to the universe. Or maybe I just opened my mouth. I realize in a burst of laser light that I can see the mirrored reflection of my face in the cock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-19T08:46:19Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Expanded your edit.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"RORKE IS GONE!\" I scream to other shadows, or maybe to the universe. Or maybe I just opened my mouth. I realize in a burst of laser light that I can see the mirrored reflection of my face in the cock"
+            },
+            {
+              "where": "end",
+              "text": "\"RORKE IS GONE!\" I scream to other shadows, or maybe to the universe. Or maybe I just opened my mouth. I realize in a burst of laser light that I can see the mirrored reflection of my face in the cock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T05:03:20Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Longer, more interesting dialogue. See previous note.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"They got Rorke?!\" I hear Sam yell over the com."
+            },
+            {
+              "where": "end",
+              "text": "\"They got Rorke?!\" I hear Sam yell over the com."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-19T09:03:58Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Introduced a new concept. Down time is spent playing spy games in the interoffice politics as a friendly competition, to reinforce why these are the guys who are called to go behind enemy lines.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "As Shadows, like the other elite units,  I believe we have earned the right to use our judgment as to whether or not it is prudent to carry forward with a mission when we lose critical personnel. With"
+            },
+            {
+              "where": "end",
+              "text": "As Shadows, like the other elite units,  I believe we have earned the right to use our judgment as to whether or not it is prudent to carry forward with a mission when we lose critical personnel. With"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T05:07:02Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Your stakes don't make sense to innate an all or nothing attack.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Easier said than done, Sam.” I think to myself and then regret the thought."
+            },
+            {
+              "where": "end",
+              "text": "I've heard about the moments in history when a blitz type of war tactic was used by armies with the thought of time being the key to the war. The problem with using this tactic is the numbers on the e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-19T09:11:50Z",
+      "initials": null,
+      "resolved": false,
+      "text": "If he is a student of history and comparing other rush or lightning style attacks, why is he using an antiquated german word unless its Nazi tactics that he is admiring here.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Easier said than done, Sam.” I think to myself and then regret the thought."
+            },
+            {
+              "where": "end",
+              "text": "I've heard about the moments in history when a blitz type of war tactic was used by armies with the thought of time being the key to the war. The problem with using this tactic is the numbers on the e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-19T09:15:38Z",
+      "initials": null,
+      "resolved": false,
+      "text": "See? More Scifi lingo can help.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"Aura, back up Inertial buffers.” The words leave my mouth on reflex, as I improvise a solution. “If we are going to do this, we need to fake a retreat. That's the only way to open a new window,\" I ex"
+            },
+            {
+              "where": "end",
+              "text": "\"Aura, back up Inertial buffers.” The words leave my mouth on reflex, as I improvise a solution. “If we are going to do this, we need to fake a retreat. That's the only way to open a new window,\" I ex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T05:22:57Z",
+      "initials": null,
+      "resolved": false,
+      "text": "see previous comment",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"Ay, Captain!\" the two Shadows reply."
+            },
+            {
+              "where": "end",
+              "text": "\"Ay, Captain!\" the two Shadows reply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:29:51Z",
+      "initials": null,
+      "resolved": false,
+      "text": "\"and shoving it in my face\". watch your tenses.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "The Libran responds to my insult by grabbing the towel that is still sitting in my lap and shoving it in my face. The amount of force he uses sends me falling backward. The urge to scream rises again "
+            },
+            {
+              "where": "end",
+              "text": "The Libran responds to my insult by grabbing the towel that is still sitting in my lap and shoving it in my face. The amount of force he uses sends me falling backward. The urge to scream rises again "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:30:11Z",
+      "initials": null,
+      "resolved": false,
+      "text": "is Malaka a propper noun?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“I oughta teach you some manners, malaka!” the Libran growls."
+            },
+            {
+              "where": "end",
+              "text": "“I oughta teach you some manners, malaka!” the Libran growls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "author": "Michael Kennish",
+      "date": "2020-05-20T20:44:02Z",
+      "initials": null,
+      "resolved": false,
+      "text": "common",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“I oughta teach you some manners, malaka!” the Libran growls."
+            },
+            {
+              "where": "end",
+              "text": "“I oughta teach you some manners, malaka!” the Libran growls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:41:13Z",
+      "initials": null,
+      "resolved": false,
+      "text": "does she notice him waiting all creepy like? why doesn't she interact back on this note?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Maia smiles and she casually hands me the root. I hold the middle of the root with both hands and apply direct pressure at the center with my thumbs as I bend the root. Adding a little twist, the root"
+            },
+            {
+              "where": "end",
+              "text": "Maia smiles and she casually hands me the root. I hold the middle of the root with both hands and apply direct pressure at the center with my thumbs as I bend the root. Adding a little twist, the root"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:42:24Z",
+      "initials": null,
+      "resolved": false,
+      "text": "double this paragraph by adding other sentences in about the other senses.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "I take her casual ingesting the root as a sign of it being safe. It is now my turn to take a bite. Biting into the root feels equivalent to biting into beef jerky. I can immediately feel the slight bu"
+            },
+            {
+              "where": "end",
+              "text": "I take her casual ingesting the root as a sign of it being safe. It is now my turn to take a bite. Biting into the root feels equivalent to biting into beef jerky. I can immediately feel the slight bu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:43:31Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Too abrupt a change. talk about the weird experience you just had.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Now with that out of the way, we can finally get to more important matters,” Maia grabs a chair from the table and drags up to an arm’s length away from me."
+            },
+            {
+              "where": "end",
+              "text": "“Now with that out of the way, we can finally get to more important matters,” Maia grabs a chair from the table and drags up to an arm’s length away from me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:48:09Z",
+      "initials": null,
+      "resolved": false,
+      "text": "This premise, while logical, seems like an excuse to make your main character seem cooler than maybe he needs to be? maybe suggest that her method is working on him instead, and that the fruit might be affecting his judgement.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "My wits are placed on guard before Maia even sits down. With Maia taking the gentle approach in my interrogation, I am going to have to change to a more compliant attitude. If I play my cards right, I"
+            },
+            {
+              "where": "end",
+              "text": "My wits are placed on guard before Maia even sits down. With Maia taking the gentle approach in my interrogation, I am going to have to change to a more compliant attitude. If I play my cards right, I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:49:57Z",
+      "initials": null,
+      "resolved": false,
+      "text": "If she is trying to lay it on thick here, you need more explanation on how she said it. As written, I could imagine this sentence said 8-10 different ways. Don't make the reader guess.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“It’s pretty easy to identify the Blue Fox when only one Imperial rogue makes his entrance in such a daring manner,” Maia explained in accusation."
+            },
+            {
+              "where": "end",
+              "text": "“It’s pretty easy to identify the Blue Fox when only one Imperial rogue makes his entrance in such a daring manner,” Maia explained in accusation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:51:29Z",
+      "initials": null,
+      "resolved": false,
+      "text": "you don't need to call him caucasian every time.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“How about this?” Maia rolls up her right sleeve and taps her wrist. A holographic screen lights up between her and I. The screen shows footage of a young-looking caucasian man with brown hair in a bl"
+            },
+            {
+              "where": "end",
+              "text": "“How about this?” Maia rolls up her right sleeve and taps her wrist. A holographic screen lights up between her and I. The screen shows footage of a young-looking caucasian man with brown hair in a bl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:53:01Z",
+      "initials": null,
+      "resolved": false,
+      "text": "is this spelled incorrectly, or is this a scifi word?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Leo, detain the empristís!” the front-most guard ordered."
+            },
+            {
+              "where": "end",
+              "text": "“Leo, detain the empristís!” the front-most guard ordered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "author": "Michael Kennish",
+      "date": "2020-05-09T00:58:03Z",
+      "initials": null,
+      "resolved": false,
+      "text": "greek language",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Leo, detain the empristís!” the front-most guard ordered."
+            },
+            {
+              "where": "end",
+              "text": "“Leo, detain the empristís!” the front-most guard ordered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T08:56:29Z",
+      "initials": null,
+      "resolved": false,
+      "text": "What did Maia do while accusing?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "“Based on what you were thinking while watching that clip, you have proven to me that you are indeed Argo the Blue Fox,” Maia accuses with a smirk."
+            },
+            {
+              "where": "end",
+              "text": "“Based on what you were thinking while watching that clip, you have proven to me that you are indeed Argo the Blue Fox,” Maia accuses with a smirk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T09:01:03Z",
+      "initials": null,
+      "resolved": false,
+      "text": "why is there no internal monologue to reflect how he is feeling when he does this?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"Then let me say it's a pleasure to finally meet you, Kiria Maia,\" I bow still sitting."
+            },
+            {
+              "where": "end",
+              "text": "\"Then let me say it's a pleasure to finally meet you, Kiria Maia,\" I bow still sitting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T09:01:50Z",
+      "initials": null,
+      "resolved": false,
+      "text": "is he relieved by this, or threatened more. Don't tell me explain it in your description of him in between the verbatim.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"No need to be formal, Captain. I permit you to call me by just my first name.\""
+            },
+            {
+              "where": "end",
+              "text": "\"No need to be formal, Captain. I permit you to call me by just my first name.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T09:02:31Z",
+      "initials": null,
+      "resolved": false,
+      "text": "How does he feel about asking her to use his first name. do the thing with the showing instead of just the telling.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"In that case, I prefer that you call me Argo if that's okay with you.\""
+            },
+            {
+              "where": "end",
+              "text": "\"In that case, I prefer that you call me Argo if that's okay with you.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T09:04:16Z",
+      "initials": null,
+      "resolved": false,
+      "text": "ok, if its dialogue. assume i'm begging you to describe your character's emotional state and physical gestures and demeanor.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "\"Very much so.\""
+            },
+            {
+              "where": "end",
+              "text": "\"Very much so.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-08T09:39:39Z",
+      "initials": null,
+      "resolved": false,
+      "text": "... Don't say what would be seen in the cockpit of a star trek starship. Describe one so you can prove that you can do the basics of sci writing and describe the fuck out of the interior of the space ship. Earn your street cred.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "The layout of the bridge seems like what would be seen in the cockpit of a Star Trek starship. There are exactly six control panels that are designed to be controlled by two to four people each. Sever"
+            },
+            {
+              "where": "end",
+              "text": "The layout of the bridge seems like what would be seen in the cockpit of a Star Trek starship. There are exactly six control panels that are designed to be controlled by two to four people each. Sever"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

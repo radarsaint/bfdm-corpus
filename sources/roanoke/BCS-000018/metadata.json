@@ -1,0 +1,101 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000018",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke 3 Master Schedule.xlsx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-live-operations",
+  "original_filename": "Roanoke 3 Master Schedule.xlsx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000018/original/source.xlsx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000018/source.md",
+      "sha256": "fe0bd1f14d44dedd4f141e4fb340fbfccdfa6bcf870780a00f75c2576244e565",
+      "size_bytes": 2598
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000018/comments.json",
+      "sha256": "9df4a90fdee89ee7692d994116ca4f82f03208e76c1e8bccde68a7b6d4915fe7",
+      "size_bytes": 86
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke 3 Master Schedule.xlsx",
+    "original_filename": "Roanoke 3 Master Schedule.xlsx",
+    "original_sha256": "c884756f91dab73547f0b6b9475a83ac9ef34674be24f0f1e3c613dc3a19addb",
+    "normalized_file": "source.md",
+    "normalized_sha256": "fe0bd1f14d44dedd4f141e4fb340fbfccdfa6bcf870780a00f75c2576244e565",
+    "normalized_line_count": 18,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "spreadsheet_extraction": {
+      "tool": "artifact_tool",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "range": "A1:G7"
+        }
+      ]
+    },
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.xlsx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is Roanoke 3 Master Schedule, and the grid dates Week 1 to Saturday 7/18 opening day.",
+        "support_refs": [
+          "BCS-000018"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The document is a schedule, set list, cast list, passdown, breakdown, directory, or social plan for running Season 3 weeks. It is not treated as proof of what players did.",
+        "support_refs": [
+          "BCS-000018"
+        ]
+      }
+    ]
+  }
+}

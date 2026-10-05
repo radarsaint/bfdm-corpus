@@ -1,0 +1,98 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000036",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke S3W3 Voice Event Draft.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-live-operations",
+  "original_filename": "Roanoke S3W3 Voice Event Draft.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000036/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000036/source.md",
+      "sha256": "af6104d98a70ba45e8a82bb9910ac0e20dc57dac0907380bbc2f3dac4b272829",
+      "size_bytes": 2991
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000036/original/source.docx",
+      "sha256": "1aa1057b19ef512e8e693acbd572ceedb9f6a34d74fc93b283b0f34e8882a0ed",
+      "size_bytes": 8244
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000036/comments.json",
+      "sha256": "9670d8c1dd052525691c7a712d3eb75ca34dd6e67d8b11f5eaef19efe5448533",
+      "size_bytes": 128
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke S3W3 Voice Event Draft.docx",
+    "original_filename": "Roanoke S3W3 Voice Event Draft.docx",
+    "original_sha256": "1aa1057b19ef512e8e693acbd572ceedb9f6a34d74fc93b283b0f34e8882a0ed",
+    "normalized_file": "source.md",
+    "normalized_sha256": "af6104d98a70ba45e8a82bb9910ac0e20dc57dac0907380bbc2f3dac4b272829",
+    "normalized_line_count": 46,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is Roanoke S3W3 Voice Event Draft.",
+        "support_refs": [
+          "BCS-000036"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The document is a schedule, set list, cast list, passdown, breakdown, directory, or social plan for running Season 3 weeks. It is not treated as proof of what players did.",
+        "support_refs": [
+          "BCS-000036"
+        ]
+      }
+    ]
+  }
+}

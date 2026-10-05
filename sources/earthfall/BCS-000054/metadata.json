@@ -1,0 +1,99 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000054",
+  "project": "Earthfall",
+  "project_slug": "earthfall",
+  "title": "earthfall",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "earthfall-rod",
+  "original_filename": "earthfall.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1wanB5h7MgUCvQBU0mvwSrpM9RxYlFi-c0EnjjAnL08k",
+      "url": "https://docs.google.com/document/d/1wanB5h7MgUCvQBU0mvwSrpM9RxYlFi-c0EnjjAnL08k/edit"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/earthfall/BCS-000054/source.md",
+      "sha256": "5c8231a9ddc1aef2856b5c62e9685d84dee526c02ed7257874ddca96e7267c17",
+      "size_bytes": 11395
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/earthfall/BCS-000054/original/source.docx",
+      "sha256": "cecfd8fec717d33a48ea8083ac9d72605ffc9180178c6f43b3d132f6eb3b30a8",
+      "size_bytes": 15018
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/earthfall/BCS-000054/comments.json",
+      "sha256": "0575f157f124ddba89378c8098c1331c34f64767cb097112c369135963d9c4b9",
+      "size_bytes": 80
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Earthfall",
+    "title": "earthfall",
+    "drive_id": "1wanB5h7MgUCvQBU0mvwSrpM9RxYlFi-c0EnjjAnL08k",
+    "original_filename": "earthfall.docx",
+    "original_stored_as": "original/source.docx",
+    "original_sha256": "cecfd8fec717d33a48ea8083ac9d72605ffc9180178c6f43b3d132f6eb3b30a8",
+    "normalized_file": "source.md",
+    "normalized_sha256": "5c8231a9ddc1aef2856b5c62e9685d84dee526c02ed7257874ddca96e7267c17",
+    "normalized_line_count": 361,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "earthfall",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body is the R.O.D. communication system for the Earthfall dungeon broadcast.",
+        "support_refs": [
+          "BCS-000054"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The document specifies Earthfall's two-layer broadcast system.",
+        "support_refs": [
+          "BCS-000054"
+        ]
+      }
+    ]
+  }
+}

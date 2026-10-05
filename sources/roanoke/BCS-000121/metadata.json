@@ -1,0 +1,126 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000121",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "The Jackalope Verbatim",
+  "source_role": "public_lore_render_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-jackalope-lore",
+  "original_filename": "The Jackalope Verbatim.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-12T01:43:34.137Z",
+  "modified_at": "2023-06-26T02:47:26.832Z",
+  "ingested_at": "2026-10-04T20:00:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke lore render source, but whole-document authorship is not explicitly established.",
+    "project_ownership_context": "Roanoke lore source with later post-S3 modification."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000121/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000121/source.md",
+      "sha256": "73294b5a36bed70e79dc60585cd6d6a84bd92c806def9e630d3685cd3b387d48",
+      "size_bytes": 6264
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000121/original/source.docx",
+      "sha256": "7f63c5aa1114063f99273a268bc8c40db45bda2dffff932eb6578d054771d779",
+      "size_bytes": 319945
+    },
+    {
+      "kind": "REVISION_METADATA_JSONL",
+      "path": "sources/roanoke/BCS-000121/revisions.jsonl",
+      "sha256": "1bc2b1f9173b83e4973e05f24deb22728da22797ed3db36db086d7d1970777d8",
+      "size_bytes": 2524
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "CAPTURED",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "schema_version": "bfdm_source_metadata/v1",
+    "project": "Roanoke",
+    "project_slug": "roanoke",
+    "title": "The Jackalope Verbatim",
+    "source_role": "public_lore_render_source",
+    "source_kind": "google_drive_native",
+    "document_family_id": "roanoke-s3-jackalope-lore",
+    "original_filename": "The Jackalope Verbatim.docx",
+    "mime_type": "application/vnd.google-apps.document",
+    "created_at": "2020-05-12T01:43:34.137Z",
+    "modified_at": "2023-06-26T02:47:26.832Z",
+    "ingested_at": "2026-10-04T20:00:00Z",
+    "authorship": {
+      "status": "UNKNOWN",
+      "basis": "Direct Roanoke lore render source, but whole-document authorship is not explicitly established.",
+      "project_ownership_context": "Roanoke lore source with later post-S3 modification."
+    },
+    "locators": [
+      {
+        "provider": "google_drive",
+        "locator_type": "native_document",
+        "native_id": "1M2gzmzpBIjliR1Sdmyude5SDt4SlRLSruIkgDHBP2wI",
+        "url": "https://docs.google.com/document/d/1M2gzmzpBIjliR1Sdmyude5SDt4SlRLSruIkgDHBP2wI/edit?usp=drivesdk"
+      }
+    ],
+    "capture_status": {
+      "current_body": "CAPTURED_WITH_VERSION_DRIFT_FLAG",
+      "comments": "CAPTURED_NONE_RETURNED",
+      "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+      "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+      "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT"
+    },
+    "version_notes": [
+      "Document was created in 2020 but modified in 2023. Current body contains material that may post-date Roanoke S3; do not treat the current snapshot as a clean 2020 state without revision-body comparison."
+    ]
+  },
+  "reconciliation": {
+    "donor_corpus_id": "BCS-000093",
+    "canonical_corpus_id": "BCS-000121",
+    "collision_note": "Donor id collided with a canonical Season 5 source on main and was remapped."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The body places Ostar and the Jackalopes northeast of Roanoke Island, and the file was captured with the other May 12 2020 Season 3 race verbatims.",
+        "support_refs": [
+          "BCS-000121"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Homebrewery-style markup presents the race for players; publication as a separate site is not established.",
+        "support_refs": [
+          "BCS-000121"
+        ]
+      }
+    ]
+  }
+}

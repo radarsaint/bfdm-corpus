@@ -1,0 +1,103 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000063",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "At War's End draft 5",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-manuscript",
+  "original_filename": "At War's End draft 5.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1kzjgpNWeVC_JObur0Om0rPVHbITObtNbgr8NneRKR0k",
+      "url": "https://docs.google.com/document/d/1kzjgpNWeVC_JObur0Om0rPVHbITObtNbgr8NneRKR0k/edit"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000063/source.md",
+      "sha256": "2e84dc9bb5b6ca41bd411bca58d3bb6d8b908e1767fb7a108539aeb317ecd62e",
+      "size_bytes": 357307
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000063/original/source.docx",
+      "sha256": "36195dbdc3673183386f496614b3115f272cf738b59c1a3e3c78b9520c9a81d0",
+      "size_bytes": 188048
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000063/comments.json",
+      "sha256": "16ebdf9f0cfc42e8aeb91b2e22ea15e8110ea415f1810f2507f950fb2cb67c3e",
+      "size_bytes": 91
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "At War's End",
+    "title": "At War's End draft 5",
+    "drive_id": "1kzjgpNWeVC_JObur0Om0rPVHbITObtNbgr8NneRKR0k",
+    "original_filename": "At War's End draft 5.docx",
+    "original_stored_as": "original/source.docx",
+    "original_sha256": "36195dbdc3673183386f496614b3115f272cf738b59c1a3e3c78b9520c9a81d0",
+    "normalized_file": "source.md",
+    "normalized_sha256": "2e84dc9bb5b6ca41bd411bca58d3bb6d8b908e1767fb7a108539aeb317ecd62e",
+    "normalized_line_count": 4496,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Native Google Doc exported to DOCX from connected Drive; inclusion preserves source context and does not itself prove whole-document Brendon authorship."
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Native title is At War's End draft 5, and the body continues that work with Queen Seraphine.",
+        "support_refs": [
+          "BCS-000063"
+        ]
+      }
+    ],
+    "production_stages": []
+  },
+  "source_links": [
+    {
+      "link_type": "SUCCESSOR_OF",
+      "target_kind": "SOURCE",
+      "confidence": "STRONG",
+      "basis": "Native titles place draft 5 after the third draft. No fourth draft is preserved, and draft 5 is not marked as superseding the earlier drafts.",
+      "support_refs": [
+        "BCS-000063",
+        "BCS-000062"
+      ],
+      "to_corpus_id": "BCS-000062"
+    }
+  ]
+}
