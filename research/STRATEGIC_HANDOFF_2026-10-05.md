@@ -39,6 +39,14 @@ Brendon's own north-star statement from the planning thread should be preserved 
 
 The project should not quietly downgrade that target into "a competent solo chatbot." The long-term quality target is a DM capable enough that a player could prefer Kit to an experienced human DM, while retaining the flexibility to design and operate campaigns at scales Brendon cannot personally cover alone.
 
+Do not reduce Kit's objective to a scalar such as "maximize player enjoyment." DM judgment includes fair danger, consequence, player sovereignty, pacing, authored purpose, surprise, restraint, and long-term campaign coherence. A locally pleasing answer can be globally wrong.
+
+A recurring product direction is:
+
+> preserve purpose, adapt implementation, let consequences outrank scripts.
+
+That is a design orientation, not a universal BFDM doctrine; research is allowed to narrow or overturn it.
+
 The long-horizon target is therefore broader than `dnd-solo`, broader than the BFDM corpus, and broader than a personality prompt.
 
 The target is a persistent DM cognition that can scale from:
@@ -215,6 +223,44 @@ situation
 -> correction / reinforcement / change
 ```
 
+The fuller BFDM decision-trajectory protocol developed in this work uses these fields when evidence supports them:
+
+- SITUATION
+- CRITICAL CUES
+- RECOGNITION
+- BIG PICTURE
+- INTENT
+- MISSING INFO
+- DM CONCERN
+- CANDIDATES
+- CHOSEN
+- PROJECTION / EXPECTATION
+- OUTCOME
+- REVISION / HINDSIGHT
+- COUNTERFACTUAL
+- TRANSFER
+
+Evidence labels should preserve epistemic status rather than laundering inference into fact:
+
+- DIRECT
+- STRONG_INFERENCE
+- WEAK_INFERENCE
+- RETROSPECTIVE_SELF_REPORT
+- CONTRADICTED
+- UNKNOWN
+
+Useful decision scopes include:
+
+- moment;
+- scene;
+- session;
+- arc;
+- campaign;
+- multi-DM;
+- server/global.
+
+Unsupported fields stay UNKNOWN. Retrospective self-report stays retrospective. A correction can relate to an earlier case without proving that the earlier decision was wrong in its original conditions.
+
 The existing contrast-family draft is PR #28.
 
 Earthfall and Saturday D&D workbench sources should now be used to **attack** the existing S3/S4 findings.
@@ -265,7 +311,18 @@ Evidence may include:
 
 Design evidence can support design-method claims without live-play confirmation.
 
-Do not convert a design claim into "this worked at the table" without separate evidence.
+Phase 2B should preserve evidence categories such as:
+
+- EXPLICIT_DESIGN_INTENT
+- OBSERVED_DESIGN_CHOICE
+- DESIGN_INFERENCE
+- REVISION_EVIDENCE
+- LIVE_EVIDENCE
+- RETROSPECTIVE_SELF_REPORT
+
+Direct authorship and accepted project artifacts are also distinct. Project ownership, file ownership, or presence in Brendon's workspace does not by itself establish passage-level authorship.
+
+Do not convert a design claim into "this worked at the table" without separate evidence. Do not mix Phase 2B design-method findings into Phase 2A live-decision contrast families merely to make one unified theory.
 
 ### Stage 3 — Minimal cognition tests
 
@@ -284,6 +341,19 @@ Candidate work includes:
 - campaign simulation.
 
 Stage 3 should use the cheapest mechanism that can falsify the hypothesis.
+
+A candidate decision-time pipeline discussed in planning is:
+
+```text
+recognition
+-> candidate decision / concern
+-> decision-scoped retrieval
+-> distinguish precedent from the current case
+-> judgment
+-> action / restraint
+```
+
+This matters because retrieval should answer a recognized decision problem. The project should not simply retrieve semantically similar lore and hope judgment emerges.
 
 Keep two representations when precedent work begins:
 
@@ -722,6 +792,14 @@ Do not collapse these into one conversational memory:
 - derived views;
 - temporary assembled context.
 
+A related state taxonomy that must not be flattened is:
+
+- committed canonical truth;
+- hidden-but-bound truth;
+- deliberately constrained-but-unbound future state;
+- epistemic/belief state owned by a knower;
+- speculative possibility.
+
 Persist durable facts, commitments, and processes. Recompute stale judgments when possible rather than preserving every old interpretation as if it were state.
 
 ### Attention
@@ -754,6 +832,8 @@ Campaign time may require:
 
 Long-running processes should eventually live in durable state/workflows, not depend on an LLM remembering them conversationally.
 
+Strategic campaign cognition should generally sit outside the live-scene hot loop. Scene execution receives a bounded situation; background/campaign cognition maintains clocks, promises, dormant storylines, unresolved obligations, and cross-scene consequences.
+
 ### Deferred binding
 
 A useful candidate status model for unresolved future facts is:
@@ -766,6 +846,8 @@ A useful candidate status model for unresolved future facts is:
 This distinction matters because a DM must sometimes preserve a hidden fact, sometimes preserve only constraints, and sometimes genuinely leave the future undecided.
 
 Do not accidentally "remember" an open possibility as if it had already become canon.
+
+Deferred binding must not become retroactive authorship or a Quantum-Ogre mechanism. A later resolution must respect the constraints and evidence that genuinely existed earlier rather than pretending the answer had always been fixed.
 
 ### Entity cognition
 
@@ -807,6 +889,8 @@ The most dangerous failure classes are:
 4. player-agency violation.
 
 A clever story move does not compensate for one of these failures.
+
+The long-term system may use coordinated specialized components while still presenting as one persistent Kit. "One mind" is a user-facing continuity requirement; it is not a commitment that one model invocation or one process must perform every cognitive function.
 
 ---
 
@@ -863,9 +947,15 @@ These distinctions are project-critical:
 - acceptance ≠ implementation;
 - open PR ≠ canonical main;
 - human-object projection ≠ source truth;
-- research concept ≠ canon fact.
+- research concept ≠ canon fact;
+- confidence ≠ generalizability;
+- project/file ownership ≠ passage-level authorship;
+- absence claims require coverage checks;
+- retrospective self-report ≠ contemporaneous evidence.
 
 Prefer explicit UNKNOWN over invented continuity.
+
+Research is supposed to **correct architecture guesses**, not validate them. Distinguish requirements from implementation assumptions. "Study and steal" useful mechanisms aggressively, but let experiments reject attractive architecture.
 
 Preserve contradictions.
 
@@ -1038,6 +1128,9 @@ Do not default back to:
 ---
 
 ## 16. Provisional architecture direction
+
+Cognition work must not weaken existing runtime contracts merely because a new memory/planning design is attractive. In particular, preserve the current separation between authoritative committed state and projections, knower-scoped visibility, private decision state and player-safe spoken output, and bounded scene discernment. Runtime-specific contracts live in `dnd-solo`; this document records the architectural requirement that later cognition layers respect rather than bypass them.
+
 
 A dedicated cognitive-architecture survey exists on branch `research/kit-cognitive-architecture-survey`, primarily in `research/kit-design/kit-cognitive-architecture-survey-v1.md`. It is research input and hypothesis space, not a final implementation specification.
 
