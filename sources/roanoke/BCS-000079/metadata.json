@@ -1,0 +1,57 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000079",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Brendon's copy of crafting.",
+  "source_role": "system_design_working_copy",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Brendon's copy of crafting..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-25T17:19:35.659Z",
+  "modified_at": "2020-04-29T05:12:30.044Z",
+  "ingested_at": "2026-10-04T18:35:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Working-copy title identifies Brendon; body contains BF annotations alongside other named contributors, so sole authorship is not claimed.",
+    "project_ownership_context": "Roanoke Season 3 crafting-system development.",
+    "legacy_status": "MIXED_OR_PARTIALLY_VERIFIED"
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1xyTB9kHP-xUPlcsbpDmqKeirOYcwD2IPh3dVmitNEQQ",
+      "url": "https://docs.google.com/document/d/1xyTB9kHP-xUPlcsbpDmqKeirOYcwD2IPh3dVmitNEQQ/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY",
+    "original_export": "CAPTURED_ON_DONOR_BRANCH_PENDING_EXACT_BLOB_TRANSPLANT"
+  },
+  "representations": [],
+  "normalization": {
+    "method": "Portable normalized body preserved exactly from ingest/drive-project-v3; Google-native export snapshot remains identified by donor Git blob pending binary attachment.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Original DOCX is present on the donor branch and identified below by exact Git blob SHA, but has not yet been attached to this fresh branch because the authenticated ref-update action rejected the low-level tree commit."
+    ]
+  },
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000079",
+    "donor_git_blobs": {
+      "source.md": "b846d7344d3e83d4dded63c81e8bbacb6c4a6ca3",
+      "comments.jsonl": "0d7b9aaa0704844b4f823316411d758eda421b17",
+      "revisions.jsonl": "616364366b5540b563b8dd6bb657e9a325e67b8e",
+      "original/source.docx": "1d9b96e707c6c67821f35acb9f747f78f925cfb7"
+    },
+    "binary_attachment_status": "PENDING_EXACT_BLOB_TRANSPLANT",
+    "note": "Do not reacquire or regenerate the DOCX; transplant the donor blob unchanged when ref transport is available."
+  }
+}
