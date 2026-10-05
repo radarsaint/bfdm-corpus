@@ -1065,7 +1065,28 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-week-operations",
-      "internal_or_version_links": 28,
+      "internal_or_version_links": 29,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000130"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000130"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s3-week5-map",
+      "internal_or_version_links": 1,
       "cross_medium_links": 0
     },
     {
@@ -2291,6 +2312,13 @@
       "status": "NOT_ESTABLISHED",
       "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
       "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000130",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A linked map is preparation. It does not show the map was used in play.",
+      "document_family_id": "roanoke-s3-week5-map"
     }
   ],
   "archive_gaps": [
@@ -2298,7 +2326,7 @@
       "corpus_id": "BCS-000022",
       "question": "normalized_body",
       "status": "ARCHIVE_GAP",
-      "basis": "source.md is frontmatter only. The DOCX export is preserved and was not given a substitute summary.",
+      "basis": "The native Google Doc 1HR-Ohmr8A9rx1VIbVq3acRmtqKX_FwsBYahGxxBEiSQ was re-read on 2026-10-05 and is blank. The preserved DOCX matches it: 17 empty paragraphs, no text, no images. There is no bestiary text to recover from either copy.",
       "document_family_id": "roanoke-island-bestiary"
     },
     {
@@ -2312,10 +2340,10 @@
       "corpus_id": "BCS-000053",
       "question": "referenced_source_absent",
       "status": "ARCHIVE_GAP",
-      "basis": "The week 5 breakdown links a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v, which is still not a cataloged corpus source. The Spelljammer lodestone document is now BCS-000128. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast.",
+      "basis": "The map linked beside The Morkoth is now BCS-000130. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found filled cast list. A blank breakdown template (Drive 1AV4piqqYZHTJFP66_zjhQQwD1zHGaxrhhxZgUquoDOo) contains those headings and no cast.",
       "document_family_id": "roanoke-s3-week-operations"
     }
   ],
-  "container_count": 128,
-  "catalog_count": 129
+  "container_count": 129,
+  "catalog_count": 130
 }

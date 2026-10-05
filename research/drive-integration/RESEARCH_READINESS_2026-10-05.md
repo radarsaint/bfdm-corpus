@@ -66,6 +66,7 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-uru-halfwudgie` | LONGITUDINAL_RESEARCH_GAP | `BCS-000086` |
 | `roanoke-s3-uru-lore` | LONGITUDINAL_RESEARCH_GAP | `BCS-000120` |
 | `roanoke-s3-week-operations` | LONGITUDINAL_RESEARCH_GAP | `BCS-000018`, `BCS-000029`, `BCS-000030`, `BCS-000031`, `BCS-000032`, `BCS-000033`, `BCS-000034`, `BCS-000035`, `BCS-000036`, `BCS-000037`, `BCS-000038`, `BCS-000039`, `BCS-000040`, `BCS-000048`, `BCS-000049`, `BCS-000050`, `BCS-000051`, `BCS-000052`, `BCS-000053`, `BCS-000071` |
+| `roanoke-s3-week5-map` | LONGITUDINAL_RESEARCH_GAP | `BCS-000130` |
 | `roanoke-s5-google-sites-revision-process` | LONGITUDINAL_RESEARCH_GAP | `BCS-000113` |
 | `roanoke-s5-published-sites` | LONGITUDINAL_RESEARCH_GAP | `BCS-000087`, `BCS-000088`, `BCS-000089`, `BCS-000090`, `BCS-000091`, `BCS-000092`, `BCS-000093`, `BCS-000094`, `BCS-000095`, `BCS-000096`, `BCS-000097`, `BCS-000098`, `BCS-000099`, `BCS-000100`, `BCS-000101`, `BCS-000102`, `BCS-000104`, `BCS-000105`, `BCS-000106`, `BCS-000107`, `BCS-000108`, `BCS-000109`, `BCS-000111`, `BCS-000112` |
 | `roanoke-s5-way-of-gun-fu` | LONGITUDINAL_RESEARCH_GAP | `BCS-000103`, `BCS-000110`, `BCS-000114` |
@@ -125,6 +126,7 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-uru-halfwudgie` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-uru-lore` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-week-operations` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 20 |
+| `roanoke-s3-week5-map` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s5-google-sites-revision-process` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s5-published-sites` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 24 |
 | `roanoke-s5-way-of-gun-fu` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
@@ -429,6 +431,12 @@ Members: `BCS-000018`, `BCS-000029`, `BCS-000030`, `BCS-000031`, `BCS-000032`, `
 
 Trajectory: `none`.
 
+### `roanoke-s3-week5-map` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000130`
+
+Trajectory: `none`.
+
 ### `roanoke-s5-google-sites-revision-process` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000113`
@@ -619,6 +627,7 @@ The source is present. The fact is not established. Do not fill these in by infe
 - `BCS-000127` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
 - `BCS-000128` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
 - `BCS-000129` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000130` `live_use` (NOT_ESTABLISHED): A linked map is preparation. It does not show the map was used in play.
 
 ## Archive gaps
 
@@ -628,9 +637,9 @@ Catalog-only ids: `BCS-000068`.
 
 Containers that cite a source the repository does not hold:
 
-- `BCS-000022`: source.md is frontmatter only. The DOCX export is preserved and was not given a substitute summary.
+- `BCS-000022`: The native Google Doc 1HR-Ohmr8A9rx1VIbVq3acRmtqKX_FwsBYahGxxBEiSQ was re-read on 2026-10-05 and is blank. The preserved DOCX matches it: 17 empty paragraphs, no text, no images. There is no bestiary text to recover from either copy.
 - `BCS-000037`: The week 4 breakdown names a week four cast list without a corpus container. The Tatankan escape room it links is now BCS-000126.
-- `BCS-000053`: The week 5 breakdown links a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v, which is still not a cataloged corpus source. The Spelljammer lodestone document is now BCS-000128. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast.
+- `BCS-000053`: The map linked beside The Morkoth is now BCS-000130. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found filled cast list. A blank breakdown template (Drive 1AV4piqqYZHTJFP66_zjhQQwD1zHGaxrhhxZgUquoDOo) contains those headings and no cast.
 
 Season 5 Google Site sources that are publication captures are not Drive draft families. Season 5 is not longitudinally ready for prep-to-play judgment. Its live and dev-Discord bridge is an archive gap, not a hidden fact inside the Drive PDFs.
 

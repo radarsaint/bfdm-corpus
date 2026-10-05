@@ -33,5 +33,6 @@ Donor IDs BCS-000087 through BCS-000093 in this 2026-10-03 ledger collided with 
 
 ## Glance — 2026-10-05
 
-`TRIAGE_2026-10-05.md` records openings actually read. It is not an admission list. Two ledger rows were corrected to `INGESTED` because the Drive ids were already containers: Tatankan (`BCS-000126`) and The Jackalope Verbatim (`BCS-000121`).
+`TRIAGE_2026-10-05.md` is the first handful of openings. `TRIAGE_PASS_2026-10-05.md` is the pass over the rest of the unreviewed rows. Rows that were opened are not admitted. Five files could not be read; the reason is in that pass.
+
 
