@@ -1,0 +1,520 @@
+{
+  "schema_version": "bfdm_chatgpt_project_history_manifest/v1",
+  "project": "Earthfall:live",
+  "canonical_project_registry_id": "earthfall",
+  "recovery_class": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "access": "PARTIAL / SEARCH-BASED",
+  "conversation_inventory": [
+    {
+      "date": "2026-02-21",
+      "title": "Untitled early premise / naming recovery",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed. Possible overlap with adjacent Feb 21 conversation."
+    },
+    {
+      "date": "2026-02-21",
+      "title": "Untitled broadcast / audience / sponsor system recovery",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed. Conversation boundary unresolved."
+    },
+    {
+      "date": "2026-02-22",
+      "title": "Untitled Tasha / Guvner’s Multiversal / Pale Night development",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Untitled R.O.D. voice / Floor 1 Baatorasaka development",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Untitled strict thread extraction / premise correction",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Untitled Baatorasaka Backrooms Level 1 rewrite",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Untitled Master AI Game Engine / Rob contestant setup",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Earthfall:live / The Service Door Under the World solo test",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Untitled pre-Earthfall AR Gym Raid",
+      "status": "PARTIAL",
+      "notes": "Search-based retrieval only; raw transcript not exposed."
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Area 16 Survival Challenge",
+      "status": "INGESTED",
+      "corpus_id": "BCS-000131",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000131/source.md",
+      "notes": "Project-visible user excerpts; assistant side incomplete."
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Polish Session Draft",
+      "status": "INGESTED",
+      "corpus_id": "BCS-000132",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000132/source.md",
+      "notes": "Project-visible user excerpts; assistant side incomplete."
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Game Tracking Update",
+      "status": "INGESTED",
+      "corpus_id": "BCS-000133",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000133/source.md",
+      "notes": "Project-visible user excerpts; assistant side incomplete."
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Build Earthfall App",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; implementation discussion."
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Build Fryvern Fight",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; encounter development."
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Dnd Arcade Consumables",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; Starcade/safe-room work."
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Caribbean Pirate Theme",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; Floor 2 design."
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Show Aggro Level 2 Art",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; art/implementation context."
+    },
+    {
+      "date": "2026-09-22",
+      "title": "New chat — Floor 2 Aggro art example",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; generic title in Project context."
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Plan Dead Turtle Transition",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; immediate post-Fryvern assessment and Nassau transition."
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Rod Voice Achievement Generator",
+      "status": "QUEUED",
+      "notes": "Named Project conversation exposed; achievement/loot/player-created skill work."
+    }
+  ],
+  "project_files": [
+    {
+      "file_id": "file_00000000813471f59756f1e2d068c129",
+      "name": "Races for the isakei .odt",
+      "mime_type": "application/vnd.oasis.opendocument.text",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000242871fd8531f3d37c42107c",
+      "name": "Design Overview Style Guide.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000003e4c71fd975a3082d253b24b",
+      "name": "Design Overview Style Guide.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000787071fdb6ce004c7440ba3c",
+      "name": "Design Overview Style Guide.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000fabc71f88dba6da4dec3b2fa",
+      "name": "Design Overview Style Guide.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000009cb471fd8af0a2e607f92e55",
+      "name": "Design Overview Style Guide.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000004a1871fd80e970421e8aea07",
+      "name": "Design Overview Style Guide.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_0000000086d871fdbb34bff38c639c93",
+      "name": "Campaign Spectacle and Consequence.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000cb9471fd9f9be842d4aec05b",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000af1471fd838ebfedbbecf58a",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000004fe471fd8915578364e94859",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000451871fda75c2ceafbfdd294",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000942071fdad56c2d0ae9bce12",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000f14471fdae1ba2cdbcca1824",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000006a4871fd8c718da7249e6cff",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000131471fd9bdb60b64e4d55f1",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000006e9c71fd90ba64c10f7c9e5f",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000535071f8bfcce9de315dd3fb",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000008b6471fd91e8a5f23c13305b",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000005bf071fd8a71b85c6f3db5af",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000008c4871fd93706b2e440cbd21",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000008a9c71fd807e8d6ba7f20531",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000efe071fda90e0091e75e9b3e",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_0000000091c071fdb3ed4d9afb056d6a",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000000d3471f8b0e4d63f3181397f",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000a8d471fda455d79cbbcdac19",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000294c71fd98bb277ada5eff90",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000ba6471fd9eb3d6faa745e00c",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_0000000035c871fda257e31a2856ba6b",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_0000000084d071fda46b5daefe04e861",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000000e3471f88ebee9c3b9b8d130",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000004c0071fdb07350df5f0f18b3",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000637c71fdaf1ff00482e44402",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000450871fd9140ccf30156d46f",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000a38071fda6e1a1ff13414ae3",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000622071fd88e7b3754a465afd",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000007b0871fd9ae2b49074bd50ae",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000daf471fdbf8d2c4e4a51f73d",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000067c71fdae285bff474a765f",
+      "name": "Pricing Tool Design.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000327c71fda60a6b3a9b0e3bc2",
+      "name": "Pricing Tool Design.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000003aac71fd97ceac0612187cff",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000bdfc71fdb09b97b24128bbb0",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000bb4c71fd84efda480a1e2151",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000009fec71fd89409df9e30cbd85",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000f2a871fda08a283b240513a6",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000f3d871fdaab2faf1ec5e2005",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000620471fda93c0a3003501d1e",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000e60871fdad83670de14db761",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000000c8071f88e82c65df9fa09ce",
+      "name": "Isekai DnD Dungeon Crawl.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000cfac71fdb2727f2dcdeca117",
+      "name": "AI Game Engine Prompt.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_000000007410722fbe75788199ce4fda",
+      "name": "Earthfall Dungeon Show.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    },
+    {
+      "file_id": "file_00000000529471f5871df1d735c842e3",
+      "name": "Earthfall Dungeon Show.txt",
+      "mime_type": "text/plain",
+      "status": "DISCOVERED",
+      "note": "Project-backed file; no duplicate source identity inferred from filename alone."
+    }
+  ],
+  "existing_related_sources": [
+    {
+      "corpus_id": "BCS-000054",
+      "title": "earthfall",
+      "relationship": "EXISTING_CANONICAL_SOURCE_REFERENCE"
+    },
+    {
+      "corpus_id": "BCS-000055",
+      "title": "Rod script",
+      "relationship": "EXISTING_CANONICAL_SOURCE_REFERENCE"
+    }
+  ],
+  "limitations": [
+    "No complete bulk Project conversation export is exposed in this interface.",
+    "Named Project conversation excerpts expose user messages more completely than assistant messages.",
+    "Older conversations are available only as search/retrieval fragments; raw transcript text is not being invented.",
+    "Conversation IDs are not exposed.",
+    "Project files may include repeated snapshots with identical filenames; identity is not collapsed from filename alone."
+  ]
+}
