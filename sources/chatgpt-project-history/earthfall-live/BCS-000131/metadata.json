@@ -39,7 +39,8 @@
     "warnings": [
       "Complete conversation export was not available.",
       "Assistant messages are not fully exposed in this recovery.",
-      "Conversation identity is not exposed."
+      "Conversation identity is not exposed.",
+      "One Project-visible user message contained a detailed third-party personal profile and is explicitly redacted from this currently public repository snapshot; surrounding message order is preserved."
     ]
   },
   "representations": [],
