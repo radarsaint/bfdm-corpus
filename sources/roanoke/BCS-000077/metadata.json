@@ -1,0 +1,56 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000077",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Crafting with Class (Dev Doc)",
+  "source_role": "system_design_dev",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Crafting with Class (Dev Doc).docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-03-02T18:22:58.323Z",
+  "modified_at": "2020-05-24T02:58:20.161Z",
+  "ingested_at": "2026-10-04T18:25:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Explicit byline in source: Rob Hubbard, Brendon Faulkner, Noah Carr.",
+    "project_ownership_context": "Roanoke Season 3 crafting-system development."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1f4X-uakPH_pTQ1WhI-yYA8RRExUVpJWYb0GYzp_Ii68",
+      "url": "https://docs.google.com/document/d/1f4X-uakPH_pTQ1WhI-yYA8RRExUVpJWYb0GYzp_Ii68/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY",
+    "original_export": "CAPTURED_ON_DONOR_BRANCH_PENDING_EXACT_BLOB_TRANSPLANT"
+  },
+  "representations": [],
+  "normalization": {
+    "method": "Portable normalized body preserved exactly from ingest/drive-project-v3; Google-native export snapshot remains identified by donor Git blob pending binary attachment.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Original DOCX is present on the donor branch and identified below by exact Git blob SHA, but has not yet been attached to this fresh branch because the authenticated ref-update action rejected the low-level tree commit."
+    ]
+  },
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000077",
+    "donor_git_blobs": {
+      "source.md": "a0256205f2b0d73612eea8d9aee53682d8d61258",
+      "comments.jsonl": "b49394665a0203deb92ccf53a39b33fbeefe7472",
+      "revisions.jsonl": "dd0d264a6f2db16757958dbef99156a77bbfe317",
+      "original/source.docx": "bf4a70d332dc6b163f53b6b3f8c9b06efc17a806"
+    },
+    "binary_attachment_status": "PENDING_EXACT_BLOB_TRANSPLANT",
+    "note": "Do not reacquire or regenerate the DOCX; transplant the donor blob unchanged when ref transport is available."
+  }
+}
