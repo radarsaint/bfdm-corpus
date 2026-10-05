@@ -3,7 +3,7 @@
 **Status:** PROJECT_HISTORY_RECOVERY_PARTIAL  
 **Project access:** PARTIAL / SEARCH-BASED  
 **Generated:** 2026-10-05  
-**Last completed batch:** 2
+**Last completed batch:** 3
 
 This manifest prevents a search-based recovery from being mistaken for a complete project export. Exact conversation titles are recorded only when exposed; none of the currently recovered Saturday D&D clusters exposes a reliable native title.
 
@@ -17,8 +17,8 @@ This manifest prevents a search-based recovery from being mistaken for a complet
 | 2026-05-28-31-witch-jar-bank-heist | 2026-05-28/2026-05-31 | unavailable | PARTIAL | BCS-000131 | Batch 1. Partial search-recovered source; exact titles/message IDs/full bodies unavailable. |
 | 2026-05-29-neverwinter-druid | 2026-05-29 | unavailable | PARTIAL | BCS-000135 | Circle of Stars druid rooting in Neverwinter; exact title unavailable. Batch 2 source container added; recovery remains partial. |
 | 2026-05-30-water-peculiar | 2026-05-30 | unavailable | PARTIAL | BCS-000136 | Water Peculiar encounter; discovered during recovery and deferred to a later announced batch. Batch 2 source container added; recovery remains partial. |
-| 2026-06-13-tasha-tarot | 2026-06-13 | unavailable | QUEUED | — | Tasha head-in-jar / tarot material; exact title unavailable. |
-| 2026-06-27-measured-coin-portfolio | 2026-06-27 | unavailable | QUEUED | — | House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable. |
+| 2026-06-13-tasha-tarot | 2026-06-13 | unavailable | PARTIAL | BCS-000137 | Tasha head-in-jar / tarot material; exact title unavailable. Batch 3 source container added; recovery remains partial. |
+| 2026-06-27-measured-coin-portfolio | 2026-06-27 | unavailable | PARTIAL | BCS-000138 | House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable. Batch 3 source container added; recovery remains partial. |
 | 2026-07-11-evernight-house-dungeon | 2026-07-11 | unavailable | QUEUED | — | Evernight mirrored House dungeon crawl, memory deposits, new PC, correspondence mechanism; exact title unavailable. |
 | 2026-07-29-30-neris-tasha | 2026-07-29/2026-07-30 | unavailable | QUEUED | — | Neris Quill, Secrets Taken to the Grave, Tasha portfolio/item description. Raw turns are available in current conversation context. |
 | 2026-08-08-vault-custodian | 2026-08-08 | unavailable | QUEUED | — | Vault Custodian boss fight, combat tracker, loot, portal escape, deep-dark-secrets table. Raw turns are available in current conversation context. |
