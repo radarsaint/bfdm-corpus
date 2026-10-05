@@ -3,7 +3,7 @@
 **Status:** PROJECT_HISTORY_RECOVERY_PARTIAL  
 **Project access:** PARTIAL / SEARCH-BASED  
 **Generated:** 2026-10-05  
-**Last completed batch:** 4
+**Last completed batch:** 5
 
 This manifest prevents a search-based recovery from being mistaken for a complete project export. Exact conversation titles are recorded only when exposed; none of the currently recovered Saturday D&D clusters exposes a reliable native title.
 
@@ -20,12 +20,12 @@ This manifest prevents a search-based recovery from being mistaken for a complet
 | 2026-06-13-tasha-tarot | 2026-06-13 | unavailable | PARTIAL | BCS-000137 | Tasha head-in-jar / tarot material; exact title unavailable. Batch 3 source container added; recovery remains partial. |
 | 2026-06-27-measured-coin-portfolio | 2026-06-27 | unavailable | PARTIAL | BCS-000138 | House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable. Batch 3 source container added; recovery remains partial. |
 | 2026-07-11-evernight-house-dungeon | 2026-07-11 | unavailable | PARTIAL | BCS-000139 | Evernight mirrored House dungeon crawl, memory deposits, new PC, correspondence mechanism; exact title unavailable. Batch 4 source container added; recovery remains partial. |
-| 2026-07-29-30-neris-tasha | 2026-07-29/2026-07-30 | unavailable | QUEUED | — | Neris Quill, Secrets Taken to the Grave, Tasha portfolio/item description. Raw turns are available in current conversation context. |
-| 2026-08-08-vault-custodian | 2026-08-08 | unavailable | QUEUED | — | Vault Custodian boss fight, combat tracker, loot, portal escape, deep-dark-secrets table. Raw turns are available in current conversation context. |
+| 2026-07-29-30-neris-tasha | 2026-07-29/2026-07-30 | unavailable | PARTIAL | BCS-000140 | Neris Quill, Secrets Taken to the Grave, Tasha portfolio/item description. Raw turns are available in current conversation context. Batch 5: same visible current-conversation segment preserved in BCS-000140. |
+| 2026-08-08-vault-custodian | 2026-08-08 | unavailable | PARTIAL | BCS-000140 | Vault Custodian boss fight, combat tracker, loot, portal escape, deep-dark-secrets table. Raw turns are available in current conversation context. Batch 5: same visible current-conversation segment preserved in BCS-000140. |
 
 ## Project file / asset inventory
 
-The current Project surface exposes **41** file/asset records. These are inventoried before selective ingestion. Generated art is not silently treated as user-authored historical source material.
+The original pre-ingest Project surface inventory contains **41** file/asset records. Generated art is not silently treated as user-authored historical source material.
 
 | Turn | Project file / asset | Library alias if recovered | Kind | Stable file ID | Status / relation |
 |---:|---|---|---|---|---|
@@ -65,10 +65,10 @@ The current Project surface exposes **41** file/asset records. These are invento
 | 97 | 88e4c2e1-bca0-43ae-a014-d0e8967ab959.png | — | upload | `file_00000000761871f899f0900e19caceee` | QUEUED |
 | 97 | a_close_up_highly_detailed_stylized_fantasy_port.png | — | generated | `file_00000000c85471fdb95a2b73ddd6a881` | QUEUED |
 | 102 | a_close_up_highly_detailed_realistic_cgi_style_s.png | — | generated | `file_000000003c7071fd966d62169ac1f72b` | QUEUED |
-| 116 | a_close_up_richly_detailed_still_life_prop_scene.png | — | generated | `file_0000000077f881fd8477220afd017865` | QUEUED |
-| 124 | a_meticulously_detailed_hand_painted_fantasy_styl.png | — | generated | `file_00000000ee7081fbb432ea29fc6872fc` | QUEUED |
-| 128 | tasha_vault_custodian_combat_tracker.html | — | generated | `file_00000000e21881fba9d4cf82c0e624f0` | QUEUED |
-| 128 | tasha_vault_custodian_combat_tracker.zip | — | generated | `file_00000000280c81fb8939295ca5996091` | QUEUED |
+| 116 | a_close_up_richly_detailed_still_life_prop_scene.png | — | generated | `file_0000000077f881fd8477220afd017865` | REFERENCED; BCS-000140 |
+| 124 | a_meticulously_detailed_hand_painted_fantasy_styl.png | — | generated | `file_00000000ee7081fbb432ea29fc6872fc` | REFERENCED; BCS-000140 |
+| 128 | tasha_vault_custodian_combat_tracker.html | — | generated | `file_00000000e21881fba9d4cf82c0e624f0` | REFERENCED; BCS-000140 |
+| 128 | tasha_vault_custodian_combat_tracker.zip | — | generated | `file_00000000280c81fb8939295ca5996091` | REFERENCED; BCS-000140 |
 | 132 | Pasted text.txt | — | imported | `file_0000000071d48230a30d213b005450f7` | OUT_OF_SCOPE |
 
 ## Known limitations
@@ -77,4 +77,5 @@ The current Project surface exposes **41** file/asset records. These are invento
 - Search retrieval does not expose native ChatGPT conversation/message IDs.
 - Exact titles are unavailable for the recovered clusters above.
 - Attachments can be inventoried more completely than conversation bodies.
+- BCS-000140 preserves a visible current-conversation segment, not the entire native conversation.
 - Current campaign-history recovery therefore remains **PROJECT_HISTORY_RECOVERY_PARTIAL**.
