@@ -2,7 +2,8 @@
 
 **Status:** PROJECT_HISTORY_RECOVERY_PARTIAL  
 **Project access:** PARTIAL / SEARCH-BASED  
-**Generated:** 2026-10-05
+**Generated:** 2026-10-05  
+**Last completed batch:** 2
 
 This manifest prevents a search-based recovery from being mistaken for a complete project export. Exact conversation titles are recorded only when exposed; none of the currently recovered Saturday D&D clusters exposes a reliable native title.
 
@@ -10,12 +11,12 @@ This manifest prevents a search-based recovery from being mistaken for a complet
 
 | Recovery key | Date/range | Title | Status | Repo source | Notes |
 |---|---|---|---|---|---|
-| 2026-04-07-neverwinter-evernight | 2026-04-07 | unavailable | QUEUED | — | Neverwinter / Evernight setting discussion; exact title and native conversation ID unavailable. |
-| 2026-05-14-house-measured-coin | 2026-05-14 | unavailable | QUEUED | — | Neverwinter/Evernight campaign discussion including House of Measured Coin and Tasha head-in-jar material; exact title unavailable. |
-| 2026-05-24-tasha-voice | 2026-05-24 | unavailable | QUEUED | — | Tasha head-in-jar voice material surfaced by historical-context search; exact title unavailable. |
+| 2026-04-07-neverwinter-evernight | 2026-04-07 | unavailable | PARTIAL | BCS-000132 | Neverwinter / Evernight setting discussion; exact title and native conversation ID unavailable. Batch 2 source container added; recovery remains partial. |
+| 2026-05-14-house-measured-coin | 2026-05-14 | unavailable | PARTIAL | BCS-000133 | Neverwinter/Evernight campaign discussion including House of Measured Coin and Tasha head-in-jar material; exact title unavailable. Batch 2 source container added; recovery remains partial. |
+| 2026-05-24-tasha-voice | 2026-05-24 | unavailable | PARTIAL | BCS-000134 | Tasha head-in-jar voice material surfaced by historical-context search; exact title unavailable. Batch 2 source container added; recovery remains partial. |
 | 2026-05-28-31-witch-jar-bank-heist | 2026-05-28/2026-05-31 | unavailable | PARTIAL | BCS-000131 | Batch 1. Partial search-recovered source; exact titles/message IDs/full bodies unavailable. |
-| 2026-05-29-neverwinter-druid | 2026-05-29 | unavailable | QUEUED | — | Circle of Stars druid rooting in Neverwinter; exact title unavailable. |
-| 2026-05-30-water-peculiar | 2026-05-30 | unavailable | QUEUED | — | Water Peculiar encounter; discovered during recovery and deferred to a later announced batch. |
+| 2026-05-29-neverwinter-druid | 2026-05-29 | unavailable | PARTIAL | BCS-000135 | Circle of Stars druid rooting in Neverwinter; exact title unavailable. Batch 2 source container added; recovery remains partial. |
+| 2026-05-30-water-peculiar | 2026-05-30 | unavailable | PARTIAL | BCS-000136 | Water Peculiar encounter; discovered during recovery and deferred to a later announced batch. Batch 2 source container added; recovery remains partial. |
 | 2026-06-13-tasha-tarot | 2026-06-13 | unavailable | QUEUED | — | Tasha head-in-jar / tarot material; exact title unavailable. |
 | 2026-06-27-measured-coin-portfolio | 2026-06-27 | unavailable | QUEUED | — | House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable. |
 | 2026-07-11-evernight-house-dungeon | 2026-07-11 | unavailable | QUEUED | — | Evernight mirrored House dungeon crawl, memory deposits, new PC, correspondence mechanism; exact title unavailable. |
