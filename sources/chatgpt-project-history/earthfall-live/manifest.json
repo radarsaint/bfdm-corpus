@@ -110,32 +110,42 @@
     {
       "date": "2026-09-20",
       "title": "Caribbean Pirate Theme",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; Floor 2 design."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000137",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000137/source.md"
     },
     {
       "date": "2026-09-22",
       "title": "Show Aggro Level 2 Art",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; art/implementation context."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000138",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000138/source.md"
     },
     {
       "date": "2026-09-22",
       "title": "New chat — Floor 2 Aggro art example",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; generic title in Project context."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000139",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000139/source.md"
     },
     {
       "date": "2026-09-29",
       "title": "Plan Dead Turtle Transition",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; immediate post-Fryvern assessment and Nassau transition."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000140",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000140/source.md"
     },
     {
       "date": "2026-09-29",
       "title": "Rod Voice Achievement Generator",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; achievement/loot/player-created skill work."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000141",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000141/source.md"
     }
   ],
   "project_files": [
