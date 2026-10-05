@@ -810,7 +810,7 @@ A clever story move does not compensate for one of these failures.
 
 ---
 
-## 11. Learning and promotion
+## 10. Learning and promotion
 
 Ordinary play should not silently rewrite professional doctrine.
 
@@ -1039,7 +1039,9 @@ Do not default back to:
 
 ## 16. Provisional architecture direction
 
-The cognitive-architecture survey supports a factorized architecture rather than monolithic RAG.
+A dedicated cognitive-architecture survey exists on branch `research/kit-cognitive-architecture-survey`, primarily in `research/kit-design/kit-cognitive-architecture-survey-v1.md`. It is research input and hypothesis space, not a final implementation specification.
+
+The survey supports a factorized architecture rather than monolithic RAG.
 
 Useful conceptual layers remain:
 
