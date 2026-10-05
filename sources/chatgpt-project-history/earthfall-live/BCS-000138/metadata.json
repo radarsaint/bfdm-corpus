@@ -1,0 +1,71 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000138",
+  "project": "Earthfall",
+  "project_slug": "earthfall",
+  "title": "Show Aggro Level 2 Art",
+  "source_role": "contemporaneous_dm_workbench",
+  "source_kind": "chatgpt_project_conversation_partial",
+  "original_filename": null,
+  "mime_type": "text/markdown",
+  "created_at": "2026-09-22T00:00:00-07:00",
+  "modified_at": null,
+  "ingested_at": "2026-10-05T03:35:00Z",
+  "authorship": {
+    "status": "MIXED_CONVERSATION_PARTIAL",
+    "basis": "Project-visible USER excerpts preserved by role; missing assistant messages are not inferred."
+  },
+  "locators": [
+    {
+      "provider": "chatgpt_project",
+      "locator_type": "project_conversation_partial_recovery",
+      "project_name": "Earthfall:live",
+      "conversation_title": "Show Aggro Level 2 Art",
+      "conversation_id": null,
+      "date_anchor": "2026-09-22",
+      "completeness": "PARTIAL_RECOVERY"
+    }
+  ],
+  "capture_status": {
+    "current_body": "PARTIAL_CAPTURE",
+    "comments": "NOT_APPLICABLE",
+    "revision_metadata": "NOT_APPLICABLE",
+    "revision_bodies": "NOT_APPLICABLE",
+    "assets": "REFERENCED_NOT_DUPLICATED"
+  },
+  "normalization": {
+    "method": "Project-visible message excerpts copied in exposed order without prose cleanup.",
+    "tool": "ChatGPT Project history recovery",
+    "warnings": [
+      "Complete conversation export unavailable.",
+      "Assistant messages incompletely exposed.",
+      "Conversation identity unavailable.",
+      "Image/art outputs are referenced but not duplicated when not exposed as source bytes."
+    ]
+  },
+  "representations": [],
+  "historical_context": {
+    "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+    "evidence_states": [
+      "PROJECT_DEVELOPMENT"
+    ],
+    "generated_material_status": "Recorded only where explicit selection, rejection, delivery, or evaluation is visible."
+  },
+  "source_links": [
+    {
+      "link_type": "PROJECT_COMPANION_CONTEXT",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000054",
+      "confidence": "STRONG",
+      "basis": "Existing Earthfall system-design source."
+    },
+    {
+      "link_type": "PROJECT_COMPANION_CONTEXT",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000055",
+      "confidence": "STRONG",
+      "basis": "Existing Earthfall R.O.D. operator source."
+    }
+  ],
+  "source_body_path": "sources/chatgpt-project-history/earthfall-live/BCS-000138/source.md"
+}
