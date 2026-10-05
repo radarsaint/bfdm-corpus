@@ -1,0 +1,410 @@
+{
+  "generated_at": "2026-10-05",
+  "integration_branch": "integrate/reconciled-source-ingests-2026-10-05",
+  "base": "hardening/substrate-audit-main-2026-10-05",
+  "depends_on_pr": 31,
+  "input_heads": {
+    "main": "7e6b2dccf73efe70a01caf69ecd4a6e39e4c3f53",
+    "pr31": "27a8e69c1dca142108e28328aba3974eff357e67",
+    "pr35": "36d53fa218dcfa2ee131edfe408dd5f39ff5f44b",
+    "pr32": "316f8bb57a2c9e6f8c24142f3ea08b66995fd5f6",
+    "pr34": "cf54d344ebbedb1fb19f92fff5149ccb30d0ca49"
+  },
+  "final_bcs_range": "BCS-000131–BCS-000172",
+  "counts": {
+    "historical_recovery": 21,
+    "earthfall": 11,
+    "saturday_dnd": 10,
+    "total_new": 42,
+    "highest": "BCS-000172"
+  },
+  "mapping": [
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000131",
+      "final_id": "BCS-000131",
+      "title": "S4 Master Timeline.",
+      "project": "Roanoke",
+      "path": "sources/empire-city/BCS-000131"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000132",
+      "final_id": "BCS-000132",
+      "title": "S5 style guide",
+      "project": "Roanoke",
+      "path": "sources/roanoke-s5-legends/BCS-000132"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000133",
+      "final_id": "BCS-000133",
+      "title": "Season 5 Dungeon Master's guide",
+      "project": "Roanoke",
+      "path": "sources/roanoke-s5-legends/BCS-000133"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000134",
+      "final_id": "BCS-000134",
+      "title": "Server guidelines and house rules",
+      "project": "Arcania",
+      "path": "sources/arcania/BCS-000134"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000135",
+      "final_id": "BCS-000135",
+      "title": "Player race edits.",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000135"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000136",
+      "final_id": "BCS-000136",
+      "title": "The Rowing Oak",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000136"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000137",
+      "final_id": "BCS-000137",
+      "title": "The rowing oak guide.",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000137"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000138",
+      "final_id": "BCS-000138",
+      "title": "The Tatankan Verbatim",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000138"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000139",
+      "final_id": "BCS-000139",
+      "title": "The Chinnokin Verbatim",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000139"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000140",
+      "final_id": "BCS-000140",
+      "title": "Ferrytown Main Event Schedule",
+      "project": "Roanoke",
+      "path": "sources/empire-city/BCS-000140"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000141",
+      "final_id": "BCS-000141",
+      "title": "Hampstead Players Guide",
+      "project": "Roanoke",
+      "path": "sources/empire-city/BCS-000141"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000142",
+      "final_id": "BCS-000142",
+      "title": "Archavist Daysong Timeline.",
+      "project": "Archavist",
+      "path": "sources/archavist/BCS-000142"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000143",
+      "final_id": "BCS-000143",
+      "title": "The Arcanian Almanac",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000143"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000144",
+      "final_id": "BCS-000144",
+      "title": "Arcanian Lore",
+      "project": "Roanoke",
+      "path": "sources/roanoke-s5-legends/BCS-000144"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000145",
+      "final_id": "BCS-000145",
+      "title": "Season 5 character creation",
+      "project": "Roanoke",
+      "path": "sources/roanoke-s5-legends/BCS-000145"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000146",
+      "final_id": "BCS-000146",
+      "title": "Elevator Guantlet.",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000146"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000147",
+      "final_id": "BCS-000147",
+      "title": "Mirabelle – A Tragedy in Five Acts",
+      "project": "At War's End",
+      "path": "sources/at-wars-end/BCS-000147"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000148",
+      "final_id": "BCS-000148",
+      "title": "Pigeon Lord- draft",
+      "project": "Roanoke",
+      "path": "sources/empire-city/BCS-000148"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000149",
+      "final_id": "BCS-000149",
+      "title": "Gil's Rebirth v1",
+      "project": "Roanoke",
+      "path": "sources/roanoke/BCS-000149"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000150",
+      "final_id": "BCS-000150",
+      "title": "Monster Chess",
+      "project": "Roanoke",
+      "path": "sources/empire-city/BCS-000150"
+    },
+    {
+      "donor_pr": 35,
+      "donor_branch": "ingest/research-critical-lineages-2026-10-05",
+      "original_provisional_id": "BCS-000151",
+      "final_id": "BCS-000151",
+      "title": "Legends sign up",
+      "project": "Roanoke",
+      "path": "sources/roanoke-s5-legends/BCS-000151"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000131",
+      "final_id": "BCS-000152",
+      "title": "Area 16 Survival Challenge",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000152"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000132",
+      "final_id": "BCS-000153",
+      "title": "Polish Session Draft",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000153"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000133",
+      "final_id": "BCS-000154",
+      "title": "Game Tracking Update",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000154"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000134",
+      "final_id": "BCS-000155",
+      "title": "Build Earthfall App",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000155"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000135",
+      "final_id": "BCS-000156",
+      "title": "Build Fryvern Fight",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000156"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000136",
+      "final_id": "BCS-000157",
+      "title": "Dnd Arcade Consumables",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000157"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000137",
+      "final_id": "BCS-000158",
+      "title": "Caribbean Pirate Theme",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000158"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000138",
+      "final_id": "BCS-000159",
+      "title": "Show Aggro Level 2 Art",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000159"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000139",
+      "final_id": "BCS-000160",
+      "title": "New chat — Floor 2 Aggro art example",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000160"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000140",
+      "final_id": "BCS-000161",
+      "title": "Plan Dead Turtle Transition",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000161"
+    },
+    {
+      "donor_pr": 32,
+      "donor_branch": "ingest/chatgpt-project-earthfall-live-history",
+      "original_provisional_id": "BCS-000141",
+      "final_id": "BCS-000162",
+      "title": "Rod Voice Achievement Generator",
+      "project": "Earthfall",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000162"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000131",
+      "final_id": "BCS-000163",
+      "title": "Saturday D&D ChatGPT project history recovery, May 28–31 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000163"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000132",
+      "final_id": "BCS-000164",
+      "title": "Saturday D&D ChatGPT project history recovery, April 7 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000164"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000133",
+      "final_id": "BCS-000165",
+      "title": "Saturday D&D ChatGPT project history recovery, May 14 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000165"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000134",
+      "final_id": "BCS-000166",
+      "title": "Saturday D&D ChatGPT project history recovery, May 24 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000166"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000135",
+      "final_id": "BCS-000167",
+      "title": "Saturday D&D ChatGPT project history recovery, May 29 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000167"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000136",
+      "final_id": "BCS-000168",
+      "title": "Saturday D&D ChatGPT project history recovery, May 30 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000168"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000137",
+      "final_id": "BCS-000169",
+      "title": "Saturday D&D ChatGPT project history recovery, June 13 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000169"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000138",
+      "final_id": "BCS-000170",
+      "title": "Saturday D&D ChatGPT project history recovery, June 27 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000170"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000139",
+      "final_id": "BCS-000171",
+      "title": "Saturday D&D ChatGPT project history recovery, July 11 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000171"
+    },
+    {
+      "donor_pr": 34,
+      "donor_branch": "ingest/chatgpt-project-saturday-dnd-history",
+      "original_provisional_id": "BCS-000140",
+      "final_id": "BCS-000172",
+      "title": "Saturday D&D current Project conversation segment, July 29–August 8 2026",
+      "project": "Saturday D&D",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000172"
+    }
+  ],
+  "relationship_corrections": [
+    "Earthfall PROJECT_COMPANION_CONTEXT rewritten to legal COMPANION_TO for links to BCS-000054 and BCS-000055."
+  ],
+  "sqlite": {
+    "path": "indexes/documents.sqlite",
+    "integrity_check": "ok",
+    "foreign_key_check": 0,
+    "source_containers": 170
+  }
+}
