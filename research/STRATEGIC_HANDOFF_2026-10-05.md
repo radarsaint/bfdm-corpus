@@ -21,17 +21,23 @@ When those documents disagree on current repository state, prefer the newest can
 
 The project is not "build a RAG chatbot that imitates Brendon's prose."
 
-The intended end state is one persistent, capable Dungeon Master:
+The intended end state is one persistent, capable Dungeon Master.
 
-> Kit is a DM.  
-> Kit is Brendon's DM.  
-> Kit is a DM Brendon would hand to a friend.  
+Brendon's own north-star statement from the planning thread should be preserved literally because later paraphrases tend to shrink the ambition:
+
+> Kit. Is a dm.  
+> Kit is my dm.  
+> Kit is a dm. I'd like to hand to a friend.  
 > Kit is a campaign designer.  
-> Kit can design in the lineage of Roanoke without merely copying its surface style.  
-> Kit understands D&D.  
-> Kit understands how Brendon handles a table and can apply that judgment for other people.  
-> Kit can eventually operate a persistent server/campaign at a scale Brendon cannot personally sustain alone.  
-> Kit uses documented human experience for campaign-level judgment and continues improving from preserved experience.
+> Kit is a roanoke style campaign designer.  
+> Kit understands dnd.  
+> Kit understands how I handle a table and can do it for others.  
+> Kit can globally run a server the way I would run it if I could be multiple places at once.  
+> Kit uses my documented experience for the campaign level stuff.  
+> Currently kit is a pretty good dm who has some mechanical issues.  
+> Kit over the long haul with a large flexibility to do what I wish I could do, but better is where this is going.
+
+The project should not quietly downgrade that target into "a competent solo chatbot." The long-term quality target is a DM capable enough that a player could prefer Kit to an experienced human DM, while retaining the flexibility to design and operate campaigns at scales Brendon cannot personally cover alone.
 
 The long-horizon target is therefore broader than `dnd-solo`, broader than the BFDM corpus, and broader than a personality prompt.
 
@@ -72,6 +78,28 @@ It preserves:
 - historical contradictions and failures.
 
 The corpus must remain useful even if Kit is replaced.
+
+### Human / arbitrary-agent accessibility invariant
+
+A second archive invariant emerged from the retrieval failures that motivated this work:
+
+> **No textual historical content may be effectively hidden behind a binary container, Git LFS pointer, opaque database, embedding index, or proprietary retrieval layer as its only practical discovery path.**
+
+Where the canonical source format is binary or otherwise hostile to ordinary model/research access, preserve:
+
+- the canonical/raw source;
+- a UTF-8 searchable projection when text exists;
+- provenance connecting the projection to the source;
+- rebuildable indexes;
+- asset metadata where non-text assets matter.
+
+This creates a **research access plane** separate from whatever memory/retrieval architecture Kit eventually uses.
+
+Acceptance test:
+
+> A researcher or arbitrary capable AI with repository access, but without Kit's private memory system, vector database, or special retrieval service, should be able to discover ordinary names, phrases, concepts, mechanics, and ideas and reach enough source context to verify them.
+
+The Sandigil/Git-LFS failure is the canonical warning case: information that technically exists but cannot be inspected by the working research agent is functionally unavailable.
 
 ### `radarsaint/dnd-solo`
 
@@ -201,6 +229,23 @@ Use classifications such as:
 
 Do not force new evidence into an existing family merely because it resembles one.
 
+### Current Phase 2A contrast families
+
+These are provisional research products on PR #28, not doctrine. Preserve their actual shape so future agents do not reduce Phase 2 to a vague instruction to "study judgment."
+
+- **CF-01 — Handwave procedure vs preserve the problem.** Procedure can disappear after its uncertainty/function is exhausted; preserve it when it still carries unresolved consequence.
+- **CF-02 — Support player-created play vs stop authoring it for them.** Player investment increases the obligation to support the world around the concern, not the DM's right to decide the outcome.
+- **CF-03 — Reward creativity vs reject a cool request.** Creative proposals are tested against rules, fairness, intended pressure, collaborator ownership, and future shared cost.
+- **CF-04 — Discard/defer prepared form vs preserve delayed prep.** Evaluate whether the purpose and assumptions still survive at delivery time; schedule drift alone does not invalidate useful prep.
+- **CF-05 — Patch locally vs rewrite architecture.** Intervention scale should reach the actual causal layer; local failures get local fixes, structural failures can justify structural rewrites.
+- **CF-06 — Refuse preclaimed authority vs grant earned authority.** Shared authority is guarded against unilateral preallocation but may be delegated aggressively when earned through live responsibility.
+- **CF-07 — Let the world move vs stop simulation at an eligibility boundary.** Autonomous world causality operates only inside actions that are legitimate under table contracts.
+- **CF-08 — Preserve intended pressure vs repair illegible pressure.** Challenge can remain while telegraphing/trust is repaired when players could not reasonably perceive the stakes.
+- **CF-09 — Reduce authored density vs add missing late structure.** Late-campaign prep may need either more player-led space or more connective structure depending on what the campaign has accumulated and what is missing.
+- **CF-10 — Central authority vs collaborator sovereignty.** Central coordination does not imply universal authorship; collaborator ownership and campaign-level stewardship must be distinguished.
+
+The first stress pass did **not** kill any family. It narrowed three, added support to two, and left five substantially unchanged. That result remains lineage-limited because the stress evidence was still within the Roanoke/S3-S4 family. Earthfall and Saturday D&D are valuable precisely because they can break that concentration.
+
 #### Phase 2B — Creative method / worldbuilding
 
 Question:
@@ -226,6 +271,8 @@ Do not convert a design claim into "this worked at the table" without separate e
 
 Only after enough strong Stage 2 material exists.
 
+Stage 3 is deliberately earlier than most heavy Stage 4 implementation. The project should discover what cognition is actually required by making cheap candidate systems fail in controlled ways.
+
 Candidate work includes:
 
 - decision recognition/classification;
@@ -237,6 +284,24 @@ Candidate work includes:
 - campaign simulation.
 
 Stage 3 should use the cheapest mechanism that can falsify the hypothesis.
+
+Keep two representations when precedent work begins:
+
+1. the **rich research case** with chronology, evidence, uncertainty, alternatives, retrospective interpretation, and counterfactuals;
+2. the **compact precedent card** containing only what comparison/retrieval needs.
+
+The compact card never replaces the rich case.
+
+Historical disagreement should remain representable through relations such as:
+
+- `CORRECTED_BY`;
+- `SUPERSEDED_BY`;
+- `DIFFERS_BECAUSE`;
+- `CONTRADICTS`;
+- `COUNTEREXAMPLE_TO`;
+- `NEGATIVE_PRECEDENT_FOR`.
+
+A later different decision does not automatically prove the earlier decision was wrong.
 
 Do not jump straight to GraphRAG, spreading activation, learned rerankers, or elaborate memory graphs unless simpler methods fail.
 
@@ -308,6 +373,30 @@ table/problem context
 
 Earthfall and Saturday D&D now provide important cross-format evidence because they are recent, table-adjacent, and substantially different from S3/S4 persistent multi-DM Roanoke.
 
+### Evidence families are not one hierarchy
+
+The project should preserve several evidence families because they answer different questions:
+
+- authored design artifacts;
+- revision history;
+- play records;
+- contemporaneous DM-workbench records;
+- immediate post-play evaluation;
+- corrections and rejection evidence;
+- project-development behavior.
+
+There is no single global ordering where one family always outranks the others.
+
+Examples:
+
+- a design artifact can strongly support a creative-method claim while saying nothing about live performance;
+- a play record can establish what happened without explaining why Brendon chose it;
+- a contemporaneous workbench correction may expose decision criteria more clearly than the polished artifact that survived;
+- an explicit rejection can be stronger negative evidence than a later surviving generated proposal;
+- a retrospective explanation can illuminate intent while still being retrospective rather than contemporaneous.
+
+Research claims must name the evidence family that can actually support them.
+
 ---
 
 ## 6. Human-object index: the missing human interface
@@ -353,6 +442,10 @@ Do not search Empire City or S3 first merely because those sources are dense.
 
 The index must be corpus-wide from the outset. Coverage may be uneven; scope must not be.
 
+The human-object layer is a **derived, rebuildable, provenance-backed projection**, not an unsupported wiki and not a replacement for source truth. Automation may propose candidate objects, aliases, assertions, and merges, but it must not silently canonize identity merges.
+
+Ambiguity is a valid result. If two historical objects plausibly share a name or alias, return ambiguity rather than picking the most frequent campaign or the densest source by default.
+
 Expected object classes include:
 
 - CHARACTER / PERSON
@@ -384,6 +477,32 @@ Facts should support at least:
 - KNOWN
 - CONFLICTING
 - UNKNOWN
+
+The current prototype may also represent cautious inference, but inference must remain visibly distinct from source-supported identity truth.
+
+The v0 seed was deliberately chosen outside the easiest S3/Empire concentration to prove the architecture is corpus-wide. It currently includes objects such as:
+
+- R.O.D.;
+- Lamplighters;
+- Bastion;
+- Redoubt;
+- Aric Altovolo;
+- Fennic Ingegno;
+- The World's Cornerstone;
+- The Mason;
+- The Hunger;
+- Four Primal Wellsprings.
+
+That seed is architectural proof, not meaningful corpus coverage.
+
+A useful next expansion target discussed in planning is roughly 25–50 objects spanning at least five projects/eras, with:
+
+- remembered-name retrieval tests;
+- alias collisions;
+- typed relationships;
+- canonical art for a handful of established characters/entities;
+- identity-packet generation;
+- candidate-object extraction that never silently promotes merges.
 
 ### Mental model
 
@@ -487,6 +606,8 @@ A major planning insight from this thread is that campaign cognition does not ne
 
 A dedicated Project can operate as a **Kit campaign laboratory**.
 
+The intended setup can mount the **same pinned Kit build across multiple chats / model instances** so many branches can be explored in parallel without confusing differences in Kit version with differences in campaign outcome. The same campaign-state packet and session design can be handed to multiple instances, each receiving a different controlled resolution.
+
 ### Basic loop
 
 1. Kit designs a session.
@@ -580,7 +701,116 @@ This simulation harness belongs conceptually in Stage 3.
 
 ---
 
-## 9. Learning and promotion
+## 9. Campaign cognition candidate model
+
+The planning thread developed a more specific candidate model for campaign cognition than the architecture-layer list alone conveys. This remains a hypothesis to test, not a committed implementation.
+
+### Keep different kinds of state separate
+
+Do not collapse these into one conversational memory:
+
+- authoritative state;
+- event history;
+- episodic memory;
+- semantic/professional memory;
+- procedural memory;
+- campaign intent;
+- active concerns;
+- active attention;
+- durable workflows/processes;
+- entity cognition;
+- derived views;
+- temporary assembled context.
+
+Persist durable facts, commitments, and processes. Recompute stale judgments when possible rather than preserving every old interpretation as if it were state.
+
+### Attention
+
+Campaign cognition needs both activation and inhibition.
+
+It should track:
+
+- what has become important;
+- what is currently unresolved;
+- what players repeatedly invest in;
+- what should be allowed to recede;
+- what deserves no intervention yet;
+- what must be surfaced later even if it is not locally relevant now.
+
+Player attention is especially important as a record of unanswered investment and agency, not as permission to predetermine outcomes.
+
+### Time
+
+Represent more than timestamps.
+
+Campaign time may require:
+
+- discrete events;
+- intervals / continuing states;
+- scheduled or conditional future processes;
+- deadlines;
+- promises waiting on conditions;
+- clocks that survive chat/session boundaries.
+
+Long-running processes should eventually live in durable state/workflows, not depend on an LLM remembering them conversationally.
+
+### Deferred binding
+
+A useful candidate status model for unresolved future facts is:
+
+- `FIXED_AND_KNOWN`
+- `FIXED_BUT_HIDDEN`
+- `CONSTRAINED_BUT_UNRESOLVED`
+- `OPEN`
+
+This distinction matters because a DM must sometimes preserve a hidden fact, sometimes preserve only constraints, and sometimes genuinely leave the future undecided.
+
+Do not accidentally "remember" an open possibility as if it had already become canon.
+
+### Entity cognition
+
+Only important active entities need rich cognition at a given moment.
+
+Candidate entity state can include:
+
+- beliefs;
+- goals;
+- resources;
+- relationships;
+- knowledge;
+- pressures;
+- next likely actions.
+
+Entity cognition should activate selectively rather than flooding every turn with every NPC/faction in the campaign.
+
+### Campaign intent
+
+Campaign intent should preserve:
+
+- purpose;
+- opportunities;
+- pressures;
+- constraints;
+- promises/setup/payoffs;
+- production obligations;
+- cross-scene dependencies.
+
+It must not encode player outcomes that the players have not chosen.
+
+### P0 campaign-cognition failures
+
+The most dangerous failure classes are:
+
+1. authoritative-state corruption;
+2. hidden-knowledge leakage;
+3. lost obligations / forgotten future processes;
+4. player-agency violation.
+
+A clever story move does not compensate for one of these failures.
+
+---
+
+## 11. Learning and promotion
 
 Ordinary play should not silently rewrite professional doctrine.
 
@@ -614,7 +844,7 @@ Success in one playthrough is not sufficient to become global Kit behavior.
 
 ---
 
-## 10. Source and epistemic rules that must survive compression
+## 11. Source and epistemic rules that must survive compression
 
 These distinctions are project-critical:
 
@@ -643,7 +873,7 @@ Do not average early and late Brendon into one timeless persona.
 
 ---
 
-## 11. Work allocation: use scarce tools where they actually matter
+## 12. Work allocation: use scarce tools where they actually matter
 
 Do not equate "important" or "large" with "needs ChatGPT Work."
 
@@ -692,7 +922,7 @@ Do not burn Work merely because a task is intellectually important.
 
 ---
 
-## 12. Immediate active branches
+## 13. Immediate active branches
 
 ### PR #33 — human-object index
 
@@ -747,7 +977,7 @@ It is not the primary research priority now.
 
 ---
 
-## 13. Near-term project priorities
+## 14. Near-term project priorities
 
 The highest-value substantive work after Stage 1 consolidation is:
 
@@ -789,7 +1019,7 @@ This becomes a major way to test campaign cognition quickly before expensive rea
 
 ---
 
-## 14. What not to do next
+## 15. What not to do next
 
 Do not default back to:
 
@@ -807,7 +1037,7 @@ Do not default back to:
 
 ---
 
-## 15. Provisional architecture direction
+## 16. Provisional architecture direction
 
 The cognitive-architecture survey supports a factorized architecture rather than monolithic RAG.
 
@@ -850,7 +1080,7 @@ Avoid:
 
 ---
 
-## 16. Provisional version / schedule estimate
+## 17. Provisional version / schedule estimate
 
 This is a planning estimate, not a commitment.
 
@@ -871,7 +1101,7 @@ The largest uncertainty is quality iteration, not basic feasibility.
 
 ---
 
-## 17. Success condition for the next era of the project
+## 18. Success condition for the next era of the project
 
 The next major transition is achieved when all of the following are true:
 
