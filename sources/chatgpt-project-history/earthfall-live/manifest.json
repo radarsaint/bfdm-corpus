@@ -86,20 +86,26 @@
     {
       "date": "2026-09-07",
       "title": "Build Earthfall App",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; implementation discussion."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000134",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000134/source.md"
     },
     {
       "date": "2026-09-11",
       "title": "Build Fryvern Fight",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; encounter development."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000135",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000135/source.md"
     },
     {
       "date": "2026-09-15",
       "title": "Dnd Arcade Consumables",
-      "status": "QUEUED",
-      "notes": "Named Project conversation exposed; Starcade/safe-room work."
+      "status": "INGESTED",
+      "notes": "Project-visible user excerpts; assistant side incomplete.",
+      "corpus_id": "BCS-000136",
+      "path": "sources/chatgpt-project-history/earthfall-live/BCS-000136/source.md"
     },
     {
       "date": "2026-09-20",
