@@ -6,6 +6,8 @@
 
 This document preserves the high-level planning state that had accumulated in a long-running ChatGPT project thread. It exists so future agents do not have to reconstruct the project's direction from scattered chats, PR descriptions, or stale handoffs.
 
+The repository itself must function as the durable handoff. Chat history is useful working context, not the only copy of project direction. When a major consolidation or research-stage transition changes what is true, current-state documents should be updated rather than leaving the next agent to infer state from closed PRs and old conversations.
+
 Read this together with:
 
 - `research/NEXT_HANDOFF.md` for immediate repository state;
@@ -313,12 +315,12 @@ Design evidence can support design-method claims without live-play confirmation.
 
 Phase 2B should preserve evidence categories such as:
 
-- EXPLICIT_DESIGN_INTENT
-- OBSERVED_DESIGN_CHOICE
-- DESIGN_INFERENCE
-- REVISION_EVIDENCE
-- LIVE_EVIDENCE
-- RETROSPECTIVE_SELF_REPORT
+- Explicit Design Intent
+- Observed Design Choice
+- Design Inference
+- Revision Evidence
+- Live Evidence
+- Retrospective Self-Report
 
 Direct authorship and accepted project artifacts are also distinct. Project ownership, file ownership, or presence in Brendon's workspace does not by itself establish passage-level authorship.
 
@@ -354,6 +356,23 @@ recognition
 ```
 
 This matters because retrieval should answer a recognized decision problem. The project should not simply retrieve semantically similar lore and hope judgment emerges.
+
+Candidate precedent retrieval should be able to compare dimensions such as:
+
+- goal / intent;
+- salient cues;
+- decision or intervention type;
+- scale;
+- constraints;
+- actor relationships;
+- campaign lifecycle phase;
+- uncertainty type;
+- failure mode;
+- time/resource pressure;
+- player comprehension state;
+- known differences from the present case.
+
+Semantic similarity can contribute, but it is not the definition of precedent.
 
 Keep two representations when precedent work begins:
 
@@ -957,6 +976,8 @@ Prefer explicit UNKNOWN over invented continuity.
 
 Research is supposed to **correct architecture guesses**, not validate them. Distinguish requirements from implementation assumptions. "Study and steal" useful mechanisms aggressively, but let experiments reject attractive architecture.
 
+Do not make source-content claims from filenames, metadata, search-result titles, or repository layout alone. When an audit or research claim depends on what a source says, retrieve the source body (or an explicitly adequate excerpt), preserve the locator, and cite the evidence. If access fails, record the access failure instead of filling the gap from expectation.
+
 Preserve contradictions.
 
 Do not average early and late Brendon into one timeless persona.
@@ -1150,6 +1171,12 @@ Useful conceptual layers remain:
 - LEARNING GATE
 
 These are architectural hypotheses, not implementation commitments.
+
+A sensible first implementation experiment is much smaller than the full diagram:
+
+> canonical authoritative substrate + typed cognition/memory + bounded situation assembler.
+
+Only add heavier distributed/actor/graph machinery when controlled tests expose a failure that requires it.
 
 Important principles from the survey:
 
