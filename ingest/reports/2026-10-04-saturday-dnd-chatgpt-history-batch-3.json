@@ -1,0 +1,36 @@
+{
+  "local_date": "2026-10-04",
+  "repository_utc_date": "2026-10-05",
+  "project": "Saturday D&D",
+  "branch": "ingest/chatgpt-project-saturday-dnd-history",
+  "batch": 3,
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "source_units": [
+    "BCS-000137",
+    "BCS-000138"
+  ],
+  "counts": {
+    "new_bcs": 2,
+    "total_catalog_rows_after_batch": 138,
+    "clusters_moved_queued_to_partial": 2,
+    "assets_copied": 0,
+    "bce_minted": 0,
+    "phase2_claims": 0
+  },
+  "source_hashes": {
+    "BCS-000137": "f840ff2f50b144f4ee3652d14172f1f758e489ab33ea93778e0e53ece5457122",
+    "BCS-000138": "7da9676c593d267423cc73b1c74971b7a6b0ca23698f8ebdcd10a48af85082b9"
+  },
+  "validation_not_claimed": [
+    "python ingest/validate_ingest.py",
+    "python registry/validate_registry.py",
+    "indexes/documents.sqlite rebuild/integrity/FTS"
+  ],
+  "judgments_minted": {
+    "bce": false,
+    "personality": false,
+    "training_examples": false,
+    "precedent_cards": false,
+    "phase2_claims": false
+  }
+}
