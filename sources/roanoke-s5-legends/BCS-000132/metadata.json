@@ -1,0 +1,98 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000132",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "S5 style guide",
+  "source_role": "internal_style_and_setting_constraints",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-internal-preparation",
+  "original_filename": "S5 style guide",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2022-02-13T05:39:42.408Z",
+    "modified": "2022-02-13T08:53:14.341Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The opening thanks players for playing and states setting rules in the first person plural. File ownership is Brendon Faulkner. That does not assign every sentence.",
+    "project_ownership_context": "Drive owner and last modifier on 2022-02-13 are Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1fpOQbmy836cs41ewNXcTUdwdfswuOEETqioshQURcm0",
+      "url": "https://docs.google.com/document/d/1fpOQbmy836cs41ewNXcTUdwdfswuOEETqioshQURcm0/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000132/original/source.docx",
+      "sha256": "36129107e249936d8258940848062ab35ec3e433b2440b4b6a2ab41e07500224",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 337752
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000132/source.md",
+      "sha256": "cb66da036f025aafdbc6303ab9f60949166a319b41a6379f1f186723e951f8f5",
+      "mime_type": "text/markdown",
+      "size_bytes": 2488
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is the paragraph text. The DOCX is much larger than that text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Embedded images were left inside the DOCX and were not transcribed.",
+      "Three Google Doc hyperlinks are preserved in the DOCX relationships and are not yet containers.",
+      "Revision bodies were not retrieved."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_DOCX_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body opens 'Welcome to Season 5' and sets the Brown Bear Republic naming rules for that game.",
+        "support_refs": [
+          "BCS-000132"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The text sets political naming, removes Elloden/Spain traces from place names, and lists a day-by-day area template. It does not record play.",
+        "support_refs": [
+          "BCS-000132"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A style guide can constrain preparation without showing what was said at the table."
+      },
+      {
+        "question": "referenced_breakdowns_absent",
+        "status": "ARCHIVE_GAP",
+        "basis": "The DOCX links Drive documents 1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk, 18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg, and 1m9CfO_PNT_zXmr0vAb3BNFPqY-i89p0jMaJ6v96O8xA. They are not containers."
+      }
+    ]
+  },
+  "source_links": []
+}

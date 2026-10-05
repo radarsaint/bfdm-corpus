@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000139",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Chinnokin Verbatim",
+  "source_role": "player_facing_race_text",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-chinnokin-verbatim",
+  "original_filename": "The Chinnokin Verbatim",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2020-05-12T01:56:15.581Z",
+    "modified": "2023-06-26T03:00:23.263Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and 2023 last modifier are Brendon Faulkner. The race text does not identify a sole author. BCS-000023 is a different Chinnokin lore file and is not treated as this text.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1VL9WEghmy1wdPncLgLm91lNeOEgllqWxtiSUb0nJp7E",
+      "url": "https://docs.google.com/document/d/1VL9WEghmy1wdPncLgLm91lNeOEgllqWxtiSUb0nJp7E/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000139/original/source.docx",
+      "sha256": "4af4371258f3ab8f37c9c2cbf37279d3c173bad625f9dd6754fafd1461035b88",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 11999
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000139/source.md",
+      "sha256": "99e9c5a91191a0059a5e2135a39d040d73d731b0c283a46d78d9c32fe98154cb",
+      "mime_type": "text/markdown",
+      "size_bytes": 8590
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX, the 2023-06-26 state. source.md is paragraph text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The May 2020 player-race edit note hyperlinks this file beside the other race verbatims. This file does not get a season merely from that link.",
+        "support_refs": [
+          "BCS-000139",
+          "BCS-000135"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The file is a player-facing race verbatim. The captured text is the 2023 modified state.",
+        "support_refs": [
+          "BCS-000139"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Publication of a race text is not table use."
+      },
+      {
+        "question": "exact_season",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Created May 2020 and modified June 2023. No season label was taken from the filename of a different lore document."
+      },
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The Chinnokin text does not name a season. The Season 3 relation is only the edit-note hyperlink."
+      }
+    ]
+  },
+  "source_links": []
+}
