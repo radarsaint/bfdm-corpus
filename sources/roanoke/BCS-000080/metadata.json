@@ -1,0 +1,53 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000080",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Crafting, another attempt",
+  "source_role": "system_design_predecessor",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Crafting, another attempt.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2019-04-04T05:25:57.273Z",
+  "modified_at": "2019-04-20T03:26:38.886Z",
+  "ingested_at": "2026-10-04T18:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Earlier Roanoke crafting-system document; whole-document authorship is not established.",
+    "project_ownership_context": "Earlier Roanoke crafting-system source predating the S3 Crafting with Class documents."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1KLBZFOXVqy5dC65F8MsxQv7piPsx6QvHrlWHso6Ikx8",
+      "url": "https://docs.google.com/document/d/1KLBZFOXVqy5dC65F8MsxQv7piPsx6QvHrlWHso6Ikx8/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "NONE_RETURNED",
+    "revision_bodies": "NONE_AVAILABLE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY",
+    "original_export": "CAPTURED_ON_DONOR_BRANCH_PENDING_EXACT_BLOB_TRANSPLANT"
+  },
+  "representations": [],
+  "normalization": {
+    "method": "Portable normalized body preserved exactly from ingest/drive-project-v3; Google-native export snapshot remains identified by donor Git blob pending binary attachment.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Original DOCX is present on the donor branch as Git blob 41aab843eb7a13aaca56509d6a7f3f97bd2af99e and has not yet been attached to this branch."
+    ]
+  },
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000080",
+    "donor_git_blobs": {
+      "source.md": "28f4cb452d44929494ea236ca90e6bb3410c784a",
+      "original/source.docx": "41aab843eb7a13aaca56509d6a7f3f97bd2af99e"
+    },
+    "binary_attachment_status": "PENDING_EXACT_BLOB_TRANSPLANT"
+  }
+}
