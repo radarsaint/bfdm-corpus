@@ -1,0 +1,14 @@
+{
+  "attachment_count": 1421,
+  "bytes": 610933,
+  "canonical_database": "discord/roanoke-season-3/roanoke-season-3.sqlite",
+  "fields_omitted": [
+    "url",
+    "content",
+    "file_bytes"
+  ],
+  "path": "model-index/discord/roanoke-season-3/attachments.jsonl",
+  "server_slug": "roanoke-season-3",
+  "sha256": "639a82055cf0a75dffa72d67788bb52081db186664ee90613a91ca6da8ff666a",
+  "subordinate_to": "discord/roanoke-season-3/roanoke-season-3.sqlite"
+}
