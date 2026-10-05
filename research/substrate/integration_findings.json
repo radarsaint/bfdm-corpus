@@ -1,0 +1,135 @@
+{
+  "catalog_without_container": [
+    {
+      "kind": "CATALOG_WITHOUT_CONTAINER",
+      "corpus_id": "BCS-000068",
+      "detail": "BFDM corpus planning retrospective self-reports \u2014 ChatGPT project conversation excerpts"
+    }
+  ],
+  "container_without_catalog": [],
+  "unreadable_body": [
+    {
+      "corpus_id": "BCS-000022",
+      "title": "Roanoke Island Beastiary.docx"
+    }
+  ],
+  "revision_bodies_pending": [
+    {
+      "corpus_id": "BCS-000072",
+      "pending": 17,
+      "rows": 17
+    },
+    {
+      "corpus_id": "BCS-000075",
+      "pending": 2,
+      "rows": 2
+    },
+    {
+      "corpus_id": "BCS-000069",
+      "pending": 90,
+      "rows": 90
+    },
+    {
+      "corpus_id": "BCS-000070",
+      "pending": 13,
+      "rows": 13
+    },
+    {
+      "corpus_id": "BCS-000071",
+      "pending": 9,
+      "rows": 9
+    },
+    {
+      "corpus_id": "BCS-000074",
+      "pending": 2,
+      "rows": 2
+    },
+    {
+      "corpus_id": "BCS-000076",
+      "pending": 3,
+      "rows": 3
+    },
+    {
+      "corpus_id": "BCS-000077",
+      "pending": 27,
+      "rows": 27
+    },
+    {
+      "corpus_id": "BCS-000078",
+      "pending": 10,
+      "rows": 10
+    },
+    {
+      "corpus_id": "BCS-000079",
+      "pending": 7,
+      "rows": 7
+    },
+    {
+      "corpus_id": "BCS-000081",
+      "pending": 22,
+      "rows": 22
+    },
+    {
+      "corpus_id": "BCS-000082",
+      "pending": 4,
+      "rows": 4
+    },
+    {
+      "corpus_id": "BCS-000083",
+      "pending": 10,
+      "rows": 10
+    },
+    {
+      "corpus_id": "BCS-000084",
+      "pending": 2,
+      "rows": 2
+    },
+    {
+      "corpus_id": "BCS-000085",
+      "pending": 6,
+      "rows": 6
+    },
+    {
+      "corpus_id": "BCS-000086",
+      "pending": 4,
+      "rows": 4
+    },
+    {
+      "corpus_id": "BCS-000115",
+      "pending": 7,
+      "rows": 7
+    },
+    {
+      "corpus_id": "BCS-000116",
+      "pending": 7,
+      "rows": 7
+    },
+    {
+      "corpus_id": "BCS-000117",
+      "pending": 4,
+      "rows": 4
+    },
+    {
+      "corpus_id": "BCS-000118",
+      "pending": 4,
+      "rows": 4
+    },
+    {
+      "corpus_id": "BCS-000119",
+      "pending": 2,
+      "rows": 2
+    },
+    {
+      "corpus_id": "BCS-000120",
+      "pending": 2,
+      "rows": 2
+    },
+    {
+      "corpus_id": "BCS-000121",
+      "pending": 5,
+      "rows": 5
+    }
+  ],
+  "revision_bodies_pending_count": 259,
+  "channel_live_links_without_a_digit_in_the_basis": []
+}
