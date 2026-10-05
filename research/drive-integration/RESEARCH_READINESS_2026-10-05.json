@@ -6,6 +6,90 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000134"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000134"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "arcania-server-house-rules",
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000143"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000143"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "arcanian-almanac",
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000144"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000144"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "arcanian-cornerstone-cosmology",
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000142"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000142"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "archavist-daysong",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000066"
       ],
       "readable_body": true,
@@ -19,6 +103,27 @@
       "context_only": false,
       "document_family_id": "at-wars-end-cosmology",
       "internal_or_version_links": 1,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000147"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000147"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "at-wars-end-mirabelle",
+      "internal_or_version_links": 0,
       "cross_medium_links": 0
     },
     {
@@ -117,6 +222,29 @@
       "context_only": false,
       "document_family_id": "bastion-redoubt-campaign",
       "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000136",
+        "BCS-000137"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000136",
+        "BCS-000137"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "early-roanoke-rowing-oak",
+      "internal_or_version_links": 1,
       "cross_medium_links": 0
     },
     {
@@ -235,6 +363,27 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000150"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000150"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "empire-city-monster-chess",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000003",
         "BCS-000016",
         "BCS-000072"
@@ -323,6 +472,69 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000149"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000149"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "gil-rebirth-notes",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000141"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000141"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "hampstead-player-mechanics",
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000148"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000148"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "pigeon-lord-class",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000019"
       ],
       "readable_body": true,
@@ -383,6 +595,27 @@
     {
       "status": "SOURCE_RESEARCH_READY",
       "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000139"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000139"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-chinnokin-verbatim",
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
       "longitudinal_status": "LONGITUDINAL_RESEARCH_READY",
       "trajectory": "live_contact_and_revision",
       "members": [
@@ -433,6 +666,27 @@
       "context_only": false,
       "document_family_id": "roanoke-island-bestiary",
       "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000135"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000135"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-race-edit-notes",
+      "internal_or_version_links": 5,
       "cross_medium_links": 0
     },
     {
@@ -607,7 +861,8 @@
         "BCS-000126",
         "BCS-000127",
         "BCS-000128",
-        "BCS-000129"
+        "BCS-000129",
+        "BCS-000146"
       ],
       "readable_body": true,
       "exact_project_members": [
@@ -618,7 +873,8 @@
         "BCS-000126",
         "BCS-000127",
         "BCS-000128",
-        "BCS-000129"
+        "BCS-000129",
+        "BCS-000146"
       ],
       "unresolved_project_members": [],
       "live_question_answered": true,
@@ -626,7 +882,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-cited-event-modules",
-      "internal_or_version_links": 8,
+      "internal_or_version_links": 9,
       "cross_medium_links": 0
     },
     {
@@ -710,7 +966,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-halwudgie-lore",
-      "internal_or_version_links": 1,
+      "internal_or_version_links": 2,
       "cross_medium_links": 0
     },
     {
@@ -752,7 +1008,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-jackalope-lore",
-      "internal_or_version_links": 0,
+      "internal_or_version_links": 2,
       "cross_medium_links": 0
     },
     {
@@ -1006,7 +1262,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-uru-lore",
-      "internal_or_version_links": 1,
+      "internal_or_version_links": 2,
       "cross_medium_links": 0
     },
     {
@@ -1065,7 +1321,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-week-operations",
-      "internal_or_version_links": 29,
+      "internal_or_version_links": 30,
       "cross_medium_links": 0
     },
     {
@@ -1095,6 +1351,48 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000140"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000140"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s4-ferrytown-schedule",
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000131"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000131"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s4-master-timeline",
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000113"
       ],
       "readable_body": true,
@@ -1108,6 +1406,34 @@
       "context_only": false,
       "document_family_id": "roanoke-s5-google-sites-revision-process",
       "internal_or_version_links": 12,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000132",
+        "BCS-000133",
+        "BCS-000145",
+        "BCS-000151"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000132",
+        "BCS-000133",
+        "BCS-000145"
+      ],
+      "unresolved_project_members": [
+        "BCS-000151"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s5-internal-preparation",
+      "internal_or_version_links": 6,
       "cross_medium_links": 0
     },
     {
@@ -1221,6 +1547,27 @@
       "context_only": false,
       "document_family_id": "roanoke-song",
       "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000138"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000138"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-tatankan-verbatim",
+      "internal_or_version_links": 1,
       "cross_medium_links": 0
     },
     {
@@ -2319,6 +2666,265 @@
       "status": "NOT_ESTABLISHED",
       "basis": "A linked map is preparation. It does not show the map was used in play.",
       "document_family_id": "roanoke-s3-week5-map"
+    },
+    {
+      "corpus_id": "BCS-000131",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Nothing in this schedule shows which planned events occurred or that every DM used it.",
+      "document_family_id": "roanoke-s4-master-timeline"
+    },
+    {
+      "corpus_id": "BCS-000132",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A style guide can constrain preparation without showing what was said at the table.",
+      "document_family_id": "roanoke-s5-internal-preparation"
+    },
+    {
+      "corpus_id": "BCS-000133",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Guidance is not observed table practice.",
+      "document_family_id": "roanoke-s5-internal-preparation"
+    },
+    {
+      "corpus_id": "BCS-000134",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A rule that says crafting will go live, or that a pause emoji is sacred, does not show a table following it.",
+      "document_family_id": "arcania-server-house-rules"
+    },
+    {
+      "corpus_id": "BCS-000134",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The file says the rules cover all Tales from Arcania events. The Season 5 guide cites them. That is a relation, not a single project assignment.",
+      "document_family_id": "arcania-server-house-rules"
+    },
+    {
+      "corpus_id": "BCS-000135",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "An edit note does not show the changed rule being used at the table.",
+      "document_family_id": "roanoke-race-edit-notes"
+    },
+    {
+      "corpus_id": "BCS-000135",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The note has no season label. A relation to Season 3 race files is not membership in that season.",
+      "document_family_id": "roanoke-race-edit-notes"
+    },
+    {
+      "corpus_id": "BCS-000136",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The 2019 export contains Roanoke colony material and also a King Edwin invitation. It does not call itself Season 1 or Season 2.",
+      "document_family_id": "early-roanoke-rowing-oak"
+    },
+    {
+      "corpus_id": "BCS-000136",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A premise with a charter deadline is not a record that the charter was written in play.",
+      "document_family_id": "early-roanoke-rowing-oak"
+    },
+    {
+      "corpus_id": "BCS-000137",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The guide is about the Roanoke colony and the Rowing Oak tavern. It does not use a Season 1 or Season 2 label.",
+      "document_family_id": "early-roanoke-rowing-oak"
+    },
+    {
+      "corpus_id": "BCS-000137",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "An announcement and later notes are not a transcript. Do not treat every planned beat as played.",
+      "document_family_id": "early-roanoke-rowing-oak"
+    },
+    {
+      "corpus_id": "BCS-000138",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A race text being written is not evidence it was the text used at the table.",
+      "document_family_id": "roanoke-tatankan-verbatim"
+    },
+    {
+      "corpus_id": "BCS-000138",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The Tatankan text does not name a season. The Season 3 relation is only the edit-note hyperlink.",
+      "document_family_id": "roanoke-tatankan-verbatim"
+    },
+    {
+      "corpus_id": "BCS-000139",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Publication of a race text is not table use.",
+      "document_family_id": "roanoke-chinnokin-verbatim"
+    },
+    {
+      "corpus_id": "BCS-000139",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The Chinnokin text does not name a season. The Season 3 relation is only the edit-note hyperlink.",
+      "document_family_id": "roanoke-chinnokin-verbatim"
+    },
+    {
+      "corpus_id": "BCS-000140",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Planned main events are not observed play.",
+      "document_family_id": "roanoke-s4-ferrytown-schedule"
+    },
+    {
+      "corpus_id": "BCS-000141",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Borough mechanics plus a timeline that names the borough are not a season label in this file.",
+      "document_family_id": "hampstead-player-mechanics"
+    },
+    {
+      "corpus_id": "BCS-000141",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Player-facing rules are not observed enforcement.",
+      "document_family_id": "hampstead-player-mechanics"
+    },
+    {
+      "corpus_id": "BCS-000141",
+      "question": "brendon_authorship",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The file's owner is Anthony S.",
+      "document_family_id": "hampstead-player-mechanics"
+    },
+    {
+      "corpus_id": "BCS-000142",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The title is Archavist Daysong. It was not assigned to Roanoke. The July and August 2020 dates are inside the schedule; the file was last modified in May 2020.",
+      "document_family_id": "archavist-daysong"
+    },
+    {
+      "corpus_id": "BCS-000142",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A planned calendar, including the note 'Player made epilogues,' does not contain those epilogues and does not show the days were run.",
+      "document_family_id": "archavist-daysong"
+    },
+    {
+      "corpus_id": "BCS-000143",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "It says Roanoke RPE. It does not name Season 2 or Season 3.",
+      "document_family_id": "arcanian-almanac"
+    },
+    {
+      "corpus_id": "BCS-000143",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A playtest document is not table use.",
+      "document_family_id": "arcanian-almanac"
+    },
+    {
+      "corpus_id": "BCS-000144",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The document also names Roanoke, Empire City, and other regions as iterations of the same conflict. One Season 5 section does not make the whole file Season 5.",
+      "document_family_id": "arcanian-cornerstone-cosmology"
+    },
+    {
+      "corpus_id": "BCS-000144",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Lore prepared for a guide is not evidence it was delivered at the table.",
+      "document_family_id": "arcanian-cornerstone-cosmology"
+    },
+    {
+      "corpus_id": "BCS-000145",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A creation policy is not evidence it was applied to characters.",
+      "document_family_id": "roanoke-s5-internal-preparation"
+    },
+    {
+      "corpus_id": "BCS-000146",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Week 3 can link a module without showing the rounds were played.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000147",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No performance record is in this file.",
+      "document_family_id": "at-wars-end-mirabelle"
+    },
+    {
+      "corpus_id": "BCS-000148",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Empire City setting language is not a season assignment.",
+      "document_family_id": "pigeon-lord-class"
+    },
+    {
+      "corpus_id": "BCS-000148",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A class draft is not evidence the class was offered or played.",
+      "document_family_id": "pigeon-lord-class"
+    },
+    {
+      "corpus_id": "BCS-000149",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The notes do not name a season. They are not identified with the Season 3 Discord figure Sandigil.",
+      "document_family_id": "gil-rebirth-notes"
+    },
+    {
+      "corpus_id": "BCS-000149",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A collaborator's recollection is not a session log.",
+      "document_family_id": "gil-rebirth-notes"
+    },
+    {
+      "corpus_id": "BCS-000149",
+      "question": "brendon_authorship",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Anthony S owns the file.",
+      "document_family_id": "gil-rebirth-notes"
+    },
+    {
+      "corpus_id": "BCS-000150",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "'For Empire City' is not a season label.",
+      "document_family_id": "empire-city-monster-chess"
+    },
+    {
+      "corpus_id": "BCS-000150",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Rules for a mini game are not a record it was played.",
+      "document_family_id": "empire-city-monster-chess"
+    },
+    {
+      "corpus_id": "BCS-000151",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "Legends is the Season 5 city name in other files. This sheet alone does not say Season 5.",
+      "document_family_id": "roanoke-s5-internal-preparation"
+    },
+    {
+      "corpus_id": "BCS-000151",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A signup is not attendance and not play.",
+      "document_family_id": "roanoke-s5-internal-preparation"
     }
   ],
   "archive_gaps": [
@@ -2342,8 +2948,15 @@
       "status": "ARCHIVE_GAP",
       "basis": "The map linked beside The Morkoth is now BCS-000130. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found filled cast list. A blank breakdown template (Drive 1AV4piqqYZHTJFP66_zjhQQwD1zHGaxrhhxZgUquoDOo) contains those headings and no cast.",
       "document_family_id": "roanoke-s3-week-operations"
+    },
+    {
+      "corpus_id": "BCS-000132",
+      "question": "referenced_breakdowns_absent",
+      "status": "ARCHIVE_GAP",
+      "basis": "The DOCX links Drive documents 1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk, 18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg, and 1m9CfO_PNT_zXmr0vAb3BNFPqY-i89p0jMaJ6v96O8xA. They are not containers.",
+      "document_family_id": "roanoke-s5-internal-preparation"
     }
   ],
-  "container_count": 129,
-  "catalog_count": 130
+  "container_count": 150,
+  "catalog_count": 151
 }

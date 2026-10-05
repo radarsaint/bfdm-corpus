@@ -30,24 +30,36 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 
 | Family | Longitudinal | Members |
 | --- | --- | --- |
+| `arcania-server-house-rules` | LONGITUDINAL_RESEARCH_GAP | `BCS-000134` |
+| `arcanian-almanac` | LONGITUDINAL_RESEARCH_GAP | `BCS-000143` |
+| `arcanian-cornerstone-cosmology` | LONGITUDINAL_RESEARCH_GAP | `BCS-000144` |
+| `archavist-daysong` | LONGITUDINAL_RESEARCH_GAP | `BCS-000142` |
 | `at-wars-end-cosmology` | LONGITUDINAL_RESEARCH_GAP | `BCS-000066` |
+| `at-wars-end-mirabelle` | LONGITUDINAL_RESEARCH_GAP | `BCS-000147` |
 | `at-wars-end-outline` | LONGITUDINAL_RESEARCH_GAP | `BCS-000064`, `BCS-000065` |
 | `at-wars-end-writing-process` | LONGITUDINAL_RESEARCH_GAP | `BCS-000067` |
 | `bastion-redoubt-campaign` | LONGITUDINAL_RESEARCH_GAP | `BCS-000056`, `BCS-000057`, `BCS-000058` |
+| `early-roanoke-rowing-oak` | LONGITUDINAL_RESEARCH_GAP | `BCS-000136`, `BCS-000137` |
 | `earthfall-rod` | LONGITUDINAL_RESEARCH_GAP | `BCS-000054`, `BCS-000055` |
 | `empire-city-broadsheet` | LONGITUDINAL_RESEARCH_GAP | `BCS-000005`, `BCS-000006`, `BCS-000007`, `BCS-000008`, `BCS-000009`, `BCS-000010`, `BCS-000011`, `BCS-000012`, `BCS-000013`, `BCS-000014`, `BCS-000015` |
+| `empire-city-monster-chess` | LONGITUDINAL_RESEARCH_GAP | `BCS-000150` |
 | `empire-city-operations` | LONGITUDINAL_RESEARCH_GAP | `BCS-000003`, `BCS-000016`, `BCS-000072` |
 | `empire-city-player-orientation` | LONGITUDINAL_RESEARCH_GAP | `BCS-000004` |
 | `empire-city-setting-lore` | LONGITUDINAL_RESEARCH_GAP | `BCS-000075` |
+| `gil-rebirth-notes` | LONGITUDINAL_RESEARCH_GAP | `BCS-000149` |
+| `hampstead-player-mechanics` | LONGITUDINAL_RESEARCH_GAP | `BCS-000141` |
+| `pigeon-lord-class` | LONGITUDINAL_RESEARCH_GAP | `BCS-000148` |
 | `roanoke-building-list` | LONGITUDINAL_RESEARCH_GAP | `BCS-000019` |
 | `roanoke-character-epilogue` | LONGITUDINAL_RESEARCH_GAP | `BCS-000017` |
 | `roanoke-chinnokin-lore` | LONGITUDINAL_RESEARCH_GAP | `BCS-000023` |
+| `roanoke-chinnokin-verbatim` | LONGITUDINAL_RESEARCH_GAP | `BCS-000139` |
+| `roanoke-race-edit-notes` | LONGITUDINAL_RESEARCH_GAP | `BCS-000135` |
 | `roanoke-remote-play-guide` | LONGITUDINAL_RESEARCH_GAP | `BCS-000024` |
 | `roanoke-s2-planning` | LONGITUDINAL_RESEARCH_GAP | `BCS-000042` |
 | `roanoke-s3-bestiary` | LONGITUDINAL_RESEARCH_GAP | `BCS-000082`, `BCS-000083` |
 | `roanoke-s3-cartography` | LONGITUDINAL_RESEARCH_GAP | `BCS-000026`, `BCS-000081` |
 | `roanoke-s3-changelog` | LONGITUDINAL_RESEARCH_GAP | `BCS-000046` |
-| `roanoke-s3-cited-event-modules` | LONGITUDINAL_RESEARCH_GAP | `BCS-000122`, `BCS-000123`, `BCS-000124`, `BCS-000125`, `BCS-000126`, `BCS-000127`, `BCS-000128`, `BCS-000129` |
+| `roanoke-s3-cited-event-modules` | LONGITUDINAL_RESEARCH_GAP | `BCS-000122`, `BCS-000123`, `BCS-000124`, `BCS-000125`, `BCS-000126`, `BCS-000127`, `BCS-000128`, `BCS-000129`, `BCS-000146` |
 | `roanoke-s3-directory` | LONGITUDINAL_RESEARCH_GAP | `BCS-000069` |
 | `roanoke-s3-encounters` | LONGITUDINAL_RESEARCH_GAP | `BCS-000074` |
 | `roanoke-s3-golden-dawn` | LONGITUDINAL_RESEARCH_GAP | `BCS-000118` |
@@ -67,10 +79,14 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-uru-lore` | LONGITUDINAL_RESEARCH_GAP | `BCS-000120` |
 | `roanoke-s3-week-operations` | LONGITUDINAL_RESEARCH_GAP | `BCS-000018`, `BCS-000029`, `BCS-000030`, `BCS-000031`, `BCS-000032`, `BCS-000033`, `BCS-000034`, `BCS-000035`, `BCS-000036`, `BCS-000037`, `BCS-000038`, `BCS-000039`, `BCS-000040`, `BCS-000048`, `BCS-000049`, `BCS-000050`, `BCS-000051`, `BCS-000052`, `BCS-000053`, `BCS-000071` |
 | `roanoke-s3-week5-map` | LONGITUDINAL_RESEARCH_GAP | `BCS-000130` |
+| `roanoke-s4-ferrytown-schedule` | LONGITUDINAL_RESEARCH_GAP | `BCS-000140` |
+| `roanoke-s4-master-timeline` | LONGITUDINAL_RESEARCH_GAP | `BCS-000131` |
 | `roanoke-s5-google-sites-revision-process` | LONGITUDINAL_RESEARCH_GAP | `BCS-000113` |
+| `roanoke-s5-internal-preparation` | LONGITUDINAL_RESEARCH_GAP | `BCS-000132`, `BCS-000133`, `BCS-000145`, `BCS-000151` |
 | `roanoke-s5-published-sites` | LONGITUDINAL_RESEARCH_GAP | `BCS-000087`, `BCS-000088`, `BCS-000089`, `BCS-000090`, `BCS-000091`, `BCS-000092`, `BCS-000093`, `BCS-000094`, `BCS-000095`, `BCS-000096`, `BCS-000097`, `BCS-000098`, `BCS-000099`, `BCS-000100`, `BCS-000101`, `BCS-000102`, `BCS-000104`, `BCS-000105`, `BCS-000106`, `BCS-000107`, `BCS-000108`, `BCS-000109`, `BCS-000111`, `BCS-000112` |
 | `roanoke-s5-way-of-gun-fu` | LONGITUDINAL_RESEARCH_GAP | `BCS-000103`, `BCS-000110`, `BCS-000114` |
 | `roanoke-song` | LONGITUDINAL_RESEARCH_GAP | `BCS-000047` |
+| `roanoke-tatankan-verbatim` | LONGITUDINAL_RESEARCH_GAP | `BCS-000138` |
 | `unplaced-five-week-planning` | LONGITUDINAL_RESEARCH_GAP | `BCS-000002` |
 
 ## Context, not precedent
@@ -81,24 +97,36 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 
 | Family | Status | Source ready | Longitudinal | Trajectory | Members |
 | --- | --- | --- | --- | --- | --- |
+| `arcania-server-house-rules` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `arcanian-almanac` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `arcanian-cornerstone-cosmology` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `archavist-daysong` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `at-wars-end-cosmology` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `at-wars-end-mirabelle` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `at-wars-end-narrative` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | revision | 4 |
 | `at-wars-end-outline` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
 | `at-wars-end-writing-process` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `bastion-redoubt-campaign` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
+| `early-roanoke-rowing-oak` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
 | `earthfall-rod` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
 | `empire-city-airship-qualification` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | live_contact | 1 |
 | `empire-city-broadsheet` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 11 |
 | `empire-city-crafting` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | live_contact | 1 |
+| `empire-city-monster-chess` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `empire-city-operations` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
 | `empire-city-player-orientation` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `empire-city-setting-lore` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `exploration-impossible-context` | CONTEXT_ONLY | no | NOT_PRECEDENT | context_only | 1 |
+| `gil-rebirth-notes` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `hampstead-player-mechanics` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `pigeon-lord-class` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-building-list` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-character-epilogue` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-chinnokin-lore` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `roanoke-chinnokin-verbatim` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-crafting-system` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | live_contact_and_revision | 5 |
 | `roanoke-island-bestiary` | GAP_REMAINS | no | NOT_SOURCE_READY | none | 1 |
+| `roanoke-race-edit-notes` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-remote-play-guide` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s2-planning` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-bestiary` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
@@ -106,7 +134,7 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-campaign-structure` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | revision | 1 |
 | `roanoke-s3-cartography` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
 | `roanoke-s3-changelog` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
-| `roanoke-s3-cited-event-modules` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 8 |
+| `roanoke-s3-cited-event-modules` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 9 |
 | `roanoke-s3-directory` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-encounters` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-golden-dawn` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
@@ -127,17 +155,59 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-uru-lore` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-week-operations` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 20 |
 | `roanoke-s3-week5-map` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `roanoke-s4-ferrytown-schedule` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `roanoke-s4-master-timeline` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s5-google-sites-revision-process` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `roanoke-s5-internal-preparation` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 4 |
 | `roanoke-s5-published-sites` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 24 |
 | `roanoke-s5-way-of-gun-fu` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
 | `roanoke-song` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `roanoke-tatankan-verbatim` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `unplaced-five-week-planning` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 
 ## Family detail
 
+### `arcania-server-house-rules` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000134`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000134`
+
+### `arcanian-almanac` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000143`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000143`
+
+### `arcanian-cornerstone-cosmology` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000144`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000144`
+
+### `archavist-daysong` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000142`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000142`
+
 ### `at-wars-end-cosmology` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000066`
+
+Trajectory: `none`.
+
+### `at-wars-end-mirabelle` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000147`
 
 Trajectory: `none`.
 
@@ -167,6 +237,14 @@ Members: `BCS-000056`, `BCS-000057`, `BCS-000058`
 
 Trajectory: `none`.
 
+### `early-roanoke-rowing-oak` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000136`, `BCS-000137`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000136`, `BCS-000137`
+
 ### `earthfall-rod` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000054`, `BCS-000055`
@@ -195,6 +273,14 @@ Trajectory: `live_contact`.
 
 Live contact is only the recorded IMPLEMENTED_IN link. It is not a claim that every rule in the family was used.
 
+### `empire-city-monster-chess` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000150`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000150`
+
 ### `empire-city-operations` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000003`, `BCS-000016`, `BCS-000072`
@@ -218,6 +304,30 @@ Trajectory: `none`.
 Members: `BCS-000059`
 
 Trajectory: `context_only`.
+
+### `gil-rebirth-notes` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000149`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000149`
+
+### `hampstead-player-mechanics` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000141`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000141`
+
+### `pigeon-lord-class` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000148`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000148`
 
 ### `roanoke-building-list` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
@@ -243,6 +353,14 @@ Trajectory: `none`.
 
 Exact project deliberately unresolved: `BCS-000023`
 
+### `roanoke-chinnokin-verbatim` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000139`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000139`
+
 ### `roanoke-crafting-system` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_READY
 
 Members: `BCS-000020`, `BCS-000077`, `BCS-000078`, `BCS-000079`, `BCS-000080`
@@ -258,6 +376,14 @@ Members: `BCS-000022`
 Trajectory: `none`.
 
 Exact project deliberately unresolved: `BCS-000022`
+
+### `roanoke-race-edit-notes` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000135`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000135`
 
 ### `roanoke-remote-play-guide` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
@@ -309,7 +435,7 @@ Trajectory: `none`.
 
 ### `roanoke-s3-cited-event-modules` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
-Members: `BCS-000122`, `BCS-000123`, `BCS-000124`, `BCS-000125`, `BCS-000126`, `BCS-000127`, `BCS-000128`, `BCS-000129`
+Members: `BCS-000122`, `BCS-000123`, `BCS-000124`, `BCS-000125`, `BCS-000126`, `BCS-000127`, `BCS-000128`, `BCS-000129`, `BCS-000146`
 
 Trajectory: `none`.
 
@@ -437,11 +563,31 @@ Members: `BCS-000130`
 
 Trajectory: `none`.
 
+### `roanoke-s4-ferrytown-schedule` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000140`
+
+Trajectory: `none`.
+
+### `roanoke-s4-master-timeline` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000131`
+
+Trajectory: `none`.
+
 ### `roanoke-s5-google-sites-revision-process` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000113`
 
 Trajectory: `none`.
+
+### `roanoke-s5-internal-preparation` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000132`, `BCS-000133`, `BCS-000145`, `BCS-000151`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000151`
 
 ### `roanoke-s5-published-sites` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
@@ -462,6 +608,14 @@ Members: `BCS-000047`
 Trajectory: `none`.
 
 Exact project deliberately unresolved: `BCS-000047`
+
+### `roanoke-tatankan-verbatim` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000138`
+
+Trajectory: `none`.
+
+Exact project deliberately unresolved: `BCS-000138`
 
 ### `unplaced-five-week-planning` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
@@ -628,6 +782,43 @@ The source is present. The fact is not established. Do not fill these in by infe
 - `BCS-000128` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
 - `BCS-000129` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
 - `BCS-000130` `live_use` (NOT_ESTABLISHED): A linked map is preparation. It does not show the map was used in play.
+- `BCS-000131` `live_use` (NOT_ESTABLISHED): Nothing in this schedule shows which planned events occurred or that every DM used it.
+- `BCS-000132` `live_use` (NOT_ESTABLISHED): A style guide can constrain preparation without showing what was said at the table.
+- `BCS-000133` `live_use` (NOT_ESTABLISHED): Guidance is not observed table practice.
+- `BCS-000134` `live_use` (NOT_ESTABLISHED): A rule that says crafting will go live, or that a pause emoji is sacred, does not show a table following it.
+- `BCS-000134` `exact_project` (NOT_ESTABLISHED): The file says the rules cover all Tales from Arcania events. The Season 5 guide cites them. That is a relation, not a single project assignment.
+- `BCS-000135` `live_use` (NOT_ESTABLISHED): An edit note does not show the changed rule being used at the table.
+- `BCS-000135` `exact_project` (NOT_ESTABLISHED): The note has no season label. A relation to Season 3 race files is not membership in that season.
+- `BCS-000136` `exact_project` (NOT_ESTABLISHED): The 2019 export contains Roanoke colony material and also a King Edwin invitation. It does not call itself Season 1 or Season 2.
+- `BCS-000136` `live_use` (NOT_ESTABLISHED): A premise with a charter deadline is not a record that the charter was written in play.
+- `BCS-000137` `exact_project` (NOT_ESTABLISHED): The guide is about the Roanoke colony and the Rowing Oak tavern. It does not use a Season 1 or Season 2 label.
+- `BCS-000137` `live_use` (NOT_ESTABLISHED): An announcement and later notes are not a transcript. Do not treat every planned beat as played.
+- `BCS-000138` `live_use` (NOT_ESTABLISHED): A race text being written is not evidence it was the text used at the table.
+- `BCS-000138` `exact_project` (NOT_ESTABLISHED): The Tatankan text does not name a season. The Season 3 relation is only the edit-note hyperlink.
+- `BCS-000139` `live_use` (NOT_ESTABLISHED): Publication of a race text is not table use.
+- `BCS-000139` `exact_project` (NOT_ESTABLISHED): The Chinnokin text does not name a season. The Season 3 relation is only the edit-note hyperlink.
+- `BCS-000140` `live_use` (NOT_ESTABLISHED): Planned main events are not observed play.
+- `BCS-000141` `exact_project` (NOT_ESTABLISHED): Borough mechanics plus a timeline that names the borough are not a season label in this file.
+- `BCS-000141` `live_use` (NOT_ESTABLISHED): Player-facing rules are not observed enforcement.
+- `BCS-000141` `brendon_authorship` (NOT_ESTABLISHED): The file's owner is Anthony S.
+- `BCS-000142` `exact_project` (NOT_ESTABLISHED): The title is Archavist Daysong. It was not assigned to Roanoke. The July and August 2020 dates are inside the schedule; the file was last modified in May 2020.
+- `BCS-000142` `live_use` (NOT_ESTABLISHED): A planned calendar, including the note 'Player made epilogues,' does not contain those epilogues and does not show the days were run.
+- `BCS-000143` `exact_project` (NOT_ESTABLISHED): It says Roanoke RPE. It does not name Season 2 or Season 3.
+- `BCS-000143` `live_use` (NOT_ESTABLISHED): A playtest document is not table use.
+- `BCS-000144` `exact_project` (NOT_ESTABLISHED): The document also names Roanoke, Empire City, and other regions as iterations of the same conflict. One Season 5 section does not make the whole file Season 5.
+- `BCS-000144` `live_use` (NOT_ESTABLISHED): Lore prepared for a guide is not evidence it was delivered at the table.
+- `BCS-000145` `live_use` (NOT_ESTABLISHED): A creation policy is not evidence it was applied to characters.
+- `BCS-000146` `live_use` (NOT_ESTABLISHED): Week 3 can link a module without showing the rounds were played.
+- `BCS-000147` `live_use` (NOT_ESTABLISHED): No performance record is in this file.
+- `BCS-000148` `exact_project` (NOT_ESTABLISHED): Empire City setting language is not a season assignment.
+- `BCS-000148` `live_use` (NOT_ESTABLISHED): A class draft is not evidence the class was offered or played.
+- `BCS-000149` `exact_project` (NOT_ESTABLISHED): The notes do not name a season. They are not identified with the Season 3 Discord figure Sandigil.
+- `BCS-000149` `live_use` (NOT_ESTABLISHED): A collaborator's recollection is not a session log.
+- `BCS-000149` `brendon_authorship` (NOT_ESTABLISHED): Anthony S owns the file.
+- `BCS-000150` `exact_project` (NOT_ESTABLISHED): 'For Empire City' is not a season label.
+- `BCS-000150` `live_use` (NOT_ESTABLISHED): Rules for a mini game are not a record it was played.
+- `BCS-000151` `exact_project` (NOT_ESTABLISHED): Legends is the Season 5 city name in other files. This sheet alone does not say Season 5.
+- `BCS-000151` `live_use` (NOT_ESTABLISHED): A signup is not attendance and not play.
 
 ## Archive gaps
 
@@ -640,6 +831,7 @@ Containers that cite a source the repository does not hold:
 - `BCS-000022`: The native Google Doc 1HR-Ohmr8A9rx1VIbVq3acRmtqKX_FwsBYahGxxBEiSQ was re-read on 2026-10-05 and is blank. The preserved DOCX matches it: 17 empty paragraphs, no text, no images. There is no bestiary text to recover from either copy.
 - `BCS-000037`: The week 4 breakdown names a week four cast list without a corpus container. The Tatankan escape room it links is now BCS-000126.
 - `BCS-000053`: The map linked beside The Morkoth is now BCS-000130. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found filled cast list. A blank breakdown template (Drive 1AV4piqqYZHTJFP66_zjhQQwD1zHGaxrhhxZgUquoDOo) contains those headings and no cast.
+- `BCS-000132`: The DOCX links Drive documents 1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk, 18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg, and 1m9CfO_PNT_zXmr0vAb3BNFPqY-i89p0jMaJ6v96O8xA. They are not containers.
 
 Season 5 Google Site sources that are publication captures are not Drive draft families. Season 5 is not longitudinally ready for prep-to-play judgment. Its live and dev-Discord bridge is an archive gap, not a hidden fact inside the Drive PDFs.
 
