@@ -1,0 +1,111 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000063",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "At War's End draft 5",
+  "source_role": "narrative_draft",
+  "source_kind": "google_drive_native",
+  "original_filename": "At War's End draft 5.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1kzjgpNWeVC_JObur0Om0rPVHbITObtNbgr8NneRKR0k",
+      "url": "https://docs.google.com/document/d/1kzjgpNWeVC_JObur0Om0rPVHbITObtNbgr8NneRKR0k/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "at-wars-end-narrative",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/at-wars-end/BCS-000063/comments.json",
+      "sha256": "16ebdf9f0cfc42e8aeb91b2e22ea15e8110ea415f1810f2507f950fb2cb67c3e",
+      "mime_type": "application/json",
+      "size_bytes": 91
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000063/original/source.docx",
+      "sha256": "36195dbdc3673183386f496614b3115f272cf738b59c1a3e3c78b9520c9a81d0",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 188048
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000063/source.md",
+      "sha256": "2e84dc9bb5b6ca41bd411bca58d3bb6d8b908e1767fb7a108539aeb317ecd62e",
+      "mime_type": "text/markdown",
+      "size_bytes": 357307
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Draft 5 opens 'An Aubade of Queen Seraphine,' a later treatment of the queen chapter.",
+        "support_refs": [
+          "BCS-000063",
+          "BCS-000060"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "REVISES",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000060",
+      "confidence": "STRONG",
+      "basis": "Draft 5 rewrites the queen's morning. It is not marked as superseding the Lost narration or the Copper Lantern scene.",
+      "support_refs": [
+        "BCS-000063",
+        "BCS-000060"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000063",
+    "canonical_corpus_id": "BCS-000063",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

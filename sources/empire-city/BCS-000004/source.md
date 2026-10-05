@@ -1,0 +1,43 @@
+﻿Empire City Into Video
+
+
+Hello and welcome to Season 4 of Tales from Arcania! I’m the Goblin Mod and I will be your guide through the magically chaotic server of Empire City.
+
+
+Now, this might be chaos but it is orderly chaos (most of the time), so the first thing you’ll see upon entering the server is the things you should read section. Like the name implies, you should read through these before doing anything else. These channels include announcements, frequently asked questions, bot guides, important links and our server rules. We would also like you to post a description of your character, a 40x40 pixel picture for the DMs to use in maps, along with any additional art or writing you’d like to share. Once you’re ready, you can @ one of the many mods, like myself and request your player tag. Mods help the DMs run the server and can also answer any of your questions. 
+
+
+Once this role is given, the world of Empire City will be opened up to you! We have two main types of channels, in character and out of character. Out of character chats are for players to talk, quote each other, share art, memes and of course pictures of your pets. We also have a few channels dedicated to non-cannon game play like level 20 pvp. 
+
+
+Below these channels are your main bread and butter. These 5 Empire City burroughs are run by our dedicated DMs and will be the stage on which our story takes place.
+
+
+Manhattan, known locally as The City, is a buzzing metropolis filled with greenery topped towers and well known throughout the colonies for its Broadway and Wall Street.  
+
+
+Just a boat ride away is Ferrytown, a place where the feywild bleeds into the material plane, creating pockets of bright vibrant colors and lush flora and fauna. Remember to be extra careful with your words while in the burrough.
+
+
+At the city’s core is the dark and grimmy Hampstead. With fog rumored to cause insanity, the redcoats are an oppressive force throughout this burrough, enforcing curfew and taking any silver they can get their hands on.
+
+
+To the far east is Kingsbridge and the Noir, the final barrier between Empire City and the rest of Arciania. Protected by Odin’s ravens, this monochromatic borough is where memories and shadows take life. 
+
+
+This year, one location of particular note is the King George the Third Airship Port. While in previous seasons players have been able to build businesses and homes, this year as refugees and immigrants to our dear city, you will be graciously given a small airship to live on. With a starting capacity of 2, you and your crew will be able to expand and purchase larger ships as the season progresses.
+
+
+Deep in the Wastes of Staaten island is the Hellshow, a place for dangerous PvP and PvE tournaments, where players can fight to win fame and fortune not able to be acquired anywhere else in Empire City.
+
+
+When roleplaying in these channels, it’s important to keep dialogue in quotation marks, actions in normal text and any out of character comments, such as questions to the DM, in parentheses. Feel free to add reactions to anything you see in chat with our server emojis and keep in mind that when your character leaves a channel, this is the same as leaving a physical location. Oftentimes players will tag the channel that they are heading to so others can follow. 
+
+
+Here in Empire City we also have two friendly bots. We use Avrea for all of our dice rolls and to run combat, so if you’re new to play by post games we highly recommend looking up a guide or asking a mod for help with this versatile bot. For now, the main commands to know are “exclamation mark roll d 20 plus” to roll your dice and add modifiers. Additional features can be used when you add your character with the command “exclamation mark beyond” and a link to your dnd beyond character sheet.
+
+
+Additionally, our homebrew ArcaniaBot has several tricks up its sleeve to help players, along with a few secret features for DMs. Don’t worry about it. Players can use the command “question mark time” to display the in-game time for those not in the pacific time zone, and “question mark where” to locate where your friends and allies were last active. ArcaniaBot also allows you to invest in the Empire City stock market… try not to lose all your money in one go.
+
+
+Now with all that out of the way, I would like to officially welcome you to Empire City. Give us liberty or give us death.

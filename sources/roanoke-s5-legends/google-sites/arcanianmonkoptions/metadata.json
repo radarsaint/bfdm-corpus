@@ -61,5 +61,35 @@
       "basis": "Thin/stale shell; Season 5 Character Creation links to arcanian-monk-options, which contains the complete published Way of Gun Fu subclass.",
       "confidence": "STRONG"
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The container is a captured public Google Site in the Season 5 / Legends harvest.",
+        "support_refs": [
+          "BCS-000103"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The container preserves a published Google Site page. It is the thin shell of Arcanian Monk Options, not a separate draft. Publication is not live use.",
+        "support_refs": [
+          "BCS-000103"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here."
+      }
+    ]
+  }
 }

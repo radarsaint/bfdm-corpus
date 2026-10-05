@@ -1,0 +1,136 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000015",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Post 7-24",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-broadsheet",
+  "original_filename": "Empire City Post 7-24.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-07-24T04:05:05.636Z",
+  "modified_at": "2021-07-24T04:51:33.004Z",
+  "ingested_at": "2026-10-03T18:50:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1eauaQMomEnazHR7rTAvfB8iO9_sTkhMj7c4ntKMQtRk",
+      "url": "https://docs.google.com/document/d/1eauaQMomEnazHR7rTAvfB8iO9_sTkhMj7c4ntKMQtRk/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_0707bdd424f88191abbd9eaf95d5efd2",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Post 7-24.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000015/original/source.docx",
+      "sha256": "5b4ac1f1ffcc9d7202da741594bf1b2d7c4070c23126ba8f95d3c50dde6b9440",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 533834
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000015/revisions.jsonl",
+      "sha256": "e1f2b0d99901e938f9bc9cc17b8a023dbc90a454ce0c5f56264d7d57873d9e0f",
+      "mime_type": "application/json",
+      "size_bytes": 1158
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000015/revisions/1.md",
+      "sha256": "0a28993512ab78ca615329bc8c8dd6ff3271ff9a6dd2293fd8d6b1a58cb58f1a",
+      "mime_type": "text/markdown",
+      "size_bytes": 3478
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000015/revisions/663.md",
+      "sha256": "69c157185684bea07f4ac42faa7ad680de4759c379f95ea90a9090a12510ab0d",
+      "mime_type": "text/markdown",
+      "size_bytes": 1460
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000015/source.md",
+      "sha256": "69c157185684bea07f4ac42faa7ad680de4759c379f95ea90a9090a12510ab0d",
+      "mime_type": "text/markdown",
+      "size_bytes": 1460
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "PRESERVED",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The issue is dated July 24, 1776 and names Empire City. It uses boroughs and the Redcoats from the Season 4 orientation. The in-world date is not proof the issue was posted on that real-world day.",
+        "support_refs": [
+          "BCS-000015",
+          "BCS-000004"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The source is written as a priced city newspaper. Whether it was posted to players is not established.",
+        "support_refs": [
+          "BCS-000015"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000014",
+      "confidence": "STRONG",
+      "basis": "This is the Empire City broadsheet issue dated July 24, 1776. BCS-000014 is an earlier issue of the same broadsheet. A later issue is not treated as a revision or replacement of the earlier one.",
+      "support_refs": [
+        "BCS-000015",
+        "BCS-000014"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000015",
+    "canonical_corpus_id": "BCS-000015",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

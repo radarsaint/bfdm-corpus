@@ -1,0 +1,121 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000073",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Airship Qualification Module",
+  "source_role": "adventure_module",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-airship-qualification",
+  "original_filename": "Airship Qualification Module.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-01-29T23:53:38.552Z",
+  "modified_at": "2021-06-30T16:28:27.103Z",
+  "ingested_at": "2026-10-04T14:55:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Document explicitly identifies itself as an Empire City 2021 role-playing module, but whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 4 / Empire City project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1tFPhwn9ANU5aU7HgNdCSakQIiMu-Mvl_OS0Ycmvfu18",
+      "url": "https://docs.google.com/document/d/1tFPhwn9ANU5aU7HgNdCSakQIiMu-Mvl_OS0Ycmvfu18/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000073/original/source.docx",
+      "sha256": "9b9831a9aed7f45faa3c765b150ec3389d3ab12c26136e2cb421632ae192925d",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8263
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000073/source.md",
+      "sha256": "520bdbdd019a309ba85ac90de56d599250863444cc35cd9df2d7caa435f2ca55",
+      "mime_type": "text/markdown",
+      "size_bytes": 2735
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NONE_AVAILABLE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The module says it can be used during the Empire City role-playing event in 2021.",
+        "support_refs": [
+          "BCS-000073"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The file is the prepared exercise. Live contact is the IMPLEMENTED_IN link, not a claim that the docx text itself records a table.",
+        "support_refs": [
+          "BCS-000073"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "rule_by_rule_live_identity",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The 2021-07-11 #flight-school session runs this module's standard exercise: Sgt Manley, the four roles, artillery disabled as the ship leaves the hangar, and target balloons. Later flight-school missions are not identified as this module. The module also tells the DM they may invent other exercises. Those were not separated message by message."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000072",
+      "confidence": "STRONG",
+      "basis": "The airship module is a prepared Season 4 event module. The Season 4 directory is the operational index for that event. The module also points to an Airship Rules document that is not this corpus source.",
+      "support_refs": [
+        "BCS-000073",
+        "BCS-000072"
+      ]
+    },
+    {
+      "link_type": "IMPLEMENTED_IN",
+      "target_kind": "DISCORD_CHANNEL",
+      "external_locator": "discord://850779382791536640/channel/852796918836232192",
+      "confidence": "STRONG",
+      "basis": "Empire City #flight-school is channel 852796918836232192. On 2021-07-11 Sgt Manley assigns Pilot, Gunner, Mechanic, and Captain. Message 863775639068344351 disables both artillery stations as the ship leaves the hangar. Message 863775828218347550 sends the crew to shoot target balloons. That is the module's standard exercise, not a claim that every later flight-school scene used this document.",
+      "support_refs": [
+        "discord:850779382791536640:863771081260793856",
+        "discord:850779382791536640:863772033048903711",
+        "discord:850779382791536640:863775639068344351",
+        "discord:850779382791536640:863775828218347550"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000073",
+    "canonical_corpus_id": "BCS-000073",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

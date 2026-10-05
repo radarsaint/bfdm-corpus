@@ -1,0 +1,135 @@
+﻿Empire City Backlog Notes
+WEEK ONE        4
+Day One: July 10th        4
+The City        4
+Ferrytown        4
+Hampstead        4
+Kingsbridge Noir        4
+Other        4
+Day Two: July 11th        5
+The City        5
+Ferrytown        5
+Hampstead        5
+Kingsbridge Noir        5
+Other        5
+Day Three: July 12th        6
+The City        6
+Ferrytown        6
+Hampstead        6
+Kingsbridge Noir        6
+Other        6
+Day Four: July 13th        7
+The City        7
+Ferrytown        7
+Hampstead        7
+Kingsbridge Noir        7
+Other        7
+Day Five: July 14th        8
+The City        8
+Ferrytown        8
+Hampstead        8
+Kingsbridge Noir        8
+Other        8
+Day Six: July 15th        9
+The City        9
+Ferrytown        9
+Hampstead        9
+Kingsbridge Noir        9
+Other        9
+Day Seven: July 16th        10
+The City        10
+Ferrytown        10
+Hampstead        10
+Kingsbridge Noir        10
+Other        10
+WEEK TWO        11
+
+
+
+
+
+
+________________
+
+
+Notes on formatting:
+
+
+Make sure to refresh the table of contents to reflect whatever you’ve added. A refresh button should show up in the top left of the table when you clock on it. You can also use it to jump to a certain page by clicking the title.
+
+
+If you use google doc’s “styles” feature (in the top left corner next to fonts), it’ll keep the table of contents looking nice and the titles will all be consistent :) but if it gets messy that’s okay, I’m more than happy to go back and fix things.
+
+
+Heading 1: Week title (ctrl+alt+1)
+Heading 2: Day title (ctrl+alt+2)
+Heading 3: Location/channel title (ctrl+alt+3)
+Normal text: everything else (ctrl+alt+4)
+
+
+Copying the previous day’s page and deleting the notes is probably the easiest way to keep formatting consistent so my notes here are probably unnecessary haha
+
+
+* Goblin Mod/ Moblin/ Gobs <3
+________________
+WEEK ONE
+
+
+Day One: July 10th
+The City
+   * Ferrytown
+   * Hampstead
+   * Kingsbridge Noir
+   * Other
+   * Jigsaw blows something up probably 
+   * Devon dies
+________________
+Day Two: July 11th
+The City
+      * Ferrytown
+      * Hampstead
+      * Kingsbridge Noir
+      * Other
+      * ________________
+
+
+Day Three: July 12th
+The City
+      * Ferrytown
+      * Hampstead
+      * Kingsbridge Noir
+      * Other
+________________
+      * Day Four: July 13th
+The City
+      * Ferrytown
+      * Hampstead
+      * Kingsbridge Noir
+      * Other
+      * 
+________________
+Day Five: July 14th
+The City
+         * Ferrytown
+         * Hampstead
+         * Kingsbridge Noir
+         * Other
+         * 
+________________
+Day Six: July 15th
+The City
+            * Ferrytown
+            * Hampstead
+            * Kingsbridge Noir
+            * Other
+            * 
+________________
+Day Seven: July 16th
+The City
+               * Ferrytown
+               * Hampstead
+               * Kingsbridge Noir
+               * Other
+               * 
+________________
+WEEK TWO

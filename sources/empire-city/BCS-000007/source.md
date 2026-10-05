@@ -1,0 +1,72 @@
+﻿________________
+
+
+Issue 1                                                        July 12th, 1776                                        Price: 2 copper
+________________
+
+
+FIRE BREATHING SQUIRRELS 
+Spotted in Central Park
+________________
+
+
+Taxes: Good or Evil?
+As tax rates increase we Empire City residents find ourselves asking, “What are we getting back?” Don’t miss exclusive interview with leading tax expert in next Sunday’s edition. 
+Pigeon Menace Intensifies 
+Pigeons have been reported acting strange lately. If you witness strange behavior in these fowl, leave the area immediately, as it could be a sign of disease.
+________________
+
+
+Financials
+Stock
+	Price
+	Company Name
+	BOP
+	110
+	Boompaleis Properties
+	CON
+	114
+	Continental Currency Bills
+	CRN
+	92
+	Crown Arms
+	FBA
+	110
+	Forestmount Banking Alliance
+	FTC
+	126
+	Ferry Trading Co.
+	GAZ
+	165
+	Empire City Gazette
+	INK
+	297
+	Ink and Alchemy Supplies
+	LFT
+	92
+	Liftwright Airships
+	PMI
+	126
+	Prestige Magic Items
+	TOR
+	73
+	Torax Mining & Orphanage
+	________________
+
+
+Opinion
+-Anonymous
+What has this town come to where the innocent are hunted like animals. I never speak against the Crown, but the tactics of some of these Redcoat soldiers is appalling. 
+All throughout Hampstead, and other places too, I’ve seen wanted posters for treason. Citizens of His Majesty are being dragged before some military tribunal on charges which have not been made public. Some are not even that lucky. There have been reports of people killed in the streets by Redcoat soldiers. If the king is not going to hold his soldiers responsible for their vile actions, then it falls upon the citizens of this land to do it for him. 
+Arcanian Residents should be arrested and tried by Arcanian police and courts. If those accused are guilty, it will be found out, but there must be transparency, and trust. The system we have now is intolerable. 
+I write this in protest, and anonymously, for fear of my life, but we the people must stand against this barbarism. Perhaps it is time for the Redcoats to go back across the sea. Perhaps it is time for self rule. I hope with all my heart that a peaceful solution can be found, but in these troubled times, there are many who are willing to lay down their lives for this land, to keep it free from tyranny. 
+________________
+
+
+INVESTMENT OPPORTUNITY
+MAGICAL SCIENTIST and INVENTOR Davidson Wintergreen seeking wealthy patron! All kinds of things I make for you! TOYS for children! Tools for WORK! Tools for HOME! WEAPONS for protection! Other types of things!
+You get:
+- inventions!
+I get:
+- paid!
+Inquire at airship Eastwind, King George III Airship Port!

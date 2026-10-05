@@ -1,0 +1,128 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000041",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "ROANOKE S:3 2.0.docx",
+  "source_role": "campaign_manuscript",
+  "source_kind": "google_drive_native",
+  "original_filename": "ROANOKE S:3 2.0.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1kpS8rq7-5hFtWQY9Mm6NHRyEfmRY5b0xQcPzllJfLHY",
+      "url": "https://docs.google.com/document/d/1kpS8rq7-5hFtWQY9Mm6NHRyEfmRY5b0xQcPzllJfLHY/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_efafc55f46fc81919ab76722e53ce72b",
+      "source_path": "/Dnd solo source imports/Roanoke/ROANOKE S:3 2.0.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-campaign-manuscript",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000041/assets/media/image1.png",
+      "sha256": "1b6246823142fc3a21b4197c5eb32646499c031a1018a6a50ac6467f6b14c21c",
+      "mime_type": "image/png",
+      "size_bytes": 2272698
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000041/comments.json",
+      "sha256": "f0815c510337264fe4a02b405a5db30b7e1966bf1c62d810dd37112ba93909ca",
+      "mime_type": "application/json",
+      "size_bytes": 113
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000041/original/source.docx",
+      "sha256": "d6dd8c1ee3acf79a32fca0a117ac7cc00e027572d85a0dc27f68c94b93f94679",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 3258974
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000041/source.md",
+      "sha256": "4a8c39e1da65ae73a89e9f93dd387264519e7c9d65a0ceb89c2e0b2fe8e6bdf6",
+      "mime_type": "text/markdown",
+      "size_bytes": 42031
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The manuscript is titled ROANOKE S:3 2.0 and repeats the same campaign premise and writers as the rough draft.",
+        "support_refs": [
+          "BCS-000041",
+          "BCS-000045"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "This is a revised campaign manuscript. It is not evidence of what was later run.",
+        "support_refs": [
+          "BCS-000041"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "REVISES",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000045",
+      "confidence": "STRONG",
+      "basis": "Both are the Roanoke S:3 manuscript by the same named writers. This source is titled 2.0 and keeps the same opening premise. That is revision, not proof that the rough draft was discarded.",
+      "support_refs": [
+        "BCS-000041",
+        "BCS-000045"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000041",
+    "canonical_corpus_id": "BCS-000041",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

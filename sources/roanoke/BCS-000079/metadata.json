@@ -1,0 +1,127 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000079",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Brendon's copy of crafting.",
+  "source_role": "system_design_working_copy",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Brendon's copy of crafting..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-25T17:19:35.659Z",
+  "modified_at": "2020-04-29T05:12:30.044Z",
+  "ingested_at": "2026-10-04T18:35:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Working copy contains explicit BF annotations and named contributions from other collaborators; sole authorship is not claimed.",
+    "project_ownership_context": "Roanoke Season 3 crafting-system development."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1xyTB9kHP-xUPlcsbpDmqKeirOYcwD2IPh3dVmitNEQQ",
+      "url": "https://docs.google.com/document/d/1xyTB9kHP-xUPlcsbpDmqKeirOYcwD2IPh3dVmitNEQQ/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000079/source.md",
+      "sha256": "1e32824e247b73feaf98e867332db60b5608dc4d19dd85d59c447a687f1c4558",
+      "mime_type": "text/markdown",
+      "size_bytes": 17873
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000079/original/source.docx",
+      "sha256": "d02409453508fc9eff704ea97ead7a4a0efbe3648e2134e0e5d6480ccde57eb5",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 18478
+    }
+  ],
+  "normalization": {
+    "method": "Exact donor normalized body reconciled from ingest/drive-project-v3; source wording was not rewritten.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document.",
+      "Historical revision bodies remain pending where the donor capture marked them pending."
+    ]
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source abstract explicitly states that it outlines a crafting system for Roanoke Season 3.",
+        "support_refs": [
+          "BCS-000079"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The working-copy source is explicitly for Season 3 and predates the documented live window.",
+        "support_refs": [
+          "BCS-000079",
+          "registry:roanoke-s3"
+        ]
+      },
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The source is marked work in progress and contains open questions, alternatives, and contributor annotations.",
+        "support_refs": [
+          "BCS-000079"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000077",
+      "confidence": "STRONG",
+      "basis": "Separate working copy in the same Crafting with Class family with substantial overlapping system text; direct linear version ordering is not asserted.",
+      "support_refs": [
+        "BCS-000077",
+        "BCS-000079"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000079",
+    "donor_git_blob_shas": {
+      "source_md": "b846d7344d3e83d4dded63c81e8bbacb6c4a6ca3",
+      "metadata_json": "24dfba9dda370028d23cdab7d4435768d1f2b661",
+      "original_docx": "1d9b96e707c6c67821f35acb9f747f78f925cfb7",
+      "comments_jsonl": "0d7b9aaa0704844b4f823316411d758eda421b17",
+      "revisions_jsonl": "616364366b5540b563b8dd6bb657e9a325e67b8e"
+    },
+    "preservation_note": "Native Drive identity and captured source artifacts preserved while metadata was normalized to the current-main ingestion contract."
+  },
+  "supplemental_hashes": {
+    "comments_jsonl_sha256": "813337ddc70dea02e0855757dafb0013b6852789bce2cebdade4d02b11e96e2b",
+    "revisions_jsonl_sha256": "aabc6105cdcdac5a89ee267651bab5ac0ff3d63ea977645b1b3cfb82dcdcdd60"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000075",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "The Red Coats",
+  "source_role": "lore_design",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-setting-lore",
+  "original_filename": "The Red Coats.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-01-30T10:45:11.648Z",
+  "modified_at": "2021-01-30T11:44:48.853Z",
+  "ingested_at": "2026-10-04T15:05:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Document content and date place it in Empire City/Season 4 development, but whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 4 / Empire City project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1kCX5wJ7QiocQK3BtXu_QtCW6ZfZYJ2lQWehXcMcD2jo",
+      "url": "https://docs.google.com/document/d/1kCX5wJ7QiocQK3BtXu_QtCW6ZfZYJ2lQWehXcMcD2jo/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000075/original/source.docx",
+      "sha256": "d0bf9e6fc9d0d22cd85d52ae8d23480712a91d67a6855a0cdd6f5930182cd98b",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 10325
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000075/revisions.jsonl",
+      "sha256": "30bdf9e0c6aa8a667edab751aae8a2991df539c3998cb34ebf234a525e29f832",
+      "mime_type": "application/json",
+      "size_bytes": 1011
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000075/source.md",
+      "sha256": "67283ba52c525c63597b63873b6288f4bb953ec74e7baf96f3eda7c9571c3a8c",
+      "mime_type": "text/markdown",
+      "size_bytes": 7061
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source names Empire City, says George Washington dubbed it the seat of the Arcanian empire, and contrasts this season with previous seasons.",
+        "support_refs": [
+          "BCS-000075"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The source addresses players directly, including the section 'Who are you?'",
+        "support_refs": [
+          "BCS-000075"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "DERIVED_FROM",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000076",
+      "confidence": "STRONG",
+      "basis": "The Empire City text reuses the Season 3 public-lore opening about the Old World, the New World, and the gods, then continues into the Seven Years War and Empire City. It is an adaptation, not a Season 3 revision.",
+      "support_refs": [
+        "BCS-000075",
+        "BCS-000076"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000075",
+    "canonical_corpus_id": "BCS-000075",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

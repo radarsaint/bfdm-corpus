@@ -1,0 +1,118 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000002",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Draft to do list",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "unplaced-five-week-planning",
+  "original_filename": "Draft to do list.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-01-07T00:49:38.570Z",
+  "modified_at": "2021-01-07T01:03:26.733Z",
+  "ingested_at": "2026-10-03T19:58:00-07:00",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Whole-document authorship not established by current evidence; native Drive identity verified against the existing Library import.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1tpwRTozhJZQ5ffCWlXJoEUwmF1WJ7ZC7QIpDw28VPQ8",
+      "url": "https://docs.google.com/document/d/1tpwRTozhJZQ5ffCWlXJoEUwmF1WJ7ZC7QIpDw28VPQ8/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_041b29c026c081919f79ec125ef9fd13",
+      "source_path": "/Dnd solo source imports/Empire City/Draft to do list.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000002/original/source.docx",
+      "sha256": "645ec93f296da65c62b934425fc40988f716ee90659c3d4ea75704e4431e25f1",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7353
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000002/revisions.jsonl",
+      "sha256": "7c9b899632d4de41858667034da7caf01a4fe73a5c8fda32bcad7818b3eff9ff",
+      "mime_type": "application/json",
+      "size_bytes": 1166
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000002/revisions/1.md",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "mime_type": "text/markdown",
+      "size_bytes": 3
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000002/revisions/374.md",
+      "sha256": "28717b378b9c5ccdfb7f8c0892829d3d409eef3bedf90bb742e3a823c83de212",
+      "mime_type": "text/markdown",
+      "size_bytes": 778
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000002/source.md",
+      "sha256": "28717b378b9c5ccdfb7f8c0892829d3d409eef3bedf90bb742e3a823c83de212",
+      "mime_type": "text/markdown",
+      "size_bytes": 778
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some Google Docs visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "PRESERVED",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is a draft task list for a five-week calendar, main events, meetings, art, economy, items, and vehicles.",
+        "support_refs": [
+          "BCS-000002"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The list mentions a calendar based on kings bridge noir and dates in 2020 and 2021. It does not name Empire City or a season. The donor folder is not treated as season membership."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000002",
+    "canonical_corpus_id": "BCS-000002",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

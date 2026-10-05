@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000120",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Urucokra Verbatim",
+  "source_role": "public_lore_render_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-uru-lore",
+  "original_filename": "The Urucokra Verbatim.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-12T01:29:54.147Z",
+  "modified_at": "2020-05-12T01:37:48.641Z",
+  "ingested_at": "2026-10-04T19:55:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 formatted lore source; whole-document authorship is not explicitly established in the source.",
+    "project_ownership_context": "Roanoke Season 3 Urucokra public-lore material."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1dgcRxEFwq3PYSz3JqPhaGp2a0J73-odlYJWaE-5b8QQ",
+      "url": "https://docs.google.com/document/d/1dgcRxEFwq3PYSz3JqPhaGp2a0J73-odlYJWaE-5b8QQ/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_QUERIED_THIS_PASS",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; EXTERNAL_IMAGE LINKS REMAIN IN SOURCE"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000120/original/source.docx",
+      "sha256": "d615a956860c280324403e3e8167713180f24dc45b450e97fe2197c9a56d0625",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9448
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000120/revisions.jsonl",
+      "sha256": "6a8537bf39a0730cf3fc0c92fcdbc4c7a770bdd49627f230ec184e49fd334a70",
+      "mime_type": "application/json",
+      "size_bytes": 1010
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000120/source.md",
+      "sha256": "917cbe4447b932802c946c1f8dd3b22dd49bd84bc192aca3e58d2de29952535e",
+      "mime_type": "text/markdown",
+      "size_bytes": 4694
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The player-facing Urucokra text describes Roostloft and the Halfwudgie servants used throughout the Season 3 material.",
+        "support_refs": [
+          "BCS-000120",
+          "BCS-000086"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The text is a player ancestry option. No separate published copy was identified.",
+        "support_refs": [
+          "BCS-000120"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000086",
+      "confidence": "STRONG",
+      "basis": "Internal Uru/Halfwudgie design and this player-facing Urucokra text describe the same Roostloft society. One is not marked as replacing the other.",
+      "support_refs": [
+        "BCS-000120",
+        "BCS-000086"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000092",
+    "canonical_corpus_id": "BCS-000120",
+    "id_collision_remap": true,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

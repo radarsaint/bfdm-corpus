@@ -1,0 +1,89 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000130",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Map linked from the week 5 breakdown",
+  "source_role": "map_image",
+  "source_kind": "google_drive_file",
+  "document_family_id": "roanoke-s3-week5-map",
+  "original_filename": "1NnYMxq39WObWYIn-1blbuD7uHXon-c-v.jpg",
+  "mime_type": "image/jpeg",
+  "ingested_at": "2026-10-05T02:20:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "BCS-000053 links this file as a map. The image has no signature.",
+    "project_ownership_context": "Cited by a Roanoke Season 3 week document."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_file",
+      "native_id": "1NnYMxq39WObWYIn-1blbuD7uHXon-c-v",
+      "url": "https://drive.google.com/open?id=1NnYMxq39WObWYIn-1blbuD7uHXon-c-v"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "ORIGINAL_FILE",
+      "path": "sources/roanoke/BCS-000130/original/map.jpg",
+      "sha256": "35fb7516a89e4e9618497b01c56e5dc0f2b5a78c067d32bf66bed5eacab6f814",
+      "mime_type": "image/jpeg",
+      "size_bytes": 10126463
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000130/source.md",
+      "sha256": "b02f66e9bee4ecbe4faa616cd4665990cf89bc7b24fab9b2b8ea33b394eb438f",
+      "mime_type": "text/markdown",
+      "size_bytes": 369
+    }
+  ],
+  "normalization": {
+    "method": "The Drive file is a JPEG. It is preserved as map.jpg. source.md records the link and that the image has no text layer. It does not name rooms.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "No OCR was run. Labels are not invented."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_APPLICABLE",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_APPLICABLE",
+    "assets": "THE_FILE_IS_THE_IMAGE"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "BCS-000053, the Season 3 week 5 breakdown, links this Drive file as the map beside The Morkoth.",
+        "support_refs": [
+          "BCS-000130",
+          "BCS-000053"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The week sheet points at this image as the map for that section. The image does not show that the encounter was run.",
+        "support_refs": [
+          "BCS-000130",
+          "BCS-000053"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A linked map is preparation. It does not show the map was used in play."
+      }
+    ]
+  },
+  "source_links": []
+}

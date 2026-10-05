@@ -1,0 +1,137 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000032",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S3W2 Set List.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S3W2 Set List.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1GviUP5vCD5DC0xaBH-sUnQjHNcw0AhxWDtl-4AxIVdw",
+      "url": "https://docs.google.com/document/d/1GviUP5vCD5DC0xaBH-sUnQjHNcw0AhxWDtl-4AxIVdw/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 2 set list",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000032/assets/media/image1.png",
+      "sha256": "d981420a1fbd39aceffd7b249d1a35e074d460b18d3d98d68f63285db347332e",
+      "mime_type": "image/png",
+      "size_bytes": 232413
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000032/assets/media/image2.gif",
+      "sha256": "7eb5ec4f80ff5c51d50cfd9dc0742dc00087d4245632dab7653f3f54e2c159c7",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1261827
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000032/assets/media/image3.png",
+      "sha256": "a6307926e5641a6da52c0e2b3ae456a4dbac9747dde45e9f6ba492a659fa0b29",
+      "mime_type": "image/png",
+      "size_bytes": 166547
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000032/assets/media/image4.png",
+      "sha256": "5faac9bb0960792eac3e624bc8f481bab6b6b8a9a7f0f2335f7ac51d20185607",
+      "mime_type": "image/png",
+      "size_bytes": 217136
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000032/assets/media/image5.png",
+      "sha256": "dc2219a4d353f6fd42e77144583fa9ee0665c4801b4fdc21393d05f08b41b030",
+      "mime_type": "image/png",
+      "size_bytes": 258489
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000032/comments.json",
+      "sha256": "ddaa145da28f9b1fe369221af13816518f85b4f8aea47fa2f74ca0d5bb2d0a81",
+      "mime_type": "application/json",
+      "size_bytes": 119
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000032/original/source.docx",
+      "sha256": "cc4282eedc819c6bef33fe58a6c21300082ed594666a1de1643bc6c775eafbd7",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 2145903
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000032/source.md",
+      "sha256": "461e370b0e05230768f052ea0e87f636327675c2e125e5cfbafac22f0dce5e69",
+      "mime_type": "text/markdown",
+      "size_bytes": 4558
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 2 set list). The source is the week 2 set list for the Tir Na Nog.",
+        "support_refs": [
+          "BCS-000032"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the week 2 set list for the Tir Na Nog.",
+        "support_refs": [
+          "BCS-000032"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000032",
+    "canonical_corpus_id": "BCS-000032",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

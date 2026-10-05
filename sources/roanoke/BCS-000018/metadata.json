@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000018",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke 3 Master Schedule.xlsx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke 3 Master Schedule.xlsx",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Mu3iaAovXRxct0Z06HOLdvxm6PrRImJTMZmNRCzi7uc",
+      "url": "https://docs.google.com/spreadsheets/d/1Mu3iaAovXRxct0Z06HOLdvxm6PrRImJTMZmNRCzi7uc/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "master_schedule",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000018/comments.json",
+      "sha256": "9df4a90fdee89ee7692d994116ca4f82f03208e76c1e8bccde68a7b6d4915fe7",
+      "mime_type": "application/json",
+      "size_bytes": 86
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000018/original/source.xlsx",
+      "sha256": "c884756f91dab73547f0b6b9475a83ac9ef34674be24f0f1e3c613dc3a19addb",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 221145
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000018/source.md",
+      "sha256": "fe0bd1f14d44dedd4f141e4fb340fbfccdfa6bcf870780a00f75c2576244e565",
+      "mime_type": "text/markdown",
+      "size_bytes": 2598
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The sheet is the Roanoke 3 master schedule and its week 1 Saturday is 7/18, the registered Season 3 opening.",
+        "support_refs": [
+          "BCS-000018"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The sheet assigns days, events, and DMs across five weeks. An assignment is not evidence the event was run.",
+        "support_refs": [
+          "BCS-000018"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000018",
+    "canonical_corpus_id": "BCS-000018",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

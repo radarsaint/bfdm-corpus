@@ -46,6 +46,157 @@
       "external_locator": "sources/roanoke-s5-legends/google-sites/",
       "basis": "The document explicitly tracks site-by-site wording, mechanics, access, and correction work for the Season 5 Sites.",
       "confidence": "STRONG"
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000089",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Lifepath - Mining', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000089"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000093",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Spells', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000093"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000092",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Bard College of the Trail', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000092"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000099",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Barbarian Path of the Lumber Jacked', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000099"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000112",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Cleric Joybringer, Mischievous Whims, and Savage Fertility', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000112"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000110",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Monk Way of Gun Fu', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000110"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000111",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Paladin Oath of the Codebound', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000111"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000100",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Paladin Oath of the Drifter', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000100"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000101",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Rogue Enforcer', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000101"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000098",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Subclass - Warlock Rail Baron Pact', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000098"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000109",
+      "confidence": "STRONG",
+      "basis": "The changelog has a section 'Char-gen', and that material is on this page. The notes mix applied edits ('green = changed') and suggestions still waiting for confirmation. This is revision context for the page, not a claim that every note was published.",
+      "support_refs": [
+        "BCS-000113",
+        "BCS-000109"
+      ]
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The changelog tracks Season 5 Site wording and corrections.",
+        "support_refs": [
+          "BCS-000113"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The document is the working list of site changes, not the published page itself.",
+        "support_refs": [
+          "BCS-000113"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Site revision notes do not establish that a published rule was used in play."
+      }
+    ]
+  }
 }

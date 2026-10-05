@@ -1,0 +1,184 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000052",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "RoanokeS3W3 Breakdown.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "RoanokeS3W3 Breakdown.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1n3zktVsIeTPlXix-gBJf-_4Bg28nag9MbCIZdaLsIAY",
+      "url": "https://docs.google.com/document/d/1n3zktVsIeTPlXix-gBJf-_4Bg28nag9MbCIZdaLsIAY/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 3 breakdown",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000052/assets/media/image1.jpg",
+      "sha256": "af53323ef73eeb253d648307623b84738cd7fd64ab3b286963e289e4287a17e2",
+      "mime_type": "image/jpeg",
+      "size_bytes": 66268
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000052/assets/media/image2.jpg",
+      "sha256": "7e52abc9b0a50a024b0c655ad09b297c2fff67607bb44883dea3306f55f2fc43",
+      "mime_type": "image/jpeg",
+      "size_bytes": 57333
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000052/brendon-comments.native.json",
+      "sha256": "29da68b27d0d1de3cac2229950bb12e12cf246cf36cfb953a652fb2ccecc1534",
+      "mime_type": "application/json",
+      "size_bytes": 681
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000052/comments.json",
+      "sha256": "9dc5ed844e8ed2e7ae9673be2c10aa275ef24cbf35dc7f9c1787ed3cf3d1ab7f",
+      "mime_type": "application/json",
+      "size_bytes": 3770
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000052/original/source.docx",
+      "sha256": "cb8f631193404f952552315f02fbaae6efe58c0d55782578b7c7a4464db72e97",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 153797
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000052/source.md",
+      "sha256": "0714488a62dc035f5167c97d750d534dd82ada638510a4b6040e4544dd16e483",
+      "mime_type": "text/markdown",
+      "size_bytes": 29708
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 3 breakdown). The source is the Roanoke S3 week 3 breakdown, opening Saturday 08/01/2020 on the island.",
+        "support_refs": [
+          "BCS-000052"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the Roanoke S3 week 3 breakdown, opening Saturday 08/01/2020 on the island.",
+        "support_refs": [
+          "BCS-000052"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000023",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000052",
+        "BCS-000023",
+        "drive:16Tj1IpASTLJcXRRsdVY0IZ3d5T_YQbj0Ssyw6hRUehs"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000033",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000052",
+        "BCS-000033",
+        "drive:17x1-Tn87syP78pyiRtY-mhfzKOqhkci7cuQ3GDJglZQ"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000035",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000052",
+        "BCS-000035",
+        "drive:1SKyJxTEOGGmfivBOBhqgQ9iipLgJSey6B7vGYUSTyPg"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000019",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000052",
+        "BCS-000019",
+        "drive:1U0-iIRVyrVINJnnhLD3Bqq9zJKDe4eH3DVjk8X6VLRk"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000086",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000052",
+        "BCS-000086",
+        "drive:1oLsfcQKG8MDA6pKsPbiSEoXP5qm_raAt58xY1Ytj3Ns"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000052",
+    "canonical_corpus_id": "BCS-000052",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

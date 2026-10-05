@@ -1,0 +1,221 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000048",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "RoanokeS3 doc V2 W1.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "RoanokeS3 doc V2 W1.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1fHjX43qP6zvnGHHnu2G82EISPkn3Dr8PTCVF6KcyhVk",
+      "url": "https://docs.google.com/document/d/1fHjX43qP6zvnGHHnu2G82EISPkn3Dr8PTCVF6KcyhVk/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 1 breakdown",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image1.png",
+      "sha256": "99b414ed9fb4a591a8df57d03f29dc233a6a8c4fa5b69d5209c72b55b8b6a6bd",
+      "mime_type": "image/png",
+      "size_bytes": 659005
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image2.png",
+      "sha256": "2fefd62103310b278e975cda3a2c471abc24b31bc8e7c544adf3748d153b1f46",
+      "mime_type": "image/png",
+      "size_bytes": 1046515
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image3.png",
+      "sha256": "80555c02e1efb5fafa813670262b4036bd83a0a16aafdb736a6ceec12db758e7",
+      "mime_type": "image/png",
+      "size_bytes": 817027
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image4.png",
+      "sha256": "f62602bb704d4ad43a252bd7fb5d5f190abbc57c165d176a98e53ce7b48c89b3",
+      "mime_type": "image/png",
+      "size_bytes": 1358058
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image5.png",
+      "sha256": "f9443c77f67f4af53a9403f8444d6078565992fc0df3772a0b74292223cef1ff",
+      "mime_type": "image/png",
+      "size_bytes": 1224151
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image6.png",
+      "sha256": "37f0af87e46e497721261a6a9a857acc371282872b60ff70c852263084052042",
+      "mime_type": "image/png",
+      "size_bytes": 82736
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image7.png",
+      "sha256": "0e7fa3c8357a8afe94d915ce5bbcddb09da9fc1bf0f48409057c13c9d677231c",
+      "mime_type": "image/png",
+      "size_bytes": 875477
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image8.png",
+      "sha256": "7b54728fc091f77f4d97a6e90957bc88e9584f46a7f6f0ae16f33a38958c2011",
+      "mime_type": "image/png",
+      "size_bytes": 2265983
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000048/assets/media/image9.jpg",
+      "sha256": "31db7500cc07d9339c73e9de4123e58a9862e31dd2f2f0ede1d257399bd46836",
+      "mime_type": "image/jpeg",
+      "size_bytes": 122319
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000048/brendon-comments.native.json",
+      "sha256": "ae1a830adb834143052d0e4eeaafee936da7e78f9f95119268f07460285bef2a",
+      "mime_type": "application/json",
+      "size_bytes": 3496
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000048/comments.json",
+      "sha256": "61a6fb382917d50c63e0296a1e14d738e6650109d16cfa96f7f5ba9a60129230",
+      "mime_type": "application/json",
+      "size_bytes": 9795
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000048/original/source.docx",
+      "sha256": "167ecc7220b91de32b13029d7dfc41c86f9ba4729524a14545d4374ef810b3a0",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8504075
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000048/source.md",
+      "sha256": "89e4995a1df6ad9b36176d4d2d8338af7841c83445281e74c9c323394a7e944c",
+      "mime_type": "text/markdown",
+      "size_bytes": 82037
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 1 breakdown). The source is the Roanoke S3 week 1 run sheet, opening Saturday 07/18/20 in London.",
+        "support_refs": [
+          "BCS-000048"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the Roanoke S3 week 1 run sheet, opening Saturday 07/18/20 in London.",
+        "support_refs": [
+          "BCS-000048"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000030",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000048",
+        "BCS-000030",
+        "drive:12hf1fE7KqLg8uaaKde9LvKmSDt1DcF1RY6aSMYgIeS4"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000049",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000048",
+        "BCS-000049",
+        "drive:1dgRYi_8i3qL5s5NddLqID7JPN0IAv1bgcGwvgFb5U0k"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000050",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000048",
+        "BCS-000050",
+        "drive:1p2B4g9pRWr2TYvEAKO7b5CtyPO6h-3ROmCK79woPz0Y"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000127",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Twilight Manor at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000048",
+        "BCS-000127",
+        "drive:1PlvWTEJ_C294RdlY2OlkPxB_8AV1SFm9jZWIWJWMloY"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000048",
+    "canonical_corpus_id": "BCS-000048",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

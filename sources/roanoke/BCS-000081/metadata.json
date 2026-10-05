@@ -1,0 +1,121 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000081",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Map Key",
+  "source_role": "map_key",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-cartography",
+  "original_filename": "Map Key.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-07T21:17:57.699Z",
+  "modified_at": "2020-06-28T19:13:53.230Z",
+  "ingested_at": "2026-10-04T18:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 cartography/planning source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 cartography source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1U49BILhdgEcUKcc5MsLzJpqzzACk2mzx56E2c8GU0ME",
+      "url": "https://docs.google.com/document/d/1U49BILhdgEcUKcc5MsLzJpqzzACk2mzx56E2c8GU0ME/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000081/comments.jsonl",
+      "sha256": "e9ee479cf44c998e7d93b7cb1e72d4baaabd5115d1eb7118738adf8edc59ec47",
+      "mime_type": "application/json",
+      "size_bytes": 6614
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000081/original/source.docx",
+      "sha256": "931c3d9e3bbbba33e83b8245cf7cab750c32c4e7d8a86d7d6f742de3205a94a6",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 317959
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000081/revisions.jsonl",
+      "sha256": "67dc15465be11132c6a0c892ba0b94d8c382d8fc0d99cb808658444dafb6ea8a",
+      "mime_type": "application/json",
+      "size_bytes": 10537
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000081/source.md",
+      "sha256": "0a0a980fcd187555373d7a27d0233a87b56e0f2e8502f31b7063c9d277d0ca6f",
+      "mime_type": "text/markdown",
+      "size_bytes": 1567
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The hex key repeats the Season 3 main map index, including Cape Antler, Leviathan's Call, and Lake of the Woes.",
+        "support_refs": [
+          "BCS-000081",
+          "BCS-000026"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The source is the working hex key for the island map.",
+        "support_refs": [
+          "BCS-000081"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000026",
+      "confidence": "STRONG",
+      "basis": "The map key and the main map use the same hex index, beginning A Cape Antler and B Leviathan's Call. Neither is marked as replacing the other.",
+      "support_refs": [
+        "BCS-000081",
+        "BCS-000026"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000081",
+    "canonical_corpus_id": "BCS-000081",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

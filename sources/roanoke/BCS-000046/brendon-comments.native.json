@@ -1,0 +1,117 @@
+{
+  "corpus_id": "BCS-000046",
+  "source": "google_drive_native_comments",
+  "author_filter": "Brendon Faulkner",
+  "comment_count": 7,
+  "comments": [
+    {
+      "id": "AAAAGbAmbng",
+      "content": "Please add your npc details for week 3",
+      "createdTime": "2020-04-16T17:13:48.204Z",
+      "modifiedTime": "2020-05-02T07:06:15.247Z",
+      "resolved": true,
+      "quoted": "Cast list for week 3",
+      "replies": [
+        {
+          "author": "Brendon Faulkner",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-05-02T07:06:15.247Z"
+        }
+      ]
+    },
+    {
+      "id": "AAAAJZVIx_Q",
+      "content": "We need to know where we will be and one what day before we can build the hidden lore doc.",
+      "createdTime": "2020-04-14T01:53:19.957Z",
+      "modifiedTime": "2020-04-15T08:31:31.996Z",
+      "resolved": true,
+      "quoted": "Working on island politics in order to understand the sets needed for weeks 3,4 and 5.",
+      "replies": [
+        {
+          "author": "Brendon Faulkner",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-04-15T08:31:31.996Z"
+        }
+      ]
+    },
+    {
+      "id": "AAAAGZgEqP8",
+      "content": "Please fill in your content for secret societies.",
+      "createdTime": "2020-04-12T23:16:19.339Z",
+      "modifiedTime": "2020-04-12T23:16:19.339Z",
+      "resolved": false,
+      "quoted": "Started building week 2 in the breakdown. Please fill in your content for secret societies.",
+      "replies": []
+    },
+    {
+      "id": "AAAAGZgEqP4",
+      "content": "All DM's must sign off before this can go live.",
+      "createdTime": "2020-04-12T20:24:21.059Z",
+      "modifiedTime": "2020-04-12T20:24:21.059Z",
+      "resolved": false,
+      "quoted": null,
+      "replies": []
+    },
+    {
+      "id": "AAAAJZ-_nJM",
+      "content": "Brendon- exterior kraken fight\nRob-  interior blind sub Mechanics",
+      "createdTime": "2020-04-12T09:50:36.524Z",
+      "modifiedTime": "2020-05-10T08:07:52.623Z",
+      "resolved": true,
+      "quoted": "Week 2 voice event needs to be rewritten with new mechanics.",
+      "replies": [
+        {
+          "author": "Noah Carr",
+          "content": "Why \"Nobility Obliges?\"\nNot sure it really connects to KRS in any way.",
+          "action": null,
+          "createdTime": "2020-04-23T06:19:42.484Z"
+        },
+        {
+          "author": "Brendon Faulkner",
+          "content": "Another translation is noble obligation. As in the two groups agree that there is a noble cause to which they are both obligated to persue.",
+          "action": null,
+          "createdTime": "2020-04-23T06:51:50.766Z"
+        },
+        {
+          "author": "Noah Carr",
+          "content": "I looked more into the translation. And the translation for the word noble in the way we're using it, is \"noble\" . \n\nHow about we use the phrase Nobles alliés, for just \"Noble Allies\"",
+          "action": null,
+          "createdTime": "2020-05-03T00:35:51.488Z"
+        },
+        {
+          "author": "Brendon Faulkner",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-05-10T08:07:52.623Z"
+        }
+      ]
+    },
+    {
+      "id": "AAAAJZ-_nI8",
+      "content": "Week three sets and location depend on this information.",
+      "createdTime": "2020-04-12T09:40:44.640Z",
+      "modifiedTime": "2020-04-12T09:40:44.640Z",
+      "resolved": false,
+      "quoted": "Add explanation of politics - High priority.",
+      "replies": []
+    },
+    {
+      "id": "AAAAJZ-_nI4",
+      "content": "Remind Rob to link his cp tracking system.",
+      "createdTime": "2020-04-12T09:29:40.794Z",
+      "modifiedTime": "2020-04-15T07:53:19.649Z",
+      "resolved": true,
+      "quoted": "04/12/2020",
+      "replies": [
+        {
+          "author": "Brendon Faulkner",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-04-15T07:53:19.649Z"
+        }
+      ]
+    }
+  ]
+}

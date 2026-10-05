@@ -1,0 +1,108 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000071",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Mod Directory",
+  "source_role": "mod_directory",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-week-operations",
+  "original_filename": "Mod Directory.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-07T18:00:15.455Z",
+  "modified_at": "2020-07-14T03:46:12.370Z",
+  "ingested_at": "2026-10-04T14:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 project-management source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1tTYIC7UOmuNMgEzM8z3RB2ZavbKpnmAhKMPh02AeBx0",
+      "url": "https://docs.google.com/document/d/1tTYIC7UOmuNMgEzM8z3RB2ZavbKpnmAhKMPh02AeBx0/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000071/original/source.docx",
+      "sha256": "76803792e74cf1f3ddefb77bfbc03e6bf92ac332a32bafc0e48aecb2bb462fb0",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8193
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000071/revisions.jsonl",
+      "sha256": "fdb92c64b9ea8488528d1f3c329a48f37f3937052db8ea140f2f79deaa6d6f4a",
+      "mime_type": "application/json",
+      "size_bytes": 4116
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000071/source.md",
+      "sha256": "1ee7ebc1f68c0659b7baadd68fef0e17dec2efcee0fcc0802d0e59ffeefdd86d",
+      "mime_type": "text/markdown",
+      "size_bytes": 750
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source titles itself Roanoke S3 MOD Directory and indexes week resources from 7/18/2020.",
+        "support_refs": [
+          "BCS-000071"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The directory indexes week breakdowns, sets, casts, and passdowns for moderators.",
+        "support_refs": [
+          "BCS-000071"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "week_5_date_alignment",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The directory dates week 5 as 8/07/2020-8/19/2020. The master schedule's week boundaries and the week 5 breakdown's Saturday 08/15/2020 do not use 8/07 as the week 5 start. The directory line is preserved and not corrected."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000071",
+    "canonical_corpus_id": "BCS-000071",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

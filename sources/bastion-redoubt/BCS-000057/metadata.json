@@ -1,0 +1,112 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000057",
+  "project": "Bastion/Redoubt",
+  "project_slug": "bastion-redoubt",
+  "title": "Bastion and Redoubt introduction",
+  "source_role": "player_introduction",
+  "source_kind": "google_drive_native",
+  "original_filename": "Bastion and Redoubt introduction.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1BF3WaMa_Mg3-2jMr8vnBY94MhRRGJwhxENKjOHBxEaE",
+      "url": "https://docs.google.com/document/d/1BF3WaMa_Mg3-2jMr8vnBY94MhRRGJwhxENKjOHBxEaE/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "bastion-redoubt-campaign",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/bastion-redoubt/BCS-000057/comments.json",
+      "sha256": "adf6db413891fb7fd70b325bc2d9ead040bcc5cb993dbd93c31043881846be4d",
+      "mime_type": "application/json",
+      "size_bytes": 103
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/bastion-redoubt/BCS-000057/original/source.docx",
+      "sha256": "3a6b60dc5d86f7fc0714babbfa5499512c1ee31ba0a87d4ca881974d018354fd",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9098
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/bastion-redoubt/BCS-000057/source.md",
+      "sha256": "2097b0c3694fa70d8198c8b592cef233c1eb3c58cbe72064ba50bdccb4552455",
+      "mime_type": "text/markdown",
+      "size_bytes": 4911
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "bastion-redoubt",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The introduction describes Bastion and Redoubt, the monarchy, character creation, and patrol duties.",
+        "support_refs": [
+          "BCS-000057"
+        ]
+      },
+      {
+        "project_id": "at-wars-end",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The introduction sets the campaign after the Great War between Craterlands and Lodestones, the At War's End geography. It is not a revision of the novel.",
+        "support_refs": [
+          "BCS-000057",
+          "BCS-000060"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The source addresses people creating characters and explains growth items and requisition.",
+        "support_refs": [
+          "BCS-000057"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000057",
+    "canonical_corpus_id": "BCS-000057",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

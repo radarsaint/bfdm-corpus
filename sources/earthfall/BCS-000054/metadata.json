@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000054",
+  "project": "Earthfall",
+  "project_slug": "earthfall",
+  "title": "earthfall",
+  "source_role": "system_design",
+  "source_kind": "google_drive_native",
+  "original_filename": "earthfall.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1wanB5h7MgUCvQBU0mvwSrpM9RxYlFi-c0EnjjAnL08k",
+      "url": "https://docs.google.com/document/d/1wanB5h7MgUCvQBU0mvwSrpM9RxYlFi-c0EnjjAnL08k/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "earthfall-rod",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/earthfall/BCS-000054/comments.json",
+      "sha256": "0575f157f124ddba89378c8098c1331c34f64767cb097112c369135963d9c4b9",
+      "mime_type": "application/json",
+      "size_bytes": 80
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/earthfall/BCS-000054/original/source.docx",
+      "sha256": "cecfd8fec717d33a48ea8083ac9d72605ffc9180178c6f43b3d132f6eb3b30a8",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 15018
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/earthfall/BCS-000054/source.md",
+      "sha256": "5c8231a9ddc1aef2856b5c62e9685d84dee526c02ed7257874ddca96e7267c17",
+      "mime_type": "text/markdown",
+      "size_bytes": 11395
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "earthfall",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source defines the Earthfall R.O.D. communication and achievement system.",
+        "support_refs": [
+          "BCS-000054"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The text specifies the system banner and R.O.D. commentary layers.",
+        "support_refs": [
+          "BCS-000054"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000054",
+    "canonical_corpus_id": "BCS-000054",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

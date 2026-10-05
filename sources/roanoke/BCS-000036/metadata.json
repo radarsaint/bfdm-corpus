@@ -1,0 +1,120 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000036",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S3W3 Voice Event Draft.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S3W3 Voice Event Draft.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1d8bBRnQeIeWBpELP7DhINGZrPhW_5sG-9pnSWA4tA_4",
+      "url": "https://docs.google.com/document/d/1d8bBRnQeIeWBpELP7DhINGZrPhW_5sG-9pnSWA4tA_4/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "voice_event_draft",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000036/comments.json",
+      "sha256": "9670d8c1dd052525691c7a712d3eb75ca34dd6e67d8b11f5eaef19efe5448533",
+      "mime_type": "application/json",
+      "size_bytes": 128
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000036/original/source.docx",
+      "sha256": "1aa1057b19ef512e8e693acbd572ceedb9f6a34d74fc93b283b0f34e8882a0ed",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8244
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000036/source.md",
+      "sha256": "af6104d98a70ba45e8a82bb9910ac0e20dc57dac0907380bbc2f3dac4b272829",
+      "mime_type": "text/markdown",
+      "size_bytes": 2991
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The draft is the wreck of the Falmouth after the sub's sabotage, with the Tir Na Nog crew at red alert. The Season 3 schedule names a Wreckage of the Falmouth voice event.",
+        "support_refs": [
+          "BCS-000036",
+          "BCS-000018"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The source is a prepared voice-event scene with checks and lair actions. Performance is not established.",
+        "support_refs": [
+          "BCS-000036"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_week",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The filename says W3. The master schedule places the Falmouth wreck voice event on 7/31, which is week 2 on that sheet. Week membership is not forced from the filename."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000018",
+      "confidence": "STRONG",
+      "basis": "The schedule names a Wreckage of the Falmouth voice event on 7/31. This draft is that scene. The filename says W3, so the schedule date is not rewritten into a week assignment.",
+      "support_refs": [
+        "BCS-000036",
+        "BCS-000018"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000036",
+    "canonical_corpus_id": "BCS-000036",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

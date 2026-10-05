@@ -61,5 +61,35 @@
       "basis": "Published page and connected Drive PDF contain matching Way of Gun Fu subclass material; treat as a version family rather than independent corroboration.",
       "confidence": "STRONG"
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The container is a captured public Google Site in the Season 5 / Legends harvest.",
+        "support_refs": [
+          "BCS-000110"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The container preserves the published Arcanian Monk Options page, including Way of Gun Fu. Publication is not live use.",
+        "support_refs": [
+          "BCS-000110"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here."
+      }
+    ]
+  }
 }

@@ -1,0 +1,146 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000044",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke Season 3 Lore.docx",
+  "source_role": "lore_index",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke Season 3 Lore.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Zv89EdvTPRuHB155hQXVVzjW4nnWYKbwD4-FbPluN7U",
+      "url": "https://docs.google.com/document/d/1Zv89EdvTPRuHB155hQXVVzjW4nnWYKbwD4-FbPluN7U/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_6297634ed494819193bddf5506ea7646",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke Season 3 Lore.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-lore-index",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000044/comments.json",
+      "sha256": "378a3dae9b1050712fe0e3b892818a55700a5cbcc4ce47007255982d915b951e",
+      "mime_type": "application/json",
+      "size_bytes": 119
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000044/original/source.docx",
+      "sha256": "f4c59eda47fa9c6c5460874bcc11efc3270e5107a5ad862a7a33a839420a4ddf",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 47587
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000044/source.md",
+      "sha256": "57808e7ed53a38e4276c6951ba8f0e487bf37d9d77015d1655011a65610bbc60",
+      "mime_type": "text/markdown",
+      "size_bytes": 1836
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The document is the Season 3 lore link index and includes the native Drive id of the Season 3 public lore.",
+        "support_refs": [
+          "BCS-000044",
+          "BCS-000076"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The body is a link index of lore and location documents, not the lore essay itself.",
+        "support_refs": [
+          "BCS-000044"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000076",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000076",
+        "drive:1oV4PX4UIfD5FRxDkHVRSOOXCTTIv3rhDUbZA--mhFJg"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000085",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000085",
+        "drive:1nytbHJ9gMKpBdYAW9V4DlamAoB3TaO9rqQjgJ1BqkgY"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000086",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000044",
+        "BCS-000086",
+        "drive:1oLsfcQKG8MDA6pKsPbiSEoXP5qm_raAt58xY1Ytj3Ns"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000044",
+    "canonical_corpus_id": "BCS-000044",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

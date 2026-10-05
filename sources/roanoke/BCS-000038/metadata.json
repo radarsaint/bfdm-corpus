@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000038",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S3W4 Passdown.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S3W4 Passdown.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1mcoMw1E5xNVtguPkkIVBx99BVSWzxXfi1i-UZAG31Cc",
+      "url": "https://docs.google.com/document/d/1mcoMw1E5xNVtguPkkIVBx99BVSWzxXfi1i-UZAG31Cc/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 4 passdown",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000038/comments.json",
+      "sha256": "4e50fa71740df31332038741b776594f1f76eb10f91454c6def7b59bc9a5602a",
+      "mime_type": "application/json",
+      "size_bytes": 119
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000038/original/source.docx",
+      "sha256": "0fdfec47514dc603a55f91e9056624fa02695ce4597d7dfd3b226a5e92f8a117",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7036
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000038/source.md",
+      "sha256": "7105d021223f9d10a4f13e7a35420fc1e66f32a7d8be5088c478f4eed4d5a455",
+      "mime_type": "text/markdown",
+      "size_bytes": 845
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 4 passdown). The source is the week 4 handoff template. The captured body has no filled incident notes.",
+        "support_refs": [
+          "BCS-000038"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the week 4 handoff template. The captured body has no filled incident notes.",
+        "support_refs": [
+          "BCS-000038"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000038",
+    "canonical_corpus_id": "BCS-000038",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}
