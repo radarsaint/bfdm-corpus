@@ -11,14 +11,19 @@
     "Project files surface"
   ],
   "conversations_discovered": 20,
-  "conversations_ingested": 6,
+  "conversations_ingested": 11,
   "new_bcs": [
     "BCS-000131",
     "BCS-000132",
     "BCS-000133",
     "BCS-000134",
     "BCS-000135",
-    "BCS-000136"
+    "BCS-000136",
+    "BCS-000137",
+    "BCS-000138",
+    "BCS-000139",
+    "BCS-000140",
+    "BCS-000141"
   ],
   "reused_bcs": [
     "BCS-000054",
@@ -44,6 +49,16 @@
         "BCS-000134",
         "BCS-000135",
         "BCS-000136"
+      ]
+    },
+    {
+      "batch": 3,
+      "corpus_ids": [
+        "BCS-000137",
+        "BCS-000138",
+        "BCS-000139",
+        "BCS-000140",
+        "BCS-000141"
       ]
     }
   ]
