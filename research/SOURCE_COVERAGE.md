@@ -1,123 +1,129 @@
 # Source Coverage
 
-This file tracks known corpus coverage relevant to the research program. It is not a substitute for the source manifest.
+This file tracks source families relevant to the BFDM research program. It distinguishes canonical main, backlog, archive gaps, and evidence gaps. It is not a substitute for source metadata.
 
-## Earlier normalized/staged body
+## LANDED ON MAIN
 
-Before the S3 Discord harvest, the working corpus staging contained **51 normalized source containers**:
+### Legacy 51-source staging body
 
-- Roanoke: 37
-- Earthfall: 2
-- Bastion / Redoubt: 3
-- At War's End: 8
-- Exploration Impossible context: 1
+The earlier 51-source staging body has been reconciled into the canonical source-history layer on `main` through the Drive-history integration merged in PR #25.
 
-The staging status records:
-- 75 embedded assets;
-- 62 export comments;
-- 17 native Brendon comment supplements.
+Original staging distribution:
+- Roanoke: 37;
+- Earthfall: 2;
+- Bastion / Redoubt: 3;
+- At War's End: 8;
+- Exploration Impossible context: 1.
 
-Those 17 supplements are a staging metric, **not the total known Brendon-comment corpus**.
+Historical staging/audit files remain under `research/legacy-staging/` for provenance. They should not be read as a current migration blocker.
 
-Later `dnd-solo` attribution work (merged PR #40) identified **78 attributable Brendon editorial comments** on Michael Kennish's *Exploration Impossible* while keeping the manuscript itself third-party/context-only. The older staging bundle did not exhaustively mirror all native Drive comments/replies.
+The old Library staging archive is historical source material, not a second canonical corpus.
 
-The prior consolidated staging archive was maintained in the ChatGPT Library as:
+### Discord
 
-`/Brendon Corpus Staging/Current/brendon-corpus-staging.zip`
-
-This staging body should eventually be reconciled/migrated into the canonical private repository rather than maintained as a parallel corpus.
-
-## Canonical private repository
-
-`radarsaint/bfdm-corpus`
-
-Current known major source families include:
-- Discord server harvests under `discord/`;
-- campaign planning under `campaigns/`;
-- derived research on draft/research branches.
-
-## Roanoke Season 3 Discord
-
-`discord/roanoke-season-3/roanoke-season-3.sqlite`
-
-Known harvest:
+Roanoke Season 3:
+- `discord/roanoke-season-3/roanoke-season-3.sqlite`;
 - 197,013 messages;
 - 194 text channels;
-- 1,421 attachments captured;
-- time window 2020-07-18 through 2020-08-22.
+- 1,421 attachments.
 
-## Roanoke Season 4 / Empire City Discord
-
-`discord/empire-city/empire-city.sqlite`
-
-Known harvest:
-- server ID `850779382791536640`;
+Empire City / Season 4:
+- `discord/empire-city/empire-city.sqlite`;
 - 189,761 messages;
 - 247 text channels;
 - 52 threads;
-- 3,528 attachments captured;
-- observed message range 2021-06-05 through 2026-10-01.
+- 3,528 attachments.
 
-The server explicitly identifies the campaign as **Season 4, Empire City**. The observed server range is not treated as the campaign live window. Brendon's account mapping is now confirmed from the server users table by immutable Discord user ID `313689699627696139`.
+Empire City Dev:
+- canonical harvest and model-facing projection are registered.
 
-## Roanoke Season 5 / Legends — Drive + Google Sites
+Model-facing retrieval for the major harvested Discord archives is complete. See `MODEL_RETRIEVAL.md`.
+
+### Drive/source-history families
+
+Merged PR #25 provides a researchable historical layer rather than isolated Drive files.
+
+It includes or orients, among other families:
+- Roanoke S3 manuscript development;
+- directory, timeline, maps, bestiary, public lore, crafting, ancestry/lore families;
+- week-level operations, passdowns, set lists, and cited event modules;
+- Empire City crafting, directory, backlog, player orientation, signup/operations, airship material, setting lore, and broadsheets;
+- At War's End draft/revision families, outlines, cosmology, and writing-process material;
+- Bastion/Redoubt and Earthfall source families where evidence supports placement;
+- Season 5 Google Sites publication layer, changelog, and Way of Gun Fu Drive/publication relationship.
+
+Important bounded live-contact examples include:
+- Empire City Airship Qualification → live `#flight-school` exercise;
+- Empire City crafting → approval-step live channel use;
+- Roanoke crafting family → live contact/revision trajectory.
+
+A scheduled/prepared event is not automatically marked as played.
+
+### Season 5 / Legends
 
 Canonical project: `roanoke-s5-legends`.
 
-The player-facing Google Sites publication layer is now canonically admitted rather than preserved only as a source lead:
+Landed publication/source coverage includes:
+- 26 player-facing Google Sites namespaces;
+- BCS `000087`–`000112`;
+- `BCS-000113` Site changelog/revision bridge;
+- `BCS-000114` Way of Gun Fu Drive source and publication relationship.
 
-- 26 linked Google Sites namespaces captured;
-- 26/26 seed pages fetched successfully;
-- zero fetch failures in the final harvest;
-- raw HTML and normalized readable Markdown retained for every site;
-- BCS range `BCS-000087`–`BCS-000112` assigned to the 26 published Sites;
-- `BCS-000113` preserves **S5 Site Changelog / To Change**, the July 2023 revision/proofing bridge;
-- `BCS-000114` preserves the readable Drive extraction of **Subclass - Monk - The Way of Gun Fu - The Homebrewery.pdf** and links it to the published Monk version family.
+Publication does not establish live use.
 
-The published landing page states that signups were limited to 30 spots, servers opened July 28, and advertised game dates ran July 30 through August 19. The page itself does not state the year; the 2023 year is a strong chronology inference from the contemporaneous July 2023 Site changelog and Season 5 planning cluster.
+## Readiness model
 
-This source family provides strong evidence for **published/player-facing implementation state**. It does not establish that every published rule was used, or that the campaign completed its advertised schedule.
+See `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`.
 
-Season 5 development Discord coverage remains pending canonical ingest/registration.
+`SOURCE_RESEARCH_READY` means the source/family is oriented enough for research: identity, placement or explicit unknown, production stage or explicit unknown, and live-use status/locator where established.
 
+`LONGITUDINAL_RESEARCH_READY` requires an actual recorded trajectory: revision relation or bounded live-contact relation.
 
-## Google Drive / project corpus
+Therefore:
+- readable/placed source ≠ longitudinal history;
+- revision ≠ play;
+- publication ≠ play;
+- explicit live-use gap ≠ archive gap.
 
-Connected Drive contains a much broader creative record than S3 alone, including:
-- campaign planning;
-- custom races/classes/subclasses;
-- worldbuilding and lore;
-- adventure drafts;
-- change logs;
-- revision histories;
-- homebrew mechanics;
-- writing;
-- unusual format experiments.
+## IDENTIFIED BACKLOG — Drive candidates
 
-Full repository ingestion is still pending/in progress.
+The preserved candidate pool has been first-pass triaged:
+`research/drive-inventory/2026-10-03/TRIAGE_PASS_2026-10-05.md`.
 
-## S3 normalization / reconciliation status
+It contains significant real campaign material for selective later admission, including Ferrytown, Hampstead, Pigeon Lord, Mirabelle, Daysong, Rowing Oak, Arcanian material, and other named sources.
 
-The legacy staging manifest confirms the week documents used by the revision-family pass already have formal source containers:
+These are candidates, not BCS source containers.
 
-- `BCS-000029` — Roanoke S3 v2 W2 Breakdown;
-- `BCS-000037` — Roanoke s3w4 Break down.
+Five candidates could not be read:
+- three Drive 404s;
+- one image-style PDF with no text layer;
+- one DOCX connector read failure.
 
-Other confirmed mappings:
-- `BCS-000045` — Roanoke Season 3 Rough Draft;
-- `BCS-000046` — Roanoke Season3 Change Log;
-- `BCS-000048` — RoanokeS3 doc V2 W1;
-- `BCS-000052` — RoanokeS3W3 Breakdown;
-- `BCS-000053` — RoanokeS3W5 Break Down.
+## EVIDENCE GAPS
 
-The gap is now **repository reconciliation**: ensure the older staged containers and their originals/assets/comments are represented in canonical `bfdm-corpus` without changing their BCS IDs.
+Known evidence gaps include:
+- live-play linkage for many otherwise source-ready families;
+- Season 5 live play;
+- Season 2 live play;
+- Earthfall live evidence sufficient to test current Phase 2 decision families;
+- passage-level authorship for collaborative material where not established;
+- broad non-Roanoke live coverage.
 
-## Other Discords
+Do not fill evidence gaps from titles, folder placement, publication, or later recollection alone.
 
-S3 and Empire City / Season 4 are harvested. Remaining game servers still need harvesting. Until broader live coverage is present, cross-season conclusions should remain provisional.
+## ARCHIVE GAPS
+
+Examples:
+- the five triaged unreadable/unavailable Drive candidates;
+- `BCS-000022` is a genuine blank source, not an extraction failure;
+- the complete later Area 6c human-test transcript remains unrecovered.
+
+A blank or missing artifact is not permission to invent its contents.
 
 ## Coverage principle
 
 Do not infer importance from what is easiest to search.
 
-S3 remains unusually dense and methodologically mature, while Empire City now provides a second large live/server archive. Evidence density still must not be mistaken for importance. Later work—especially Earthfall—may be more representative of Brendon's current practice despite having fewer normalized records at present.
+S3/S4 currently provide unusually dense live evidence and therefore dominate early comparison work. This creates a format-concentration problem: both are large Roanoke-lineage multi-DM campaigns.
+
+Phase 2 should seek materially different formats when evidence permits, especially Earthfall, Bastion/Redoubt, early Roanoke/S2, and non-Roanoke work.
