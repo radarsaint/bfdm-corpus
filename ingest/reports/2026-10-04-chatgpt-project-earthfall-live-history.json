@@ -11,11 +11,14 @@
     "Project files surface"
   ],
   "conversations_discovered": 20,
-  "conversations_ingested": 3,
+  "conversations_ingested": 6,
   "new_bcs": [
     "BCS-000131",
     "BCS-000132",
-    "BCS-000133"
+    "BCS-000133",
+    "BCS-000134",
+    "BCS-000135",
+    "BCS-000136"
   ],
   "reused_bcs": [
     "BCS-000054",
@@ -33,5 +36,15 @@
     "Conversation IDs are not exposed.",
     "Project-file duplicate identity is unresolved for repeated filenames."
   ],
-  "no_bce_personality_training_judgments_minted": true
+  "no_bce_personality_training_judgments_minted": true,
+  "batches": [
+    {
+      "batch": 2,
+      "corpus_ids": [
+        "BCS-000134",
+        "BCS-000135",
+        "BCS-000136"
+      ]
+    }
+  ]
 }
