@@ -22,9 +22,9 @@ This manifest records every conversation currently discovered through the Projec
 | 2026-07-21 | Area 16 Survival Challenge | INGESTED | BCS-000131 |
 | 2026-08-17 | Polish Session Draft | INGESTED | BCS-000132 |
 | 2026-09-01 | Game Tracking Update | INGESTED | BCS-000133 |
-| 2026-09-07 | Build Earthfall App | QUEUED | — |
-| 2026-09-11 | Build Fryvern Fight | QUEUED | — |
-| 2026-09-15 | Dnd Arcade Consumables | QUEUED | — |
+| 2026-09-07 | Build Earthfall App | INGESTED | BCS-000134 |
+| 2026-09-11 | Build Fryvern Fight | INGESTED | BCS-000135 |
+| 2026-09-15 | Dnd Arcade Consumables | INGESTED | BCS-000136 |
 | 2026-09-20 | Caribbean Pirate Theme | QUEUED | — |
 | 2026-09-22 | Show Aggro Level 2 Art | QUEUED | — |
 | 2026-09-22 | New chat — Floor 2 Aggro art example | QUEUED | — |
