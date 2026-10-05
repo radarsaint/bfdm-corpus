@@ -17,6 +17,25 @@ Read this together with:
 
 When those documents disagree on current repository state, prefer the newest canonical `main`. When they differ on project intent, this document records the current high-level direction as of 2026-10-05.
 
+## Executive orientation — read this first
+
+If a future planning chat has only a few minutes, preserve these points before doing anything else:
+
+1. **Kit is the product.** The end state is one persistent DM/campaign designer/operator that Brendon would use himself, hand to friends, and eventually trust to operate campaign work at a scale he cannot personally cover alone.
+2. **The corpus is not Kit.** `bfdm-corpus` is the durable historical/research archive. `dnd-solo` is the current executable DM surface. Future Kit cognition is a separate evolving layer.
+3. **Stage 1 is substantially hardened.** Canonical corpus state at this handoff reaches BCS-000172. Remaining source gaps are bounded and should not become an excuse to restart broad ingestion.
+4. **Current substantive work is Stage 2 plus human usability.** PR #33 is the human-object/index bridge. PR #28 is the live-judgment contrast research. Phase 2B creative-method work still needs its own result set.
+5. **Research must be allowed to disprove the architecture.** Do not build the final memory/cognition system from taste. Stage 3 experiments should expose actual failure modes first.
+6. **Human access is a requirement.** Historical text cannot be practically trapped behind LFS pointers, opaque databases, embeddings, or proprietary retrieval as its only discovery path.
+7. **Literal objects matter.** Brendon should be able to say "Daysong," "Golden Dawn," "Fryvern," "crafting," etc. and resolve the actual thing, aliases, relationships, sources, conflicts, and unknowns before higher-level reasoning proceeds.
+8. **Evidence families answer different questions.** Design artifacts, live play, revisions, contemporaneous workbench records, rejections, and retrospectives must not be flattened into one evidence hierarchy.
+9. **Generated AI text is not Brendon evidence by default.** Request, proposal, rejection, modification, selection, implementation, and later evaluation are distinct states.
+10. **Campaign cognition must preserve state, knowledge, time, obligations, unresolved futures, and agency.** Clever prose does not compensate for state corruption, leakage, forgotten obligations, or player-agency violations.
+11. **Testing can compress calendar time.** A dedicated campaign laboratory can mount the same pinned Kit across multiple instances, branch session resolutions, simulate several sessions, sample live play, and then let Brendon play/harden what survives.
+12. **Use tools according to their actual leverage.** Shell-capable agents handle Git/rebuild/test surgery. Normal high-reasoning chats handle targeted reasoning/research. Scarce time-replenishing ChatGPT Work capacity is reserved for genuinely broad autonomous multi-source work.
+
+For immediate repository actions, read `research/NEXT_HANDOFF.md`. For strategic or architectural decisions, continue through this document.
+
 ---
 
 ## 1. North star
