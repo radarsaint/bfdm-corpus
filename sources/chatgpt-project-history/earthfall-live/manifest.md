@@ -25,11 +25,11 @@ This manifest records every conversation currently discovered through the Projec
 | 2026-09-07 | Build Earthfall App | INGESTED | BCS-000134 |
 | 2026-09-11 | Build Fryvern Fight | INGESTED | BCS-000135 |
 | 2026-09-15 | Dnd Arcade Consumables | INGESTED | BCS-000136 |
-| 2026-09-20 | Caribbean Pirate Theme | QUEUED | — |
-| 2026-09-22 | Show Aggro Level 2 Art | QUEUED | — |
-| 2026-09-22 | New chat — Floor 2 Aggro art example | QUEUED | — |
-| 2026-09-29 | Plan Dead Turtle Transition | QUEUED | — |
-| 2026-09-29 | Rod Voice Achievement Generator | QUEUED | — |
+| 2026-09-20 | Caribbean Pirate Theme | INGESTED | BCS-000137 |
+| 2026-09-22 | Show Aggro Level 2 Art | INGESTED | BCS-000138 |
+| 2026-09-22 | New chat — Floor 2 Aggro art example | INGESTED | BCS-000139 |
+| 2026-09-29 | Plan Dead Turtle Transition | INGESTED | BCS-000140 |
+| 2026-09-29 | Rod Voice Achievement Generator | INGESTED | BCS-000141 |
 
 ## Existing canonical Earthfall sources
 
