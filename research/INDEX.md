@@ -37,24 +37,22 @@ Status: PR #25 is merged. Stage 1 is substantially landed but not exhaustive; ca
 
 ## Stage 2 — Reconstruct expert judgment
 
-Active draft work:
-- PR #28 / branch `research/phase2-decision-trajectories`;
+Phase 2 has two lanes. The contrast files are on draft PR #28 until it merges. No Phase 2B research artifact has landed.
+
+**Phase 2A — Live judgment** is the open draft. It asks what condition makes one intervention happen rather than another during play. It needs live-decision evidence. Current files, on the draft branch until PR #28 merges:
 - `research/phase2/contrast-families-v1.md`;
 - `research/phase2/contrast-families-v1-stress.md`.
 
-These files are on the open draft branch until PR #28 merges.
+**Phase 2B — Creative method / worldbuilding** has no research artifact yet. Design texts may support design claims without a live-play edge. Earthfall, Bastion/Redoubt, and At War's End are eligible. Those claims are not table results.
 
-Phase 2 studies:
-- decision contrasts;
-- restraint;
-- failures;
-- corrections;
-- changed judgment;
-- boundary conditions.
+Broad BFDM judgment claims are `NOT_READY`. Bounded S3/S4 live-judgment work is `READY_WITH_SCOPE_LIMITS`. Creative-method research is `READY_WITH_SOURCE_LIMITS`.
 
-Current limitation: S3/S4 dominate and share the same large multi-DM Roanoke lineage. Cross-format confirmation remains weak.
-
-Phase 2 is not complete and is not a precedent-card dataset.
+Substrate queries on this branch, once merged:
+- `scripts/query_source_history.py`
+- `scripts/query_source_family.py`
+- `scripts/query_project_history.py`
+- `scripts/query_archive_gaps.py`
+- `scripts/query_research_readiness.py`
 
 ## Stage 3 — Minimal cognition tests
 

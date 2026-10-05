@@ -55,9 +55,9 @@ Primary current source-history/readiness files:
 
 ### Readiness meanings
 
-`SOURCE_RESEARCH_READY` means a researcher can tell what a source is, where it is placed (or that placement is explicitly unknown), its production stage (or explicit unknown), and whether live use has been tied to a message/channel. It does **not** mean the research has been done.
+`SOURCE_RESEARCH_READY` means a researcher can tell what a source is, where it is placed (or that placement is explicitly unknown), its production stage (or explicit unknown), and whether live use has been tied to a message/channel. It does **not** mean the research has been done, and it does **not** mean a history can be followed.
 
-`LONGITUDINAL_RESEARCH_READY` means the family has a recorded trajectory through a revision relation or a bounded live-contact relation. Revision is not play. Publication is not play. A companion relation is not a trajectory.
+`LONGITUDINAL_RESEARCH_READY` currently establishes the presence of at least one qualifying trajectory edge: a revision relation or a bounded live-contact relation. It does not establish a complete longitudinal chain. It does not mean every version is ordered, that prep, play, and aftermath are all present, or that the family is representative enough to sample as a finished history. Revision is not play. Publication is not play. A companion relation is not a trajectory. `REVISION_CONTEXT_FOR_SOURCE_FAMILY` is a weaker, separate path and does not by itself make a family longitudinally ready.
 
 A source can therefore be source-ready while still carrying a longitudinal research gap.
 
@@ -100,17 +100,19 @@ Primary artifact:
 
 The draft also contains a stress pass and updates the research index.
 
-Phase 2 is reconstructing expert judgment through:
-- decision contrasts;
-- restraint;
-- failure;
-- correction;
-- changed judgment;
-- boundary conditions.
+Phase 2 has two lanes. No Phase 2B research artifact has landed.
 
-The current weakness is format concentration: S3 and S4 are both large Roanoke-lineage multi-DM campaigns. Earthfall was checked but does not yet have enough source-ready live evidence to support an honest confirmation.
+**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Claims about table decisions require live-decision evidence. The current draft is PR #28, `research/phase2/contrast-families-v1.md` and its stress pass, on `research/phase2-decision-trajectories`. S3 and S4 are the same large Roanoke-lineage multi-DM format. Do not edit those contrast files from substrate work.
 
-Phase 2 is **not** precedent-card/runtime work.
+**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can support world-model and revision claims. None of those texts establish how the design performed at the table.
+
+Three research scopes, which are not the same word "ready":
+
+- Broad BFDM judgment claims: `NOT_READY`. The corpus is not representative across eras and formats.
+- Bounded live-judgment research: `READY_WITH_SCOPE_LIMITS`. Source-traceable S3/S4 work may continue if the lineage concentration and the missing evidence stay explicit.
+- Creative-method / worldbuilding research: `READY_WITH_SOURCE_LIMITS`. Design artifacts may support design claims. They are not evidence of live implementation.
+
+A Discord phrase search that returns zero, with `zero_match_means_absence`, establishes that the phrase is absent from the exhaustively searched Discord projection. It does not establish that a Drive document does not exist. The Season 4 Master Timeline was posted as a bare URL. The title is not in the message text.
 
 ## OPEN PR — older Drive branches
 
@@ -127,7 +129,7 @@ They are retained as branch/PR history and should not be treated as the current 
 Current program position is the Stage 1 → Stage 2 transition:
 
 1. **Stage 1 — Research substrate:** source accessibility, Drive integration, historical relationships, gap accounting, research usability.
-2. **Stage 2 — Reconstruct judgment:** decision trajectories, contrasts, restraint, failures, corrections, boundary conditions.
+2. **Stage 2 — Reconstruct judgment,** in two lanes. **Phase 2A** is live judgment and needs live-decision evidence. **Phase 2B** is creative method and worldbuilding. Design artifacts can support design claims without live-play confirmation. No Phase 2B result set has landed.
 3. **Stage 3 — Minimal cognition tests:** decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
 4. **Stage 4 — Architect from observed failures:** campaign cognition, durable memory/workflows, strategic/local execution, entity cognition, learning/consolidation.
 

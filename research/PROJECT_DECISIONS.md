@@ -34,17 +34,18 @@ The project has deliberately moved away from jumping directly from "archive" to 
 **Current state:** substantially landed on `main`; bounded candidate/source-gap hardening remains.
 
 ### Stage 2 — Reconstruct expert judgment
-- decision trajectories;
-- contrasts;
-- failures;
-- restraint;
-- corrections;
-- changed judgment;
-- scope/boundary conditions.
 
-**Current state:** underway experimentally on draft PR #28.
+Two lanes. No Phase 2B result set has landed.
 
-The priority is no longer to extract more generic "Brendon DM principles." The useful research unit is a contrastable decision trajectory: what happened, what intervention/restraint occurred, what changed, and which condition explains the difference.
+**Phase 2A — Live judgment.** Requires appropriate live-decision evidence. The useful unit is a contrastable decision trajectory: what happened, what intervention or restraint occurred, what changed, and which condition explains the difference. Underway on draft PR #28. Not more generic "Brendon DM principles."
+
+**Phase 2B — Creative method / worldbuilding.** Design artifacts can support bounded design claims without a live-play edge. Earthfall's R.O.D. documents, Bastion/Redoubt, and At War's End are eligible now. They do not establish how those designs performed at the table.
+
+Research scope, kept separate from the readiness labels:
+
+- Broad BFDM judgment claims: `NOT_READY`.
+- Bounded live-judgment research: `READY_WITH_SCOPE_LIMITS` for source-traceable S3/S4 work that keeps its lineage limit explicit.
+- Creative-method / worldbuilding research: `READY_WITH_SOURCE_LIMITS`. Design is not play.
 
 ### Stage 3 — Build and test minimal cognition
 - decision recognition/classification;

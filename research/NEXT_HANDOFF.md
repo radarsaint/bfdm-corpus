@@ -29,7 +29,7 @@ Important landed capabilities/material:
 - donor collisions resolved while keeping main authoritative;
 - source metadata carries project/stage/family placement or explicit unknowns;
 - source-history traversal with `scripts/query_source_history.py`;
-- `SOURCE_RESEARCH_READY` vs `LONGITUDINAL_RESEARCH_READY`;
+- `SOURCE_RESEARCH_READY` vs `LONGITUDINAL_RESEARCH_READY`. The second currently establishes at least one qualifying trajectory edge. It does not establish a complete longitudinal chain;
 - Empire City operational/source families;
 - Roanoke week operations and cited modules;
 - bounded prep→live links where supported;
@@ -65,6 +65,8 @@ Readiness discipline:
 - revision trajectory ≠ live trajectory;
 - candidate ≠ admitted source;
 - source research ready ≠ longitudinal research ready;
+- one trajectory edge ≠ a complete longitudinal chain;
+- a Discord zero ≠ historical nonexistence outside that searched projection;
 - context source ≠ BFDM precedent;
 - later version ≠ automatically superseding.
 
@@ -78,9 +80,9 @@ Title: **Phase 2: decision contrast families**
 Primary artifact:
 `research/phase2/contrast-families-v1.md`
 
-Phase 2 is doing decision contrasts, restraint, failures, corrections, changed judgment, and boundary conditions.
+Phase 2A is the live-judgment draft. Its current evidence is S3/S4. Earthfall, Bastion/Redoubt, and At War's End do not supply that live record. They are eligible for Phase 2B design-method claims now. A design claim is not evidence the material was run.
 
-The current substrate is S3/S4-heavy. Earthfall has been checked but lacks enough source-ready live-play evidence for honest confirmation.
+`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
 
 Do not merge, rewrite, or expand PR #28 as part of ordinary substrate cleanup unless the task explicitly targets Phase 2.
 
@@ -102,9 +104,12 @@ Source accessibility, Drive integration, historical relationships, gap accountin
 **State:** substantially landed; bounded hardening/backlog remains.
 
 ### Stage 2 — Reconstruct expert judgment
-Decision trajectories, contrasts, restraint, failures, corrections, changed judgment, boundary conditions.
 
-**State:** underway experimentally on draft PR #28; not complete.
+Two lanes. No Phase 2B research artifact has landed.
+
+**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Requires live-decision evidence. Underway on draft PR #28. Do not edit `research/phase2/contrast-families-v1.md` or `contrast-families-v1-stress.md` from substrate work.
+
+**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? Earthfall, Bastion/Redoubt, and At War's End can support design claims from the texts that exist. They cannot establish table performance without separate live evidence.
 
 ### Stage 3 — Minimal cognition tests
 Decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
@@ -125,10 +130,11 @@ For substrate work:
 4. maintain the readiness distinction in `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`.
 
 For research work:
-1. continue Phase 2 only on its dedicated draft branch/PR;
-2. seek materially different formats rather than merely adding more S3/S4 examples;
-3. keep cases source-traceable and falsifiable;
-4. do not convert Phase 2 directly into precedent cards yet.
+1. continue Phase 2A only on its dedicated draft branch/PR;
+2. Phase 2B may use Earthfall, Bastion/Redoubt, and At War's End for design-method claims without waiting for live play, and must not present those claims as live confirmation;
+3. do not treat broad BFDM judgment claims as ready. Bounded S3/S4 live-judgment research may continue only with the lineage limit written down;
+4. keep cases source-traceable and falsifiable;
+5. do not convert Phase 2 directly into precedent cards yet.
 
 ## Explicitly do not redo
 
