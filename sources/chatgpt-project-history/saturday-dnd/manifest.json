@@ -7,20 +7,23 @@
     {
       "key": "2026-04-07-neverwinter-evernight",
       "date_range": "2026-04-07",
-      "status": "QUEUED",
-      "notes": "Neverwinter / Evernight setting discussion; exact title and native conversation ID unavailable."
+      "status": "PARTIAL",
+      "notes": "Neverwinter / Evernight setting discussion; exact title and native conversation ID unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000132"
     },
     {
       "key": "2026-05-14-house-measured-coin",
       "date_range": "2026-05-14",
-      "status": "QUEUED",
-      "notes": "Neverwinter/Evernight campaign discussion including House of Measured Coin and Tasha head-in-jar material; exact title unavailable."
+      "status": "PARTIAL",
+      "notes": "Neverwinter/Evernight campaign discussion including House of Measured Coin and Tasha head-in-jar material; exact title unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000133"
     },
     {
       "key": "2026-05-24-tasha-voice",
       "date_range": "2026-05-24",
-      "status": "QUEUED",
-      "notes": "Tasha head-in-jar voice material surfaced by historical-context search; exact title unavailable."
+      "status": "PARTIAL",
+      "notes": "Tasha head-in-jar voice material surfaced by historical-context search; exact title unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000134"
     },
     {
       "key": "2026-05-28-31-witch-jar-bank-heist",
@@ -32,14 +35,16 @@
     {
       "key": "2026-05-29-neverwinter-druid",
       "date_range": "2026-05-29",
-      "status": "QUEUED",
-      "notes": "Circle of Stars druid rooting in Neverwinter; exact title unavailable."
+      "status": "PARTIAL",
+      "notes": "Circle of Stars druid rooting in Neverwinter; exact title unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000135"
     },
     {
       "key": "2026-05-30-water-peculiar",
       "date_range": "2026-05-30",
-      "status": "QUEUED",
-      "notes": "Water Peculiar encounter; discovered during recovery and deferred to a later announced batch."
+      "status": "PARTIAL",
+      "notes": "Water Peculiar encounter; discovered during recovery and deferred to a later announced batch. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000136"
     },
     {
       "key": "2026-06-13-tasha-tarot",
@@ -449,5 +454,7 @@
     "Conversation search can recover bounded excerpts/context but not a bulk raw export.",
     "Project file enumeration is stronger than conversation enumeration: the current project surface exposed 41 file/asset records.",
     "No item is represented as COMPLETE PROJECT EXPORT."
-  ]
+  ],
+  "last_batch_completed": 2,
+  "last_updated": "2026-10-05"
 }
