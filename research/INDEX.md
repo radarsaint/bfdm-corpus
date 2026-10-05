@@ -4,7 +4,7 @@ This index points to current research artifacts and distinguishes canonical main
 
 ## Current state and method
 
-- [NEXT_HANDOFF.md](NEXT_HANDOFF.md) — current operational state, active PRs, and immediate next work.
+- [NEXT_HANDOFF.md](NEXT_HANDOFF.md) — current operational state, active PRs, and immediate next work.\n- [STRATEGIC_HANDOFF_2026-10-05.md](STRATEGIC_HANDOFF_2026-10-05.md) — project-wide north star, architecture direction, human-object layer, evidence-model corrections, campaign-simulation strategy, tool allocation, and sequencing distilled from the high-level planning thread.
 - [STATUS.md](STATUS.md) — current source/research status.
 - [SOURCE_COVERAGE.md](SOURCE_COVERAGE.md) — source-family coverage, backlog, archive gaps, and evidence gaps.
 - [PROJECT_DECISIONS.md](PROJECT_DECISIONS.md) — current program guardrails; not historical evidence.
