@@ -997,6 +997,7 @@ Redacted.
 
 Seller:
 Voluntary.
+
 Status:
 ACTIVE
 
@@ -1996,6 +1997,7 @@ Read or paraphrase the following when the characters enter:
 When a character approaches within 15 feet of the portfolio, the custodian says:
 
 > “This account is under custodial dispute. No withdrawals will be processed. Please leave.”
+
 If a character approaches the case, attacks the custodian, or refuses to withdraw, the custodian says:
 
 > “Refusal recorded.”
@@ -2995,6 +2997,7 @@ Now you've got a boss the novice players are actively fucking with, which is exa
 **If someone invokes Tasha's name**
 
 If during the fight somebody shouts something like, “Tasha sent us!”
+
 The Custodian stops for just a fraction of a second.
 
 > “Iggwilv has used no fewer than four recognized identities.”
