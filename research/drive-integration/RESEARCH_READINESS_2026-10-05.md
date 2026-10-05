@@ -47,6 +47,7 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-bestiary` | LONGITUDINAL_RESEARCH_GAP | `BCS-000082`, `BCS-000083` |
 | `roanoke-s3-cartography` | LONGITUDINAL_RESEARCH_GAP | `BCS-000026`, `BCS-000081` |
 | `roanoke-s3-changelog` | LONGITUDINAL_RESEARCH_GAP | `BCS-000046` |
+| `roanoke-s3-cited-event-modules` | LONGITUDINAL_RESEARCH_GAP | `BCS-000122`, `BCS-000123`, `BCS-000124`, `BCS-000125`, `BCS-000126`, `BCS-000127`, `BCS-000128`, `BCS-000129` |
 | `roanoke-s3-directory` | LONGITUDINAL_RESEARCH_GAP | `BCS-000069` |
 | `roanoke-s3-encounters` | LONGITUDINAL_RESEARCH_GAP | `BCS-000074` |
 | `roanoke-s3-golden-dawn` | LONGITUDINAL_RESEARCH_GAP | `BCS-000118` |
@@ -104,6 +105,7 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-campaign-structure` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | revision | 1 |
 | `roanoke-s3-cartography` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
 | `roanoke-s3-changelog` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `roanoke-s3-cited-event-modules` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 8 |
 | `roanoke-s3-directory` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-encounters` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-golden-dawn` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
@@ -300,6 +302,12 @@ Trajectory: `none`.
 ### `roanoke-s3-changelog` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000046`
+
+Trajectory: `none`.
+
+### `roanoke-s3-cited-event-modules` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
+
+Members: `BCS-000122`, `BCS-000123`, `BCS-000124`, `BCS-000125`, `BCS-000126`, `BCS-000127`, `BCS-000128`, `BCS-000129`
 
 Trajectory: `none`.
 
@@ -603,6 +611,14 @@ The source is present. The fact is not established. Do not fill these in by infe
 - `BCS-000119` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000120` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000121` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000122` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000123` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000124` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000125` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000126` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000127` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000128` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
+- `BCS-000129` `live_use` (NOT_ESTABLISHED): A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.
 
 ## Archive gaps
 
@@ -613,10 +629,8 @@ Catalog-only ids: `BCS-000068`.
 Containers that cite a source the repository does not hold:
 
 - `BCS-000022`: source.md is frontmatter only. The DOCX export is preserved and was not given a substitute summary.
-- `BCS-000029`: The week 2 breakdown links Tir Na Nog stats at drive:1PaDpQNqaX-6uTxQCmDkNqjqpVJcquSaYtRkCNSzHcd0 and Travel Drama at drive:1YN-UzOjCMX7zuM3RxaHMQ5MnGqJErkofEIn5R-CGp_g. Neither Drive id is a cataloged corpus source.
-- `BCS-000037`: The week 4 breakdown names a week four cast list without a corpus container, and links a Tatankan escape room at drive:1HeeyOpTO5OFuM0tPT5l-K3Dq4osnyUEa-PEJBbEabsc, which is not a cataloged corpus source.
-- `BCS-000048`: The week 1 breakdown links Twilight Manor at drive:1PlvWTEJ_C294RdlY2OlkPxB_8AV1SFm9jZWIWJWMloY, which is not a cataloged corpus source.
-- `BCS-000053`: The week 5 breakdown links a Spelljammer lodestone document at drive:1sMZDhkyu6ktndPQF1j5NPP4cjw-XbTjGQTvN0f5oho0 and a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v. Neither id is a cataloged corpus source. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast.
+- `BCS-000037`: The week 4 breakdown names a week four cast list without a corpus container. The Tatankan escape room it links is now BCS-000126.
+- `BCS-000053`: The week 5 breakdown links a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v, which is still not a cataloged corpus source. The Spelljammer lodestone document is now BCS-000128. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast.
 
 Season 5 Google Site sources that are publication captures are not Drive draft families. Season 5 is not longitudinally ready for prep-to-play judgment. Its live and dev-Discord bridge is an archive gap, not a hidden fact inside the Drive PDFs.
 

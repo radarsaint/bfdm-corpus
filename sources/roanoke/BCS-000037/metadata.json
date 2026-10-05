@@ -127,7 +127,7 @@
       {
         "question": "referenced_source_absent",
         "status": "ARCHIVE_GAP",
-        "basis": "The week 4 breakdown names a week four cast list without a corpus container, and links a Tatankan escape room at drive:1HeeyOpTO5OFuM0tPT5l-K3Dq4osnyUEa-PEJBbEabsc, which is not a cataloged corpus source."
+        "basis": "The week 4 breakdown names a week four cast list without a corpus container. The Tatankan escape room it links is now BCS-000126."
       }
     ]
   },
@@ -166,6 +166,18 @@
         "BCS-000037",
         "BCS-000039",
         "drive:1eQWOCR3q5uGwGoVanVmTt-fORHUVAbenMMKRfajw3LQ"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000126",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Tatankan escape room at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000037",
+        "BCS-000126",
+        "drive:1HeeyOpTO5OFuM0tPT5l-K3Dq4osnyUEa-PEJBbEabsc"
       ]
     }
   ],

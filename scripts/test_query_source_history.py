@@ -64,6 +64,17 @@ class QuerySourceHistoryTest(unittest.TestCase):
         self.assertEqual(report["came_before"], [])
         self.assertEqual(report["came_after"], [])
 
+    def test_week_two_cites_the_ship_module_without_calling_it_play(self):
+        week = orient(self.records, "BCS-000029")
+        companions = {row["to_corpus_id"] for row in week["companions"] if row["direction"] == "outgoing"}
+        self.assertIn("BCS-000122", companions)
+        self.assertIn("BCS-000123", companions)
+        ship = orient(self.records, "BCS-000122")
+        self.assertEqual(ship["document_family_id"], "roanoke-s3-cited-event-modules")
+        self.assertEqual([row["project_id"] for row in ship["project"]], ["roanoke-s3"])
+        self.assertTrue(ship["live_use_unresolved"])
+        self.assertEqual(ship["live_contact"], [])
+
     def test_novel_draft_stage_stays_unresolved(self):
         report = orient(self.records, "BCS-000060")
         self.assertEqual(report["production_stages"], [])

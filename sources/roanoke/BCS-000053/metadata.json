@@ -99,11 +99,24 @@
       {
         "question": "referenced_source_absent",
         "status": "ARCHIVE_GAP",
-        "basis": "The week 5 breakdown links a Spelljammer lodestone document at drive:1sMZDhkyu6ktndPQF1j5NPP4cjw-XbTjGQTvN0f5oho0 and a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v. Neither id is a cataloged corpus source. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast."
+        "basis": "The week 5 breakdown links a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v, which is still not a cataloged corpus source. The Spelljammer lodestone document is now BCS-000128. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast."
       }
     ]
   },
-  "source_links": [],
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000128",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Spelljammer Lodestone at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000053",
+        "BCS-000128",
+        "drive:1sMZDhkyu6ktndPQF1j5NPP4cjw-XbTjGQTvN0f5oho0"
+      ]
+    }
+  ],
   "reconciliation": {
     "donor_branch": "ingest/drive-project-v3",
     "donor_corpus_id": "BCS-000053",

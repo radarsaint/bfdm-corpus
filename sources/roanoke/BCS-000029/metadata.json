@@ -200,11 +200,6 @@
         "question": "live_use",
         "status": "NOT_ESTABLISHED",
         "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
-      },
-      {
-        "question": "referenced_source_absent",
-        "status": "ARCHIVE_GAP",
-        "basis": "The week 2 breakdown links Tir Na Nog stats at drive:1PaDpQNqaX-6uTxQCmDkNqjqpVJcquSaYtRkCNSzHcd0 and Travel Drama at drive:1YN-UzOjCMX7zuM3RxaHMQ5MnGqJErkofEIn5R-CGp_g. Neither Drive id is a cataloged corpus source."
       }
     ]
   },
@@ -231,6 +226,66 @@
         "BCS-000029",
         "BCS-000051",
         "drive:1Zy1rM5aWEzFMdBWE81FmbB76EAAYVf3IgQ2mGYbhpH8"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000122",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Tir Na Nog stats at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000029",
+        "BCS-000122",
+        "drive:1PaDpQNqaX-6uTxQCmDkNqjqpVJcquSaYtRkCNSzHcd0"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000123",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Travel Drama at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000029",
+        "BCS-000123",
+        "drive:1YN-UzOjCMX7zuM3RxaHMQ5MnGqJErkofEIn5R-CGp_g"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000124",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links rob's notes at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000029",
+        "BCS-000124",
+        "drive:1sYN7P7Hygexi5rlvLMzvE4qL5bCkX8Nn0UhtYINrzOk"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000125",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Voice Event at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000029",
+        "BCS-000125",
+        "drive:1CIlgSOsOfkA4_kkM12Th1BTowWGk8v0z7kHzb7yq0cQ"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000129",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Duckton at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000029",
+        "BCS-000129",
+        "drive:1PjR1GPCAUKDj5vlDkLajLciuHzT5QcrsqWDqBIw9bLg"
       ]
     }
   ],

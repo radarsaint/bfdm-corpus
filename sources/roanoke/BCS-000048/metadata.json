@@ -158,11 +158,6 @@
         "question": "live_use",
         "status": "NOT_ESTABLISHED",
         "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
-      },
-      {
-        "question": "referenced_source_absent",
-        "status": "ARCHIVE_GAP",
-        "basis": "The week 1 breakdown links Twilight Manor at drive:1PlvWTEJ_C294RdlY2OlkPxB_8AV1SFm9jZWIWJWMloY, which is not a cataloged corpus source."
       }
     ]
   },
@@ -201,6 +196,18 @@
         "BCS-000048",
         "BCS-000050",
         "drive:1p2B4g9pRWr2TYvEAKO7b5CtyPO6h-3ROmCK79woPz0Y"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000127",
+      "confidence": "CONFIRMED",
+      "basis": "This week document links Twilight Manor at this source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000048",
+        "BCS-000127",
+        "drive:1PlvWTEJ_C294RdlY2OlkPxB_8AV1SFm9jZWIWJWMloY"
       ]
     }
   ],

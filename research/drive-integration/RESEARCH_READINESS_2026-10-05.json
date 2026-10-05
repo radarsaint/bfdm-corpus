@@ -600,6 +600,41 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000122",
+        "BCS-000123",
+        "BCS-000124",
+        "BCS-000125",
+        "BCS-000126",
+        "BCS-000127",
+        "BCS-000128",
+        "BCS-000129"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000122",
+        "BCS-000123",
+        "BCS-000124",
+        "BCS-000125",
+        "BCS-000126",
+        "BCS-000127",
+        "BCS-000128",
+        "BCS-000129"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s3-cited-event-modules",
+      "internal_or_version_links": 8,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000069"
       ],
       "readable_body": true,
@@ -1030,7 +1065,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-week-operations",
-      "internal_or_version_links": 20,
+      "internal_or_version_links": 28,
       "cross_medium_links": 0
     },
     {
@@ -2200,6 +2235,62 @@
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
       "document_family_id": "roanoke-s3-jackalope-lore"
+    },
+    {
+      "corpus_id": "BCS-000122",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000123",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000124",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000125",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000126",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000127",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000128",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
+    },
+    {
+      "corpus_id": "BCS-000129",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run.",
+      "document_family_id": "roanoke-s3-cited-event-modules"
     }
   ],
   "archive_gaps": [
@@ -2211,34 +2302,20 @@
       "document_family_id": "roanoke-island-bestiary"
     },
     {
-      "corpus_id": "BCS-000029",
-      "question": "referenced_source_absent",
-      "status": "ARCHIVE_GAP",
-      "basis": "The week 2 breakdown links Tir Na Nog stats at drive:1PaDpQNqaX-6uTxQCmDkNqjqpVJcquSaYtRkCNSzHcd0 and Travel Drama at drive:1YN-UzOjCMX7zuM3RxaHMQ5MnGqJErkofEIn5R-CGp_g. Neither Drive id is a cataloged corpus source.",
-      "document_family_id": "roanoke-s3-week-operations"
-    },
-    {
       "corpus_id": "BCS-000037",
       "question": "referenced_source_absent",
       "status": "ARCHIVE_GAP",
-      "basis": "The week 4 breakdown names a week four cast list without a corpus container, and links a Tatankan escape room at drive:1HeeyOpTO5OFuM0tPT5l-K3Dq4osnyUEa-PEJBbEabsc, which is not a cataloged corpus source.",
-      "document_family_id": "roanoke-s3-week-operations"
-    },
-    {
-      "corpus_id": "BCS-000048",
-      "question": "referenced_source_absent",
-      "status": "ARCHIVE_GAP",
-      "basis": "The week 1 breakdown links Twilight Manor at drive:1PlvWTEJ_C294RdlY2OlkPxB_8AV1SFm9jZWIWJWMloY, which is not a cataloged corpus source.",
+      "basis": "The week 4 breakdown names a week four cast list without a corpus container. The Tatankan escape room it links is now BCS-000126.",
       "document_family_id": "roanoke-s3-week-operations"
     },
     {
       "corpus_id": "BCS-000053",
       "question": "referenced_source_absent",
       "status": "ARCHIVE_GAP",
-      "basis": "The week 5 breakdown links a Spelljammer lodestone document at drive:1sMZDhkyu6ktndPQF1j5NPP4cjw-XbTjGQTvN0f5oho0 and a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v. Neither id is a cataloged corpus source. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast.",
+      "basis": "The week 5 breakdown links a map at drive:1NnYMxq39WObWYIn-1blbuD7uHXon-c-v, which is still not a cataloged corpus source. The Spelljammer lodestone document is now BCS-000128. The headings 'Week 4 Cast list' and 'Week 4 Sets' are not a found container for a separate week 4 cast.",
       "document_family_id": "roanoke-s3-week-operations"
     }
   ],
-  "container_count": 120,
-  "catalog_count": 121
+  "container_count": 128,
+  "catalog_count": 129
 }
