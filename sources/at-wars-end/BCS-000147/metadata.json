@@ -1,0 +1,97 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000147",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "Mirabelle \u2013 A Tragedy in Five Acts",
+  "source_role": "in_world_play_text",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-mirabelle",
+  "original_filename": "Mirabelle \u2013 A Tragedy in Five Acts",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2025-05-19T17:44:52.066Z",
+    "modified": "2025-05-23T16:45:28.864Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and last modifier are Brendon Faulkner. A 2025 play text is not thereby the author of the earlier At War's End drafts.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1-VOpIJago8ud4oP135xjM6AUepaaAPitKPO0txg9ljE",
+      "url": "https://docs.google.com/document/d/1-VOpIJago8ud4oP135xjM6AUepaaAPitKPO0txg9ljE/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000147/original/source.docx",
+      "sha256": "956ca813ebc4a908c707532f8a441c2f36135019c345dc0b890fbac63a92720d",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 40684
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000147/source.md",
+      "sha256": "4a94857cfb2b599ca2928d84033d15b4f738e6b577ba0d5a954bc8fee7741f98",
+      "mime_type": "text/markdown",
+      "size_bytes": 43906
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The subtitle says the play is performed in-world in At War's End.",
+        "support_refs": [
+          "BCS-000147"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "A five-act play written to be performed inside the setting. The subtitle's word 'performed' is the document's description of function, not a captured performance.",
+        "support_refs": [
+          "BCS-000147"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No performance record is in this file."
+      },
+      {
+        "question": "place_in_draft_revision_chain",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This 2025 play is not a numbered narrative draft and is not given a REVISES edge onto the earlier drafts."
+      }
+    ]
+  },
+  "source_links": []
+}

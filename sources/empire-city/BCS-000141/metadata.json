@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000141",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Hampstead Players Guide",
+  "source_role": "player_facing_zone_rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "hampstead-player-mechanics",
+  "original_filename": "Hampstead Players Guide",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2021-03-09T19:49:40.663Z",
+    "modified": "2021-06-09T11:06:38.324Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The Drive owner and last modifier are Anthony S, not Brendon Faulkner. Do not assign the guide to Brendon from possession of the wider project.",
+    "project_ownership_context": "Owned and last modified by Anthony S."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "12nEI2LJgrYJbupRwtGUdjU_-IefAzOet6I7RGLifx7I",
+      "url": "https://docs.google.com/document/d/12nEI2LJgrYJbupRwtGUdjU_-IefAzOet6I7RGLifx7I/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000141/original/source.docx",
+      "sha256": "9fc12c278b3f5b0a8c3f0acb209c691438736f4eaa1914be9996be0a47a25428",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 11435
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000141/source.md",
+      "sha256": "7cefc533d69df818ff0a44dcb1db0257830c338ede2215cebae61bee2ab09c3c",
+      "mime_type": "text/markdown",
+      "size_bytes": 7299
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The guide is player-facing Hampstead mechanics, including the Quartering Act. Hampstead is a borough on the S4 timeline. The guide itself does not say Season 4.",
+        "support_refs": [
+          "BCS-000141",
+          "BCS-000131"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "It tells players how damnation layers, prices, curfew, and silver confiscation work in Hampstead.",
+        "support_refs": [
+          "BCS-000141"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Borough mechanics plus a timeline that names the borough are not a season label in this file."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Player-facing rules are not observed enforcement."
+      },
+      {
+        "question": "brendon_authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The file's owner is Anthony S."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000131",
+      "confidence": "STRONG",
+      "basis": "Player mechanics for a borough the master timeline schedules. The guide does not cite the timeline.",
+      "support_refs": [
+        "BCS-000141",
+        "BCS-000131"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000146",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Elevator Guantlet.",
+  "source_role": "prepared_event",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-cited-event-modules",
+  "original_filename": "Elevator Guantlet.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2020-04-30T07:23:38.222Z",
+    "modified": "2020-04-30T08:28:51.454Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner is Brendon Faulkner. The encounter does not sign an author.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1fpuTPkVyJzE5n9gxIcBMZ_J3q_mOXHq6uwpCKnKxQGU",
+      "url": "https://docs.google.com/document/d/1fpuTPkVyJzE5n9gxIcBMZ_J3q_mOXHq6uwpCKnKxQGU/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000146/original/source.docx",
+      "sha256": "71d7ee613c289e7bb09b4a02886c7b1d0f5f279172b5869040a15d64d64202a8",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7712
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000146/source.md",
+      "sha256": "816d647c749b5a281283a4f258711c580355ca2b9a946f55fc3640807ead5316",
+      "mime_type": "text/markdown",
+      "size_bytes": 1649
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "BCS-000052, the Season 3 week 3 breakdown, links this Drive id as the elevator gauntlet for Long Shadow.",
+        "support_refs": [
+          "BCS-000146",
+          "BCS-000052"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "A timed ascent with waves, a pass condition, and a fail penalty. The week sheet scheduling it is not the running of it.",
+        "support_refs": [
+          "BCS-000146"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Week 3 can link a module without showing the rounds were played."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000052",
+      "confidence": "CONFIRMED",
+      "basis": "The week 3 breakdown's hyperlink for the elevator onslaught is this Drive id.",
+      "support_refs": [
+        "BCS-000146",
+        "BCS-000052",
+        "drive:1fpuTPkVyJzE5n9gxIcBMZ_J3q_mOXHq6uwpCKnKxQGU"
+      ]
+    }
+  ]
+}

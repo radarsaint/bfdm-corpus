@@ -1,0 +1,111 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000144",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Arcanian Lore",
+  "source_role": "world_model_and_regional_lore",
+  "source_kind": "google_drive_native",
+  "document_family_id": "arcanian-cornerstone-cosmology",
+  "original_filename": "Arcanian Lore",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2023-04-21T22:43:53.925Z",
+    "modified": "2023-05-01T10:42:46.709Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and last modifier are Brendon Faulkner. The lore speaks as 'we' and does not identify every passage.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1_LOJIQ1fXy9CUw4NxwvMVff3u2SXPx8LkrZ4QLTjhM4",
+      "url": "https://docs.google.com/document/d/1_LOJIQ1fXy9CUw4NxwvMVff3u2SXPx8LkrZ4QLTjhM4/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000144/original/source.docx",
+      "sha256": "54fa51b5dc5cb720e261bcfc53ccc696fd3d84a25107e1593ac288d9fff08435",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 63930
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000144/source.md",
+      "sha256": "944b373f4ffb762ca995a20699840ab2f2ae0bef5f2cb809e41e5565eea08785",
+      "mime_type": "text/markdown",
+      "size_bytes": 11010
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The Season 5 DM guide hyperlinks this file under Lore, and the body has a section headed Season 5 specific regional lore. The rest of the document is a cross-campaign cosmology, so Season 5 is not the whole file.",
+        "support_refs": [
+          "BCS-000144",
+          "BCS-000133"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "It states the cornerstone cosmology and then Season 5 place facts, including Bodfish Boom Town. Stating lore is not play.",
+        "support_refs": [
+          "BCS-000144"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The document also names Roanoke, Empire City, and other regions as iterations of the same conflict. One Season 5 section does not make the whole file Season 5."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Lore prepared for a guide is not evidence it was delivered at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000133",
+      "confidence": "CONFIRMED",
+      "basis": "The DM guide's Lore hyperlink is this Drive id.",
+      "support_refs": [
+        "BCS-000144",
+        "BCS-000133",
+        "drive:1_LOJIQ1fXy9CUw4NxwvMVff3u2SXPx8LkrZ4QLTjhM4"
+      ]
+    }
+  ]
+}
