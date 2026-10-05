@@ -70,14 +70,16 @@
     {
       "key": "2026-07-29-30-neris-tasha",
       "date_range": "2026-07-29/2026-07-30",
-      "status": "QUEUED",
-      "notes": "Neris Quill, Secrets Taken to the Grave, Tasha portfolio/item description. Raw turns are available in current conversation context."
+      "status": "PARTIAL",
+      "notes": "Neris Quill, Secrets Taken to the Grave, Tasha portfolio/item description. Raw turns are available in current conversation context. Batch 5: same visible current-conversation segment preserved in BCS-000140.",
+      "repo_source": "BCS-000140"
     },
     {
       "key": "2026-08-08-vault-custodian",
       "date_range": "2026-08-08",
-      "status": "QUEUED",
-      "notes": "Vault Custodian boss fight, combat tracker, loot, portal escape, deep-dark-secrets table. Raw turns are available in current conversation context."
+      "status": "PARTIAL",
+      "notes": "Vault Custodian boss fight, combat tracker, loot, portal escape, deep-dark-secrets table. Raw turns are available in current conversation context. Batch 5: same visible current-conversation segment preserved in BCS-000140.",
+      "repo_source": "BCS-000140"
     }
   ],
   "project_file_inventory": [
@@ -418,7 +420,8 @@
       "uploaded_at": "2026-07-30T05:23:57.743232+00:00",
       "user_turn_index": 116,
       "library_file_id": null,
-      "status": "QUEUED"
+      "status": "REFERENCED",
+      "related_source": "BCS-000140"
     },
     {
       "id": "file_00000000ee7081fbb432ea29fc6872fc",
@@ -427,7 +430,8 @@
       "uploaded_at": "2026-08-08T20:38:18.069512+00:00",
       "user_turn_index": 124,
       "library_file_id": null,
-      "status": "QUEUED"
+      "status": "REFERENCED",
+      "related_source": "BCS-000140"
     },
     {
       "id": "file_00000000e21881fba9d4cf82c0e624f0",
@@ -436,7 +440,8 @@
       "uploaded_at": "2026-08-08T20:54:44.471519+00:00",
       "user_turn_index": 128,
       "library_file_id": null,
-      "status": "QUEUED"
+      "status": "REFERENCED",
+      "related_source": "BCS-000140"
     },
     {
       "id": "file_00000000280c81fb8939295ca5996091",
@@ -445,7 +450,8 @@
       "uploaded_at": "2026-08-08T20:54:44.471519+00:00",
       "user_turn_index": 128,
       "library_file_id": null,
-      "status": "QUEUED"
+      "status": "REFERENCED",
+      "related_source": "BCS-000140"
     },
     {
       "id": "file_0000000071d48230a30d213b005450f7",
@@ -464,6 +470,6 @@
     "Project file enumeration is stronger than conversation enumeration: the current project surface exposed 41 file/asset records.",
     "No item is represented as COMPLETE PROJECT EXPORT."
   ],
-  "last_batch_completed": 4,
+  "last_batch_completed": 5,
   "last_updated": "2026-10-05"
 }
