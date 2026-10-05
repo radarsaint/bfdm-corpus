@@ -63,8 +63,9 @@
     {
       "key": "2026-07-11-evernight-house-dungeon",
       "date_range": "2026-07-11",
-      "status": "QUEUED",
-      "notes": "Evernight mirrored House dungeon crawl, memory deposits, new PC, correspondence mechanism; exact title unavailable."
+      "status": "PARTIAL",
+      "notes": "Evernight mirrored House dungeon crawl, memory deposits, new PC, correspondence mechanism; exact title unavailable. Batch 4 source container added; recovery remains partial.",
+      "repo_source": "BCS-000139"
     },
     {
       "key": "2026-07-29-30-neris-tasha",
@@ -284,8 +285,11 @@
       "source_kind": "generated",
       "uploaded_at": "2026-07-11T20:08:34.042223+00:00",
       "user_turn_index": 81,
-      "library_file_id": null,
-      "status": "QUEUED"
+      "library_file_id": "libfile_b6972b6dde488191b90c7b13605beef3",
+      "status": "QUEUED",
+      "library_name": "The house of the measuring coin.png",
+      "library_created_at": "2026-07-11T20:08:35.171014+00:00",
+      "related_source": "BCS-000139"
     },
     {
       "id": "file_00000000e0b471fd90f2f25591422e9c",
@@ -293,8 +297,11 @@
       "source_kind": "generated",
       "uploaded_at": "2026-07-11T20:10:50.080684+00:00",
       "user_turn_index": 83,
-      "library_file_id": null,
-      "status": "QUEUED"
+      "library_file_id": "libfile_c79a19fae4c08191b369b0550c4cd965",
+      "status": "QUEUED",
+      "library_name": "Arcane temple dungeon map.png",
+      "library_created_at": "2026-07-11T20:10:51.092094+00:00",
+      "related_source": "BCS-000139"
     },
     {
       "id": "file_00000000793c71fd90b45865746b6ef2",
@@ -457,6 +464,6 @@
     "Project file enumeration is stronger than conversation enumeration: the current project surface exposed 41 file/asset records.",
     "No item is represented as COMPLETE PROJECT EXPORT."
   ],
-  "last_batch_completed": 3,
+  "last_batch_completed": 4,
   "last_updated": "2026-10-05"
 }
