@@ -1,0 +1,110 @@
+{
+  "corpus_id": "BCS-000172",
+  "project": "Saturday D&D",
+  "project_slug": "saturday-dnd",
+  "title": "Saturday D&D current Project conversation segment, July 29–August 8 2026",
+  "source_role": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "source_kind": "chatgpt_current_project_conversation_segment_snapshot",
+  "provider": "chatgpt_current_project_context",
+  "native_provider_id": null,
+  "native_url": null,
+  "original_filename": null,
+  "mime_type": "text/markdown",
+  "created_timestamp": null,
+  "modified_timestamp": null,
+  "ingest_date": "2026-10-05",
+  "normalized_sha256": "c78038a20b020922d65ce259be44e4b80f52bef3904d912b90716d9dbdaf2d3a",
+  "locators": [
+    {
+      "provider": "chatgpt_project",
+      "locator_type": "project_conversation_partial_recovery",
+      "project_name": "Saturday D&D",
+      "native_id": null,
+      "url": null,
+      "completeness": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+      "project": "Saturday D&D",
+      "project_context_slug": "satruday dnd",
+      "conversation_window_local": "2026-07-29/2026-08-08",
+      "stable_message_ids_available": false,
+      "exact_conversation_title_available": false,
+      "access_mode": "CURRENT_PROJECT_VISIBLE_SEGMENT",
+      "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL"
+    }
+  ],
+  "related_project_assets": [
+    {
+      "file_id": "file_0000000077f881fd8477220afd017865",
+      "name": "a_close_up_richly_detailed_still_life_prop_scene.png",
+      "relationship": "GENERATED_IN_VISIBLE_SEGMENT"
+    },
+    {
+      "file_id": "file_00000000ee7081fbb432ea29fc6872fc",
+      "name": "a_meticulously_detailed_hand_painted_fantasy_styl.png",
+      "relationship": "GENERATED_IN_VISIBLE_SEGMENT"
+    },
+    {
+      "file_id": "file_00000000e21881fba9d4cf82c0e624f0",
+      "name": "tasha_vault_custodian_combat_tracker.html",
+      "relationship": "GENERATED_IN_VISIBLE_SEGMENT"
+    },
+    {
+      "file_id": "file_00000000280c81fb8939295ca5996091",
+      "name": "tasha_vault_custodian_combat_tracker.zip",
+      "relationship": "GENERATED_IN_VISIBLE_SEGMENT"
+    }
+  ],
+  "authorship": "MIXED_ROLE_TRANSCRIPT",
+  "authorship_basis": "Visible current-project conversation segment. User and assistant turns are preserved separately; generated artifacts are identified as artifacts. Assistant material is not user authorship.",
+  "normalization_method": "Visible turn order preserved. User/assistant message bodies retained verbatim from current context. Generated artifact events replace non-user-visible tool internals. Native message IDs/timestamps are not invented.",
+  "extraction_warnings": [
+    "Not a complete export of the entire Project conversation.",
+    "Native conversation title and message IDs unavailable.",
+    "Per-turn timestamps are not available for every visible turn.",
+    "Internal tool/image-generation arguments are not user-visible transcript and are intentionally excluded.",
+    "Assistant-generated material does not establish user authorship, acceptance, selection, delivery, or implementation without explicit later evidence."
+  ],
+  "current_source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000172/source.md",
+  "original_representation_kind": "CURRENT_PROJECT_VISIBLE_CONVERSATION_SEGMENT",
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "schema_version": "bfdm_source_metadata/v1",
+  "ingested_at": "2026-10-05T00:00:00Z",
+  "capture_status": {
+    "current_body": "PARTIAL_CAPTURE",
+    "comments": "NOT_APPLICABLE",
+    "revision_metadata": "NOT_APPLICABLE",
+    "revision_bodies": "NOT_APPLICABLE",
+    "assets": "NOT_CAPTURED",
+    "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL"
+  },
+  "normalization": {
+    "method": "Visible turn order preserved. User/assistant message bodies retained verbatim from current context. Generated artifact events replace non-user-visible tool internals. Native message IDs/timestamps are not invented.",
+    "tool": "ChatGPT Project history recovery",
+    "warnings": [
+      "Not a complete export of the entire Project conversation.",
+      "Native conversation title and message IDs unavailable.",
+      "Per-turn timestamps are not available for every visible turn.",
+      "Internal tool/image-generation arguments are not user-visible transcript and are intentionally excluded.",
+      "Assistant-generated material does not establish user authorship, acceptance, selection, delivery, or implementation without explicit later evidence."
+    ]
+  },
+  "representations": [
+    {
+      "kind": "normalized_markdown",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000172/source.md",
+      "sha256": "c78038a20b020922d65ce259be44e4b80f52bef3904d912b90716d9dbdaf2d3a"
+    }
+  ],
+  "source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000172/source.md",
+  "historical_context": {
+    "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+    "generated_material_status": "DELIVERY_UNKNOWN unless explicitly stated in source text",
+    "note": "Contract fields were aligned during reconciliation. Partial recovery was not upgraded."
+  },
+  "reconciliation": {
+    "donor_pr": 34,
+    "body_change": "BCS id renumber only",
+    "donor_normalized_sha256": "836c8f23a0fdf6e256f6bf29664dbae0480eb7e321935298701ec2ba515c8479",
+    "final_normalized_sha256": "c78038a20b020922d65ce259be44e4b80f52bef3904d912b90716d9dbdaf2d3a"
+  }
+}

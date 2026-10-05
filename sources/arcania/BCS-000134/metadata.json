@@ -1,0 +1,103 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000134",
+  "project": "Arcania",
+  "project_slug": "arcania",
+  "title": "Server guidelines and house rules",
+  "source_role": "player_facing_rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "arcania-server-house-rules",
+  "original_filename": "Server guidelines and house rules",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2020-04-12T18:56:50.737Z",
+    "modified": "2023-04-30T01:45:07.313Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The closing identifies the speaker as 'DM Radar, the creator of this world.' The Drive file is owned by Brendon Faulkner. The header says the rules are for all Tales from Arcania events. That does not prove sole authorship of every rule.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner. Last modifier on the captured timestamps is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "19q9mnafswYmNIUK3DK57O2MPqtSl78M4UcJSfBZfhA8",
+      "url": "https://docs.google.com/document/d/19q9mnafswYmNIUK3DK57O2MPqtSl78M4UcJSfBZfhA8/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/arcania/BCS-000134/original/source.docx",
+      "sha256": "631d11223bdce3da6d42463556cc3448b4035fcbb9b64dad424e1f9e2343e41b",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9297
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/arcania/BCS-000134/source.md",
+      "sha256": "9d145b4a4bb5bb90cd9b6d2161a93a9a0a3d45b1809693ff19d7abc3d3630085",
+      "mime_type": "text/markdown",
+      "size_bytes": 4270
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that export.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "The captured text is the file as of 2023-04-30, not a recovered 2020 revision body.",
+      "Revision bodies were not retrieved."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The Season 5 Dungeon Master's guide hyperlinks this Drive id under 'Updated server and house rules.' The rules text itself says it covers all Tales from Arcania events, so Season 5 is not its only scope.",
+        "support_refs": [
+          "BCS-000134",
+          "BCS-000133"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The text addresses players directly: real-time rests, no retconning, crafting approval, and a signed note from the creator. Publication here is not play.",
+        "support_refs": [
+          "BCS-000134"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A rule that says crafting will go live, or that a pause emoji is sacred, does not show a table following it."
+      },
+      {
+        "question": "captured_text_is_the_2020_release",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The file was created 2020-04-12 and last modified 2023-04-30. This export is the later state. The 2020 wording was not recovered."
+      },
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The file says the rules cover all Tales from Arcania events. The Season 5 guide cites them. That is a relation, not a single project assignment."
+      }
+    ]
+  },
+  "source_links": []
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000150",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Monster Chess",
+  "source_role": "mini_game_rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-monster-chess",
+  "original_filename": "Monster Chess",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2021-01-30T03:45:15.439Z",
+    "modified": "2021-01-30T06:47:19.971Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and last modifier are Brendon Faulkner. The rules do not sign an author.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "17ZefwrRTy2M7tbCYmbXdm-zbBvF38DXF5mk-dkTEMwk",
+      "url": "https://docs.google.com/document/d/17ZefwrRTy2M7tbCYmbXdm-zbBvF38DXF5mk-dkTEMwk/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000150/original/source.docx",
+      "sha256": "8b470fc7dfb3cefadf1b58b09107a8db8b60c09210a5e137df99d4cb352b2e92",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 163515
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000150/source.md",
+      "sha256": "b14767c7aeb3a9d98c93364582a524d860994da1ada1f08cf0e2c3a4da529145",
+      "mime_type": "text/markdown",
+      "size_bytes": 1112
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The first line says it is a three-player mini game for Empire City. It does not say Season 4.",
+        "support_refs": [
+          "BCS-000150"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "Board rules for a mini game. The DOCX also holds images that were not transcribed.",
+        "support_refs": [
+          "BCS-000150"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "'For Empire City' is not a season label."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Rules for a mini game are not a record it was played."
+      }
+    ]
+  },
+  "source_links": []
+}

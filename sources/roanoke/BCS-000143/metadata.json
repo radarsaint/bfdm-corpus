@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000143",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Arcanian Almanac",
+  "source_role": "playtest_race_ecology",
+  "source_kind": "google_drive_native",
+  "document_family_id": "arcanian-almanac",
+  "original_filename": "The Arcanian Almanac",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2019-05-09T04:56:15.407Z",
+    "modified": "2019-07-03T05:06:09.865Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The subtitle calls it a playtest for the Roanoke RPE for Cascadia Gamers Alliance. Drive owner is Brendon Faulkner. A playtest credit is not passage authorship.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1To_48fHi0RuYoeov-qWBXUgSDaB8LN7WkXkX8hJFREI",
+      "url": "https://docs.google.com/document/d/1To_48fHi0RuYoeov-qWBXUgSDaB8LN7WkXkX8hJFREI/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000143/original/source.docx",
+      "sha256": "dbb47f2e49d65838778f5c3818fd85c68497af8ad4b05910f1ecc348c233e7ee",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 250236
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000143/source.md",
+      "sha256": "4e728d81275ab74d2aaffe2522c2916e9ff2ae8254d5ad0a2baa289444c637ca",
+      "mime_type": "text/markdown",
+      "size_bytes": 14630
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "A 2019 playtest document of peoples, traits, and ecology. It predates the 2020 race-edit note and the later verbatim files.",
+        "support_refs": [
+          "BCS-000143"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "It says Roanoke RPE. It does not name Season 2 or Season 3."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A playtest document is not table use."
+      },
+      {
+        "question": "wording_matches_later_verbatim",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Shared race names are not proof the later verbatim files kept this wording."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000121",
+      "confidence": "STRONG",
+      "basis": "The almanac contains a Jackalope playtest section. It is earlier context, not a REVISES edge onto the later verbatim.",
+      "support_refs": [
+        "BCS-000143",
+        "BCS-000121"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000139",
+      "confidence": "STRONG",
+      "basis": "The almanac contains Chinnokin playtest traits, including Soak. Earlier context only.",
+      "support_refs": [
+        "BCS-000143",
+        "BCS-000139"
+      ]
+    }
+  ]
+}

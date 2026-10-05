@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000151",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Legends sign up",
+  "source_role": "player_signup_responses",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-internal-preparation",
+  "original_filename": "Legends sign up",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2023-04-30T06:22:38.755Z",
+    "modified": "2023-07-16T00:25:48.344Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The form is owned by Brendon Faulkner. The response rows are player answers, not Brendon's prose.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner. Responses belong to the people who submitted them."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "12xmsqaB6x09sOn2wBvsWAFpEsAM5fFukKBH5h9eC5UA",
+      "url": "https://docs.google.com/spreadsheets/d/12xmsqaB6x09sOn2wBvsWAFpEsAM5fFukKBH5h9eC5UA/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000151/original/source.xlsx",
+      "sha256": "3241a2278c6a17fcc6914e48c714de6a16ee859ee0f2b93c10163679780ed997",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 7083
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000151/source.md",
+      "sha256": "c320f547a2d3bf9497591bdb2b1eba737a036edce5d74ce1d8c15ab8c9f8c2a9",
+      "mime_type": "text/markdown",
+      "size_bytes": 4100
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The sheet is titled Legends sign up and asks players to delay character creation for vetting, which is the policy in the Season 5 character-creation document. The sheet does not say Season 5 in the column headers.",
+        "support_refs": [
+          "BCS-000151",
+          "BCS-000145"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "A signup form and its responses: rules agreement, prior games, roles, and willingness to run one-shots or play NPCs.",
+        "support_refs": [
+          "BCS-000151"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Legends is the Season 5 city name in other files. This sheet alone does not say Season 5."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A signup is not attendance and not play."
+      },
+      {
+        "question": "response_is_brendon_authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Discord handles in the sheet are respondents."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000145",
+      "confidence": "STRONG",
+      "basis": "The form asks players to hold character creation for vetting. The character-creation document says players will be vetted in voice chats before creation. That is a policy match, not proof every respondent was vetted.",
+      "support_refs": [
+        "BCS-000151",
+        "BCS-000145"
+      ]
+    }
+  ]
+}

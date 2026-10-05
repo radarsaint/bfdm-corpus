@@ -1,0 +1,92 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000136",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Rowing Oak",
+  "source_role": "campaign_premise",
+  "source_kind": "google_drive_native",
+  "document_family_id": "early-roanoke-rowing-oak",
+  "original_filename": "The Rowing Oak",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2018-07-08T05:01:47.974Z",
+    "modified": "2019-03-13T21:50:45.471Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and 2019 last modifier are Brendon Faulkner. The export is the 2019-03-13 state, not the July 2018 revision described in the source lead.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "11QDOazLzTM3Mv0E4hnPyFpY1wyYweeCoG-ZX8eyX6ho",
+      "url": "https://docs.google.com/document/d/11QDOazLzTM3Mv0E4hnPyFpY1wyYweeCoG-ZX8eyX6ho/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000136/original/source.docx",
+      "sha256": "1c422602698378f7b15351b6931ff26f31fd78ee3cf760f141b8d542f83f6c88",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 13448
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000136/source.md",
+      "sha256": "d33c4ef8b8673e73b040e47c528e66f84cc0685dd69e00a06845a88442b7dddd",
+      "mime_type": "text/markdown",
+      "size_bytes": 11000
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from the 2019-03-13 state.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision 3092 from 2018-07-08 was not fetched. Do not treat this export as that revision.",
+      "The body contains both a King Edwin invitation and a later colony-charter section. They were not split into two sources."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The captured text gives an opening situation, colony jobs, and a town charter due by the third day. It does not name a season.",
+        "support_refs": [
+          "BCS-000136"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The 2019 export contains Roanoke colony material and also a King Edwin invitation. It does not call itself Season 1 or Season 2."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A premise with a charter deadline is not a record that the charter was written in play."
+      },
+      {
+        "question": "captured_text_is_the_2018_07_08_revision",
+        "status": "NOT_ESTABLISHED",
+        "basis": "File created 2018-07-08 and last modified 2019-03-13. Only the later state was exported."
+      }
+    ]
+  },
+  "source_links": []
+}

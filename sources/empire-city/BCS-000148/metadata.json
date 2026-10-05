@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000148",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Pigeon Lord- draft",
+  "source_role": "class_draft",
+  "source_kind": "google_drive_native",
+  "document_family_id": "pigeon-lord-class",
+  "original_filename": "Pigeon Lord- draft",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2020-08-27T04:39:58.854Z",
+    "modified": "2020-09-14T19:50:32.679Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The Drive owner is addison19190. The last modifier is Brendon Faulkner. The draft note says 'edit after flocks are explained.' Neither fact assigns every sentence.",
+    "project_ownership_context": "Owned by addison19190. Last modified by Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1aV-ua4OjFlBCGvQMwa0xFiyN3j8J772o4EDs0p0Dp7A",
+      "url": "https://docs.google.com/document/d/1aV-ua4OjFlBCGvQMwa0xFiyN3j8J772o4EDs0p0Dp7A/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000148/original/source.docx",
+      "sha256": "b547ccf1bc6f32b3fab70a74c31d51ec23bdb78b37b2df528dfaa54874589ec5",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 328796
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000148/source.md",
+      "sha256": "08cf5a44286c3abde085e7bff827f198b5199ff3fb6fe0ec070b1973feceb6da",
+      "mime_type": "text/markdown",
+      "size_bytes": 11925
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The class text says the pigeon lords are connected to Empire City's cranium pigeons. It does not say Season 4.",
+        "support_refs": [
+          "BCS-000148"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "A class draft with an explicit unfinished edit note.",
+        "support_refs": [
+          "BCS-000148"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Empire City setting language is not a season assignment."
+      },
+      {
+        "question": "superseded_by_v2",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Pigeon Lord v2, Drive 1wukQySSYeNcOJqWEV-Ij7Kl0dJmdY3H-AEvt07WNimI, was not read. A filename is not a successor."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A class draft is not evidence the class was offered or played."
+      }
+    ]
+  },
+  "source_links": []
+}

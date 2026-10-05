@@ -1,0 +1,104 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000137",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The rowing oak guide.",
+  "source_role": "dm_coordination_notes",
+  "source_kind": "google_drive_native",
+  "document_family_id": "early-roanoke-rowing-oak",
+  "original_filename": "The rowing oak guide.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2018-07-08T07:04:27.209Z",
+    "modified": "2020-05-08T07:23:14.014Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The opening note says Kyle Morton and Rob Hubbard are co-DMing with the writer, and it is signed 'The Dev team.' A later section is labeled Rob's dream text. Drive owner is Brendon Faulkner. Last modifier on 2020-05-08 is Brendon Faulkner. None of that assigns every passage.",
+    "project_ownership_context": "Collaborative DM guide. Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1JqDKaRTEx89rAUcNrtSg4I6ZD7XAHRkFTWqDRRCroHw",
+      "url": "https://docs.google.com/document/d/1JqDKaRTEx89rAUcNrtSg4I6ZD7XAHRkFTWqDRRCroHw/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000137/source.md",
+      "sha256": "d75d71e63b6fd37901f57fc90cb0c1acde6527688e49c19e5539652c74b4fc91",
+      "mime_type": "text/markdown",
+      "size_bytes": 36069
+    }
+  ],
+  "normalization": {
+    "method": "Google Doc read as Markdown because DOCX export was rejected as too large. Embedded images were data URIs and were omitted.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "No DOCX snapshot.",
+      "Images omitted, not described.",
+      "The captured text is the current file, last modified 2020-05-08, not the 2018-07-12 revision in the source lead.",
+      "The export mixes a player-facing announcement, DM plans, and past-tense notes about named players. Those were not separated."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_TEXT_PARTIAL_ORIGINAL",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "OMITTED_EMBEDDED_IMAGES"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The text coordinates three simultaneous DMs, a six-player cap, Friday voice events, NPCs, and a Week 2 pox note. It also contains plans that are still unresolved in the prose itself.",
+        "support_refs": [
+          "BCS-000137"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The guide is about the Roanoke colony and the Rowing Oak tavern. It does not use a Season 1 or Season 2 label."
+      },
+      {
+        "question": "which_sentences_are_plan_versus_report",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The opening announces a future Friday the 13th event. Later sentences are past tense about named players and NPCs. The document does not mark the boundary."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "An announcement and later notes are not a transcript. Do not treat every planned beat as played."
+      },
+      {
+        "question": "captured_text_is_the_2018_07_12_revision",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Created 2018-07-08 and last modified 2020-05-08. Revision bodies were not fetched."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000136",
+      "confidence": "STRONG",
+      "basis": "The guide names the Rowing Oak tavern, Captain Greyskies, the Peerless, and the town charter, which are the colony premise in The Rowing Oak. It does not say it revises that file.",
+      "support_refs": [
+        "BCS-000137",
+        "BCS-000136"
+      ]
+    }
+  ]
+}

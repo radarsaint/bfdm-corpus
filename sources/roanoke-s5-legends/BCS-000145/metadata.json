@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000145",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Season 5 character creation",
+  "source_role": "character_creation_rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-internal-preparation",
+  "original_filename": "Season 5 character creation",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2023-04-29T12:18:31.369Z",
+    "modified": "2025-04-14T21:53:43.153Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The prose uses 'I' about previous seasons and this year's vetting. Drive owner and the 2025 last modifier are Brendon Faulkner. The 2025 modification means the captured 'I' is not pinned to 2023.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8",
+      "url": "https://docs.google.com/document/d/1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000145/original/source.docx",
+      "sha256": "8377f942f70bf4284a5098342f1ea183c3224b2c2d3f699c8f638d76586fa61f",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7612
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000145/source.md",
+      "sha256": "e2a275484e73fede32991d28292567c31394aa348168a8e7b1fe9af8930e4d2b",
+      "mime_type": "text/markdown",
+      "size_bytes": 2000
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The title and the first line say Season 5 character creation.",
+        "support_refs": [
+          "BCS-000145"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "It changes advancement to experience points, limits species sources, bans multiclassing and custom lineage, and adds life paths and a black-hat/white-hat morality track.",
+        "support_refs": [
+          "BCS-000145"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A creation policy is not evidence it was applied to characters."
+      },
+      {
+        "question": "captured_text_is_the_2023_launch_wording",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Created 2023-04-29 and last modified 2025-04-14. Revision bodies were not fetched."
+      },
+      {
+        "question": "which_rules_document_the_phrase_points_at",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The text says server rules are mandatory and 'find them here,' but this export's relationships did not include a Drive target."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000133",
+      "confidence": "CONFIRMED",
+      "basis": "The DM guide hyperlinks this file under Character Creation.",
+      "support_refs": [
+        "BCS-000145",
+        "BCS-000133",
+        "drive:1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8"
+      ]
+    }
+  ]
+}

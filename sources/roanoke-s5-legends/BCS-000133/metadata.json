@@ -1,0 +1,129 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000133",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Season 5 Dungeon Master's guide",
+  "source_role": "dm_operations_outline",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-internal-preparation",
+  "original_filename": "Season 5 Dungeon Master's guide",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2023-04-29T12:13:10.837Z",
+    "modified": "2023-05-19T03:34:28.381Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and last modifier are Brendon Faulkner. The document is an outline of headings and three hyperlinks. It does not sign a personal authorship statement.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "15EqRAkYPaSj8009y_ygsOun3TzKcFoBvcn9Liw7q_MQ",
+      "url": "https://docs.google.com/document/d/15EqRAkYPaSj8009y_ygsOun3TzKcFoBvcn9Liw7q_MQ/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000133/original/source.docx",
+      "sha256": "02a30a7bef491b605159f7c9307e9cbc6876ed17ee28369721c2816c6f398fe4",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8161
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000133/source.md",
+      "sha256": "2b3151f543b0bf7516f11d38baa5ae79eb6e2a7cea65d557809f56fd036cca5a",
+      "mime_type": "text/markdown",
+      "size_bytes": 1565
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md keeps the outline, including headings that have no following prose.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Most headings have no body in the export.",
+      "Revision bodies were not retrieved."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The title and the first line say Season 5 Dungeon Master's guide.",
+        "support_refs": [
+          "BCS-000133"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The outline lists server invite, calendar, lore, character creation, house rules, races, crafting, and week-by-week headings. An outline is not compliance.",
+        "support_refs": [
+          "BCS-000133"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Guidance is not observed table practice."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000134",
+      "confidence": "CONFIRMED",
+      "basis": "The guide's hyperlink under 'Updated server and house rules' is the native id of BCS-000134.",
+      "support_refs": [
+        "BCS-000133",
+        "BCS-000134",
+        "drive:19q9mnafswYmNIUK3DK57O2MPqtSl78M4UcJSfBZfhA8"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000144",
+      "confidence": "CONFIRMED",
+      "basis": "The guide's Lore hyperlink is this Drive id.",
+      "support_refs": [
+        "BCS-000133",
+        "BCS-000144",
+        "drive:1_LOJIQ1fXy9CUw4NxwvMVff3u2SXPx8LkrZ4QLTjhM4"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000145",
+      "confidence": "CONFIRMED",
+      "basis": "The guide's Character Creation hyperlink is this Drive id.",
+      "support_refs": [
+        "BCS-000133",
+        "BCS-000145",
+        "drive:1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8"
+      ]
+    }
+  ]
+}

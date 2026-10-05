@@ -1,0 +1,92 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000149",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Gil's Rebirth v1",
+  "source_role": "collaborator_design_notes",
+  "source_kind": "google_drive_native",
+  "document_family_id": "gil-rebirth-notes",
+  "original_filename": "Gil's Rebirth v1",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2020-08-23T16:37:21.471Z",
+    "modified": "2021-07-01T14:46:48.598Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The Drive owner and last modifier are Anthony S. The notes are first person about Gil and a town government. They are not assigned to Brendon.",
+    "project_ownership_context": "Owned and last modified by Anthony S."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1LV3Ybou4kQXfDc_5j2fjN0PvT-qtcCJArhsEf_WOe2k",
+      "url": "https://docs.google.com/document/d/1LV3Ybou4kQXfDc_5j2fjN0PvT-qtcCJArhsEf_WOe2k/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000149/original/source.docx",
+      "sha256": "de75dc15fff63196b98cd664309eeba2715c862aa6ba8de30b7578cf3a78b9da",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 10870
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000149/source.md",
+      "sha256": "486c25ecd946584a2639789c35d3c3eab7cd0176cbb67ec285df1207bb0212c6",
+      "mime_type": "text/markdown",
+      "size_bytes": 8797
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "BRAINSTORMING",
+        "confidence": "STRONG",
+        "basis": "Notes toward a character rebirth that recount a split town government. Recounting is not a second source confirming the weeks.",
+        "support_refs": [
+          "BCS-000149"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The notes do not name a season. They are not identified with the Season 3 Discord figure Sandigil."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A collaborator's recollection is not a session log."
+      },
+      {
+        "question": "brendon_authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Anthony S owns the file."
+      }
+    ]
+  },
+  "source_links": []
+}

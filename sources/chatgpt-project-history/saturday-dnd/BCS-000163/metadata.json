@@ -1,0 +1,86 @@
+{
+  "corpus_id": "BCS-000163",
+  "project": "Saturday D&D",
+  "project_slug": "saturday-dnd",
+  "title": "Saturday D&D ChatGPT project history recovery, May 28–31 2026",
+  "source_role": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "source_kind": "chatgpt_project_conversation_excerpt_snapshot",
+  "provider": "chatgpt_project_history_recovery",
+  "native_provider_id": null,
+  "native_url": null,
+  "original_filename": null,
+  "mime_type": "text/markdown",
+  "created_timestamp": null,
+  "modified_timestamp": null,
+  "ingest_date": "2026-10-05",
+  "normalized_sha256": "57b9a3895160147e6ffa4db91d3ddfa17106d2b1e6ee9e25ade29d17c07928c0",
+  "locators": [
+    {
+      "provider": "chatgpt_project",
+      "locator_type": "project_conversation_partial_recovery",
+      "project_name": "Saturday D&D",
+      "native_id": null,
+      "url": null,
+      "completeness": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+      "project": "Saturday D&D",
+      "project_context_slug": "satruday dnd",
+      "conversation_window_utc": "2026-05-28/2026-05-31",
+      "stable_message_ids_available": false,
+      "exact_conversation_titles_available": false,
+      "access_mode": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+      "retrieval_method": "historical-context search; exact excerpts only where surfaced verbatim"
+    }
+  ],
+  "authorship": "UNKNOWN",
+  "authorship_basis": "Mixed-speaker ChatGPT conversation recovery. User and assistant roles are preserved at excerpt level; source-level authorship is intentionally not collapsed.",
+  "normalization_method": "Verbatim excerpts preserved only when exact wording was exposed. Search-recovered summaries are segregated and labeled NOT verbatim transcript.",
+  "extraction_warnings": [
+    "Not a complete project export.",
+    "Conversation title and native ChatGPT message IDs unavailable.",
+    "Most message bodies in this window are not exposed verbatim.",
+    "Assistant-generated proposals do not establish user authorship, acceptance, selection, delivery, or implementation."
+  ],
+  "current_source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000163/source.md",
+  "original_representation_kind": "NO_NATIVE_EXPORT_AVAILABLE",
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "schema_version": "bfdm_source_metadata/v1",
+  "ingested_at": "2026-10-05T00:00:00Z",
+  "capture_status": {
+    "current_body": "PARTIAL_CAPTURE",
+    "comments": "NOT_APPLICABLE",
+    "revision_metadata": "NOT_APPLICABLE",
+    "revision_bodies": "NOT_APPLICABLE",
+    "assets": "NOT_CAPTURED",
+    "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL"
+  },
+  "normalization": {
+    "method": "Verbatim excerpts preserved only when exact wording was exposed. Search-recovered summaries are segregated and labeled NOT verbatim transcript.",
+    "tool": "ChatGPT Project history recovery",
+    "warnings": [
+      "Not a complete project export.",
+      "Conversation title and native ChatGPT message IDs unavailable.",
+      "Most message bodies in this window are not exposed verbatim.",
+      "Assistant-generated proposals do not establish user authorship, acceptance, selection, delivery, or implementation."
+    ]
+  },
+  "representations": [
+    {
+      "kind": "normalized_markdown",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000163/source.md",
+      "sha256": "57b9a3895160147e6ffa4db91d3ddfa17106d2b1e6ee9e25ade29d17c07928c0"
+    }
+  ],
+  "source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000163/source.md",
+  "historical_context": {
+    "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+    "generated_material_status": "DELIVERY_UNKNOWN unless explicitly stated in source text",
+    "note": "Contract fields were aligned during reconciliation. Partial recovery was not upgraded."
+  },
+  "reconciliation": {
+    "donor_pr": 34,
+    "body_change": "BCS id renumber only",
+    "donor_normalized_sha256": "0d001bb58c46f39cdcf311a1538bdf7b316ff16dcf0f9f86cc56ead629aa5abb",
+    "final_normalized_sha256": "57b9a3895160147e6ffa4db91d3ddfa17106d2b1e6ee9e25ade29d17c07928c0"
+  }
+}
