@@ -84,3 +84,9 @@ Local validator limitation:
 - the shell runtime could not resolve `github.com`, so it could not clone this branch and run `python ingest/validate_ingest.py`;
 - `indexes/documents.sqlite` was not modified in this connector-only pass;
 - therefore the PR should remain unmerged until normal repo-side validation/index policy is completed.
+
+## Pull request
+
+Draft PR: https://github.com/radarsaint/bfdm-corpus/pull/32
+
+The PR is intentionally unmerged.
