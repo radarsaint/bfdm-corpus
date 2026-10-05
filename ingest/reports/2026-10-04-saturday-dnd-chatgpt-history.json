@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-05",
+  "scope": "saturday-dnd-chatgpt-project-history",
+  "project": "Saturday D&D",
+  "branch": "ingest/chatgpt-project-saturday-dnd-history",
+  "base_branch": "main",
+  "base_sha": "7e6b2dccf73efe70a01caf69ecd4a6e39e4c3f53",
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "source_surfaces_searched": [
+    "chatgpt_project_current_context",
+    "historical_conversation_context_search",
+    "chatgpt_project_file_surface",
+    "github_bfdm_corpus_main"
+  ],
+  "candidate_conversation_clusters": 11,
+  "project_file_asset_records": 41,
+  "ingested_new_bcs_count": 1,
+  "reconciled_reused_bcs_count": 0,
+  "possible_duplicates": 0,
+  "excluded_current_ingest_directive_files": 1,
+  "files_with_comments": 0,
+  "files_with_revision_history": 0,
+  "revision_metadata_rows_captured": 0,
+  "revision_bodies_captured": 0,
+  "assets_copied": 0,
+  "sqlite": {
+    "documents_index_updated": false,
+    "row_counts": null,
+    "integrity_check": "NOT_RUN_IN_CONNECTOR_ENVIRONMENT",
+    "fts_rebuild": "NOT_RUN_IN_CONNECTOR_ENVIRONMENT"
+  },
+  "highest_bcs_allocated": "BCS-000131",
+  "normalized_sha256": {
+    "sources/chatgpt-project-history/saturday-dnd/BCS-000131/source.md": "0d001bb58c46f39cdcf311a1538bdf7b316ff16dcf0f9f86cc56ead629aa5abb"
+  },
+  "validation": {
+    "main_inspected": true,
+    "pre_ingest_highest_bcs": "BCS-000130",
+    "saturday_dnd_preexisting_catalog_match": false,
+    "saturday_dnd_preexisting_project_registry_match": false,
+    "validate_ingest": "NOT_RUN_IN_CONNECTOR_ENVIRONMENT",
+    "validate_registry": "NOT_RUN_IN_CONNECTOR_ENVIRONMENT"
+  },
+  "known_gaps": [
+    "No exhaustive native conversation enumeration.",
+    "No stable native ChatGPT message IDs.",
+    "Exact conversation titles unavailable for currently recovered clusters.",
+    "Most May 28–31 message bodies are only partially exposed.",
+    "Additional discovered Saturday D&D clusters remain queued.",
+    "Project assets are inventoried but not yet copied/related to conversation source units.",
+    "indexes/documents.sqlite not rebuilt for the new source container."
+  ],
+  "judgments_minted": {
+    "bce": false,
+    "personality": false,
+    "training_examples": false,
+    "precedent_cards": false,
+    "phase2_claims": false
+  }
+}
