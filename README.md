@@ -2,7 +2,9 @@
 
 > **Governing invariant:** `bfdm-corpus` is not primarily a training dataset. It is the durable research archive of Brendon's D&D creative history. **Kit is one consumer of it.**
 
-Private archive and research environment for Brendon's D&D creative body of work and the live-play context around it.
+Archive and research environment for Brendon's D&D creative body of work and the live-play context around it.
+
+**Current access:** Brendon authorized public Discord retrieval projections on 2026-10-04 for multi-model work. This repository is currently public; older private-archive labels describe the source context rather than an enforced access boundary.
 
 This repository must remain useful even if Kit's architecture changes completely or Kit is replaced. Training, retrieval, prompting, evaluation, and voice distillation are downstream uses of the archive—not the archive's organizing purpose.
 

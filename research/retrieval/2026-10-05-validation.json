@@ -1,0 +1,30 @@
+{
+  "determinism": {
+    "builds": 2,
+    "byte_identical": true,
+    "files": 13902
+  },
+  "harvests": [
+    {
+      "attachments": 1421,
+      "messages": 197013,
+      "server": "roanoke-season-3",
+      "source_parity": true,
+      "source_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d"
+    },
+    {
+      "attachments": 3528,
+      "messages": 189761,
+      "server": "empire-city",
+      "source_parity": true,
+      "source_sha256": "a0c71f99ff403e5a91d88c2dfb647326cbc332b4b943fa207cb080173a83f98e"
+    },
+    {
+      "attachments": 639,
+      "messages": 12692,
+      "server": "empire-city-dev",
+      "source_parity": true,
+      "source_sha256": "a339a26de8e01d63e608c9d5cdedc494d40fbde76c7d8fa19b482a6f8584aaab"
+    }
+  ]
+}

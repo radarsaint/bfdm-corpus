@@ -74,6 +74,60 @@ def sqlite_usable(path: Path) -> bool:
     return _prefix_bytes(path, 16) == b"SQLite format 3\x00"
 
 
+def source_digest(path: Path) -> str | None:
+    """Compare a projection with either hydrated bytes or the canonical LFS OID."""
+    if is_lfs_pointer(path):
+        match = re.search(r"^oid sha256:([0-9a-f]{64})$", path.read_text(), re.M)
+        return match.group(1) if match else None
+    if not sqlite_usable(path):
+        return None
+    with path.open("rb") as handle:
+        return hashlib.file_digest(handle, "sha256").hexdigest()
+
+
+def projection_issues(repo: Path, server: dict, database: Path) -> list[str]:
+    """Validate the complete projection before claiming exhaustive coverage."""
+    root = repo / "model-index" / "discord" / server["server_slug"]
+    issues = set()
+    try:
+        manifest = json.loads((root / "manifest.json").read_text())
+        if manifest.get("source_database") != server.get("database_path"):
+            issues.add("projection_source_mismatch")
+        expected = source_digest(database)
+        if expected is None:
+            issues.add("canonical_source_unavailable")
+        elif manifest.get("source_database_sha256") != expected:
+            issues.add("stale_or_unverified_projection")
+        files = manifest.get("files") or []
+        term_index = manifest.get("term_index") or {}
+        if not files or not term_index.get("files"):
+            issues.add("invalid_projection_manifest")
+        if server.get("message_count") is not None and manifest.get("message_count") != server["message_count"]:
+            issues.add("projection_count_mismatch")
+        if sum(item.get("messages", 0) for item in files) != manifest.get("message_count"):
+            issues.add("projection_count_mismatch")
+        for item in [*files, *term_index.get("files", [])]:
+            path = repo / item["path"]
+            if not path.resolve().is_relative_to(root.resolve()):
+                issues.add("invalid_projection_path")
+                continue
+            if not path.is_file():
+                issues.add("missing_readable_projection")
+                continue
+            data = path.read_bytes()
+            if len(data) != item.get("bytes") or hashlib.sha256(data).hexdigest() != item.get("sha256"):
+                issues.add("projection_checksum_mismatch")
+        attachment_manifest = json.loads((root / "attachments-manifest.json").read_text())
+        payload = (root / "attachments.jsonl").read_bytes()
+        if attachment_manifest.get("source_database_sha256") != expected or expected is None:
+            issues.add("stale_or_unverified_attachments")
+        if hashlib.sha256(payload).hexdigest() != attachment_manifest.get("sha256"):
+            issues.add("attachment_checksum_mismatch")
+    except (OSError, ValueError, KeyError, TypeError):
+        issues.add("missing_or_invalid_projection_metadata")
+    return sorted(issues)
+
+
 def load_servers(repo: Path) -> list[dict]:
     return _read_jsonl(repo / "registry" / "discord_servers.jsonl")
 
@@ -163,12 +217,12 @@ def _public_message(row: dict, attachments: list[dict], full: bool, shard: str |
 
 
 def _filters_match(row: dict, channel: str | None, author: str | None) -> bool:
-    if channel and channel.casefold() not in (row.get("channel") or "").casefold():
+    if channel and channel != row.get("channel_id") and channel.casefold() not in (row.get("channel") or "").casefold():
         return False
     if author:
         needle = author.casefold()
         names = {(row.get("display_name") or "").casefold(), (row.get("username") or "").casefold()}
-        if needle not in names and not any(needle in name for name in names if name):
+        if author != row.get("author_id") and needle not in names and not any(needle in name for name in names if name):
             return False
     return True
 
@@ -177,6 +231,7 @@ def export_attachments(database: Path, repo: Path, server_slug: str | None = Non
     """Write attachment metadata only. No message text and no CDN url."""
     if not sqlite_usable(database):
         raise RetrievalError(f"Database is not a hydrated SQLite file: {database}", code="lfs_pointer_only")
+    source_hash = source_digest(database)
     slug = server_slug or database.stem
     out = repo / "model-index" / "discord" / slug
     out.mkdir(parents=True, exist_ok=True)
@@ -206,12 +261,15 @@ def export_attachments(database: Path, repo: Path, server_slug: str | None = Non
         "attachment_count": len(rows),
         "bytes": len(payload.encode("utf-8")),
         "canonical_database": canonical,
+        "source_database_sha256": source_hash,
         "fields_omitted": ["url", "content", "file_bytes"],
         "path": path.relative_to(repo).as_posix(),
         "server_slug": slug,
         "sha256": hashlib.sha256(payload.encode("utf-8")).hexdigest(),
         "subordinate_to": canonical,
     }
+    if source_digest(database) != source_hash:
+        raise RetrievalError("Canonical SQLite changed during attachment export")
     (out / "attachments-manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
@@ -326,6 +384,9 @@ def _shards_for_tokens(repo: Path, server_slug: str, terms: list[str]) -> tuple[
     missing = []
     seen: dict[str, list[dict]] = {}
     root = repo / "model-index" / "discord" / server_slug
+    manifest_path = root / "manifest.json"
+    manifest = json.loads(manifest_path.read_text()) if manifest_path.is_file() else {}
+    known_prefixes = {item["prefix"] for item in manifest.get("term_index", {}).get("files", [])}
     for term in terms:
         prefix = _term_prefix(term)
         if prefix in seen:
@@ -333,7 +394,8 @@ def _shards_for_tokens(repo: Path, server_slug: str, terms: list[str]) -> tuple[
         else:
             path = root / "terms" / f"{prefix}.jsonl"
             if not path.is_file():
-                missing.append(path.relative_to(repo).as_posix())
+                if prefix in known_prefixes or not manifest:
+                    missing.append(path.relative_to(repo).as_posix())
                 rows = []
             else:
                 rows = _read_jsonl(path)
@@ -357,6 +419,12 @@ def _search_projection(repo, server, terms, phrase, channel, author, attachments
             lookup_terms = [term for term in terms if len(term) >= 3] or terms
     shard_names, missing = _shards_for_tokens(repo, server["server_slug"], lookup_terms)
     root = repo / "model-index" / "discord" / server["server_slug"]
+    if not any(len(term) >= 3 and _single_token(term) for term in lookup_terms):
+        manifest_path = root / "manifest.json"
+        if manifest_path.is_file():
+            manifest = json.loads(manifest_path.read_text())
+            shard_names = [Path(item["path"]).name for item in manifest.get("files", [])]
+            missing = []
     patterns = [] if phrase is not None else [_word_pattern(term) for term in terms]
     phrase_needle = _fold(phrase) if phrase is not None else None
     attachments = _attachment_map(repo, server["server_slug"])
@@ -432,6 +500,8 @@ def search(
     slug = server_row["server_slug"]
     aliases = load_aliases(repo, slug)
     entity = None if phrase else resolve_alias(raw, aliases)
+    if entity is None and _single_token(raw) is None:
+        phrase = True
     if entity:
         terms = sorted(entity["_names"])
     else:
@@ -441,6 +511,7 @@ def search(
     if source == "sqlite" and not sqlite_usable(database_path):
         raise RetrievalError(f"SQLite bytes are not available at {database_path}", code="lfs_pointer_only")
     missing: list[str] = []
+    health_issues: list[str] = []
     if use_sqlite:
         hits = _search_sqlite(
             database_path, server_row, terms, raw if phrase else None, channel, author, attachments_only, limit, full
@@ -448,6 +519,7 @@ def search(
         access = "hydrated_sqlite"
     else:
         if source == "projection" or source == "auto":
+            health_issues = projection_issues(repo, server_row, database_path)
             hits, missing = _search_projection(
                 repo, server_row, terms, raw if phrase else None, channel, author, attachments_only, limit, full
             )
@@ -463,7 +535,7 @@ def search(
         manifest = repo / "model-index" / "discord" / slug / "manifest.json"
         if not manifest.is_file():
             status = "INACCESSIBLE"
-        elif missing:
+        elif missing or health_issues:
             status = "PARTIAL"
         else:
             status = "EXHAUSTIVE"
@@ -471,7 +543,7 @@ def search(
     if status == "INACCESSIBLE":
         reason_codes = ["lfs_pointer_only" if pointer or not database_path.is_file() else "missing_readable_projection"]
     elif status == "PARTIAL":
-        reason_codes = ["missing_readable_projection"]
+        reason_codes = sorted(set(health_issues + (["missing_readable_projection"] if missing else [])))
     else:
         reason_codes = []
     if pointer:
@@ -504,7 +576,8 @@ def search(
         },
         "entity": None
         if entity is None
-        else {"canonical": entity.get("canonical"), "entity_id": entity.get("entity_id"), "server": slug},
+        else {"canonical": entity.get("canonical"), "entity_id": entity.get("entity_id"), "server": slug,
+              "support": entity.get("support", [])},
         "hits": hits,
         "lead_hits": leads,
         "match_count": match_count,
