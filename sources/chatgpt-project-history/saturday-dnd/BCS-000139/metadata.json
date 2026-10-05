@@ -1,0 +1,55 @@
+{
+  "corpus_id": "BCS-000139",
+  "project": "Saturday D&D",
+  "project_slug": "saturday-dnd",
+  "title": "Saturday D&D ChatGPT project history recovery, July 11 2026",
+  "source_role": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "source_kind": "chatgpt_project_conversation_excerpt_and_artifact_recovery",
+  "provider": "chatgpt_project_history_recovery",
+  "native_provider_id": null,
+  "native_url": null,
+  "original_filename": null,
+  "mime_type": "text/markdown",
+  "created_timestamp": null,
+  "modified_timestamp": null,
+  "ingest_date": "2026-10-05",
+  "normalized_sha256": "faf90ddf307773718639b454ba229594838330b669e0654f23740d7a00fff54c",
+  "locators": {
+    "chatgpt_project": {
+      "project": "Saturday D&D",
+      "project_context_slug": "satruday dnd",
+      "conversation_window_utc": "2026-07-11",
+      "stable_message_ids_available": false,
+      "exact_conversation_titles_available": false,
+      "access_mode": "PROJECT_HISTORY_RECOVERY_PARTIAL"
+    }
+  },
+  "related_project_assets": [
+    {
+      "file_id": "file_00000000829c71f89b8dce60e3e86fbd",
+      "library_file_id": "libfile_b6972b6dde488191b90c7b13605beef3",
+      "library_title": "The house of the measuring coin.png",
+      "relationship": "SAME_PROJECT_DATE_ARTIFACT"
+    },
+    {
+      "file_id": "file_00000000e0b471fd90f2f25591422e9c",
+      "library_file_id": "libfile_c79a19fae4c08191b369b0550c4cd965",
+      "library_title": "Arcane temple dungeon map.png",
+      "relationship": "SAME_PROJECT_DATE_ARTIFACT"
+    }
+  ],
+  "authorship": "UNKNOWN",
+  "authorship_basis": "Mixed-speaker ChatGPT Project history recovery plus related artifacts. User/assistant roles and artifact provenance remain distinct.",
+  "normalization_method": "Exact wording and artifact text are preserved only where exposed. Search-recovered context is segregated and labeled nonverbatim.",
+  "extraction_warnings": [
+    "Not a complete project export.",
+    "Conversation title and native ChatGPT message IDs unavailable.",
+    "Unavailable message bodies are not reconstructed.",
+    "Artifact presence does not establish table delivery.",
+    "Assistant-generated proposals do not establish user authorship, acceptance, selection, delivery, or implementation."
+  ],
+  "current_source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000139/source.md",
+  "original_representation_kind": "NO_NATIVE_CONVERSATION_EXPORT_AVAILABLE",
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH"
+}
