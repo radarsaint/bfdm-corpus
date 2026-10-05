@@ -9,7 +9,9 @@ character summary.
 from __future__ import annotations
 
 import json
+import hashlib
 import sqlite3
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -18,11 +20,11 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from discord_index import export_attachments, search  # noqa: E402
+from discord_index import RetrievalError, export_attachments, search, sqlite_usable  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]
-S3 = Path("/tmp/bfdm/s3.sqlite")
+S3 = ROOT / "discord/roanoke-season-3/roanoke-season-3.sqlite"
 INTRO_ID = "739533579134042193"
 ATTACHMENT_ID = "737113252726702111"
 
@@ -30,6 +32,23 @@ ATTACHMENT_ID = "737113252726702111"
 def _write_jsonl(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("".join(json.dumps(row, sort_keys=True) + "\n" for row in rows), encoding="utf-8")
+
+
+def _refresh_fixture_manifest(root: Path) -> None:
+    base = root / "model-index/discord/example"
+    def entry(path):
+        data = path.read_bytes()
+        return {"path": path.relative_to(root).as_posix(), "bytes": len(data),
+                "sha256": hashlib.sha256(data).hexdigest()}
+    files = []
+    for path in sorted(base.glob("messages-*.jsonl")):
+        files.append({**entry(path), "messages": len(path.read_text().splitlines())})
+    manifest = {"source_database": "discord/example/example.sqlite", "source_database_sha256": "a" * 64,
+                "message_count": sum(item["messages"] for item in files), "files": files,
+                "term_index": {"files": [{**entry(path), "prefix": path.stem} for path in sorted((base / "terms").glob("*.jsonl"))]}}
+    (base / "manifest.json").write_text(json.dumps(manifest))
+    (base / "attachments-manifest.json").write_text(json.dumps({
+        **entry(base / "attachments.jsonl"), "source_database_sha256": "a" * 64}))
 
 
 def _mini_repo(root: Path) -> None:
@@ -145,9 +164,10 @@ def _mini_repo(root: Path) -> None:
     pointer = root / "discord" / "example" / "example.sqlite"
     pointer.parent.mkdir(parents=True, exist_ok=True)
     pointer.write_text(
-        "version https://git-lfs.github.com/spec/v1\noid sha256:abc\nsize 1\n",
+        "version https://git-lfs.github.com/spec/v1\noid sha256:" + "a" * 64 + "\nsize 1\n",
         encoding="utf-8",
     )
+    _refresh_fixture_manifest(root)
 
 
 class ProjectionMechanics(unittest.TestCase):
@@ -204,6 +224,61 @@ class ProjectionMechanics(unittest.TestCase):
         first = search(self.repo, "Gil", server="example", source="projection")
         second = search(self.repo, "Gil", server="example", source="projection")
         self.assertEqual(first, second)
+
+    def test_native_id_filters(self):
+        result = search(self.repo, "Gil", server="example", channel="c1", author="u1")
+        self.assertEqual([hit["message_id"] for hit in result["hits"]], ["m-intro"])
+
+    def test_common_alias_requires_disambiguation(self):
+        path = self.repo / "model-index/discord/example/aliases.jsonl"
+        with path.open("a") as handle:
+            handle.write(json.dumps({"entity_id": "another-gil", "canonical": "Gil", "aliases": []}) + "\n")
+        with self.assertRaises(RetrievalError) as raised:
+            search(self.repo, "Gil", server="example")
+        self.assertEqual(raised.exception.code, "ambiguous_alias")
+
+    def test_stale_source_cannot_claim_absence(self):
+        pointer = self.repo / "discord/example/example.sqlite"
+        pointer.write_text(pointer.read_text().replace("a" * 64, "b" * 64))
+        result = search(self.repo, "Gil", server="example")
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+        self.assertIn("stale_or_unverified_projection", result["coverage_report"]["reason_codes"])
+        self.assertFalse(result["coverage_report"]["zero_match_means_absence"])
+
+    def test_missing_attachments_cannot_claim_absence(self):
+        (self.repo / "model-index/discord/example/attachments.jsonl").unlink()
+        result = search(self.repo, "Gil", server="example", attachments_only=True)
+        self.assertEqual(result["returned"], 0)
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+
+    def test_modified_term_index_cannot_claim_exhaustive(self):
+        path = self.repo / "model-index/discord/example/terms/san.jsonl"
+        path.write_text(path.read_text() + "\n")
+        result = search(self.repo, "Gil", server="example")
+        self.assertIn("projection_checksum_mismatch", result["coverage_report"]["reason_codes"])
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+
+    def test_missing_shard_cannot_claim_exhaustive(self):
+        (self.repo / "model-index/discord/example/messages-0001.jsonl").unlink()
+        result = search(self.repo, "Gil", server="example")
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+
+    def test_short_and_multiword_queries(self):
+        short = search(self.repo, "my", server="example")
+        self.assertEqual(short["match_count"], 1)
+        phrase = search(self.repo, "Twin Vents", server="example")
+        self.assertEqual(phrase["match_count"], 1)
+        absent = search(self.repo, "zzzzneverpresent", server="example")
+        self.assertEqual(absent["match_count"], 0)
+        self.assertTrue(absent["coverage_report"]["zero_match_means_absence"])
+
+    def test_pointer_export_preserves_existing_projection(self):
+        path = self.repo / "model-index/discord/example/messages-0001.jsonl"
+        before = path.read_bytes()
+        result = subprocess.run([sys.executable, str(ROOT / "scripts/export_discord_model_index.py"),
+                                 "discord/example/example.sqlite"], cwd=self.repo, capture_output=True)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertEqual(path.read_bytes(), before)
 
     def test_pointer_without_projection_is_not_absence(self):
         bare = Path(self.tmp.name) / "bare"
@@ -271,7 +346,7 @@ class RoanokeSeason3(unittest.TestCase):
         self.assertEqual(intro["coverage_report"]["access"], "jsonl_projection")
         self.assertEqual(intro["coverage_report"]["status"], "EXHAUSTIVE")
         self.assertEqual(intro["coverage_report"]["project_ids"], ["roanoke-s3"])
-        self.assertEqual(intro["coverage_report"]["canonical_database_state"], "lfs_pointer")
+        self.assertIn(intro["coverage_report"]["canonical_database_state"], ["lfs_pointer", "hydrated"])
         self.assertFalse(intro["coverage_report"]["absence_is_not_evidence"])
         self.assertTrue(any(hit["message_id"] == INTRO_ID for hit in intro["hits"]))
         intro_hit = next(hit for hit in intro["hits"] if hit["message_id"] == INTRO_ID)
@@ -306,7 +381,7 @@ class RoanokeSeason3(unittest.TestCase):
         self.assertEqual(gil, again)
 
     def test_hydrated_sqlite_matches_projection_identity(self):
-        if not S3.is_file():
+        if not sqlite_usable(S3):
             self.skipTest("hydrated S3 sqlite is not in this environment")
         result = search(
             ROOT,
@@ -334,6 +409,12 @@ class RoanokeSeason3(unittest.TestCase):
         self.assertEqual(phrase["aliases_expanded"], [])
         self.assertTrue(all("of the twin vents" in hit["content"].casefold() for hit in phrase["hits"]))
         self.assertTrue(any(hit["message_id"] == INTRO_ID for hit in phrase["hits"]))
+        for query in ("Sandigil", "Gil"):
+            projected = search(ROOT, query, server="roanoke-s3", source="projection", limit=10000, full=True)
+            hydrated = search(ROOT, query, server="roanoke-s3", source="sqlite", limit=10000, full=True)
+            self.assertEqual(projected["match_count"], hydrated["match_count"])
+            self.assertEqual([hit["message_id"] for hit in projected["hits"]],
+                             [hit["message_id"] for hit in hydrated["hits"]])
 
 
 if __name__ == "__main__":

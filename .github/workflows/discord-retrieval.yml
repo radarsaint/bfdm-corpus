@@ -1,0 +1,42 @@
+name: Validate Discord retrieval
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**discord**.py'
+      - 'scripts/search_corpus.py'
+      - 'model-index/discord/**'
+      - 'discord/**/*.sqlite'
+      - 'registry/discord_servers.jsonl'
+      - '.github/workflows/*model*.yml'
+      - '.github/workflows/discord-retrieval.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**discord**.py'
+      - 'scripts/search_corpus.py'
+      - 'model-index/discord/**'
+      - '.github/workflows/discord-retrieval.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify no-LFS consumer and corruption regressions
+        run: python -m unittest scripts.test_discord_retrieval -v
+      - name: Hydrate canonical databases for full source parity
+        run: git lfs pull --include="discord/*/*.sqlite" --exclude=""
+      - name: Verify all source records and SQLite search parity
+        run: |
+          python scripts/validate_model_index.py
+          python scripts/verify_discord_retrieval.py
+          python -m unittest scripts.test_discord_retrieval.RoanokeSeason3.test_hydrated_sqlite_matches_projection_identity -v

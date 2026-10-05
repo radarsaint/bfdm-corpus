@@ -10,5 +10,6 @@
   "path": "model-index/discord/roanoke-season-3/attachments.jsonl",
   "server_slug": "roanoke-season-3",
   "sha256": "639a82055cf0a75dffa72d67788bb52081db186664ee90613a91ca6da8ff666a",
+  "source_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d",
   "subordinate_to": "discord/roanoke-season-3/roanoke-season-3.sqlite"
 }
