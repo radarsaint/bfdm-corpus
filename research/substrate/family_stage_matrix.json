@@ -1,0 +1,1012 @@
+{
+  "substrate": "ingest/drive-history-v1",
+  "stage_vocabulary": [
+    "IDEATION / RESEARCH",
+    "DRAFT / PREP",
+    "REVISION",
+    "DEV DISCUSSION",
+    "OPERATIONS / HANDOFF",
+    "PLAYER-FACING PUBLICATION",
+    "LIVE CONTACT",
+    "OUTCOME / AFTERMATH",
+    "LATER CORRECTION / RETROSPECTIVE"
+  ],
+  "families": [
+    {
+      "document_family_id": "at-wars-end-cosmology",
+      "members": [
+        "BCS-000066"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "at-wars-end-narrative",
+      "members": [
+        "BCS-000060",
+        "BCS-000061",
+        "BCS-000062",
+        "BCS-000063"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "PRESENT",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Draft 3 is not a REVISES edge. Draft 5 revises draft 1 and does not supersede the middle drafts."
+    },
+    {
+      "document_family_id": "at-wars-end-outline",
+      "members": [
+        "BCS-000064",
+        "BCS-000065"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "at-wars-end-writing-process",
+      "members": [
+        "BCS-000067"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "bastion-redoubt-campaign",
+      "members": [
+        "BCS-000056",
+        "BCS-000057",
+        "BCS-000058"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Three companions. No live harvest."
+    },
+    {
+      "document_family_id": "earthfall-rod",
+      "members": [
+        "BCS-000054",
+        "BCS-000055"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Spec and operator script. No live harvest."
+    },
+    {
+      "document_family_id": "empire-city-airship-qualification",
+      "members": [
+        "BCS-000073"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "PRESENT",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "One flight-school session matches the standard exercise. Airship Rules is named and has no drive id."
+    },
+    {
+      "document_family_id": "empire-city-broadsheet",
+      "members": [
+        "BCS-000005",
+        "BCS-000006",
+        "BCS-000007",
+        "BCS-000008",
+        "BCS-000009",
+        "BCS-000010",
+        "BCS-000011",
+        "BCS-000012",
+        "BCS-000013",
+        "BCS-000014",
+        "BCS-000015"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Issues are companions, not an ordered successor chain. Distribution in live chat is not established."
+    },
+    {
+      "document_family_id": "empire-city-crafting",
+      "members": [
+        "BCS-000001"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "PRESENT",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "IMPLEMENTED_IN is the approval channel. rule_by_rule_live_identity stays not established."
+    },
+    {
+      "document_family_id": "empire-city-operations",
+      "members": [
+        "BCS-000003",
+        "BCS-000016",
+        "BCS-000072"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Season 4 Master Timeline is a known Drive file and is not a container."
+    },
+    {
+      "document_family_id": "empire-city-player-orientation",
+      "members": [
+        "BCS-000004"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "empire-city-setting-lore",
+      "members": [
+        "BCS-000075"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "exploration-impossible-context",
+      "members": [
+        "BCS-000059"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_APPLICABLE",
+        "OPERATIONS / HANDOFF": "NOT_APPLICABLE",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_APPLICABLE",
+        "OUTCOME / AFTERMATH": "NOT_APPLICABLE",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Third-party manuscript. Not BFDM precedent."
+    },
+    {
+      "document_family_id": "roanoke-building-list",
+      "members": [
+        "BCS-000019"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-character-epilogue",
+      "members": [
+        "BCS-000017"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-chinnokin-lore",
+      "members": [
+        "BCS-000023"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "KNOWN_GAP",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-crafting-system",
+      "members": [
+        "BCS-000020",
+        "BCS-000077",
+        "BCS-000078",
+        "BCS-000079",
+        "BCS-000080"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "PRESENT",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "PRESENT",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Live contact is on the public doc only. BCS-000020 and BCS-000080 have no season."
+    },
+    {
+      "document_family_id": "roanoke-island-bestiary",
+      "members": [
+        "BCS-000022"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-remote-play-guide",
+      "members": [
+        "BCS-000024"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s2-planning",
+      "members": [
+        "BCS-000042"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "PRESENT",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-bestiary",
+      "members": [
+        "BCS-000082",
+        "BCS-000083"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-campaign-manuscript",
+      "members": [
+        "BCS-000041",
+        "BCS-000043",
+        "BCS-000045"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "PRESENT",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "PRESENT",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "BCS-000043 is in the family and has no predecessor or successor edge."
+    },
+    {
+      "document_family_id": "roanoke-s3-campaign-structure",
+      "members": [
+        "BCS-000115"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "PRESENT",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "The only member is a disambiguation that revises the timeline. Readiness calls that a trajectory."
+    },
+    {
+      "document_family_id": "roanoke-s3-cartography",
+      "members": [
+        "BCS-000026",
+        "BCS-000081"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-changelog",
+      "members": [
+        "BCS-000046"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "The changelog is a revision document. Its links are companions to lore, not REVISES edges to the manuscript."
+    },
+    {
+      "document_family_id": "roanoke-s3-cited-event-modules",
+      "members": [
+        "BCS-000122",
+        "BCS-000123",
+        "BCS-000124",
+        "BCS-000125",
+        "BCS-000126",
+        "BCS-000127",
+        "BCS-000128",
+        "BCS-000129"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-directory",
+      "members": [
+        "BCS-000069"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-encounters",
+      "members": [
+        "BCS-000074"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-golden-dawn",
+      "members": [
+        "BCS-000118"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-halwudgie-lore",
+      "members": [
+        "BCS-000119"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "KNOWN_GAP",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-island-games",
+      "members": [
+        "BCS-000117"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-jackalope-lore",
+      "members": [
+        "BCS-000121"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "KNOWN_GAP",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-lookout-lodestone",
+      "members": [
+        "BCS-000025"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-lore-index",
+      "members": [
+        "BCS-000044"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-master-material",
+      "members": [
+        "BCS-000084"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-player-backgrounds",
+      "members": [
+        "BCS-000085"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-player-faq",
+      "members": [
+        "BCS-000021"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-public-docs",
+      "members": [
+        "BCS-000116"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-public-lore",
+      "members": [
+        "BCS-000076"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-publicity",
+      "members": [
+        "BCS-000028"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-secret-society-lore",
+      "members": [
+        "BCS-000027"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-timeline",
+      "members": [
+        "BCS-000070"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Longitudinal readiness is the incoming revision from BCS-000115, not a play history."
+    },
+    {
+      "document_family_id": "roanoke-s3-uru-halfwudgie",
+      "members": [
+        "BCS-000086"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "KNOWN_GAP",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-uru-lore",
+      "members": [
+        "BCS-000120"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "KNOWN_GAP",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s3-week-operations",
+      "members": [
+        "BCS-000018",
+        "BCS-000029",
+        "BCS-000030",
+        "BCS-000031",
+        "BCS-000032",
+        "BCS-000033",
+        "BCS-000034",
+        "BCS-000035",
+        "BCS-000036",
+        "BCS-000037",
+        "BCS-000038",
+        "BCS-000039",
+        "BCS-000040",
+        "BCS-000048",
+        "BCS-000049",
+        "BCS-000050",
+        "BCS-000051",
+        "BCS-000052",
+        "BCS-000053",
+        "BCS-000071"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "PRESENT",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Week sheets schedule modules. That is not live contact. Week 4 cast and the week 5 map file are archive gaps."
+    },
+    {
+      "document_family_id": "roanoke-s3-week5-map",
+      "members": [
+        "BCS-000130"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "roanoke-s5-google-sites-revision-process",
+      "members": [
+        "BCS-000113"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "PRESENT",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "REVISION_CONTEXT points at named site pages. The readiness label does not count that link type as a trajectory."
+    },
+    {
+      "document_family_id": "roanoke-s5-published-sites",
+      "members": [
+        "BCS-000087",
+        "BCS-000088",
+        "BCS-000089",
+        "BCS-000090",
+        "BCS-000091",
+        "BCS-000092",
+        "BCS-000093",
+        "BCS-000094",
+        "BCS-000095",
+        "BCS-000096",
+        "BCS-000097",
+        "BCS-000098",
+        "BCS-000099",
+        "BCS-000100",
+        "BCS-000101",
+        "BCS-000102",
+        "BCS-000104",
+        "BCS-000105",
+        "BCS-000106",
+        "BCS-000107",
+        "BCS-000108",
+        "BCS-000109",
+        "BCS-000111",
+        "BCS-000112"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "Publication is not live use. The 2022 style guide and the Season 5 DM guide are not containers."
+    },
+    {
+      "document_family_id": "roanoke-s5-way-of-gun-fu",
+      "members": [
+        "BCS-000103",
+        "BCS-000110",
+        "BCS-000114"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "PRESENT",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": "PUBLISHED_AS is a publication edge. Live use is not established. No Season 5 harvest is in the corpus."
+    },
+    {
+      "document_family_id": "roanoke-song",
+      "members": [
+        "BCS-000047"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "NOT_ESTABLISHED",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    },
+    {
+      "document_family_id": "unplaced-five-week-planning",
+      "members": [
+        "BCS-000002"
+      ],
+      "stages": {
+        "IDEATION / RESEARCH": "NOT_ESTABLISHED",
+        "DRAFT / PREP": "PRESENT",
+        "REVISION": "NOT_ESTABLISHED",
+        "DEV DISCUSSION": "NOT_ESTABLISHED",
+        "OPERATIONS / HANDOFF": "NOT_ESTABLISHED",
+        "PLAYER-FACING PUBLICATION": "NOT_ESTABLISHED",
+        "LIVE CONTACT": "NOT_ESTABLISHED",
+        "OUTCOME / AFTERMATH": "NOT_ESTABLISHED",
+        "LATER CORRECTION / RETROSPECTIVE": "NOT_ESTABLISHED"
+      },
+      "note": ""
+    }
+  ]
+}
