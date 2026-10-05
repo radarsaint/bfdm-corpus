@@ -3,7 +3,7 @@
 **Current as of:** 2026-10-05  
 **Canonical branch:** `main`
 
-This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
+This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.\n\nFor the project-wide north star, repository roles, human-object direction, evidence-model corrections, campaign-simulation testing strategy, tool-allocation rules, and sequencing that should survive across chats, read `research/STRATEGIC_HANDOFF_2026-10-05.md` before making architectural or roadmap decisions.
 
 ## What is complete on main
 
