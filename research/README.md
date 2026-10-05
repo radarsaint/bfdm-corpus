@@ -16,7 +16,7 @@ The project is now at the **Stage 1 → Stage 2 transition**.
 
 Stage 1 source accessibility/integration is substantially landed on `main`: Discord model retrieval works; PR #25's Drive/source-history integration is merged; source readiness and longitudinal readiness are explicitly distinguished; and the remaining Drive candidate pool is a classified backlog.
 
-Stage 2 is underway experimentally on draft PR #28 (`research/phase2-decision-trajectories`). It focuses on decision trajectories, contrasts, restraint, failures, corrections, changed judgment, and boundary conditions.
+Stage 2 has two lanes. Phase 2A, live judgment, is underway on draft PR #28 and needs live-decision evidence. Phase 2B, creative method and worldbuilding, may use design artifacts for design claims. No Phase 2B research artifact has landed. A design claim is not proof the material was run.
 
 Stage 3 precedent cards/minimal cognition tests and Stage 4 architecture are deliberately later. Do not build them merely because the archive is easier to inspect.
 
@@ -40,7 +40,7 @@ S3 and S4 are unusually rich but structurally similar: both are large Roanoke-li
 
 That makes them valuable for method development and weak as the sole basis for universal claims.
 
-Phase 2 should seek materially different formats when source evidence permits. Earthfall has been checked but does not yet have enough source-ready live-play evidence for an honest cross-format confirmation.
+Broad BFDM judgment claims are `NOT_READY`. Bounded S3/S4 live-judgment research is `READY_WITH_SCOPE_LIMITS` only while the shared Roanoke-lineage limit stays explicit. Earthfall, Bastion/Redoubt, and At War's End can support Phase 2B design-method claims from the texts already in the corpus. They do not confirm Phase 2A.
 
 ## Core disciplines
 

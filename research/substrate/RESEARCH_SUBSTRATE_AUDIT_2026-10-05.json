@@ -1,0 +1,74 @@
+{
+  "audit_date": "2026-10-05",
+  "substrate_branch": "ingest/drive-history-v1",
+  "substrate_commit": "ffd4ec2c83231e62244082f1452ba3ead9a5018a",
+  "verdict": "NOT_READY",
+  "verdict_basis": "Longitudinal-ready is one recorded edge. Named design-lineage files are still outside the corpus. Discord phrase search can report absence for a document that was posted as a bare URL.",
+  "archive_gap_counts": {
+    "MISSING_KNOWN_SOURCE": 21,
+    "POSSIBLE_CANDIDATE_MATCH": 12,
+    "RESOLVED": 1,
+    "EXTERNAL_OR_UNAVAILABLE": 1,
+    "AMBIGUOUS_REFERENCE": 1
+  },
+  "missing_known_source_note": "21 ledger rows. One row is the class of 259 unfetched revision bodies. Two rows cover two Drive files each.",
+  "candidate_triage_counts": {
+    "HIGH_PRIORITY_INGEST": 28,
+    "LIKELY_FAMILY_MEMBER": 42,
+    "CONTEXT_ONLY": 20,
+    "LIKELY_DUPLICATE_OR_VERSION": 10,
+    "LOW_RESEARCH_VALUE": 10,
+    "UNRELATED": 5,
+    "NEEDS_MANUAL_REVIEW": 17
+  },
+  "unreviewed_candidate_rows_remaining": 132,
+  "longitudinal_ready_families": [
+    "at-wars-end-narrative",
+    "empire-city-airship-qualification",
+    "empire-city-crafting",
+    "roanoke-crafting-system",
+    "roanoke-s3-campaign-manuscript",
+    "roanoke-s3-campaign-structure",
+    "roanoke-s3-timeline"
+  ],
+  "broken_or_partial_trajectories": [
+    "roanoke-crafting-system",
+    "roanoke-s3-campaign-manuscript",
+    "roanoke-s3-changelog",
+    "roanoke-s3-week-operations",
+    "empire-city-airship-qualification",
+    "empire-city-operations",
+    "empire-city-broadsheet",
+    "at-wars-end-narrative",
+    "roanoke-s5-google-sites-revision-process",
+    "roanoke-s5-way-of-gun-fu",
+    "bastion-redoubt-campaign",
+    "earthfall-rod"
+  ],
+  "p0": [
+    "Do not sample LONGITUDINAL_RESEARCH_READY as a finished history.",
+    "Ingest or park S4 Master Timeline, S5 style guide, S5 DM guide, player race edits, Rowing Oak and guide, 2020 house rules.",
+    "Discord zero_match_means_absence is harvest coverage, not historical absence.",
+    "Empire City crafting channel link is not the whole essence economy."
+  ],
+  "historical_function_coverage": {
+    "single_table_dm": "PARTIAL",
+    "campaign_designer": "PARTIAL",
+    "rules_system_designer": "PARTIAL",
+    "multi_dm_coordinator": "PARTIAL",
+    "large_persistent_operator": "PARTIAL",
+    "reviser_reacting_to_live_play": "SERIOUS GAP",
+    "responding_to_failure": "SERIOUS GAP",
+    "abandoning_prep": "UNKNOWN",
+    "allocating_player_attention": "PARTIAL",
+    "continuity_across_sessions": "PARTIAL",
+    "inspiration_into_playable_material": "PARTIAL"
+  },
+  "tooling": [
+    "scripts/query_source_history.py",
+    "scripts/query_source_family.py",
+    "scripts/query_project_history.py",
+    "scripts/query_archive_gaps.py",
+    "scripts/query_research_readiness.py"
+  ]
+}

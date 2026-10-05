@@ -77,7 +77,7 @@ See `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`.
 
 `SOURCE_RESEARCH_READY` means the source/family is oriented enough for research: identity, placement or explicit unknown, production stage or explicit unknown, and live-use status/locator where established.
 
-`LONGITUDINAL_RESEARCH_READY` requires an actual recorded trajectory: revision relation or bounded live-contact relation.
+`LONGITUDINAL_RESEARCH_READY` currently establishes the presence of at least one qualifying trajectory edge: a revision relation or a bounded live-contact relation. It does not establish a complete longitudinal chain.
 
 Therefore:
 - readable/placed source ≠ longitudinal history;
@@ -105,7 +105,7 @@ Known evidence gaps include:
 - live-play linkage for many otherwise source-ready families;
 - Season 5 live play;
 - Season 2 live play;
-- Earthfall live evidence sufficient to test current Phase 2 decision families;
+- Earthfall, Bastion/Redoubt, and At War's End live evidence sufficient for Phase 2A confirmation. Their existing texts can still support Phase 2B design-method claims. Those claims are not evidence the material was run;
 - passage-level authorship for collaborative material where not established;
 - broad non-Roanoke live coverage.
 
@@ -126,4 +126,4 @@ Do not infer importance from what is easiest to search.
 
 S3/S4 currently provide unusually dense live evidence and therefore dominate early comparison work. This creates a format-concentration problem: both are large Roanoke-lineage multi-DM campaigns.
 
-Phase 2 should seek materially different formats when evidence permits, especially Earthfall, Bastion/Redoubt, early Roanoke/S2, and non-Roanoke work.
+Phase 2A needs live-decision evidence and should seek a format other than S3/S4 when that evidence exists. Phase 2B may use Earthfall, Bastion/Redoubt, and At War's End now. A Discord zero for a phrase is absence from that searched projection, not historical nonexistence of a document that was only linked.
