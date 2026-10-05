@@ -57,7 +57,7 @@ Primary current source-history/readiness files:
 
 `SOURCE_RESEARCH_READY` means a researcher can tell what a source is, where it is placed (or that placement is explicitly unknown), its production stage (or explicit unknown), and whether live use has been tied to a message/channel. It does **not** mean the research has been done.
 
-`LONGITUDINAL_RESEARCH_READY` means the family has a recorded trajectory through a revision relation or a bounded live-contact relation. Revision is not play. Publication is not play. A companion relation is not a trajectory.
+`LONGITUDINAL_RESEARCH_READY` currently means at least one qualifying trajectory edge exists: a revision relation or a bounded live-contact relation. It does not mean the family has a complete or representative longitudinal chain. Revision is not play. Publication is not play. A companion relation is not a trajectory.
 
 A source can therefore be source-ready while still carrying a longitudinal research gap.
 
@@ -100,15 +100,11 @@ Primary artifact:
 
 The draft also contains a stress pass and updates the research index.
 
-Phase 2 is reconstructing expert judgment through:
-- decision contrasts;
-- restraint;
-- failure;
-- correction;
-- changed judgment;
-- boundary conditions.
+Phase 2 has two lanes. Do not collapse them.
 
-The current weakness is format concentration: S3 and S4 are both large Roanoke-lineage multi-DM campaigns. Earthfall was checked but does not yet have enough source-ready live evidence to support an honest confirmation.
+**Phase 2A — Live judgment.** Requires appropriate live-decision evidence. This is the contrast, restraint, failure, correction, and boundary work on draft PR #28. S3 and S4 are both large Roanoke-lineage multi-DM campaigns, so they do not confirm the boundaries outside that format. Earthfall, Bastion/Redoubt, and At War's End do not yet supply that live evidence.
+
+**Phase 2B — Creative method / worldbuilding.** Can use design artifacts directly for design claims, without pretending they prove live implementation. Earthfall, Bastion/Redoubt, and At War's End can be researched on this lane now. "No live evidence" is not a reason to leave those texts unread.
 
 Phase 2 is **not** precedent-card/runtime work.
 
@@ -127,7 +123,7 @@ They are retained as branch/PR history and should not be treated as the current 
 Current program position is the Stage 1 → Stage 2 transition:
 
 1. **Stage 1 — Research substrate:** source accessibility, Drive integration, historical relationships, gap accounting, research usability.
-2. **Stage 2 — Reconstruct judgment:** decision trajectories, contrasts, restraint, failures, corrections, boundary conditions.
+2. **Stage 2 — Reconstruct judgment,** in two lanes. **Phase 2A** is live judgment and needs live-decision evidence. **Phase 2B** is creative method and worldbuilding: design artifacts can support design claims without live-play confirmation.
 3. **Stage 3 — Minimal cognition tests:** decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
 4. **Stage 4 — Architect from observed failures:** campaign cognition, durable memory/workflows, strategic/local execution, entity cognition, learning/consolidation.
 

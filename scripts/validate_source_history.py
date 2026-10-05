@@ -389,7 +389,7 @@ def render_markdown(report: dict) -> str:
         "",
         "`SOURCE_RESEARCH_READY` means a reader can tell what the source is, where it is placed or that placement is explicitly unknown, what production stage it is or that the stage is explicitly unknown, and whether live use has been tied to a message or channel. It does not mean the research has been done.",
         "",
-        "`LONGITUDINAL_RESEARCH_READY` means the family has a recorded trajectory: a revision link (`REVISES`, `SUPERSEDES`, `PREDECESSOR_OF`, `SUCCESSOR_OF`) or a live-contact link (`IMPLEMENTED_IN`, `ALTERED_IN`, `ABANDONED_IN`, `OUTCOME_DOCUMENTED_IN`). Companion links, publication links, and an explicit live-use gap are not a trajectory.",
+        "`LONGITUDINAL_RESEARCH_READY` currently means at least one qualifying trajectory edge exists: a revision link (`REVISES`, `SUPERSEDES`, `PREDECESSOR_OF`, `SUCCESSOR_OF`) or a live-contact link (`IMPLEMENTED_IN`, `ALTERED_IN`, `ABANDONED_IN`, `OUTCOME_DOCUMENTED_IN`). It does not mean the family has a complete or representative longitudinal chain. Companion links, publication links, and an explicit live-use gap are not a trajectory.",
         "",
         "An explicit live-use gap is an evidence gap. It does not make a family longitudinally complete.",
         "",

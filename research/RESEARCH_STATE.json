@@ -29,7 +29,7 @@
   },
   "readiness": {
     "SOURCE_RESEARCH_READY": "source/family is oriented enough for research; this does not mean longitudinal history exists",
-    "LONGITUDINAL_RESEARCH_READY": "family has a recorded revision trajectory or bounded live-contact relation; revision is not play"
+    "LONGITUDINAL_RESEARCH_READY": "at least one qualifying trajectory edge exists; not a complete or representative longitudinal chain; revision is not play"
   },
   "drive_candidate_backlog": {
     "status": "CLASSIFIED_BACKLOG",
@@ -49,16 +49,29 @@
     },
     "stage_2": {
       "name": "RECONSTRUCT_JUDGMENT",
-      "status": "UNDERWAY_ON_DRAFT_PR28",
-      "focus": [
-        "decision trajectories",
-        "contrasts",
-        "restraint",
-        "failures",
-        "corrections",
-        "changed judgment",
-        "boundary conditions"
-      ]
+      "status": "TWO_LANES",
+      "phase_2a_live_judgment": {
+        "requires": "appropriate live-decision evidence",
+        "status": "UNDERWAY_ON_DRAFT_PR28",
+        "focus": [
+          "decision trajectories",
+          "contrasts",
+          "restraint",
+          "failures",
+          "corrections",
+          "changed judgment",
+          "boundary conditions"
+        ]
+      },
+      "phase_2b_creative_method": {
+        "uses": "design artifacts directly for design claims",
+        "does_not_prove": "live implementation",
+        "available_without_live_confirmation": [
+          "Earthfall",
+          "Bastion/Redoubt",
+          "At War's End"
+        ]
+      }
     },
     "stage_3": {
       "name": "MINIMAL_COGNITION_TESTS",
@@ -82,7 +95,7 @@
       "broader live-play coverage beyond S3/S4",
       "Season 5 live play",
       "Season 2 live play",
-      "Earthfall live evidence sufficient for cross-format Phase 2 confirmation",
+      "Earthfall live evidence sufficient for Phase 2A cross-format confirmation; this does not block Phase 2B design-method claims",
       "many source families lack bounded prep-to-live links"
     ],
     "archive": [
@@ -98,6 +111,8 @@
     "archive gap != evidence gap",
     "candidate != admitted source",
     "source research ready != longitudinal research ready",
+    "one trajectory edge != a complete longitudinal chain",
+    "missing live evidence != design artifacts unusable for design-method claims",
     "context source != BFDM precedent",
     "later version != automatically superseding",
     "open PR != canonical main"

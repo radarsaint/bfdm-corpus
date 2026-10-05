@@ -34,17 +34,12 @@ The project has deliberately moved away from jumping directly from "archive" to 
 **Current state:** substantially landed on `main`; bounded candidate/source-gap hardening remains.
 
 ### Stage 2 — Reconstruct expert judgment
-- decision trajectories;
-- contrasts;
-- failures;
-- restraint;
-- corrections;
-- changed judgment;
-- scope/boundary conditions.
 
-**Current state:** underway experimentally on draft PR #28.
+Two lanes:
 
-The priority is no longer to extract more generic "Brendon DM principles." The useful research unit is a contrastable decision trajectory: what happened, what intervention/restraint occurred, what changed, and which condition explains the difference.
+**Phase 2A — Live judgment.** Requires appropriate live-decision evidence. The useful unit is a contrastable decision trajectory: what happened, what intervention or restraint occurred, what changed, and which condition explains the difference. Underway on draft PR #28. The priority is not more generic "Brendon DM principles."
+
+**Phase 2B — Creative method / worldbuilding.** Design artifacts can be used directly for design claims. They do not prove live implementation. Earthfall, Bastion/Redoubt, and At War's End are eligible for this lane without a live-play record. Lack of live evidence is not a reason to treat those texts as not yet researchable.
 
 ### Stage 3 — Build and test minimal cognition
 - decision recognition/classification;

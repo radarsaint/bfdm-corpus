@@ -48,7 +48,7 @@ It preserves and makes researchable:
 
 Stage 1 source accessibility/integration is substantially landed on `main`: model-facing Discord retrieval works, the historical Drive/source-container integration from PR #25 is merged, and remaining Drive candidates are a classified backlog rather than an unreviewed blob.
 
-Stage 2 has begun experimentally on draft PR #28 (`research/phase2-decision-trajectories`): decision contrasts, restraint, failures, corrections, changed judgment, and boundary conditions. It is not complete.
+Stage 2 has two lanes. Phase 2A, live judgment, has begun experimentally on draft PR #28 (`research/phase2-decision-trajectories`) and needs live-decision evidence. Phase 2B, creative method and worldbuilding, can use design artifacts for design claims without treating them as proof the material was run. Neither lane is complete.
 
 Stage 3 precedent cards/runtime retrieval and Stage 4 cognitive architecture are intentionally later work. Do not skip ahead merely because the source substrate is now much stronger.
 
