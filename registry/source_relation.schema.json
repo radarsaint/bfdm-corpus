@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/radarsaint/bfdm-corpus/registry/source_relation.schema.json",
+  "title": "BFDM historical source relation",
+  "type": "object",
+  "required": ["schema_version","relation_id","from_source_id","relation","to","confidence","basis","support_refs"],
+  "properties": {
+    "schema_version": {"const":"bfdm_source_relation/v1"},
+    "relation_id": {"type":"string","pattern":"^source-rel-[0-9]{4,}$"},
+    "from_source_id": {"type":"string","pattern":"^BCS-[0-9]{6}$"},
+    "relation": {"type":"string","minLength":1},
+    "to": {"type":"object","required":["kind","id"],"properties":{
+      "kind":{"enum":["SOURCE","PROJECT","PRODUCTION_PHASE","DISCORD_MESSAGE","DISCORD_SERVER","SOURCE_FAMILY","EXTERNAL"]},
+      "id":{"type":"string","minLength":1},"label":{"type":["string","null"]}
+    },"additionalProperties":true},
+    "confidence":{"enum":["CONFIRMED","STRONG","TENTATIVE","UNRESOLVED"]},
+    "basis":{"type":"string","minLength":1},
+    "support_refs":{"type":"array","minItems":1,"items":{"type":"string","minLength":1}},
+    "scope":{"type":["string","null"]},
+    "notes":{"type":["string","null"]}
+  },
+  "additionalProperties":true
+}
