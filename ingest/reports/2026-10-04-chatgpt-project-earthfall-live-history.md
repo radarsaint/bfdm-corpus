@@ -58,3 +58,12 @@ Ingested:
 This batch preserves Floor 2 pirate/Skullport direction, art-retrieval threads, the explicit immediate post-session judgment that the Fryvern fight “ended in fizzle” because the players were overpowered, the Nassau/Dead Turtle transition, and achievement/loot/player-created-skill work.
 
 Conversation-source count now ingested: 11.
+
+## Batch 4
+
+Added:
+- older-history recovery fragment log for nine February–May discovered conversation clusters whose raw transcripts are not exposed;
+- Earthfall project-registry anchors for BCS-000131 through BCS-000141;
+- explicit registry coverage state for partial ChatGPT Project history and the 52 discovered Project-backed files.
+
+No new BCS IDs were minted for retrieval-summary-only fragments.
