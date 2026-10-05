@@ -72,5 +72,17 @@
     }
   ],
   "older_recovery_fragments": 9,
-  "registry_updated": true
+  "registry_updated": true,
+  "validation": {
+    "main_sha": "7e6b2dccf73efe70a01caf69ecd4a6e39e4c3f53",
+    "catalog_jsonl_parse": "PASS",
+    "duplicate_bcs_ids": [],
+    "highest_bcs": "BCS-000141",
+    "metadata_required_keys": "PASS_11_OF_11",
+    "locator_arrays": "PASS_11_OF_11",
+    "registry_jsonl_parse": "PASS",
+    "registry_chatgpt_history_anchors": 11,
+    "local_validate_ingest": "NOT_RUN_RUNTIME_COULD_NOT_RESOLVE_GITHUB",
+    "sqlite_updated": false
+  }
 }
