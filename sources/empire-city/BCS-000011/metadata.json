@@ -1,0 +1,164 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000011",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Post 7-19",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-broadsheet",
+  "original_filename": "Empire City Post 7-19.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-07-18T04:23:59.749Z",
+  "modified_at": "2021-07-19T03:56:50.395Z",
+  "ingested_at": "2026-10-03T18:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1NkWDZLWPKY1KbUyUUHbPMheXKT1qJXBjfNuRyCTMLFQ",
+      "url": "https://docs.google.com/document/d/1NkWDZLWPKY1KbUyUUHbPMheXKT1qJXBjfNuRyCTMLFQ/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_3f0c0263b08c8191b138a19413e6e317",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Post 7-19.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000011/original/source.docx",
+      "sha256": "8e02cf63610ab3c35bb70195cd20c3c5d9354f877f9897ec234a9ad6a278c51f",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 534603
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions.jsonl",
+      "sha256": "6b13dffa77839043a3861cf11777fa310b286466d3e097efb8fb81b0c186d31d",
+      "mime_type": "application/json",
+      "size_bytes": 3480
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions/1.md",
+      "sha256": "891157b9045faea4509f4bbeb723f12a199f51017e0cf305a53fcc4f2a3f739e",
+      "mime_type": "text/markdown",
+      "size_bytes": 2880
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions/343.md",
+      "sha256": "b5681612a4547cf4e0c1b8884fe1eedd817d1f7e0b80a5539ed0fa287f06d0cf",
+      "mime_type": "text/markdown",
+      "size_bytes": 3117
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions/502.md",
+      "sha256": "bb5493669d85c6b613260c020cf2b1428645f0bba0c1f0252dd93716bd2ec54d",
+      "mime_type": "text/markdown",
+      "size_bytes": 3258
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions/72.md",
+      "sha256": "dea674832021e7937b72de76219c6a55e49cbeb593bafe1040e9d74e2bc79ff5",
+      "mime_type": "text/markdown",
+      "size_bytes": 2715
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions/755.md",
+      "sha256": "0120dcf876b0f2319ae2d2f1ee25b50b53c8120386f0a7a2d66d3b860a9b64dd",
+      "mime_type": "text/markdown",
+      "size_bytes": 3385
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000011/revisions/832.md",
+      "sha256": "1af22812c1c48d576dfb9379aad45b552c90aed13bfb3acedbfc319be67d129a",
+      "mime_type": "text/markdown",
+      "size_bytes": 3395
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000011/source.md",
+      "sha256": "1af22812c1c48d576dfb9379aad45b552c90aed13bfb3acedbfc319be67d129a",
+      "mime_type": "text/markdown",
+      "size_bytes": 3395
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "PRESERVED",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The issue is dated July 19, 1776 and names Empire City. It uses boroughs and the Redcoats from the Season 4 orientation. The in-world date is not proof the issue was posted on that real-world day.",
+        "support_refs": [
+          "BCS-000011",
+          "BCS-000004"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The source is written as a priced city newspaper. Whether it was posted to players is not established.",
+        "support_refs": [
+          "BCS-000011"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000010",
+      "confidence": "STRONG",
+      "basis": "This is the Empire City broadsheet issue dated July 19, 1776. BCS-000010 is an earlier issue of the same broadsheet. A later issue is not treated as a revision or replacement of the earlier one.",
+      "support_refs": [
+        "BCS-000011",
+        "BCS-000010"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000011",
+    "canonical_corpus_id": "BCS-000011",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

@@ -80,7 +80,9 @@ def load_jsonl(path: Path) -> list[dict]:
 
 def metadata_records(repo: Path) -> dict[str, dict]:
     records = {}
-    for path in (repo / "sources").glob("**/metadata.json"):
+    paths = list((repo / "sources").glob("**/metadata.json"))
+    paths += list((repo / "context").glob("**/metadata.json"))
+    for path in paths:
         meta = json.loads(path.read_text(encoding="utf-8"))
         cid = meta.get("corpus_id")
         if isinstance(cid, str):
@@ -149,122 +151,220 @@ def validate(repo: Path) -> tuple[list[str], dict]:
     return errors, readiness(repo, records, catalog)
 
 
+LIVE_TRAJECTORY = {
+    "IMPLEMENTED_IN",
+    "ALTERED_IN",
+    "ABANDONED_IN",
+    "OUTCOME_DOCUMENTED_IN",
+}
+REVISION_TRAJECTORY = {"REVISES", "SUPERSEDES", "PREDECESSOR_OF", "SUCCESSOR_OF"}
+
+
+def _is_context(meta: dict) -> bool:
+    return meta.get("source_role") == "CONTEXT_ONLY_THIRD_PARTY" or meta.get("seed_eligibility") == "CONTEXT_ONLY"
+
+
+def _questions(meta: dict) -> set[str]:
+    return {
+        item.get("question")
+        for item in (meta.get("historical_context") or {}).get("not_established") or []
+        if item.get("question")
+    }
+
+
+def _body_readable(repo: Path, cid: str, meta: dict) -> bool:
+    reps = meta.get("representations") or []
+    listed = any(str(rep.get("path", "")).endswith((".md", ".txt")) for rep in reps)
+    on_disk = any((repo / "sources").glob(f"**/{cid}/**/*.md")) or any(
+        (repo / "sources").glob(f"**/{cid}/*.md")
+    )
+    on_disk = on_disk or any((repo / "context").glob(f"**/{cid}/**/*.md"))
+    return listed or on_disk
+
+
+def classify_family(
+    members: list[str],
+    metas: list[dict],
+    link_rows: list[dict],
+    readable: list[bool],
+    live_answered: bool,
+) -> dict:
+    """Split source orientation from longitudinal trajectory.
+
+    A live-use gap is source orientation. It is not a trajectory.
+    Publication is not live contact. Companion links are not revision.
+    """
+    placed = []
+    unresolved_project = []
+    for meta in metas:
+        links = (meta.get("historical_context") or {}).get("project_links") or []
+        questions = _questions(meta)
+        placed.append(any(link.get("relation") == "BELONGS_TO_PROJECT" for link in links))
+        unresolved_project.append("exact_project" in questions)
+    kinds = {row.get("link_type") for row in link_rows}
+    live_links = sorted(kinds & LIVE_TRAJECTORY)
+    revision_links = sorted(kinds & REVISION_TRAJECTORY)
+    context_only = all(_is_context(meta) for meta in metas)
+    project_answered = all(
+        ok or gap or _is_context(meta)
+        for ok, gap, meta in zip(placed, unresolved_project, metas)
+    )
+    stage_answered = all(
+        bool((meta.get("historical_context") or {}).get("production_stages"))
+        or "production_stage" in _questions(meta)
+        or _is_context(meta)
+        for meta in metas
+    )
+    source_ready = all(readable) and project_answered and stage_answered and live_answered and not context_only
+    if context_only:
+        longitudinal = "NOT_PRECEDENT"
+        trajectory = "context_only"
+    elif live_links and revision_links:
+        longitudinal = "LONGITUDINAL_RESEARCH_READY"
+        trajectory = "live_contact_and_revision"
+    elif live_links:
+        longitudinal = "LONGITUDINAL_RESEARCH_READY"
+        trajectory = "live_contact"
+    elif revision_links:
+        longitudinal = "LONGITUDINAL_RESEARCH_READY"
+        trajectory = "revision"
+    elif source_ready:
+        longitudinal = "LONGITUDINAL_RESEARCH_GAP"
+        trajectory = "none"
+    else:
+        longitudinal = "NOT_SOURCE_READY"
+        trajectory = "none"
+    if context_only:
+        status = "CONTEXT_ONLY"
+    elif not all(readable) or not project_answered:
+        status = "GAP_REMAINS"
+    elif source_ready and longitudinal == "LONGITUDINAL_RESEARCH_READY":
+        status = "SOURCE_RESEARCH_READY"
+    elif source_ready:
+        status = "SOURCE_RESEARCH_READY"
+    else:
+        status = "PLACED" if any(placed) else "GAP_REMAINS"
+    return {
+        "status": status,
+        "source_research_ready": source_ready,
+        "longitudinal_status": longitudinal,
+        "trajectory": trajectory,
+        "members": members,
+        "readable_body": all(readable),
+        "exact_project_members": [cid for cid, ok in zip(members, placed) if ok],
+        "unresolved_project_members": [cid for cid, gap in zip(members, unresolved_project) if gap],
+        "live_question_answered": live_answered,
+        "live_link_types": live_links,
+        "revision_link_types": revision_links,
+        "context_only": context_only,
+    }
+
+
 def readiness(repo: Path, records: dict[str, dict], catalog: dict[str, dict]) -> dict:
     families: dict[str, list[str]] = {}
     for cid, meta in records.items():
         family = meta.get("document_family_id")
         if family:
             families.setdefault(family, []).append(cid)
+    incoming: dict[str, list[dict]] = {}
+    for cid, meta in records.items():
+        for link in meta.get("source_links") or []:
+            target = link.get("to_corpus_id")
+            if target:
+                incoming.setdefault(target, []).append(link)
     family_reports = []
     for family, members in sorted(families.items()):
-        metas = [records[cid] for cid in sorted(members)]
-        readable = []
-        for cid, meta in zip(sorted(members), metas):
-            reps = meta.get("representations") or []
-            listed = any(
-                str(rep.get("path", "")).endswith((".md", ".txt")) for rep in reps
-            )
-            on_disk = any((repo / "sources").glob(f"**/{cid}/**/*.md")) or any(
-                (repo / "sources").glob(f"**/{cid}/*.md")
-            )
-            readable.append(listed or on_disk)
-        placed = []
-        unresolved_project = []
-        for meta in metas:
-            links = (meta.get("historical_context") or {}).get("project_links") or []
-            notes = (meta.get("historical_context") or {}).get("not_established") or []
-            placed.append(any(link.get("relation") == "BELONGS_TO_PROJECT" for link in links))
-            unresolved_project.append(
-                any(item.get("question") == "exact_project" for item in notes)
-            )
-        internal_links = 0
+        ordered = sorted(members)
+        metas = [records[cid] for cid in ordered]
+        readable = [_body_readable(repo, cid, meta) for cid, meta in zip(ordered, metas)]
+        member_set = set(ordered)
+        link_rows = []
+        internal = 0
         cross = 0
-        member_set = set(members)
         for meta in metas:
             for link in meta.get("source_links") or []:
-                if link.get("to_corpus_id") in member_set or link.get("to_corpus_id") in records:
-                    if link.get("link_type") in CROSS_MEDIUM or str(
-                        link.get("external_locator") or ""
-                    ).startswith("discord:"):
+                target = link.get("to_corpus_id")
+                external = str(link.get("external_locator") or "")
+                if target in records or target in member_set:
+                    link_rows.append(link)
+                    if link.get("link_type") in CROSS_MEDIUM or external.startswith("discord:"):
                         cross += 1
                     else:
-                        internal_links += 1
-                elif link.get("link_type") in CROSS_MEDIUM or str(
-                    link.get("external_locator") or ""
-                ).startswith("discord:"):
+                        internal += 1
+                elif link.get("link_type") in CROSS_MEDIUM or external.startswith("discord:"):
+                    link_rows.append(link)
                     cross += 1
-                elif str(link.get("external_locator") or "").startswith("sources/"):
-                    internal_links += 1
+                elif external.startswith("sources/"):
+                    internal += 1
         for other_id, other in records.items():
             if other_id in member_set:
                 continue
             for link in other.get("source_links") or []:
-                if link.get("to_corpus_id") not in member_set:
-                    continue
-                if link.get("link_type") in CROSS_MEDIUM:
-                    cross += 1
-                else:
-                    internal_links += 1
-        all_readable = all(readable)
-        any_placed = any(placed)
-        project_question_answered = all(
-            ok or gap for ok, gap in zip(placed, unresolved_project)
-        )
-        live_answered = all(
-            any(link.get("link_type") in CROSS_MEDIUM for link in (meta.get("source_links") or []))
-            or any(
-                item.get("question") == "live_use"
-                for item in (meta.get("historical_context") or {}).get("not_established") or []
+                if link.get("to_corpus_id") in member_set:
+                    link_rows.append(link)
+                    if link.get("link_type") in CROSS_MEDIUM:
+                        cross += 1
+                    else:
+                        internal += 1
+        def member_live(cid: str, meta: dict) -> bool:
+            own = any(
+                link.get("link_type") in LIVE_TRAJECTORY
+                for link in (meta.get("source_links") or [])
             )
-            for meta in metas
-        )
-        if not all_readable:
-            status = "GAP_REMAINS"
-        elif cross:
-            status = "CROSS_MEDIUM_LINKED"
-        elif len(members) > 1 or internal_links:
-            status = "FAMILY_LINKED"
-        elif any_placed:
-            status = "PLACED"
-        else:
-            status = "GAP_REMAINS"
-        connected = internal_links > 0 or cross > 0 or len(members) > 1
-        research_ready = (
-            all_readable
-            and project_question_answered
-            and connected
-            and live_answered
-            and status != "GAP_REMAINS"
-        )
-        if research_ready:
-            status = "RESEARCH_READY"
-        family_reports.append(
-            {
-                "document_family_id": family,
-                "status": status,
-                "members": sorted(members),
-                "readable_body": all_readable,
-                "exact_project_members": [
-                    cid for cid, ok in zip(sorted(members), placed) if ok
-                ],
-                "unresolved_project_members": [
-                    cid for cid, gap in zip(sorted(members), unresolved_project) if gap
-                ],
-                "internal_or_version_links": internal_links,
-                "cross_medium_links": cross,
-                "live_question_answered": live_answered,
-            }
-        )
+            cited = any(
+                link.get("link_type") in LIVE_TRAJECTORY for link in incoming.get(cid, [])
+            )
+            return own or cited or "live_use" in _questions(meta) or _is_context(meta)
 
-    archived_only = sorted(
-        cid for cid in catalog if cid not in records
-    )
+        live_answered = all(member_live(cid, meta) for cid, meta in zip(ordered, metas))
+        report = classify_family(ordered, metas, link_rows, readable, live_answered)
+        report["document_family_id"] = family
+        report["internal_or_version_links"] = internal
+        report["cross_medium_links"] = cross
+        family_reports.append(report)
+
+    archived_only = sorted(cid for cid in catalog if cid not in records)
+    evidence_gaps = []
+    archive_gaps = []
+    for cid, meta in sorted(records.items()):
+        for item in (meta.get("historical_context") or {}).get("not_established") or []:
+            question = item.get("question")
+            row = {
+                "corpus_id": cid,
+                "question": question,
+                "status": item.get("status"),
+                "basis": item.get("basis"),
+                "document_family_id": meta.get("document_family_id"),
+            }
+            if question == "referenced_source_absent" or item.get("status") == "ARCHIVE_GAP":
+                archive_gaps.append(row)
+            elif question in {
+                "exact_project",
+                "exact_week",
+                "live_use",
+                "week_5_date_alignment",
+                "rule_by_rule_live_identity",
+                "brendon_authorship",
+                "production_stage",
+            }:
+                evidence_gaps.append(row)
     return {
         "families": family_reports,
         "archived_only_catalog_ids": archived_only,
+        "evidence_gaps": evidence_gaps,
+        "archive_gaps": archive_gaps,
         "container_count": len(records),
         "catalog_count": len(catalog),
     }
+
+
+def _family_line(row: dict) -> str:
+    longitudinal = row["longitudinal_status"]
+    source = "yes" if row["source_research_ready"] else "no"
+    return (
+        f"| `{row['document_family_id']}` | {row['status']} | {source} | {longitudinal} | "
+        f"{row['trajectory']} | {len(row['members'])} |"
+    )
 
 
 def render_markdown(report: dict) -> str:
@@ -273,28 +373,86 @@ def render_markdown(report: dict) -> str:
         "",
         "This report is derived from source `metadata.json` files. It does not add relationships that are not stored there.",
         "",
-        "A status of `RESEARCH_READY` means a fresh reader can answer project, stage or explicit stage-gap, family, and live-use-or-not-established from the metadata. It does not mean the historical research has been done.",
+        "`SOURCE_RESEARCH_READY` means a reader can tell what the source is, where it is placed or that placement is explicitly unknown, what production stage it is or that the stage is explicitly unknown, and whether live use has been tied to a message or channel. It does not mean the research has been done.",
         "",
-        "## Families with containers",
+        "`LONGITUDINAL_RESEARCH_READY` means the family has a recorded trajectory: a revision link (`REVISES`, `SUPERSEDES`, `PREDECESSOR_OF`, `SUCCESSOR_OF`) or a live-contact link (`IMPLEMENTED_IN`, `ALTERED_IN`, `ABANDONED_IN`, `OUTCOME_DOCUMENTED_IN`). Companion links, publication links, and an explicit live-use gap are not a trajectory.",
         "",
-        "| Family | Status | Members | Readable body | Cross-medium links |",
-        "| --- | --- | --- | --- | --- |",
+        "An explicit live-use gap is an evidence gap. It does not make a family longitudinally complete.",
+        "",
+        "Archive gap means a known artifact is still missing from the repository. Evidence gap means the sources that are present do not establish the fact. Those are not the same.",
+        "",
+        "## Decision-trajectory families",
+        "",
+        "These are the families a researcher can follow from preparation into revision or into recorded live contact. Revision is not play. Live contact is only as wide as the cited link.",
+        "",
+        "| Family | Trajectory | Members |",
+        "| --- | --- | --- |",
     ]
-    for row in report["families"]:
+    ready = [
+        row
+        for row in report["families"]
+        if row["longitudinal_status"] == "LONGITUDINAL_RESEARCH_READY"
+    ]
+    if not ready:
+        lines.append("| none | | |")
+    for row in ready:
         lines.append(
-            "| `{family}` | {status} | {n} | {body} | {cross} |".format(
-                family=row["document_family_id"],
-                status=row["status"],
-                n=len(row["members"]),
-                body="yes" if row["readable_body"] else "no",
-                cross=row["cross_medium_links"],
-            )
+            f"| `{row['document_family_id']}` | {row['trajectory']} | "
+            + ", ".join(f"`{cid}`" for cid in row["members"])
+            + " |"
         )
+    lines.extend(
+        [
+            "",
+            "## Source orientation only",
+            "",
+            "Readable and placed, or explicitly unplaced, but not a revision or live-contact trajectory.",
+            "",
+            "| Family | Longitudinal | Members |",
+            "| --- | --- | --- |",
+        ]
+    )
+    orientation = [
+        row
+        for row in report["families"]
+        if row["source_research_ready"] and row["longitudinal_status"] == "LONGITUDINAL_RESEARCH_GAP"
+    ]
+    for row in orientation:
+        lines.append(
+            f"| `{row['document_family_id']}` | LONGITUDINAL_RESEARCH_GAP | "
+            + ", ".join(f"`{cid}`" for cid in row["members"])
+            + " |"
+        )
+    lines.extend(["", "## Context, not precedent", ""])
+    contexts = [row for row in report["families"] if row["context_only"]]
+    if not contexts:
+        lines.append("None.")
+    for row in contexts:
+        lines.append(
+            f"`{row['document_family_id']}`: "
+            + ", ".join(f"`{cid}`" for cid in row["members"])
+            + ". Third-party context. Not BFDM precedent."
+        )
+        lines.append("")
+    lines.extend(
+        [
+            "## Families",
+            "",
+            "| Family | Status | Source ready | Longitudinal | Trajectory | Members |",
+            "| --- | --- | --- | --- | --- | --- |",
+        ]
+    )
+    for row in report["families"]:
+        lines.append(_family_line(row))
     lines.extend(["", "## Family detail", ""])
     for row in report["families"]:
-        lines.append(f"### `{row['document_family_id']}` — {row['status']}")
+        lines.append(
+            f"### `{row['document_family_id']}` — {row['status']} / {row['longitudinal_status']}"
+        )
         lines.append("")
         lines.append("Members: " + ", ".join(f"`{cid}`" for cid in row["members"]))
+        lines.append("")
+        lines.append(f"Trajectory: `{row['trajectory']}`.")
         lines.append("")
         if row["unresolved_project_members"]:
             lines.append(
@@ -302,23 +460,62 @@ def render_markdown(report: dict) -> str:
                 + ", ".join(f"`{cid}`" for cid in row["unresolved_project_members"])
             )
             lines.append("")
-        if not row["live_question_answered"]:
+        if row["trajectory"] == "revision":
+            lines.append("This trajectory is revision history, not live play.")
+            lines.append("")
+        if row["trajectory"] == "live_contact":
+            lines.append(
+                "Live contact is only the recorded "
+                + ", ".join(row["live_link_types"])
+                + " link. It is not a claim that every rule in the family was used."
+            )
+            lines.append("")
+        if not row["live_question_answered"] and not row["context_only"]:
             lines.append("Live-use question is not yet explicit on every member.")
             lines.append("")
     lines.extend(
         [
-            "## Catalog records with no source container",
+            "## Evidence gaps",
             "",
-            f"{len(report['archived_only_catalog_ids'])} catalog records have no `metadata.json` container on this branch. They remain `ARCHIVED_ONLY`.",
+            "The source is present. The fact is not established. Do not fill these in by inference.",
             "",
-            "Highest-value groups still in that state:",
+        ]
+    )
+    if not report["evidence_gaps"]:
+        lines.append("None recorded.")
+        lines.append("")
+    for row in report["evidence_gaps"]:
+        lines.append(
+            f"- `{row['corpus_id']}` `{row['question']}` ({row['status']}): {row['basis']}"
+        )
+    lines.extend(
+        [
             "",
-            "- Empire City session posts and signup, `BCS-000004` through `BCS-000016`, are catalog records only. Season 4 directory, backlog, crafting, airship module, and the player-facing setting text are containerized; the dated post series is not.",
-            "- Roanoke week cast lists, passdowns, and set lists from the older staging range are still catalog-only, except the master timeline, changelog, rough draft, 2.0 manuscript, and complete day manuscript ported in this pass.",
-            "- `BCS-000059` Exploration Impossible remains a catalog/context record without its donor container.",
-            "- Season 5 Google Site sources `BCS-000087` through `BCS-000112` are publication captures. This pass does not treat them as Drive draft families except the already-landed Way of Gun Fu publication link.",
+            "## Archive gaps",
             "",
-            "Container count includes Season 5 site metadata as well as Drive containers.",
+            f"{len(report['archived_only_catalog_ids'])} catalog records have no `metadata.json` container. They remain `ARCHIVED_ONLY`.",
+            "",
+        ]
+    )
+    if report["archived_only_catalog_ids"]:
+        lines.append(
+            "Catalog-only ids: "
+            + ", ".join(f"`{cid}`" for cid in report["archived_only_catalog_ids"])
+            + "."
+        )
+        lines.append("")
+    if report["archive_gaps"]:
+        lines.append("Containers that cite a source the repository does not hold:")
+        lines.append("")
+        for row in report["archive_gaps"]:
+            lines.append(f"- `{row['corpus_id']}`: {row['basis']}")
+        lines.append("")
+    lines.extend(
+        [
+            "Season 5 Google Site sources that are publication captures are not Drive draft families. "
+            "Season 5 is not longitudinally ready for prep-to-play judgment. Its live and dev-Discord bridge is an archive gap, not a hidden fact inside the Drive PDFs.",
+            "",
+            "Container count includes context containers and Season 5 site metadata as well as Drive containers.",
             "",
         ]
     )

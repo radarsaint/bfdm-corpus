@@ -1,0 +1,171 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000005",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Post 7-10",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-broadsheet",
+  "original_filename": "Empire City Post 7-10.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-12-23T21:28:35.826Z",
+  "modified_at": "2021-07-10T11:00:50.864Z",
+  "ingested_at": "2026-10-03T18:35:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1AX7lJwU9zJjAfEYxpVjspzxlyN0elm7D_0NQFn-FaZI",
+      "url": "https://docs.google.com/document/d/1AX7lJwU9zJjAfEYxpVjspzxlyN0elm7D_0NQFn-FaZI/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_61e1b4b428588191ba296e6deac4c57e",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Post 7-10.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000005/original/source.docx",
+      "sha256": "7faa2a5824fa59735c13a74e412bc3f3a01df0cb93a80bf935bd56f800ffbc21",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 534837
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions.jsonl",
+      "sha256": "e480ade87046475ead4203045671944143939ccb2bf205e1474f9e87895c6ba2",
+      "mime_type": "application/json",
+      "size_bytes": 4063
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/1.md",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "mime_type": "text/markdown",
+      "size_bytes": 3
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/156.md",
+      "sha256": "9865de5b49bbd5471e4c612d22d48a38b66af177282b55bff7200849fbb2ff8c",
+      "mime_type": "text/markdown",
+      "size_bytes": 3631
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/237.md",
+      "sha256": "a1b67e73476c65336e00d2b5db5aa35a949455dee3951b3b3904d27155985ec6",
+      "mime_type": "text/markdown",
+      "size_bytes": 3851
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/24.md",
+      "sha256": "4f3a38bfcf93e1d65588ba589e910756f8e24c6bbb16c7db86b9ae305ae5137c",
+      "mime_type": "text/markdown",
+      "size_bytes": 3439
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/3124.md",
+      "sha256": "75a40d8f429d7901e9ba370f237ec90a7f876be48f3cbd94abda853f13780d1f",
+      "mime_type": "text/markdown",
+      "size_bytes": 3534
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/857.md",
+      "sha256": "f2531977ed8912984b81de8a69129490e6e158290444ee959ba4f2c4424e4e7c",
+      "mime_type": "text/markdown",
+      "size_bytes": 4180
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000005/revisions/876.md",
+      "sha256": "0d80a9fb3d0668d96b94f492efd2954ba71672a47480dee81087a59171548c14",
+      "mime_type": "text/markdown",
+      "size_bytes": 4195
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000005/source.md",
+      "sha256": "75a40d8f429d7901e9ba370f237ec90a7f876be48f3cbd94abda853f13780d1f",
+      "mime_type": "text/markdown",
+      "size_bytes": 3534
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "PRESERVED",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The issue is dated July 10, 1776 and names Empire City. It uses boroughs and the Redcoats from the Season 4 orientation. The in-world date is not proof the issue was posted on that real-world day.",
+        "support_refs": [
+          "BCS-000005",
+          "BCS-000004"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The source is written as a priced city newspaper. Whether it was posted to players is not established.",
+        "support_refs": [
+          "BCS-000005"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000004",
+      "confidence": "STRONG",
+      "basis": "The July 10 issue uses Empire City, Ferrytown, Hampstead, and the Redcoats. The Season 4 orientation script introduces those same places. The newspaper is not evidence that the orientation was delivered.",
+      "support_refs": [
+        "BCS-000005",
+        "BCS-000004"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000005",
+    "canonical_corpus_id": "BCS-000005",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

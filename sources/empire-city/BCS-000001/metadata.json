@@ -85,13 +85,26 @@
     ],
     "not_established": [
       {
-        "question": "live_use",
+        "question": "rule_by_rule_live_identity",
         "status": "NOT_ESTABLISHED",
-        "basis": "The procedure says to post in #essence-crafting. This pass did not bind that channel name to a Discord channel id or a message."
+        "basis": "The approval channel is identified and the posting procedure was used there. Harvesting checks, conversion in #advanced-crafting, and airship-upgrade rules are not established by the messages cited on the channel link."
       }
     ]
   },
-  "source_links": [],
+  "source_links": [
+    {
+      "link_type": "IMPLEMENTED_IN",
+      "target_kind": "DISCORD_CHANNEL",
+      "external_locator": "discord://850779382791536640/channel/852796889194954762",
+      "confidence": "STRONG",
+      "basis": "Empire City #essence-crafting is channel 852796889194954762. No other harvested server has a channel by that name. Message 862921268666957844 restates this document's post format, Sane Magical Prices cost, quality-matched double value, and DM approval before use. Later posts use that format and some are marked approved. This is the approval step, not proof that harvesting, conversion, or airship upgrades were used as written.",
+      "support_refs": [
+        "discord:850779382791536640:862921268666957844",
+        "discord:850779382791536640:862924750561083412",
+        "discord:850779382791536640:865374650828849214"
+      ]
+    }
+  ],
   "reconciliation": {
     "donor_branch": "ingest/drive-project-v3",
     "donor_corpus_id": "BCS-000001",

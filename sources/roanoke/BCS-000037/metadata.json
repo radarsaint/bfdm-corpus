@@ -1,0 +1,179 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000037",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke s3w4 Break down.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke s3w4 Break down.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1hGA7_6N3PJZ5RTu-Kvmqy5hJ2PoS55OMVfdD4kFPw7U",
+      "url": "https://docs.google.com/document/d/1hGA7_6N3PJZ5RTu-Kvmqy5hJ2PoS55OMVfdD4kFPw7U/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 4 breakdown",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000037/assets/media/image1.jpg",
+      "sha256": "7d8b3d4c2486b10f918fdcda6365c09c541274672b35798c423a98666f118095",
+      "mime_type": "image/jpeg",
+      "size_bytes": 87049
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000037/assets/media/image2.jpg",
+      "sha256": "00172c1f9c1f4604322ed586e951cb43aa4dd2b48bcc94266901e50ec4809055",
+      "mime_type": "image/jpeg",
+      "size_bytes": 62600
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000037/assets/media/image3.jpg",
+      "sha256": "6c913c4e9b9b9b3b444fc4236dbdd19b65ed0a3b89414e70b18ab8bbf2a6c005",
+      "mime_type": "image/jpeg",
+      "size_bytes": 74584
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000037/assets/media/image4.png",
+      "sha256": "8e504c89b214f9ace99b6cb610cc863b8f636e6de6edfe5bb1dce1ccf6084a4f",
+      "mime_type": "image/png",
+      "size_bytes": 147839
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000037/brendon-comments.native.json",
+      "sha256": "ce82de1f4510dc561b29bd3645d61983a8a3ba71af9aa534ba4aeca3ccadd22d",
+      "mime_type": "application/json",
+      "size_bytes": 471
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000037/comments.json",
+      "sha256": "cae5e3364abbdaca6367a4f486c36ad20ed31a2ae9e373c1964ec16ab7969200",
+      "mime_type": "application/json",
+      "size_bytes": 686
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000037/original/source.docx",
+      "sha256": "c57823b3abcb26e1434404d7e10da773cdcfd9bd61d260413e815ea27acd1078",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 698325
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000037/source.md",
+      "sha256": "f094eea0bcc88710127093ae8519cb08496364a4de1bcbd2f2ce096c43b67e1e",
+      "mime_type": "text/markdown",
+      "size_bytes": 15195
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 4 breakdown). The source is the week 4 breakdown, with Saturday 08/08/2020, and it cites the week 4 set list.",
+        "support_refs": [
+          "BCS-000037"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the week 4 breakdown, with Saturday 08/08/2020, and it cites the week 4 set list.",
+        "support_refs": [
+          "BCS-000037"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      },
+      {
+        "question": "referenced_source_absent",
+        "status": "ARCHIVE_GAP",
+        "basis": "The week 4 breakdown names a week four cast list without a corpus container, and links a Tatankan escape room at drive:1HeeyOpTO5OFuM0tPT5l-K3Dq4osnyUEa-PEJBbEabsc, which is not a cataloged corpus source."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000025",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000037",
+        "BCS-000025",
+        "drive:1ETlCbf8n1XrV8yvfi1P-qvcfOpuhIduZ3-nkADZrRHw"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000019",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000037",
+        "BCS-000019",
+        "drive:1U0-iIRVyrVINJnnhLD3Bqq9zJKDe4eH3DVjk8X6VLRk"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000039",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000037",
+        "BCS-000039",
+        "drive:1eQWOCR3q5uGwGoVanVmTt-fORHUVAbenMMKRfajw3LQ"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000037",
+    "canonical_corpus_id": "BCS-000037",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

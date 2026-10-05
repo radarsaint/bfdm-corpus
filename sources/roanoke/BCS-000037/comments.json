@@ -1,0 +1,29 @@
+{
+  "file": "/mnt/data/brendon-corpus-raw/roanoke/Roanoke s3w4 Break down.docx",
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Brendon Faulkner",
+      "date": "2020-05-14T10:25:11Z",
+      "initials": null,
+      "resolved": false,
+      "text": "I need the Hag coven to tell the party that Oleander knows where Hiram is hiding.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Hag Coven"
+            },
+            {
+              "where": "end",
+              "text": "Hag Coven"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

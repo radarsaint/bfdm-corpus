@@ -1,0 +1,139 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000033",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S3W3 Cast.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S3W3 Cast.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "17x1-Tn87syP78pyiRtY-mhfzKOqhkci7cuQ3GDJglZQ",
+      "url": "https://docs.google.com/document/d/17x1-Tn87syP78pyiRtY-mhfzKOqhkci7cuQ3GDJglZQ/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 3 cast",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000033/comments.json",
+      "sha256": "7f5a34a3b1969b7e8cc14ea1dd8c8ff297106820986eac296dc919a21538fa70",
+      "mime_type": "application/json",
+      "size_bytes": 115
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000033/original/source.docx",
+      "sha256": "4091962c8571544026abd472798762df691aef248d84b2cbbf632440ed03b485",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8118
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000033/source.md",
+      "sha256": "fcd2a1ffe4752622a172586fb05a69e8acd6fcfb54f26496dd1bacc3adb0611b",
+      "mime_type": "text/markdown",
+      "size_bytes": 2285
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 3 cast). The source lists NPCs new for the week and points back to the week 2 cast.",
+        "support_refs": [
+          "BCS-000033"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source lists NPCs new for the week and points back to the week 2 cast.",
+        "support_refs": [
+          "BCS-000033"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000023",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000033",
+        "BCS-000023",
+        "drive:16Tj1IpASTLJcXRRsdVY0IZ3d5T_YQbj0Ssyw6hRUehs"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000051",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000033",
+        "BCS-000051",
+        "drive:1Zy1rM5aWEzFMdBWE81FmbB76EAAYVf3IgQ2mGYbhpH8"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000086",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000033",
+        "BCS-000086",
+        "drive:1oLsfcQKG8MDA6pKsPbiSEoXP5qm_raAt58xY1Ytj3Ns"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000033",
+    "canonical_corpus_id": "BCS-000033",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}
