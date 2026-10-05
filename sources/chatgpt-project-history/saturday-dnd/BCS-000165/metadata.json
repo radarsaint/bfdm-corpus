@@ -13,9 +13,15 @@
   "created_timestamp": null,
   "modified_timestamp": null,
   "ingest_date": "2026-10-05",
-  "normalized_sha256": "ae167f7ab140469483a2a2d3d9b7ede036c0ef73806676bbac9ed58b28ee85d4",
-  "locators": {
-    "chatgpt_project": {
+  "normalized_sha256": "1d261d755aa828f396f0623c4a973033701ff1eb7adc22446ec1575dcfaf49b7",
+  "locators": [
+    {
+      "provider": "chatgpt_project",
+      "locator_type": "project_conversation_partial_recovery",
+      "project_name": "Saturday D&D",
+      "native_id": null,
+      "url": null,
+      "completeness": "PROJECT_HISTORY_RECOVERY_PARTIAL",
       "project": "Saturday D&D",
       "project_context_slug": "satruday dnd",
       "conversation_window_utc": "2026-05-14",
@@ -23,7 +29,7 @@
       "exact_conversation_titles_available": false,
       "access_mode": "PROJECT_HISTORY_RECOVERY_PARTIAL"
     }
-  },
+  ],
   "authorship": "UNKNOWN",
   "authorship_basis": "Mixed-speaker ChatGPT Project history recovery. Exact user/assistant roles are preserved where exposed; assistant output is not user authorship.",
   "normalization_method": "Verbatim wording is preserved only where the recovery surface exposed it exactly. Search-recovered summaries are segregated and labeled NOT verbatim transcript.",
@@ -36,5 +42,44 @@
   "current_source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000165/source.md",
   "original_representation_kind": "NO_NATIVE_EXPORT_AVAILABLE",
   "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
-  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH"
+  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "schema_version": "bfdm_source_metadata/v1",
+  "ingested_at": "2026-10-05T00:00:00Z",
+  "capture_status": {
+    "current_body": "PARTIAL_CAPTURE",
+    "comments": "NOT_APPLICABLE",
+    "revision_metadata": "NOT_APPLICABLE",
+    "revision_bodies": "NOT_APPLICABLE",
+    "assets": "NOT_CAPTURED",
+    "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL"
+  },
+  "normalization": {
+    "method": "Verbatim wording is preserved only where the recovery surface exposed it exactly. Search-recovered summaries are segregated and labeled NOT verbatim transcript.",
+    "tool": "ChatGPT Project history recovery",
+    "warnings": [
+      "Not a complete project export.",
+      "Conversation title and native ChatGPT message IDs unavailable.",
+      "Unavailable message bodies are not reconstructed.",
+      "Assistant-generated proposals do not establish user authorship, acceptance, selection, delivery, or implementation."
+    ]
+  },
+  "representations": [
+    {
+      "kind": "normalized_markdown",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000165/source.md",
+      "sha256": "1d261d755aa828f396f0623c4a973033701ff1eb7adc22446ec1575dcfaf49b7"
+    }
+  ],
+  "source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000165/source.md",
+  "historical_context": {
+    "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+    "generated_material_status": "DELIVERY_UNKNOWN unless explicitly stated in source text",
+    "note": "Contract fields were aligned during reconciliation. Partial recovery was not upgraded."
+  },
+  "reconciliation": {
+    "donor_pr": 34,
+    "body_change": "BCS id renumber only",
+    "donor_normalized_sha256": "ae167f7ab140469483a2a2d3d9b7ede036c0ef73806676bbac9ed58b28ee85d4",
+    "final_normalized_sha256": "1d261d755aa828f396f0623c4a973033701ff1eb7adc22446ec1575dcfaf49b7"
+  }
 }

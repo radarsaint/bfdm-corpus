@@ -13,9 +13,15 @@
   "created_timestamp": null,
   "modified_timestamp": null,
   "ingest_date": "2026-10-05",
-  "normalized_sha256": "faf90ddf307773718639b454ba229594838330b669e0654f23740d7a00fff54c",
-  "locators": {
-    "chatgpt_project": {
+  "normalized_sha256": "2a7fae866a5bedefc2323d35e21002b7fbf596c2303f14f2543edd22667445b6",
+  "locators": [
+    {
+      "provider": "chatgpt_project",
+      "locator_type": "project_conversation_partial_recovery",
+      "project_name": "Saturday D&D",
+      "native_id": null,
+      "url": null,
+      "completeness": "PROJECT_HISTORY_RECOVERY_PARTIAL",
       "project": "Saturday D&D",
       "project_context_slug": "satruday dnd",
       "conversation_window_utc": "2026-07-11",
@@ -23,7 +29,7 @@
       "exact_conversation_titles_available": false,
       "access_mode": "PROJECT_HISTORY_RECOVERY_PARTIAL"
     }
-  },
+  ],
   "related_project_assets": [
     {
       "file_id": "file_00000000829c71f89b8dce60e3e86fbd",
@@ -51,5 +57,45 @@
   "current_source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000171/source.md",
   "original_representation_kind": "NO_NATIVE_CONVERSATION_EXPORT_AVAILABLE",
   "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
-  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH"
+  "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+  "schema_version": "bfdm_source_metadata/v1",
+  "ingested_at": "2026-10-05T00:00:00Z",
+  "capture_status": {
+    "current_body": "PARTIAL_CAPTURE",
+    "comments": "NOT_APPLICABLE",
+    "revision_metadata": "NOT_APPLICABLE",
+    "revision_bodies": "NOT_APPLICABLE",
+    "assets": "NOT_CAPTURED",
+    "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL"
+  },
+  "normalization": {
+    "method": "Exact wording and artifact text are preserved only where exposed. Search-recovered context is segregated and labeled nonverbatim.",
+    "tool": "ChatGPT Project history recovery",
+    "warnings": [
+      "Not a complete project export.",
+      "Conversation title and native ChatGPT message IDs unavailable.",
+      "Unavailable message bodies are not reconstructed.",
+      "Artifact presence does not establish table delivery.",
+      "Assistant-generated proposals do not establish user authorship, acceptance, selection, delivery, or implementation."
+    ]
+  },
+  "representations": [
+    {
+      "kind": "normalized_markdown",
+      "path": "sources/chatgpt-project-history/saturday-dnd/BCS-000171/source.md",
+      "sha256": "2a7fae866a5bedefc2323d35e21002b7fbf596c2303f14f2543edd22667445b6"
+    }
+  ],
+  "source_body_path": "sources/chatgpt-project-history/saturday-dnd/BCS-000171/source.md",
+  "historical_context": {
+    "evidence_family": "CONTEMPORANEOUS_DM_WORKBENCH",
+    "generated_material_status": "DELIVERY_UNKNOWN unless explicitly stated in source text",
+    "note": "Contract fields were aligned during reconciliation. Partial recovery was not upgraded."
+  },
+  "reconciliation": {
+    "donor_pr": 34,
+    "body_change": "BCS id renumber only",
+    "donor_normalized_sha256": "faf90ddf307773718639b454ba229594838330b669e0654f23740d7a00fff54c",
+    "final_normalized_sha256": "2a7fae866a5bedefc2323d35e21002b7fbf596c2303f14f2543edd22667445b6"
+  }
 }
