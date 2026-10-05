@@ -49,14 +49,16 @@
     {
       "key": "2026-06-13-tasha-tarot",
       "date_range": "2026-06-13",
-      "status": "QUEUED",
-      "notes": "Tasha head-in-jar / tarot material; exact title unavailable."
+      "status": "PARTIAL",
+      "notes": "Tasha head-in-jar / tarot material; exact title unavailable. Batch 3 source container added; recovery remains partial.",
+      "repo_source": "BCS-000137"
     },
     {
       "key": "2026-06-27-measured-coin-portfolio",
       "date_range": "2026-06-27",
-      "status": "QUEUED",
-      "notes": "House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable."
+      "status": "PARTIAL",
+      "notes": "House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable. Batch 3 source container added; recovery remains partial.",
+      "repo_source": "BCS-000138"
     },
     {
       "key": "2026-07-11-evernight-house-dungeon",
@@ -455,6 +457,6 @@
     "Project file enumeration is stronger than conversation enumeration: the current project surface exposed 41 file/asset records.",
     "No item is represented as COMPLETE PROJECT EXPORT."
   ],
-  "last_batch_completed": 2,
+  "last_batch_completed": 3,
   "last_updated": "2026-10-05"
 }
