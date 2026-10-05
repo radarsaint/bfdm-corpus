@@ -41,6 +41,29 @@ class QuerySourceHistoryTest(unittest.TestCase):
         self.assertNotEqual(directory["document_family_id"], report["document_family_id"])
         self.assertEqual(directory["live_contact"], [])
 
+    def test_season_five_pages_share_publication_context(self):
+        mining = orient(self.records, "BCS-000089")
+        guns = orient(self.records, "BCS-000087")
+        self.assertEqual(mining["document_family_id"], "roanoke-s5-published-sites")
+        self.assertEqual(guns["document_family_id"], mining["document_family_id"])
+        self.assertEqual(
+            [stage["stage"] for stage in mining["production_stages"]],
+            ["PUBLIC_PLAYER_FACING_PUBLICATION"],
+        )
+        self.assertTrue(mining["live_use_unresolved"])
+        changelog = orient(self.records, "BCS-000113")
+        targets = {row["to_corpus_id"] for row in changelog["other_links"]}
+        self.assertIn("BCS-000089", targets)
+        self.assertNotIn("BCS-000102", targets)
+
+    def test_unplaced_crafting_draft_is_not_given_a_season(self):
+        report = orient(self.records, "BCS-000020")
+        self.assertEqual(report["document_family_id"], "roanoke-crafting-system")
+        self.assertEqual(report["project"], [])
+        self.assertTrue(report["project_unresolved"])
+        self.assertEqual(report["came_before"], [])
+        self.assertEqual(report["came_after"], [])
+
     def test_novel_draft_stage_stays_unresolved(self):
         report = orient(self.records, "BCS-000060")
         self.assertEqual(report["production_stages"], [])

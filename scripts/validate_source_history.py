@@ -172,14 +172,28 @@ def _questions(meta: dict) -> set[str]:
     }
 
 
+def _prose_len(path: Path) -> int:
+    if not path.is_file():
+        return 0
+    text = path.read_text(encoding="utf-8", errors="replace")
+    if text.startswith("---"):
+        parts = text.split("---", 2)
+        if len(parts) == 3:
+            text = parts[2]
+    return len(text.strip())
+
+
 def _body_readable(repo: Path, cid: str, meta: dict) -> bool:
-    reps = meta.get("representations") or []
-    listed = any(str(rep.get("path", "")).endswith((".md", ".txt")) for rep in reps)
-    on_disk = any((repo / "sources").glob(f"**/{cid}/**/*.md")) or any(
-        (repo / "sources").glob(f"**/{cid}/*.md")
-    )
-    on_disk = on_disk or any((repo / "context").glob(f"**/{cid}/**/*.md"))
-    return listed or on_disk
+    candidates: list[Path] = []
+    for rep in meta.get("representations") or []:
+        rel = str(rep.get("path") or "")
+        if rel.endswith((".md", ".txt")):
+            candidates.append(repo / rel)
+    if not candidates:
+        candidates.extend((repo / "sources").glob(f"**/{cid}/**/*.md"))
+        candidates.extend((repo / "sources").glob(f"**/{cid}/*.md"))
+        candidates.extend((repo / "context").glob(f"**/{cid}/**/*.md"))
+    return any(_prose_len(path) >= 40 for path in candidates)
 
 
 def classify_family(

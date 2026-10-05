@@ -320,9 +320,73 @@
     {
       "status": "SOURCE_RESEARCH_READY",
       "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000019"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000019"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-building-list",
+      "internal_or_version_links": 3,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000017"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000017"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-character-epilogue",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000023"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000023"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-chinnokin-lore",
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
       "longitudinal_status": "LONGITUDINAL_RESEARCH_READY",
       "trajectory": "live_contact_and_revision",
       "members": [
+        "BCS-000020",
         "BCS-000077",
         "BCS-000078",
         "BCS-000079",
@@ -335,6 +399,7 @@
         "BCS-000079"
       ],
       "unresolved_project_members": [
+        "BCS-000020",
         "BCS-000080"
       ],
       "live_question_answered": true,
@@ -348,6 +413,27 @@
       "document_family_id": "roanoke-crafting-system",
       "internal_or_version_links": 4,
       "cross_medium_links": 1
+    },
+    {
+      "status": "GAP_REMAINS",
+      "source_research_ready": false,
+      "longitudinal_status": "NOT_SOURCE_READY",
+      "trajectory": "none",
+      "members": [
+        "BCS-000022"
+      ],
+      "readable_body": false,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000022"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-island-bestiary",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
     },
     {
       "status": "SOURCE_RESEARCH_READY",
@@ -438,7 +524,7 @@
       ],
       "context_only": false,
       "document_family_id": "roanoke-s3-campaign-manuscript",
-      "internal_or_version_links": 2,
+      "internal_or_version_links": 3,
       "cross_medium_links": 0
     },
     {
@@ -484,7 +570,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-cartography",
-      "internal_or_version_links": 4,
+      "internal_or_version_links": 5,
       "cross_medium_links": 0
     },
     {
@@ -640,6 +726,27 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000025"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000025"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s3-lookout-lodestone",
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000044"
       ],
       "readable_body": true,
@@ -703,6 +810,27 @@
       "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
+        "BCS-000021"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000021"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s3-player-faq",
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
         "BCS-000116"
       ],
       "readable_body": true,
@@ -737,6 +865,48 @@
       "context_only": false,
       "document_family_id": "roanoke-s3-public-lore",
       "internal_or_version_links": 4,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000028"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000028"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s3-publicity",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000027"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000027"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s3-secret-society-lore",
+      "internal_or_version_links": 0,
       "cross_medium_links": 0
     },
     {
@@ -860,7 +1030,7 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s3-week-operations",
-      "internal_or_version_links": 14,
+      "internal_or_version_links": 20,
       "cross_medium_links": 0
     },
     {
@@ -881,7 +1051,74 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s5-google-sites-revision-process",
-      "internal_or_version_links": 1,
+      "internal_or_version_links": 12,
+      "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000087",
+        "BCS-000088",
+        "BCS-000089",
+        "BCS-000090",
+        "BCS-000091",
+        "BCS-000092",
+        "BCS-000093",
+        "BCS-000094",
+        "BCS-000095",
+        "BCS-000096",
+        "BCS-000097",
+        "BCS-000098",
+        "BCS-000099",
+        "BCS-000100",
+        "BCS-000101",
+        "BCS-000102",
+        "BCS-000104",
+        "BCS-000105",
+        "BCS-000106",
+        "BCS-000107",
+        "BCS-000108",
+        "BCS-000109",
+        "BCS-000111",
+        "BCS-000112"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000087",
+        "BCS-000088",
+        "BCS-000089",
+        "BCS-000090",
+        "BCS-000091",
+        "BCS-000092",
+        "BCS-000093",
+        "BCS-000094",
+        "BCS-000095",
+        "BCS-000096",
+        "BCS-000097",
+        "BCS-000098",
+        "BCS-000099",
+        "BCS-000100",
+        "BCS-000101",
+        "BCS-000102",
+        "BCS-000104",
+        "BCS-000105",
+        "BCS-000106",
+        "BCS-000107",
+        "BCS-000108",
+        "BCS-000109",
+        "BCS-000111",
+        "BCS-000112"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-s5-published-sites",
+      "internal_or_version_links": 10,
       "cross_medium_links": 0
     },
     {
@@ -906,8 +1143,29 @@
       "revision_link_types": [],
       "context_only": false,
       "document_family_id": "roanoke-s5-way-of-gun-fu",
-      "internal_or_version_links": 3,
+      "internal_or_version_links": 4,
       "cross_medium_links": 1
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
+      "trajectory": "none",
+      "members": [
+        "BCS-000047"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000047"
+      ],
+      "live_question_answered": true,
+      "live_link_types": [],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "roanoke-song",
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0
     },
     {
       "status": "SOURCE_RESEARCH_READY",
@@ -932,16 +1190,6 @@
     }
   ],
   "archived_only_catalog_ids": [
-    "BCS-000017",
-    "BCS-000019",
-    "BCS-000020",
-    "BCS-000021",
-    "BCS-000022",
-    "BCS-000023",
-    "BCS-000025",
-    "BCS-000027",
-    "BCS-000028",
-    "BCS-000047",
     "BCS-000068"
   ],
   "evidence_gaps": [
@@ -1065,11 +1313,102 @@
       "document_family_id": "empire-city-operations"
     },
     {
+      "corpus_id": "BCS-000017",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The scene is dated 12:29, August 21 1632. The Season 3 player FAQ ends on August 21 2020. The shared calendar day is not season membership.",
+      "document_family_id": "roanoke-character-epilogue"
+    },
+    {
+      "corpus_id": "BCS-000017",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The body is a character scene. A scene is not a campaign production stage.",
+      "document_family_id": "roanoke-character-epilogue"
+    },
+    {
+      "corpus_id": "BCS-000017",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-character-epilogue"
+    },
+    {
       "corpus_id": "BCS-000018",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
       "document_family_id": "roanoke-s3-week-operations"
+    },
+    {
+      "corpus_id": "BCS-000019",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The building list does not name a season. It is not identified with the Season 3 directory BCS-000069.",
+      "document_family_id": "roanoke-building-list"
+    },
+    {
+      "corpus_id": "BCS-000019",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-building-list"
+    },
+    {
+      "corpus_id": "BCS-000020",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The crafting draft does not name a season. It is in the crafting family with BCS-000080, which is also unplaced, and it is not a version of Crafting with Class.",
+      "document_family_id": "roanoke-crafting-system"
+    },
+    {
+      "corpus_id": "BCS-000020",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-crafting-system"
+    },
+    {
+      "corpus_id": "BCS-000021",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-s3-player-faq"
+    },
+    {
+      "corpus_id": "BCS-000022",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The normalized body is empty, so the title 'Roanoke Island Beastiary' is not enough to assign a season.",
+      "document_family_id": "roanoke-island-bestiary"
+    },
+    {
+      "corpus_id": "BCS-000022",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No readable body is available from which to assign a stage.",
+      "document_family_id": "roanoke-island-bestiary"
+    },
+    {
+      "corpus_id": "BCS-000022",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-island-bestiary"
+    },
+    {
+      "corpus_id": "BCS-000023",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The title is Roanoke lore and does not name a season. The Season 3 lore index points at a Homebrewery Chinnokin page, not at this Drive document.",
+      "document_family_id": "roanoke-chinnokin-lore"
+    },
+    {
+      "corpus_id": "BCS-000023",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-chinnokin-lore"
     },
     {
       "corpus_id": "BCS-000024",
@@ -1093,11 +1432,32 @@
       "document_family_id": "roanoke-remote-play-guide"
     },
     {
+      "corpus_id": "BCS-000025",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-s3-lookout-lodestone"
+    },
+    {
       "corpus_id": "BCS-000026",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
       "document_family_id": "roanoke-s3-cartography"
+    },
+    {
+      "corpus_id": "BCS-000027",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-s3-secret-society-lore"
+    },
+    {
+      "corpus_id": "BCS-000028",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-s3-publicity"
     },
     {
       "corpus_id": "BCS-000029",
@@ -1231,6 +1591,27 @@
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
       "document_family_id": "roanoke-s3-changelog"
+    },
+    {
+      "corpus_id": "BCS-000047",
+      "question": "exact_project",
+      "status": "NOT_ESTABLISHED",
+      "basis": "The body is a hymn and a Roanoke rewrite of it. It does not name a season.",
+      "document_family_id": "roanoke-song"
+    },
+    {
+      "corpus_id": "BCS-000047",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A song text does not say whether it was prep, a player handout, or something sung in play.",
+      "document_family_id": "roanoke-song"
+    },
+    {
+      "corpus_id": "BCS-000047",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.",
+      "document_family_id": "roanoke-song"
     },
     {
       "corpus_id": "BCS-000048",
@@ -1576,6 +1957,118 @@
       "document_family_id": "roanoke-s3-uru-halfwudgie"
     },
     {
+      "corpus_id": "BCS-000087",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000088",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000089",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000090",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000091",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000092",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000093",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000094",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000095",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000096",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000097",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000098",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000099",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000100",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000101",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000102",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
       "corpus_id": "BCS-000103",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
@@ -1583,11 +2076,67 @@
       "document_family_id": "roanoke-s5-way-of-gun-fu"
     },
     {
+      "corpus_id": "BCS-000104",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000105",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000106",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000107",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000108",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000109",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
       "corpus_id": "BCS-000110",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here.",
       "document_family_id": "roanoke-s5-way-of-gun-fu"
+    },
+    {
+      "corpus_id": "BCS-000111",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
+    },
+    {
+      "corpus_id": "BCS-000112",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-published-sites"
     },
     {
       "corpus_id": "BCS-000113",
@@ -1655,6 +2204,13 @@
   ],
   "archive_gaps": [
     {
+      "corpus_id": "BCS-000022",
+      "question": "normalized_body",
+      "status": "ARCHIVE_GAP",
+      "basis": "source.md is frontmatter only. The DOCX export is preserved and was not given a substitute summary.",
+      "document_family_id": "roanoke-island-bestiary"
+    },
+    {
       "corpus_id": "BCS-000029",
       "question": "referenced_source_absent",
       "status": "ARCHIVE_GAP",
@@ -1683,6 +2239,6 @@
       "document_family_id": "roanoke-s3-week-operations"
     }
   ],
-  "container_count": 110,
+  "container_count": 120,
   "catalog_count": 121
 }

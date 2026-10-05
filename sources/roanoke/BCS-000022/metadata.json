@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000022",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke Island Beastiary.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-island-bestiary",
+  "original_filename": "Roanoke Island Beastiary.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000022/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000022/source.md",
+      "sha256": "8aece630fd3a5d5395070d8e213195ba680bf460cc467e06d0d01ed69d3af0dd",
+      "size_bytes": 137
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000022/original/source.docx",
+      "sha256": "9c9ac26732b2fd991384a2d0618915f060a00522462aaa527de146a2fe483b55",
+      "size_bytes": 6605
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000022/comments.json",
+      "sha256": "415b3d508f2f33de6efd68cd24074fbaca0ee6a451bcef22c8ef32fee2edbc26",
+      "size_bytes": 122
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke Island Beastiary.docx",
+    "original_filename": "Roanoke Island Beastiary.docx",
+    "original_sha256": "9c9ac26732b2fd991384a2d0618915f060a00522462aaa527de146a2fe483b55",
+    "normalized_file": "source.md",
+    "normalized_sha256": "8aece630fd3a5d5395070d8e213195ba680bf460cc467e06d0d01ed69d3af0dd",
+    "normalized_line_count": 8,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The normalized body is empty, so the title 'Roanoke Island Beastiary' is not enough to assign a season."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No readable body is available from which to assign a stage."
+      },
+      {
+        "question": "normalized_body",
+        "status": "ARCHIVE_GAP",
+        "basis": "source.md is frontmatter only. The DOCX export is preserved and was not given a substitute summary."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": []
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000025",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke S3 Lookout hill lodestone..docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-lookout-lodestone",
+  "original_filename": "Roanoke S3 Lookout hill lodestone..docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000025/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000025/source.md",
+      "sha256": "c28ed2a2febd6e75d1d1b1acfabcda87105a4650c56c4c7a753be530b71521e2",
+      "size_bytes": 12844
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000025/original/source.docx",
+      "sha256": "487c845ebf97f721bb0513ab172a6af77b902f84dc704da7c6c43d4988ee038c",
+      "size_bytes": 424340
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000025/comments.json",
+      "sha256": "2056018d5d881ebfd908d9ca0fb3fc2861f45ed4ebd3d7c9122b160b0a0a8ecc",
+      "size_bytes": 132
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "LISTED_IN_DONOR_METADATA"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke S3 Lookout hill lodestone..docx",
+    "original_filename": "Roanoke S3 Lookout hill lodestone..docx",
+    "original_sha256": "487c845ebf97f721bb0513ab172a6af77b902f84dc704da7c6c43d4988ee038c",
+    "normalized_file": "source.md",
+    "normalized_sha256": "c28ed2a2febd6e75d1d1b1acfabcda87105a4650c56c4c7a753be530b71521e2",
+    "normalized_line_count": 226,
+    "assets": [
+      "assets/media/image1.jpg"
+    ],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The title is Roanoke S3 Lookout hill lodestone, and the body is that dungeon.",
+        "support_refs": [
+          "BCS-000025"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The body is a prepared dungeon crawl with DM notes and a grease reskin. Preparation is not a record that the crawl was run.",
+        "support_refs": [
+          "BCS-000025"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000081",
+      "confidence": "STRONG",
+      "basis": "The Season 3 map key lists hex R as Look out hill, Lode, Demiplane of grease. This module is that lodestone, including the demiplane of grease. The map key does not show the dungeon was run.",
+      "support_refs": [
+        "BCS-000025",
+        "BCS-000081"
+      ]
+    }
+  ]
+}
