@@ -1,6 +1,10 @@
 # Research Artifact Register
 
-Generated from the current changed-file set in draft PR #5 (`research/organize-current-work-v1` → `main`).
+**STATUS: SUPERSEDED PR #5-ERA SNAPSHOT**  
+**Current index:** `research/INDEX.md`  
+**Current handoff:** `research/NEXT_HANDOFF.md`
+
+This register was generated from the changed-file set in draft PR #5 (`research/organize-current-work-v1` → `main`). It is preserved as an organizational snapshot and is not a current repository inventory.
 
 **Status:** organizational register. File presence does not imply source authority, validation, or current truth.
 
@@ -174,5 +178,5 @@ This register is intentionally regenerated from paths rather than storing commit
 - `research/current-synthesis/` is provisional interpretation.
 - `research/kit-evaluation/` evaluates Kit behavior; it is not historical Brendon evidence.
 - `research/empire-city/` and `research/roanoke-s3/` are campaign-specific research bodies; neither is automatically universal doctrine.
-- `research/legacy-staging/` records reconciliation state; the legacy binary source containers are still pending canonical transfer.
+- `research/legacy-staging/` records the historical reconciliation process. The old pending-transfer statement from this snapshot is superseded by merged PR #25.
 - Always read artifact-local provenance/status before deriving conclusions.
