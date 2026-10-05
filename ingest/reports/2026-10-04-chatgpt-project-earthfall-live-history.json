@@ -1,0 +1,37 @@
+{
+  "schema_version": "bfdm_ingest_report/v1",
+  "scope": "chatgpt-project-earthfall-live-history",
+  "project": "Earthfall:live",
+  "branch": "ingest/chatgpt-project-earthfall-live-history",
+  "base_sha": "7e6b2dccf73efe70a01caf69ecd4a6e39e4c3f53",
+  "recovery_class": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "source_surfaces_searched": [
+    "ChatGPT Project context",
+    "ChatGPT project-history retrieval",
+    "Project files surface"
+  ],
+  "conversations_discovered": 20,
+  "conversations_ingested": 3,
+  "new_bcs": [
+    "BCS-000131",
+    "BCS-000132",
+    "BCS-000133"
+  ],
+  "reused_bcs": [
+    "BCS-000054",
+    "BCS-000055"
+  ],
+  "project_files_discovered": 52,
+  "sqlite_updated": false,
+  "explicit_public_redactions": [
+    "BCS-000131: detailed third-party personal profile inside one recovered user message"
+  ],
+  "known_gaps": [
+    "No complete bulk Project conversation export is exposed.",
+    "Assistant-side transcript coverage is incomplete.",
+    "Older February-May material is search-based retrieval only.",
+    "Conversation IDs are not exposed.",
+    "Project-file duplicate identity is unresolved for repeated filenames."
+  ],
+  "no_bce_personality_training_judgments_minted": true
+}
