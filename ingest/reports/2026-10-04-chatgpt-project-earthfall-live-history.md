@@ -67,3 +67,20 @@ Added:
 - explicit registry coverage state for partial ChatGPT Project history and the 52 discovered Project-backed files.
 
 No new BCS IDs were minted for retrieval-summary-only fragments.
+
+## Validation before PR
+
+Connector-visible checks:
+- current `main` remains `7e6b2dccf73efe70a01caf69ecd4a6e39e4c3f53`;
+- branch is ahead of `main` and not behind;
+- `evidence/catalog.jsonl` parses successfully;
+- no duplicate BCS IDs were found;
+- highest BCS is `BCS-000141`;
+- all 11 new metadata files parse, match their BCS IDs, contain the validator-required metadata keys, and have nonempty locator arrays;
+- `registry/projects.jsonl` parses and Earthfall contains 11 new ChatGPT-history anchors;
+- manifest counts: 20 discovered units/fragments, 11 INGESTED, 9 PARTIAL raw-transcript gaps, 52 Project-backed files.
+
+Local validator limitation:
+- the shell runtime could not resolve `github.com`, so it could not clone this branch and run `python ingest/validate_ingest.py`;
+- `indexes/documents.sqlite` was not modified in this connector-only pass;
+- therefore the PR should remain unmerged until normal repo-side validation/index policy is completed.
