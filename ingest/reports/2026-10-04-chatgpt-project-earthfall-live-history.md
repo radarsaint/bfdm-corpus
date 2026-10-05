@@ -45,3 +45,16 @@ Ingested:
 This batch preserves the implementation/art workflow, Fryvern encounter-development corrections, explicit abandonment of the in-thread Fryvern art direction, Starcade power-up telegraphing, safe-room prep, and arcade consumable work.
 
 Conversation-source count now ingested: 6.
+
+## Batch 3
+
+Ingested:
+- BCS-000137 — Caribbean Pirate Theme
+- BCS-000138 — Show Aggro Level 2 Art
+- BCS-000139 — New chat / Floor 2 Aggro art example
+- BCS-000140 — Plan Dead Turtle Transition
+- BCS-000141 — Rod Voice Achievement Generator
+
+This batch preserves Floor 2 pirate/Skullport direction, art-retrieval threads, the explicit immediate post-session judgment that the Fryvern fight “ended in fizzle” because the players were overpowered, the Nassau/Dead Turtle transition, and achievement/loot/player-created-skill work.
+
+Conversation-source count now ingested: 11.
