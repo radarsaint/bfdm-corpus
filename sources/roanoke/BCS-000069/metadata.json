@@ -1,0 +1,166 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000069",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Season 3 Directory",
+  "source_role": "project_index",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-directory",
+  "original_filename": "Season 3 Directory.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-04T03:42:53.215Z",
+  "modified_at": "2020-08-26T19:40:50.354Z",
+  "ingested_at": "2026-10-04T14:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Project-source identity is clear from document content and Drive context, but whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1WVcShB8oAPNPnuxWLJWm5p86-UKVq8CazHXNB-Qo2cQ",
+      "url": "https://docs.google.com/document/d/1WVcShB8oAPNPnuxWLJWm5p86-UKVq8CazHXNB-Qo2cQ/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000069/comments.jsonl",
+      "sha256": "a037c50589cdb8c8892477cecd46548a5c7695f630b71e2e9b8ab8830b47b0b2",
+      "mime_type": "application/json",
+      "size_bytes": 1618
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000069/original/source.docx",
+      "sha256": "6641eff770ea7d1924429e0764d57901ef734025b6555fed78b1d527e85e7e0c",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 14354
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000069/revisions.jsonl",
+      "sha256": "256549398b626e0a853aba851684a188f1c483c53ea3c2e8a5a6fb1f797b6d77",
+      "mime_type": "application/json",
+      "size_bytes": 45482
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000069/source.md",
+      "sha256": "9bcf2e2cbf583469dc4e8c52e50cc7e6edbd205f6b52fd65acedfcaad4bab805",
+      "mime_type": "text/markdown",
+      "size_bytes": 3618
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source titles itself Roanoke S3 Directory.",
+        "support_refs": [
+          "BCS-000069"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The directory is the working index of master documents, schedules, and design tools.",
+        "support_refs": [
+          "BCS-000069"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000046",
+      "confidence": "STRONG",
+      "basis": "The Season 3 directory tells the reader to start at the change log.",
+      "support_refs": [
+        "BCS-000069",
+        "BCS-000046"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000070",
+      "confidence": "STRONG",
+      "basis": "The Season 3 directory lists the Master Timeline, and BCS-000070 is that timeline.",
+      "support_refs": [
+        "BCS-000069",
+        "BCS-000070"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000045",
+      "confidence": "STRONG",
+      "basis": "The Season 3 directory lists the Rough Draft, and BCS-000045 is the Roanoke S:3 rough draft.",
+      "support_refs": [
+        "BCS-000069",
+        "BCS-000045"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000081",
+      "confidence": "STRONG",
+      "basis": "The Season 3 directory lists the map key, and BCS-000081 is that hex key.",
+      "support_refs": [
+        "BCS-000069",
+        "BCS-000081"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000083",
+      "confidence": "STRONG",
+      "basis": "The Season 3 directory lists the bestiary, and BCS-000083 is the cryptid bestiary index.",
+      "support_refs": [
+        "BCS-000069",
+        "BCS-000083"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000069",
+    "canonical_corpus_id": "BCS-000069",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

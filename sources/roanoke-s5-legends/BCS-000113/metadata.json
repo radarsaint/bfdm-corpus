@@ -47,5 +47,35 @@
       "basis": "The document explicitly tracks site-by-site wording, mechanics, access, and correction work for the Season 5 Sites.",
       "confidence": "STRONG"
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The changelog tracks Season 5 Site wording and corrections.",
+        "support_refs": [
+          "BCS-000113"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The document is the working list of site changes, not the published page itself.",
+        "support_refs": [
+          "BCS-000113"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Site revision notes do not establish that a published rule was used in play."
+      }
+    ]
+  }
 }

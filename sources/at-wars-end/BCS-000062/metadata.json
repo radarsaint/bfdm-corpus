@@ -1,0 +1,105 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000062",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "third draft",
+  "source_role": "narrative_draft",
+  "source_kind": "google_drive_native",
+  "original_filename": "third draft.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1HqyI7YPRHtHo6n9rJ0e_9PkWeI6x-F4xNQfjTG4GOQw",
+      "url": "https://docs.google.com/document/d/1HqyI7YPRHtHo6n9rJ0e_9PkWeI6x-F4xNQfjTG4GOQw/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "at-wars-end-narrative",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/at-wars-end/BCS-000062/comments.json",
+      "sha256": "7d71818a5d48c415f05ca74d5b6df8acf2d19ba69dce8871423bf28cb60f1a2d",
+      "mime_type": "application/json",
+      "size_bytes": 82
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000062/original/source.docx",
+      "sha256": "edcfa6af6899347555daaf98d62194614c659665d67cd471cacf8f8eeb967a2a",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 169068
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000062/source.md",
+      "sha256": "3f4aa12f5c7384981970d2c33851566e71eafe454bb290d3bf40d81ed0f04ca2",
+      "mime_type": "text/markdown",
+      "size_bytes": 372519
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The third draft continues At War's End in the Copper Lantern with Kaliope, Gerdie, Allen, and Lost.",
+        "support_refs": [
+          "BCS-000062"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000064",
+      "confidence": "STRONG",
+      "basis": "The outline's Copper Lantern and Lost material matches this scene. Draft number alone is not treated as proof this scene supersedes the queen chapter.",
+      "support_refs": [
+        "BCS-000062",
+        "BCS-000064"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000062",
+    "canonical_corpus_id": "BCS-000062",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

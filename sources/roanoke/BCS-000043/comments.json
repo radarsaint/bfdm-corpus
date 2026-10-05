@@ -1,0 +1,190 @@
+{
+  "file": "/mnt/data/brendon-corpus-raw/roanoke/Roanoke season 3 Brainstorming.docx",
+  "comment_count": 8,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Brendon Faulkner",
+      "date": "2019-08-29T06:31:18Z",
+      "initials": null,
+      "resolved": false,
+      "text": "for story telling purposes I'm going to need 1-2 more",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Knights of the Roi Soleil - Monastic Order for Religious Artifact Recovery"
+            },
+            {
+              "where": "end",
+              "text": "Knights of the Roi Soleil - Monastic Order for Religious Artifact Recovery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "author": "Brendon Faulkner",
+      "date": "2019-08-28T18:10:16Z",
+      "initials": null,
+      "resolved": false,
+      "text": "design arcanian spell schools to be discoverable. write 2-3 new spell school with complete lists of spells as variations on current spells (for things like detect magic which gives spell school and therefore can help the players identify which arcane effects are not circumventable)",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Replace curses with “Damned” (prevents player breaking dm plot armor)"
+            },
+            {
+              "where": "end",
+              "text": "Replace curses with “Damned” (prevents player breaking dm plot armor)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "author": "Brendon Faulkner",
+      "date": "2019-08-28T18:05:13Z",
+      "initials": null,
+      "resolved": false,
+      "text": "In regards to \"can trade\" does this mean \"can give\" \"can recieve\" or both?",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Trading CP"
+            },
+            {
+              "where": "end",
+              "text": "Trading CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "author": "Brendon Faulkner",
+      "date": "2019-08-28T18:06:37Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Tying cp to rest is a good idea, except that some one could stack short rests infinitely and claim to be pumping out cp while off line.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Resting (mandatory unless classes/feats override need)"
+            },
+            {
+              "where": "end",
+              "text": "Resting (mandatory unless classes/feats override need)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "author": "Noah Carr",
+      "date": "2019-09-13T01:48:10Z",
+      "initials": null,
+      "resolved": false,
+      "text": "To facilitate an improving building per week, how about having weekly levels of a town hall that allow for improvements to be made to buildings. This will make it so that people like Venrir can't make +3 armor until week 3 after a completely improved building.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Town Hall Public Works"
+            },
+            {
+              "where": "end",
+              "text": "---->Town Hall lvl 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "author": "Noah Carr",
+      "date": "2019-09-13T01:32:20Z",
+      "initials": null,
+      "resolved": false,
+      "text": "The Knights of Roi Soleil are a heavy Religious order, so I'm leaving some bits of lore open for any player Gods to fit in seamlessly. Having a battle of the Gods against \"The Hunger\" but losing/ having a valiant defeat that kept it from spreading to Europe/ the known world",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Gods and planes personified. Anything that we wish to include should have a person and side quest associated. It doesn't make sense to create a vast pantheon if we aren't going to populate the world w"
+            },
+            {
+              "where": "end",
+              "text": "Gods and planes personified. Anything that we wish to include should have a person and side quest associated. It doesn't make sense to create a vast pantheon if we aren't going to populate the world w"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "author": "Noah Carr",
+      "date": "2019-09-13T01:35:59Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Both of these had IRL/ historical ties to the Knights Templar (Knights of Lazarus and the Knights of Santiago/ Saint Anthony) A Tie in could be that they heard of the Knights of Soleil that requested help from nearby holy orders",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "The Order of Saint George the Dragon Slayer. - Paladins"
+            },
+            {
+              "where": "end",
+              "text": "The Order of Saint Lazarus the Afflicted. - Clerics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "author": "Noah Carr",
+      "date": "2019-09-20T18:29:02Z",
+      "initials": null,
+      "resolved": false,
+      "text": "This didn't happen in our game, but I think something like this should be included to prevent someone from making the CE/CN Murder Hobo. Having people pick starting locations helped prevent this so I don't think it will become a problem, but wordsmithing this can help players realize that they CAN make fun, creative, goofy, or evil characters, but that they still need to be a productive/collaborative citizen.\nIt's to avoid the THAT GUY stealing the loot/information while other peeps are fighting",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Character should be connected to the story as a colonist heading to the new world. Evil is an allowed alignment, however we are here to make engaging characters trying to attain their goals with simil"
+            },
+            {
+              "where": "end",
+              "text": "Character should be connected to the story as a colonist heading to the new world. Evil is an allowed alignment, however we are here to make engaging characters trying to attain their goals with simil"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

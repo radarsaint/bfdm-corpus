@@ -1,0 +1,105 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000067",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "at wars end prompt crafting",
+  "source_role": "writing_prompt",
+  "source_kind": "google_drive_native",
+  "original_filename": "at wars end prompt crafting.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Be1DJAjxq8Dqrczp_rGfRR_cqpeinBClzeybjEIBERY",
+      "url": "https://docs.google.com/document/d/1Be1DJAjxq8Dqrczp_rGfRR_cqpeinBClzeybjEIBERY/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "at-wars-end-writing-process",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/at-wars-end/BCS-000067/comments.json",
+      "sha256": "328fc2f601f7663d50e60b0a2e1e03d0d772dd65e692154d6f67106a8744415f",
+      "mime_type": "application/json",
+      "size_bytes": 98
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000067/original/source.docx",
+      "sha256": "2172f3a4aaa57a8240a2cc1562fe81c1edbc85bc34b531fadc7d1c3d4b5cd3ed",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 10199
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000067/source.md",
+      "sha256": "44b8b89819dffef64b6e4d990db6414b780720bda6ba88d1c6c5f562812bd8a9",
+      "mime_type": "text/markdown",
+      "size_bytes": 3497
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The prompt says it assists Brendon Faulkner on the novel At War's End and names Alan, Kaliope, Lost, and Cait.",
+        "support_refs": [
+          "BCS-000067"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000061",
+      "confidence": "STRONG",
+      "basis": "The prompt governs continued writing of the novel whose Lost narration appears in the second draft. It is a process note, not a story version.",
+      "support_refs": [
+        "BCS-000067",
+        "BCS-000061"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000067",
+    "canonical_corpus_id": "BCS-000067",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

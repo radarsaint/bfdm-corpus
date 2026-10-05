@@ -1,0 +1,116 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000042",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke Season 2.docx",
+  "source_role": "season_planning",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke Season 2.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1cwHrxRkHo7GQa4seDt38lR1TO619VHgA4jdFSl-CPMk",
+      "url": "https://docs.google.com/document/d/1cwHrxRkHo7GQa4seDt38lR1TO619VHgA4jdFSl-CPMk/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_3b9d866141a48191b8fa4455d5cbf984",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke Season 2.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s2-planning",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000042/comments.json",
+      "sha256": "0f5bbc73082c82d6131b0e3fc973989f49f720234993c66358053c8bbe58f5bb",
+      "mime_type": "application/json",
+      "size_bytes": 114
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000042/original/source.docx",
+      "sha256": "e47ff7b60f66615ef8ef57d7ae0b0e0e40187ebd4cc1beba17c9ab91f8a0a33a",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9070
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000042/source.md",
+      "sha256": "497a791a8801eec2aac66553a93e6f4f48c9180d001ac2ed372dabe4c0eea9f7",
+      "mime_type": "text/markdown",
+      "size_bytes": 4536
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s2",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source says it outlines the Roanoke season two guide for the 2019 event.",
+        "support_refs": [
+          "BCS-000042"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "BRAINSTORMING",
+        "confidence": "CONFIRMED",
+        "basis": "The source calls itself goals, ideas, meanderings, and a wish list.",
+        "support_refs": [
+          "BCS-000042"
+        ]
+      },
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The same source proposes replacing the earlier job-and-crafting tally because it felt like a chore. That proposal is not linked as a version of the later Season 3 or Season 4 crafting documents.",
+        "support_refs": [
+          "BCS-000042"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000042",
+    "canonical_corpus_id": "BCS-000042",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

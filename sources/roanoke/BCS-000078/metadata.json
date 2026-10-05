@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000078",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Crafting with Class (Public Doc)",
+  "source_role": "public_rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Crafting with Class (Public Doc).docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-20T23:10:59.985Z",
+  "modified_at": "2020-08-22T08:54:39.484Z",
+  "ingested_at": "2026-10-04T18:30:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Explicit byline in source: Rob Hubbard, Brendon Faulkner, Noah Carr.",
+    "project_ownership_context": "Roanoke Season 3 crafting-system public rules."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1KzG9w3BzqqLqjjVXtRdleyR7JlCYQV8t6vYqVdNYjsQ",
+      "url": "https://docs.google.com/document/d/1KzG9w3BzqqLqjjVXtRdleyR7JlCYQV8t6vYqVdNYjsQ/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000078/source.md",
+      "sha256": "ff45fab137e4813ece1eac0402af6558cdb793aa1a8758107ac6099cd450b1e2",
+      "mime_type": "text/markdown",
+      "size_bytes": 25550
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000078/original/source.docx",
+      "sha256": "2aeea433a8e3e3cdf1d1aed03d2923aa2caa101355e29874d66fd3fd2afecdf0",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 21779
+    }
+  ],
+  "normalization": {
+    "method": "Exact donor normalized body reconciled from ingest/drive-project-v3; source wording was not rewritten.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document.",
+      "Historical revision bodies remain pending where the donor capture marked them pending."
+    ]
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "Public Crafting with Class is the publication-side member of the S3 crafting family and its exact rules are applied in the Roanoke Season 3 live Discord archive.",
+        "support_refs": [
+          "BCS-000078",
+          "BCS-000079",
+          "discord:636012145204527125:739852380782198814"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The source labels itself '(Public Document)' and addresses players directly about how the system operates during the game.",
+        "support_refs": [
+          "BCS-000078"
+        ]
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "IMPLEMENTED_IN",
+      "target_kind": "DISCORD_CHANNEL",
+      "external_locator": "discord://636012145204527125/channel/739240413269065890",
+      "confidence": "CONFIRMED",
+      "basis": "Live S3 crafting-questions messages apply and clarify the document's specific 1,000 gp + 2 labor item cost, aristocrat sponsorship, merchant/serf roles, and crafting-tracker procedures.",
+      "support_refs": [
+        "discord:636012145204527125:739850310901694634",
+        "discord:636012145204527125:739852380782198814",
+        "discord:636012145204527125:739852509048340532",
+        "discord:636012145204527125:740216263934083112"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000078",
+    "donor_git_blob_shas": {
+      "source_md": "4b1179a40f7b5751e76fb98cfab32a994da84c5d",
+      "metadata_json": "347358034c8008519293eeb246739df9224ad19d",
+      "original_docx": "72c1c6c7338d1b3f1536d7921fb3d887b210ec30",
+      "comments_jsonl": null,
+      "revisions_jsonl": "3a07da8a822c4d83268f8e67c0561016f829f597"
+    },
+    "preservation_note": "Native Drive identity and captured source artifacts preserved while metadata was normalized to the current-main ingestion contract."
+  },
+  "supplemental_hashes": {
+    "revisions_jsonl_sha256": "5a2211ca2efb068dd6182129d04b290d7cd5b9a69aa040aec3427458475de5e8"
+  }
+}

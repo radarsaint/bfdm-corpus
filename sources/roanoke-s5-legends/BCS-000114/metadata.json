@@ -47,6 +47,48 @@
       "to_corpus_id": "BCS-000110",
       "basis": "Matching Way of Gun Fu subclass content in the published Season 5 Monk page.",
       "confidence": "STRONG"
+    },
+    {
+      "link_type": "PUBLISHED_AS",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000110",
+      "confidence": "STRONG",
+      "basis": "Main already recorded this Drive PDF and the published Season 5 Arcanian Monk Options page as the same Way of Gun Fu subclass. This names that relationship as publication.",
+      "support_refs": [
+        "BCS-000114",
+        "BCS-000110"
+      ]
     }
-  ]
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The Drive PDF is the Way of Gun Fu monk subclass in the Season 5 project, and main already links it to the published monk page.",
+        "support_refs": [
+          "BCS-000114",
+          "BCS-000110"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The Drive PDF is the subclass draft whose content main already matched to the published page.",
+        "support_refs": [
+          "BCS-000114"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here."
+      }
+    ]
+  }
 }

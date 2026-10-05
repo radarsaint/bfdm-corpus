@@ -1,0 +1,121 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000116",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "RS3 Public docs copy editing.",
+  "source_role": "public_document_editing",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-public-docs",
+  "original_filename": "RS3 Public docs copy editing..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-29T20:37:43.041Z",
+  "modified_at": "2020-05-03T20:00:00.920Z",
+  "ingested_at": "2026-10-04T19:20:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "This is a Roanoke Season 3 copy-editing compilation containing public-facing material; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 public-document editing and refinement."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1APZc6YIiUbvR2U5wfd1kYTta25WzxKg0njK7bTjqI2w",
+      "url": "https://docs.google.com/document/d/1APZc6YIiUbvR2U5wfd1kYTta25WzxKg0njK7bTjqI2w/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000116/comments.jsonl",
+      "sha256": "cf5e82832f6e7246f0632caaefd5cad9969bca2b247172b125ee9974910251ac",
+      "mime_type": "application/json",
+      "size_bytes": 2520
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000116/original/source.docx",
+      "sha256": "371dd60e8458dacef1c92c5f169b4d5895c628dd5bbb79889af39a95def47bca",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 1847292
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000116/revisions.jsonl",
+      "sha256": "3674aec7dc71d243e3906b0b42ad7e4f95ed0db5c3c730723b9b87e963cab6b5",
+      "mime_type": "application/json",
+      "size_bytes": 3556
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000116/source.md",
+      "sha256": "8bc4ce5afa5cc92cc7e56d95b043dd42ae206c4ec44850b9f80d3fbea20174b5",
+      "mime_type": "text/markdown",
+      "size_bytes": 49403
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The document is named as the Season 3 public-docs compilation and its body is player-facing background prose, including the Groundlings.",
+        "support_refs": [
+          "BCS-000116",
+          "BCS-000085"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The body addresses the reader as a player choosing a background and going to the New World. The title also calls the file copy editing; the stage follows the body.",
+        "support_refs": [
+          "BCS-000116"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000085",
+      "confidence": "STRONG",
+      "basis": "The background guide lists Groundlings as a project already in markdown, and this compilation contains the Groundlings background.",
+      "support_refs": [
+        "BCS-000116",
+        "BCS-000085"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000088",
+    "canonical_corpus_id": "BCS-000116",
+    "id_collision_remap": true,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

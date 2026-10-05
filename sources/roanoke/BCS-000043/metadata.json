@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000043",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke season 3 Brainstorming.docx",
+  "source_role": "campaign_brainstorm",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke season 3 Brainstorming.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Native Drive permissions/revision history show multiple editors. Comment threads include Noah Carr and Brendon Faulkner. Passage-level attribution is required."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1-8bOpRzSB08qxESL7Y9tboWYe5eb90eMso3RKyZgjBE",
+      "url": "https://docs.google.com/document/d/1-8bOpRzSB08qxESL7Y9tboWYe5eb90eMso3RKyZgjBE/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_4e41b0d1e0d481919b4cc397ad87d71e",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke season 3 Brainstorming.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-campaign-manuscript",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000043/brendon-comments.native.json",
+      "sha256": "f83da6c0e32eec18d0072427c048ceb354dab89989f504b83402b14d1b41d004",
+      "mime_type": "application/json",
+      "size_bytes": 1817
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000043/comments.json",
+      "sha256": "45ac16c6d4875927090aa300e703fec6a4dd5c760731ed5f79a11ab88ee0ea9d",
+      "mime_type": "application/json",
+      "size_bytes": 6999
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000043/original/source.docx",
+      "sha256": "3bcb51d29dad42e149b85b4a997bf774214ca009112f1cb0e80f158378fbf246",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 237755
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000043/source.md",
+      "sha256": "5775f5004497f3da4c0cb99a13c94798ebc22adea2815e870687390c282ed2e6",
+      "mime_type": "text/markdown",
+      "size_bytes": 22775
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The body is a Season 3 brainstorm and includes advertising copy that calls the game the next season, season 3.",
+        "support_refs": [
+          "BCS-000043"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "BRAINSTORMING",
+        "confidence": "CONFIRMED",
+        "basis": "The source opens as a main-villain brainstorm and a draft advertisement for Season 3 DMs.",
+        "support_refs": [
+          "BCS-000043"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000043",
+    "canonical_corpus_id": "BCS-000043",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

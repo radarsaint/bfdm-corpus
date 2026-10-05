@@ -1,0 +1,106 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000061",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "Second draft at wars end",
+  "source_role": "narrative_draft",
+  "source_kind": "google_drive_native",
+  "original_filename": "Second draft at wars end.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1-pdQNxblNKYZmzLCoVOomkOOzC7uHq5C9dGm22M8Big",
+      "url": "https://docs.google.com/document/d/1-pdQNxblNKYZmzLCoVOomkOOzC7uHq5C9dGm22M8Big/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "at-wars-end-narrative",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/at-wars-end/BCS-000061/comments.json",
+      "sha256": "142351eeedcb17485fd5e7cb149c0ff5b6a9dd2e293421a5d502a39b1fb9e5bd",
+      "mime_type": "application/json",
+      "size_bytes": 1437
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000061/original/source.docx",
+      "sha256": "5c55c5ffc6a21114ebd056f7df70eb2c24f6c932dc450e85a66ce8a2af073f14",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 158659
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000061/source.md",
+      "sha256": "41e967c9ac82ea04e8538b48ceb9140038deaac1b1e5930bc27e264691f74b37",
+      "mime_type": "text/markdown",
+      "size_bytes": 338603
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The second draft keeps the chapter 'The Time Before the War' and adds the Lost frame narration.",
+        "support_refs": [
+          "BCS-000061",
+          "BCS-000060"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "REVISES",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000060",
+      "confidence": "STRONG",
+      "basis": "The source is titled the second draft and rewrites the same queen-and-war chapter with a new narrator. It does not erase the first draft.",
+      "support_refs": [
+        "BCS-000061",
+        "BCS-000060"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000061",
+    "canonical_corpus_id": "BCS-000061",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

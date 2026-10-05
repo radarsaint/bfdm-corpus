@@ -1,0 +1,110 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000072",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Season 4 Directory ",
+  "source_role": "project_index",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-operations",
+  "original_filename": "Season 4 Directory.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-08-23T02:41:52.610Z",
+  "modified_at": "2021-02-03T21:06:18.317Z",
+  "ingested_at": "2026-10-04T14:50:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Empire City project-management source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 4 / Empire City project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1rbzI_W8EtzBcIl2npB1l94L10hDGSDBarr7-PDrlX-I",
+      "url": "https://docs.google.com/document/d/1rbzI_W8EtzBcIl2npB1l94L10hDGSDBarr7-PDrlX-I/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/empire-city/BCS-000072/comments.jsonl",
+      "sha256": "580c32d926f0089b9a45c36ff57d9eb77f1f72099d2d9de4841ad8bff6b65bdb",
+      "mime_type": "application/json",
+      "size_bytes": 1456
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000072/original/source.docx",
+      "sha256": "77b570dd16a43625631f1fd0246192c60afb5ed19849bebc58052c65ceffc7d3",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9731
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000072/revisions.jsonl",
+      "sha256": "49a69fe04a5b80f48c95b0da7b48140fc9ae91bb1f14114922cb322a17c6c401",
+      "mime_type": "application/json",
+      "size_bytes": 8319
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000072/source.md",
+      "sha256": "282a8be3d5a39581f228e2fd6f5e076d77670749393bfc8dba687076af65e4e4",
+      "mime_type": "text/markdown",
+      "size_bytes": 1408
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source titles itself Season 4 Directory and gives the July and August game dates.",
+        "support_refs": [
+          "BCS-000072"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "CONFIRMED",
+        "basis": "The directory indexes websites, maps, boroughs, and breakdowns for the Season 4 dates.",
+        "support_refs": [
+          "BCS-000072"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000072",
+    "canonical_corpus_id": "BCS-000072",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

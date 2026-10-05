@@ -1,0 +1,583 @@
+{
+  "families": [
+    {
+      "document_family_id": "at-wars-end-cosmology",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000066"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000066"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "at-wars-end-narrative",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000060",
+        "BCS-000061",
+        "BCS-000062",
+        "BCS-000063"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000060",
+        "BCS-000061",
+        "BCS-000062",
+        "BCS-000063"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 7,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "at-wars-end-outline",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000064",
+        "BCS-000065"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000064",
+        "BCS-000065"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 3,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "at-wars-end-writing-process",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000067"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000067"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "bastion-redoubt-campaign",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000056",
+        "BCS-000057",
+        "BCS-000058"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000056",
+        "BCS-000057",
+        "BCS-000058"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "earthfall-rod",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000054",
+        "BCS-000055"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000054",
+        "BCS-000055"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "empire-city-crafting",
+      "status": "PLACED",
+      "members": [
+        "BCS-000001"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000001"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "empire-city-operations",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000003",
+        "BCS-000072",
+        "BCS-000073"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000003",
+        "BCS-000072",
+        "BCS-000073"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "empire-city-setting-lore",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000075"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000075"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-crafting-system",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000077",
+        "BCS-000078",
+        "BCS-000079",
+        "BCS-000080"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000077",
+        "BCS-000078",
+        "BCS-000079"
+      ],
+      "unresolved_project_members": [
+        "BCS-000080"
+      ],
+      "internal_or_version_links": 4,
+      "cross_medium_links": 1,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-remote-play-guide",
+      "status": "GAP_REMAINS",
+      "members": [
+        "BCS-000024"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000024"
+      ],
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s2-planning",
+      "status": "PLACED",
+      "members": [
+        "BCS-000042"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000042"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-bestiary",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000082",
+        "BCS-000083"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000082",
+        "BCS-000083"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-campaign-manuscript",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000041",
+        "BCS-000043",
+        "BCS-000045"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000041",
+        "BCS-000043",
+        "BCS-000045"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 2,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-campaign-structure",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000115"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000115"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-cartography",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000026",
+        "BCS-000081"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000026",
+        "BCS-000081"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 3,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-changelog",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000046"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000046"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 4,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-directory",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000069"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000069"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 5,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-encounters",
+      "status": "PLACED",
+      "members": [
+        "BCS-000074"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000074"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-golden-dawn",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000118"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000118"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-halwudgie-lore",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000119"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000119"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-island-games",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000117"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000117"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-jackalope-lore",
+      "status": "PLACED",
+      "members": [
+        "BCS-000121"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000121"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 0,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-lore-index",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000044"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000044"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 4,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-master-material",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000084"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000084"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-player-backgrounds",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000085"
+      ],
+      "readable_body": true,
+      "exact_project_members": [],
+      "unresolved_project_members": [
+        "BCS-000085"
+      ],
+      "internal_or_version_links": 3,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-public-docs",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000116"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000116"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-public-lore",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000076"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000076"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 4,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-timeline",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000070"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000070"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 3,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-uru-halfwudgie",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000086"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000086"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 4,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s3-uru-lore",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000120"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000120"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s5-google-sites-revision-process",
+      "status": "RESEARCH_READY",
+      "members": [
+        "BCS-000113"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000113"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 1,
+      "cross_medium_links": 0,
+      "live_question_answered": true
+    },
+    {
+      "document_family_id": "roanoke-s5-way-of-gun-fu",
+      "status": "CROSS_MEDIUM_LINKED",
+      "members": [
+        "BCS-000103",
+        "BCS-000110",
+        "BCS-000114"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000114"
+      ],
+      "unresolved_project_members": [],
+      "internal_or_version_links": 3,
+      "cross_medium_links": 1,
+      "live_question_answered": false
+    }
+  ],
+  "archived_only_catalog_ids": [
+    "BCS-000002",
+    "BCS-000004",
+    "BCS-000005",
+    "BCS-000006",
+    "BCS-000007",
+    "BCS-000008",
+    "BCS-000009",
+    "BCS-000010",
+    "BCS-000011",
+    "BCS-000012",
+    "BCS-000013",
+    "BCS-000014",
+    "BCS-000015",
+    "BCS-000016",
+    "BCS-000017",
+    "BCS-000018",
+    "BCS-000019",
+    "BCS-000020",
+    "BCS-000021",
+    "BCS-000022",
+    "BCS-000023",
+    "BCS-000025",
+    "BCS-000027",
+    "BCS-000028",
+    "BCS-000029",
+    "BCS-000030",
+    "BCS-000031",
+    "BCS-000032",
+    "BCS-000033",
+    "BCS-000034",
+    "BCS-000035",
+    "BCS-000036",
+    "BCS-000037",
+    "BCS-000038",
+    "BCS-000039",
+    "BCS-000040",
+    "BCS-000047",
+    "BCS-000048",
+    "BCS-000049",
+    "BCS-000050",
+    "BCS-000051",
+    "BCS-000052",
+    "BCS-000053",
+    "BCS-000059",
+    "BCS-000068"
+  ],
+  "container_count": 75,
+  "catalog_count": 120
+}

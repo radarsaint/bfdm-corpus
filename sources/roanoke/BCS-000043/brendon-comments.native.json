@@ -1,0 +1,44 @@
+{
+  "corpus_id": "BCS-000043",
+  "source": "google_drive_native_comments",
+  "author_filter": "Brendon Faulkner",
+  "comment_count": 4,
+  "comments": [
+    {
+      "id": "AAAADn9EE8g",
+      "content": "for story telling purposes I'm going to need 1-2 more",
+      "createdTime": "2019-08-29T06:31:18.069Z",
+      "modifiedTime": "2019-08-29T06:31:18.069Z",
+      "resolved": false,
+      "quoted": "Knights of the Roi Soleil - Monastic Order for Religious Artifact Recovery",
+      "replies": []
+    },
+    {
+      "id": "AAAADnx3DvU",
+      "content": "design arcanian spell schools to be discoverable. write 2-3 new spell school with complete lists of spells as variations on current spells (for things like detect magic which gives spell school and therefore can help the players identify which arcane effects are not circumventable)",
+      "createdTime": "2019-08-28T18:10:16.693Z",
+      "modifiedTime": "2019-08-28T18:10:16.693Z",
+      "resolved": false,
+      "quoted": "Replace curses with “Damned” (prevents player breaking dm plot armor)",
+      "replies": []
+    },
+    {
+      "id": "AAAADnx3DvQ",
+      "content": "Tying cp to rest is a good idea, except that some one could stack short rests infinitely and claim to be pumping out cp while off line.",
+      "createdTime": "2019-08-28T18:06:37.312Z",
+      "modifiedTime": "2019-08-28T18:06:37.312Z",
+      "resolved": false,
+      "quoted": "Resting (mandatory unless classes/feats override need)",
+      "replies": []
+    },
+    {
+      "id": "AAAADnx3DvM",
+      "content": "In regards to \"can trade\" does this mean \"can give\" \"can recieve\" or both?",
+      "createdTime": "2019-08-28T18:05:13.682Z",
+      "modifiedTime": "2019-08-28T18:05:13.682Z",
+      "resolved": false,
+      "quoted": "Trading CP",
+      "replies": []
+    }
+  ]
+}

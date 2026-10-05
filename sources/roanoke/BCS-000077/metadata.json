@@ -1,0 +1,128 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000077",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Crafting with Class (Dev Doc)",
+  "source_role": "system_design_dev",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Crafting with Class (Dev Doc).docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-03-02T18:22:58.323Z",
+  "modified_at": "2020-05-24T02:58:20.161Z",
+  "ingested_at": "2026-10-04T18:25:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Explicit byline in source: Rob Hubbard, Brendon Faulkner, Noah Carr.",
+    "project_ownership_context": "Roanoke Season 3 crafting-system development."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1f4X-uakPH_pTQ1WhI-yYA8RRExUVpJWYb0GYzp_Ii68",
+      "url": "https://docs.google.com/document/d/1f4X-uakPH_pTQ1WhI-yYA8RRExUVpJWYb0GYzp_Ii68/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000077/source.md",
+      "sha256": "9cad64d2436ddb3190e1f0dcba19fb5cc6e15c56f8920e6c8d1602fc58cb7c18",
+      "mime_type": "text/markdown",
+      "size_bytes": 21940
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000077/original/source.docx",
+      "sha256": "936184f45b9128bc1cab9279cfb85a498c6edef75108604a16007dc627083a92",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 20918
+    }
+  ],
+  "normalization": {
+    "method": "Exact donor normalized body reconciled from ingest/drive-project-v3; source wording was not rewritten.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document.",
+      "Historical revision bodies remain pending where the donor capture marked them pending."
+    ]
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "This Crafting with Class development document is the same named/bylined system family as BCS-000079, whose body explicitly says the system is for Roanoke Season 3.",
+        "support_refs": [
+          "BCS-000077",
+          "BCS-000079"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Created and developed before the documented July 2020 Season 3 live window.",
+        "support_refs": [
+          "BCS-000077",
+          "registry:roanoke-s3"
+        ]
+      },
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The source explicitly states Crafting Goals and develops the caste/labor/item-crafting system.",
+        "support_refs": [
+          "BCS-000077"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "DEV_PUBLIC_PAIR",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000078",
+      "confidence": "CONFIRMED",
+      "basis": "Both sources are titled Crafting with Class, carry the same Rob Hubbard/Brendon Faulkner/Noah Carr byline, and are explicitly labeled development versus public documents.",
+      "support_refs": [
+        "BCS-000077",
+        "BCS-000078"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000077",
+    "donor_git_blob_shas": {
+      "source_md": "a0256205f2b0d73612eea8d9aee53682d8d61258",
+      "metadata_json": "f666e8af46ed0ac78b045b6cf517bf5275e9aef6",
+      "original_docx": "bf4a70d332dc6b163f53b6b3f8c9b06efc17a806",
+      "comments_jsonl": "b49394665a0203deb92ccf53a39b33fbeefe7472",
+      "revisions_jsonl": "dd0d264a6f2db16757958dbef99156a77bbfe317"
+    },
+    "preservation_note": "Native Drive identity and captured source artifacts preserved while metadata was normalized to the current-main ingestion contract."
+  },
+  "supplemental_hashes": {
+    "comments_jsonl_sha256": "fdabfa07c3e3bd99fe90ef7dc2bed6bee3658a10f99552f120ced3a5f07046b4",
+    "revisions_jsonl_sha256": "699edea9814ed1ba1fc9a9cb1df49b3a1becc7dc1b636bd31ce7e251db1471f1"
+  }
+}

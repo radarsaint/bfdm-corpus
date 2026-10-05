@@ -1,0 +1,108 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000045",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke Season 3 Rough Draft.txt",
+  "source_role": "campaign_manuscript_draft",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke Season 3 Rough Draft.txt",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1XUIWqGkairN7_U5u8Kr0Alsd-onPteZSAcZVBWH5Im8",
+      "url": "https://docs.google.com/document/d/1XUIWqGkairN7_U5u8Kr0Alsd-onPteZSAcZVBWH5Im8/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_a558cf377d34819185788aa5eca11fc3",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke Season 3 Rough Draft.txt"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-campaign-manuscript",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000045/comments.json",
+      "sha256": "97f0fa823457d6768071c5c70da6e07a1eb6e54bc336d966e5930812847276b7",
+      "mime_type": "application/json",
+      "size_bytes": 88
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000045/original/source.txt",
+      "sha256": "9ba280ea54b9c13312db5ced664f3bcff48b3c3b8640568fec2f42ea7bf4edcb",
+      "mime_type": "text/plain",
+      "size_bytes": 197747
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000045/source.md",
+      "sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166",
+      "mime_type": "text/markdown",
+      "size_bytes": 193415
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The manuscript titles itself Roanoke S:3 and names the writers.",
+        "support_refs": [
+          "BCS-000045"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.",
+        "support_refs": [
+          "BCS-000045"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000045",
+    "canonical_corpus_id": "BCS-000045",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

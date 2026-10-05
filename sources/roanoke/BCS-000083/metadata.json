@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000083",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Cryptid Bestiary",
+  "source_role": "bestiary_index",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-bestiary",
+  "original_filename": "Cryptid Bestiary.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-13T10:34:24.266Z",
+  "modified_at": "2020-06-19T07:30:39.622Z",
+  "ingested_at": "2026-10-04T18:55:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 bestiary/index source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 bestiary development."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "161xINCE7BZ_RPvoVgJpBQYhTtLdKnpmZGsiCTYiIRh0",
+      "url": "https://docs.google.com/document/d/161xINCE7BZ_RPvoVgJpBQYhTtLdKnpmZGsiCTYiIRh0/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000083/original/source.docx",
+      "sha256": "d48831ab91cf4cedb5c92672f1a23974ada43a6ad5882e6280bf8eaaa716a019",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 252210
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000083/revisions.jsonl",
+      "sha256": "eef42950dc278192f6fe114874a6d1556a5174c7091c8cce5efb4017a15ebad2",
+      "mime_type": "application/json",
+      "size_bytes": 5061
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000083/source.md",
+      "sha256": "0ade240805c4d576d715bdc7ab0a1421383b8744a47fe7e85073cccb75d46cc5",
+      "mime_type": "text/markdown",
+      "size_bytes": 509
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "This is the cryptid bestiary index for the same creature set as the cryptid writing document.",
+        "support_refs": [
+          "BCS-000083",
+          "BCS-000082"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is an index of creatures and art links, not the stat-block manuscript.",
+        "support_refs": [
+          "BCS-000083"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000082",
+      "confidence": "STRONG",
+      "basis": "The bestiary index names creatures developed in the cryptid writing document, including the Pukwudgie. It does not replace those entries.",
+      "support_refs": [
+        "BCS-000083",
+        "BCS-000082"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000083",
+    "canonical_corpus_id": "BCS-000083",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}
