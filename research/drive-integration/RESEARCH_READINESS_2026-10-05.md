@@ -17,6 +17,7 @@ These are the families a researcher can follow from preparation into revision or
 | Family | Trajectory | Members |
 | --- | --- | --- |
 | `at-wars-end-narrative` | revision | `BCS-000060`, `BCS-000061`, `BCS-000062`, `BCS-000063` |
+| `empire-city-airship-qualification` | live_contact | `BCS-000073` |
 | `empire-city-crafting` | live_contact | `BCS-000001` |
 | `roanoke-crafting-system` | live_contact_and_revision | `BCS-000077`, `BCS-000078`, `BCS-000079`, `BCS-000080` |
 | `roanoke-s3-campaign-manuscript` | revision | `BCS-000041`, `BCS-000043`, `BCS-000045` |
@@ -29,12 +30,16 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 
 | Family | Longitudinal | Members |
 | --- | --- | --- |
+| `at-wars-end-cosmology` | LONGITUDINAL_RESEARCH_GAP | `BCS-000066` |
+| `at-wars-end-outline` | LONGITUDINAL_RESEARCH_GAP | `BCS-000064`, `BCS-000065` |
+| `at-wars-end-writing-process` | LONGITUDINAL_RESEARCH_GAP | `BCS-000067` |
 | `bastion-redoubt-campaign` | LONGITUDINAL_RESEARCH_GAP | `BCS-000056`, `BCS-000057`, `BCS-000058` |
 | `earthfall-rod` | LONGITUDINAL_RESEARCH_GAP | `BCS-000054`, `BCS-000055` |
 | `empire-city-broadsheet` | LONGITUDINAL_RESEARCH_GAP | `BCS-000005`, `BCS-000006`, `BCS-000007`, `BCS-000008`, `BCS-000009`, `BCS-000010`, `BCS-000011`, `BCS-000012`, `BCS-000013`, `BCS-000014`, `BCS-000015` |
-| `empire-city-operations` | LONGITUDINAL_RESEARCH_GAP | `BCS-000003`, `BCS-000016`, `BCS-000072`, `BCS-000073` |
+| `empire-city-operations` | LONGITUDINAL_RESEARCH_GAP | `BCS-000003`, `BCS-000016`, `BCS-000072` |
 | `empire-city-player-orientation` | LONGITUDINAL_RESEARCH_GAP | `BCS-000004` |
 | `empire-city-setting-lore` | LONGITUDINAL_RESEARCH_GAP | `BCS-000075` |
+| `roanoke-remote-play-guide` | LONGITUDINAL_RESEARCH_GAP | `BCS-000024` |
 | `roanoke-s2-planning` | LONGITUDINAL_RESEARCH_GAP | `BCS-000042` |
 | `roanoke-s3-bestiary` | LONGITUDINAL_RESEARCH_GAP | `BCS-000082`, `BCS-000083` |
 | `roanoke-s3-cartography` | LONGITUDINAL_RESEARCH_GAP | `BCS-000026`, `BCS-000081` |
@@ -54,6 +59,7 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-uru-lore` | LONGITUDINAL_RESEARCH_GAP | `BCS-000120` |
 | `roanoke-s3-week-operations` | LONGITUDINAL_RESEARCH_GAP | `BCS-000018`, `BCS-000029`, `BCS-000030`, `BCS-000031`, `BCS-000032`, `BCS-000033`, `BCS-000034`, `BCS-000035`, `BCS-000036`, `BCS-000037`, `BCS-000038`, `BCS-000039`, `BCS-000040`, `BCS-000048`, `BCS-000049`, `BCS-000050`, `BCS-000051`, `BCS-000052`, `BCS-000053`, `BCS-000071` |
 | `roanoke-s5-google-sites-revision-process` | LONGITUDINAL_RESEARCH_GAP | `BCS-000113` |
+| `roanoke-s5-way-of-gun-fu` | LONGITUDINAL_RESEARCH_GAP | `BCS-000103`, `BCS-000110`, `BCS-000114` |
 | `unplaced-five-week-planning` | LONGITUDINAL_RESEARCH_GAP | `BCS-000002` |
 
 ## Context, not precedent
@@ -64,20 +70,21 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 
 | Family | Status | Source ready | Longitudinal | Trajectory | Members |
 | --- | --- | --- | --- | --- | --- |
-| `at-wars-end-cosmology` | PLACED | no | NOT_SOURCE_READY | none | 1 |
-| `at-wars-end-narrative` | PLACED | no | LONGITUDINAL_RESEARCH_READY | revision | 4 |
-| `at-wars-end-outline` | PLACED | no | NOT_SOURCE_READY | none | 2 |
-| `at-wars-end-writing-process` | PLACED | no | NOT_SOURCE_READY | none | 1 |
+| `at-wars-end-cosmology` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
+| `at-wars-end-narrative` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | revision | 4 |
+| `at-wars-end-outline` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
+| `at-wars-end-writing-process` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `bastion-redoubt-campaign` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
 | `earthfall-rod` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
+| `empire-city-airship-qualification` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | live_contact | 1 |
 | `empire-city-broadsheet` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 11 |
 | `empire-city-crafting` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | live_contact | 1 |
-| `empire-city-operations` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 4 |
+| `empire-city-operations` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
 | `empire-city-player-orientation` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `empire-city-setting-lore` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `exploration-impossible-context` | CONTEXT_ONLY | no | NOT_PRECEDENT | context_only | 1 |
 | `roanoke-crafting-system` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | live_contact_and_revision | 4 |
-| `roanoke-remote-play-guide` | GAP_REMAINS | no | NOT_SOURCE_READY | none | 1 |
+| `roanoke-remote-play-guide` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s2-planning` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-bestiary` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 2 |
 | `roanoke-s3-campaign-manuscript` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_READY | revision | 3 |
@@ -100,18 +107,18 @@ Readable and placed, or explicitly unplaced, but not a revision or live-contact 
 | `roanoke-s3-uru-lore` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 | `roanoke-s3-week-operations` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 20 |
 | `roanoke-s5-google-sites-revision-process` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
-| `roanoke-s5-way-of-gun-fu` | GAP_REMAINS | no | NOT_SOURCE_READY | none | 3 |
+| `roanoke-s5-way-of-gun-fu` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 3 |
 | `unplaced-five-week-planning` | SOURCE_RESEARCH_READY | yes | LONGITUDINAL_RESEARCH_GAP | none | 1 |
 
 ## Family detail
 
-### `at-wars-end-cosmology` — PLACED / NOT_SOURCE_READY
+### `at-wars-end-cosmology` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000066`
 
 Trajectory: `none`.
 
-### `at-wars-end-narrative` — PLACED / LONGITUDINAL_RESEARCH_READY
+### `at-wars-end-narrative` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_READY
 
 Members: `BCS-000060`, `BCS-000061`, `BCS-000062`, `BCS-000063`
 
@@ -119,13 +126,13 @@ Trajectory: `revision`.
 
 This trajectory is revision history, not live play.
 
-### `at-wars-end-outline` — PLACED / NOT_SOURCE_READY
+### `at-wars-end-outline` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000064`, `BCS-000065`
 
 Trajectory: `none`.
 
-### `at-wars-end-writing-process` — PLACED / NOT_SOURCE_READY
+### `at-wars-end-writing-process` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000067`
 
@@ -143,6 +150,14 @@ Members: `BCS-000054`, `BCS-000055`
 
 Trajectory: `none`.
 
+### `empire-city-airship-qualification` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_READY
+
+Members: `BCS-000073`
+
+Trajectory: `live_contact`.
+
+Live contact is only the recorded IMPLEMENTED_IN link. It is not a claim that every rule in the family was used.
+
 ### `empire-city-broadsheet` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000005`, `BCS-000006`, `BCS-000007`, `BCS-000008`, `BCS-000009`, `BCS-000010`, `BCS-000011`, `BCS-000012`, `BCS-000013`, `BCS-000014`, `BCS-000015`
@@ -159,7 +174,7 @@ Live contact is only the recorded IMPLEMENTED_IN link. It is not a claim that ev
 
 ### `empire-city-operations` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
-Members: `BCS-000003`, `BCS-000016`, `BCS-000072`, `BCS-000073`
+Members: `BCS-000003`, `BCS-000016`, `BCS-000072`
 
 Trajectory: `none`.
 
@@ -189,7 +204,7 @@ Trajectory: `live_contact_and_revision`.
 
 Exact project deliberately unresolved: `BCS-000080`
 
-### `roanoke-remote-play-guide` — GAP_REMAINS / NOT_SOURCE_READY
+### `roanoke-remote-play-guide` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000024`
 
@@ -337,13 +352,11 @@ Members: `BCS-000113`
 
 Trajectory: `none`.
 
-### `roanoke-s5-way-of-gun-fu` — GAP_REMAINS / NOT_SOURCE_READY
+### `roanoke-s5-way-of-gun-fu` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
 Members: `BCS-000103`, `BCS-000110`, `BCS-000114`
 
 Trajectory: `none`.
-
-Live-use question is not yet explicit on every member.
 
 ### `unplaced-five-week-planning` — SOURCE_RESEARCH_READY / LONGITUDINAL_RESEARCH_GAP
 
@@ -377,6 +390,7 @@ The source is present. The fact is not established. Do not fill these in by infe
 - `BCS-000018` `live_use` (NOT_ESTABLISHED): This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.
 - `BCS-000024` `exact_project` (NOT_ESTABLISHED): The file is titled Roanoke S2, but the body is a Discord remote-play guide for the Cascadia Gamers Alliance and does not state Season 2 membership.
 - `BCS-000024` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000024` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000026` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000029` `live_use` (NOT_ESTABLISHED): This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.
 - `BCS-000030` `live_use` (NOT_ESTABLISHED): This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.
@@ -411,19 +425,27 @@ The source is present. The fact is not established. Do not fill these in by infe
 - `BCS-000059` `brendon_authorship` (NOT_ESTABLISHED): The manuscript is credited to Michael Kennish. Comments attributed to Brendon Faulkner in the preserved comments file are editorial context, not authorship of the manuscript.
 - `BCS-000059` `production_stage` (NOT_ESTABLISHED): The manuscript's own drafting stage is not a BFDM production stage and is not assigned.
 - `BCS-000060` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000060` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000061` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000061` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000062` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000062` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000063` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000063` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000064` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000064` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000065` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000065` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000066` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000066` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000067` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000067` `production_stage` (NOT_ESTABLISHED): No campaign production stage is stored. A filename, draft number, or project placement is not a stage.
 - `BCS-000069` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000070` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000071` `week_5_date_alignment` (NOT_ESTABLISHED): The directory dates week 5 as 8/07/2020-8/19/2020. The master schedule's week boundaries and the week 5 breakdown's Saturday 08/15/2020 do not use 8/07 as the week 5 start. The directory line is preserved and not corrected.
 - `BCS-000071` `live_use` (NOT_ESTABLISHED): This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred.
 - `BCS-000072` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
-- `BCS-000073` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000073` `rule_by_rule_live_identity` (NOT_ESTABLISHED): The 2021-07-11 #flight-school session runs this module's standard exercise: Sgt Manley, the four roles, artillery disabled as the ship leaves the hangar, and target balloons. Later flight-school missions are not identified as this module. The module also tells the DM they may invent other exercises. Those were not separated message by message.
 - `BCS-000074` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000075` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000076` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
@@ -438,6 +460,8 @@ The source is present. The fact is not established. Do not fill these in by infe
 - `BCS-000085` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
 - `BCS-000085` `exact_project` (NOT_ESTABLISHED): The style guide is related to Season 3 because it lists the Groundlings background that appears in the Season 3 public-docs compilation. The guide itself does not name a season, so it is not marked BELONGS_TO_PROJECT.
 - `BCS-000086` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.
+- `BCS-000103` `live_use` (NOT_ESTABLISHED): A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here.
+- `BCS-000110` `live_use` (NOT_ESTABLISHED): A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here.
 - `BCS-000113` `live_use` (NOT_ESTABLISHED): Site revision notes do not establish that a published rule was used in play.
 - `BCS-000114` `live_use` (NOT_ESTABLISHED): A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here.
 - `BCS-000115` `live_use` (NOT_ESTABLISHED): This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.

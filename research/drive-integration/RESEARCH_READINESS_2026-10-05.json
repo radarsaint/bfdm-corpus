@@ -1,9 +1,9 @@
 {
   "families": [
     {
-      "status": "PLACED",
-      "source_research_ready": false,
-      "longitudinal_status": "NOT_SOURCE_READY",
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
         "BCS-000066"
@@ -22,8 +22,8 @@
       "cross_medium_links": 0
     },
     {
-      "status": "PLACED",
-      "source_research_ready": false,
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
       "longitudinal_status": "LONGITUDINAL_RESEARCH_READY",
       "trajectory": "revision",
       "members": [
@@ -51,9 +51,9 @@
       "cross_medium_links": 0
     },
     {
-      "status": "PLACED",
-      "source_research_ready": false,
-      "longitudinal_status": "NOT_SOURCE_READY",
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
         "BCS-000064",
@@ -74,9 +74,9 @@
       "cross_medium_links": 0
     },
     {
-      "status": "PLACED",
-      "source_research_ready": false,
-      "longitudinal_status": "NOT_SOURCE_READY",
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
         "BCS-000067"
@@ -141,6 +141,29 @@
       "document_family_id": "earthfall-rod",
       "internal_or_version_links": 1,
       "cross_medium_links": 0
+    },
+    {
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_READY",
+      "trajectory": "live_contact",
+      "members": [
+        "BCS-000073"
+      ],
+      "readable_body": true,
+      "exact_project_members": [
+        "BCS-000073"
+      ],
+      "unresolved_project_members": [],
+      "live_question_answered": true,
+      "live_link_types": [
+        "IMPLEMENTED_IN"
+      ],
+      "revision_link_types": [],
+      "context_only": false,
+      "document_family_id": "empire-city-airship-qualification",
+      "internal_or_version_links": 1,
+      "cross_medium_links": 1
     },
     {
       "status": "SOURCE_RESEARCH_READY",
@@ -214,15 +237,13 @@
       "members": [
         "BCS-000003",
         "BCS-000016",
-        "BCS-000072",
-        "BCS-000073"
+        "BCS-000072"
       ],
       "readable_body": true,
       "exact_project_members": [
         "BCS-000003",
         "BCS-000016",
-        "BCS-000072",
-        "BCS-000073"
+        "BCS-000072"
       ],
       "unresolved_project_members": [],
       "live_question_answered": true,
@@ -329,9 +350,9 @@
       "cross_medium_links": 1
     },
     {
-      "status": "GAP_REMAINS",
-      "source_research_ready": false,
-      "longitudinal_status": "NOT_SOURCE_READY",
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
         "BCS-000024"
@@ -864,9 +885,9 @@
       "cross_medium_links": 0
     },
     {
-      "status": "GAP_REMAINS",
-      "source_research_ready": false,
-      "longitudinal_status": "NOT_SOURCE_READY",
+      "status": "SOURCE_RESEARCH_READY",
+      "source_research_ready": true,
+      "longitudinal_status": "LONGITUDINAL_RESEARCH_GAP",
       "trajectory": "none",
       "members": [
         "BCS-000103",
@@ -875,10 +896,12 @@
       ],
       "readable_body": true,
       "exact_project_members": [
+        "BCS-000103",
+        "BCS-000110",
         "BCS-000114"
       ],
       "unresolved_project_members": [],
-      "live_question_answered": false,
+      "live_question_answered": true,
       "live_link_types": [],
       "revision_link_types": [],
       "context_only": false,
@@ -1060,6 +1083,13 @@
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
+      "document_family_id": "roanoke-remote-play-guide"
+    },
+    {
+      "corpus_id": "BCS-000024",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
       "document_family_id": "roanoke-remote-play-guide"
     },
     {
@@ -1301,10 +1331,24 @@
       "document_family_id": "at-wars-end-narrative"
     },
     {
+      "corpus_id": "BCS-000060",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
+      "document_family_id": "at-wars-end-narrative"
+    },
+    {
       "corpus_id": "BCS-000061",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
+      "document_family_id": "at-wars-end-narrative"
+    },
+    {
+      "corpus_id": "BCS-000061",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
       "document_family_id": "at-wars-end-narrative"
     },
     {
@@ -1315,10 +1359,24 @@
       "document_family_id": "at-wars-end-narrative"
     },
     {
+      "corpus_id": "BCS-000062",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
+      "document_family_id": "at-wars-end-narrative"
+    },
+    {
       "corpus_id": "BCS-000063",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
+      "document_family_id": "at-wars-end-narrative"
+    },
+    {
+      "corpus_id": "BCS-000063",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
       "document_family_id": "at-wars-end-narrative"
     },
     {
@@ -1329,10 +1387,24 @@
       "document_family_id": "at-wars-end-outline"
     },
     {
+      "corpus_id": "BCS-000064",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
+      "document_family_id": "at-wars-end-outline"
+    },
+    {
       "corpus_id": "BCS-000065",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
+      "document_family_id": "at-wars-end-outline"
+    },
+    {
+      "corpus_id": "BCS-000065",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
       "document_family_id": "at-wars-end-outline"
     },
     {
@@ -1343,10 +1415,24 @@
       "document_family_id": "at-wars-end-cosmology"
     },
     {
+      "corpus_id": "BCS-000066",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
+      "document_family_id": "at-wars-end-cosmology"
+    },
+    {
       "corpus_id": "BCS-000067",
       "question": "live_use",
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
+      "document_family_id": "at-wars-end-writing-process"
+    },
+    {
+      "corpus_id": "BCS-000067",
+      "question": "production_stage",
+      "status": "NOT_ESTABLISHED",
+      "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage.",
       "document_family_id": "at-wars-end-writing-process"
     },
     {
@@ -1386,10 +1472,10 @@
     },
     {
       "corpus_id": "BCS-000073",
-      "question": "live_use",
+      "question": "rule_by_rule_live_identity",
       "status": "NOT_ESTABLISHED",
-      "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
-      "document_family_id": "empire-city-operations"
+      "basis": "The 2021-07-11 #flight-school session runs this module's standard exercise: Sgt Manley, the four roles, artillery disabled as the ship leaves the hangar, and target balloons. Later flight-school missions are not identified as this module. The module also tells the DM they may invent other exercises. Those were not separated message by message.",
+      "document_family_id": "empire-city-airship-qualification"
     },
     {
       "corpus_id": "BCS-000074",
@@ -1488,6 +1574,20 @@
       "status": "NOT_ESTABLISHED",
       "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.",
       "document_family_id": "roanoke-s3-uru-halfwudgie"
+    },
+    {
+      "corpus_id": "BCS-000103",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-way-of-gun-fu"
+    },
+    {
+      "corpus_id": "BCS-000110",
+      "question": "live_use",
+      "status": "NOT_ESTABLISHED",
+      "basis": "A published Season 5 page is not evidence the subclass was used in play. No Season 5 live Discord harvest is linked here.",
+      "document_family_id": "roanoke-s5-way-of-gun-fu"
     },
     {
       "corpus_id": "BCS-000113",

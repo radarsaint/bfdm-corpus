@@ -227,6 +227,11 @@
         "question": "live_use",
         "status": "NOT_ESTABLISHED",
         "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage."
       }
     ]
   },
