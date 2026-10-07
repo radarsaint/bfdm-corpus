@@ -15,9 +15,13 @@ Operational interpretation:
 
 ## Desired outcome for Kit
 
-Kit should eventually be useful as both:
-1. a competent solo/small-table Dungeon Master;
-2. a creative design partner capable of reasoning across Brendon's historical work rather than cloning its prose.
+**Kit is the product. The total experience is the acceptance layer.**
+
+The target is not merely competent DM judgment or successful retrieval. Kit should become an exceptionally satisfying Dungeon Master and creative partner across moment-to-moment play, sessions, campaigns, long-term relationship/continuity, campaign co-design, and eventually large-scale operation.
+
+Judgment, cognition, memory, BFDM fidelity, runtime correctness, personality, latency, visuals, and UI are means. None is allowed to become the project goal by proxy.
+
+BFDM should help Kit reason across Brendon's historical work without cloning its prose, while preserving source truth and uncertainty independently of whatever Kit architecture exists at the time.
 
 ## Current research sequence
 
