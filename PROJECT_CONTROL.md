@@ -5,6 +5,7 @@
 **Sibling repo:** `radarsaint/dnd-solo`
 
 Read `COORDINATION.md` before substantial cross-agent work.
+For the durable project/corpus mental model, read `radarsaint/dnd-solo/docs/PROJECT_UNDERSTANDING.md` from the paired coordination branch until it lands on `main`; do not duplicate that document in this repo.
 
 This file is deliberately short and rewritable. Git history, issues, PRs, and dated research artifacts preserve history.
 
