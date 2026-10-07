@@ -1,0 +1,18 @@
+{
+  "schema": "kit_project_control/v1",
+  "repo": "radarsaint/bfdm-corpus",
+  "role": "HISTORICAL_ARCHIVE_AND_RESEARCH",
+  "sibling_repo": "radarsaint/dnd-solo",
+  "last_verified_main": "65513f294e72a3eb961d5699c21ddc1f14ceef2c",
+  "verified_on": "2026-10-07",
+  "current_entrypoint": "PROJECT_CONTROL.md",
+  "coordination_contract": "COORDINATION.md",
+  "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
+  "research_entrypoints": [
+    "research/NEXT_HANDOFF.md",
+    "research/STATUS.md",
+    "research/RESEARCH_STATE.json"
+  ],
+  "verify_live_main_before_state_sensitive_work": true,
+  "canonical_rule": "bfdm-corpus main is merged source/research truth; active PRs are proposed state and must be named"
+}
