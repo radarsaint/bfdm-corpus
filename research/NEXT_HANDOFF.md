@@ -27,6 +27,42 @@ PR #38 is not canonical `main`, but it materially changes how current researcher
 
 PR #37 preserves current Kit/BFDM strategic planning, including Stage 1–4 sequencing and tool allocation. It is project direction, not historical BFDM evidence, and remains an unmerged draft.
 
+## Friday ChatGPT Work queue
+
+Use scarce Work capacity for evidence-heavy investigations that ordinary GPT should not do interactively.
+
+Priority order:
+
+1. **Phase-2-critical semantic verification.** Extend/finish only the PR #38 proposition set actually required by downstream Phase 2/Stage 3 work. Skip if the active integrity thread has already completed the same dependency surface.
+2. **Earthfall/Saturday adversarial attack on PR #28.** Treat the ten contrast families as hypotheses. Independently reconstruct primary evidence and classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE.
+3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
+4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
+5. **Phase 2B cross-format creative-method contrast.** Use direct design/revision evidence and do not claim table success.
+6. **Selective authorship/acceptance reconstruction** only for workbench claims used by the substantive research above.
+
+Wait until dependencies are satisfied before:
+- structural same-nouns/different-decision benchmarks;
+- decision recognition/classification experiments;
+- scaled context-blindfold studies;
+- precedent cards or retrieval systems.
+
+Wrong use of Work:
+- human-object index expansion;
+- generic object lookup;
+- normal source checks;
+- corpus mechanics;
+- GraphRAG/vector/reranker work;
+- final cognition architecture.
+
+Every Work run must have:
+- exact repo/PR refs;
+- finite evidence domain;
+- exact stopping rule;
+- required output artifact;
+- scope limit;
+- invalidation conditions;
+- explicit do-not-duplicate instruction for active corpus-prep and PR #38 work.
+
 ## What is complete on main
 
 ### Discord model retrieval
