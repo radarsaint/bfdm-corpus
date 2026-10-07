@@ -1,6 +1,6 @@
 {
   "schema": "bfdm_research_state/v2",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-07",
   "canonical_repo": "radarsaint/bfdm-corpus",
   "canonical_branch": "main",
   "program_position": "STAGE_1_HARDENED_STAGE_2_NOT_DONE",
@@ -65,7 +65,9 @@
     "26": "OPEN_DRAFT_OLDER_DRIVE_HISTORY_PATH_USEFUL_LEDGER_MATERIAL_IN_MERGED_PR25",
     "27": "OPEN_DISCORD_RETRIEVAL_MAINTENANCE_NOT_ABSORBED_BY_2026-10-05_CONSOLIDATION",
     "28": "OPEN_DRAFT_PHASE2_DECISION_CONTRAST_RESEARCH_NOT_YET_UPDATED_FOR_EARTHFALL_SATURDAY",
-    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS"
+    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS",
+    "37": "OPEN_DRAFT_STRATEGIC_KIT_BFDM_PLANNING_NOT_HISTORICAL_EVIDENCE",
+    "38": "OPEN_DRAFT_ACTIVE_FORENSIC_DERIVED_RESEARCH_INTEGRITY_AUDIT_FAIL_CLOSED"
   },
   "research_stages": {
     "stage_1": {
@@ -144,5 +146,18 @@
     "32": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
     "34": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
     "35": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36"
+  },
+  "coordination": {
+    "project_control": "PROJECT_CONTROL.md",
+    "contract": "COORDINATION.md",
+    "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
+    "sibling_repo": "radarsaint/dnd-solo",
+    "rule": "verify live main; issues/PRs own live task state; open PR != canonical main"
+  },
+  "derived_research_trust": {
+    "status": "ACTIVE_FORENSIC_AUDIT",
+    "pr": 38,
+    "rule": "citation_or_locator_presence_does_not_equal_semantic_source_verification",
+    "default_for_unaudited_claims": "DO_NOT_ASSUME_VERIFIED"
   }
 }
