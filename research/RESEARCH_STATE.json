@@ -158,6 +158,35 @@
     "status": "ACTIVE_FORENSIC_AUDIT",
     "pr": 38,
     "rule": "citation_or_locator_presence_does_not_equal_semantic_source_verification",
-    "default_for_unaudited_claims": "DO_NOT_ASSUME_VERIFIED"
+    "default_for_unaudited_claims": "DO_NOT_ASSUME_VERIFIED",
+    "head_sha": "db69c938d26416f062cc68c8930bd2e10aef0b80",
+    "first_tranche": {
+      "derived_cases": 20,
+      "propositions": 120,
+      "semantic_status": "ALL_UNVERIFIED_AT_AUDIT_OBSERVATION",
+      "interpretation": "unverified != false; semantic certification has not yet been earned"
+    }
+  },
+  "readiness_axes": {
+    "source_substrate_readiness": "Can the relevant primary evidence be found, oriented, and retrieved?",
+    "derived_research_trust_readiness": "Have the specific reused propositions/hypotheses been semantically reconstructed from primary evidence at the claimed scope/confidence?",
+    "rule": "source readiness does not imply derived-research trust readiness"
+  },
+  "friday_work_posture": {
+    "bottleneck": "EPISTEMIC_TRUST_AND_ADVERSARIAL_RESEARCH",
+    "top_jobs": [
+      "semantic verification of Phase-2-critical dependency surface",
+      "Earthfall/Saturday adversarial attack on PR28 hypotheses",
+      "restraint and negative-space research",
+      "failure-diagnosis-correction-later-behavior trajectories",
+      "bounded Phase 2B cross-format creative-method contrast"
+    ],
+    "avoid": [
+      "generic corpus expansion",
+      "human-object index expansion with scarce Work",
+      "precedent infrastructure before verified cases",
+      "GraphRAG or elaborate retrieval",
+      "final cognition architecture"
+    ]
   }
 }
