@@ -210,7 +210,13 @@ def find_discord_messages(root: Path, wanted: Iterable[str]) -> dict[str, dict[s
         for line_no, line in enumerate(shard.read_text(encoding="utf-8").splitlines(), 1):
             if not line.strip():
                 continue
-            row = json.loads(line)
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                # A malformed unrelated projection row must not make a cited
+                # message undiscoverable. If the cited row itself cannot be
+                # reconstructed it will remain missing and validation fails.
+                continue
             msg_id = str(row.get("id", ""))
             if msg_id not in wanted_set:
                 continue
@@ -346,6 +352,8 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
     ident = identity_row(root)
     ident_digest = canonical_json_digest(ident) if ident else None
 
+    actual_states: dict[str, str] = {}
+
     for key in sorted(expected & actual):
         case_id, field = key
         rec = by_key[key]
@@ -418,9 +426,30 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
         if locator is not None and locator not in LOCATOR_OUTCOMES:
             errors.append(f"{case_id}:{field}: unknown locator-forensics outcome {locator}")
 
-        current_state = evidence_state_digest(rec)
+        actual_record = copy.deepcopy(rec)
+        actual_record.setdefault("proposition", {})["digest"] = current_prop_digest
+        for prep_state in actual_record.get("evidence", {}).get("prep", []):
+            p = root / prep_state.get("representation_path", "")
+            if p.exists():
+                current_source = p.read_text(encoding="utf-8")
+                prep_state["representation_sha256"] = sha256_text(current_source)
+                try:
+                    current_excerpt = excerpt(current_source, int(prep_state["line_start"]), int(prep_state["line_end"]))
+                    prep_state["excerpt_digest"] = "sha256:" + sha256_text(current_excerpt)
+                except (IndexError, KeyError, ValueError):
+                    prep_state["excerpt_digest"] = None
+        for live_state in actual_record.get("evidence", {}).get("live", []):
+            mid = str(live_state.get("message_id", ""))
+            item = discord.get(mid)
+            live_state["canonical_database_sha256"] = db_sha
+            live_state["projection_row_digest"] = item["row_digest"] if item else None
+        for dep_state in actual_record.get("dependencies", []):
+            if dep_state.get("type") == "IDENTITY_ASSERTION" and dep_state.get("id") == BRENDON_S3_IDENTITY:
+                dep_state["digest"] = ident_digest
+        current_state = evidence_state_digest(actual_record)
+        actual_states[rec["audit_id"]] = current_state
         if current_state != rec.get("prepared_state_sha256"):
-            errors.append(f"{case_id}:{field}: prepared state digest is stale")
+            errors.append(f"{case_id}:{field}: prepared state digest is stale; REQUIRES_REVALIDATION")
         review_state = semantic.get("review_packet_state_sha256")
         if status in VERIFIED_STATUSES and not review_state:
             errors.append(f"{case_id}:{field}: verified status lacks version-bound review packet state")
@@ -442,9 +471,9 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
     if meta is None:
         errors.append(f"missing or malformed review packet metadata: {packet_path}")
     elif records:
-        current_global = global_packet_state(records)
+        current_global = canonical_json_digest(sorted(actual_states.items()))
         if meta.get("packet_state_sha256") != current_global:
-            errors.append("stale review packet: packet state does not match audit ledger")
+            errors.append("stale review packet: packet state does not match current proposition/evidence dependencies")
         for rec in records:
             semantic = rec.get("semantic", {})
             if semantic.get("status") in VERIFIED_STATUSES:

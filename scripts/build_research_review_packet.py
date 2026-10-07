@@ -291,7 +291,10 @@ def load_context(root: Path, item: dict[str, Any], radius: int = 2) -> list[dict
         for line in path.read_text(encoding="utf-8").splitlines():
             if not line.strip():
                 continue
-            row = json.loads(line)
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
             if row.get("channel_id") == target.get("channel_id"):
                 rows.append(row)
     rows.sort(key=lambda r: (r.get("created_at", ""), str(r.get("id", ""))))
