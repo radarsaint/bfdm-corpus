@@ -63,6 +63,14 @@ Any worker relying on one of these must name the PR and branch explicitly.
 
 Important refinement: `READY_WITH_SCOPE_LIMITS` in source/readiness documentation means the evidence surface can be researched. It does **not** certify that existing derived summaries/cases over that evidence have passed semantic review.
 
+## Authority traps
+
+- Historical/pinned Kit or BFDM documents may call themselves canonical while describing an older state.
+- The in-repo BFDM mirror inside `dnd-solo` is not canonical research truth.
+- BFDM PRs #24 and #26 remain open but are older Drive-integration paths superseded in substance by merged PR #25.
+- PR #28 and PR #33 are active drafts, not landed research products.
+- Repository visibility is not part of corpus authority; stale “private” wording in Kit-side artifacts must not affect which repo is canonical.
+
 ## Research discipline
 
 Preserve these distinctions:
