@@ -7,6 +7,7 @@ an interpretation of historical evidence is semantically correct.
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import re
