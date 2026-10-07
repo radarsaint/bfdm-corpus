@@ -67,7 +67,7 @@ Important refinement: `READY_WITH_SCOPE_LIMITS` in source/readiness documentatio
 
 - Historical/pinned Kit or BFDM documents may call themselves canonical while describing an older state.
 - The in-repo BFDM mirror inside `dnd-solo` is not canonical research truth.
-- BFDM PRs #24 and #26 remain open but are older Drive-integration paths superseded in substance by merged PR #25.
+- BFDM PRs #24 and #26 are older Drive-integration drafts superseded in substance by merged PR #25. Landed `research/drive-integration/SOURCE_RELATIONSHIP_MODEL_V1.md` is the relationship model and explicitly rejects a competing source-relations registry. #24's leftovers are that rejected registry plus pilot notes, not missing primary sources. #26's leftovers are an old validator and workflow, not missing primary sources. Do not revive either path.
 - PR #28 and PR #33 are active drafts, not landed research products.
 - Repository visibility is not part of corpus authority; stale “private” wording in Kit-side artifacts must not affect which repo is canonical.
 

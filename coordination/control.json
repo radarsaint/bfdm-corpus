@@ -21,6 +21,7 @@
       "24",
       "26"
     ],
+    "old_drive_prs_status": "SUPERSEDED_BY_MERGED_25_NO_UNIQUE_PRIMARY_SOURCES_COMPETING_SOURCE_RELATIONS_REGISTRY_REJECTED",
     "active_unmerged_research": [
       "28",
       "33",
@@ -35,7 +36,7 @@
     "skippy_grok_bots": "RUNTIME_ENGINEERING_AND_INTEGRATION",
     "gpt_workers": "RESEARCH_EVALUATION_AUDIT_SYNTHESIS",
     "chatgpt_work": "SCARCE_MULTI_SOURCE_AUTONOMOUS_RESEARCH",
-    "grok_build": "DETERMINISTIC_REPO_AND_TOOLING_WORK"
+    "grok_build": "DETERMINISTIC_REPO_AND_TOOLING_WORK_NOT_SKIPPY_NOT_A_GROK_BOT"
   },
   "governing_correction": "PROXY_EVIDENCE_IS_NOT_DEMONSTRATED_TRUTH"
 }
