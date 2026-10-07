@@ -1,75 +1,76 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"evidence_dependency_summary": {"bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:95630f2423ddfe52f4d601a234b9c54e43939e2f49cf5cdd4e7362d27e56e18c", "packet_state_sha256": "sha256:4a510d7ec3dea3a27b408056d8ea3afb60a3f1c28b3130fb508a856b21864dc5", "proposition_count": 120, "repository_state_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl"}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:21bec6da35f72b5b0d0e08494f396f657a02e9d14f110e4a80600cf226d55890", "packet_state_sha256": "sha256:b48504e665c149f743528ded83f9089fac425891dc2cbaf428eb0a7e9f03122b", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
 
-Generated view only. Historical truth remains in BCS/native sources; canonical audit state remains in `research/integrity/audit_ledger.jsonl`.
+Generated view only. Historical truth remains in BCS/native sources; canonical audit state remains in research/integrity/audit_ledger.jsonl.
 
-Every proposition in this packet is **UNVERIFIED** unless its ledger record explicitly says otherwise. Mechanical reconstruction does not certify motive, causality, scope, or transfer.
+Every proposition is UNVERIFIED unless its nested ledger verdict explicitly says otherwise. Mechanical reconstruction does not certify motive, causality, scope, transfer, or expert principle.
 
 ## Tranche facts
 
 - Cases: 20.
 - Audit propositions: 120.
-- Markdown/JSON relationship: synchronized equivalent representations; neither declares itself generated.
-- BCS-000045 normalized source SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`.
-- Canonical S3 Discord database LFS SHA-256: `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`.
-- Confirmed Brendon S3 Discord identity: `identity:brendon:discord:313689699627696139:roanoke-s3` / immutable user `313689699627696139`.
+- Markdown/JSON relationship: exact synchronized equivalents at staging time; neither declares itself generated from the other.
+- BCS-000045 normalized body SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166.
+- Canonical S3 Discord database LFS SHA-256: 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d.
+- Confirmed Brendon S3 Discord identity: identity:brendon:discord:313689699627696139:roanoke-s3 / immutable user 313689699627696139.
 
 ### BDC-S3-004 forensic boundary
 
-The disputed prep citation was present in the first v1 Markdown commit (`22c1b645...`). PR #2 preserved no BCS-000045 body at its base or head. The later preserved Library/Drive normalized and export representations both resolve those coordinates to unrelated material and contain no relevant limb-loss/handwave prep passage. Classification: `ORIGINAL_REPRESENTATION_UNAVAILABLE`; current cited support: `SUPPORT_NOT_FOUND`; representation drift is **not established**.
+The disputed prep locators were already present in the first v1 Markdown commit. PR #2 preserved no BCS-000045 representation. The later preserved normalized and export snapshots both resolve those coordinates to unrelated material and contain no relevant limb-loss/handwave prep passage. Both locators are ORIGINAL_REPRESENTATION_UNAVAILABLE; their current support result is SUPPORT_NOT_FOUND; representation drift is not established.
 
 ---
 
 ## BDC-S3-001 — A declined hook advances to its failure state
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A scheduled adventure hook was available, but the players appeared tired and might skip it.
-- audit: `audit:BDC-S3-001:situation`
-- proposition: `sha256:4ea65e0e474ba802af77778968a8fa913afdd0ac964d24162b9b2b5d31c608c5`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-001:situation
+- proposition: sha256:4ea65e0e474ba802af77778968a8fa913afdd0ac964d24162b9b2b5d31c608c5
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** Player energy/availability mattered more than forcing the day's prepared content.
-- audit: `audit:BDC-S3-001:noticed`
-- proposition: `sha256:7dbaa2bb33dd64bc08dda7ccadf08193ff19d33dde5d0a13b2f8af36312ad3c6`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-001:noticed
+- proposition: sha256:7dbaa2bb33dd64bc08dda7ccadf08193ff19d33dde5d0a13b2f8af36312ad3c6
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** player choice, campaign continuity, consequences.
-- audit: `audit:BDC-S3-001:values`
-- proposition: `sha256:7a769f5306c3f073c0bcd40d7846665776805f0da0bc03ef72cfefad55c4cdf2`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-001:values
+- proposition: sha256:7a769f5306c3f073c0bcd40d7846665776805f0da0bc03ef72cfefad55c4cdf2
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon explicitly told the group they did not have to adventure and noted that he already had a fail condition for leaving the situation unchecked.
-- audit: `audit:BDC-S3-001:intervention`
-- proposition: `sha256:6a7c6df0f3c6ee3e04665397422637373e839810e7dd7bbae45d874cbebdbd44`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-001:intervention
+- proposition: sha256:6a7c6df0f3c6ee3e04665397422637373e839810e7dd7bbae45d874cbebdbd44
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** Players immediately volunteered to go; the hook remained voluntary, while the world consequence remained credible.
-- audit: `audit:BDC-S3-001:observed_result`
-- proposition: `sha256:86ff46a931ecb2f47c880a9a20bf67f2caa456a6330eefb10cde0e57a14370f8`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-001:observed_result
+- proposition: sha256:86ff46a931ecb2f47c880a9a20bf67f2caa456a6330eefb10cde0e57a14370f8
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Make participation optional while keeping the situation consequential. A hook can be declined; the world does not freeze when it is.
-- audit: `audit:BDC-S3-001:reusable_judgment`
-- proposition: `sha256:d5f9540048f1234f0a72e05ac4d8b669197cf5de70488314ec46dc33ffb741c9`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-001:reusable_judgment
+- proposition: sha256:d5f9540048f1234f0a72e05ac4d8b669197cf5de70488314ec46dc33ffb741c9
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1911-L1923
 
 ### Prep excerpt — BCS-000045:L1911-L1923
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:7630b411ee0a85827655067814c0582b7bf78bc6ddf829cf6585780b4cb6411b`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:7630b411ee0a85827655067814c0582b7bf78bc6ddf829cf6585780b4cb6411b
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
                                 Château du Brûle 
@@ -90,11 +91,11 @@ Howls are heard in the night and the sound of alarm bells go off. Shouts come fr
 **Claimed live evidence.** `741819860043956335` (2020-08-09, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 741819860043956335
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0249.jsonl:437` @ row `sha256:a10432ab7def992cf14da073812ff98145b3b22da8c9b78a3a280d786bcb8330`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0249.jsonl:437 @ row sha256:a10432ab7def992cf14da073812ff98145b3b22da8c9b78a3a280d786bcb8330
 - timestamp: 2020-08-09T00:47:16.981000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -110,69 +111,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `741819860043956335`
+- BCS-000045:L1911-L1923: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 741819860043956335
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-002 — Recover momentum by reconnecting an existing unresolved thread
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** Play had drifted and the group asked what was on the agenda.
-- audit: `audit:BDC-S3-002:situation`
-- proposition: `sha256:c2027bf361eb8bd45ad62b5d6cec6ab017798f0c792cf1e858d9e165055b783c`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-002:situation
+- proposition: sha256:c2027bf361eb8bd45ad62b5d6cec6ab017798f0c792cf1e858d9e165055b783c
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The game needed direction, but an existing Chinnokin thread was already alive in the fiction.
-- audit: `audit:BDC-S3-002:noticed`
-- proposition: `sha256:7c9c30461b8983dae88001fc6e14b0d2b9a0654b48cc283adab464739792a900`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-002:noticed
+- proposition: sha256:7c9c30461b8983dae88001fc6e14b0d2b9a0654b48cc283adab464739792a900
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** momentum, planned through-line, continuity.
-- audit: `audit:BDC-S3-002:values`
-- proposition: `sha256:a7c8cb356af21773ead54431f4c1c6a69228606a3bd3f83e38f67877ba956d18`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-002:values
+- proposition: sha256:a7c8cb356af21773ead54431f4c1c6a69228606a3bd3f83e38f67877ba956d18
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon chose the Chinnokin storyline as the fastest way back toward planned content, then pointed to the in-world visitor at Fathoms Bridge instead of inventing a new quest.
-- audit: `audit:BDC-S3-002:intervention`
-- proposition: `sha256:790e7c2113443a34c7c5b53d08be8f0203fc9b3c404d886c2935d39150896d21`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-002:intervention
+- proposition: sha256:790e7c2113443a34c7c5b53d08be8f0203fc9b3c404d886c2935d39150896d21
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** Players immediately recognized the thread and began discussing how to pursue it.
-- audit: `audit:BDC-S3-002:observed_result`
-- proposition: `sha256:3e43e4c6f5aff0453bdd7a932cecc18fdf4f883dcdb261f2c8cb72b2205d7289`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-002:observed_result
+- proposition: sha256:3e43e4c6f5aff0453bdd7a932cecc18fdf4f883dcdb261f2c8cb72b2205d7289
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** When play drifts, steer first through an unresolved thread already present in the world. Prefer reconnection over replacement.
-- audit: `audit:BDC-S3-002:reusable_judgment`
-- proposition: `sha256:469d8a20575b2be3da2b97de2c8d887032b6ca7c9b91bf1389660c5f497fe086`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-002:reusable_judgment
+- proposition: sha256:469d8a20575b2be3da2b97de2c8d887032b6ca7c9b91bf1389660c5f497fe086
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L1636-L1647, BCS-000045:L2821-L2825
 
 ### Prep excerpt — BCS-000045:L1636-L1647
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:a61b99b82fd4f2d3d62ba127aee7c89d99a9b4fc51cfa53d1fa976d712a8dac3`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:a61b99b82fd4f2d3d62ba127aee7c89d99a9b4fc51cfa53d1fa976d712a8dac3
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Once the hag coven is ended, a decades old conflict between Uru (death worshiping vulture people) and The Chinnokin (Ancient Guardians of the sea) erupts on the island. Both sides start out as hostile to the group. The Chinnokin are attempting to prevent the Deep from rising. The Chinnokin are giving the dead to the deep rather than consuming them. Croatoan has taken the form of something from beneath the waves because it benefits from the motes of divinity that the Uru have been delivering to the deep. 
@@ -190,10 +189,11 @@ The through line is a series of plot information to be given out in bits and pie
 ~~~
 
 ### Prep excerpt — BCS-000045:L2821-L2825
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:6da7a16531d0da8316783a727f21faedacc61861dbb8483684c7fe8112eecbaf`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:6da7a16531d0da8316783a727f21faedacc61861dbb8483684c7fe8112eecbaf
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Day 19 Water Rising, TBD Chinnokin Encounter, Storm's A Brewin', Destruction of tree
@@ -206,11 +206,11 @@ Day 21 Voting ends. Hags
 **Claimed live evidence.** `740653504682786826` (2020-08-05, 🗨 Social / 🙋-out-of-character); `740653688552554497` (2020-08-05, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 740653504682786826
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0219.jsonl:23` @ row `sha256:7f0e2d39d7ccf9cdda2bad2e00a1da29ebec200d9230dac9179357b86c489af7`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0219.jsonl:23 @ row sha256:7f0e2d39d7ccf9cdda2bad2e00a1da29ebec200d9230dac9179357b86c489af7
 - timestamp: 2020-08-05T19:32:36.193000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -223,11 +223,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 740653688552554497
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0219.jsonl:26` @ row `sha256:08bd95fc998a5ab61122a8416fa4e89da6911264841939e4df4aeb92f674f7ec`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0219.jsonl:26 @ row sha256:08bd95fc998a5ab61122a8416fa4e89da6911264841939e4df4aeb92f674f7ec
 - timestamp: 2020-08-05T19:33:20.031000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -243,69 +243,68 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `740653504682786826`
+- BCS-000045:L1636-L1647: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L2821-L2825: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 740653504682786826
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-003 — Prepared combat is subordinate to current party state
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** Four players were available late in the final week, with mixed resource depletion, and a preplanned fight was ready.
-- audit: `audit:BDC-S3-003:situation`
-- proposition: `sha256:450c64bf6f29f582f3b3af95a534a4ff73c797c7e9bd362add0f1caf4aea60d7`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-003:situation
+- proposition: sha256:450c64bf6f29f582f3b3af95a534a4ff73c797c7e9bd362add0f1caf4aea60d7
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The planned encounter assumptions no longer matched the actual party state and available time.
-- audit: `audit:BDC-S3-003:noticed`
-- proposition: `sha256:04dea366b2e520647d90d2cd4537f73db3db19b47b51040c01c58f5827334a3f`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-003:noticed
+- proposition: sha256:04dea366b2e520647d90d2cd4537f73db3db19b47b51040c01c58f5827334a3f
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** felt challenge, satisfaction, fairness, time.
-- audit: `audit:BDC-S3-003:values`
-- proposition: `sha256:46d62480906c1f974988c74cfe8be17e57d4aa2c3676325ee2620dc625885750`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-003:values
+- proposition: sha256:46d62480906c1f974988c74cfe8be17e57d4aa2c3676325ee2620dc625885750
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon declined to default into the preplanned fight and instead considered a mostly-RP version or mobs rather than bosses, explicitly asking whether that would be satisfying.
-- audit: `audit:BDC-S3-003:intervention`
-- proposition: `sha256:90c17baa7f52274fd1a0dfe347b787e1ac756724f8c142876f6ce3652ea1ad25`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-003:intervention
+- proposition: sha256:90c17baa7f52274fd1a0dfe347b787e1ac756724f8c142876f6ce3652ea1ad25
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The group discussed what kind of play would feel worthwhile rather than being pushed into the scheduled boss structure.
-- audit: `audit:BDC-S3-003:observed_result`
-- proposition: `sha256:ae426832373ad381354a65e1a64bc745b1ea679ae1a47d693b31d5d2b5732de8`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-003:observed_result
+- proposition: sha256:ae426832373ad381354a65e1a64bc745b1ea679ae1a47d693b31d5d2b5732de8
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Re-evaluate prepared encounters at the moment of delivery. Preserve the intended experience, not the mere fact that an encounter was prepared.
-- audit: `audit:BDC-S3-003:reusable_judgment`
-- proposition: `sha256:ca3ce3a2a6b6c22cecf9ef7aca06b2d61b526935e29f4d86d15767c513092eea`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-003:reusable_judgment
+- proposition: sha256:ca3ce3a2a6b6c22cecf9ef7aca06b2d61b526935e29f4d86d15767c513092eea
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L2840-L2857
 
 ### Prep excerpt — BCS-000045:L2840-L2857
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:24853649e78549bb0e6ae80fcda8230f486fbd857a68340af71c939b5d3d1aa7`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:24853649e78549bb0e6ae80fcda8230f486fbd857a68340af71c939b5d3d1aa7
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Day 29 Aether begins: Island returns to normal water level. Final lodestone summoning ritual.
@@ -331,11 +330,11 @@ The Hunger begins by inflicting deafness on the group, and dominates their mind 
 **Claimed live evidence.** `746253583552479272` (2020-08-21, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 746253583552479272
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0383.jsonl:27` @ row `sha256:cc4737a42df8389fbb66a4a2c459b9c40ddb0e082ae170dd0e8c4925d5800ea6`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0383.jsonl:27 @ row sha256:cc4737a42df8389fbb66a4a2c459b9c40ddb0e082ae170dd0e8c4925d5800ea6
 - timestamp: 2020-08-21T06:25:19.040000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -351,69 +350,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `746253583552479272`
+- BCS-000045:L2840-L2857: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 746253583552479272
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-004 — Handwave mechanics when the meaningful outcome is already chosen
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A player had deliberately asked for a dramatic limb loss, and another player asked whether healing mechanics were still necessary afterward.
-- audit: `audit:BDC-S3-004:situation`
-- proposition: `sha256:41200c8eb1298ed248bacfc5aecf2576635a4e8196634263dae7b49e1194316b`
-- semantic status: `UNVERIFIED`
-- flags: KNOWN_LOCATOR_FAILURE, SOURCE_UNAVAILABLE
+- audit: audit:BDC-S3-004:situation
+- proposition: sha256:41200c8eb1298ed248bacfc5aecf2576635a4e8196634263dae7b49e1194316b
+- semantic status: UNVERIFIED
+- flags: KNOWN_LOCATOR_FAILURE
 
 **What Brendon noticed.** The central dramatic outcome was consensual and already achieved; extra resolution risked becoming procedural noise.
-- audit: `audit:BDC-S3-004:noticed`
-- proposition: `sha256:2469db4425dfee712e3563129e28fb399b9117a8e5579331cb9f6ee2ab937aa8`
-- semantic status: `UNVERIFIED`
-- flags: KNOWN_LOCATOR_FAILURE, SOURCE_UNAVAILABLE
+- audit: audit:BDC-S3-004:noticed
+- proposition: sha256:2469db4425dfee712e3563129e28fb399b9117a8e5579331cb9f6ee2ab937aa8
+- semantic status: UNVERIFIED
+- flags: KNOWN_LOCATOR_FAILURE
 
 **What mattered.** player intent, dramatic payoff, mechanical relevance.
-- audit: `audit:BDC-S3-004:values`
-- proposition: `sha256:967f68661bde29f31c3d60704a11f90cb0dcbb973c2aa3f4b1b11cc248e26440`
-- semantic status: `UNVERIFIED`
-- flags: KNOWN_LOCATOR_FAILURE, SOURCE_UNAVAILABLE
+- audit: audit:BDC-S3-004:values
+- proposition: sha256:967f68661bde29f31c3d60704a11f90cb0dcbb973c2aa3f4b1b11cc248e26440
+- semantic status: UNVERIFIED
+- flags: KNOWN_LOCATOR_FAILURE
 
 **Intervention.** Brendon allowed the bleeding to be stopped if desired but was willing to handwave the remainder because the scene had delivered the requested outcome.
-- audit: `audit:BDC-S3-004:intervention`
-- proposition: `sha256:eaa27ac4447d386501ab637c76d53024489d915294f739dd50a0fa15b5448265`
-- semantic status: `UNVERIFIED`
-- flags: CAUSALITY_CLAIM, KNOWN_LOCATOR_FAILURE, SOURCE_UNAVAILABLE
+- audit: audit:BDC-S3-004:intervention
+- proposition: sha256:eaa27ac4447d386501ab637c76d53024489d915294f739dd50a0fa15b5448265
+- semantic status: UNVERIFIED
+- flags: CAUSALITY_CLAIM, KNOWN_LOCATOR_FAILURE
 
 **Observed result.** The table treated the result as a successful dramatic moment rather than reopening it through unnecessary rolls.
-- audit: `audit:BDC-S3-004:observed_result`
-- proposition: `sha256:edeb0115cbd0a0e2de7190a3e2b322a7dc143851e7b6dcecdd70c73d00ec4622`
-- semantic status: `UNVERIFIED`
-- flags: KNOWN_LOCATOR_FAILURE, SOURCE_UNAVAILABLE
+- audit: audit:BDC-S3-004:observed_result
+- proposition: sha256:edeb0115cbd0a0e2de7190a3e2b322a7dc143851e7b6dcecdd70c73d00ec4622
+- semantic status: UNVERIFIED
+- flags: KNOWN_LOCATOR_FAILURE
 
 **Reusable judgment.** Use mechanics for uncertainty, resistance, cost, or consequences. Do not use them ceremonially after all relevant participants have intentionally chosen the core outcome.
-- audit: `audit:BDC-S3-004:reusable_judgment`
-- proposition: `sha256:a51890f99736e4d5015bc726c6e553d5acdfe6ed264396ddabe86e6256e29caf`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, KNOWN_LOCATOR_FAILURE, NEGATIVE_OR_ABSENCE_CLAIM, SOURCE_UNAVAILABLE
+- audit: audit:BDC-S3-004:reusable_judgment
+- proposition: sha256:a51890f99736e4d5015bc726c6e553d5acdfe6ed264396ddabe86e6256e29caf
+- semantic status: UNVERIFIED
+- flags: KNOWN_LOCATOR_FAILURE, NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1573-L1579, BCS-000045:L4420-L4422
 
 ### Prep excerpt — BCS-000045:L1573-L1579
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:3acd316a35c968ff52b5ef1a9b1c2ee678b7bfbb90eb12986356b774d9f8359a`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:3acd316a35c968ff52b5ef1a9b1c2ee678b7bfbb90eb12986356b774d9f8359a
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 What roanoke is:
@@ -426,10 +423,11 @@ Rules as intended: roanoke is a 5 week long deep dive into the daily lives of yo
 ~~~
 
 ### Prep excerpt — BCS-000045:L4420-L4422
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:0bdb70355693cb1b5c759f4b27ad4b49c517c127898d536046b57b45bd0ff480`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:0bdb70355693cb1b5c759f4b27ad4b49c517c127898d536046b57b45bd0ff480
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Brendon Faulkner
@@ -440,11 +438,11 @@ He first began playing AD&D in the fourth grade.  From there he explored many of
 **Claimed live evidence.** `736304203265212444` (2020-07-24, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 736304203265212444
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0073.jsonl:364` @ row `sha256:3dbb12ed1c246f72c5cff4ca4939e855c4c90a042f96e22f0077db1e90137c37`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0073.jsonl:364 @ row sha256:3dbb12ed1c246f72c5cff4ca4939e855c4c90a042f96e22f0077db1e90137c37
 - timestamp: 2020-07-24T19:30:01.929000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -460,73 +458,73 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `ORIGINAL_REPRESENTATION_UNAVAILABLE`
-- original representation: `ORIGINAL_REPRESENTATION_UNAVAILABLE`
-- current support: `SUPPORT_NOT_FOUND`
-- representation drift established: `false`
-- representative-message match: `736304203265212444`
-- The disputed locators were present in the first Markdown commit.
-- PR #2 preserved no BCS-000045 source representation.
-- The later preserved normalized/export representations do not contain limb-loss or handwave prep evidence at the cited coordinates.
-- Do not infer representation drift without the missing citation-time representation.
+- BCS-000045:L1573-L1579: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L4420-L4422: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- representative-message match: 736304203265212444
+- The disputed locators were present in the first v1 Markdown commit.
+- PR #2 preserved no BCS-000045 source representation at its base, first commit, or final head.
+- The later preserved normalized and export representations resolve the cited coordinates to unrelated material.
+- Searches of both preserved representations found no relevant limb-loss/handwave prep passage.
+- Representation drift is possible in the abstract but is not established by preserved evidence.
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-005 — Do not handwave away a question that has become character arc
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A Golden Dawn character wanted painful memories removed; players asked whether the required magic could simply be handwaved.
-- audit: `audit:BDC-S3-005:situation`
-- proposition: `sha256:7f9bebd28232d198c040554bd6e503d143e1a3060e98fb89e43fc57e4dc24e7c`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-005:situation
+- proposition: sha256:7f9bebd28232d198c040554bd6e503d143e1a3060e98fb89e43fc57e4dc24e7c
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The request touched faction allegiance, memory, betrayal, and future identity—material with strong downstream story value.
-- audit: `audit:BDC-S3-005:noticed`
-- proposition: `sha256:bcaaa2bbcb2e86e4cfa04b517acfeaef4665f496b0fdc5e385d4c343348e9da5`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-005:noticed
+- proposition: sha256:bcaaa2bbcb2e86e4cfa04b517acfeaef4665f496b0fdc5e385d4c343348e9da5
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** character continuity, faction through-line, player agency, future payoff.
-- audit: `audit:BDC-S3-005:values`
-- proposition: `sha256:56d9a7d3e98a174e92bb65d9ad7567dfa03ba5d21a9a2071dc3670c6ddc9bb23`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-005:values
+- proposition: sha256:56d9a7d3e98a174e92bb65d9ad7567dfa03ba5d21a9a2071dc3670c6ddc9bb23
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon refused to handwave the question, called it a good arc, then narrowed the effect: the trial could be forgotten without erasing the character's allegiance; if the player still wanted to leave, that choice could be roleplayed for another reason.
-- audit: `audit:BDC-S3-005:intervention`
-- proposition: `sha256:1d61c93bae4ca7cb235fdb4d681c29352bf3b90bc11def5fbb0ad7d1eaa03b34`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-005:intervention
+- proposition: sha256:1d61c93bae4ca7cb235fdb4d681c29352bf3b90bc11def5fbb0ad7d1eaa03b34
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** The conversation shifted from bypassing the problem to defining what the character actually wanted to forget and what consequences would remain.
-- audit: `audit:BDC-S3-005:observed_result`
-- proposition: `sha256:983e5ef50836528769a173fc5a88a1ea789cef765af9183a2290c99cb7ec26a8`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-005:observed_result
+- proposition: sha256:983e5ef50836528769a173fc5a88a1ea789cef765af9183a2290c99cb7ec26a8
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** When a shortcut would erase an emerging character problem with future story value, slow down and preserve the choice-bearing part of the problem.
-- audit: `audit:BDC-S3-005:reusable_judgment`
-- proposition: `sha256:1c9f39437db9f79d2dc5e13c1d147a547b42c794cc8f42c836d804681abe70b3`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-005:reusable_judgment
+- proposition: sha256:1c9f39437db9f79d2dc5e13c1d147a547b42c794cc8f42c836d804681abe70b3
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L1644-L1654, BCS-000045:L1688-L1693
 
 ### Prep excerpt — BCS-000045:L1644-L1654
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:4991a0c1ae1406c8d95f19b9de4b5f9490701d67c20428fdbf45f6a74b3feb8b`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:4991a0c1ae1406c8d95f19b9de4b5f9490701d67c20428fdbf45f6a74b3feb8b
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Through lines for subplots:
@@ -543,10 +541,11 @@ Golden Dawn Through Line:
 ~~~
 
 ### Prep excerpt — BCS-000045:L1688-L1693
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:21f9c0adc3dace593125c6f39cac31c62420c3d7ca2ebb0c50004f231a735480`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:21f9c0adc3dace593125c6f39cac31c62420c3d7ca2ebb0c50004f231a735480
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 The Golden Dawn: NPC ONLY
@@ -560,11 +559,11 @@ Week five: Illuminati ending available: All romantic couples are asked to give t
 **Claimed live evidence.** `736855826341560371` (2020-07-26, 👀 Secret societies / 👁-golden-dawn); `736856728213127258` (2020-07-26, 👀 Secret societies / 👁-golden-dawn)
 
 ### Discord evidence — 736855826341560371
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0096.jsonl:321` @ row `sha256:b43dd833e2598135e68640ac3f912cbcf33520205c6ce1da4e7bd936219dc12d`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0096.jsonl:321 @ row sha256:b43dd833e2598135e68640ac3f912cbcf33520205c6ce1da4e7bd936219dc12d
 - timestamp: 2020-07-26T08:01:59.119000Z
-- channel: 👀 Secret societies / 👁-golden-dawn (`698489628289925130`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 👀 Secret societies / 👁-golden-dawn (698489628289925130)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -577,11 +576,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 736856728213127258
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0096.jsonl:347` @ row `sha256:29e1df4508da2cd01f0786a245a150356e05b86349f63bcc1f25fc9df64e7147`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0096.jsonl:347 @ row sha256:29e1df4508da2cd01f0786a245a150356e05b86349f63bcc1f25fc9df64e7147
 - timestamp: 2020-07-26T08:05:34.142000Z
-- channel: 👀 Secret societies / 👁-golden-dawn (`698489628289925130`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 👀 Secret societies / 👁-golden-dawn (698489628289925130)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -597,79 +596,79 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `736855826341560371`
+- BCS-000045:L1644-L1654: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1688-L1693: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 736855826341560371
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-006 — Compress low-value transit when time becomes the scarce resource
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A scene had reached the point where the party only needed to return to town, while real-world session time was running short.
-- audit: `audit:BDC-S3-006:situation`
-- proposition: `sha256:0dfc3737921f80891bb35254f2a243c4bd890546f535e04d31ebe4d63b9a100f`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-006:situation
+- proposition: sha256:0dfc3737921f80891bb35254f2a243c4bd890546f535e04d31ebe4d63b9a100f
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The trip no longer promised a meaningful choice or payoff proportional to the time it would consume.
-- audit: `audit:BDC-S3-006:noticed`
-- proposition: `sha256:b5d39e6171220170a91c9ba32aff7a6b4f0eb748b3abbbeea3bf8eebf92c106d`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-006:noticed
+- proposition: sha256:b5d39e6171220170a91c9ba32aff7a6b4f0eb748b3abbbeea3bf8eebf92c106d
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** momentum, time, scene value.
-- audit: `audit:BDC-S3-006:values`
-- proposition: `sha256:91282c401a50533745bde179b4e18fc2ac85278e0f2cbe2e6ae037865d671e20`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-006:values
+- proposition: sha256:91282c401a50533745bde179b4e18fc2ac85278e0f2cbe2e6ae037865d671e20
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon handwaved the trip back to town specifically for time concerns.
-- audit: `audit:BDC-S3-006:intervention`
-- proposition: `sha256:9df883440e41574fdba33968e4d86fe591667ff5e0a57b77f40e5ad206ebd95b`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-006:intervention
+- proposition: sha256:9df883440e41574fdba33968e4d86fe591667ff5e0a57b77f40e5ad206ebd95b
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** Players immediately agreed and play moved on.
-- audit: `audit:BDC-S3-006:observed_result`
-- proposition: `sha256:a903bdc39c701ec7a8a34b40b2e3a361b060c33c0daf31204ced3104f4b72894`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-006:observed_result
+- proposition: sha256:a903bdc39c701ec7a8a34b40b2e3a361b060c33c0daf31204ced3104f4b72894
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Skip transitions once their remaining play value is lower than the time they consume. Persistent worlds do not require simulating every minute.
-- audit: `audit:BDC-S3-006:reusable_judgment`
-- proposition: `sha256:5418dd37fabac9173cb4ac454da0cadbe020b8e39e6dec6e4eb714f5805c451d`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-006:reusable_judgment
+- proposition: sha256:5418dd37fabac9173cb4ac454da0cadbe020b8e39e6dec6e4eb714f5805c451d
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L4104-L4104, BCS-000045:L4124-L4124
 
 ### Prep excerpt — BCS-000045:L4104-L4104
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:b1a8b6761831bc1f8e0c50ad4789a93160b577fecda6cdac5e1f8ac2ad7cee10`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:b1a8b6761831bc1f8e0c50ad4789a93160b577fecda6cdac5e1f8ac2ad7cee10
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 In crafting a game to be a short term deep dive into the lives of our characters I looked at the constraints of time spent at the table together as a design choice rather than a design restriction. Time is the world's first paintbrush, sculpting mountains and spreading life all over the canvas of our lives. The average tabletop rpg session lasts 6 hours. But with Discord, the tools of a persistent play by post forum from the 90’s and players who craved those deeper stories, a new kind of storytelling emerged for us. Home games evolved into public games and the public games became an annual event.
 ~~~
 
 ### Prep excerpt — BCS-000045:L4124-L4124
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:23e5d7ccad92348a11000deda8d3ad6f5f6513dac4ad371c177adeb55a39bbee`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:23e5d7ccad92348a11000deda8d3ad6f5f6513dac4ad371c177adeb55a39bbee
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 The book is broken up chronologically to facilitate the use of a real time role play environment built that you will build on discord, roll 20, skype, or a series of home games. 
@@ -678,11 +677,11 @@ The book is broken up chronologically to facilitate the use of a real time role 
 **Claimed live evidence.** `745533785805815829` (2020-08-19, cascadia / olala)
 
 ### Discord evidence — 745533785805815829
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0363.jsonl:134` @ row `sha256:17f867c7915386af2ee83d6bc72af111095b1900de9d4ac741609a6ac6ca76b0`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0363.jsonl:134 @ row sha256:17f867c7915386af2ee83d6bc72af111095b1900de9d4ac741609a6ac6ca76b0
 - timestamp: 2020-08-19T06:45:05.884000Z
-- channel: cascadia / olala (`745446932037763112`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: cascadia / olala (745446932037763112)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -698,69 +697,68 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `745533785805815829`
+- BCS-000045:L4104-L4104: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L4124-L4124: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 745533785805815829
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-007 — Let players choose the granularity of low-stakes play
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A player wanted routine healing potions while Brendon had only a few minutes available.
-- audit: `audit:BDC-S3-007:situation`
-- proposition: `sha256:01d89317560c97982a7ee1bf4ee71cb0632941b2596d8e8d6905cbfa11151ddf`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-007:situation
+- proposition: sha256:01d89317560c97982a7ee1bf4ee71cb0632941b2596d8e8d6905cbfa11151ddf
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The transaction mattered to inventory, but the player might or might not value the shopping interaction itself.
-- audit: `audit:BDC-S3-007:noticed`
-- proposition: `sha256:63c9bc4fcab33f7d5c6584efca0fa3c44aeddb37fa9992f5f1fdb2b316b8ce22`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-007:noticed
+- proposition: sha256:63c9bc4fcab33f7d5c6584efca0fa3c44aeddb37fa9992f5f1fdb2b316b8ce22
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** access, player preference, time, immersion.
-- audit: `audit:BDC-S3-007:values`
-- proposition: `sha256:3dbec057d1c064e01b290cff13cb8ecbc2a37ced826c993f072648c8d426e0f4`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-007:values
+- proposition: sha256:3dbec057d1c064e01b290cff13cb8ecbc2a37ced826c993f072648c8d426e0f4
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon offered a fast handwaved purchase at listed prices now, or a full shopping interaction later.
-- audit: `audit:BDC-S3-007:intervention`
-- proposition: `sha256:ab25120292c635d90358707bedd1ea680268740c9e4bff0245401297bcb6fcfb`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-007:intervention
+- proposition: sha256:ab25120292c635d90358707bedd1ea680268740c9e4bff0245401297bcb6fcfb
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The player chose the simple transaction and got the items without consuming a full scene.
-- audit: `audit:BDC-S3-007:observed_result`
-- proposition: `sha256:55fcce169fd94ba8d11a493a33d3d0b0c19b33f9d3a38fe377d79de9a65702b9`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-007:observed_result
+- proposition: sha256:55fcce169fd94ba8d11a493a33d3d0b0c19b33f9d3a38fe377d79de9a65702b9
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** For low-stakes procedures, offer resolution at the level of detail the player actually values. Do not confuse simulation detail with roleplay quality.
-- audit: `audit:BDC-S3-007:reusable_judgment`
-- proposition: `sha256:689674ed7bc8cc09ca368f64adff89a1c48c82dfd6da67fa1b6bcf1ef83036f6`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-007:reusable_judgment
+- proposition: sha256:689674ed7bc8cc09ca368f64adff89a1c48c82dfd6da67fa1b6bcf1ef83036f6
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579
 
 ### Prep excerpt — BCS-000045:L1576-L1579
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Rules as written: roanoke is a 5 week long persistent Role Play Environment that seeks to combine the improvisational storytelling ability of tabletop role playing games with the functionality and user interface of video games. This is an rp heavy town drama told in 5 acts. 
@@ -772,11 +770,11 @@ Rules as intended: roanoke is a 5 week long deep dive into the daily lives of yo
 **Claimed live evidence.** `735253731406381078` (2020-07-21, 🏦 Shopping / 💰-shopping-with-generous-jack)
 
 ### Discord evidence — 735253731406381078
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0041.jsonl:434` @ row `sha256:46dc3d83650f2af99d865b559005bd4513f517719bb849c4723ad1b52d0ab587`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0041.jsonl:434 @ row sha256:46dc3d83650f2af99d865b559005bd4513f517719bb849c4723ad1b52d0ab587
 - timestamp: 2020-07-21T21:55:49.921000Z
-- channel: 🏦 Shopping / 💰-shopping-with-generous-jack (`732919665235591169`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🏦 Shopping / 💰-shopping-with-generous-jack (732919665235591169)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -792,69 +790,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `None`
+- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: None
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-008 — Promote emergent player material into bespoke future content
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** Early play was generating side relationships and situations beyond the written daily events.
-- audit: `audit:BDC-S3-008:situation`
-- proposition: `sha256:2bd3d630a876ca683733e738f855750d109d8aa535ccc08d2aaedce2d7b66248`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-008:situation
+- proposition: sha256:2bd3d630a876ca683733e738f855750d109d8aa535ccc08d2aaedce2d7b66248
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** Some unplanned material had enough story energy to justify additional DM attention.
-- audit: `audit:BDC-S3-008:noticed`
-- proposition: `sha256:57a0214fc2515c36c18f4a355bb1c63536f6e1bdb7b62a82c5b1ab25d776ee7f`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-008:noticed
+- proposition: sha256:57a0214fc2515c36c18f4a355bb1c63536f6e1bdb7b62a82c5b1ab25d776ee7f
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** emergent story, intimacy, player-created material.
-- audit: `audit:BDC-S3-008:values`
-- proposition: `sha256:2e2ee3f2f23e88992de321dc84c8a6839d67cb0c2499c0525b00a87c60862572`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-008:values
+- proposition: sha256:2e2ee3f2f23e88992de321dc84c8a6839d67cb0c2499c0525b00a87c60862572
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon first said he was considering improv sessions for things that caught his eye story-wise, then formalized DM invitationals as short one-shots initiated by players or DMs to tell unplanned stories created cooperatively.
-- audit: `audit:BDC-S3-008:intervention`
-- proposition: `sha256:b3458bbe6f58d550e6f56f381f9422a07db11ed8c9deb4aa9e72b4ebcdca6d0a`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-008:intervention
+- proposition: sha256:b3458bbe6f58d550e6f56f381f9422a07db11ed8c9deb4aa9e72b4ebcdca6d0a
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The campaign gained an explicit mechanism for converting emergent play into prepared spotlight scenes.
-- audit: `audit:BDC-S3-008:observed_result`
-- proposition: `sha256:f548264da1979b44c3a7876dc217425aac381099e66a6380113df120c6ccc5ad`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-008:observed_result
+- proposition: sha256:f548264da1979b44c3a7876dc217425aac381099e66a6380113df120c6ccc5ad
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Watch for player-created details that imply more story than they currently contain. Promote the strongest into future scenes instead of trying to pre-author every worthwhile thread.
-- audit: `audit:BDC-S3-008:reusable_judgment`
-- proposition: `sha256:edbdacaec6c2c33348e572030f7e786aab0c5eac3d124803265fb30301b8c49f`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-008:reusable_judgment
+- proposition: sha256:edbdacaec6c2c33348e572030f7e786aab0c5eac3d124803265fb30301b8c49f
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579, BCS-000045:L4420-L4422
 
 ### Prep excerpt — BCS-000045:L1576-L1579
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Rules as written: roanoke is a 5 week long persistent Role Play Environment that seeks to combine the improvisational storytelling ability of tabletop role playing games with the functionality and user interface of video games. This is an rp heavy town drama told in 5 acts. 
@@ -864,10 +860,11 @@ Rules as intended: roanoke is a 5 week long deep dive into the daily lives of yo
 ~~~
 
 ### Prep excerpt — BCS-000045:L4420-L4422
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:0bdb70355693cb1b5c759f4b27ad4b49c517c127898d536046b57b45bd0ff480`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:0bdb70355693cb1b5c759f4b27ad4b49c517c127898d536046b57b45bd0ff480
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Brendon Faulkner
@@ -878,11 +875,11 @@ He first began playing AD&D in the fourth grade.  From there he explored many of
 **Claimed live evidence.** `734702546639257610` (2020-07-20, 🗨 Social / 🙋-out-of-character); `735402532171677767` (2020-07-22, ❄ Things you should read. / ❕announcements)
 
 ### Discord evidence — 734702546639257610
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0022.jsonl:494` @ row `sha256:a35e418e9f959295d92a9a183bd69115e3b0b4116bcaecfaf13e87864cec0678`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0022.jsonl:494 @ row sha256:a35e418e9f959295d92a9a183bd69115e3b0b4116bcaecfaf13e87864cec0678
 - timestamp: 2020-07-20T09:25:37.232000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -895,11 +892,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 735402532171677767
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0047.jsonl:143` @ row `sha256:e36dd4070a59a915523d788b0589f925edc259734951ebdc0d49e468a648718f`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0047.jsonl:143 @ row sha256:e36dd4070a59a915523d788b0589f925edc259734951ebdc0d49e468a648718f
 - timestamp: 2020-07-22T07:47:06.788000Z
-- channel: ❄ Things you should read. / ❕announcements (`734250210057912344`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: ❄ Things you should read. / ❕announcements (734250210057912344)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -914,69 +911,68 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `734702546639257610`
+- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L4420-L4422: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 734702546639257610
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-009 — Reduce authored density as campaign history becomes richer
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** The written document still contained a day-by-day Week 5 spine, but four weeks of actual play had produced player priorities, unfinished business, and invitationals.
-- audit: `audit:BDC-S3-009:situation`
-- proposition: `sha256:d5ee8142f725616973bf69a8253b63b94fc8ff219e6b10b4a4324b147fab397b`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-009:situation
+- proposition: sha256:d5ee8142f725616973bf69a8253b63b94fc8ff219e6b10b4a4324b147fab397b
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** Accumulated live history had become a better source of relevant content than filling every remaining day with fixed authored material.
-- audit: `audit:BDC-S3-009:noticed`
-- proposition: `sha256:e61e7cfee7035b4441540cb9f9072a13e858a304a3593d249c82e1bdcd2128ba`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-009:noticed
+- proposition: sha256:e61e7cfee7035b4441540cb9f9072a13e858a304a3593d249c82e1bdcd2128ba
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** player-led payoff, responsiveness, finale structure.
-- audit: `audit:BDC-S3-009:values`
-- proposition: `sha256:7a964383c58395adb92746d4a761cb875285e54f2aec5e936e081ac82e890800`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-009:values
+- proposition: sha256:7a964383c58395adb92746d4a761cb875285e54f2aec5e936e081ac82e890800
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon asked players to DM what they wanted to explore or accomplish and stated that Week 5 was deliberately less written so players could lead and DMs could accommodate more invitationals, while retaining selected major fights.
-- audit: `audit:BDC-S3-009:intervention`
-- proposition: `sha256:f4ec35a95cdc87e9278299eebab97ee2c9ab2fd8e0bdd4a1d4bd05bfb1cd206e`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-009:intervention
+- proposition: sha256:f4ec35a95cdc87e9278299eebab97ee2c9ab2fd8e0bdd4a1d4bd05bfb1cd206e
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** Players were later given a menu of outstanding goals and asked to set priorities rather than being marched through a complete fixed schedule.
-- audit: `audit:BDC-S3-009:observed_result`
-- proposition: `sha256:89ea1900ce3fa880cb16678037d1ae06636e2a1b36dd22bab63b9d39f413be0d`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-009:observed_result
+- proposition: sha256:89ea1900ce3fa880cb16678037d1ae06636e2a1b36dd22bab63b9d39f413be0d
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Front-load structure when campaign history is thin. As meaningful history accumulates, leave increasing prep capacity available to answer what actually happened.
-- audit: `audit:BDC-S3-009:reusable_judgment`
-- proposition: `sha256:5f586ef37a9fbe6566a0026f4656919892cdda9cc40b68729beaceb5d091f27c`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-009:reusable_judgment
+- proposition: sha256:5f586ef37a9fbe6566a0026f4656919892cdda9cc40b68729beaceb5d091f27c
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L1569-L1587, BCS-000045:L1880-L1884, BCS-000045:L2840-L2856
 
 ### Prep excerpt — BCS-000045:L1569-L1587
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:ced710cac7d12db4243251de1c4515d51d7bea34a29aff6247fe689b9c512861`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:ced710cac7d12db4243251de1c4515d51d7bea34a29aff6247fe689b9c512861
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Tentative Game Play dates: Saturday July 18th 2020- August 21st. [b]
@@ -1001,10 +997,11 @@ Settings:
 ~~~
 
 ### Prep excerpt — BCS-000045:L1880-L1884
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:acee97c2aeb9ca445de369c9e017b3385a218c2afca914b07e56ebff106cc733`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:acee97c2aeb9ca445de369c9e017b3385a218c2afca914b07e56ebff106cc733
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Game breakdown by day:
@@ -1015,10 +1012,11 @@ Day 2. 7/19/20 An Arcanian Werewolf in London-Golden Dawn into.
 ~~~
 
 ### Prep excerpt — BCS-000045:L2840-L2856
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:b5eae6a690bb12cc6e94659d6257abab24941c79e23540cfb820b7d883591f36`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:b5eae6a690bb12cc6e94659d6257abab24941c79e23540cfb820b7d883591f36
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Day 29 Aether begins: Island returns to normal water level. Final lodestone summoning ritual.
@@ -1043,11 +1041,11 @@ Day 35 The Hunger Voice Event.
 **Claimed live evidence.** `742807517721133056` (2020-08-11, 🗨 Social / 🙋-out-of-character); `742807774383046666` (2020-08-11, 🗨 Social / 🙋-out-of-character); `743577911834968166` (2020-08-13, ❄ Things you should read. / ❕announcements); `745130263914479756` (2020-08-18, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 742807517721133056
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0280.jsonl:472` @ row `sha256:f546c34b72eb86dfa5f16ec00f2a0405be95af56a360a24dcb5f3d92ff2f5233`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0280.jsonl:472 @ row sha256:f546c34b72eb86dfa5f16ec00f2a0405be95af56a360a24dcb5f3d92ff2f5233
 - timestamp: 2020-08-11T18:11:52.921000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1060,11 +1058,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 742807774383046666
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0280.jsonl:475` @ row `sha256:41450876bd9b2b6e17d8f6d8ece5afab9fdee6e16978ccb0081706da30bf0d52`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0280.jsonl:475 @ row sha256:41450876bd9b2b6e17d8f6d8ece5afab9fdee6e16978ccb0081706da30bf0d52
 - timestamp: 2020-08-11T18:12:54.114000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1077,11 +1075,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 743577911834968166
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0304.jsonl:94` @ row `sha256:0d979491d3ea425e2310c9857e6b69923b6e05a1ba16cc8e8ebb389a8dde054b`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0304.jsonl:94 @ row sha256:0d979491d3ea425e2310c9857e6b69923b6e05a1ba16cc8e8ebb389a8dde054b
 - timestamp: 2020-08-13T21:13:09.191000Z
-- channel: ❄ Things you should read. / ❕announcements (`734250210057912344`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: ❄ Things you should read. / ❕announcements (734250210057912344)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1091,11 +1089,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 745130263914479756
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0350.jsonl:480` @ row `sha256:6a6c389b532d16dec5a964365ea95f559cca447a3094da27969b2000eb77b54f`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0350.jsonl:480 @ row sha256:6a6c389b532d16dec5a964365ea95f559cca447a3094da27969b2000eb77b54f
 - timestamp: 2020-08-18T04:01:38.768000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1111,69 +1109,69 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `742807774383046666`
+- BCS-000045:L1569-L1587: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1880-L1884: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L2840-L2856: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 742807774383046666
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-010 — Use collective attention to select which pressure becomes foreground
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** Roanoke contained simultaneous internal political problems and external threats, and Brendon was not running a single fixed main event that day.
-- audit: `audit:BDC-S3-010:situation`
-- proposition: `sha256:72f8bd1a365d5936cb2bdff06971e0cd6008376669832c2b01c02ba4fa416196`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-010:situation
+- proposition: sha256:72f8bd1a365d5936cb2bdff06971e0cd6008376669832c2b01c02ba4fa416196
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What Brendon noticed.** The group had already generated competing priorities through earlier decisions.
-- audit: `audit:BDC-S3-010:noticed`
-- proposition: `sha256:c4223221d55d9ca117eb84803fb14b51ea5c61ef6616f3cadc81d2e46a1a510d`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-010:noticed
+- proposition: sha256:c4223221d55d9ca117eb84803fb14b51ea5c61ef6616f3cadc81d2e46a1a510d
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** consequences, collective attention, world responsiveness.
-- audit: `audit:BDC-S3-010:values`
-- proposition: `sha256:13322489fde0bfbd111737de523f7fdf46526823762091c62fd0d1b9406d41fb`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-010:values
+- proposition: sha256:13322489fde0bfbd111737de523f7fdf46526823762091c62fd0d1b9406d41fb
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon stated that if the town focused on internal problems, an internal problem would arise; if it focused externally, the day's pressure would emerge there instead.
-- audit: `audit:BDC-S3-010:intervention`
-- proposition: `sha256:63996510072314dc6f922d45446485e3145d8b161d76a72a711636139e9560b9`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-010:intervention
+- proposition: sha256:63996510072314dc6f922d45446485e3145d8b161d76a72a711636139e9560b9
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The group's own focus became the selector for which prepared pressure moved on-screen.
-- audit: `audit:BDC-S3-010:observed_result`
-- proposition: `sha256:6b431aac787e86d8cd005db651dc5bdba6c6120b604317f78b3de444edd49fb7`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-010:observed_result
+- proposition: sha256:6b431aac787e86d8cd005db651dc5bdba6c6120b604317f78b3de444edd49fb7
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** When several legitimate pressures exist, let sustained player attention decide which becomes foreground. Do not force every prepared problem onto the stage at once.
-- audit: `audit:BDC-S3-010:reusable_judgment`
-- proposition: `sha256:811f2e53fc72c2e9cb3490113b9a695e6def087ae4e317912a68d1cb76d2f7c2`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-010:reusable_judgment
+- proposition: sha256:811f2e53fc72c2e9cb3490113b9a695e6def087ae4e317912a68d1cb76d2f7c2
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1630-L1636, BCS-000045:L2821-L2838
 
 ### Prep excerpt — BCS-000045:L1630-L1636
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:2d38d4fa586c9b81fb6ddfeefcb0324474e0a2f067da879312b5fe11a2808360`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:2d38d4fa586c9b81fb6ddfeefcb0324474e0a2f067da879312b5fe11a2808360
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 The Island appears to be devoid of life save for the coven of hags.
@@ -1186,10 +1184,11 @@ Once the hag coven is ended, a decades old conflict between Uru (death worshipin
 ~~~
 
 ### Prep excerpt — BCS-000045:L2821-L2838
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:b1b223f0ed49c934d3cfd8ac21cece9854a0b529111d2880f6e685363cf95c7b`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:b1b223f0ed49c934d3cfd8ac21cece9854a0b529111d2880f6e685363cf95c7b
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Day 19 Water Rising, TBD Chinnokin Encounter, Storm's A Brewin', Destruction of tree
@@ -1215,11 +1214,11 @@ Day 28 Levialich voice event
 **Claimed live evidence.** `742806909660168193` (2020-08-11, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 742806909660168193
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0280.jsonl:463` @ row `sha256:30fdd8f276587cf90b948d676b619d3e4875a16505174941c2809f98016835a8`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0280.jsonl:463 @ row sha256:30fdd8f276587cf90b948d676b619d3e4875a16505174941c2809f98016835a8
 - timestamp: 2020-08-11T18:09:27.948000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1235,69 +1234,68 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `742806909660168193`
+- BCS-000045:L1630-L1636: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L2821-L2838: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 742806909660168193
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-011 — Accommodation stops when the DM starts taking over the player's fun
 
-**Legacy confidence:** medium-high.
+Legacy confidence: medium-high.
 
 **Situation.** Players were joking that creating the dating-sim layer was their job, while Brendon was excitedly offering to build more of it.
-- audit: `audit:BDC-S3-011:situation`
-- proposition: `sha256:614a6051304d2dfd924a5c2656d6999e7ae194d48e267122c3f1c2bb260c77c0`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-011:situation
+- proposition: sha256:614a6051304d2dfd924a5c2656d6999e7ae194d48e267122c3f1c2bb260c77c0
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** His instinct to accommodate could cross from enabling player play into authoring the activity for them.
-- audit: `audit:BDC-S3-011:noticed`
-- proposition: `sha256:4575f5d66de86f0431d6bce2466222bf66886d7b06aa151d52f3352859ae2a40`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-011:noticed
+- proposition: sha256:4575f5d66de86f0431d6bce2466222bf66886d7b06aa151d52f3352859ae2a40
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** player ownership, DM enthusiasm, restraint.
-- audit: `audit:BDC-S3-011:values`
-- proposition: `sha256:6d4028c5d2dedcd6740297a90518896ae413af07610a7851619aeeadd4a8fc02`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-011:values
+- proposition: sha256:6d4028c5d2dedcd6740297a90518896ae413af07610a7851619aeeadd4a8fc02
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon explicitly caught himself and backed off: player agency came first, and he recognized that excitement to accommodate was driving the overreach.
-- audit: `audit:BDC-S3-011:intervention`
-- proposition: `sha256:b218955cef9551268c862882b6300076686371ead32bb17e4022160ae332f1ae`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-011:intervention
+- proposition: sha256:b218955cef9551268c862882b6300076686371ead32bb17e4022160ae332f1ae
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The players retained ownership of the emergent dating-sim behavior.
-- audit: `audit:BDC-S3-011:observed_result`
-- proposition: `sha256:1192136d0565ea51e0f9716308037d98cd1eae9132f1b61429589e2c6400e425`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-011:observed_result
+- proposition: sha256:1192136d0565ea51e0f9716308037d98cd1eae9132f1b61429589e2c6400e425
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Accommodation is not automatically good. If helping starts replacing the player's authorship of the thing they enjoy doing, stop helping and give it back.
-- audit: `audit:BDC-S3-011:reusable_judgment`
-- proposition: `sha256:5ec945f73ffacb977b023e815655ec0cd0a4f1d70999da0cb18696da5b82d423`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-011:reusable_judgment
+- proposition: sha256:5ec945f73ffacb977b023e815655ec0cd0a4f1d70999da0cb18696da5b82d423
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L4420-L4422
 
 ### Prep excerpt — BCS-000045:L4420-L4422
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:0bdb70355693cb1b5c759f4b27ad4b49c517c127898d536046b57b45bd0ff480`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:0bdb70355693cb1b5c759f4b27ad4b49c517c127898d536046b57b45bd0ff480
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Brendon Faulkner
@@ -1308,11 +1306,11 @@ He first began playing AD&D in the fourth grade.  From there he explored many of
 **Claimed live evidence.** `736688057113378928` (2020-07-25, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 736688057113378928
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0086.jsonl:450` @ row `sha256:370211afd4581f72fe65b0631e72ec3f3535520e251411b8990a5be4e5dc54f6`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0086.jsonl:450 @ row sha256:370211afd4581f72fe65b0631e72ec3f3535520e251411b8990a5be4e5dc54f6
 - timestamp: 2020-07-25T20:55:19.818000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1328,69 +1326,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `736688057113378928`
+- BCS-000045:L4420-L4422: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 736688057113378928
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-012 — Consent boundaries remove some actions from adjudication entirely
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** PvP conflict emerged in a persistent social game where players could otherwise attempt many actions.
-- audit: `audit:BDC-S3-012:situation`
-- proposition: `sha256:eb2e0de99105ecaf0d0a1e16a01654f8d77c4761f569b801c02116f16fbd0d0e`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-012:situation
+- proposition: sha256:eb2e0de99105ecaf0d0a1e16a01654f8d77c4761f569b801c02116f16fbd0d0e
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** Treating unwanted PvP as an ordinary contested check would make a safety boundary depend on dice.
-- audit: `audit:BDC-S3-012:noticed`
-- proposition: `sha256:7bc336787642eb824361bdee7296a7bd25bc3e8bdfcb02c4ba6cfeb29a2a4ea1`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-012:noticed
+- proposition: sha256:7bc336787642eb824361bdee7296a7bd25bc3e8bdfcb02c4ba6cfeb29a2a4ea1
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** consent, player control, fair adjudication.
-- audit: `audit:BDC-S3-012:values`
-- proposition: `sha256:4186edb600faba0f4daca2f80d0eb5808a3c7279cf6f3f75b2a206d95429474e`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-012:values
+- proposition: sha256:4186edb600faba0f4daca2f80d0eb5808a3c7279cf6f3f75b2a206d95429474e
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon established that PvP required both players' consent plus a DM, then later applied the rule by refusing even to roll whether one PC could physically stop another when consent had not been granted.
-- audit: `audit:BDC-S3-012:intervention`
-- proposition: `sha256:c85ac8bf542932019103f6dbe31386068f98bb40a2a85241f457cb1b7069761c`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-012:intervention
+- proposition: sha256:c85ac8bf542932019103f6dbe31386068f98bb40a2a85241f457cb1b7069761c
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** The scene proceeded through allowed actions such as following rather than converting the dispute into unauthorized PvP.
-- audit: `audit:BDC-S3-012:observed_result`
-- proposition: `sha256:0bc86042853576a7be3fb8652fd1a490ca4c74325a96df9445d383a53eb10709`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-012:observed_result
+- proposition: sha256:0bc86042853576a7be3fb8652fd1a490ca4c74325a96df9445d383a53eb10709
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Some table boundaries are preconditions for adjudication, not modifiers to it. If consent is absent, do not roll to see whether the prohibited interaction happens.
-- audit: `audit:BDC-S3-012:reusable_judgment`
-- proposition: `sha256:5fa252f259c530ee4f5ef0bd057be626ca45df50e239e8926e470b40d34eb4d9`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-012:reusable_judgment
+- proposition: sha256:5fa252f259c530ee4f5ef0bd057be626ca45df50e239e8926e470b40d34eb4d9
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579
 
 ### Prep excerpt — BCS-000045:L1576-L1579
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Rules as written: roanoke is a 5 week long persistent Role Play Environment that seeks to combine the improvisational storytelling ability of tabletop role playing games with the functionality and user interface of video games. This is an rp heavy town drama told in 5 acts. 
@@ -1402,11 +1398,11 @@ Rules as intended: roanoke is a 5 week long deep dive into the daily lives of yo
 **Claimed live evidence.** `735726761437823086` (2020-07-23, 🗨 Social / 🙋-out-of-character); `737751675762114581` (2020-07-28, 🚢 Week two, The Tir Na Nog / 🔭-the-observation-deck)
 
 ### Discord evidence — 735726761437823086
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0057.jsonl:14` @ row `sha256:af2eae3696221ecbde4f907afe7d4a02c8f60b4c5185fe17a503fe0a6e2149c2`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0057.jsonl:14 @ row sha256:af2eae3696221ecbde4f907afe7d4a02c8f60b4c5185fe17a503fe0a6e2149c2
 - timestamp: 2020-07-23T05:15:29.069000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1419,11 +1415,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 737751675762114581
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0125.jsonl:211` @ row `sha256:ccfb8c84a0433a1990dad4c76888433e94800dbd7b12baa17f087fa64d3b6bcf`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0125.jsonl:211 @ row sha256:ccfb8c84a0433a1990dad4c76888433e94800dbd7b12baa17f087fa64d3b6bcf
 - timestamp: 2020-07-28T19:21:46.265000Z
-- channel: 🚢 Week two, The Tir Na Nog / 🔭-the-observation-deck (`636019335231569940`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🚢 Week two, The Tir Na Nog / 🔭-the-observation-deck (636019335231569940)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1439,69 +1435,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `737751675762114581`
+- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 737751675762114581
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-013 — Stop using DM knowledge when it starts choosing a player's story
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** Brendon was helping reason through who could serve as a witness in a conspiracy/trial thread and realized his DM knowledge could determine another player's involvement.
-- audit: `audit:BDC-S3-013:situation`
-- proposition: `sha256:3b08c0a82e3e84fe950672c2a0e8d58c549448ec8bd99cc0f78dad1a99abad19`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-013:situation
+- proposition: sha256:3b08c0a82e3e84fe950672c2a0e8d58c549448ec8bd99cc0f78dad1a99abad19
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** His meta-level problem solving was starting to substitute for the player's own decision.
-- audit: `audit:BDC-S3-013:noticed`
-- proposition: `sha256:875f0fc8004710c86f62a830f6afd006ebe225ac018a7405139980e0c2eeb89b`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-013:noticed
+- proposition: sha256:875f0fc8004710c86f62a830f6afd006ebe225ac018a7405139980e0c2eeb89b
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** agency, information boundaries, immersion.
-- audit: `audit:BDC-S3-013:values`
-- proposition: `sha256:2275f9798e06388d82fbdc4630f45180e6f9bb0088aa2431f185a250ae6113ed`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-013:values
+- proposition: sha256:2275f9798e06388d82fbdc4630f45180e6f9bb0088aa2431f185a250ae6113ed
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** He stopped the meta-solving, explicitly called it a slippery slope, and put the choice to Web's player instead.
-- audit: `audit:BDC-S3-013:intervention`
-- proposition: `sha256:ed9d2c8f51f42f5050d164b543e39cf43868fc3ada2a4555c2ab67796c3dea84`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-013:intervention
+- proposition: sha256:ed9d2c8f51f42f5050d164b543e39cf43868fc3ada2a4555c2ab67796c3dea84
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The player answered for the character and the channel returned to RP-only mode.
-- audit: `audit:BDC-S3-013:observed_result`
-- proposition: `sha256:0d8e9835c686de6d0dde7d5ca8d076db7f153783955e8b0730e98358fd802247`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-013:observed_result
+- proposition: sha256:0d8e9835c686de6d0dde7d5ca8d076db7f153783955e8b0730e98358fd802247
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Use DM knowledge to maintain the world, not to solve player decisions. When you notice yourself optimizing a player's move from behind the screen, hand the decision back.
-- audit: `audit:BDC-S3-013:reusable_judgment`
-- proposition: `sha256:ffac88bd0f6943e94226a37e81ae484038b4a3149b3de1b3270c58b7eca80b65`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-013:reusable_judgment
+- proposition: sha256:ffac88bd0f6943e94226a37e81ae484038b4a3149b3de1b3270c58b7eca80b65
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1644-L1647
 
 ### Prep excerpt — BCS-000045:L1644-L1647
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:aa2b57c5ca29af26214b3ff6f677ead4c7ceb072387946d9b45f32c67ac50c3e`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:aa2b57c5ca29af26214b3ff6f677ead4c7ceb072387946d9b45f32c67ac50c3e
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Through lines for subplots:
@@ -1513,11 +1507,11 @@ The through line is a series of plot information to be given out in bits and pie
 **Claimed live evidence.** `737569808396058654` (2020-07-28, 👀 Secret societies / 👁-golden-dawn)
 
 ### Discord evidence — 737569808396058654
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0121.jsonl:456` @ row `sha256:38516c391124957e92f967c57c8dba6facf206b31a07b2aee2875935fa6fbd9f`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0121.jsonl:456 @ row sha256:38516c391124957e92f967c57c8dba6facf206b31a07b2aee2875935fa6fbd9f
 - timestamp: 2020-07-28T07:19:05.706000Z
-- channel: 👀 Secret societies / 👁-golden-dawn (`698489628289925130`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 👀 Secret societies / 👁-golden-dawn (698489628289925130)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1533,69 +1527,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `737569808396058654`
+- BCS-000045:L1644-L1647: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 737569808396058654
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-014 — A cool image is insufficient reason to break established play
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A player proposed stacking effects to create a visually spectacular oversized battlefield creature.
-- audit: `audit:BDC-S3-014:situation`
-- proposition: `sha256:34e102d05b75ddd1616361c989b2770742d6b649cdf0d6caf8b3a7a547b804c5`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-014:situation
+- proposition: sha256:34e102d05b75ddd1616361c989b2770742d6b649cdf0d6caf8b3a7a547b804c5
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The proposal was exciting but its mechanical implications were unclear and approving it would change precedent.
-- audit: `audit:BDC-S3-014:noticed`
-- proposition: `sha256:1b51728946da0b9de7bafdcf665ab327ea14afdc40c590d041db567bd6774a69`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-014:noticed
+- proposition: sha256:1b51728946da0b9de7bafdcf665ab327ea14afdc40c590d041db567bd6774a69
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** coherence, rules consistency, co-DM alignment, player creativity.
-- audit: `audit:BDC-S3-014:values`
-- proposition: `sha256:b4abda72ac597fd443291bf359d9a9a38dfcdfd4364994266d9af7fd792c1c06`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-014:values
+- proposition: sha256:b4abda72ac597fd443291bf359d9a9a38dfcdfd4364994266d9af7fd792c1c06
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon expressed enthusiasm for the image but withheld approval pending rules research and Noah's input, weighting the answer toward no because it conflicted with established gameplay.
-- audit: `audit:BDC-S3-014:intervention`
-- proposition: `sha256:cef98edc51e83738bd8c7acf3e28342405d8ca580da0f6778e01624076befa7b`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-014:intervention
+- proposition: sha256:cef98edc51e83738bd8c7acf3e28342405d8ca580da0f6778e01624076befa7b
+- semantic status: UNVERIFIED
 - flags: CAUSALITY_CLAIM, NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** The player accepted the ruling without the cool idea being treated as automatically valid.
-- audit: `audit:BDC-S3-014:observed_result`
-- proposition: `sha256:c141b2472fba8047b0dd7e200139440bb1075724c4eb10b682980f6b5dad750d`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-014:observed_result
+- proposition: sha256:c141b2472fba8047b0dd7e200139440bb1075724c4eb10b682980f6b5dad750d
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** Reward creativity by seriously considering it, not by automatically approving it. Check implications, precedent, and shared-GM consistency before changing the world to fit the image.
-- audit: `audit:BDC-S3-014:reusable_judgment`
-- proposition: `sha256:a9b0786338c5983d5d2d845aa1d73372be0f617dce471219fe328369b0b9812d`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-014:reusable_judgment
+- proposition: sha256:a9b0786338c5983d5d2d845aa1d73372be0f617dce471219fe328369b0b9812d
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579
 
 ### Prep excerpt — BCS-000045:L1576-L1579
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Rules as written: roanoke is a 5 week long persistent Role Play Environment that seeks to combine the improvisational storytelling ability of tabletop role playing games with the functionality and user interface of video games. This is an rp heavy town drama told in 5 acts. 
@@ -1607,11 +1599,11 @@ Rules as intended: roanoke is a 5 week long deep dive into the daily lives of yo
 **Claimed live evidence.** `746496793772163183` (2020-08-21, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 746496793772163183
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0387.jsonl:441` @ row `sha256:20541d2be09adc2a2ea0875a7bbee880cc507127e028b81de07c2ce98c191148`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0387.jsonl:441 @ row sha256:20541d2be09adc2a2ea0875a7bbee880cc507127e028b81de07c2ce98c191148
 - timestamp: 2020-08-21T22:31:44.875000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1627,69 +1619,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `746496793772163183`
+- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 746496793772163183
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-015 — When danger lands wrong, fix the telegraph before erasing the consequence
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A dangerous sequence caused distress, and players questioned whether the campaign's pressure was becoming harmful or unfair.
-- audit: `audit:BDC-S3-015:situation`
-- proposition: `sha256:c6c398a7a92393f4de3abfc8cbfdb95973143e645453e511b4f52c5ea8c1668d`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-015:situation
+- proposition: sha256:c6c398a7a92393f4de3abfc8cbfdb95973143e645453e511b4f52c5ea8c1668d
+- semantic status: UNVERIFIED
 - flags: CAUSALITY_CLAIM
 
 **What Brendon noticed.** The danger itself fit the campaign's intended pressure, but the fictional signaling had not made the lethality legible enough.
-- audit: `audit:BDC-S3-015:noticed`
-- proposition: `sha256:7fd25a3617f81898559595de1b02411b5ec4500365f756ed914be3950f76c4a0`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-015:noticed
+- proposition: sha256:7fd25a3617f81898559595de1b02411b5ec4500365f756ed914be3950f76c4a0
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** challenge, trust, telegraphing, player experience.
-- audit: `audit:BDC-S3-015:values`
-- proposition: `sha256:1c8a19ef4cb67ebe7e79b592e56d4d2a354e8628cd3e248182cc42666c533eaf`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-015:values
+- proposition: sha256:1c8a19ef4cb67ebe7e79b592e56d4d2a354e8628cd3e248182cc42666c533eaf
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon kept the legitimate consequence, acknowledged that he should have signaled the danger better through RP, and shifted to transparent discussion of intent.
-- audit: `audit:BDC-S3-015:intervention`
-- proposition: `sha256:344861d9e77ad8e90b6fb43f38b441d35919b3f1d656cf2ab21a7d7e7419ccd1`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-015:intervention
+- proposition: sha256:344861d9e77ad8e90b6fb43f38b441d35919b3f1d656cf2ab21a7d7e7419ccd1
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The conversation moved from arguing the outcome toward rebuilding trust and clarifying what kind of pressure the campaign was trying to create.
-- audit: `audit:BDC-S3-015:observed_result`
-- proposition: `sha256:9d8105b21d9885c55c082ae83ab0671efb81d427110bfd590de6c5c80e2ad16f`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-015:observed_result
+- proposition: sha256:9d8105b21d9885c55c082ae83ab0671efb81d427110bfd590de6c5c80e2ad16f
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** If a dangerous outcome surprises players for the wrong reason, diagnose the information failure. Improve future telegraphing before deciding that the consequence itself must be undone.
-- audit: `audit:BDC-S3-015:reusable_judgment`
-- proposition: `sha256:ba26f5f1c47c7ef277f018ff7acfd3eb613f2c83a41b6f5e7c2099d78bf3928a`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-015:reusable_judgment
+- proposition: sha256:ba26f5f1c47c7ef277f018ff7acfd3eb613f2c83a41b6f5e7c2099d78bf3928a
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L4113-L4124
 
 ### Prep excerpt — BCS-000045:L4113-L4124
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:a7e522893409b856f289825a326476e9331ef07227010d2e099978eb92b18ed6`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:a7e522893409b856f289825a326476e9331ef07227010d2e099978eb92b18ed6
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 The Thames is full of boats bringing in goods, and full of refuse being washed away from the city’s masses. The constant grey skies shade every shadow a little deeper. The fog would have been enough to obscure the faces of those unlucky enough to be on foot rather than riding carriages. However the plague masks worn by the populace guarantee nearly constant anonymity. 
@@ -1709,11 +1699,11 @@ The book is broken up chronologically to facilitate the use of a real time role 
 **Claimed live evidence.** `740071292127936623` (2020-08-04, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 740071292127936623
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0198.jsonl:466` @ row `sha256:010e39a5c9ef758c7d9938425ff94df9ab6345637a80d5a9ab10e8ee1c9f3153`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0198.jsonl:466 @ row sha256:010e39a5c9ef758c7d9938425ff94df9ab6345637a80d5a9ab10e8ee1c9f3153
 - timestamp: 2020-08-04T04:59:05.903000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1729,69 +1719,67 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `None`
+- BCS-000045:L4113-L4124: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: None
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-016 — The event schedule yields when the table is no longer in a good state to play
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** After a difficult interpersonal/mental-health discussion, a scheduled hunt was still due to happen.
-- audit: `audit:BDC-S3-016:situation`
-- proposition: `sha256:a118d82300c3b4ec8b42e134760f6717ffcbe69feff4f53616b63f3b8af77486`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-016:situation
+- proposition: sha256:a118d82300c3b4ec8b42e134760f6717ffcbe69feff4f53616b63f3b8af77486
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** Continuing the event would turn the schedule itself into a roadblock and the DM was no longer in a good state to run it.
-- audit: `audit:BDC-S3-016:noticed`
-- proposition: `sha256:a0a8328e48ab25d327a792962eb70ebbdebc8cdb608b27528d46b7e623b26df5`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-016:noticed
+- proposition: sha256:a0a8328e48ab25d327a792962eb70ebbdebc8cdb608b27528d46b7e623b26df5
+- semantic status: UNVERIFIED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** table health, future play, schedule flexibility.
-- audit: `audit:BDC-S3-016:values`
-- proposition: `sha256:38131cf45972c2324689b621d751fe578df0c8bab7a7411dbe4b82daed787b01`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-016:values
+- proposition: sha256:38131cf45972c2324689b621d751fe578df0c8bab7a7411dbe4b82daed787b01
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon offered a mulligan on a painful memory if needed, deferred to the player about their own story, then canceled the night's event rather than forcing the timetable.
-- audit: `audit:BDC-S3-016:intervention`
-- proposition: `sha256:64cb24c1c333d6149dff14c65feb3aa2746a48c38b8b70d38a880d45f1d47b11`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-016:intervention
+- proposition: sha256:64cb24c1c333d6149dff14c65feb3aa2746a48c38b8b70d38a880d45f1d47b11
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** Players accepted postponement and explicitly suggested returning to the game later.
-- audit: `audit:BDC-S3-016:observed_result`
-- proposition: `sha256:957105f8d3aea88e267048b27c1f828312575f4cd62e08e99782cd067bdb3438`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-016:observed_result
+- proposition: sha256:957105f8d3aea88e267048b27c1f828312575f4cd62e08e99782cd067bdb3438
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** A schedule coordinates play; it does not outrank the humans playing. Cancel or defer content when the current table state would make running it destructive.
-- audit: `audit:BDC-S3-016:reusable_judgment`
-- proposition: `sha256:3796f667e321481cc6f8e28e69112d3f036363f98bd5f3a83c1e8a507e768c6c`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-016:reusable_judgment
+- proposition: sha256:3796f667e321481cc6f8e28e69112d3f036363f98bd5f3a83c1e8a507e768c6c
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1569-L1587, BCS-000045:L1880-L1884
 
 ### Prep excerpt — BCS-000045:L1569-L1587
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:ced710cac7d12db4243251de1c4515d51d7bea34a29aff6247fe689b9c512861`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:ced710cac7d12db4243251de1c4515d51d7bea34a29aff6247fe689b9c512861
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Tentative Game Play dates: Saturday July 18th 2020- August 21st. [b]
@@ -1816,10 +1804,11 @@ Settings:
 ~~~
 
 ### Prep excerpt — BCS-000045:L1880-L1884
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:acee97c2aeb9ca445de369c9e017b3385a218c2afca914b07e56ebff106cc733`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:acee97c2aeb9ca445de369c9e017b3385a218c2afca914b07e56ebff106cc733
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Game breakdown by day:
@@ -1832,11 +1821,11 @@ Day 2. 7/19/20 An Arcanian Werewolf in London-Golden Dawn into.
 **Claimed live evidence.** `740073630666457099` (2020-08-04, 🗨 Social / 🙋-out-of-character); `740073982539333702` (2020-08-04, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 740073630666457099
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0199.jsonl:24` @ row `sha256:72f1ea1d536d85abe2316b6aaa2ab3795e2e17121412ec6205d54d3a419c8f99`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0199.jsonl:24 @ row sha256:72f1ea1d536d85abe2316b6aaa2ab3795e2e17121412ec6205d54d3a419c8f99
 - timestamp: 2020-08-04T05:08:23.454000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1849,11 +1838,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 740073982539333702
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0199.jsonl:32` @ row `sha256:ed226b02473115d8810b88452d520fe9b581e99deaa5f9757891e6a801d092a0`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0199.jsonl:32 @ row sha256:ed226b02473115d8810b88452d520fe9b581e99deaa5f9757891e6a801d092a0
 - timestamp: 2020-08-04T05:09:47.347000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -1869,69 +1858,68 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `None`
+- BCS-000045:L1569-L1587: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1880-L1884: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: None
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-017 — Rewrite campaign architecture when reality destroys the assumptions it depended on
 
-**Legacy confidence:** very-high.
+Legacy confidence: very-high.
 
 **Situation.** Season 3 was designed around four active faction stories, but two DMs became less active. The remaining structure collapsed into a binary, winner-take-all rivalry that was generating real table drama.
-- audit: `audit:BDC-S3-017:situation`
-- proposition: `sha256:5a4644e7fea5d392ad70cbbfabdb7933982ff45a67efb9d1bbf951cf6f2ec856`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-017:situation
+- proposition: sha256:5a4644e7fea5d392ad70cbbfabdb7933982ff45a67efb9d1bbf951cf6f2ec856
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The original ending architecture no longer produced the intended multi-faction experience because its staffing assumptions had failed.
-- audit: `audit:BDC-S3-017:noticed`
-- proposition: `sha256:caf0f71c443b6d070522aa259487497f559a7a9837d9076e3ad7454cd08b1981`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-017:noticed
+- proposition: sha256:caf0f71c443b6d070522aa259487497f559a7a9837d9076e3ad7454cd08b1981
+- semantic status: UNVERIFIED
 - flags: CAUSALITY_CLAIM, NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** table health, campaign ending, faction meaning, cooperation.
-- audit: `audit:BDC-S3-017:values`
-- proposition: `sha256:ee8de36aa62545566277f1e2933fc7571926316e82bd901d756ba5836cf525c6`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-017:values
+- proposition: sha256:ee8de36aa62545566277f1e2933fc7571926316e82bd901d756ba5836cf525c6
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon and Noah explicitly removed the bipartisan structure and rewrote the Mason and Knight endings so they could function as complementary defense and offense instead of mutually exclusive winners.
-- audit: `audit:BDC-S3-017:intervention`
-- proposition: `sha256:ffbb580d381b9bac8065c686f67be0c0cdde218fa477e33ccf944014cb8dec78`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-017:intervention
+- proposition: sha256:ffbb580d381b9bac8065c686f67be0c0cdde218fa477e33ccf944014cb8dec78
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The finale acquired an in-world reason for the town to cooperate while preserving distinct faction contributions.
-- audit: `audit:BDC-S3-017:observed_result`
-- proposition: `sha256:2be145c94aa7f42e6de2b92578ddef07c798ebf06526aa17ee108611bb934c28`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-017:observed_result
+- proposition: sha256:2be145c94aa7f42e6de2b92578ddef07c798ebf06526aa17ee108611bb934c28
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** When an implementation assumption fails, preserve the purpose of the design rather than its original topology. Rewrite the structure that is now producing the wrong experience.
-- audit: `audit:BDC-S3-017:reusable_judgment`
-- proposition: `sha256:a1886a1e7a70e26b4b53945801118577ba38a423ed5a793135694a1924bd95e5`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-017:reusable_judgment
+- proposition: sha256:a1886a1e7a70e26b4b53945801118577ba38a423ed5a793135694a1924bd95e5
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L1603-L1618, BCS-000045:L1680-L1705
 
 ### Prep excerpt — BCS-000045:L1603-L1618
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:848ba748694b013c823e07294af96ea122147dd283dac9e264ce8d44d6bdab2c`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:848ba748694b013c823e07294af96ea122147dd283dac9e264ce8d44d6bdab2c
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Answering the call are four different organizations with four different reasons to travel to the New World
@@ -1953,10 +1941,11 @@ The groups encounter something underwater that throws them off course and wrecks
 ~~~
 
 ### Prep excerpt — BCS-000045:L1680-L1705
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:bcc3d7312f16dd50e0a0100a241b072e52cbb56e8413dbbd3b5787361baa22a6`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:bcc3d7312f16dd50e0a0100a241b072e52cbb56e8413dbbd3b5787361baa22a6
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 The freemasons:   
@@ -1990,11 +1979,11 @@ Notable gods to the Knights' order:
 **Claimed live evidence.** `745737396804518020` (2020-08-19, ❄ Things you should read. / ❕announcements)
 
 ### Discord evidence — 745737396804518020
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0365.jsonl:406` @ row `sha256:e75934329d191f0f888a06b1dd8a0f863269423a7385091f458a7f9e99764b88`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0365.jsonl:406 @ row sha256:e75934329d191f0f888a06b1dd8a0f863269423a7385091f458a7f9e99764b88
 - timestamp: 2020-08-19T20:14:10.529000Z
-- channel: ❄ Things you should read. / ❕announcements (`734250210057912344`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: ❄ Things you should read. / ❕announcements (734250210057912344)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -2006,69 +1995,68 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `745737396804518020`
+- BCS-000045:L1603-L1618: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1680-L1705: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 745737396804518020
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-018 — Protect the campaign's thematic center when an emergent subsystem begins consuming it
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** Town politics and the mayoral race had become a dominant emergent activity, while the intended Mason through-line was about building, fellowship, and eventually the Tinker ending.
-- audit: `audit:BDC-S3-018:situation`
-- proposition: `sha256:c39c0d83521b6bdba96b9eda71f94007dc8213540b5ae6c4f296fcdff42b1f97`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-018:situation
+- proposition: sha256:c39c0d83521b6bdba96b9eda71f94007dc8213540b5ae6c4f296fcdff42b1f97
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The political layer was becoming all-or-nothing and pulling attention away from the relationship/family theme Brendon wanted the season to resolve around.
-- audit: `audit:BDC-S3-018:noticed`
-- proposition: `sha256:bc0f03396d32812bacfc95ac183d34defc97b4992eb5b941be9b346272492e6b`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-018:noticed
+- proposition: sha256:bc0f03396d32812bacfc95ac183d34defc97b4992eb5b941be9b346272492e6b
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** theme, table cohesion, faction identity, emergent play.
-- audit: `audit:BDC-S3-018:values`
-- proposition: `sha256:0b27cc06a60aa4d171e3c267dfa349e44191d4abb465899b22eef340125807c9`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-018:values
+- proposition: sha256:0b27cc06a60aa4d171e3c267dfa349e44191d4abb465899b22eef340125807c9
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon articulated that the season's focus was bringing people together as friends and family, moved the Mason symbolism toward the rebuilt pub rather than governance, and resisted blame-focused politics in the final week.
-- audit: `audit:BDC-S3-018:intervention`
-- proposition: `sha256:3be003f6642aaad35716b18223a95c6a3d1c40fb2c184e03a2965328d5c9f478`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-018:intervention
+- proposition: sha256:3be003f6642aaad35716b18223a95c6a3d1c40fb2c184e03a2965328d5c9f478
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The Mason story was reframed around rebuilding/community while final-week messaging emphasized coming back together.
-- audit: `audit:BDC-S3-018:observed_result`
-- proposition: `sha256:97f2b13cd6fb0b3db0027e90ff6059d16405dfcf5a7292321300335db3ac7573`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-018:observed_result
+- proposition: sha256:97f2b13cd6fb0b3db0027e90ff6059d16405dfcf5a7292321300335db3ac7573
+- semantic status: UNVERIFIED
 - flags: none
 
 **Reusable judgment.** Let emergent systems grow while they enrich the campaign. Redirect them when they begin cannibalizing the story's central concern or damaging table cohesion.
-- audit: `audit:BDC-S3-018:reusable_judgment`
-- proposition: `sha256:3c27f0ab03ef40ffd86bd4aefe05f7c8b0ec7a027bd92c427fca6ba5af95180c`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW
+- audit: audit:BDC-S3-018:reusable_judgment
+- proposition: sha256:3c27f0ab03ef40ffd86bd4aefe05f7c8b0ec7a027bd92c427fca6ba5af95180c
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579, BCS-000045:L1680-L1685
 
 ### Prep excerpt — BCS-000045:L1576-L1579
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:dc3c1a92fe4f279edb0c76f88c358ed9cf7bbb33f9a10a3fd37f4de8668d601e
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Rules as written: roanoke is a 5 week long persistent Role Play Environment that seeks to combine the improvisational storytelling ability of tabletop role playing games with the functionality and user interface of video games. This is an rp heavy town drama told in 5 acts. 
@@ -2078,10 +2066,11 @@ Rules as intended: roanoke is a 5 week long deep dive into the daily lives of yo
 ~~~
 
 ### Prep excerpt — BCS-000045:L1680-L1685
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:f33427113990c26165982843ac5ce810ff668bd4782a2d95c9a297dc98e58c76`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:f33427113990c26165982843ac5ce810ff668bd4782a2d95c9a297dc98e58c76
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 The freemasons:   
@@ -2095,11 +2084,11 @@ Week five:Masonic Ending available: The rite of the tinker.
 **Claimed live evidence.** `743967418824523836` (2020-08-14, 🗨 Social / 🙋-out-of-character); `745053207327277106` (2020-08-17, 🗨 Social / 🙋-out-of-character); `745054916850221076` (2020-08-17, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 743967418824523836
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0317.jsonl:122` @ row `sha256:184951b767b2c53f6a5ca262ba54e49fe8286295b5b1d824542caaada63c881d`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0317.jsonl:122 @ row sha256:184951b767b2c53f6a5ca262ba54e49fe8286295b5b1d824542caaada63c881d
 - timestamp: 2020-08-14T23:00:54.894000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -2112,11 +2101,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 745053207327277106
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0346.jsonl:478` @ row `sha256:d44ef3f1c189ab4de67db51d1142720ea171f48f17ac52a3cbd6c3b3ba9ff1c3`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0346.jsonl:478 @ row sha256:d44ef3f1c189ab4de67db51d1142720ea171f48f17ac52a3cbd6c3b3ba9ff1c3
 - timestamp: 2020-08-17T22:55:27.046000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -2129,11 +2118,11 @@ Bounded same-channel context:
 ~~~
 
 ### Discord evidence — 745054916850221076
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0347.jsonl:6` @ row `sha256:9c88a8d4c2a0772ca57a2643ef0287c32eec99bbf3ca8ed143a20079e9d20bb0`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0347.jsonl:6 @ row sha256:9c88a8d4c2a0772ca57a2643ef0287c32eec99bbf3ca8ed143a20079e9d20bb0
 - timestamp: 2020-08-17T23:02:14.628000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -2149,72 +2138,70 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `745054916850221076`
+- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1680-L1685: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 745054916850221076
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-019 — Correct a broken rule prospectively while honoring outcomes already earned under it
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A resurrection house rule proved too strong in actual play.
-- audit: `audit:BDC-S3-019:situation`
-- proposition: `sha256:4f08536939513150366c3f1937109de1d7ab5f5d07da647c6d84ac2333b86a1b`
-- semantic status: `UNVERIFIED`
-- flags: NO_PREP_PRIMARY_LINK
+- audit: audit:BDC-S3-019:situation
+- proposition: sha256:4f08536939513150366c3f1937109de1d7ab5f5d07da647c6d84ac2333b86a1b
+- semantic status: UNVERIFIED
+- flags: none
 
 **What Brendon noticed.** The rule was creating a balance problem that could not remain in the campaign as written.
-- audit: `audit:BDC-S3-019:noticed`
-- proposition: `sha256:2c491cb76c8b333911ef7fc2e9bbc2b3cd28a010f7c56dde2341ec597225c7d5`
-- semantic status: `UNVERIFIED`
-- flags: NEGATIVE_OR_ABSENCE_CLAIM, NO_PREP_PRIMARY_LINK
+- audit: audit:BDC-S3-019:noticed
+- proposition: sha256:2c491cb76c8b333911ef7fc2e9bbc2b3cd28a010f7c56dde2341ec597225c7d5
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** game balance, fairness, trust in rulings.
-- audit: `audit:BDC-S3-019:values`
-- proposition: `sha256:8acc540721dd98058fb57090ba2f29a00be86c022ff0999067d4926cbdd71d2b`
-- semantic status: `UNVERIFIED`
-- flags: NO_PREP_PRIMARY_LINK
+- audit: audit:BDC-S3-019:values
+- proposition: sha256:8acc540721dd98058fb57090ba2f29a00be86c022ff0999067d4926cbdd71d2b
+- semantic status: UNVERIFIED
+- flags: none
 
 **Intervention.** Brendon publicly called the rule a genuine mistake, nerfed it going forward, and explicitly let that night's resurrections stand.
-- audit: `audit:BDC-S3-019:intervention`
-- proposition: `sha256:38384fd1a149d5e325793cf1986ff1e62ef5a8b465ad5c92ae348ac04dca67d7`
-- semantic status: `UNVERIFIED`
-- flags: NO_PREP_PRIMARY_LINK
+- audit: audit:BDC-S3-019:intervention
+- proposition: sha256:38384fd1a149d5e325793cf1986ff1e62ef5a8b465ad5c92ae348ac04dca67d7
+- semantic status: UNVERIFIED
+- flags: none
 
 **Observed result.** The system changed without retroactively invalidating player outcomes that had been legal when they occurred.
-- audit: `audit:BDC-S3-019:observed_result`
-- proposition: `sha256:8fb273b0d65a2b71f139c98864bcf2c1554642aada7ac8c9c6785ca59f2b0fa2`
-- semantic status: `UNVERIFIED`
-- flags: NEGATIVE_OR_ABSENCE_CLAIM, NO_PREP_PRIMARY_LINK
+- audit: audit:BDC-S3-019:observed_result
+- proposition: sha256:8fb273b0d65a2b71f139c98864bcf2c1554642aada7ac8c9c6785ca59f2b0fa2
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** When a house rule fails in live play, fix it. Prefer prospective correction and preserve already-resolved outcomes unless the existing result is itself intolerable.
-- audit: `audit:BDC-S3-019:reusable_judgment`
-- proposition: `sha256:b31a59dc34a60f818b342d36c25777840f5c8796da59adf8b0c450f0d990d5b9`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NO_PREP_PRIMARY_LINK
+- audit: audit:BDC-S3-019:reusable_judgment
+- proposition: sha256:b31a59dc34a60f818b342d36c25777840f5c8796da59adf8b0c450f0d990d5b9
+- semantic status: UNVERIFIED
+- flags: none
 
 **Claimed prep evidence.** No direct pre-session rule located; runtime evidence only.
 
 **Claimed live evidence.** `744056939096571924` (2020-08-15, ❄ Things you should read. / ❕announcements)
 
 ### Discord evidence — 744056939096571924
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0320.jsonl:440` @ row `sha256:a07f997e31e9b90293c3d1160cf954cc93ebd2c5ec0ada85f10594ddd94ad391`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0320.jsonl:440 @ row sha256:a07f997e31e9b90293c3d1160cf954cc93ebd2c5ec0ada85f10594ddd94ad391
 - timestamp: 2020-08-15T04:56:38.190000Z
-- channel: ❄ Things you should read. / ❕announcements (`734250210057912344`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: ❄ Things you should read. / ❕announcements (734250210057912344)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -2226,69 +2213,66 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `744056939096571924`
+- representative-message match: 744056939096571924
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
 ---
 
 ## BDC-S3-020 — Downgrade encounter mode when turnout cannot support the intended challenge
 
-**Legacy confidence:** high.
+Legacy confidence: high.
 
 **Situation.** A dangerous tree encounter was planned, but the available player count was uncertain.
-- audit: `audit:BDC-S3-020:situation`
-- proposition: `sha256:f5758a86869f86086b336939509feef9098feb1d6c4927cb5ab616d3b4fa43f7`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-020:situation
+- proposition: sha256:f5758a86869f86086b336939509feef9098feb1d6c4927cb5ab616d3b4fa43f7
+- semantic status: UNVERIFIED
 - flags: none
 
 **What Brendon noticed.** The encounter's combat form depended on enough participants to make the risk and pacing work.
-- audit: `audit:BDC-S3-020:noticed`
-- proposition: `sha256:3c64e3f167be08091078bb953fa30a70d7a6670e4e976d638b87beb24c8add99`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-020:noticed
+- proposition: sha256:3c64e3f167be08091078bb953fa30a70d7a6670e4e976d638b87beb24c8add99
+- semantic status: UNVERIFIED
 - flags: none
 
 **What mattered.** challenge validity, attendance, continuity.
-- audit: `audit:BDC-S3-020:values`
-- proposition: `sha256:1fdc120ab7f42142974f25e296a68b7cd415ce0135c2f3ff2e60c85673f272ee`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-020:values
+- proposition: sha256:1fdc120ab7f42142974f25e296a68b7cd415ce0135c2f3ff2e60c85673f272ee
+- semantic status: UNVERIFIED
 - flags: none
 
 **Intervention.** Brendon declared in advance that insufficient turnout would convert the event to exploration only and that the fight could be skipped until later.
-- audit: `audit:BDC-S3-020:intervention`
-- proposition: `sha256:6b91c0a2a03fadf15641cb1adf979ba1b43cf0870af70fb4ed06642b5f72af4e`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-020:intervention
+- proposition: sha256:6b91c0a2a03fadf15641cb1adf979ba1b43cf0870af70fb4ed06642b5f72af4e
+- semantic status: UNVERIFIED
 - flags: none
 
 **Observed result.** The world remained explorable without forcing an understrength party into the combat merely because the encounter was scheduled.
-- audit: `audit:BDC-S3-020:observed_result`
-- proposition: `sha256:3d84cd9a8805b4be5e6a088888214a03b2e2ffc3d0d239f29e43f8a40cf53a9c`
-- semantic status: `UNVERIFIED`
+- audit: audit:BDC-S3-020:observed_result
+- proposition: sha256:3d84cd9a8805b4be5e6a088888214a03b2e2ffc3d0d239f29e43f8a40cf53a9c
+- semantic status: UNVERIFIED
 - flags: CAUSALITY_CLAIM, NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** Treat encounter mode as conditional on the table state. If the group cannot support the intended challenge, preserve exploration/information and defer the fight.
-- audit: `audit:BDC-S3-020:reusable_judgment`
-- proposition: `sha256:de5f63025374443e46596bd503d3d18bae85842726285a7a318f2cf7b360d571`
-- semantic status: `UNVERIFIED`
-- flags: GENERALIZATION_REVIEW, NEGATIVE_OR_ABSENCE_CLAIM
+- audit: audit:BDC-S3-020:reusable_judgment
+- proposition: sha256:de5f63025374443e46596bd503d3d18bae85842726285a7a318f2cf7b360d571
+- semantic status: UNVERIFIED
+- flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L2802-L2815
 
 ### Prep excerpt — BCS-000045:L2802-L2815
-- representation: `sources/roanoke/BCS-000045/source.md`
-- representation SHA-256: `adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166`
-- excerpt digest: `sha256:9fe5fc9f354bf26b005972684502d8056f563cdd452759cad6e341a5ce0b42c7`
-- source quality: {"body": "CAPTURED", "comments": "PRESERVED", "extraction_warning": null, "historical_context": null, "live_use": null, "normalization_method": null, "revision_metadata": "NOT_PRESENT", "revisions": null, "status": "RECONCILED_CONTAINER"}
+- representation: sources/roanoke/BCS-000045/source.md
+- representation SHA-256: adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166
+- source metadata SHA-256: 9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055
+- excerpt digest: sha256:9fe5fc9f354bf26b005972684502d8056f563cdd452759cad6e341a5ce0b42c7
+- source quality: {"authorship": {"basis": "Not established; uploader and file ownership do not establish authorship.", "status": "UNKNOWN"}, "capture_status": {"assets": "NONE_EXTRACTED", "comments": "PRESERVED", "current_body": "CAPTURED", "revision_bodies": "NOT_PRESENT", "revision_metadata": "NOT_PRESENT"}, "normalization_method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.", "normalization_warnings": ["Google-native DOCX is an export snapshot, not the native Google document."], "not_established": [{"basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use.", "question": "live_use", "status": "NOT_ESTABLISHED"}], "production_stages": [{"basis": "The text is a rough campaign manuscript, with an unfinished table of contents, not a live record.", "confidence": "STRONG", "stage": "PREPRODUCTION", "support_refs": ["BCS-000045"]}], "reconciliation": {"canonical_corpus_id": "BCS-000045", "donor_branch": "ingest/drive-project-v3", "donor_corpus_id": "BCS-000045", "id_collision_remap": false, "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."}, "source_kind": "google_drive_native"}
 
 ~~~text
 Day 18 Ozark Howler (perhaps drawn out by hag rituals)
@@ -2310,11 +2294,11 @@ The players come across a fountain of erupting mud and steam. The Howler howls a
 **Claimed live evidence.** `740004240600072299` (2020-08-04, 🗨 Social / 🙋-out-of-character)
 
 ### Discord evidence — 740004240600072299
-- canonical source: `discord/roanoke-season-3/roanoke-season-3.sqlite` @ LFS SHA-256 `16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d`
-- retrieval projection: `model-index/discord/roanoke-season-3/messages-0196.jsonl:192` @ row `sha256:551d1a7d56468e7901a493b89feff0f2dcff51f5b2463d9519da11e0be0385a7`
+- canonical source: discord/roanoke-season-3/roanoke-season-3.sqlite @ LFS SHA-256 16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d
+- retrieval projection: model-index/discord/roanoke-season-3/messages-0196.jsonl:192 @ row sha256:551d1a7d56468e7901a493b89feff0f2dcff51f5b2463d9519da11e0be0385a7
 - timestamp: 2020-08-04T00:32:39.573000Z
-- channel: 🗨 Social / 🙋-out-of-character (`636012145204527127`)
-- immutable author: `313689699627696139` — DM radar / bfdm
+- channel: 🗨 Social / 🙋-out-of-character (636012145204527127)
+- immutable author: 313689699627696139 — DM radar / bfdm
 
 Bounded same-channel context:
 
@@ -2330,17 +2314,14 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- locator classification: `UNRESOLVED`
-- original representation: `UNRESOLVED`
-- current support: `UNRESOLVED`
-- representation drift established: `false`
-- representative-message match: `740004240600072299`
+- BCS-000045:L2802-L2815: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- representative-message match: 740004240600072299
 
 ### Semantic review questions
 
-1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?
-2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?
+1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?
+2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?
 3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?
 4. What evidence confidence survives?
-5. What claim scope survives? Do not promote one event to a general-current-practice rule.
-6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?
+5. What claim scope survives? One event does not become general-current-practice by default.
+6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?
