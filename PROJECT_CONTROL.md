@@ -100,6 +100,20 @@ Current rule:
 
 Where a BFDM finding is proposed as useful DM intelligence, later Kit evaluation should test whether it changes the right decision or improves the lived experience in a held-out/current-build situation.
 
+## Four-audit synthesis
+
+The October 7 runtime, quality, research-readiness, and project-truth audits converge on one governing correction:
+
+> **proxy evidence is not demonstrated truth.**
+
+For BFDM specifically:
+- retrievable source != verified derived claim;
+- polished/cited research != semantically trusted research;
+- research trust != evidence that current Kit performs the skill;
+- current planning docs != canonical history.
+
+Keep executable truth, player-experience evidence, research trust, and coordination authority distinct.
+
 ## Product relationship
 
 BFDM research exists to improve Kit's craft and understanding, but BFDM is not the product.
@@ -114,8 +128,8 @@ Another GPT is already doing mechanical corpus preparation. Do not duplicate ing
 
 Temporary audits:
 
-- GPT 1 — project truth / contradiction audit;
-- GPT 2 — Kit quality / failure-localization audit;
+- GPT 1 — project truth / contradiction audit (complete; incorporated);
+- GPT 2 — Kit quality / failure-localization audit (complete; incorporated);
 - GPT 3 — BFDM research-readiness / ChatGPT Work queue (complete; preserved in `research/audits/2026-10-07-chatgpt-work-readiness.md`);
 - Grok Build — executable `dnd-solo` runtime audit (complete);
 - control-room thread — cross-report synthesis.
