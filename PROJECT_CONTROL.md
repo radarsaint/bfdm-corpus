@@ -60,6 +60,18 @@ Preserve these distinctions:
 
 Prefer explicit UNKNOWN over invented continuity.
 
+## Relationship to current Kit quality evidence
+
+The 2026-10-07 Kit quality audit found that current runtime implementation has advanced significantly beyond the last serious human player-facing evaluation.
+
+BFDM research does **not** close that gap. Even excellent source-grounded research cannot establish that current Kit has acquired or successfully expresses the corresponding DM skill.
+
+Current rule:
+
+> do not use BFDM research quality as a proxy for current Kit play quality.
+
+Where a BFDM finding is proposed as useful DM intelligence, later Kit evaluation should test whether it changes the right decision or improves the lived experience in a held-out/current-build situation.
+
 ## Product relationship
 
 BFDM research exists to improve Kit's craft and understanding, but BFDM is not the product.
