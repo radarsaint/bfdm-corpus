@@ -14,5 +14,19 @@
     "research/RESEARCH_STATE.json"
   ],
   "verify_live_main_before_state_sensitive_work": true,
-  "canonical_rule": "bfdm-corpus main is merged source/research truth; active PRs are proposed state and must be named"
+  "canonical_rule": "bfdm-corpus main is merged source/research truth; active PRs are proposed state and must be named",
+  "authority_traps": {
+    "dnd_solo_corpus_mirror": "HISTORICAL_NOT_CANONICAL",
+    "old_drive_prs": [
+      "24",
+      "26"
+    ],
+    "active_unmerged_research": [
+      "28",
+      "33",
+      "37",
+      "38"
+    ],
+    "visibility": "NOT_PART_OF_AUTHORITY"
+  }
 }
