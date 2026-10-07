@@ -108,7 +108,7 @@ Temporary audits:
 
 - GPT 1 — project truth / contradiction audit;
 - GPT 2 — Kit quality / failure-localization audit;
-- GPT 3 — BFDM research-readiness / ChatGPT Work queue;
+- GPT 3 — BFDM research-readiness / ChatGPT Work queue (complete; preserved in `research/audits/2026-10-07-chatgpt-work-readiness.md`);
 - Grok Build — executable `dnd-solo` runtime audit (complete);
 - control-room thread — cross-report synthesis.
 
