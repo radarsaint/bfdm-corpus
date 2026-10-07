@@ -1,9 +1,31 @@
 # Next Handoff
 
-**Current as of:** 2026-10-05  
+**Current as of:** 2026-10-07  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
+
+## Cross-repository coordination
+
+For any task that can affect Kit/runtime decisions, read repository-root `PROJECT_CONTROL.md` and `COORDINATION.md` first, then verify live `main` in both this repo and `radarsaint/dnd-solo` when the task crosses the boundary.
+
+GitHub issues/PRs own live task state. Dated handoffs are orientation/history and must not silently outrank newer `main` or an explicitly named active draft.
+
+### Active integrity work — PR #38
+
+PR #38, **Audit and repair BFDM derived-research evidence chains**, is an active draft updated 2026-10-07.
+
+Its governing rule is:
+
+> a derived claim is not source-verified merely because it contains a citation; the cited source content must be retrieved and shown to support the claim at the stated scope and confidence.
+
+Until the forensic audit settles a derived artifact, do not use polish or citation density as proof that its propositions are verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support.
+
+PR #38 is not canonical `main`, but it materially changes how current researchers should treat un-audited derived work.
+
+### Strategic planning draft — PR #37
+
+PR #37 preserves current Kit/BFDM strategic planning, including Stage 1–4 sequencing and tool allocation. It is project direction, not historical BFDM evidence, and remains an unmerged draft.
 
 ## What is complete on main
 
