@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Deterministic integrity checks for version-bound BFDM derived research.
 
-This script checks reconstructability and stale state. It does not decide whether
-an interpretation of historical evidence is semantically correct.
+Mechanical reconstructability only. This module never decides whether historical
+evidence semantically supports motive, causality, scope, transfer, or expert judgment.
 """
 from __future__ import annotations
 
@@ -11,7 +11,6 @@ import copy
 import hashlib
 import json
 import re
-import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
@@ -36,7 +35,6 @@ PROPOSITION_FIELDS = (
     "observed_result",
     "reusable_judgment",
 )
-
 FIELD_LABELS = {
     "Situation": "situation",
     "Prep evidence": "prep_evidence",
@@ -49,7 +47,6 @@ FIELD_LABELS = {
     "Representative line": "representative_line",
     "Confidence": "confidence",
 }
-
 SEMANTIC_STATUSES = {
     "VERIFIED_DIRECT",
     "VERIFIED_STRONG_RECONSTRUCTION",
@@ -67,7 +64,12 @@ SEMANTIC_STATUSES = {
     "REQUIRES_REVALIDATION",
     "UNVERIFIED",
 }
-VERIFIED_STATUSES = {"VERIFIED_DIRECT", "VERIFIED_STRONG_RECONSTRUCTION", "PARTIALLY_SUPPORTED", "LOCATOR_BROKEN_SUPPORT_RECOVERED"}
+VERIFIED_STATUSES = {
+    "VERIFIED_DIRECT",
+    "VERIFIED_STRONG_RECONSTRUCTION",
+    "PARTIALLY_SUPPORTED",
+    "LOCATOR_BROKEN_SUPPORT_RECOVERED",
+}
 LOCATOR_OUTCOMES = {
     "CURRENTLY_VALID",
     "MOVED_EXACT_EVIDENCE",
@@ -78,7 +80,6 @@ LOCATOR_OUTCOMES = {
     "SUPPORT_NOT_FOUND",
     "UNRESOLVED",
 }
-
 CASE_RE = re.compile(r"^### (BDC-S3-\d{3}) — ([^\n]+)$", re.M)
 BCS_REF_RE = re.compile(r"(BCS-\d{6}):L(\d+)-L(\d+)")
 DISCORD_ID_RE = re.compile(r"`(\d{17,20})`")
@@ -119,7 +120,7 @@ def canonical_json_digest(value: Any) -> str:
 
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
-    rows = []
+    rows: list[dict[str, Any]] = []
     if not path.exists():
         return rows
     for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
@@ -133,8 +134,7 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
 
 
 def parse_cases_jsonl(path: Path) -> dict[str, dict[str, Any]]:
-    rows = read_jsonl(path)
-    return {row["id"]: row for row in rows}
+    return {row["id"]: row for row in read_jsonl(path)}
 
 
 def parse_cases_markdown(path: Path) -> dict[str, dict[str, Any]]:
@@ -147,8 +147,7 @@ def parse_cases_markdown(path: Path) -> dict[str, dict[str, Any]]:
         body = text[start:end]
         record: dict[str, Any] = {"id": match.group(1), "title": match.group(2).strip()}
         for label, key in FIELD_LABELS.items():
-            pattern = re.compile(r"^\*\*" + re.escape(label) + r"\.\*\*\s*(.*?)$", re.M)
-            hit = pattern.search(body)
+            hit = re.search(r"^\*\*" + re.escape(label) + r"\.\*\*\s*(.*?)$", body, re.M)
             if hit:
                 record[key] = hit.group(1).strip()
         out[record["id"]] = record
@@ -189,8 +188,8 @@ def lfs_oid(path: Path) -> str | None:
     if not path.exists():
         return None
     text = path.read_text(encoding="utf-8", errors="replace")
-    m = re.search(r"^oid sha256:([0-9a-f]{64})$", text, re.M)
-    return m.group(1) if m else None
+    match = re.search(r"^oid sha256:([0-9a-f]{64})$", text, re.M)
+    return match.group(1) if match else None
 
 
 def identity_row(root: Path, identity_id: str = BRENDON_S3_IDENTITY) -> dict[str, Any] | None:
@@ -205,8 +204,7 @@ def find_discord_messages(root: Path, wanted: Iterable[str]) -> dict[str, dict[s
     found: dict[str, dict[str, Any]] = {}
     if not wanted_set:
         return found
-    base = root / DISCORD_PROJECTION
-    for shard in sorted(base.glob("messages-*.jsonl")):
+    for shard in sorted((root / DISCORD_PROJECTION).glob("messages-*.jsonl")):
         shard_digest: str | None = None
         for line_no, line in enumerate(shard.read_text(encoding="utf-8").splitlines(), 1):
             if not line.strip():
@@ -214,9 +212,8 @@ def find_discord_messages(root: Path, wanted: Iterable[str]) -> dict[str, dict[s
             try:
                 row = json.loads(line)
             except json.JSONDecodeError:
-                # A malformed unrelated projection row must not make a cited
-                # message undiscoverable. If the cited row itself cannot be
-                # reconstructed it will remain missing and validation fails.
+                # Unrelated malformed rows do not make a cited row disappear.
+                # A malformed cited row remains missing and therefore fails closed.
                 continue
             msg_id = str(row.get("id", ""))
             if msg_id not in wanted_set:
@@ -233,43 +230,6 @@ def find_discord_messages(root: Path, wanted: Iterable[str]) -> dict[str, dict[s
         if len(found) == len(wanted_set):
             break
     return found
-
-
-def evidence_state_digest(record: dict[str, Any]) -> str:
-    evidence = record.get("evidence", {})
-    stable = {
-        "proposition_digest": record.get("proposition", {}).get("digest"),
-        "prep": [
-            {
-                "source_id": x.get("source_id"),
-                "representation_path": x.get("representation_path"),
-                "representation_sha256": x.get("representation_sha256"),
-                "line_start": x.get("line_start"),
-                "line_end": x.get("line_end"),
-                "excerpt_digest": x.get("excerpt_digest"),
-            }
-            for x in evidence.get("prep", [])
-        ],
-        "live": [
-            {
-                "message_id": x.get("message_id"),
-                "canonical_database_sha256": x.get("canonical_database_sha256"),
-                "projection_row_digest": x.get("projection_row_digest"),
-                "expected_author_id": x.get("expected_author_id"),
-            }
-            for x in evidence.get("live", [])
-        ],
-        "dependencies": [
-            {"type": x.get("type"), "id": x.get("id"), "digest": x.get("digest")}
-            for x in record.get("dependencies", [])
-        ],
-    }
-    return canonical_json_digest(stable)
-
-
-def global_packet_state(records: Iterable[dict[str, Any]]) -> str:
-    states = sorted((r["audit_id"], r.get("prepared_state_sha256")) for r in records)
-    return canonical_json_digest(states)
 
 
 def infer_flags(text: str) -> list[str]:
@@ -292,11 +252,7 @@ def classify_historical_locator(
     historical_excerpts: list[str] | None = None,
     original_representation_available: bool = True,
 ) -> str:
-    """Small deterministic helper used by forensic tests.
-
-    Semantic support is deliberately outside this function. It only compares exact
-    evidence text across representations.
-    """
+    """Classify exact-text locator history without making a semantic judgment."""
     historical_excerpts = historical_excerpts or []
     if expected_excerpt is not None and current_excerpt == expected_excerpt:
         return "CURRENTLY_VALID"
@@ -309,11 +265,97 @@ def classify_historical_locator(
     return "UNRESOLVED"
 
 
+def case_serialization_digest(case: dict[str, Any]) -> str:
+    return canonical_json_digest(case)
+
+
+def evidence_dependency_digest(record: dict[str, Any]) -> str:
+    return canonical_json_digest({
+        "legacy_claimed_confidence": record.get("legacy_claimed_confidence"),
+        "evidence": record.get("evidence", {}),
+        "dependencies": record.get("dependencies", []),
+        "forensics": record.get("forensics", {}),
+    })
+
+
+def record_state_digest(record: dict[str, Any]) -> str:
+    return canonical_json_digest({
+        "case_serialization_digest": record.get("artifact", {}).get("case_serialization_digest"),
+        "propositions": [
+            {"field": p.get("field"), "digest": p.get("digest")}
+            for p in record.get("propositions", [])
+        ],
+        "evidence_dependency_digest": evidence_dependency_digest(record),
+    })
+
+
+def global_packet_state(records: Iterable[dict[str, Any]], actual_states: dict[str, str] | None = None) -> str:
+    rows = []
+    for record in records:
+        aid = record["audit_id"]
+        state = actual_states.get(aid) if actual_states else record.get("prepared_state_sha256")
+        rows.append((aid, state))
+    return canonical_json_digest(sorted(rows))
+
+
 def packet_meta(path: Path) -> dict[str, Any] | None:
     if not path.exists():
         return None
-    m = PACKET_META_RE.search(path.read_text(encoding="utf-8"))
-    return json.loads(m.group(1)) if m else None
+    match = PACKET_META_RE.search(path.read_text(encoding="utf-8"))
+    return json.loads(match.group(1)) if match else None
+
+
+def _currentize_record(
+    root: Path,
+    record: dict[str, Any],
+    case: dict[str, Any],
+    discord: dict[str, dict[str, Any]],
+    db_sha: str | None,
+    ident_digest: str | None,
+) -> dict[str, Any]:
+    current = copy.deepcopy(record)
+    current["artifact"]["case_serialization_digest"] = case_serialization_digest(case)
+    by_field = {p["field"]: p for p in current.get("propositions", [])}
+    for field in PROPOSITION_FIELDS:
+        if field in by_field:
+            by_field[field]["digest"] = proposition_digest(case.get(field, ""))
+
+    for source in current.get("evidence", {}).get("sources", []):
+        body_path = root / source.get("representation_path", "")
+        meta_path = root / source.get("source_metadata_path", "")
+        source["representation_sha256"] = sha256_bytes(body_path.read_bytes()) if body_path.exists() else None
+        source["source_metadata_sha256"] = sha256_bytes(meta_path.read_bytes()) if meta_path.exists() else None
+
+    source_text_cache: dict[str, str] = {}
+    for locator in current.get("evidence", {}).get("prep_locators", []):
+        source = next(
+            (s for s in current.get("evidence", {}).get("sources", []) if s.get("source_id") == locator.get("source_id")),
+            None,
+        )
+        if not source or not source.get("representation_path"):
+            locator["excerpt_digest"] = None
+            continue
+        path = source["representation_path"]
+        if path not in source_text_cache:
+            p = root / path
+            source_text_cache[path] = p.read_text(encoding="utf-8") if p.exists() else ""
+        try:
+            ex = excerpt(source_text_cache[path], int(locator["line_start"]), int(locator["line_end"]))
+            locator["excerpt_digest"] = "sha256:" + sha256_text(ex)
+        except (IndexError, KeyError, ValueError):
+            locator["excerpt_digest"] = None
+
+    for live in current.get("evidence", {}).get("live", []):
+        mid = str(live.get("message_id", ""))
+        item = discord.get(mid)
+        live["canonical_database_sha256"] = db_sha
+        live["projection_row_digest"] = item["row_digest"] if item else None
+        live["author_id"] = str(item["row"].get("author_id")) if item else None
+
+    for dep in current.get("dependencies", []):
+        if dep.get("type") == "IDENTITY_ASSERTION" and dep.get("id") == BRENDON_S3_IDENTITY:
+            dep["digest"] = ident_digest
+    return current
 
 
 def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path | None = None) -> ValidationResult:
@@ -333,175 +375,191 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
     errors.extend(compare_markdown_json(md, js))
 
     records = read_jsonl(ledger_path)
-    by_key = {(r.get("artifact", {}).get("case_id"), r.get("artifact", {}).get("field")): r for r in records}
-    expected = {(case_id, field) for case_id in js for field in PROPOSITION_FIELDS}
-    actual = set(by_key)
-    for missing in sorted(expected - actual):
-        errors.append(f"{missing[0]}:{missing[1]}: missing audit record; new propositions default to UNVERIFIED")
-    for extra in sorted(actual - expected):
-        errors.append(f"{extra[0]}:{extra[1]}: audit record has no current proposition")
+    by_unit = {r.get("artifact", {}).get("unit_id"): r for r in records}
+    if len(by_unit) != len(records):
+        errors.append("duplicate or missing unit_id in audit ledger")
+    expected_units = set(js)
+    for missing in sorted(expected_units - set(by_unit)):
+        errors.append(f"{missing}: missing audit unit; new propositions default to UNVERIFIED")
+    for extra in sorted(set(by_unit) - expected_units):
+        errors.append(f"{extra}: audit unit has no current derived case")
 
-    source_path = root / BCS45
-    source_text = source_path.read_text(encoding="utf-8") if source_path.exists() else None
-    source_sha = sha256_text(source_text) if source_text is not None else None
-    db_sha = lfs_oid(root / DISCORD_DB)
-
-    all_ids = set()
-    for case in js.values():
-        all_ids.update(parse_live_ids(case.get("live_evidence", "")))
+    all_ids = {mid for case in js.values() for mid in parse_live_ids(case.get("live_evidence", ""))}
     discord = find_discord_messages(root, all_ids)
+    db_sha = lfs_oid(root / DISCORD_DB)
     ident = identity_row(root)
     ident_digest = canonical_json_digest(ident) if ident else None
-
     actual_states: dict[str, str] = {}
 
-    for key in sorted(expected & actual):
-        case_id, field = key
-        rec = by_key[key]
-        prop = rec.get("proposition", {})
-        current_text = js[case_id].get(field, "")
-        current_prop_digest = proposition_digest(current_text)
-        if prop.get("digest") != current_prop_digest:
-            errors.append(f"{case_id}:{field}: claim-version drift; REQUIRES_REVALIDATION")
-        if normalize_text(str(prop.get("text", ""))) != normalize_text(str(current_text)):
-            errors.append(f"{case_id}:{field}: stored proposition text differs from current artifact")
+    for case_id in sorted(expected_units & set(by_unit)):
+        record = by_unit[case_id]
+        case = js[case_id]
+        if record.get("schema") != "bfdm_integrity_audit/v1":
+            errors.append(f"{case_id}: unsupported audit schema {record.get('schema')!r}")
+        if record.get("artifact", {}).get("unit_kind") != "derived_case":
+            errors.append(f"{case_id}: S3 locator leaked into unit kind instead of generic derived_case")
 
-        semantic = rec.get("semantic", {})
-        status = semantic.get("status", "UNVERIFIED")
-        if status not in SEMANTIC_STATUSES:
-            errors.append(f"{case_id}:{field}: unknown semantic status {status!r}")
+        current_case_digest = case_serialization_digest(case)
+        if record.get("artifact", {}).get("case_serialization_digest") != current_case_digest:
+            errors.append(f"{case_id}: derived-unit serialization changed; refresh/revalidate")
 
-        for prep in rec.get("evidence", {}).get("prep", []):
-            p = root / prep.get("representation_path", "")
-            if not p.exists():
-                errors.append(f"{case_id}:{field}: missing source representation {p}")
+        propositions = record.get("propositions", [])
+        by_field = {p.get("field"): p for p in propositions}
+        if len(by_field) != len(propositions):
+            errors.append(f"{case_id}: duplicate proposition field in audit unit")
+        for field in PROPOSITION_FIELDS:
+            prop = by_field.get(field)
+            if not prop:
+                errors.append(f"{case_id}:{field}: missing proposition; defaults to UNVERIFIED")
                 continue
-            text = p.read_text(encoding="utf-8")
-            actual_sha = sha256_text(text)
-            if actual_sha != prep.get("representation_sha256"):
-                errors.append(f"{case_id}:{field}: source-version drift for {prep.get('source_id')}")
+            current_text = case.get(field, "")
+            if normalize_text(str(prop.get("text", ""))) != normalize_text(str(current_text)):
+                errors.append(f"{case_id}:{field}: stored proposition text differs from current artifact")
+            if prop.get("digest") != proposition_digest(current_text):
+                errors.append(f"{case_id}:{field}: claim-version drift; REQUIRES_REVALIDATION")
+            semantic = prop.get("semantic", {})
+            status = semantic.get("status", "UNVERIFIED")
+            if status not in SEMANTIC_STATUSES:
+                errors.append(f"{case_id}:{field}: unknown semantic status {status!r}")
+            flags = set(prop.get("review_flags", []))
+            if "DERIVED_ONLY_SUPPORT" in flags and status in VERIFIED_STATUSES:
+                errors.append(f"{case_id}:{field}: derived-only evidence chain cannot be verified as primary support")
+            if "NEGATIVE_OR_ABSENCE_CLAIM" in flags and status in VERIFIED_STATUSES:
+                coverage = prop.get("negative_coverage") or {}
+                if not coverage.get("complete"):
+                    errors.append(f"{case_id}:{field}: negative claim has insufficient searched coverage")
+
+        expected_prep = [
+            (x["source_id"], x["line_start"], x["line_end"])
+            for x in parse_prep_refs(case.get("prep_evidence", ""))
+        ]
+        stored_prep = [
+            (x.get("source_id"), x.get("line_start"), x.get("line_end"))
+            for x in record.get("evidence", {}).get("prep_locators", [])
+        ]
+        if expected_prep != stored_prep:
+            errors.append(f"{case_id}: prep citation set changed")
+
+        source_by_id = {s.get("source_id"): s for s in record.get("evidence", {}).get("sources", [])}
+        for source_id, start, end in stored_prep:
+            source = source_by_id.get(source_id)
+            if not source:
+                errors.append(f"{case_id}: missing source identity {source_id}")
+                continue
+            body_path = root / source.get("representation_path", "")
+            meta_path = root / source.get("source_metadata_path", "")
+            if not body_path.exists():
+                errors.append(f"{case_id}: missing source representation {body_path}")
+                continue
+            if sha256_bytes(body_path.read_bytes()) != source.get("representation_sha256"):
+                errors.append(f"{case_id}: source-version drift for {source_id}; REQUIRES_REVALIDATION")
+            if not meta_path.exists():
+                errors.append(f"{case_id}: missing source metadata {meta_path}")
+            elif sha256_bytes(meta_path.read_bytes()) != source.get("source_metadata_sha256"):
+                errors.append(f"{case_id}: source-quality metadata changed; REQUIRES_REVALIDATION")
+            loc = next(
+                (x for x in record["evidence"]["prep_locators"]
+                 if x.get("source_id") == source_id and x.get("line_start") == start and x.get("line_end") == end),
+                None,
+            )
             try:
-                ex = excerpt(text, int(prep["line_start"]), int(prep["line_end"]))
-            except (IndexError, KeyError, ValueError) as exc:
-                errors.append(f"{case_id}:{field}: impossible locator: {exc}")
+                ex = excerpt(body_path.read_text(encoding="utf-8"), int(start), int(end))
+            except (IndexError, ValueError) as exc:
+                errors.append(f"{case_id}: impossible locator {source_id}:L{start}-L{end}: {exc}")
                 continue
-            if "sha256:" + sha256_text(ex) != prep.get("excerpt_digest"):
-                errors.append(f"{case_id}:{field}: source/excerpt mismatch at L{prep.get('line_start')}-L{prep.get('line_end')}")
+            if not loc or loc.get("excerpt_digest") != "sha256:" + sha256_text(ex):
+                errors.append(f"{case_id}: source/excerpt mismatch at {source_id}:L{start}-L{end}")
 
-        for live in rec.get("evidence", {}).get("live", []):
+        expected_live = parse_live_ids(case.get("live_evidence", ""))
+        stored_live = [str(x.get("message_id")) for x in record.get("evidence", {}).get("live", [])]
+        if expected_live != stored_live:
+            errors.append(f"{case_id}: live citation set changed")
+        for live in record.get("evidence", {}).get("live", []):
             mid = str(live.get("message_id", ""))
             item = discord.get(mid)
             if not item:
-                errors.append(f"{case_id}:{field}: Discord lookup failure for {mid}")
+                errors.append(f"{case_id}: Discord lookup failure for {mid}")
                 continue
             if db_sha is None:
-                errors.append(f"{case_id}:{field}: canonical Discord LFS identity unavailable")
+                errors.append(f"{case_id}: canonical Discord LFS identity unavailable")
             elif db_sha != live.get("canonical_database_sha256"):
-                errors.append(f"{case_id}:{field}: canonical Discord source-version drift for {mid}")
+                errors.append(f"{case_id}: canonical Discord source-version drift for {mid}")
             if item["row_digest"] != live.get("projection_row_digest"):
-                errors.append(f"{case_id}:{field}: Discord message-version drift for {mid}")
-            expected_author = live.get("expected_author_id")
-            if expected_author and str(item["row"].get("author_id")) != str(expected_author):
-                errors.append(f"{case_id}:{field}: immutable-author mismatch for {mid}")
+                errors.append(f"{case_id}: Discord message-version drift for {mid}")
+            actual_author = str(item["row"].get("author_id"))
+            if actual_author != str(live.get("author_id")):
+                errors.append(f"{case_id}: immutable-author mismatch for {mid}")
+            if live.get("attribution_person_id") == "person:brendon-faulkner" and actual_author != BRENDON_DISCORD_ID:
+                errors.append(f"{case_id}: asserted Brendon attribution has wrong immutable author for {mid}")
 
-        for dep in rec.get("dependencies", []):
+        for dep in record.get("dependencies", []):
             if dep.get("type") == "IDENTITY_ASSERTION":
                 if not ident:
-                    errors.append(f"{case_id}:{field}: missing identity dependency {dep.get('id')}")
+                    errors.append(f"{case_id}: missing identity dependency {dep.get('id')}")
                 elif dep.get("id") != BRENDON_S3_IDENTITY or dep.get("digest") != ident_digest:
-                    errors.append(f"{case_id}:{field}: identity dependency changed or unresolved")
+                    errors.append(f"{case_id}: identity dependency changed or unresolved")
             elif dep.get("type") == "AUDITED_PROPOSITION":
-                dep_id = dep.get("id")
-                if dep_id not in {r.get("audit_id") for r in records}:
-                    errors.append(f"{case_id}:{field}: missing derived dependency {dep_id}")
+                target = dep.get("id")
+                all_prop_ids = {
+                    p.get("audit_id")
+                    for r in records
+                    for p in r.get("propositions", [])
+                }
+                if target not in all_prop_ids:
+                    errors.append(f"{case_id}: missing derived dependency {target}")
 
-        flags = set(rec.get("review_flags", []))
-        if "DERIVED_ONLY_SUPPORT" in flags and status in VERIFIED_STATUSES:
-            errors.append(f"{case_id}:{field}: derived-only evidence chain cannot be verified as primary support")
-        if "NEGATIVE_OR_ABSENCE_CLAIM" in flags and status in VERIFIED_STATUSES:
-            coverage = rec.get("negative_coverage") or {}
-            if not coverage.get("complete"):
-                errors.append(f"{case_id}:{field}: negative claim has insufficient searched coverage")
+        for locator in record.get("forensics", {}).get("locator_results", []):
+            if locator.get("classification") not in LOCATOR_OUTCOMES:
+                errors.append(f"{case_id}: unknown locator-forensics outcome {locator.get('classification')}")
 
-        locator = rec.get("forensics", {}).get("locator_classification")
-        if locator is not None and locator not in LOCATOR_OUTCOMES:
-            errors.append(f"{case_id}:{field}: unknown locator-forensics outcome {locator}")
+        if case_id == "BDC-S3-004":
+            results = record.get("forensics", {}).get("locator_results", [])
+            if len(results) != 2:
+                errors.append("BDC-S3-004: expected two disputed prep locator results")
+            for loc in results:
+                if loc.get("classification") != "ORIGINAL_REPRESENTATION_UNAVAILABLE":
+                    errors.append("BDC-S3-004: original representation must not be invented")
+                if loc.get("current_support") != "SUPPORT_NOT_FOUND":
+                    errors.append("BDC-S3-004: known current locator failure was lost")
+                if loc.get("representation_drift_established") is not False:
+                    errors.append("BDC-S3-004: representation drift must remain unestablished")
 
-        actual_record = copy.deepcopy(rec)
-        actual_record.setdefault("proposition", {})["digest"] = current_prop_digest
-        for prep_state in actual_record.get("evidence", {}).get("prep", []):
-            p = root / prep_state.get("representation_path", "")
-            if p.exists():
-                current_source = p.read_text(encoding="utf-8")
-                prep_state["representation_sha256"] = sha256_text(current_source)
-                try:
-                    current_excerpt = excerpt(current_source, int(prep_state["line_start"]), int(prep_state["line_end"]))
-                    prep_state["excerpt_digest"] = "sha256:" + sha256_text(current_excerpt)
-                except (IndexError, KeyError, ValueError):
-                    prep_state["excerpt_digest"] = None
-        for live_state in actual_record.get("evidence", {}).get("live", []):
-            mid = str(live_state.get("message_id", ""))
-            item = discord.get(mid)
-            live_state["canonical_database_sha256"] = db_sha
-            live_state["projection_row_digest"] = item["row_digest"] if item else None
-        for dep_state in actual_record.get("dependencies", []):
-            if dep_state.get("type") == "IDENTITY_ASSERTION" and dep_state.get("id") == BRENDON_S3_IDENTITY:
-                dep_state["digest"] = ident_digest
-        current_state = evidence_state_digest(actual_record)
-        actual_states[rec["audit_id"]] = current_state
-        if current_state != rec.get("prepared_state_sha256"):
-            errors.append(f"{case_id}:{field}: prepared state digest is stale; REQUIRES_REVALIDATION")
-        review_state = semantic.get("review_packet_state_sha256")
-        if status in VERIFIED_STATUSES and not review_state:
-            errors.append(f"{case_id}:{field}: verified status lacks version-bound review packet state")
-
-    # Known regression must remain fail-closed until semantic adjudication.
-    for field in PROPOSITION_FIELDS:
-        rec = by_key.get(("BDC-S3-004", field))
-        if not rec:
-            continue
-        forensic = rec.get("forensics", {})
-        if forensic.get("original_representation") != "ORIGINAL_REPRESENTATION_UNAVAILABLE":
-            errors.append(f"BDC-S3-004:{field}: original representation must not be invented")
-        if forensic.get("current_support") != "SUPPORT_NOT_FOUND":
-            errors.append(f"BDC-S3-004:{field}: known current locator failure was lost")
-        if forensic.get("representation_drift_established") is not False:
-            errors.append(f"BDC-S3-004:{field}: representation drift must remain unestablished")
+        currentized = _currentize_record(root, record, case, discord, db_sha, ident_digest)
+        state = record_state_digest(currentized)
+        actual_states[record["audit_id"]] = state
+        if state != record.get("prepared_state_sha256"):
+            errors.append(f"{case_id}: prepared state is stale; REQUIRES_REVALIDATION")
 
     meta = packet_meta(packet_path)
     if meta is None:
         errors.append(f"missing or malformed review packet metadata: {packet_path}")
     elif records:
-        current_global = canonical_json_digest(sorted(actual_states.items()))
+        current_global = global_packet_state(records, actual_states)
         if meta.get("packet_state_sha256") != current_global:
-            errors.append("stale review packet: packet state does not match current proposition/evidence dependencies")
-        for rec in records:
-            semantic = rec.get("semantic", {})
-            if semantic.get("status") in VERIFIED_STATUSES:
-                if semantic.get("review_packet_state_sha256") != current_global:
-                    errors.append(f"{rec['audit_id']}: stale verdict integration")
-
-    # Cheap source-level sanity check used to make drift diagnostics clearer.
-    if source_text is not None and source_sha:
-        for rec in records[:1]:
-            for prep in rec.get("evidence", {}).get("prep", []):
-                if prep.get("source_id") == "BCS-000045" and prep.get("representation_sha256") != source_sha:
-                    warnings.append("BCS-000045 current source digest differs from staged evidence state")
+            errors.append("stale review packet: proposition/evidence dependency state changed")
+        for record in records:
+            for prop in record.get("propositions", []):
+                semantic = prop.get("semantic", {})
+                if semantic.get("status") in VERIFIED_STATUSES:
+                    if semantic.get("review_packet_state_sha256") != current_global:
+                        errors.append(f"{prop.get('audit_id')}: stale verdict integration")
 
     return ValidationResult(errors, warnings)
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--root", default=".")
-    ap.add_argument("--ledger", default=None)
-    ap.add_argument("--packet", default=None)
-    ap.add_argument("--json", action="store_true")
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", default=".")
+    parser.add_argument("--ledger")
+    parser.add_argument("--packet")
+    parser.add_argument("--json", action="store_true")
+    args = parser.parse_args()
     root = Path(args.root).resolve()
-    ledger = Path(args.ledger).resolve() if args.ledger else None
-    packet = Path(args.packet).resolve() if args.packet else None
-    result = validate_repo(root, ledger, packet)
+    result = validate_repo(
+        root,
+        Path(args.ledger).resolve() if args.ledger else None,
+        Path(args.packet).resolve() if args.packet else None,
+    )
     payload = {"ok": result.ok, "errors": result.errors, "warnings": result.warnings}
     if args.json:
         print(json.dumps(payload, indent=2, ensure_ascii=False))

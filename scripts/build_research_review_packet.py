@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Build the first-tranche audit ledger and bounded semantic-review packet."""
+"""Build compact first-tranche audit state and a bounded UTF-8 review packet."""
 from __future__ import annotations
 
 import argparse
 import copy
-import hashlib
 import json
 import re
 import subprocess
@@ -28,75 +27,50 @@ SOURCE_LINEAGE = {
     "legacy_staging_original_sha256": "9ba280ea54b9c13312db5ced664f3bcff48b3c3b8640568fec2f42ea7bf4edcb",
     "citation_creation_representation_preserved_in_pr2": False,
 }
-BDC004_FORENSICS = {
-    "locator_classification": "ORIGINAL_REPRESENTATION_UNAVAILABLE",
-    "original_representation": "ORIGINAL_REPRESENTATION_UNAVAILABLE",
-    "current_support": "SUPPORT_NOT_FOUND",
-    "representation_drift_established": False,
-    "bounded_search": [
-        "PR #2 base/head and commits",
-        "current Git path history",
-        "legacy staging manifest",
-        "ingest/drive-project-v3 donor",
-        "current normalized source and preserved export snapshot",
-    ],
-    "notes": [
-        "The disputed locators were present in the first Markdown commit.",
-        "PR #2 preserved no BCS-000045 source representation.",
-        "The later preserved normalized/export representations do not contain limb-loss or handwave prep evidence at the cited coordinates.",
-        "Do not infer representation drift without the missing citation-time representation.",
-    ],
-}
+BDC004_NOTES = [
+    "The disputed locators were present in the first v1 Markdown commit.",
+    "PR #2 preserved no BCS-000045 source representation at its base, first commit, or final head.",
+    "The later preserved normalized and export representations resolve the cited coordinates to unrelated material.",
+    "Searches of both preserved representations found no relevant limb-loss/handwave prep passage.",
+    "Representation drift is possible in the abstract but is not established by preserved evidence.",
+]
 
 
-def git_state_commit(root: Path) -> str:
-    deps = [
-        str(vre.TRANCHE_MD),
-        str(vre.TRANCHE_JSONL),
-        str(vre.LEDGER),
-        str(vre.BCS45),
-        str(vre.BCS45_META),
-        str(vre.DISCORD_DB),
-        str(vre.DISCORD_PROJECTION / "manifest.json"),
-        str(vre.IDENTITIES),
+def git_dependency_commit(root: Path) -> str:
+    paths = [
+        str(vre.TRANCHE_MD), str(vre.TRANCHE_JSONL), str(vre.BCS45),
+        str(vre.BCS45_META), str(vre.DISCORD_DB),
+        str(vre.DISCORD_PROJECTION / "manifest.json"), str(vre.IDENTITIES),
     ]
     try:
         return subprocess.check_output(
-            ["git", "log", "-1", "--format=%H", "--", *deps],
-            cwd=root,
-            text=True,
+            ["git", "log", "-1", "--format=%H", "--", *paths],
+            cwd=root, text=True,
         ).strip()
     except Exception:
         return "UNKNOWN"
 
 
-def source_quality(root: Path) -> dict[str, Any]:
-    meta = json.loads((root / vre.BCS45_META).read_text(encoding="utf-8"))
+def source_quality(meta: dict[str, Any]) -> dict[str, Any]:
     cap = meta.get("capture_status", {})
-    prov = meta.get("provenance", {})
-    rel = meta.get("relationships", {})
+    norm = meta.get("normalization", {})
+    history = meta.get("historical_context", {})
     return {
-        "status": "RECONCILED_CONTAINER",
-        "body": cap.get("current_body"),
-        "comments": cap.get("comments"),
-        "revision_metadata": cap.get("revision_metadata"),
-        "revisions": cap.get("revisions"),
-        "normalization_method": prov.get("normalization_method"),
-        "extraction_warning": prov.get("extraction_warning"),
-        "historical_context": rel.get("historical_context"),
-        "live_use": rel.get("live_use"),
+        "source_kind": meta.get("source_kind"),
+        "authorship": meta.get("authorship"),
+        "capture_status": {
+            "current_body": cap.get("current_body"),
+            "comments": cap.get("comments"),
+            "revision_metadata": cap.get("revision_metadata"),
+            "revision_bodies": cap.get("revision_bodies"),
+            "assets": cap.get("assets"),
+        },
+        "normalization_method": norm.get("method"),
+        "normalization_warnings": norm.get("warnings", []),
+        "production_stages": history.get("production_stages", []),
+        "not_established": history.get("not_established", []),
+        "reconciliation": meta.get("reconciliation"),
     }
-
-
-def case_flags(field: str, text: str, case_id: str, prep_refs: list[dict[str, Any]]) -> list[str]:
-    flags = set(vre.infer_flags(text))
-    if case_id == "BDC-S3-004":
-        flags.update({"KNOWN_LOCATOR_FAILURE", "SOURCE_UNAVAILABLE"})
-    if not prep_refs:
-        flags.add("NO_PREP_PRIMARY_LINK")
-    if field == "reusable_judgment":
-        flags.add("GENERALIZATION_REVIEW")
-    return sorted(flags)
 
 
 def load_snapshot(root: Path) -> dict[str, Any]:
@@ -106,17 +80,23 @@ def load_snapshot(root: Path) -> dict[str, Any]:
     if divergence:
         raise SystemExit("Cannot stage divergent Markdown/JSON:\n" + "\n".join(divergence))
 
-    source_text = (root / vre.BCS45).read_text(encoding="utf-8")
-    source_sha = vre.sha256_text(source_text)
+    source_bytes = (root / vre.BCS45).read_bytes()
+    source_text = source_bytes.decode("utf-8")
+    meta_bytes = (root / vre.BCS45_META).read_bytes()
+    meta = json.loads(meta_bytes.decode("utf-8"))
     db_sha = vre.lfs_oid(root / vre.DISCORD_DB)
     if not db_sha:
         raise SystemExit("Canonical S3 Discord LFS pointer is unavailable")
+
     ident = vre.identity_row(root)
     if not ident:
         raise SystemExit("Confirmed S3 Brendon identity mapping is unavailable")
     ident_digest = vre.canonical_json_digest(ident)
 
-    live_ids = sorted({mid for case in js.values() for mid in vre.parse_live_ids(case.get("live_evidence", ""))})
+    live_ids = sorted({
+        mid for case in js.values()
+        for mid in vre.parse_live_ids(case.get("live_evidence", ""))
+    })
     messages = vre.find_discord_messages(root, live_ids)
     missing = sorted(set(live_ids) - set(messages))
     if missing:
@@ -126,169 +106,247 @@ def load_snapshot(root: Path) -> dict[str, Any]:
         "md": md,
         "js": js,
         "source_text": source_text,
-        "source_sha": source_sha,
-        "db_sha": db_sha,
+        "source_sha256": vre.sha256_bytes(source_bytes),
+        "source_meta_sha256": vre.sha256_bytes(meta_bytes),
+        "source_quality": source_quality(meta),
+        "db_sha256": db_sha,
         "identity": ident,
         "identity_digest": ident_digest,
         "messages": messages,
-        "source_quality": source_quality(root),
-        "md_sha256": vre.sha256_bytes((root / vre.TRANCHE_MD).read_bytes()),
-        "jsonl_sha256": vre.sha256_bytes((root / vre.TRANCHE_JSONL).read_bytes()),
+        "dependency_commit": git_dependency_commit(root),
     }
 
 
-def make_record(root: Path, snap: dict[str, Any], case: dict[str, Any], field: str) -> dict[str, Any]:
-    prep: list[dict[str, Any]] = []
-    for ref in vre.parse_prep_refs(case.get("prep_evidence", "")):
-        if ref["source_id"] != "BCS-000045":
-            prep.append({
-                **ref,
+def review_flags(case_id: str, text: str) -> list[str]:
+    flags = set(vre.infer_flags(text))
+    if case_id == "BDC-S3-004":
+        flags.add("KNOWN_LOCATOR_FAILURE")
+    return sorted(flags)
+
+
+def make_locator_results(case_id: str, prep: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    results = []
+    for loc in prep:
+        ref = f"{loc['source_id']}:L{loc['line_start']}-L{loc['line_end']}"
+        if case_id == "BDC-S3-004":
+            results.append({
+                "ref": ref,
+                "classification": "ORIGINAL_REPRESENTATION_UNAVAILABLE",
+                "current_support": "SUPPORT_NOT_FOUND",
+                "representation_drift_established": False,
+            })
+        else:
+            results.append({
+                "ref": ref,
+                "classification": "UNRESOLVED",
+                "current_support": "UNRESOLVED",
+                "representation_drift_established": False,
+            })
+    return results
+
+
+def representative_message(case: dict[str, Any], snap: dict[str, Any]) -> str | None:
+    target = vre.normalize_text(case.get("representative_line", "")).strip('"')
+    if not target:
+        return None
+    for mid in vre.parse_live_ids(case.get("live_evidence", "")):
+        content = vre.normalize_text(str(snap["messages"][mid]["row"].get("content", "")))
+        if target == content or target in content or content in target:
+            return mid
+    return None
+
+
+def make_unit(root: Path, snap: dict[str, Any], case: dict[str, Any]) -> dict[str, Any]:
+    prep_refs = vre.parse_prep_refs(case.get("prep_evidence", ""))
+    source_ids = list(dict.fromkeys(x["source_id"] for x in prep_refs))
+    sources: list[dict[str, Any]] = []
+    for source_id in source_ids:
+        if source_id != "BCS-000045":
+            sources.append({
+                "source_id": source_id,
                 "representation_path": None,
                 "representation_sha256": None,
-                "excerpt_digest": None,
-                "locator_resolves": False,
+                "source_metadata_path": None,
+                "source_metadata_sha256": None,
+                "source_quality": {"status": "SOURCE_UNAVAILABLE"},
             })
-            continue
-        ex = vre.excerpt(snap["source_text"], ref["line_start"], ref["line_end"])
-        prep.append({
-            **ref,
-            "representation_path": vre.BCS45.as_posix(),
-            "representation_sha256": snap["source_sha"],
-            "line_count": len(snap["source_text"].splitlines()),
-            "excerpt_digest": "sha256:" + vre.sha256_text(ex),
-            "locator_resolves": True,
-            "source_quality": snap["source_quality"],
+        else:
+            sources.append({
+                "source_id": source_id,
+                "representation_path": vre.BCS45.as_posix(),
+                "representation_sha256": snap["source_sha256"],
+                "source_metadata_path": vre.BCS45_META.as_posix(),
+                "source_metadata_sha256": snap["source_meta_sha256"],
+                "source_quality": snap["source_quality"],
+                "representation_lineage": SOURCE_LINEAGE,
+            })
+
+    prep_locators = []
+    for loc in prep_refs:
+        ex = vre.excerpt(snap["source_text"], loc["line_start"], loc["line_end"]) if loc["source_id"] == "BCS-000045" else None
+        prep_locators.append({
+            **loc,
+            "excerpt_digest": "sha256:" + vre.sha256_text(ex) if ex is not None else None,
         })
 
-    live: list[dict[str, Any]] = []
+    live = []
     for mid in vre.parse_live_ids(case.get("live_evidence", "")):
         item = snap["messages"][mid]
         row = item["row"]
+        author_id = str(row.get("author_id")) if row.get("author_id") is not None else None
         live.append({
             "message_id": mid,
             "canonical_database_path": vre.DISCORD_DB.as_posix(),
-            "canonical_database_sha256": snap["db_sha"],
+            "canonical_database_sha256": snap["db_sha256"],
             "projection_path": item["shard_path"],
-            "projection_shard_sha256": item["shard_sha256"],
             "projection_line": item["line"],
             "projection_row_digest": item["row_digest"],
-            "expected_author_id": str(row.get("author_id")) if row.get("author_id") is not None else None,
+            "author_id": author_id,
+            "attribution_person_id": "person:brendon-faulkner" if author_id == vre.BRENDON_DISCORD_ID else None,
             "created_at": row.get("created_at"),
             "channel_id": row.get("channel_id"),
             "channel": row.get("channel"),
             "category": row.get("category"),
         })
 
-    text = case.get(field, "")
-    representative = vre.normalize_text(case.get("representative_line", "")).strip('"')
-    rep_message = None
-    if representative:
-        for mid in vre.parse_live_ids(case.get("live_evidence", "")):
-            row_text = vre.normalize_text(str(snap["messages"][mid]["row"].get("content", "")))
-            if representative == row_text or representative in row_text or row_text in representative:
-                rep_message = mid
-                break
-
-    forensics = {
-        "locator_classification": "UNRESOLVED",
-        "original_representation": "UNRESOLVED",
-        "current_support": "UNRESOLVED",
-        "representation_drift_established": False,
-        "representative_message_id": rep_message,
-    }
-    if case["id"] == "BDC-S3-004":
-        forensics.update(BDC004_FORENSICS)
-
-    record: dict[str, Any] = {
-        "schema": "bfdm_integrity_audit/v1",
-        "audit_id": f"audit:{case['id']}:{field}",
-        "artifact": {
-            "markdown_path": vre.TRANCHE_MD.as_posix(),
-            "jsonl_path": vre.TRANCHE_JSONL.as_posix(),
-            "case_id": case["id"],
+    props = []
+    for field in vre.PROPOSITION_FIELDS:
+        text = case.get(field, "")
+        flags = review_flags(case["id"], text)
+        props.append({
             "field": field,
-            "markdown_sha256": snap["md_sha256"],
-            "jsonl_sha256": snap["jsonl_sha256"],
-            "staged_at_repository_state_commit": git_state_commit(root),
-        },
-        "derived_lineage": DERIVED_LINEAGE,
-        "proposition": {
+            "audit_id": f"audit:{case['id']}:{field}",
             "text": text,
             "normalized_text": vre.normalize_text(text),
             "digest": vre.proposition_digest(text),
+            "review_flags": flags,
+            "negative_coverage": {
+                "complete": False,
+                "surface": "Only cited evidence is staged; no corpus-wide absence search is implied.",
+            } if "NEGATIVE_OR_ABSENCE_CLAIM" in flags else None,
+            "dependencies": [],
+            "semantic": {
+                "status": vre.default_semantic_status(),
+                "evidence_confidence": None,
+                "claim_scope": None,
+                "review_packet_state_sha256": None,
+                "reviewed_at_commit": None,
+                "reviewer": None,
+            },
+        })
+
+    record = {
+        "schema": "bfdm_integrity_audit/v1",
+        "audit_id": f"audit:{case['id']}",
+        "artifact": {
+            "markdown_path": vre.TRANCHE_MD.as_posix(),
+            "jsonl_path": vre.TRANCHE_JSONL.as_posix(),
+            "unit_kind": "derived_case",
+            "unit_id": case["id"],
+            "locator": {"case_id": case["id"]},
+            "case_serialization_digest": vre.case_serialization_digest(case),
+            "staged_at_dependency_commit": snap["dependency_commit"],
         },
+        "derived_lineage": DERIVED_LINEAGE,
         "legacy_claimed_confidence": case.get("confidence"),
+        "propositions": props,
         "evidence": {
-            "prep": prep,
+            "sources": sources,
+            "prep_locators": prep_locators,
             "live": live,
-            "source_representation_lineage": SOURCE_LINEAGE,
         },
         "dependencies": [{
             "type": "IDENTITY_ASSERTION",
             "id": vre.BRENDON_S3_IDENTITY,
             "digest": snap["identity_digest"],
         }],
-        "forensics": forensics,
-        "review_flags": case_flags(field, text, case["id"], prep),
-        "negative_coverage": {
-            "complete": False,
-            "surface": "Only the proposition's cited evidence is staged; no corpus-wide absence search is implied.",
-        } if "NEGATIVE_OR_ABSENCE_CLAIM" in case_flags(field, text, case["id"], prep) else None,
-        "semantic": {
-            "status": vre.default_semantic_status(),
-            "evidence_confidence": None,
-            "claim_scope": None,
-            "review_packet_state_sha256": None,
-            "reviewed_at_commit": None,
-            "reviewer": None,
+        "forensics": {
+            "locator_results": make_locator_results(case["id"], prep_refs),
+            "representative_message_id": representative_message(case, snap),
+            "bounded_search_notes": BDC004_NOTES if case["id"] == "BDC-S3-004" else [],
         },
     }
-    record["prepared_state_sha256"] = vre.evidence_state_digest(record)
+    record["prepared_state_sha256"] = vre.record_state_digest(record)
     return record
 
 
-def build_records(root: Path, previous: dict[str, dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+def old_semantics(rows: list[dict[str, Any]]) -> tuple[dict[str, dict[str, Any]], dict[str, str]]:
+    semantics: dict[str, dict[str, Any]] = {}
+    shared: dict[str, str] = {}
+    for row in rows:
+        if row.get("artifact", {}).get("field"):
+            semantic = row.get("semantic", {})
+            if semantic.get("status") not in (None, "UNVERIFIED"):
+                raise SystemExit("Refusing automatic compaction of semantically reviewed legacy ledger")
+            semantics[row.get("audit_id")] = copy.deepcopy(semantic)
+            continue
+        shared[row.get("audit_id")] = vre.evidence_dependency_digest(row)
+        for prop in row.get("propositions", []):
+            semantics[prop.get("audit_id")] = copy.deepcopy(prop.get("semantic", {}))
+    return semantics, shared
+
+
+def build_records(root: Path, previous_rows: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     snap = load_snapshot(root)
-    previous = previous or {}
-    records: list[dict[str, Any]] = []
-    for case_id, case in snap["js"].items():
-        for field in vre.PROPOSITION_FIELDS:
-            fresh = make_record(root, snap, case, field)
-            old = previous.get(fresh["audit_id"])
-            if old:
-                unchanged = old.get("prepared_state_sha256") == fresh.get("prepared_state_sha256")
-                if unchanged:
-                    fresh["semantic"] = copy.deepcopy(old.get("semantic", fresh["semantic"]))
-                else:
-                    old_status = old.get("semantic", {}).get("status", "UNVERIFIED")
-                    fresh["semantic"]["status"] = "REQUIRES_REVALIDATION" if old_status in vre.VERIFIED_STATUSES else "UNVERIFIED"
-            records.append(fresh)
+    previous_rows = previous_rows or []
+    semantics, shared = old_semantics(previous_rows)
+    old_units = {
+        row.get("audit_id"): row for row in previous_rows
+        if not row.get("artifact", {}).get("field")
+    }
+    records = []
+
+    for case in snap["js"].values():
+        fresh = make_unit(root, snap, case)
+        old_unit = old_units.get(fresh["audit_id"])
+        fresh_shared = vre.evidence_dependency_digest(fresh)
+        old_shared = shared.get(fresh["audit_id"])
+
+        for prop in fresh["propositions"]:
+            old_semantic = semantics.get(prop["audit_id"])
+            if not old_semantic:
+                continue
+            old_prop = None
+            if old_unit:
+                old_prop = next(
+                    (p for p in old_unit.get("propositions", []) if p.get("audit_id") == prop["audit_id"]),
+                    None,
+                )
+            if old_prop is not None and old_prop.get("digest") == prop.get("digest") and old_shared == fresh_shared:
+                prop["semantic"] = old_semantic
+            elif old_semantic.get("status") in vre.VERIFIED_STATUSES:
+                prop["semantic"]["status"] = "REQUIRES_REVALIDATION"
+
+        fresh["prepared_state_sha256"] = vre.record_state_digest(fresh)
+        records.append(fresh)
     return records
 
 
 def write_ledger(path: Path, records: list[dict[str, Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    text = "\n".join(json.dumps(r, ensure_ascii=False, sort_keys=True) for r in records) + "\n"
-    path.write_text(text, encoding="utf-8")
+    path.write_text(
+        "\n".join(json.dumps(row, ensure_ascii=False, sort_keys=True) for row in records) + "\n",
+        encoding="utf-8",
+    )
 
 
-def load_context(root: Path, item: dict[str, Any], radius: int = 2) -> list[dict[str, Any]]:
-    p = Path(item["shard_path"])
-    m = re.search(r"messages-(\d{4})\.jsonl$", p.name)
-    shard_no = int(m.group(1)) if m else None
-    paths = []
-    if shard_no is not None:
-        for n in (shard_no - 1, shard_no, shard_no + 1):
-            candidate = root / p.parent / f"messages-{n:04d}.jsonl"
-            if candidate.exists():
-                paths.append(candidate)
+def same_channel_context(root: Path, item: dict[str, Any], radius: int = 2) -> list[dict[str, Any]]:
+    path = Path(item["shard_path"])
+    match = re.search(r"messages-(\d{4})\.jsonl$", path.name)
+    shard_no = int(match.group(1)) if match else None
+    candidates = []
+    if shard_no is None:
+        candidates = [root / path]
     else:
-        paths.append(root / p)
+        for n in (shard_no - 1, shard_no, shard_no + 1):
+            candidate = root / path.parent / f"messages-{n:04d}.jsonl"
+            if candidate.exists():
+                candidates.append(candidate)
 
-    rows: list[dict[str, Any]] = []
     target = item["row"]
-    for path in paths:
-        for line in path.read_text(encoding="utf-8").splitlines():
+    rows = []
+    for candidate in candidates:
+        for line in candidate.read_text(encoding="utf-8").splitlines():
             if not line.strip():
                 continue
             try:
@@ -297,146 +355,147 @@ def load_context(root: Path, item: dict[str, Any], radius: int = 2) -> list[dict
                 continue
             if row.get("channel_id") == target.get("channel_id"):
                 rows.append(row)
-    rows.sort(key=lambda r: (r.get("created_at", ""), str(r.get("id", ""))))
-    idx = next((i for i, r in enumerate(rows) if str(r.get("id")) == str(target.get("id"))), None)
-    if idx is None:
-        return [target]
-    return rows[max(0, idx - radius): idx + radius + 1]
+    rows.sort(key=lambda row: (row.get("created_at", ""), str(row.get("id", ""))))
+    idx = next((i for i, row in enumerate(rows) if str(row.get("id")) == str(target.get("id"))), None)
+    return [target] if idx is None else rows[max(0, idx - radius): idx + radius + 1]
 
 
-def q(text: Any) -> str:
-    value = str(text if text is not None else "")
-    return value.replace("\n", " ").strip()
+def one_line(value: Any) -> str:
+    return str(value if value is not None else "").replace("\n", " ").strip()
 
 
 def render_packet(root: Path, records: list[dict[str, Any]]) -> str:
     snap = load_snapshot(root)
-    by_case: dict[str, list[dict[str, Any]]] = {}
-    for rec in records:
-        by_case.setdefault(rec["artifact"]["case_id"], []).append(rec)
+    by_case = {record["artifact"]["unit_id"]: record for record in records}
     state = vre.global_packet_state(records)
+    proposition_count = sum(len(r.get("propositions", [])) for r in records)
 
-    body: list[str] = []
-    body.append("# Roanoke S3 decision cases v1 — semantic review packet")
-    body.append("")
-    body.append("Generated view only. Historical truth remains in BCS/native sources; canonical audit state remains in `research/integrity/audit_ledger.jsonl`.")
-    body.append("")
-    body.append("Every proposition in this packet is **UNVERIFIED** unless its ledger record explicitly says otherwise. Mechanical reconstruction does not certify motive, causality, scope, or transfer.")
-    body.append("")
-    body.append("## Tranche facts")
-    body.append("")
-    body.append(f"- Cases: {len(snap['js'])}.")
-    body.append(f"- Audit propositions: {len(records)}.")
-    body.append(f"- Markdown/JSON relationship: synchronized equivalent representations; neither declares itself generated.")
-    body.append(f"- BCS-000045 normalized source SHA-256: `{snap['source_sha']}`.")
-    body.append(f"- Canonical S3 Discord database LFS SHA-256: `{snap['db_sha']}`.")
-    body.append(f"- Confirmed Brendon S3 Discord identity: `{vre.BRENDON_S3_IDENTITY}` / immutable user `{vre.BRENDON_DISCORD_ID}`.")
-    body.append("")
-    body.append("### BDC-S3-004 forensic boundary")
-    body.append("")
-    body.append("The disputed prep citation was present in the first v1 Markdown commit (`22c1b645...`). PR #2 preserved no BCS-000045 body at its base or head. The later preserved Library/Drive normalized and export representations both resolve those coordinates to unrelated material and contain no relevant limb-loss/handwave prep passage. Classification: `ORIGINAL_REPRESENTATION_UNAVAILABLE`; current cited support: `SUPPORT_NOT_FOUND`; representation drift is **not established**.")
-    body.append("")
+    body = [
+        "# Roanoke S3 decision cases v1 — semantic review packet",
+        "",
+        "Generated view only. Historical truth remains in BCS/native sources; canonical audit state remains in research/integrity/audit_ledger.jsonl.",
+        "",
+        "Every proposition is UNVERIFIED unless its nested ledger verdict explicitly says otherwise. Mechanical reconstruction does not certify motive, causality, scope, transfer, or expert principle.",
+        "",
+        "## Tranche facts",
+        "",
+        f"- Cases: {len(records)}.",
+        f"- Audit propositions: {proposition_count}.",
+        "- Markdown/JSON relationship: exact synchronized equivalents at staging time; neither declares itself generated from the other.",
+        f"- BCS-000045 normalized body SHA-256: {snap['source_sha256']}.",
+        f"- Canonical S3 Discord database LFS SHA-256: {snap['db_sha256']}.",
+        f"- Confirmed Brendon S3 Discord identity: {vre.BRENDON_S3_IDENTITY} / immutable user {vre.BRENDON_DISCORD_ID}.",
+        "",
+        "### BDC-S3-004 forensic boundary",
+        "",
+        "The disputed prep locators were already present in the first v1 Markdown commit. PR #2 preserved no BCS-000045 representation. The later preserved normalized and export snapshots both resolve those coordinates to unrelated material and contain no relevant limb-loss/handwave prep passage. Both locators are ORIGINAL_REPRESENTATION_UNAVAILABLE; their current support result is SUPPORT_NOT_FOUND; representation drift is not established.",
+        "",
+    ]
+
+    labels = [
+        ("Situation", "situation"),
+        ("What Brendon noticed", "noticed"),
+        ("What mattered", "values"),
+        ("Intervention", "intervention"),
+        ("Observed result", "observed_result"),
+        ("Reusable judgment", "reusable_judgment"),
+    ]
 
     for case_id, case in snap["js"].items():
-        body.append(f"---\n\n## {case_id} — {case.get('title','')}")
-        body.append("")
-        body.append(f"**Legacy confidence:** {case.get('confidence')}")
-        body.append("")
-        for label, key in [
-            ("Situation", "situation"),
-            ("What Brendon noticed", "noticed"),
-            ("What mattered", "values"),
-            ("Intervention", "intervention"),
-            ("Observed result", "observed_result"),
-            ("Reusable judgment", "reusable_judgment"),
-        ]:
-            rec = next(r for r in by_case[case_id] if r["artifact"]["field"] == key)
-            body.append(f"**{label}.** {case.get(key,'')}")
-            body.append(f"- audit: `{rec['audit_id']}`")
-            body.append(f"- proposition: `{rec['proposition']['digest']}`")
-            body.append(f"- semantic status: `{rec['semantic']['status']}`")
-            body.append(f"- flags: {', '.join(rec.get('review_flags', [])) or 'none'}")
-            body.append("")
+        record = by_case[case_id]
+        prop_by_field = {p["field"]: p for p in record["propositions"]}
+        body.extend(["---", "", f"## {case_id} — {case.get('title', '')}", "", f"Legacy confidence: {case.get('confidence')}", ""])
 
-        body.append(f"**Claimed prep evidence.** {case.get('prep_evidence','')}")
-        prep_seen = set()
-        exemplar = by_case[case_id][0]
-        for ev in exemplar["evidence"]["prep"]:
-            key = (ev.get("source_id"), ev.get("line_start"), ev.get("line_end"))
-            if key in prep_seen:
-                continue
-            prep_seen.add(key)
-            body.append("")
-            body.append(f"### Prep excerpt — {ev.get('source_id')}:L{ev.get('line_start')}-L{ev.get('line_end')}")
-            if ev.get("representation_path"):
-                ex = vre.excerpt(snap["source_text"], int(ev["line_start"]), int(ev["line_end"]))
-                body.append(f"- representation: `{ev['representation_path']}`")
-                body.append(f"- representation SHA-256: `{ev['representation_sha256']}`")
-                body.append(f"- excerpt digest: `{ev['excerpt_digest']}`")
-                body.append("- source quality: " + json.dumps(ev.get("source_quality"), ensure_ascii=False, sort_keys=True))
-                body.append("")
-                body.append("~~~text")
-                body.extend(ex.splitlines())
-                body.append("~~~")
-            else:
+        for label, field in labels:
+            prop = prop_by_field[field]
+            body.extend([
+                f"**{label}.** {case.get(field, '')}",
+                f"- audit: {prop['audit_id']}",
+                f"- proposition: {prop['digest']}",
+                f"- semantic status: {prop['semantic']['status']}",
+                f"- flags: {', '.join(prop.get('review_flags', [])) or 'none'}",
+                "",
+            ])
+
+        body.append(f"**Claimed prep evidence.** {case.get('prep_evidence', '')}")
+        source_by_id = {s["source_id"]: s for s in record["evidence"]["sources"]}
+        for loc in record["evidence"]["prep_locators"]:
+            body.extend(["", f"### Prep excerpt — {loc['source_id']}:L{loc['line_start']}-L{loc['line_end']}"])
+            source = source_by_id.get(loc["source_id"])
+            if not source or not source.get("representation_path"):
                 body.append("- source representation unavailable in this staging pass.")
+                continue
+            ex = vre.excerpt(snap["source_text"], loc["line_start"], loc["line_end"])
+            body.extend([
+                f"- representation: {source['representation_path']}",
+                f"- representation SHA-256: {source['representation_sha256']}",
+                f"- source metadata SHA-256: {source['source_metadata_sha256']}",
+                f"- excerpt digest: {loc['excerpt_digest']}",
+                "- source quality: " + json.dumps(source["source_quality"], ensure_ascii=False, sort_keys=True),
+                "",
+                "~~~text",
+                *ex.splitlines(),
+                "~~~",
+            ])
 
-        body.append("")
-        body.append(f"**Claimed live evidence.** {case.get('live_evidence','')}")
-        for mid in vre.parse_live_ids(case.get("live_evidence", "")):
+        body.extend(["", f"**Claimed live evidence.** {case.get('live_evidence', '')}"])
+        for live in record["evidence"]["live"]:
+            mid = live["message_id"]
             item = snap["messages"][mid]
             row = item["row"]
-            body.append("")
-            body.append(f"### Discord evidence — {mid}")
-            body.append(f"- canonical source: `{vre.DISCORD_DB.as_posix()}` @ LFS SHA-256 `{snap['db_sha']}`")
-            body.append(f"- retrieval projection: `{item['shard_path']}:{item['line']}` @ row `{item['row_digest']}`")
-            body.append(f"- timestamp: {row.get('created_at')}")
-            body.append(f"- channel: {row.get('category')} / {row.get('channel')} (`{row.get('channel_id')}`)")
-            body.append(f"- immutable author: `{row.get('author_id')}` — {row.get('display_name')} / {row.get('username')}")
-            body.append("")
-            body.append("Bounded same-channel context:")
-            body.append("")
-            body.append("~~~text")
-            for ctx in load_context(root, item):
+            body.extend([
+                "",
+                f"### Discord evidence — {mid}",
+                f"- canonical source: {vre.DISCORD_DB.as_posix()} @ LFS SHA-256 {snap['db_sha256']}",
+                f"- retrieval projection: {item['shard_path']}:{item['line']} @ row {item['row_digest']}",
+                f"- timestamp: {row.get('created_at')}",
+                f"- channel: {row.get('category')} / {row.get('channel')} ({row.get('channel_id')})",
+                f"- immutable author: {row.get('author_id')} — {row.get('display_name')} / {row.get('username')}",
+                "",
+                "Bounded same-channel context:",
+                "",
+                "~~~text",
+            ])
+            for ctx in same_channel_context(root, item):
                 mark = ">>" if str(ctx.get("id")) == mid else "  "
-                body.append(f"{mark} {ctx.get('created_at')} | {ctx.get('display_name')} [{ctx.get('author_id')}] | {q(ctx.get('content'))}")
+                body.append(f"{mark} {ctx.get('created_at')} | {ctx.get('display_name')} [{ctx.get('author_id')}] | {one_line(ctx.get('content'))}")
             body.append("~~~")
 
-        body.append("")
-        body.append(f"**Representative line.** {case.get('representative_line','')}")
-        body.append("")
-        forensic = exemplar.get("forensics", {})
-        body.append("### Mechanical warnings / lineage")
-        body.append("")
-        body.append(f"- locator classification: `{forensic.get('locator_classification')}`")
-        body.append(f"- original representation: `{forensic.get('original_representation')}`")
-        body.append(f"- current support: `{forensic.get('current_support')}`")
-        body.append(f"- representation drift established: `{str(forensic.get('representation_drift_established')).lower()}`")
-        body.append(f"- representative-message match: `{forensic.get('representative_message_id')}`")
-        if case_id == "BDC-S3-004":
-            for note in forensic.get("notes", []):
-                body.append(f"- {note}")
-        body.append("")
-        body.append("### Semantic review questions")
-        body.append("")
-        body.append("1. Which field-level propositions are directly supported, strongly reconstructed, only suggestive, contradicted, or unresolved by the staged evidence?")
-        body.append("2. Does the case attribute Brendon's noticing/motive/choice more strongly than the primary evidence permits?")
-        body.append("3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?")
-        body.append("4. What evidence confidence survives?")
-        body.append("5. What claim scope survives? Do not promote one event to a general-current-practice rule.")
-        body.append("6. If the prep locator is broken, does the live evidence independently preserve some proposition, or must the claim be downgraded?")
+        body.extend(["", f"**Representative line.** {case.get('representative_line', '')}", "", "### Mechanical warnings / lineage", ""])
+        for result in record["forensics"]["locator_results"]:
+            body.append(
+                f"- {result['ref']}: {result['classification']}; current support {result['current_support']}; "
+                f"representation drift established {str(result['representation_drift_established']).lower()}."
+            )
+        body.append(f"- representative-message match: {record['forensics'].get('representative_message_id')}")
+        for note in record["forensics"].get("bounded_search_notes", []):
+            body.append(f"- {note}")
+
+        body.extend([
+            "",
+            "### Semantic review questions",
+            "",
+            "1. Which field-level propositions are directly supported, strongly reconstructed, suggestive, contradicted, or unresolved by the staged evidence?",
+            "2. Does the case attribute Brendon's noticing, motive, choice, or causal effect more strongly than primary evidence permits?",
+            "3. Does chronology support the asserted intervention -> observed-result relationship, or is causality being inferred?",
+            "4. What evidence confidence survives?",
+            "5. What claim scope survives? One event does not become general-current-practice by default.",
+            "6. If a prep locator is broken, does the live evidence independently preserve any proposition, or must it be downgraded?",
+        ])
 
     payload = "\n".join(body).rstrip() + "\n"
     meta = {
         "schema": "bfdm_integrity_review_packet/v1",
         "tranche": vre.TRANCHE_JSONL.as_posix(),
-        "repository_state_commit": git_state_commit(root),
+        "dependency_commit": snap["dependency_commit"],
         "packet_state_sha256": state,
         "packet_payload_sha256": "sha256:" + vre.sha256_text(payload),
-        "proposition_count": len(records),
+        "unit_count": len(records),
+        "proposition_count": proposition_count,
         "evidence_dependency_summary": {
-            "bcs_000045_sha256": snap["source_sha"],
-            "discord_s3_database_sha256": snap["db_sha"],
+            "bcs_000045_sha256": snap["source_sha256"],
+            "bcs_000045_metadata_sha256": snap["source_meta_sha256"],
+            "discord_s3_database_sha256": snap["db_sha256"],
             "identity_assertion_digest": snap["identity_digest"],
         },
     }
@@ -444,44 +503,36 @@ def render_packet(root: Path, records: list[dict[str, Any]]) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--root", default=".")
-    group = ap.add_mutually_exclusive_group()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", default=".")
+    group = parser.add_mutually_exclusive_group()
     group.add_argument("--bootstrap-ledger", action="store_true")
     group.add_argument("--refresh-ledger", action="store_true")
-    ap.add_argument("--output", default=str(OUTPUT_PACKET))
-    ap.add_argument("--check", action="store_true")
-    args = ap.parse_args()
+    parser.add_argument("--output", default=str(OUTPUT_PACKET))
+    parser.add_argument("--check", action="store_true")
+    args = parser.parse_args()
 
     root = Path(args.root).resolve()
     ledger_path = root / vre.LEDGER
-    previous: dict[str, dict[str, Any]] = {}
-
-    if ledger_path.exists():
-        previous = {r["audit_id"]: r for r in vre.read_jsonl(ledger_path)}
+    previous_rows = vre.read_jsonl(ledger_path) if ledger_path.exists() else []
 
     if args.bootstrap_ledger:
-        if ledger_path.exists() and previous:
+        if previous_rows:
             raise SystemExit("Refusing to bootstrap over an existing audit ledger; use --refresh-ledger")
         records = build_records(root)
         write_ledger(ledger_path, records)
     elif args.refresh_ledger:
-        records = build_records(root, previous)
+        records = build_records(root, previous_rows)
         write_ledger(ledger_path, records)
     else:
-        records = list(previous.values())
+        records = previous_rows
         if not records:
             raise SystemExit("Audit ledger is missing. Bootstrap it deliberately before packet generation.")
 
     output = root / args.output
     rendered = render_packet(root, records)
-
     if args.check:
-        if not output.exists():
-            print(f"stale packet: missing {output.relative_to(root)}")
-            return 1
-        existing = output.read_text(encoding="utf-8")
-        if existing != rendered:
+        if not output.exists() or output.read_text(encoding="utf-8") != rendered:
             print(f"stale packet: regenerate {output.relative_to(root)}")
             return 1
         print("review packet: PASS")

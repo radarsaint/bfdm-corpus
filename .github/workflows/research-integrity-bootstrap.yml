@@ -28,7 +28,7 @@ jobs:
         run: python -m py_compile scripts/validate_research_evidence.py scripts/build_research_review_packet.py
       - name: Build initial ledger and review packet
         run: |
-          python scripts/build_research_review_packet.py --bootstrap-ledger
+          python scripts/build_research_review_packet.py --refresh-ledger
           python scripts/validate_research_evidence.py
       - name: Commit generated first-tranche staging
         run: |
