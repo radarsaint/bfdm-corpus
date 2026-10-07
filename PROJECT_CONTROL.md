@@ -32,16 +32,36 @@ At the inspected `main`:
 
 Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STATE.json` for detailed canonical state.
 
+## Friday research posture
+
+The current research bottleneck is increasingly **epistemic rather than mechanical**.
+
+Friday ChatGPT Work should not be spent on broad ingestion, searchability, generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
+
+Highest-value Work targets are:
+
+1. semantically verify only the high-leverage derived propositions that downstream Phase 2 / Stage 3 work actually depends upon;
+2. adversarially attack PR #28's candidate families with independently reconstructed Earthfall/Saturday workbench evidence;
+3. search for deliberate restraint / non-intervention cases that visible-action-heavy research is likely to miss;
+4. reconstruct bounded failure -> diagnosis -> correction -> later-behavior trajectories;
+5. only after enough cases are semantically trusted, build structural contrast/recognition benchmarks.
+
+Every Work task should have a finite question, finite evidence domain, explicit stopping rule, scope limit, and invalidation condition.
+
+If PR #38 has already completed a needed semantic review by launch time, do not duplicate it.
+
 ## Active draft state that materially affects trust
 
 Open draft PRs are not canonical main, but some are important current work:
 
-- **#38 — forensic derived-research integrity audit.** Active as of 2026-10-07. It tests whether cited derived claims actually reconstruct from primary/source evidence. Treat prior polished derived research as unverified unless the underlying evidence has been semantically checked at the claimed scope.
+- **#38 — forensic derived-research integrity audit.** Active as of 2026-10-07; head observed at `db69c938d26416f062cc68c8930bd2e10aef0b80`. Its first tranche stages 20 S3 decision cases / 120 propositions, all currently `UNVERIFIED`. This does not mean those propositions are false; it means semantic trust has not yet been earned. BDC-S3-004 already demonstrates a broken prep-evidence reconstruction chain while leaving the live Discord event recoverable.
 - **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
 - **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
 
 Any worker relying on one of these must name the PR and branch explicitly.
+
+Important refinement: `READY_WITH_SCOPE_LIMITS` in source/readiness documentation means the evidence surface can be researched. It does **not** certify that existing derived summaries/cases over that evidence have passed semantic review.
 
 ## Research discipline
 
