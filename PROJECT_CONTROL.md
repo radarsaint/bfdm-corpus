@@ -4,8 +4,9 @@
 **Canonical main inspected:** `65513f294e72a3eb961d5699c21ddc1f14ceef2c`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
-Read `COORDINATION.md` before substantial cross-agent work.
-For the durable project/corpus mental model, read `radarsaint/dnd-solo/docs/PROJECT_UNDERSTANDING.md` from the paired coordination branch until it lands on `main`; do not duplicate that document in this repo.
+For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` from the paired coordination branch until it lands on `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, recent context changes, and the owning issue/PR.
+
+This file is the **current BFDM state layer**, not the complete project memory. Do not duplicate the shared project brain in this repo.
 
 This file is deliberately short and rewritable. Git history, issues, PRs, and dated research artifacts preserve history.
 
