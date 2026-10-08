@@ -1,0 +1,113 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000177",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Bodfish Boom Town",
+  "source_role": "town_key",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-bodfish",
+  "original_filename": "Bodfish Boom Town",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2022-02-13T08:37:53.352Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Brendon Faulkner. A same-titled Google Site, id 1H09rehjbslQjAGfJGVaYIsPJkN50D1dg, was not readable and is not this document.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk",
+      "url": "https://docs.google.com/document/d/1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000177/original/source.docx",
+      "sha256": "5a7d8df855e8c011dd918a58241658f7fafd55f1996431a6156a7a275f372f3d",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 328532
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke-s5-legends/BCS-000177/assets/image1.jpg",
+      "sha256": "4a9cc830f8e1372bb930e504aadd2ca355f5a99566aee7b1774120028c2b9682",
+      "mime_type": "image/jpeg",
+      "size_bytes": 319521
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000177/source.md",
+      "sha256": "352c112d542910fc81edc16f16554501d50879fbafd3cd2c7c115d51af67c743",
+      "mime_type": "text/markdown",
+      "size_bytes": 2485
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "A separate Google Site titled Bodfish Boom Town was visible in search and was not exported. It is not represented by this container.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_MEDIA_SEPARATED_WHEN_PRESENT"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The Season 5 style guide links this Drive id under First town, Days 1-3, Bodfish Boomtown.",
+        "support_refs": [
+          "BCS-000177"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "A numbered place list and a few prices. Not a record of play.",
+        "support_refs": [
+          "BCS-000177",
+          "BCS-000132"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000132",
+      "confidence": "STRONG",
+      "basis": "The style guide's Bodfish Boomtown hyperlink is this Drive id.",
+      "support_refs": [
+        "BCS-000177",
+        "BCS-000132"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000179",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Weekly breakdown template.",
+  "source_role": "week_form",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-internal-preparation",
+  "original_filename": "Weekly breakdown template.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2022-02-13T08:38:33.326Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Brendon Faulkner. This is not the 2020 empty week form candidate 1AV4piqqYZHTJFP66_zjhQQwD1zHGaxrhhxZgUquoDOo.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg",
+      "url": "https://docs.google.com/document/d/18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000179/original/source.docx",
+      "sha256": "7a277f7c39cdb7a5a90c86d5b1fc73cc07f71802d914f0772ee826be23eaf189",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7151
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000179/source.md",
+      "sha256": "bedea5c6f51a6c05eb9cf514c0137deea6555e05930544b0fe258be4f8158a16",
+      "mime_type": "text/markdown",
+      "size_bytes": 921
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Day slots are blank labels. One day line reads Friday Voice Event.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The Season 5 style guide's Template hyperlink is this Drive id.",
+        "support_refs": [
+          "BCS-000179"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "A blank week form linked from the style guide. A form is not a filled week.",
+        "support_refs": [
+          "BCS-000179",
+          "BCS-000132"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000132",
+      "confidence": "STRONG",
+      "basis": "The style guide links this file at the words Template.",
+      "support_refs": [
+        "BCS-000179",
+        "BCS-000132"
+      ]
+    }
+  ]
+}

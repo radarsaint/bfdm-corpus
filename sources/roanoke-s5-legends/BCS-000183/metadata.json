@@ -1,0 +1,92 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000183",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "Season 5.",
+  "source_role": "season_framing",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s5-internal-preparation",
+  "original_filename": "Season 5.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2023-04-27T04:08:35.738Z"
+  },
+  "authorship": {
+    "status": "BRENDON",
+    "basis": "The note is signed Radar. The corpus identity record says DM radar is Brendon, and file search reports the owner as Brendon Faulkner.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1_wqsPUOwI5frqMz0uZ86-cx40pep44hTAxdt4PRCXTA",
+      "url": "https://docs.google.com/document/d/1_wqsPUOwI5frqMz0uZ86-cx40pep44hTAxdt4PRCXTA/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000183/original/source.docx",
+      "sha256": "43a9892ca775afd71a7f2a937e1b25381bd9926142c01cb1546cad679443ac10",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8706
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000183/source.md",
+      "sha256": "161f167afc5e90e016430153b16f96a6bec08f43963e24be8fb956eefb5e7263",
+      "mime_type": "text/markdown",
+      "size_bytes": 4083
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The text is titled Season 5 and states the year's moral question. The registry already uses this Drive id as a 2023-04-20 planning anchor.",
+        "support_refs": [
+          "BCS-000183"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "Season framing and an invitation. Not a postmortem and not a table log.",
+        "support_refs": [
+          "BCS-000183"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": []
+}

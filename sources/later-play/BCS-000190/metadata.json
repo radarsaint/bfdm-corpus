@@ -1,0 +1,95 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000190",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "Kore-A: THE CLOCK OF ETERNITY",
+  "source_role": "session_log",
+  "source_kind": "google_drive_native",
+  "document_family_id": "kore-a-session-log",
+  "original_filename": "Kore-A: THE CLOCK OF ETERNITY",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2026-10-06T06:47:39.698Z"
+  },
+  "authorship": {
+    "status": "OTHER_AUTHOR",
+    "basis": "File search reports the owner as rhus93722. The text is a session narrative dated in the body as 30APR26. It is not assigned to Brendon.",
+    "project_ownership_context": "Drive owner reported by file search: rhus93722."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Umg3gIBjuL6Mnr_hWLTZ-uQlF3fWlvBD5KZQWxk-hJw",
+      "url": "https://docs.google.com/document/d/1Umg3gIBjuL6Mnr_hWLTZ-uQlF3fWlvBD5KZQWxk-hJw/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/later-play/BCS-000190/original/source.docx",
+      "sha256": "78a3139f9ecd216e6890ce64a7d3b66c0231550a96f0fac818b7b08f15d67cc0",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 724015
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/later-play/BCS-000190/assets/image5.png",
+      "sha256": "25d49006b7a4f0c29bf783d0ed2a5e1e789bd15986cef622f4eff4c28862dc2b",
+      "mime_type": "image/png",
+      "size_bytes": 72530
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000190/source.md",
+      "sha256": "5e6fee5bfc2800fde9540306ae7718d86b4c66f5e2c9dbed32c263d0e6e6cd94",
+      "mime_type": "text/markdown",
+      "size_bytes": 149785
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "A session narrative is not independent proof of what a DM decided.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_MEDIA_SEPARATED_WHEN_PRESENT"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "LIVE_USE_ARTIFACT",
+        "confidence": "STRONG",
+        "basis": "The text presents itself as a session dated 30APR26. Strong as a narrative artifact. Not confirmed against a recording, and not placed in a registry campaign.",
+        "support_refs": [
+          "BCS-000190"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No registry project is named in the capture."
+      },
+      {
+        "question": "brendon_dm_decisions",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Owner is rhus93722. Sentences are not labeled by speaker role."
+      }
+    ]
+  },
+  "source_links": []
+}

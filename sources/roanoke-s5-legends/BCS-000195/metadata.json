@@ -1,0 +1,93 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000195",
+  "project": "Roanoke",
+  "project_slug": "roanoke-s5-legends",
+  "title": "S5 Materials Draft",
+  "source_role": "craft_notes",
+  "source_kind": "google_drive_spreadsheet",
+  "document_family_id": "roanoke-s5-materials",
+  "original_filename": "S5 Materials Draft",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2023-06-30T20:37:50.093Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as darknessemerald. The title says S5. Ownership is not Brendon.",
+    "project_ownership_context": "Drive owner reported by file search: darknessemerald."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_spreadsheet",
+      "native_id": "1nb5pUk7G3EeTqtuXppXf1rZzi2gvJSrCtRpZ5D1puBc",
+      "url": "https://docs.google.com/spreadsheets/d/1nb5pUk7G3EeTqtuXppXf1rZzi2gvJSrCtRpZ5D1puBc/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke-s5-legends/BCS-000195/original/source.xlsx",
+      "sha256": "517cf2c3b3e91ce473fabb210817c54b840c1de62f710a96f847fdcbdc0debf3",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 40468
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000195/source.md",
+      "sha256": "84763df91adf223e0b19b0e698b4f70d3a87053a00d970e54a2f4447d4868d13",
+      "mime_type": "text/markdown",
+      "size_bytes": 35000
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Sheet exported as XLSX. source.md is cell text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Not established as the non-canon craft notes beyond the title and the cells themselves.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The filename says S5 Materials Draft. Owner is darknessemerald, so this is not recorded as Brendon's craft rules.",
+        "support_refs": [
+          "BCS-000195"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "A materials spreadsheet. Cells are the rules only as written. Not Season 3 or Season 4 crafting.",
+        "support_refs": [
+          "BCS-000195"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": []
+}

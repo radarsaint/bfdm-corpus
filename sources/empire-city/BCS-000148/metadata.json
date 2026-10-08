@@ -98,5 +98,17 @@
       }
     ]
   },
-  "source_links": []
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000175",
+      "confidence": "STRONG",
+      "basis": "Pigeon Lord v2 is a later-modified file in the same class family. It is not recorded here as superseding this draft.",
+      "support_refs": [
+        "BCS-000148",
+        "BCS-000175"
+      ]
+    }
+  ]
 }

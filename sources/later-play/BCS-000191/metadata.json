@@ -1,0 +1,89 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000191",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "CFS.pdf",
+  "source_role": "class_and_background_text",
+  "source_kind": "google_drive_pdf",
+  "document_family_id": "combat-field-scholar",
+  "original_filename": "CFS.pdf",
+  "mime_type": "application/pdf",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2020-05-04T21:32:12.000Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The PDF is in a Drive owned, by file search, by Brendon Faulkner. The text is a Combat Field Scholar class for an order tied to Saint George. Sole authorship is not stated in the extract.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1VZE5UOP2PcUYUMZhlI2C5i6sEKMZFaBs",
+      "url": "https://drive.google.com/file/d/1VZE5UOP2PcUYUMZhlI2C5i6sEKMZFaBs/view?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "ORIGINAL_PDF",
+      "path": "sources/later-play/BCS-000191/original/source.pdf",
+      "sha256": "55266c158edfd0637591ff9d1a77656b97b43f86baa18f5503470b01baf80350",
+      "mime_type": "application/pdf",
+      "size_bytes": 2555683
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000191/source.md",
+      "sha256": "e65ac6bd33343c7fa6627f64a25ff6605a69ed08d711613fbff76ceb5ff755a9",
+      "mime_type": "text/markdown",
+      "size_bytes": 6162
+    }
+  ],
+  "normalization": {
+    "method": "Original PDF bytes downloaded. source.md is pypdf text extraction.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Search marked the PDF not readable inline. The bytes were still downloaded and match the reported size 2555683.",
+      "PDF text was extracted with pypdf. Layout and images in the PDF are not reproduced in source.md.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_TEXT_EXTRACTION",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "ORIGINAL_PDF_PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "Two-page class text. No campaign title in the opening.",
+        "support_refs": [
+          "BCS-000191"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The creator's note says these backgrounds are setting-appropriate to the colonists of Roanoke and are not a requirement. That names the setting and does not name a season or a registry project id."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A class PDF is not play."
+      }
+    ]
+  },
+  "source_links": []
+}

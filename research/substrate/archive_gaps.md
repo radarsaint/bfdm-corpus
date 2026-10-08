@@ -2,58 +2,59 @@
 
 Explicit references only. A directory heading without a URL is one ambiguous row, not a stack of invented files.
 
-Regenerated from the ledger in this script against current main. A row is not proof the file was re-opened.
+Regenerated from the ledger in this script. A RESOLVED row means the named current body is a container. PARTIAL_CURRENT_BODY_ONLY means that body is present and an earlier wording or omitted export is still missing. A row is not proof the file was re-opened for this regeneration.
 
 ## Counts
 
-- `MISSING_KNOWN_SOURCE`: 21
-- `POSSIBLE_CANDIDATE_MATCH`: 12
+- `MISSING_KNOWN_SOURCE`: 14
+- `POSSIBLE_CANDIDATE_MATCH`: 2
 - `EXTERNAL_OR_UNAVAILABLE`: 1
 - `AMBIGUOUS_REFERENCE`: 1
 - `PRESENT_UNDER_DIFFERENT_NAME`: 0
-- `RESOLVED`: 1
+- `PARTIAL_CURRENT_BODY_ONLY`: 4
+- `RESOLVED`: 14
 
 ## Rows
 
 ### GAP-S4-MASTER-TIMELINE
 
 - Name: S4 Master Timeline
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: registry/projects.jsonl roanoke-s4 planning anchor; research/CHRONOLOGY.md; research/empire-city/source-fragment-map-v1.md; Empire City Dev messages 748279131455881360 and 752645676260917248 (URL only)
 - Project or family: roanoke-s4 / empire-city-operations
 - Type: campaign timeline
 - Drive id: `1Lk2IkEgh1aHjuUl35g1Huk7oxjNSjhmfsKKaHDL1_K8`
-- Why it matters: The Season 4 directory names a Master Timeline, and Brendon posted this Drive file in dev Discord. The container is absent, so campaign structure for Empire City is only the directory and backlog.
+- Why it matters: Current body is BCS-000131. This Drive id is no longer a missing file. Revision bodies were not fetched. A schedule is not play.
 
 ### GAP-S5-STYLE-GUIDE
 
 - Name: S5 style guide
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/CHRONOLOGY.md; registry/projects.jsonl roanoke-s5-legends planning anchor 2022-02-13
 - Project or family: roanoke-s5-legends
 - Type: internal design guide
 - Drive id: `1fpOQbmy836cs41ewNXcTUdwdfswuOEETqioshQURcm0`
-- Why it matters: This is the earliest registered Season 5 planning anchor. Published Sites start in 2023. Without it, Season 5 research starts at the publication layer.
+- Why it matters: Current body is BCS-000132. The three linked documents are BCS-000177, BCS-000178, and BCS-000179. Images remain inside the style-guide DOCX. Revision bodies were not fetched. A same-titled Bodfish Google Site was not captured.
 
 ### GAP-S5-DM-GUIDE
 
 - Name: Season 5 Dungeon Master's guide
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/CHRONOLOGY.md
 - Project or family: roanoke-s5-legends
 - Type: DM procedures
 - Drive id: `15EqRAkYPaSj8009y_ygsOun3TzKcFoBvcn9Liw7q_MQ`
-- Why it matters: A DM guide is the operational layer between the style guide and the published Sites. It is not a container and not a discovery-ledger row.
+- Why it matters: Current body is BCS-000133. It is an outline, not proof the guidance was followed. Revision bodies were not fetched.
 
 ### GAP-S5-CHARGEN-DOC
 
 - Name: Season 5 character creation
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `PARTIAL_CURRENT_BODY_ONLY` (HIGH)
 - From: research/CHRONOLOGY.md; research/source-leads/homebrew-mechanics-worldbuilding.md
 - Project or family: roanoke-s5-legends
 - Type: internal character-creation draft
 - Drive id: `1O8E_sDKqqqLKIXFQPkgPNuVqtaj368ulC4sJytiDVK8`
-- Why it matters: BCS-000109 is the published char-gen Site. This Drive document is a different id and is the internal predecessor the chronology names. They are not recorded as the same file.
+- Why it matters: Current body is BCS-000145, a 2025-04-14 modification. The April 2023 wording was not recovered. BCS-000109 remains the published site and a different file.
 
 ### GAP-S4-CHARGEN
 
@@ -68,22 +69,22 @@ Regenerated from the ledger in this script against current main. A row is not pr
 ### GAP-PLAYER-RACE-EDITS
 
 - Name: Player race edits
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/source-leads/homebrew-mechanics-worldbuilding.md
 - Project or family: roanoke race design
 - Type: revision critique
 - Drive id: `11GF5rYImy_jdf7NxAtf5gI-OW2DCTlxjgZCOHLnC3cY`
-- Why it matters: The source lead describes line-level revisions to Tatankan, Halfwudgie, Urucokra, Jackalope, and Chinnokin. The verbatim race texts are ingested. This revision document is not.
+- Why it matters: Current edit note is BCS-000135. It is revision context, not proof the later verbatim files kept this wording. Verbatim revision bodies were not fetched.
 
 ### GAP-TATANKAN-VERBATIM
 
 - Name: The Tatankan Verbatim
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/source-leads/homebrew-mechanics-worldbuilding.md
 - Project or family: roanoke-s3 race lore
 - Type: race verbatim
 - Drive id: `1bDpgesAcJxYDr9NkUU3ARQ4wEoW0Aghxx91QYnKL22g`
-- Why it matters: Halfwudgie, Urucokra, and Jackalope verbatims are containers. The Tatankan sibling named in the same lead is not.
+- Why it matters: Current body is BCS-000138. The captured text is the later file state, not a revision sequence.
 
 ### GAP-PLAYER-RACES-FINAL
 
@@ -148,12 +149,12 @@ Regenerated from the ledger in this script against current main. A row is not pr
 ### GAP-HOUSE-RULES-2020
 
 - Name: House rules official release
-- Status: `MISSING_KNOWN_SOURCE` (HIGH)
+- Status: `PARTIAL_CURRENT_BODY_ONLY` (HIGH)
 - From: BCS-000046 changelog; BCS-000016 signup question
 - Project or family: cross-season server rules
 - Type: player-facing rules
 - Drive id: `19q9mnafswYmNIUK3DK57O2MPqtSl78M4UcJSfBZfhA8`
-- Why it matters: The Season 3 changelog says this release was pushed live, and the Empire City signup points players at it. BCS-000104 is a later Season 5 house-rules Site, not this Drive id.
+- Why it matters: This Drive id is BCS-000134. The captured text is the 2023-04-30 state, not the 2020 wording the Season 3 changelog calls the live release. BCS-000104 remains a different Season 5 site.
 
 ### GAP-AIRSHIP-RULES
 
@@ -254,35 +255,35 @@ Regenerated from the ledger in this script against current main. A row is not pr
 ### GAP-ALMANAC
 
 - Name: The Arcanian Almanac
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/source-leads/homebrew-mechanics-worldbuilding.md
 - Project or family: early Roanoke playtest
 - Type: setting and race playtest
 - Drive id: `1To_48fHi0RuYoeov-qWBXUgSDaB8LN7WkXkX8hJFREI`
-- Candidate: UNREVIEWED_CANDIDATE The Arcanian Almanac
-- Why it matters: Revision-backed playtest for Arcanian peoples. Still an unreviewed candidate, so race history in the corpus starts later than this document.
+- Candidate: ADMITTED BCS-000143
+- Why it matters: Current body is BCS-000143, the 2019 almanac playtest. It is earlier context for later race text, not their parent file, and its revision bodies were not fetched.
 
 ### GAP-ROWING-OAK
 
 - Name: The Rowing Oak
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `PARTIAL_CURRENT_BODY_ONLY` (HIGH)
 - From: research/source-leads/early-roanoke-rowing-oak-2018.md; registry roanoke-early-2018
 - Project or family: roanoke-early-2018
 - Type: campaign architecture
 - Drive id: `11QDOazLzTM3Mv0E4hnPyFpY1wyYweeCoG-ZX8eyX6ho`
-- Candidate: UNREVIEWED_CANDIDATE The Rowing Oak
-- Why it matters: Registry anchor for the 2018 game. Season 2's guide describes a previous incarnation with the same job and barter rules. The file is still a candidate.
+- Candidate: ADMITTED BCS-000136
+- Why it matters: Current export is BCS-000136, the 2019-03-13 state. The July 2018 revision named in the source lead was not fetched.
 
 ### GAP-ROWING-OAK-GUIDE
 
 - Name: The rowing oak guide.
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `PARTIAL_CURRENT_BODY_ONLY` (HIGH)
 - From: research/source-leads/early-roanoke-rowing-oak-2018.md; registry live-window source_ref
 - Project or family: roanoke-early-2018
 - Type: multi-DM operations guide
 - Drive id: `1JqDKaRTEx89rAUcNrtSg4I6ZD7XAHRkFTWqDRRCroHw`
-- Candidate: UNREVIEWED_CANDIDATE The rowing oak guide.
-- Why it matters: The source lead says this guide announces three simultaneous DMs and asks for feedback. That operations layer is not a container.
+- Candidate: ADMITTED BCS-000137
+- Why it matters: Prose is BCS-000137. The DOCX export is still rejected as too large, so guide images remain omitted. Earlier revisions were not fetched.
 
 ### GAP-WELLSPRINGS-PHB
 
@@ -298,79 +299,79 @@ Regenerated from the ledger in this script against current main. A row is not pr
 ### GAP-ARCANIA-SETTING-BOOK
 
 - Name: Arcania Setting Book
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/source-leads/homebrew-mechanics-worldbuilding.md
 - Project or family: Arcania setting
 - Type: setting book
 - Drive id: `1Xgtbk9cJqlvwx7lCcRo3EPGuWuYzCd5zOoX_99BPo80`
-- Candidate: UNREVIEWED_CANDIDATE Arcania Setting Book
-- Why it matters: Named finished setting book. Not matched to a container.
+- Candidate: ADMITTED BCS-000180
+- Why it matters: Current body is BCS-000180. It is a short setting introduction, not a finished book in the sense of a complete manuscript, and it is not assigned to a season.
 
 ### GAP-RACES-ISAKEI
 
 - Name: Races for the isakei
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: research/source-leads/homebrew-mechanics-worldbuilding.md
 - Project or family: 2026 design, project unresolved
 - Type: later race-reskin notes
 - Drive id: `1NIK4fF4Zc676Q9zEWIN0KYjcirS3bTW4N6iSqYCskEg`
-- Candidate: UNREVIEWED_CANDIDATE Races for the isakei
-- Why it matters: Documented 2026 contrast with earlier bespoke races. Not required to explain Season 3, and still unread as a container.
+- Candidate: ADMITTED BCS-000189
+- Why it matters: Current body is BCS-000189. It is 2026 reskin notes, not a Season 3 source, and it does not replace the verbatims.
 
 ### GAP-BOWLING
 
 - Name: Bowling Event
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: registry/projects.jsonl bowling-event-2018
 - Project or family: bowling-event-2018
 - Type: format experiment
 - Drive id: `1bn1YBXqQyD22XfbyIme_S-AvBI7hLT92GCC2Jt4f5b4`
-- Candidate: UNREVIEWED_CANDIDATE Bowling Event:
-- Why it matters: The registry has a project record and no source container.
+- Candidate: ADMITTED BCS-000182
+- Why it matters: The design document is BCS-000182. The registry creation date stays 2018-08-30. The file does not show the event was held.
 
 ### GAP-LEGENDS-SIGNUP
 
 - Name: Legends sign up
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: registry/projects.jsonl roanoke-s5-legends planning anchor 2023-04-30
 - Project or family: roanoke-s5-legends
 - Type: signup sheet
 - Drive id: `12xmsqaB6x09sOn2wBvsWAFpEsAM5fFukKBH5h9eC5UA`
-- Candidate: UNREVIEWED_CANDIDATE Legends sign up
-- Why it matters: Operations evidence for who was expected to play. The published landing page is not this spreadsheet.
+- Candidate: ADMITTED BCS-000151
+- Why it matters: The signup sheet is BCS-000151. Answers are the respondents' answers. A signup is not attendance.
 
 ### GAP-SEASON5-FRAMING
 
 - Name: Season 5.
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: registry/projects.jsonl; research/CHRONOLOGY.md; research/drive-inventory/2026-10-03/TRIAGE_2026-10-05.md
 - Project or family: roanoke-s5-legends
 - Type: season framing
 - Drive id: `1_wqsPUOwI5frqMz0uZ86-cx40pep44hTAxdt4PRCXTA`
-- Candidate: UNREVIEWED_CANDIDATE Season 5.
-- Why it matters: Opened glance shows a justice-or-mercy framing, not a postmortem. It is still not a container, so the Sites have no internal design sibling in the corpus.
+- Candidate: ADMITTED BCS-000183
+- Why it matters: Current body is BCS-000183. It asks which is the greater virtue, justice or mercy. It is not a postmortem and not play.
 
 ### GAP-FERRYTOWN-SCHEDULE
 
 - Name: Ferrytown Main Event Schedule
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: BCS-000072 comments.jsonl, comment quoting Schedule
 - Project or family: roanoke-s4 / empire-city-operations
 - Type: borough event schedule
 - Drive id: `134nblLb3PbfnnWj72rFstSzA17X39dOKapaFn6s3IEM`
-- Candidate: UNREVIEWED_CANDIDATE Ferrytown Main Event Schedule
-- Why it matters: The directory names Ferrytown's schedule and the comment links this file. Borough-level prep is not in the container set.
+- Candidate: ADMITTED BCS-000140
+- Why it matters: The schedule is BCS-000140. The separate Ferrytown master document is BCS-000173. Neither shows that a listed event occurred.
 
 ### GAP-ELEVATOR
 
 - Name: Elevator Gauntlet
-- Status: `POSSIBLE_CANDIDATE_MATCH` (HIGH)
+- Status: `RESOLVED` (HIGH)
 - From: BCS-000052 week 3 breakdown
 - Project or family: roanoke-s3-week-operations
 - Type: encounter module
 - Drive id: `1fpuTPkVyJzE5n9gxIcBMZ_J3q_mOXHq6uwpCKnKxQGU`
-- Candidate: UNREVIEWED_CANDIDATE Elevator Guantlet.
-- Why it matters: The week sheet links the module. It remains a candidate, so the encounter text is not readable with the schedule.
+- Candidate: ADMITTED BCS-000146
+- Why it matters: The module is BCS-000146. Its pass condition is preparation, not a record that the week was run.
 
 ### GAP-CORRECTED-HOMEBREWERY
 

@@ -71,7 +71,7 @@ def main() -> int:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript(schema)
-    run_id = "reconcile-source-ingests-2026-10-05"
+    run_id = "archive-completion-2026-10-08"
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     conn.execute(
         """
@@ -83,9 +83,9 @@ def main() -> int:
             run_id,
             now,
             now,
-            "grok-reconciliation",
-            "non-discord source containers on reconciled integration branch",
-            "Rebuilt once from combined historical recovery, Earthfall history, and Saturday D&D history. Not merged from donor SQLite files.",
+            "grok-archive-completion",
+            "non-discord source containers including BCS-000173 through BCS-000195",
+            "Rebuilt from source containers after the 2026-10-08 physical completion pass. Context containers such as BCS-000059 are not in this index. BCS-000068 has no source container.",
         ),
     )
     pending_links = []

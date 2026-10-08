@@ -1,0 +1,93 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000182",
+  "project": "Bowling Event",
+  "project_slug": "bowling-event",
+  "title": "Bowling Event:",
+  "source_role": "format_experiment",
+  "source_kind": "google_drive_native",
+  "document_family_id": "bowling-event-2018",
+  "original_filename": "Bowling Event:",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2020-08-22T09:17:36.497Z"
+  },
+  "authorship": {
+    "status": "BRENDON",
+    "basis": "The document says it was written by Brendon Faulkner. File search reports the same owner. The registry already dates document creation to 2018-08-30; this capture's modified time is 2020-08-22 and is not a new creation date.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1bn1YBXqQyD22XfbyIme_S-AvBI7hLT92GCC2Jt4f5b4",
+      "url": "https://docs.google.com/document/d/1bn1YBXqQyD22XfbyIme_S-AvBI7hLT92GCC2Jt4f5b4/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/bowling-event/BCS-000182/original/source.docx",
+      "sha256": "a9239757323a0cd3dbf630d0ee53fa36ab83539f849247c22715a72a96584ed7",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 551221
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/bowling-event/BCS-000182/source.md",
+      "sha256": "07efa72735c5894e9b3bfb3064f3288072b84fe6833a729a579bd9b5e1917027",
+      "mime_type": "text/markdown",
+      "size_bytes": 21770
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Modified time is later than the registry creation anchor. The creation date was not re-fetched and was not changed.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "bowling-event-2018",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The registry project is this Drive id, and the text is titled as a bowling event for the Cascadia Gamers Alliance.",
+        "support_refs": [
+          "BCS-000182"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Adventure text for a bowling conversion. The file does not record that the event was held.",
+        "support_refs": [
+          "BCS-000182"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": []
+}

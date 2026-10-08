@@ -25,13 +25,29 @@
       "url": "https://drive.google.com/file/d/1qL8Q1E4gnDwlk37uOAXjk9A2cMEdHI6l/view?usp=drivesdk"
     }
   ],
-  "representations": [],
+  "representations": [
+    {
+      "kind": "ORIGINAL_PDF",
+      "path": "sources/roanoke-s5-legends/BCS-000114/original/source.pdf",
+      "sha256": "07445368d99e770c9e575efffadab22ca9b1f0fe6232584fc2e60e46f6645626",
+      "mime_type": "application/pdf",
+      "size_bytes": 816524
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke-s5-legends/BCS-000114/source.md",
+      "sha256": "57c219db747b7cabbfdbaa58738036aaa69b45e3a83630b2e6393b1dc5309d39",
+      "mime_type": "text/markdown",
+      "size_bytes": 2311
+    }
+  ],
   "normalization": {
     "method": "Readable text extraction returned by connected Google Drive.",
     "tool": "Google Drive connector",
     "warnings": [
-      "Original PDF bytes remain provider-side and should be captured in a later binary-safe Drive reconciliation pass.",
-      "Representation checksum will be backfilled during index consolidation."
+      "Original PDF bytes were copied on 2026-10-08 from Drive id 1qL8Q1E4gnDwlk37uOAXjk9A2cMEdHI6l.",
+      "source.md remains the earlier text extraction. It was not regenerated from the PDF in this pass.",
+      "Revision bodies were not retrieved. There is no revision-list tool."
     ]
   },
   "capture_status": {
@@ -39,7 +55,7 @@
     "comments": "NOT_APPLICABLE_OR_NOT_CAPTURED",
     "revision_metadata": "NOT_CAPTURED_THIS_PASS",
     "revision_bodies": "NOT_CAPTURED_THIS_PASS",
-    "assets": "ORIGINAL_PDF_PROVIDER_SIDE_NOT_COPIED_THIS_PASS"
+    "assets": "ORIGINAL_PDF_PRESERVED"
   },
   "source_links": [
     {

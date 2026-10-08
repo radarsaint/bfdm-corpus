@@ -1,0 +1,88 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000188",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "Elijah",
+  "source_role": "character_handoff",
+  "source_kind": "google_drive_native",
+  "document_family_id": "elijah-character-handoff",
+  "original_filename": "Elijah",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2024-01-23T18:15:25.068Z"
+  },
+  "authorship": {
+    "status": "OTHER_AUTHOR",
+    "basis": "File search reports the owner as larahazboun. The text is a character description. It is not assigned to Brendon and not placed in a campaign.",
+    "project_ownership_context": "Drive owner reported by file search: larahazboun."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1ZDOarJzjMFEwYM025VrV_APxZvTVlSri-ydjprGsXC8",
+      "url": "https://docs.google.com/document/d/1ZDOarJzjMFEwYM025VrV_APxZvTVlSri-ydjprGsXC8/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/later-play/BCS-000188/original/source.docx",
+      "sha256": "492c12edbd3dca5460d4648dfc173e143e0d759b3fa0e687c37aadfd3932ad48",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 14291
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000188/source.md",
+      "sha256": "d7bda1feaa50a9be8e610fa1bbe14f63aae134cec6b58ba2712464e7e686dc1e",
+      "mime_type": "text/markdown",
+      "size_bytes": 9411
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "No project id is inferred from a character sheet.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Character concept and appearance notes. Not a session log.",
+        "support_refs": [
+          "BCS-000188"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The file does not name Roanoke, Empire City, Earthfall, or another registry project."
+      },
+      {
+        "question": "brendon_authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Owner is larahazboun."
+      }
+    ]
+  },
+  "source_links": []
+}

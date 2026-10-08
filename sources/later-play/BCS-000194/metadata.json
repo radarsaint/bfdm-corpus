@@ -1,0 +1,99 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000194",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "May 19 2026 Allowed Content",
+  "source_role": "content_rulings",
+  "source_kind": "google_drive_spreadsheet",
+  "document_family_id": "allowed-content-rulings",
+  "original_filename": "May 19 2026 Allowed Content",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2026-07-07T05:35:18.682Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as jswycislak.",
+    "project_ownership_context": "Drive owner reported by file search: jswycislak."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_spreadsheet",
+      "native_id": "19UAOSlMXh89R6Zi17J78X9ECApw1RqEsT7tpWAG1Ips",
+      "url": "https://docs.google.com/spreadsheets/d/19UAOSlMXh89R6Zi17J78X9ECApw1RqEsT7tpWAG1Ips/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/later-play/BCS-000194/original/source.xlsx",
+      "sha256": "6bab987896bdf0fa675b0ed5ea27374005e39d58b645a62ce7bdd3830757986c",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 738695
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000194/source.md",
+      "sha256": "69e1b2efb506b3581c34e8d6f78d5f6091a72f8cb0934037d8822c8583452ec3",
+      "mime_type": "text/markdown",
+      "size_bytes": 558728
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Sheet exported as XLSX. source.md is cell text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "Allowed-content spreadsheet with a May 19 2026 title. Modification reported 2026-07-07.",
+        "support_refs": [
+          "BCS-000194"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Owner jswycislak. No campaign id assigned."
+      },
+      {
+        "question": "supersedes_dec_2025_sheet",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A later filename is not withdrawal of BCS-000193."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000193",
+      "confidence": "STRONG",
+      "basis": "Pair of Allowed Content sheets. Different owners and dates. Not a supersession.",
+      "support_refs": [
+        "BCS-000194",
+        "BCS-000193"
+      ]
+    }
+  ]
+}

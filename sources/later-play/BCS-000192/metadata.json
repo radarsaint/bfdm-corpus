@@ -1,0 +1,87 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000192",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "Content Rulings",
+  "source_role": "content_rulings",
+  "source_kind": "google_drive_spreadsheet",
+  "document_family_id": "allowed-content-rulings",
+  "original_filename": "Content Rulings",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "ingested_at": "2026-10-08T12:00:00Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2026-04-29T00:22:50.356Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as bghooper88. A rulings sheet is not assigned to Brendon from an earlier triage label.",
+    "project_ownership_context": "Drive owner reported by file search: bghooper88."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_spreadsheet",
+      "native_id": "1XB5cnltZZkYerCBE4snXZsQa86vHaOW5aqY_l_Cgaeo",
+      "url": "https://docs.google.com/spreadsheets/d/1XB5cnltZZkYerCBE4snXZsQa86vHaOW5aqY_l_Cgaeo/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/later-play/BCS-000192/original/source.xlsx",
+      "sha256": "ad1b929279bb7ae20339e56299adc14a0c4becc3196e3215730afd42359d69ec",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 35760
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000192/source.md",
+      "sha256": "04b4527b856865c6627c367857047b98b2fd40f34f72d1c7d2cfdda2c7bb43fe",
+      "mime_type": "text/markdown",
+      "size_bytes": 16804
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Sheet exported as XLSX. source.md is cell text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "A rulings spreadsheet. Rows are policy text only if the cells say so. Project is not assigned.",
+        "support_refs": [
+          "BCS-000192"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Owner bghooper88. No registry project id was inferred."
+      },
+      {
+        "question": "enforced_at_table",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A sheet of rulings is not a log of enforcement."
+      }
+    ]
+  },
+  "source_links": []
+}
