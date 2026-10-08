@@ -1,0 +1,240 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000174",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Hampstead Module",
+  "source_role": "borough_module",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s4-hampstead",
+  "original_filename": "Hampstead Module",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2021-07-16T02:02:36.945Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Anthony S. That matches the owner recorded for the Hampstead player guide and does not assign the module's sentences to Brendon.",
+    "project_ownership_context": "Drive owner reported by file search: Anthony S."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1J_ex2QXbL5UvrkZZgxw7N62vulHzZm51ekxn6ZZKYIc",
+      "url": "https://docs.google.com/document/d/1J_ex2QXbL5UvrkZZgxw7N62vulHzZm51ekxn6ZZKYIc/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image1.png",
+      "sha256": "be00b70ae226b4f07d4b11cb45ca7c7a94e67b0c42efbf181afff9a9d2325471",
+      "mime_type": "image/png",
+      "size_bytes": 643380
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image2.png",
+      "sha256": "cd59aac12186810ed5a8c639b17ac490d25013bde316d01bda756ca064c95923",
+      "mime_type": "image/png",
+      "size_bytes": 140129
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image3.png",
+      "sha256": "110a923fb3efe6516fb84652b4414a202bd8d47c260acb4f1b7435b8310314ae",
+      "mime_type": "image/png",
+      "size_bytes": 176289
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image4.png",
+      "sha256": "a787d19cec98c38c743ca09a6aaf82e3c1df2eaef946c2d79a1da824c76e593d",
+      "mime_type": "image/png",
+      "size_bytes": 202661
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image5.png",
+      "sha256": "19f29c9c4ef654f5966c692c98a1316b5bc5d76225de0e7ff8fedf2a622a6167",
+      "mime_type": "image/png",
+      "size_bytes": 200251
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image6.png",
+      "sha256": "b52e6b6809851d9140197ec08b1a68094513ea159487045868ff77f98cc59041",
+      "mime_type": "image/png",
+      "size_bytes": 229562
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image7.png",
+      "sha256": "c22f75a1c11ba206d508c0e164cdb28119d548084d98e31f54bdfad7681302bc",
+      "mime_type": "image/png",
+      "size_bytes": 225080
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image8.png",
+      "sha256": "31c40d0a6ee19332a142518efae4c8986ca5cfd73e147b7f3c1b61788ceea51f",
+      "mime_type": "image/png",
+      "size_bytes": 162684
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image9.png",
+      "sha256": "ba4f134209079089e9ef5ae4eab53280a753a42ad3055fd9b653b1ae2e2e542d",
+      "mime_type": "image/png",
+      "size_bytes": 148007
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image10.png",
+      "sha256": "c3193ebfd85312837864412d4d7885ef9524f3bf090ebe34f951d057c431ceff",
+      "mime_type": "image/png",
+      "size_bytes": 401890
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image11.png",
+      "sha256": "36468aaf113ca89e37e13097d9b9471a50340215b90acefed87db2207ebfc0ad",
+      "mime_type": "image/png",
+      "size_bytes": 172956
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image12.png",
+      "sha256": "714bcb91bb608ae7e5db2e8417d3809b7dcc6406df3059df927ebad0889ee2c5",
+      "mime_type": "image/png",
+      "size_bytes": 242472
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image13.png",
+      "sha256": "2162879649739806ed599cec2c1a61c0eb756ad83d5bc45a545c4c31e60a2059",
+      "mime_type": "image/png",
+      "size_bytes": 186654
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image14.png",
+      "sha256": "9e69fd1719b22acf0f26c5d3073db8c30b69db967ffb725494d8e51f43b12135",
+      "mime_type": "image/png",
+      "size_bytes": 175907
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image15.png",
+      "sha256": "263a8efd8b0ff94c98dc683ab84764b775e47dc5628b6901b58853c03d9cd7da",
+      "mime_type": "image/png",
+      "size_bytes": 197503
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image16.png",
+      "sha256": "a2f639b5d7dc69756d710da1020b39648a6d246cc2832d57a79cd471ffebe0f2",
+      "mime_type": "image/png",
+      "size_bytes": 230301
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image17.png",
+      "sha256": "8419f0f4e2f9f7c9bd1e2df426e9ba1d38a4c622303fbe838bcec6e0f9f5dc74",
+      "mime_type": "image/png",
+      "size_bytes": 548241
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image18.png",
+      "sha256": "a802d7feeff3c6ab3196aef667a445083ce184afa73df33bcd8db1d13e4d8993",
+      "mime_type": "image/png",
+      "size_bytes": 408753
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image19.png",
+      "sha256": "ad463fd33e150566d3bc03c2f2bbeee5e2b37e4f52b76e9f442ecbedd1ac81de",
+      "mime_type": "image/png",
+      "size_bytes": 445291
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000174/assets/image20.png",
+      "sha256": "2a3ae33bbe8170db105c91801eed2a7863258caeef0eaff79f43e33bfee8e154",
+      "mime_type": "image/png",
+      "size_bytes": 442190
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000174/source.md",
+      "sha256": "c31c81deb8a8934d9dbc8deeaaad39c56a77e73445923b9faa3856b06cdd9637",
+      "mime_type": "text/markdown",
+      "size_bytes": 97594
+    }
+  ],
+  "normalization": {
+    "method": "Google rejected a DOCX export as too large (reported size 18961400 bytes). The markdown export is the captured current text. Embedded images were extracted from that export.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "DOCX export returned exportSizeLimitExceeded.",
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Native Drive comment list was not retrieved for this file."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_MARKDOWN_EXPORT",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EXTRACTED_FROM_MARKDOWN_EXPORT"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The body calls Hampstead the rotten core of Empire City and writes sets and actors for that borough. It is not the player guide BCS-000141.",
+        "support_refs": [
+          "BCS-000174"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Sets, notices, and actors are preparation. They do not show the module was run.",
+        "support_refs": [
+          "BCS-000174"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000141",
+      "confidence": "STRONG",
+      "basis": "Both files are Hampstead documents. BCS-000141 is the player guide and is also owned by Anthony S. This module is a different Drive id and is not treated as the same text.",
+      "support_refs": [
+        "BCS-000174",
+        "BCS-000141"
+      ]
+    }
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-07-16T02:02:36.945Z"
+}

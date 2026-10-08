@@ -3,11 +3,11 @@
   "corpus_id": "BCS-000147",
   "project": "At War's End",
   "project_slug": "at-wars-end",
-  "title": "Mirabelle \u2013 A Tragedy in Five Acts",
+  "title": "Mirabelle – A Tragedy in Five Acts",
   "source_role": "in_world_play_text",
   "source_kind": "google_drive_native",
   "document_family_id": "at-wars-end-mirabelle",
-  "original_filename": "Mirabelle \u2013 A Tragedy in Five Acts",
+  "original_filename": "Mirabelle – A Tragedy in Five Acts",
   "mime_type": "application/vnd.google-apps.document",
   "ingested_at": "2026-10-05T04:10:00Z",
   "native_dates": {
@@ -93,5 +93,17 @@
       }
     ]
   },
-  "source_links": []
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000176",
+      "confidence": "STRONG",
+      "basis": "A second Drive file of the Mirabelle play, modified 2025-05-22, with shorter normalized text. This container's recorded modification is 2025-05-23. Neither file is marked superseded.",
+      "support_refs": [
+        "BCS-000147",
+        "BCS-000176"
+      ]
+    }
+  ]
 }

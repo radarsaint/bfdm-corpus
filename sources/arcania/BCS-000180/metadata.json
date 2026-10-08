@@ -1,0 +1,91 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000180",
+  "project": "Arcania",
+  "project_slug": "arcania",
+  "title": "Arcania Setting Book",
+  "source_role": "setting_book",
+  "source_kind": "google_drive_native",
+  "document_family_id": "arcania-setting-book",
+  "original_filename": "Arcania Setting Book",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2021-09-30T18:37:54.295Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The text says Arcania was originally conceived by Brendon Faulkner, and file search reports the owner as Brendon Faulkner. Conception and Drive ownership stay in project_ownership_context. They do not establish authorship of the setting-book sentences.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Xgtbk9cJqlvwx7lCcRo3EPGuWuYzCd5zOoX_99BPo80",
+      "url": "https://docs.google.com/document/d/1Xgtbk9cJqlvwx7lCcRo3EPGuWuYzCd5zOoX_99BPo80/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/arcania/BCS-000180/original/source.docx",
+      "sha256": "cdba9878435d606b8598093f16147c6f38550a28d8073170f4fd9e7c46d1b156",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9570
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/arcania/BCS-000180/source.md",
+      "sha256": "ab41c3e45bb0a05b61e2fa337a02a7fb27dc108240bfdc8453e7916f85d78c2a",
+      "mime_type": "text/markdown",
+      "size_bytes": 5265
+    }
+  ],
+  "normalization": {
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "There is no Arcania project id in the registry. This container is not given a false project id.",
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The text introduces Arcania as a 5e setting and describes its play-by-post origin. It does not record a table.",
+        "support_refs": [
+          "BCS-000180"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A setting introduction is not a season log."
+      },
+      {
+        "question": "which_season",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The text describes a yearly multi-DM event and does not name Season 3, 4, or 5."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-09-30T18:37:54.295Z"
+}

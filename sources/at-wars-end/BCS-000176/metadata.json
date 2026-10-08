@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000176",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "Mirabelle – A Tragedy in Five Acts (1)",
+  "source_role": "in_world_play_text",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-mirabelle",
+  "original_filename": "Mirabelle – A Tragedy in Five Acts (1)",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2025-05-22T16:40:38.813Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Brendon Faulkner. The filename marks a copy. It is not the same Drive id as BCS-000147, and the normalized text is shorter.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1ZEEvZIs_wxkWz0mCXUfgyN7l8ezAuv3k0opjVGCf9bY",
+      "url": "https://docs.google.com/document/d/1ZEEvZIs_wxkWz0mCXUfgyN7l8ezAuv3k0opjVGCf9bY/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000176/original/source.docx",
+      "sha256": "bcd99e3f4cd010acf45fc83d85d4cfd0095aaae6dc5ac65a45a6ac1d0709debc",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 216863
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/at-wars-end/BCS-000176/assets/image2.png",
+      "sha256": "18d840af2c50eff9a5241d4b50833a596e6b71af0cee87cf2b3435345f2f7aba",
+      "mime_type": "image/png",
+      "size_bytes": 70
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000176/source.md",
+      "sha256": "729949523c52333ad21756939ab89cfc38ad77395ee833c2e8089edccda81fee",
+      "mime_type": "text/markdown",
+      "size_bytes": 28377
+    }
+  ],
+  "normalization": {
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Normalized text is shorter than BCS-000147. BCS-000147's recorded modification is 2025-05-23, one day after this file. That does not establish that every sentence moved forward or that this copy was rejected.",
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_MEDIA_SEPARATED_WHEN_PRESENT"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The subtitle says the play is performed in-world in At War's End. The file does not contain a performance record.",
+        "support_refs": [
+          "BCS-000176"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "A play text can be preparation for an in-world performance. This file does not show the performance happened.",
+        "support_refs": [
+          "BCS-000176"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000147",
+      "confidence": "STRONG",
+      "basis": "Same title and opening dramatis personae as BCS-000147, different Drive id, shorter normalized text, modified one day earlier than the recorded modification of BCS-000147. Not marked superseded in either direction.",
+      "support_refs": [
+        "BCS-000176",
+        "BCS-000147"
+      ]
+    }
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2025-05-22T16:40:38.813Z"
+}

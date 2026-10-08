@@ -1,0 +1,108 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000175",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Pigeon Lord v2",
+  "source_role": "class_draft",
+  "source_kind": "google_drive_native",
+  "document_family_id": "pigeon-lord-class",
+  "original_filename": "Pigeon Lord v2",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2021-05-26T00:17:38.452Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Brendon Faulkner. BCS-000148, the earlier draft, is owned by addison19190. Ownership of this file does not assign the draft's sentences, and this file does not say the draft was withdrawn.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1wukQySSYeNcOJqWEV-Ij7Kl0dJmdY3H-AEvt07WNimI",
+      "url": "https://docs.google.com/document/d/1wukQySSYeNcOJqWEV-Ij7Kl0dJmdY3H-AEvt07WNimI/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000175/original/source.docx",
+      "sha256": "49bea4bb7921814622128eb24381f6e01256b2659522f70e1530d926172bcfad",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 327581
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000175/source.md",
+      "sha256": "1bfdd3428c04344dbc5a6c8926c5f5107c1b6dab18e27b33ee4252c4b642aa63",
+      "mime_type": "text/markdown",
+      "size_bytes": 14991
+    }
+  ],
+  "normalization": {
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "The title says v2. That is a version label, not a statement that BCS-000148 was replaced in play.",
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The class text is set in Empire City's pigeon network. Season is not named in the file.",
+        "support_refs": [
+          "BCS-000175"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The body is a class feature draft. A class text is not table use.",
+        "support_refs": [
+          "BCS-000175"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000148",
+      "confidence": "STRONG",
+      "basis": "Same class subject as Pigeon Lord- draft. This file is titled v2 and was modified on 2021-05-26; the draft's recorded modification is 2020-09-14. Wording differs, including 'Pigeons' here and 'Cranium Pigeons' in the draft. No sentence here says the draft is withdrawn, so this is not a SUPERSEDES link.",
+      "support_refs": [
+        "BCS-000175",
+        "BCS-000148"
+      ]
+    }
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-05-26T00:17:38.452Z"
+}
