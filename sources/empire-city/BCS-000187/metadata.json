@@ -9,14 +9,14 @@
   "document_family_id": "roanoke-s4-staaten",
   "original_filename": "Staaten Island brain storming",
   "mime_type": "application/vnd.google-apps.document",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2021-02-27T04:34:42.170Z"
   },
   "authorship": {
-    "status": "COLLABORATIVE",
-    "basis": "File search reports the owner as Brendon Faulkner. The DOCX comment part also contains comments by Jack Hagey. Comments are not the table of NPCs and do not assign the sheet.",
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Brendon Faulkner. The DOCX comment part includes comments by Brendon Faulkner and Jack Hagey. Those identities stay on the comments. They do not assign the NPC table, so source authorship is UNKNOWN rather than COLLABORATIVE.",
     "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
   },
   "locators": [
@@ -38,9 +38,9 @@
     {
       "kind": "NORMALIZED_HUMAN_READABLE",
       "path": "sources/empire-city/BCS-000187/source.md",
-      "sha256": "5e9f77105d491719c5c40d1d8c4ecd083d6bed5001d75e18e541d491dc7bf431",
+      "sha256": "222e49e673731c2d4b2bf646a3de3a60bd558a8e6e3d7ea1760a4dc6f201f9dc",
       "mime_type": "text/markdown",
-      "size_bytes": 6563
+      "size_bytes": 6782
     },
     {
       "kind": "COMMENT_EXPORT",
@@ -51,11 +51,12 @@
     }
   ],
   "normalization": {
-    "method": "Current Google Doc exported as DOCX. source.md is paragraph text. Comments are the DOCX comments part.",
-    "tool": "Google Drive connector",
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
     "warnings": [
       "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
-      "Comment text is preserved from the export. A separate Drive comment-list call was not required to recover these seven notes because they are in the file."
+      "Comment text is preserved from the export. A separate Drive comment-list call was not required to recover these seven notes because they are in the file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
     ]
   },
   "capture_status": {
@@ -107,5 +108,7 @@
         "BCS-000173"
       ]
     }
-  ]
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-02-27T04:34:42.170Z"
 }

@@ -9,7 +9,7 @@
   "document_family_id": "allowed-content-rulings",
   "original_filename": "Dec 28 2025 Allowed Content",
   "mime_type": "application/vnd.google-apps.spreadsheet",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2026-05-12T20:39:41.992Z"
@@ -38,18 +38,19 @@
     {
       "kind": "NORMALIZED_HUMAN_READABLE",
       "path": "sources/later-play/BCS-000193/source.md",
-      "sha256": "11fd2940757d067d491cc55184ab99404d41f4a1508b463460a0732ce81e97f1",
+      "sha256": "759100740fdbc538a7824ca51d61ec8da7e5cfcac9133edce8c8508839cd04d1",
       "mime_type": "text/markdown",
-      "size_bytes": 548248
+      "size_bytes": 967627
     }
   ],
   "normalization": {
-    "method": "Current Google Sheet exported as XLSX. source.md is cell text.",
-    "tool": "Google Drive connector",
+    "method": "Preserved XLSX. source.md has one heading per sheet and tab-separated rows. Internal empty cells remain so columns stay aligned.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
     "warnings": [
       "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
       "Filename says Dec 28 2025. The file's reported modification is 2026-05-12. Both are kept. Neither is proof the sheet was used on either date.",
-      "Native Drive comment list was not retrieved for this file."
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved XLSX. Each sheet is a heading. Each non-empty row is tab-separated, with internal empty cells kept so columns stay aligned. Wording was not rewritten."
     ]
   },
   "capture_status": {
@@ -96,5 +97,7 @@
         "BCS-000194"
       ]
     }
-  ]
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2026-05-12T20:39:41.992Z"
 }

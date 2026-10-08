@@ -9,7 +9,7 @@
   "document_family_id": "allowed-content-rulings",
   "original_filename": "May 19 2026 Allowed Content",
   "mime_type": "application/vnd.google-apps.spreadsheet",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2026-07-07T05:35:18.682Z"
@@ -38,17 +38,18 @@
     {
       "kind": "NORMALIZED_HUMAN_READABLE",
       "path": "sources/later-play/BCS-000194/source.md",
-      "sha256": "69e1b2efb506b3581c34e8d6f78d5f6091a72f8cb0934037d8822c8583452ec3",
+      "sha256": "c2c37529cd44b15ce03b51c7b8b870c80741c700ed8777a5ca00db85a0824487",
       "mime_type": "text/markdown",
-      "size_bytes": 558728
+      "size_bytes": 971590
     }
   ],
   "normalization": {
-    "method": "Current Google Sheet exported as XLSX. source.md is cell text.",
-    "tool": "Google Drive connector",
+    "method": "Preserved XLSX. source.md has one heading per sheet and tab-separated rows. Internal empty cells remain so columns stay aligned.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
     "warnings": [
       "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
-      "Native Drive comment list was not retrieved for this file."
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved XLSX. Each sheet is a heading. Each non-empty row is tab-separated, with internal empty cells kept so columns stay aligned. Wording was not rewritten."
     ]
   },
   "capture_status": {
@@ -95,5 +96,7 @@
         "BCS-000193"
       ]
     }
-  ]
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2026-07-07T05:35:18.682Z"
 }

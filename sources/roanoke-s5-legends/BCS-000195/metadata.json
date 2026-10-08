@@ -9,7 +9,7 @@
   "document_family_id": "roanoke-s5-materials",
   "original_filename": "S5 Materials Draft",
   "mime_type": "application/vnd.google-apps.spreadsheet",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2023-06-30T20:37:50.093Z"
@@ -38,18 +38,19 @@
     {
       "kind": "NORMALIZED_HUMAN_READABLE",
       "path": "sources/roanoke-s5-legends/BCS-000195/source.md",
-      "sha256": "84763df91adf223e0b19b0e698b4f70d3a87053a00d970e54a2f4447d4868d13",
+      "sha256": "0862de3a3793d78a9f8d7079564ba2806824a05ea3cc4f8783c8a87599a8002c",
       "mime_type": "text/markdown",
-      "size_bytes": 35000
+      "size_bytes": 43381
     }
   ],
   "normalization": {
-    "method": "Current Google Sheet exported as XLSX. source.md is cell text.",
-    "tool": "Google Drive connector",
+    "method": "Preserved XLSX. source.md has one heading per sheet and tab-separated rows. Internal empty cells remain so columns stay aligned.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
     "warnings": [
       "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
       "Not established as the non-canon craft notes beyond the title and the cells themselves.",
-      "Native Drive comment list was not retrieved for this file."
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved XLSX. Each sheet is a heading. Each non-empty row is tab-separated, with internal empty cells kept so columns stay aligned. Wording was not rewritten."
     ]
   },
   "capture_status": {
@@ -89,5 +90,7 @@
       }
     ]
   },
-  "source_links": []
+  "source_links": [],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2023-06-30T20:37:50.093Z"
 }

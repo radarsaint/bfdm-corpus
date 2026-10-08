@@ -9,7 +9,7 @@
   "document_family_id": "roanoke-public-lore",
   "original_filename": "Arcanian Lore Public Document.",
   "mime_type": "application/vnd.google-apps.document",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2021-01-30T11:08:10.712Z"
@@ -38,18 +38,19 @@
     {
       "kind": "NORMALIZED_HUMAN_READABLE",
       "path": "sources/roanoke/BCS-000181/source.md",
-      "sha256": "bccfd5df4d64fa935b5025ad414f2070c14dc3d5f1eb37dc3b7ae309b051eca3",
+      "sha256": "4f0c850ac513f54f125d3cee3d32dcdccf76e548aeaf6a816eb7a1b89ad2a6ef",
       "mime_type": "text/markdown",
-      "size_bytes": 7143
+      "size_bytes": 7122
     }
   ],
   "normalization": {
-    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
-    "tool": "Google Drive connector",
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
     "warnings": [
       "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
       "Opening cosmology resembles BCS-000076 and does not match BCS-000144. The texts were not marked as replacements.",
-      "Native Drive comment list was not retrieved for this file."
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
     ]
   },
   "capture_status": {
@@ -107,5 +108,7 @@
         "BCS-000076"
       ]
     }
-  ]
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-01-30T11:08:10.712Z"
 }

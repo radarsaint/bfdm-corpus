@@ -9,7 +9,7 @@
   "document_family_id": "combat-field-scholar",
   "original_filename": "CFS.pdf",
   "mime_type": "application/pdf",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2020-05-04T21:32:12.000Z"
@@ -85,5 +85,7 @@
       }
     ]
   },
-  "source_links": []
+  "source_links": [],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2020-05-04T21:32:12.000Z"
 }

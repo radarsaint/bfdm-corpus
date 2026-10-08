@@ -9,7 +9,7 @@
   "document_family_id": "roanoke-s5-bodfish",
   "original_filename": "Bodfish Boom Town",
   "mime_type": "application/vnd.google-apps.document",
-  "ingested_at": "2026-10-08T12:00:00Z",
+  "ingested_at": "2026-10-08T11:37:42Z",
   "native_dates": {
     "created": null,
     "modified": "2022-02-13T08:37:53.352Z"
@@ -45,18 +45,19 @@
     {
       "kind": "NORMALIZED_HUMAN_READABLE",
       "path": "sources/roanoke-s5-legends/BCS-000177/source.md",
-      "sha256": "352c112d542910fc81edc16f16554501d50879fbafd3cd2c7c115d51af67c743",
+      "sha256": "d7db012a0c85e57a664ede65b509ff06b31b0e064fcbdba7e00a432a197b9c33",
       "mime_type": "text/markdown",
-      "size_bytes": 2485
+      "size_bytes": 2630
     }
   ],
   "normalization": {
-    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
-    "tool": "Google Drive connector",
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
     "warnings": [
       "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
       "A separate Google Site titled Bodfish Boom Town was visible in search and was not exported. It is not represented by this container.",
-      "Native Drive comment list was not retrieved for this file."
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
     ]
   },
   "capture_status": {
@@ -109,5 +110,7 @@
         "BCS-000132"
       ]
     }
-  ]
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2022-02-13T08:37:53.352Z"
 }

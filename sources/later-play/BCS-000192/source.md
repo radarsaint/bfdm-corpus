@@ -2,10 +2,8 @@
 corpus_id: BCS-000192
 project: Unresolved
 source_title: "Content Rulings"
-normalization: drive-current-text-v1
+normalization: xlsx-rows-v1
 ---
-
-Content Rulings
 
 # Species
 
@@ -270,11 +268,7 @@ Wizard	War	Yes	XGE
 # Feats
 
 Name	Category	Allowed
-Aberrant Dragonmark	Dragonmark	Yes - Adjust Flavor	NOTE: Certain feats are steeped in the lore of their source book. Those that we allow will be noted as "Yes - Adjust Flavor". We will leave it up to you as the player to define the flavor of these feats. 
-
-An example of this would be the feat "Harper Teamwork" - the Harpers don't exist in this setting, so the feat may be better flavored as "Spy Ring Teamwork" or similar.
-
-Dragonmarks would be another example - an option would be to flavor them as a blessing from a deity or a curse.
+Aberrant Dragonmark	Dragonmark	Yes - Adjust Flavor		NOTE: Certain feats are steeped in the lore of their source book. Those that we allow will be noted as "Yes - Adjust Flavor". We will leave it up to you as the player to define the flavor of these feats.   An example of this would be the feat "Harper Teamwork" - the Harpers don't exist in this setting, so the feat may be better flavored as "Spy Ring Teamwork" or similar.  Dragonmarks would be another example - an option would be to flavor them as a blessing from a deity or a curse.
 Ability Score Improvement	General	Yes
 Actor	General	Yes
 Adept of the Black Robes	General	No
@@ -489,12 +483,7 @@ Zhentarim Tactics	General	Yes - Adjust Flavor
 
 # Spells - By Source
 
-Spell Source	Source Abbreviation	Yes / No	Note: Emanations such as Spirit Guardians / Conjure Animals / Conjure Woodland Beings / Cacophonic Shield are only allowed to apply damage when a creature willingly enters the emation or at the end of a turn. If you or your DM isn't certain on a specific spell, ask in Game Mechanics.
-
-
-This is to prevent "cheesegrater" tactics and running around to tag as many enemies as possible on a turn.
-
-An additional note on Wish - Wish can only be used for its basic use, none of the additional effects.
+Spell Source	Source Abbreviation	Yes / No		Note: Emanations such as Spirit Guardians / Conjure Animals / Conjure Woodland Beings / Cacophonic Shield are only allowed to apply damage when a creature willingly enters the emation or at the end of a turn. If you or your DM isn't certain on a specific spell, ask in Game Mechanics.   This is to prevent "cheesegrater" tactics and running around to tag as many enemies as possible on a turn.  An additional note on Wish - Wish can only be used for its basic use, none of the additional effects.
 Astral Adventurer's Guide	AAG	No
 Acquisition's Inc	AI	No
 The Book of Many Things	BMT	Yes
@@ -532,8 +521,4 @@ Strixhaven: Curriculum of Chaos	SCC	No
 Tomb of Annihilation	ToA	Yes
 Van Richten's Guide to Ravenloft	VRGR	Yes
 The Wild Beyond the Witchlight	WBtW	No
-Custom Backgrounds:
-Custom backgrounds are encouraged, rather than drawing from any one book. For the purposes of our server, a custom background selects two skill proficiencies, two language or tool proficiencies (or one of each), 50gp, any origin feat, and increases any one ability score by 2 and another one by 1, or increases three ability scores by 1. 
-
-Customizing Backgrounds:
-Any allowed, named background can be customized - if you do so, treat them as a Custom Background above, retaining only flavor text from the original background.
+Custom Backgrounds: Custom backgrounds are encouraged, rather than drawing from any one book. For the purposes of our server, a custom background selects two skill proficiencies, two language or tool proficiencies (or one of each), 50gp, any origin feat, and increases any one ability score by 2 and another one by 1, or increases three ability scores by 1.   Customizing Backgrounds: Any allowed, named background can be customized - if you do so, treat them as a Custom Background above, retaining only flavor text from the original background.
