@@ -22,6 +22,9 @@ It preserves and makes researchable:
 
 ## Start here
 
+- **Project-wide GPT bootstrap:** `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on the paired coordination branch until it lands on `main`. It starts with the living Project Brain, then reconciles live authority/current control, then enters the owning task; deeper agent/tool, research, history, and Gardener context is loaded progressively when relevant.
+- [PROJECT_CONTROL.md](PROJECT_CONTROL.md) — short current cross-project/research orientation.
+- [COORDINATION.md](COORDINATION.md) — shared truth, ownership, staleness, and handoff rules for `bfdm-corpus` + `dnd-solo`.
 - [CORPUS_CHARTER.md](CORPUS_CHARTER.md) — project boundary and research layers.
 - [research/NEXT_HANDOFF.md](research/NEXT_HANDOFF.md) — current operational state, active PRs, and immediate next work.
 - [research/STATUS.md](research/STATUS.md) — current source and research status.

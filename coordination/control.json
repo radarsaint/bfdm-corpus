@@ -1,0 +1,53 @@
+{
+  "schema": "kit_project_control/v2",
+  "repo": "radarsaint/bfdm-corpus",
+  "role": "HISTORICAL_ARCHIVE_AND_RESEARCH",
+  "sibling_repo": "radarsaint/dnd-solo",
+  "last_verified_main": "dc0d558188c3e492f69c34a8e278e0cf9e17373b",
+  "verified_on": "2026-10-08",
+  "current_entrypoint": "PROJECT_CONTROL.md",
+  "coordination_contract": "COORDINATION.md",
+  "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
+  "research_entrypoints": [
+    "research/NEXT_HANDOFF.md",
+    "research/STATUS.md",
+    "research/RESEARCH_STATE.json"
+  ],
+  "verify_live_main_before_state_sensitive_work": true,
+  "canonical_rule": "bfdm-corpus main is merged source/research truth; active PRs are proposed state and must be named",
+  "authority_traps": {
+    "dnd_solo_corpus_mirror": "HISTORICAL_NOT_CANONICAL",
+    "old_drive_prs": [
+      "24",
+      "26"
+    ],
+    "old_drive_prs_status": "CLOSED_2026_10_07_SUPERSEDED_BY_MERGED_25_NO_UNIQUE_PRIMARY_SOURCES_COMPETING_SOURCE_RELATIONS_REGISTRY_REJECTED",
+    "active_unmerged_research": [
+      "28",
+      "33",
+      "37",
+      "38"
+    ],
+    "visibility": "NOT_PART_OF_AUTHORITY"
+  },
+  "ownership": {
+    "brendon": "PRODUCT_DIRECTION_HIGH_VALUE_CREATIVE_JUDGMENT_MERGE_APPROVAL",
+    "nagatha": "PM_REVIEW_ACCEPTANCE_RECONCILIATION_BUNDLE_AND_MERGE_COORDINATION",
+    "skippy_grok_bots": "RUNTIME_ENGINEERING_AND_INTEGRATION",
+    "gpt_workers": "RESEARCH_EVALUATION_AUDIT_SYNTHESIS",
+    "chatgpt_work": "SCARCE_MULTI_SOURCE_AUTONOMOUS_RESEARCH",
+    "grok_build": "DETERMINISTIC_REPO_AND_TOOLING_WORK_NOT_SKIPPY_NOT_A_GROK_BOT"
+  },
+  "governing_correction": "PROXY_EVIDENCE_IS_NOT_DEMONSTRATED_TRUTH",
+  "project_bootstrap": "radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md",
+  "project_understanding": "radarsaint/dnd-solo/docs/PROJECT_UNDERSTANDING.md",
+  "agents_and_tools": "radarsaint/dnd-solo/coordination/AGENTS_AND_TOOLS.md",
+  "context_inbox": {
+    "repo": "radarsaint/dnd-solo",
+    "issue": 115,
+    "role": "UNRECONCILED_SEMANTIC_DELTA_INBOX_NOT_AUTHORITY_NOT_WORK_QUEUE"
+  },
+  "context_backflow": "Substantial work must record context impact AND demonstrate that its consumer was invoked and accepted the result; unresolved semantic deltas require an actually dispatched Gardener pass, not only a status check. Dnd-solo issue #118 owns closure.",
+  "gardener_state": "radarsaint/dnd-solo/coordination/context_state.json",
+  "gardener_state_role": "SINGLE_SHARED_RESUMABILITY_CURSOR_NOT_KNOWLEDGE_STORE"
+}

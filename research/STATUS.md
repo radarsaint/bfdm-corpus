@@ -1,6 +1,6 @@
 # Research Status
 
-**Current as of:** 2026-10-04  
+**Current as of:** 2026-10-08  
 **Canonical branch:** `main`
 
 This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
@@ -50,7 +50,7 @@ Landed work includes:
 
 ### Reconciled source corpus (2026-10-05)
 
-PR #31 and PR #36 are merged. Canonical source containers now run through `BCS-000172`.
+PR #31 and PR #36 merged the initial canonical source-container family through `BCS-000172`. That was the earlier milestone, not the current corpus ceiling.
 
 Landed additions:
 - research-critical historical Drive sources, `BCS-000131`–`BCS-000151`;
@@ -59,6 +59,12 @@ Landed additions:
 
 Donor PRs #32, #34, and #35 were closed without merge. Their provisional numbering must not be reintroduced. #36 is the canonical integration path. Combined `indexes/documents.sqlite` is the rebuilt non-Discord index.
 
+
+### Scoped archive completion (2026-10-08)
+
+PR #40 merged to main at `dc0d558188c3e492f69c34a8e278e0cf9e17373b`. The catalog now contains **195 BCS identities through BCS-000195**, and the rebuilt document index contains **193 source containers**. BCS-000059 is context-only and BCS-000068 is an excerpt, not a missing pair of indexed source bodies. The repaired builder retrieves available source modification times, indexes historical comment sidecars (99 comments) and 90 preserved revision bodies; **259 revision rows lack fetched bodies**, with explicit warning/status rather than fabricated text. Authorship and Pigeon Lord provenance were corrected, and recoverable document structure was restored.
+
+These repairs preserve, but do not solve, the missing historical revisions, Rowing Oak guide images, unreadable Bodfish Google Site, partial Earthfall/Saturday Project histories, and known-source gaps. They are capability-dependent archival follow-ups, not reasons to redo PR #40. Source readiness remains distinct from source-verified BFDM research and demonstrated Kit quality. The project's missing-consumer/early-completion repair is tracked in dnd-solo issue #118; the Project Gardener still requires an actual invoked reconciliation, not merely a status checker.
 
 Primary current source-history/readiness files:
 - `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`;
@@ -103,6 +109,18 @@ Important current gaps include:
 
 Archive gap and evidence gap are not interchangeable.
 
+## OPEN PR — forensic derived-research integrity audit
+
+PR #38 — **Audit and repair BFDM derived-research evidence chains** — is an active draft.
+
+It exists because mechanically valid locators/citations are not enough to establish that a derived proposition is semantically supported by the cited source at the claimed scope. Treat un-audited derived research as potentially unverified until its evidence chain has been reconstructed or explicitly downgraded.
+
+This does not rewrite canonical source truth on `main`. It changes the trust posture for derived artifacts while the audit is active.
+
+## OPEN PR — strategic planning handoff
+
+PR #37 — **Preserve strategic BFDM and Kit planning handoff** — is an open draft containing project direction, architecture sequencing, and operational planning. It is not historical BFDM evidence and is not canonical until merged.
+
 ## OPEN PR — Phase 2
 
 PR #28 — **Phase 2: decision contrast families** — is open as a draft on branch `research/phase2-decision-trajectories`.
@@ -128,19 +146,21 @@ A Discord phrase search that returns zero, with `zero_match_means_absence`, esta
 
 ## OPEN PR — next research drafts
 
-PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Expansion across BCS-000131–BCS-000172 has not been done.
+PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
 
 PR #28 (`research/phase2-decision-trajectories`) is the Phase 2 contrast-family draft. Earthfall and Saturday D&D workbench sources are now on main for a later cross-format pass. That pass has not been done.
 
 ## OPEN PR — older Drive branches
 
-PR #24 and PR #26 remain open drafts.
-
-Neither currently contains a source body missing from merged PR #25:
+PR #24 and PR #26 are **closed without merge** as superseded by merged PR #25; their history remains readable. Neither contains a source body missing from merged PR #25:
 - #24 is the older relationship-registry/pilot path;
 - #26 is an older Drive-history integration path whose useful candidate-ledger work was incorporated into #25.
 
 They are retained as branch/PR history and should not be treated as the current integration path.
+
+## Immediate owning work after the completion correction
+
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. For research, PR #38 must semantically verify the dependency claims that matter to downstream Phase 2; only then adversarially test PR #28's proposed contrast families using Earthfall/Saturday workbench evidence with preparation/play limits. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 

@@ -1,6 +1,6 @@
 {
   "schema": "bfdm_research_state/v2",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-08",
   "canonical_repo": "radarsaint/bfdm-corpus",
   "canonical_branch": "main",
   "program_position": "STAGE_1_HARDENED_STAGE_2_NOT_DONE",
@@ -61,11 +61,14 @@
     "rule": "candidate != admitted source"
   },
   "open_prs": {
-    "24": "OPEN_DRAFT_OLDER_DRIVE_RELATIONSHIP_PATH_SUPERSEDED_IN_SUBSTANCE_BY_MERGED_PR25",
-    "26": "OPEN_DRAFT_OLDER_DRIVE_HISTORY_PATH_USEFUL_LEDGER_MATERIAL_IN_MERGED_PR25",
-    "27": "OPEN_DISCORD_RETRIEVAL_MAINTENANCE_NOT_ABSORBED_BY_2026-10-05_CONSOLIDATION",
+    "24": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
+    "26": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
+    "27": "OPEN_DISCORD_RETRIEVAL_MAINTENANCE_REQUIRES_SEPARATE_CONFLICT_RESOLUTION",
     "28": "OPEN_DRAFT_PHASE2_DECISION_CONTRAST_RESEARCH_NOT_YET_UPDATED_FOR_EARTHFALL_SATURDAY",
-    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS"
+    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS",
+    "37": "OPEN_DRAFT_STRATEGIC_KIT_BFDM_PLANNING_NOT_HISTORICAL_EVIDENCE",
+    "38": "OPEN_DRAFT_ACTIVE_FORENSIC_DERIVED_RESEARCH_INTEGRITY_AUDIT_FAIL_CLOSED",
+    "39": "OPEN_DRAFT_CROSS_REPO_CONTROL_NEEDS_POST_PR40_RECONCILIATION"
   },
   "research_stages": {
     "stage_1": {
@@ -119,7 +122,12 @@
       "Earthfall and Saturday D&D Project histories are partial recoveries, not complete transcripts"
     ],
     "archive": [
-      "five triaged Drive candidates unreadable/unavailable",
+      "259 indexed revision records remain without a preserved body; historical revision access missing",
+      "Rowing Oak guide images omitted from oversized DOCX export",
+      "the separate Bodfish Boom Town Google Site is unreadable; not BCS-000177",
+      "Earthfall and Saturday D&D ChatGPT Project histories remain partial",
+      "named MISSING_KNOWN_SOURCE artifacts remain inaccessible",
+      "five previously triaged Drive candidates unreadable/unavailable",
       "complete later Area 6c human-test transcript unrecovered"
     ]
   },
@@ -136,7 +144,8 @@
     "discord phrase zero != historical nonexistence outside that projection",
     "context source != BFDM precedent",
     "later version != automatically superseding",
-    "open PR != canonical main"
+    "open PR != canonical main",
+    "recorded status or validated component != downstream consumption or demonstrated outcome"
   ],
   "current_handoff": "research/NEXT_HANDOFF.md",
   "superseded_handoff": "research/HANDOFF_AND_BACKLOG.md",
@@ -144,5 +153,76 @@
     "32": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
     "34": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
     "35": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36"
-  }
+  },
+  "coordination": {
+    "project_control": "PROJECT_CONTROL.md",
+    "contract": "COORDINATION.md",
+    "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
+    "sibling_repo": "radarsaint/dnd-solo",
+    "rule": "verify live main; issues/PRs own live task state; open PR != canonical main"
+  },
+  "derived_research_trust": {
+    "status": "ACTIVE_FORENSIC_AUDIT",
+    "pr": 38,
+    "rule": "citation_or_locator_presence_does_not_equal_semantic_source_verification",
+    "default_for_unaudited_claims": "DO_NOT_ASSUME_VERIFIED",
+    "head_sha": "db69c938d26416f062cc68c8930bd2e10aef0b80",
+    "first_tranche": {
+      "derived_cases": 20,
+      "propositions": 120,
+      "semantic_status": "ALL_UNVERIFIED_AT_AUDIT_OBSERVATION",
+      "interpretation": "unverified != false; semantic certification has not yet been earned"
+    }
+  },
+  "readiness_axes": {
+    "source_substrate_readiness": "Can the relevant primary evidence be found, oriented, and retrieved?",
+    "derived_research_trust_readiness": "Have the specific reused propositions/hypotheses been semantically reconstructed from primary evidence at the claimed scope/confidence?",
+    "rule": "source readiness does not imply derived-research trust readiness"
+  },
+  "friday_work_posture": {
+    "bottleneck": "EPISTEMIC_TRUST_AND_ADVERSARIAL_RESEARCH",
+    "top_jobs": [
+      "after verified Gardener activation, verify only current high-leverage research dependencies",
+      "semantic verification of Phase-2-critical dependency surface",
+      "Earthfall/Saturday adversarial attack on PR28 hypotheses",
+      "restraint and negative-space research",
+      "failure-diagnosis-correction-later-behavior trajectories",
+      "bounded Phase 2B cross-format creative-method contrast"
+    ],
+    "avoid": [
+      "generic corpus expansion",
+      "human-object index expansion with scarce Work",
+      "precedent infrastructure before verified cases",
+      "GraphRAG or elaborate retrieval",
+      "final cognition architecture"
+    ]
+  },
+  "current_archive": {
+    "status": "LANDED_ON_MAIN_SCOPED_COMPLETION",
+    "merged_pr": 40,
+    "merge_commit": "dc0d558188c3e492f69c34a8e278e0cf9e17373b",
+    "canonical_bcs_range": "BCS-000001-BCS-000195",
+    "catalog_identity_count": 195,
+    "indexed_source_container_count": 193,
+    "context_only_exclusion": "BCS-000059",
+    "excerpt_without_source_container": "BCS-000068",
+    "preserved_indexed_comments": 99,
+    "indexed_preserved_revision_bodies": 90,
+    "revision_records_without_preserved_bodies": 259,
+    "gaps_not_closed": [
+      "historical revision bodies",
+      "Rowing Oak guide images",
+      "unreadable separate Bodfish Google Site",
+      "partial Earthfall and Saturday D&D Project histories",
+      "other known-source gaps"
+    ],
+    "rule": "Archive/index accessibility does not certify BFDM-derived semantics or Kit player quality."
+  },
+  "priority_after_project_continuity": [
+    "FIRST: dnd-solo #118 Gardener actual invocation/reconciliation and cold-start consumption",
+    "ENGINEERING: BFDM #27 conflicts and retrieval-validation separately",
+    "RESEARCH: BFDM #38 high-leverage semantic chain verification",
+    "RESEARCH: BFDM #28 hypothesis contrasts adversarially tested only with verified/appropriately scoped evidence",
+    "LATER: Stage 3 minimal cognition and held-out Kit consumer evaluation when trusted research exists"
+  ]
 }
