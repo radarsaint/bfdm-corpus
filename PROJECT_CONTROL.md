@@ -8,6 +8,8 @@ For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.
 
 This file is the **current BFDM state layer**, not the complete project memory. Do not duplicate the shared project brain in this repo.
 
+Legacy ChatGPT Project attachments are not corpus authority. The ten audited filenames, and the homes already verified on this `main`, are listed in dnd-solo `docs/KIT_PROJECT_START_HERE.md` on the paired coordination branch. Stage 4 remains hypothesis space.
+
 This file is deliberately short and rewritable. Git history, issues, PRs, and dated research artifacts preserve history.
 
 ## What this repo is
