@@ -22,6 +22,7 @@ It preserves and makes researchable:
 
 ## Start here
 
+- **Project-wide GPT bootstrap:** `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on the paired coordination branch until it lands on `main`. Use it for durable project understanding, agent/tool identity, current-state routing, and context continuity.
 - [PROJECT_CONTROL.md](PROJECT_CONTROL.md) — short current cross-project/research orientation.
 - [COORDINATION.md](COORDINATION.md) — shared truth, ownership, staleness, and handoff rules for `bfdm-corpus` + `dnd-solo`.
 - [CORPUS_CHARTER.md](CORPUS_CHARTER.md) — project boundary and research layers.
