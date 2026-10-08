@@ -1,7 +1,7 @@
 # Project Control — BFDM corpus and research
 
-**Updated:** 2026-10-07  
-**Canonical main inspected:** `65513f294e72a3eb961d5699c21ddc1f14ceef2c`  
+**Updated:** 2026-10-08  
+**Canonical main inspected:** `dc0d558188c3e492f69c34a8e278e0cf9e17373b`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
 For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` from the paired coordination branch until it lands on `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, recent context changes, and the owning issue/PR.
@@ -24,10 +24,10 @@ Kit is one consumer.
 
 At the inspected `main`:
 
-- canonical source containers run through **BCS-000172**;
+- PR #40 merged on 2026-10-08: **195 canonical BCS catalog records through BCS-000195**, with **193 indexed source containers** (BCS-000059 context-only, BCS-000068 excerpt-only);
 - Discord model-facing retrieval is complete and validated;
-- historical Drive/source integration is substantially landed;
-- Earthfall and Saturday D&D workbench recoveries are canonical but partial;
+- historical Drive/source integration and the scoped high-priority archive-completion pass are landed; the repaired index includes searchable comments and preserved revision bodies, but inaccessible historical revisions remain unfetched;
+- Earthfall and Saturday D&D workbench recoveries are canonical but partial; historical revision bodies, Rowing Oak guide images, the separate Bodfish Google Site, and other named missing sources remain explicitly capability-blocked;
 - Stage 1 is substantially landed with bounded hardening/gaps;
 - broad BFDM judgment claims are **NOT_READY**;
 - bounded S3/S4 live-judgment research is only ready with lineage/scope limits;
@@ -36,9 +36,11 @@ At the inspected `main`:
 
 Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STATE.json` for detailed canonical state.
 
-## Friday research posture
+## Current research posture
 
-The current research bottleneck is increasingly **epistemic rather than mechanical**.
+**Continuity/actual-use repair comes first:** dnd-solo issue #118 tracks the missing Project Gardener invocation and downstream-consumer acceptance. The present read-only checker/inbox do not constitute completed reconciliation. PRs #113 (Project Brain), #39 (this coordination state), and #117 (checker) are still proposed; their actual rollout is pending.
+
+The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. Once continuity is reliably used, prioritize PR #38's high-leverage semantic verification, then evidence-based adversarial work on PR #28. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
 
 Friday ChatGPT Work should not be spent on broad ingestion, searchability, generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
 
@@ -126,9 +128,9 @@ BFDM research exists to improve Kit's craft and understanding, but BFDM is not t
 
 Research should improve what Kit can recognize, understand, decide, create, remember, or avoid. A research artifact succeeding on its own terms does not prove that Kit's player experience improved.
 
-## Current temporary parallel work
+## Completed scoped ingestion and remaining work
 
-Another GPT is already doing mechanical corpus preparation. Do not duplicate ingestion, normalization, indexing, source-container cleanup, or retrieval-layer preparation.
+The high-priority archive-completion pass was executed and merged in PR #40. **Do not repeat that ingestion or treat missing inaccessible history as a failed PR #40 merge.** Keep the unrecovered revision bodies, Rowing Oak imagery, separate Bodfish Site, ChatGPT Project histories, and known-source gaps in the existing archival ledger. Resume the individual items only when required access exists.
 
 Temporary audits:
 
@@ -138,7 +140,7 @@ Temporary audits:
 - Grok Build — executable `dnd-solo` runtime audit (complete);
 - control-room thread — cross-report synthesis.
 
-These assignments are temporary. Future ownership lives in current issues/PRs.
+These assignments are temporary. Future ownership lives in current issues/PRs. A report, passing validator, mergeable PR, or completed archive stage is not sufficient downstream acceptance: name the consumer, invocation/owner, observed use, and result. The missing-consumer failure mode was demonstrated when PR #40 merged while the semantic delta remained in #115 and the Project Brain was not yet reconciled; issue #118 governs closing that loop.
 
 ## Cross-repo rules
 
