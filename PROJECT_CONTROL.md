@@ -1,14 +1,14 @@
 # Project Control — BFDM corpus and research
 
 **Updated:** 2026-10-08  
-**Canonical main inspected:** `dc0d558188c3e492f69c34a8e278e0cf9e17373b`  
+**Canonical main inspected:** `c18796a2e988d91353707b33377c8ea0e670974d`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
-For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` from the paired coordination branch until it lands on `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, recent context changes, and the owning issue/PR.
+For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
 
 This file is the **current BFDM state layer**, not the complete project memory. Do not duplicate the shared project brain in this repo.
 
-Legacy ChatGPT Project attachments are not corpus authority. The ten audited filenames, and the homes already verified on this `main`, are listed in dnd-solo `docs/KIT_PROJECT_START_HERE.md` on the paired coordination branch. Stage 4 remains hypothesis space.
+Legacy ChatGPT Project attachments are not corpus authority. The ten audited filenames, and the homes already verified on `dnd-solo` `main`, are listed in dnd-solo `docs/KIT_PROJECT_START_HERE.md`. Stage 4 remains hypothesis space.
 
 This file is deliberately short and rewritable. Git history, issues, PRs, and dated research artifacts preserve history.
 
@@ -38,7 +38,7 @@ Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STA
 
 ## Current research posture
 
-**Continuity/actual-use repair comes first:** dnd-solo issue #118 tracks the missing Project Gardener invocation and downstream-consumer acceptance. The present read-only checker/inbox do not constitute completed reconciliation. PRs #113 (Project Brain), #39 (this coordination state), and #117 (checker) are still proposed; their actual rollout is pending.
+**Continuity/actual-use repair comes first:** dnd-solo issue #118 tracks downstream-consumer acceptance. The coordination contract, Project Brain, Gardener checkpoint, and context-status checker are on canonical main after Brendon-approved merges of dnd-solo #113 (`aba505351edf61df62445a4961090b4839435dc6`), dnd-solo #117 (`ea74255559faa57dc2b044f01731f61e0f85079d`), and this repo's #39 (`c18796a2e988d91353707b33377c8ea0e670974d`). They are not proposed. A status-checker warning is not completion. G4 cold-start from the default-branch entry and G5 repeatability remain unmet.
 
 The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. Once continuity is reliably used, prioritize PR #38's high-leverage semantic verification, then evidence-based adversarial work on PR #28. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
 
