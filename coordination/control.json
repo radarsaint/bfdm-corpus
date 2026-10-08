@@ -42,7 +42,6 @@
   "project_bootstrap": "radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md",
   "project_understanding": "radarsaint/dnd-solo/docs/PROJECT_UNDERSTANDING.md",
   "agents_and_tools": "radarsaint/dnd-solo/coordination/AGENTS_AND_TOOLS.md",
-  "context_changelog": "radarsaint/dnd-solo/coordination/CONTEXT_CHANGELOG.md",
   "context_inbox": {
     "repo": "radarsaint/dnd-solo",
     "issue": 115,
