@@ -1,0 +1,26 @@
+{
+  "report": "ingest/reports/2026-10-08-archive-completion.md",
+  "starting_main_sha": "65513f294e72a3eb961d5699c21ddc1f14ceef2c",
+  "ending_branch_sha": null,
+  "ending_branch_sha_note": "Recorded in the pull request body. The commit that adds this file cannot contain its own SHA.",
+  "new_bcs": ["BCS-000173", "BCS-000174", "BCS-000175", "BCS-000176", "BCS-000177", "BCS-000178", "BCS-000179", "BCS-000180", "BCS-000181", "BCS-000182", "BCS-000183", "BCS-000184", "BCS-000185", "BCS-000186", "BCS-000187", "BCS-000188", "BCS-000189", "BCS-000190", "BCS-000191", "BCS-000192", "BCS-000193", "BCS-000194", "BCS-000195"],
+  "highest_bcs": "BCS-000195",
+  "repaired_existing_bcs": ["BCS-000114", "BCS-000132", "BCS-000147", "BCS-000148"],
+  "sqlite_source_containers": 193,
+  "catalog_bcs_rows": 195,
+  "integrity_check": "ok",
+  "foreign_key_check": [],
+  "validators_passed": [
+    "ingest/validate_ingest.py",
+    "registry/validate_registry.py",
+    "scripts/validate_source_history.py",
+    "scripts/test_substrate_queries.py",
+    "scripts/test_source_readiness.py",
+    "scripts/test_query_source_history.py"
+  ],
+  "pr_27": {
+    "state": "OPEN",
+    "merge_state": "DIRTY",
+    "action": "left to existing owner; not merge-ready; not duplicated"
+  }
+}

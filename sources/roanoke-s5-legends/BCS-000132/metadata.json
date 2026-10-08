@@ -48,8 +48,8 @@
     "tool": "Google Drive connector",
     "warnings": [
       "Embedded images were left inside the DOCX and were not transcribed.",
-      "Three Google Doc hyperlinks are preserved in the DOCX relationships and are not yet containers.",
-      "Revision bodies were not retrieved."
+      "Revision bodies were not retrieved.",
+      "The three Google Doc hyperlinks are BCS-000177, BCS-000178, and BCS-000179. A same-titled Bodfish Google Site was not captured."
     ]
   },
   "capture_status": {
@@ -88,11 +88,48 @@
         "basis": "A style guide can constrain preparation without showing what was said at the table."
       },
       {
-        "question": "referenced_breakdowns_absent",
-        "status": "ARCHIVE_GAP",
-        "basis": "The DOCX links Drive documents 1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk, 18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg, and 1m9CfO_PNT_zXmr0vAb3BNFPqY-i89p0jMaJ6v96O8xA. They are not containers."
+        "question": "linked_docs_are_play",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Bodfish Boom Town, the daily breakdown, and the weekly template are now containers. The breakdown is mostly empty and the template is a form."
       }
     ]
   },
-  "source_links": []
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000177",
+      "confidence": "STRONG",
+      "basis": "Style-guide hyperlink Bodfish Boomtown is this Drive document.",
+      "support_refs": [
+        "BCS-000132",
+        "BCS-000177",
+        "drive:1-G0zOaSmA7dCAlBd8i7cWOBBazDJWFnxDso-WBfLdnk"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000178",
+      "confidence": "STRONG",
+      "basis": "Style-guide hyperlink Bodfish Breakdown is Bodfish Boom Town Daily Breakdon.",
+      "support_refs": [
+        "BCS-000132",
+        "BCS-000178",
+        "drive:1m9CfO_PNT_zXmr0vAb3BNFPqY-i89p0jMaJ6v96O8xA"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000179",
+      "confidence": "STRONG",
+      "basis": "Style-guide hyperlink Template is Weekly breakdown template.",
+      "support_refs": [
+        "BCS-000132",
+        "BCS-000179",
+        "drive:18rUCGpVznLSgH67lsHgh3TgWtl0tE09e1ODk_OzBIdg"
+      ]
+    }
+  ]
 }

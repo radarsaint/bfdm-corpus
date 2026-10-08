@@ -89,7 +89,7 @@
       {
         "question": "superseded_by_v2",
         "status": "NOT_ESTABLISHED",
-        "basis": "Pigeon Lord v2, Drive 1wukQySSYeNcOJqWEV-Ij7Kl0dJmdY3H-AEvt07WNimI, was not read. A filename is not a successor."
+        "basis": "BCS-000175 (Pigeon Lord v2, Drive 1wukQySSYeNcOJqWEV-Ij7Kl0dJmdY3H-AEvt07WNimI) was read and compared. Wording differs, including Cranium Pigeons in this draft and Pigeons in v2, and v2's modification time is later. Supersession is not proven. The earlier claim that v2 was unread is withdrawn."
       },
       {
         "question": "live_use",
@@ -98,5 +98,17 @@
       }
     ]
   },
-  "source_links": []
+  "source_links": [
+    {
+      "link_type": "SOURCE_VERSION_FAMILY_MEMBER",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000175",
+      "confidence": "STRONG",
+      "basis": "Pigeon Lord v2 is a later-modified file in the same class family. It is not recorded here as superseding this draft.",
+      "support_refs": [
+        "BCS-000148",
+        "BCS-000175"
+      ]
+    }
+  ]
 }

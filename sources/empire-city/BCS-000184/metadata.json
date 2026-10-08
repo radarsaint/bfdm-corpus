@@ -1,0 +1,96 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000184",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Home Brew Backgrounds.S4",
+  "source_role": "player_options",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s4-backgrounds",
+  "original_filename": "Home Brew Backgrounds.S4",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2021-06-24T22:22:45.632Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Brendon Faulkner. The title says S4. Sole authorship of each background is not stated.",
+    "project_ownership_context": "Drive owner reported by file search: Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1CYh5-dADeBg23n3G35JDiycajoiAypQ2bBRui0FSL20",
+      "url": "https://docs.google.com/document/d/1CYh5-dADeBg23n3G35JDiycajoiAypQ2bBRui0FSL20/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000184/original/source.docx",
+      "sha256": "e579b3631fed2421732a380806a8d5ea5896e8f4b00975e1a08dbd6a30c04f6c",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9150
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000184/source.md",
+      "sha256": "e63d3a312bfb9a7f278b5ef1618e476153c5dac6f9f98a80e7d963fe1832d4bd",
+      "mime_type": "text/markdown",
+      "size_bytes": 4448
+    }
+  ],
+  "normalization": {
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Not merged into the Season 5 backgrounds site.",
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The filename says S4. The body is player background text, not a statement that Season 5 used it.",
+        "support_refs": [
+          "BCS-000184"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "Player-option text. Not evidence it was offered at character creation.",
+        "support_refs": [
+          "BCS-000184"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-06-24T22:22:45.632Z"
+}
