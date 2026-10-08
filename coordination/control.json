@@ -3,8 +3,8 @@
   "repo": "radarsaint/bfdm-corpus",
   "role": "HISTORICAL_ARCHIVE_AND_RESEARCH",
   "sibling_repo": "radarsaint/dnd-solo",
-  "last_verified_main": "65513f294e72a3eb961d5699c21ddc1f14ceef2c",
-  "verified_on": "2026-10-07",
+  "last_verified_main": "dc0d558188c3e492f69c34a8e278e0cf9e17373b",
+  "verified_on": "2026-10-08",
   "current_entrypoint": "PROJECT_CONTROL.md",
   "coordination_contract": "COORDINATION.md",
   "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
@@ -47,7 +47,7 @@
     "issue": 115,
     "role": "UNRECONCILED_SEMANTIC_DELTA_INBOX_NOT_AUTHORITY_NOT_WORK_QUEUE"
   },
-  "context_backflow": "SUBSTANTIAL_WORK_CLASSIFIES_CONTEXT_IMPACT_AND_UPDATES_CANONICAL_CONTEXT_OR_ENQUEUES_SEMANTIC_DELTA_DND_SOLO_ISSUE_115",
+  "context_backflow": "Substantial work must record context impact AND demonstrate that its consumer was invoked and accepted the result; unresolved semantic deltas require an actually dispatched Gardener pass, not only a status check. Dnd-solo issue #118 owns closure.",
   "gardener_state": "radarsaint/dnd-solo/coordination/context_state.json",
   "gardener_state_role": "SINGLE_SHARED_RESUMABILITY_CURSOR_NOT_KNOWLEDGE_STORE"
 }
