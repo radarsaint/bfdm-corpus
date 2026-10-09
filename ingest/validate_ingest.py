@@ -139,10 +139,42 @@ def validate_metadata(repo: Path, errors: list[str], warnings: list[str]) -> dic
             for field in ("locators",):
                 if not isinstance(meta.get(field), list) or not meta[field]:
                     fail(errors, f"{meta_path}: {field} must be a non-empty list")
+            validate_owner_attestation(meta_path, meta, errors)
 
     if not records:
         warnings.append("no metadata.json source containers found; validator may be running before ingestion")
     return records
+
+
+def validate_owner_attestation(meta_path: Path, meta: dict, errors: list[str]) -> None:
+    """Owner attestation is creator/copyright. It must not collapse into archival lineage."""
+    authorship = meta.get("authorship")
+    archival = meta.get("archival_provenance")
+    if not isinstance(authorship, dict) or not isinstance(archival, dict):
+        return
+    attribution = authorship.get("attribution")
+    if not isinstance(attribution, dict) or attribution.get("basis_kind") != "owner_attestation":
+        return
+    status = authorship.get("status")
+    if status in {None, "", "UNKNOWN"}:
+        fail(errors, f"{meta_path}: owner attestation must not leave authorship UNKNOWN")
+    if status == archival.get("status"):
+        fail(errors, f"{meta_path}: authorship status duplicates archival provenance status")
+    if authorship.get("creator") != "Brendon Faulkner" or authorship.get("copyright_owner") != "Brendon Faulkner":
+        fail(
+            errors,
+            f"{meta_path}: owner attestation requires creator and copyright_owner Brendon Faulkner",
+        )
+    if attribution.get("attested_on") != "2026-10-09":
+        fail(errors, f"{meta_path}: owner attestation date is not 2026-10-09")
+    unresolved = archival.get("unresolved_fields")
+    if not isinstance(unresolved, list):
+        fail(errors, f"{meta_path}: archival_provenance.unresolved_fields must be a list")
+        return
+    if "original_filename" in unresolved and status == "UNKNOWN":
+        fail(errors, f"{meta_path}: missing original_filename was treated as unknown authorship")
+    if archival.get("status") == "UNKNOWN" and status == "UNKNOWN":
+        fail(errors, f"{meta_path}: unknown archival provenance was copied onto authorship")
 
 
 def validate_sqlite(repo: Path, errors: list[str], warnings: list[str]) -> set[str]:
@@ -184,6 +216,23 @@ def validate_sqlite(repo: Path, errors: list[str], warnings: list[str]) -> set[s
             fail(errors, f"native provider IDs map to multiple BCS records: {dup_native[:20]}")
 
         db_bcs = {row[0] for row in conn.execute("SELECT corpus_id FROM source_containers")}
+        attested = conn.execute(
+            """
+            SELECT corpus_id, authorship_status, copyright_owner, creator,
+                   archival_provenance_status
+            FROM source_containers
+            WHERE attribution_basis_kind = 'owner_attestation'
+            """
+        ).fetchall()
+        if len(attested) != 171:
+            fail(errors, f"SQLite owner-attestation rows: {len(attested)}; expected 171")
+        for corpus_id, status, copyright_owner, creator, archival_status in attested:
+            if status != "BRENDON":
+                fail(errors, f"{corpus_id}: index authorship_status {status!r} is not BRENDON")
+            if copyright_owner != "Brendon Faulkner" or creator != "Brendon Faulkner":
+                fail(errors, f"{corpus_id}: index creator/copyright_owner is not Brendon Faulkner")
+            if status == archival_status:
+                fail(errors, f"{corpus_id}: index copied archival provenance onto authorship")
         return db_bcs
     finally:
         conn.close()
@@ -216,13 +265,28 @@ def main() -> int:
     validate_jsonl(repo / "evidence" / "relations.jsonl", "relation_id", errors)
 
     catalog_ids = {r.get("corpus_id") for r in catalog if r.get("corpus_id")}
+    catalog_by_id = {r.get("corpus_id"): r for r in catalog if r.get("corpus_id")}
     metadata = validate_metadata(repo, errors, warnings)
     db_bcs = validate_sqlite(repo, errors, warnings)
     validate_temp_files(repo, errors)
 
-    for cid in metadata:
+    for cid, meta in metadata.items():
         if cid not in catalog_ids:
             fail(errors, f"{cid}: source container metadata exists but evidence/catalog.jsonl has no BCS record")
+            continue
+        authorship = meta.get("authorship")
+        status = authorship.get("status") if isinstance(authorship, dict) else authorship
+        catalog_status = catalog_by_id[cid].get("authorship")
+        if catalog_status != status:
+            fail(errors, f"{cid}: catalog authorship {catalog_status!r} != metadata authorship {status!r}")
+        if isinstance(authorship, dict) and authorship.get("attribution", {}).get("basis_kind") == "owner_attestation":
+            row = catalog_by_id[cid]
+            if row.get("copyright_owner") != authorship.get("copyright_owner"):
+                fail(errors, f"{cid}: catalog copyright_owner does not match metadata")
+            if row.get("creator") != authorship.get("creator"):
+                fail(errors, f"{cid}: catalog creator does not match metadata")
+            if row.get("authorship") == "UNKNOWN":
+                fail(errors, f"{cid}: catalog still labels owner-attested work as unknown authorship")
 
     for cid in db_bcs:
         if cid not in catalog_ids:

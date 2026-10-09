@@ -134,24 +134,37 @@ class PR40RepairTest(unittest.TestCase):
             self.assertEqual(metadata(corpus_id)["native_dates"]["modified"], modified)
 
     def test_authorship_is_not_inferred_from_ownership(self):
-        unknown = ["BCS-000180", "BCS-000185", "BCS-000187", "BCS-000188", "BCS-000190"]
-        for corpus_id in unknown:
+        attested = ["BCS-000180", "BCS-000185", "BCS-000187", "BCS-000188", "BCS-000190"]
+        for corpus_id in attested:
             meta = metadata(corpus_id)
-            self.assertEqual(meta["authorship"]["status"], "UNKNOWN")
-            self.assertTrue(meta["authorship"]["project_ownership_context"])
+            authorship = meta["authorship"]
+            self.assertEqual(authorship["status"], "BRENDON")
+            self.assertEqual(authorship["attribution"]["basis_kind"], "owner_attestation")
+            self.assertIn("not an inference", authorship["basis"])
+            self.assertNotEqual(authorship["basis"], authorship.get("project_ownership_context"))
+            self.assertTrue(authorship["project_ownership_context"])
             indexed = self.conn.execute(
-                "SELECT authorship_status FROM source_containers WHERE corpus_id = ?",
-                (corpus_id,),
-            ).fetchone()
-            self.assertEqual(indexed["authorship_status"], "UNKNOWN")
-            self.assertEqual(catalog_row(corpus_id)["authorship"], "UNKNOWN")
-        for corpus_id in ("BCS-000182", "BCS-000183"):
-            self.assertEqual(metadata(corpus_id)["authorship"]["status"], "BRENDON")
-            indexed = self.conn.execute(
-                "SELECT authorship_status FROM source_containers WHERE corpus_id = ?",
+                """
+                SELECT authorship_status, attribution_basis_kind, archival_provenance_status
+                FROM source_containers WHERE corpus_id = ?
+                """,
                 (corpus_id,),
             ).fetchone()
             self.assertEqual(indexed["authorship_status"], "BRENDON")
+            self.assertEqual(indexed["attribution_basis_kind"], "owner_attestation")
+            self.assertNotEqual(indexed["authorship_status"], indexed["archival_provenance_status"])
+            self.assertEqual(catalog_row(corpus_id)["authorship"], "BRENDON")
+            self.assertEqual(catalog_row(corpus_id)["copyright_owner"], "Brendon Faulkner")
+        for corpus_id in ("BCS-000182", "BCS-000183"):
+            authorship = metadata(corpus_id)["authorship"]
+            self.assertEqual(authorship["status"], "BRENDON")
+            self.assertNotIn("attribution", authorship)
+            indexed = self.conn.execute(
+                "SELECT authorship_status, attribution_basis_kind FROM source_containers WHERE corpus_id = ?",
+                (corpus_id,),
+            ).fetchone()
+            self.assertEqual(indexed["authorship_status"], "BRENDON")
+            self.assertIsNone(indexed["attribution_basis_kind"])
 
     def test_pigeon_lord_comparison_replaces_the_unread_claim(self):
         meta = metadata("BCS-000148")

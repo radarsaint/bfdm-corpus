@@ -11,9 +11,31 @@
   "mime_type": "application/vnd.google-apps.document",
   "ingested_at": "2026-10-05T02:00:00Z",
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "The native title is S3W2 Travel Drama and the week 2 breakdown links it. Whole-document authorship is not established.",
-    "project_ownership_context": "Cited by a Roanoke Season 3 week document."
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Cited by a Roanoke Season 3 week document.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "The native title is S3W2 Travel Drama and the week 2 breakdown links it. Whole-document authorship is not established."
+    }
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "created_timestamp",
+      "modified_timestamp",
+      "locator.source_path",
+      "source_relationship"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
   },
   "locators": [
     {

@@ -1,0 +1,211 @@
+# Owner attestation, 2026-10-09
+
+Brendon Faulkner attested on 2026-10-09 that the source containers below are his work.
+Creator and copyright owner are recorded from that attestation.
+The attestation is not an inference from corpus content, Drive custody, or archival lineage.
+
+## Counts
+
+- Before: 171 containers with authorship status UNKNOWN
+- After: 171 containers with authorship status BRENDON
+- Catalog rows updated: 171
+- Remaining UNKNOWN authorship in this set: 0
+- Containers that still have unresolved archival lineage: 157
+- Containers with complete archival lineage: 14
+
+## Validators
+
+- `python3 scripts/build_documents_sqlite.py`: 193 containers, 99 comments, 90 revision bodies, integrity ok, foreign keys 0.
+- `python3 ingest/validate_ingest.py`: passed. Representation checksums matched. Index has 171 owner-attestation rows with authorship BRENDON.
+- `python3 registry/validate_registry.py`: passed.
+- `python3 scripts/validate_source_history.py`: passed.
+- `python3 scripts/validate_model_index.py`: passed.
+- `python3 -m unittest test_owner_attestation.py test_pr40_repairs.py test_source_readiness.py test_query_source_history.py test_substrate_queries.py`: 32 passed.
+
+Source bytes, locators, representation hashes, dates, and evidence-claim confidence were not changed.
+
+## Unresolved archival fields
+
+These gaps stay unresolved. They are not authorship.
+
+- `created_timestamp`: 113
+- `locator.native_id`: 18
+- `locator.source_path`: 139
+- `locator.url`: 18
+- `modified_timestamp`: 92
+- `original_filename`: 35
+- `source_relationship`: 94
+
+## Changed records
+
+- `BCS-000134` sources/arcania/BCS-000134/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000180` sources/arcania/BCS-000180/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000186` sources/arcania/BCS-000186/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000142` sources/archavist/BCS-000142/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000060` sources/at-wars-end/BCS-000060/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000061` sources/at-wars-end/BCS-000061/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000062` sources/at-wars-end/BCS-000062/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000063` sources/at-wars-end/BCS-000063/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000064` sources/at-wars-end/BCS-000064/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000065` sources/at-wars-end/BCS-000065/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000066` sources/at-wars-end/BCS-000066/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000067` sources/at-wars-end/BCS-000067/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000147` sources/at-wars-end/BCS-000147/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000176` sources/at-wars-end/BCS-000176/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000056` sources/bastion-redoubt/BCS-000056/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000057` sources/bastion-redoubt/BCS-000057/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000058` sources/bastion-redoubt/BCS-000058/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000163` sources/chatgpt-project-history/saturday-dnd/BCS-000163/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000164` sources/chatgpt-project-history/saturday-dnd/BCS-000164/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000165` sources/chatgpt-project-history/saturday-dnd/BCS-000165/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000166` sources/chatgpt-project-history/saturday-dnd/BCS-000166/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000167` sources/chatgpt-project-history/saturday-dnd/BCS-000167/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000168` sources/chatgpt-project-history/saturday-dnd/BCS-000168/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000169` sources/chatgpt-project-history/saturday-dnd/BCS-000169/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000170` sources/chatgpt-project-history/saturday-dnd/BCS-000170/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000171` sources/chatgpt-project-history/saturday-dnd/BCS-000171/metadata.json — archival `UNKNOWN`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, locator.native_id, locator.url, source_relationship
+- `BCS-000054` sources/earthfall/BCS-000054/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000055` sources/earthfall/BCS-000055/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000001` sources/empire-city/BCS-000001/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000002` sources/empire-city/BCS-000002/metadata.json — archival `PARTIAL`; unresolved: source_relationship
+- `BCS-000003` sources/empire-city/BCS-000003/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000004` sources/empire-city/BCS-000004/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000005` sources/empire-city/BCS-000005/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000006` sources/empire-city/BCS-000006/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000007` sources/empire-city/BCS-000007/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000008` sources/empire-city/BCS-000008/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000009` sources/empire-city/BCS-000009/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000010` sources/empire-city/BCS-000010/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000011` sources/empire-city/BCS-000011/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000012` sources/empire-city/BCS-000012/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000013` sources/empire-city/BCS-000013/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000014` sources/empire-city/BCS-000014/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000015` sources/empire-city/BCS-000015/metadata.json — archival `COMPLETE`; unresolved: none
+- `BCS-000016` sources/empire-city/BCS-000016/metadata.json — archival `PARTIAL`; unresolved: source_relationship
+- `BCS-000072` sources/empire-city/BCS-000072/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000073` sources/empire-city/BCS-000073/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000075` sources/empire-city/BCS-000075/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000131` sources/empire-city/BCS-000131/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000140` sources/empire-city/BCS-000140/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000141` sources/empire-city/BCS-000141/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000148` sources/empire-city/BCS-000148/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000150` sources/empire-city/BCS-000150/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000173` sources/empire-city/BCS-000173/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000174` sources/empire-city/BCS-000174/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000175` sources/empire-city/BCS-000175/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000184` sources/empire-city/BCS-000184/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000185` sources/empire-city/BCS-000185/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000187` sources/empire-city/BCS-000187/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000188` sources/later-play/BCS-000188/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000189` sources/later-play/BCS-000189/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000190` sources/later-play/BCS-000190/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000191` sources/later-play/BCS-000191/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000192` sources/later-play/BCS-000192/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000193` sources/later-play/BCS-000193/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000194` sources/later-play/BCS-000194/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000017` sources/roanoke/BCS-000017/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000018` sources/roanoke/BCS-000018/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000019` sources/roanoke/BCS-000019/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000020` sources/roanoke/BCS-000020/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000021` sources/roanoke/BCS-000021/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url
+- `BCS-000022` sources/roanoke/BCS-000022/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, source_relationship
+- `BCS-000023` sources/roanoke/BCS-000023/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000024` sources/roanoke/BCS-000024/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, source_relationship
+- `BCS-000025` sources/roanoke/BCS-000025/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url
+- `BCS-000026` sources/roanoke/BCS-000026/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, source_relationship
+- `BCS-000027` sources/roanoke/BCS-000027/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000028` sources/roanoke/BCS-000028/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000029` sources/roanoke/BCS-000029/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000030` sources/roanoke/BCS-000030/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000031` sources/roanoke/BCS-000031/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000032` sources/roanoke/BCS-000032/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000033` sources/roanoke/BCS-000033/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000034` sources/roanoke/BCS-000034/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000035` sources/roanoke/BCS-000035/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000036` sources/roanoke/BCS-000036/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000037` sources/roanoke/BCS-000037/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000038` sources/roanoke/BCS-000038/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000039` sources/roanoke/BCS-000039/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000040` sources/roanoke/BCS-000040/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000041` sources/roanoke/BCS-000041/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp
+- `BCS-000042` sources/roanoke/BCS-000042/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, source_relationship
+- `BCS-000044` sources/roanoke/BCS-000044/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp
+- `BCS-000045` sources/roanoke/BCS-000045/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, source_relationship
+- `BCS-000047` sources/roanoke/BCS-000047/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.native_id, locator.url, source_relationship
+- `BCS-000048` sources/roanoke/BCS-000048/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000049` sources/roanoke/BCS-000049/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000050` sources/roanoke/BCS-000050/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000051` sources/roanoke/BCS-000051/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000052` sources/roanoke/BCS-000052/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000053` sources/roanoke/BCS-000053/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000069` sources/roanoke/BCS-000069/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000070` sources/roanoke/BCS-000070/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000071` sources/roanoke/BCS-000071/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000074` sources/roanoke/BCS-000074/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000076` sources/roanoke/BCS-000076/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000080` sources/roanoke/BCS-000080/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000081` sources/roanoke/BCS-000081/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000082` sources/roanoke/BCS-000082/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000083` sources/roanoke/BCS-000083/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000084` sources/roanoke/BCS-000084/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000086` sources/roanoke/BCS-000086/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000116` sources/roanoke/BCS-000116/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000117` sources/roanoke/BCS-000117/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000119` sources/roanoke/BCS-000119/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000120` sources/roanoke/BCS-000120/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000121` sources/roanoke/BCS-000121/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000122` sources/roanoke/BCS-000122/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000123` sources/roanoke/BCS-000123/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000124` sources/roanoke/BCS-000124/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000125` sources/roanoke/BCS-000125/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000126` sources/roanoke/BCS-000126/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000127` sources/roanoke/BCS-000127/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000128` sources/roanoke/BCS-000128/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000129` sources/roanoke/BCS-000129/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000130` sources/roanoke/BCS-000130/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000135` sources/roanoke/BCS-000135/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000136` sources/roanoke/BCS-000136/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000137` sources/roanoke/BCS-000137/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000138` sources/roanoke/BCS-000138/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000139` sources/roanoke/BCS-000139/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000143` sources/roanoke/BCS-000143/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000146` sources/roanoke/BCS-000146/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000149` sources/roanoke/BCS-000149/metadata.json — archival `PARTIAL`; unresolved: locator.source_path, source_relationship
+- `BCS-000181` sources/roanoke/BCS-000181/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000113` sources/roanoke-s5-legends/BCS-000113/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000114` sources/roanoke-s5-legends/BCS-000114/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000132` sources/roanoke-s5-legends/BCS-000132/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000133` sources/roanoke-s5-legends/BCS-000133/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000144` sources/roanoke-s5-legends/BCS-000144/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000145` sources/roanoke-s5-legends/BCS-000145/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000151` sources/roanoke-s5-legends/BCS-000151/metadata.json — archival `PARTIAL`; unresolved: locator.source_path
+- `BCS-000177` sources/roanoke-s5-legends/BCS-000177/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000178` sources/roanoke-s5-legends/BCS-000178/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000179` sources/roanoke-s5-legends/BCS-000179/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
+- `BCS-000195` sources/roanoke-s5-legends/BCS-000195/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
+- `BCS-000104` sources/roanoke-s5-legends/google-sites/arcanian-house-rules/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000110` sources/roanoke-s5-legends/google-sites/arcanian-monk-options/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000108` sources/roanoke-s5-legends/google-sites/arcanian-server-rules/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000106` sources/roanoke-s5-legends/google-sites/arcanian-worldlore/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000103` sources/roanoke-s5-legends/google-sites/arcanianmonkoptions/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path
+- `BCS-000087` sources/roanoke-s5-legends/google-sites/catalogs5/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000109` sources/roanoke-s5-legends/google-sites/char-gen/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000091` sources/roanoke-s5-legends/google-sites/day-1s5/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000094` sources/roanoke-s5-legends/google-sites/harbingers5/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000107` sources/roanoke-s5-legends/google-sites/homebrew-races/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000093` sources/roanoke-s5-legends/google-sites/homebrew-spells/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000102` sources/roanoke-s5-legends/google-sites/improvised-weapon-for-enforcer/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000096` sources/roanoke-s5-legends/google-sites/lifepathgambler/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000090` sources/roanoke-s5-legends/google-sites/lifepathrancher/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000100` sources/roanoke-s5-legends/google-sites/oath-of-the-drifter/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000099` sources/roanoke-s5-legends/google-sites/path-of-the-lumber-jacked/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000111` sources/roanoke-s5-legends/google-sites/s5-codebound/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000097` sources/roanoke-s5-legends/google-sites/s5-training/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000088` sources/roanoke-s5-legends/google-sites/s5backgrounds/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000092` sources/roanoke-s5-legends/google-sites/s5bardcolleges/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000112` sources/roanoke-s5-legends/google-sites/s5homebrewclericoptions/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000089` sources/roanoke-s5-legends/google-sites/s5mining/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000101` sources/roanoke-s5-legends/google-sites/s5rogueoptions/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000098` sources/roanoke-s5-legends/google-sites/s5warlockoptions/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000095` sources/roanoke-s5-legends/google-sites/spellshotwizard/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
+- `BCS-000105` sources/roanoke-s5-legends/google-sites/tales-in-legend/metadata.json — archival `PARTIAL`; unresolved: original_filename, created_timestamp, modified_timestamp, locator.source_path, source_relationship
