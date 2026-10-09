@@ -15,9 +15,28 @@
     "modified": "2020-09-14T19:50:32.679Z"
   },
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "The Drive owner is addison19190. The last modifier is Brendon Faulkner. The draft note says 'edit after flocks are explained.' Neither fact assigns every sentence.",
-    "project_ownership_context": "Owned by addison19190. Last modified by Brendon Faulkner."
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Owned by addison19190. Last modified by Brendon Faulkner.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "The Drive owner is addison19190. The last modifier is Brendon Faulkner. The draft note says 'edit after flocks are explained.' Neither fact assigns every sentence."
+    }
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
   },
   "locators": [
     {
