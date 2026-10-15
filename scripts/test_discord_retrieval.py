@@ -82,7 +82,7 @@ def _mini_repo(root: Path) -> None:
             "author_id": "u1",
             "channel": "town-square",
             "channel_id": "c1",
-            "content": "my name is Sandigil of the Twin Vents. they call me Sandi or Gil.",
+            "content": "my name is Sandigil\u2028 of the Twin Vents. they call me Sandi or Gil.",
             "created_at": "2020-08-01T00:00:00Z",
             "display_name": "Hek",
             "id": "m-intro",
@@ -262,6 +262,52 @@ class ProjectionMechanics(unittest.TestCase):
         (self.repo / "model-index/discord/example/messages-0001.jsonl").unlink()
         result = search(self.repo, "Gil", server="example")
         self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+
+    def test_malformed_manifest_degrades_without_claiming_absence(self):
+        manifest = self.repo / "model-index/discord/example/manifest.json"
+        manifest.write_text("{", encoding="utf-8")
+        result = search(self.repo, "Gil", server="example", source="projection")
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+        self.assertIn("missing_or_invalid_projection_metadata", result["coverage_report"]["reason_codes"])
+        self.assertIn(manifest.relative_to(self.repo).as_posix(), result["coverage_report"]["missing"])
+        self.assertFalse(result["coverage_report"]["zero_match_means_absence"])
+        self.assertIn("m-intro", {hit["message_id"] for hit in result["hits"]})
+        manifest.write_text("[]\n", encoding="utf-8")
+        non_object = search(self.repo, "my", server="example", source="projection")
+        self.assertEqual(non_object["coverage_report"]["status"], "PARTIAL")
+        self.assertEqual(non_object["match_count"], 1)
+
+    def test_corrupt_jsonl_does_not_crash_or_claim_exhaustive(self):
+        shard = self.repo / "model-index/discord/example/messages-0001.jsonl"
+        shard.write_text(shard.read_text(encoding="utf-8") + "{not-json}\n", encoding="utf-8")
+        result = search(self.repo, "Gil", server="example", source="projection")
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+        self.assertIn(shard.relative_to(self.repo).as_posix(), result["coverage_report"]["missing"])
+        self.assertIn("m-intro", {hit["message_id"] for hit in result["hits"]})
+        self.assertFalse(result["coverage_report"]["zero_match_means_absence"])
+
+        attachments = self.repo / "model-index/discord/example/attachments.jsonl"
+        attachments.write_text("{", encoding="utf-8")
+        attached = search(self.repo, "Gil", server="example", attachments_only=True, source="projection")
+        self.assertEqual(attached["coverage_report"]["status"], "PARTIAL")
+        self.assertEqual(attached["returned"], 0)
+        self.assertFalse(attached["coverage_report"]["zero_match_means_absence"])
+
+        terms = self.repo / "model-index/discord/example/terms/gil.jsonl"
+        terms.write_text("{", encoding="utf-8")
+        routed = search(self.repo, "gilbert", server="example", source="projection")
+        self.assertEqual(routed["coverage_report"]["status"], "PARTIAL")
+        self.assertIn(terms.relative_to(self.repo).as_posix(), routed["coverage_report"]["missing"])
+        self.assertFalse(routed["coverage_report"]["zero_match_means_absence"])
+
+    def test_corrupt_alias_file_cannot_claim_exhaustive_expansion(self):
+        path = self.repo / "model-index/discord/example/aliases.jsonl"
+        path.write_text("{", encoding="utf-8")
+        result = search(self.repo, "Gil", server="example", source="projection")
+        self.assertEqual(result["aliases_expanded"], [])
+        self.assertEqual(result["coverage_report"]["status"], "PARTIAL")
+        self.assertIn("missing_or_invalid_projection_metadata", result["coverage_report"]["reason_codes"])
+        self.assertFalse(result["coverage_report"]["zero_match_means_absence"])
 
     def test_short_and_multiword_queries(self):
         short = search(self.repo, "my", server="example")

@@ -36,7 +36,7 @@ That writes `attachments.jsonl` and `attachments-manifest.json`. Rows carry atta
 
 ## Automation
 
-`.github/workflows/refresh-model-index.yml` hydrates the canonical Discord SQLite files, rebuilds message and attachment projections for every harvest, verifies source parity, and commits changed projection files. It runs when canonical Discord SQLite files or the exporters change and can also be dispatched manually. The superseded `model/discord` workflow has been retired so only one projection is maintained.
+`.github/workflows/refresh-model-index.yml` hydrates the canonical Discord SQLite files, rebuilds message and attachment projections for every harvest, verifies source parity, and commits changed projection files. It runs when canonical Discord SQLite files or the exporters change and can also be dispatched manually. The superseded `model/discord` workflow has been retired so only one projection is maintained. `scripts/export_discord_model_view.py` and `scripts/mark_discord_projection.py` had no remaining callers after that retirement; `scripts/sync_inventory_from_model_index.py` is the inventory writer. Those two scripts are removed.
 
 `.github/workflows/discord-retrieval.yml` checks the consumer with LFS hydration disabled, then checks every projected source field against hydrated SQLite. Maintainers can reproduce the full parity and byte-determinism checks with:
 
@@ -56,7 +56,7 @@ A model that cannot execute the SQLite database should use this order:
 
 1. Read `bfdm_inventory.jsonl` and identify the intended source families and their `model_cloud` status.
 2. If the query is one campaign-scoped token, read `model-index/discord/<server>/aliases.jsonl`. An explicit alias expands to that entity's names only. Tokens that merely share a prefix, such as Gilbert beside Gil, stay in `ambiguous_neighbors` and are not the same entity. No alias row means search the token itself; it does not mean the name is absent.
-3. Route each normalized term through `terms/<prefix>.jsonl` and fetch only the listed `messages-NNNN.jsonl` shards. Each row is one Discord message with stable message, channel, and author ids, timestamp, and reply target. The search result names the shard to open for adjacent rows.
+3. Route each normalized term through `terms/<prefix>.jsonl` and fetch only the listed `messages-NNNN.jsonl` shards. Each row is one Discord message with stable message, channel, and author ids, timestamp, and reply target. The search result names the shard to open for adjacent rows. Shards are LF-delimited JSON. Message text may contain U+2028 or U+2029; split records on LF only, not with a universal line splitter, or a valid shard will look corrupt.
 4. Join attachment metadata from `model-index/discord/<server>/attachments.jsonl` on `message_id`. The canonical file bytes remain at `local_path` inside the harvest. Do not expect a live CDN url.
 5. Treat research files as leads unless the task explicitly asks for derived research. Primary-message evidence outranks a research paraphrase.
 6. Report coverage. `INACCESSIBLE` with `lfs_pointer_only` means the SQLite pointer was not readable and no projection manifest was searched. That is not a claim that the messages do not exist.
@@ -81,7 +81,7 @@ For Discord, a usable projection requires all of the following:
 
 A model should distinguish “source missing,” “mirror missing,” “search returned no indexed match,” and “exhaustive projection search returned zero.” Those are different claims.
 
-Manifest version 4 records the canonical SQLite SHA-256 and hashes every message shard and term bucket. Attachment manifests record the same source hash. The consumer compares these with hydrated SQLite or the LFS pointer OID. Missing, changed, stale, or unverified components produce `PARTIAL` coverage; an unavailable projection produces `INACCESSIBLE`. A missing attachment catalog therefore cannot silently turn into an exhaustive empty attachment result.
+Manifest version 4 records the canonical SQLite SHA-256 and hashes every message shard and term bucket. Attachment manifests record the same source hash. The consumer compares these with hydrated SQLite or the LFS pointer OID. Missing, changed, stale, or unverified components produce `PARTIAL` coverage; an unavailable projection produces `INACCESSIBLE`. A missing attachment catalog therefore cannot silently turn into an exhaustive empty attachment result. A manifest that exists but is not valid JSON, and a message, term, attachment, or alias file with a corrupt line, are the same kind of incomplete index: search returns `PARTIAL` instead of raising, and does not treat zero hits as absence. When the manifest cannot be parsed, or a term bucket used for routing is corrupt, the CLI scans the readable message shards instead of stopping at the broken router.
 
 Channel and author filters accept native IDs as well as names. Multiword queries without a known alias use literal phrase matching. Queries whose tokens are too short for the routing index scan the message projection through the CLI.
 
