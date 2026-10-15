@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:21bec6da35f72b5b0d0e08494f396f657a02e9d14f110e4a80600cf226d55890", "packet_state_sha256": "sha256:b48504e665c149f743528ded83f9089fac425891dc2cbaf428eb0a7e9f03122b", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:88d7949f5207227bcb4fe985ac2d960fb7f89421561e372cb8fdaeae538fc824", "packet_state_sha256": "sha256:b48504e665c149f743528ded83f9089fac425891dc2cbaf428eb0a7e9f03122b", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -370,37 +370,37 @@ Legacy confidence: high.
 **Situation.** A player had deliberately asked for a dramatic limb loss, and another player asked whether healing mechanics were still necessary afterward.
 - audit: audit:BDC-S3-004:situation
 - proposition: sha256:41200c8eb1298ed248bacfc5aecf2576635a4e8196634263dae7b49e1194316b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: KNOWN_LOCATOR_FAILURE
 
 **What Brendon noticed.** The central dramatic outcome was consensual and already achieved; extra resolution risked becoming procedural noise.
 - audit: audit:BDC-S3-004:noticed
 - proposition: sha256:2469db4425dfee712e3563129e28fb399b9117a8e5579331cb9f6ee2ab937aa8
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: KNOWN_LOCATOR_FAILURE
 
 **What mattered.** player intent, dramatic payoff, mechanical relevance.
 - audit: audit:BDC-S3-004:values
 - proposition: sha256:967f68661bde29f31c3d60704a11f90cb0dcbb973c2aa3f4b1b11cc248e26440
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: KNOWN_LOCATOR_FAILURE
 
 **Intervention.** Brendon allowed the bleeding to be stopped if desired but was willing to handwave the remainder because the scene had delivered the requested outcome.
 - audit: audit:BDC-S3-004:intervention
 - proposition: sha256:eaa27ac4447d386501ab637c76d53024489d915294f739dd50a0fa15b5448265
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: CAUSALITY_CLAIM, KNOWN_LOCATOR_FAILURE
 
 **Observed result.** The table treated the result as a successful dramatic moment rather than reopening it through unnecessary rolls.
 - audit: audit:BDC-S3-004:observed_result
 - proposition: sha256:edeb0115cbd0a0e2de7190a3e2b322a7dc143851e7b6dcecdd70c73d00ec4622
-- semantic status: UNVERIFIED
+- semantic status: CONTEXT_CHANGES_INTERPRETATION
 - flags: KNOWN_LOCATOR_FAILURE
 
 **Reusable judgment.** Use mechanics for uncertainty, resistance, cost, or consequences. Do not use them ceremonially after all relevant participants have intentionally chosen the core outcome.
 - audit: audit:BDC-S3-004:reusable_judgment
 - proposition: sha256:a51890f99736e4d5015bc726c6e553d5acdfe6ed264396ddabe86e6256e29caf
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: KNOWN_LOCATOR_FAILURE, NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1573-L1579, BCS-000045:L4420-L4422
