@@ -79,7 +79,7 @@ Therefore the bounded forensic result is:
 - current cited support: `SUPPORT_NOT_FOUND`;
 - representation drift: **not established**.
 
-The live Discord message itself is reconstructable from the canonical S3 harvest and its projection, and it carries Brendon's confirmed immutable author ID. The first semantic review of this case is `research/integrity/BDC-S3-004-review.md`. The prep chain was not repaired from that message. The other nineteen cases remain `UNVERIFIED`.
+The live Discord message itself is reconstructable from the canonical S3 harvest and its projection, and it carries Brendon's confirmed immutable author ID. The semantic reviews are `research/integrity/BDC-S3-004-review.md` and `research/integrity/BDC-S3-005-review.md`. The prep chains were not repaired from those messages. `research/integrity/CF-01-dependency.md` says the proposed two-case contrast is unsupported. The other eighteen cases remain `UNVERIFIED`.
 
 ## Markdown and JSONL
 

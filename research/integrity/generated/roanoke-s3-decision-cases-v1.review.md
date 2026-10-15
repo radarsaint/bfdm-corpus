@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:88d7949f5207227bcb4fe985ac2d960fb7f89421561e372cb8fdaeae538fc824", "packet_state_sha256": "sha256:b48504e665c149f743528ded83f9089fac425891dc2cbaf428eb0a7e9f03122b", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:cf4efb3a811700aa5b752ee7cb2da5b2d3dc9f8fd1f50b5fae910f57b7540cb4", "packet_state_sha256": "sha256:52b35239d43ee32de3d605ac27d482563b7b9f0a0fb3c458ba2c0e46da283dca", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -484,37 +484,37 @@ Legacy confidence: high.
 **Situation.** A Golden Dawn character wanted painful memories removed; players asked whether the required magic could simply be handwaved.
 - audit: audit:BDC-S3-005:situation
 - proposition: sha256:7f9bebd28232d198c040554bd6e503d143e1a3060e98fb89e43fc57e4dc24e7c
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The request touched faction allegiance, memory, betrayal, and future identity—material with strong downstream story value.
 - audit: audit:BDC-S3-005:noticed
 - proposition: sha256:bcaaa2bbcb2e86e4cfa04b517acfeaef4665f496b0fdc5e385d4c343348e9da5
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** character continuity, faction through-line, player agency, future payoff.
 - audit: audit:BDC-S3-005:values
 - proposition: sha256:56d9a7d3e98a174e92bb65d9ad7567dfa03ba5d21a9a2071dc3670c6ddc9bb23
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon refused to handwave the question, called it a good arc, then narrowed the effect: the trial could be forgotten without erasing the character's allegiance; if the player still wanted to leave, that choice could be roleplayed for another reason.
 - audit: audit:BDC-S3-005:intervention
 - proposition: sha256:1d61c93bae4ca7cb235fdb4d681c29352bf3b90bc11def5fbb0ad7d1eaa03b34
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** The conversation shifted from bypassing the problem to defining what the character actually wanted to forget and what consequences would remain.
 - audit: audit:BDC-S3-005:observed_result
 - proposition: sha256:983e5ef50836528769a173fc5a88a1ea789cef765af9183a2290c99cb7ec26a8
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** When a shortcut would erase an emerging character problem with future story value, slow down and preserve the choice-bearing part of the problem.
 - audit: audit:BDC-S3-005:reusable_judgment
 - proposition: sha256:1c9f39437db9f79d2dc5e13c1d147a547b42c794cc8f42c836d804681abe70b3
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** BCS-000045:L1644-L1654, BCS-000045:L1688-L1693
@@ -596,9 +596,14 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1644-L1654: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L1688-L1693: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1644-L1654: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L1688-L1693: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 736855826341560371
+- Both locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current normalized L1644-L1654 and L1688-L1693 are Golden Dawn through-line and week notes, not this memory scene.
+- The export snapshot at L1644 is the same through-line sentence.
+- Line 2193 mentions modify memory for a different fail condition. It is not the citation.
+- Representation drift is not established.
 
 ### Semantic review questions
 
