@@ -1,0 +1,246 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000024",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S2.docx",
+  "source_role": "method_guide",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S2.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Obp8QQn-5yvKAtaK-ZQU074EyFyRiycxd5DO4oxXvoM",
+      "url": "https://docs.google.com/document/d/1Obp8QQn-5yvKAtaK-ZQU074EyFyRiycxd5DO4oxXvoM/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_7992f1feab548191968fa153f32b60ff",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke S2.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-remote-play-guide",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image1.jpg",
+      "sha256": "894a2832ae535e4941dde2c78bcee6e6973a50222b1665fe37d90395223b2420",
+      "mime_type": "image/jpeg",
+      "size_bytes": 6828
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image10.jpg",
+      "sha256": "88ba48109386a644584a48e6d7276e490014705fd7c8e3ac997c90c96b1ee9eb",
+      "mime_type": "image/jpeg",
+      "size_bytes": 49924
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image11.jpg",
+      "sha256": "223907478fac88abda6da34271b3faf63eae430d4ba456db2e858f05c834d763",
+      "mime_type": "image/jpeg",
+      "size_bytes": 47727
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image12.jpg",
+      "sha256": "0a0f44519d8850bea30bbd8aa53aaa2ad5bbdc2f30531c11e2a38f77d24d2997",
+      "mime_type": "image/jpeg",
+      "size_bytes": 159521
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image13.jpg",
+      "sha256": "96bac8373f0f51a1c88280fb66ede7db042818b5697affbd6788c7d641a7f7cd",
+      "mime_type": "image/jpeg",
+      "size_bytes": 72109
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image14.jpg",
+      "sha256": "f09d33062e8d03c5b6ae7dac5a3add2728b3efb6e339721b3a2dd846034e63fc",
+      "mime_type": "image/jpeg",
+      "size_bytes": 70276
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image15.jpg",
+      "sha256": "05a89955fa7f36549b1616c22836575efdd883c690bcce3191c3461762dd12b6",
+      "mime_type": "image/jpeg",
+      "size_bytes": 206773
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image16.gif",
+      "sha256": "7125fd45a4154bafc57ad7b4e27a00f7231ade10abcbd90c617c9c16ccfc8d52",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 27629
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image17.jpg",
+      "sha256": "ef2c16118d2d88592084aa9258ad3fb3c3125dafb0db0aabf560e83c48ac9f63",
+      "mime_type": "image/jpeg",
+      "size_bytes": 167152
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image18.png",
+      "sha256": "18e1f32d17c916e06e8c94d5880d7ef94bc729d5f352ec9a8f4b2c0779d3b707",
+      "mime_type": "image/png",
+      "size_bytes": 1118249
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image19.jpg",
+      "sha256": "eeb4e1c8fcdd466ee86302228f3c340e4d3cf7b3da821194836f7d86601e1265",
+      "mime_type": "image/jpeg",
+      "size_bytes": 130230
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image2.jpg",
+      "sha256": "443b29013eb3e5b5845b918a19cbffd11399a82ad8c6f79a0e5e983d654ad2e9",
+      "mime_type": "image/jpeg",
+      "size_bytes": 57314
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image20.jpg",
+      "sha256": "9e8e854e2340adf33988de0e32f535ec9b8364031622b1474673587bbfa21d9d",
+      "mime_type": "image/jpeg",
+      "size_bytes": 524605
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image21.jpg",
+      "sha256": "822ef47cbb3110f2cf9cda99b2808f68f2a4434fdc7a0e3940ca6f526e898797",
+      "mime_type": "image/jpeg",
+      "size_bytes": 109781
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image3.png",
+      "sha256": "5ffb038458e71bae5002a7241a86cd614bbc4a436316f1544f3a9f088dd65531",
+      "mime_type": "image/png",
+      "size_bytes": 45365
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image4.png",
+      "sha256": "ab654e3c576f1a469a10455c0be6d6088a0e4ed21ba9677c5a4c20e31726d4cc",
+      "mime_type": "image/png",
+      "size_bytes": 219745
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image5.png",
+      "sha256": "a2af940be3b48931c934414dcfa81decdb03c5031aeea865b90cb1cc7805ac85",
+      "mime_type": "image/png",
+      "size_bytes": 674050
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image6.jpg",
+      "sha256": "ab4b7612dcefbeea5bdb372acbc6210d6916ddd452ff3bea41f378c80439b33a",
+      "mime_type": "image/jpeg",
+      "size_bytes": 100062
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image7.jpg",
+      "sha256": "58f9a3227d5b1cc72e4207d919410735e7dd5bbb0d1526919457aadffb2fe888",
+      "mime_type": "image/jpeg",
+      "size_bytes": 11026
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image8.jpg",
+      "sha256": "436bf07c58b03803f98a6e1a70d0357759a4028f345ec27fe81f03643284b52b",
+      "mime_type": "image/jpeg",
+      "size_bytes": 65658
+    },
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000024/assets/media/image9.jpg",
+      "sha256": "c461c1d950f4cf8d866ef6837595307a3c339ec01b3bfb212b72bdfbf5d237f1",
+      "mime_type": "image/jpeg",
+      "size_bytes": 43403
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000024/comments.json",
+      "sha256": "304c7cf2943fee0fa2ebe77295443cd6746f8c06abced47b9323bd722e45b287",
+      "mime_type": "application/json",
+      "size_bytes": 108
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000024/original/source.docx",
+      "sha256": "e103a5a6fe3681f0d3d84abaefc634c19e751ee8c3fe36c449717e7a4d1f3d83",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 4185612
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000024/source.md",
+      "sha256": "f3196ccd803f8cb1628bafdda0c9688b7e3c0ffff871115983c94b5c446f447d",
+      "mime_type": "text/markdown",
+      "size_bytes": 149105
+    }
+  ],
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The file is titled Roanoke S2, but the body is a Discord remote-play guide for the Cascadia Gamers Alliance and does not state Season 2 membership."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000024",
+    "canonical_corpus_id": "BCS-000024",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

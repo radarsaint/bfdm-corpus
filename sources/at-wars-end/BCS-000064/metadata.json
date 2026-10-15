@@ -1,0 +1,110 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000064",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "At wars end. Outline",
+  "source_role": "narrative_outline",
+  "source_kind": "google_drive_native",
+  "original_filename": "At wars end. Outline.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1vHK76jHdYDbG2F5G-9RExCWvgMr21TTUxkly2MmdHv4",
+      "url": "https://docs.google.com/document/d/1vHK76jHdYDbG2F5G-9RExCWvgMr21TTUxkly2MmdHv4/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "at-wars-end-outline",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/at-wars-end/BCS-000064/comments.json",
+      "sha256": "3064dcea2dc8fe8a4adbd96c694b568270be8ab49c95ee05b5a1b44a3f5b6c22",
+      "mime_type": "application/json",
+      "size_bytes": 91
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000064/original/source.docx",
+      "sha256": "5b48418df3a36e62392946920828a9efb6cc7384320effd918105b44a3d248ae",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 55870
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000064/source.md",
+      "sha256": "e9b811f15e3f7ab4d8e48c34bec8d4c77699907f664e16622405fc3f7432e5f6",
+      "mime_type": "text/markdown",
+      "size_bytes": 102542
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The outline structures At War's End nocturnes, Lost, the Copper Lantern, and Kaliope.",
+        "support_refs": [
+          "BCS-000064"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000061",
+      "confidence": "STRONG",
+      "basis": "The outline's Lost origin and frame match the second draft's narrator. Order between outline and draft is not established.",
+      "support_refs": [
+        "BCS-000064",
+        "BCS-000061"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000064",
+    "canonical_corpus_id": "BCS-000064",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

@@ -6,7 +6,7 @@
   "title": "DAY 1",
   "source_role": "day_one_player_facing",
   "source_kind": "google_sites_publication",
-  "document_family_id": null,
+  "document_family_id": "roanoke-s5-published-sites",
   "original_filename": null,
   "mime_type": "text/html",
   "created_at": null,
@@ -54,5 +54,35 @@
     "assets": "PAGE_HTML_CAPTURED; EMBEDDED_BINARY_ASSETS_NOT_SYSTEMATICALLY_ARCHIVED"
   },
   "capture_metadata_path": "sources/roanoke-s5-legends/google-sites/day-1s5/capture.json",
-  "source_links": []
+  "source_links": [],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s5-legends",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The container is a captured public Google Site in the Season 5 / Legends harvest.",
+        "support_refs": [
+          "BCS-000091"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The container preserves a published Season 5 Google Site page. Publication is not evidence the page was used in live play.",
+        "support_refs": [
+          "BCS-000091"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A published Season 5 page is not evidence the material was used in play. No Season 5 live Discord harvest is linked here."
+      }
+    ]
+  }
 }

@@ -1,0 +1,101 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000023",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke Lore: Chinnokin Prophesy.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-chinnokin-lore",
+  "original_filename": "Roanoke Lore: Chinnokin Prophesy.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000023/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000023/source.md",
+      "sha256": "e9d6d0c833c9bc4d37b9b374057fbc8ca0c39101285566ab0af840c501e53a7d",
+      "size_bytes": 1496
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000023/original/source.docx",
+      "sha256": "628866a009442359baf94719a4a5a7fc3590aa6bfba27640794097c5fdd598d2",
+      "size_bytes": 7594
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000023/comments.json",
+      "sha256": "2e120436e92ef0e6226e5954d85a980dc55784ab7dc2e020d39db623a6e7f835",
+      "size_bytes": 130
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke Lore: Chinnokin Prophesy.docx",
+    "original_filename": "Roanoke Lore: Chinnokin Prophesy.docx",
+    "original_sha256": "628866a009442359baf94719a4a5a7fc3590aa6bfba27640794097c5fdd598d2",
+    "normalized_file": "source.md",
+    "normalized_sha256": "e9d6d0c833c9bc4d37b9b374057fbc8ca0c39101285566ab0af840c501e53a7d",
+    "normalized_line_count": 20,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is the Chinnokin prophecy text, written as lore rather than as a transcript of play.",
+        "support_refs": [
+          "BCS-000023"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The title is Roanoke lore and does not name a season. The Season 3 lore index points at a Homebrewery Chinnokin page, not at this Drive document."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": []
+}

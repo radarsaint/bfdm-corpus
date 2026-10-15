@@ -1,0 +1,101 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000082",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Cryptid Beastiary",
+  "source_role": "bestiary_design_dev",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-bestiary",
+  "original_filename": "Cryptid Beastiary.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-10T05:24:01.709Z",
+  "modified_at": "2020-04-10T16:47:54.696Z",
+  "ingested_at": "2026-10-04T18:50:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 cryptid/bestiary design source; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 bestiary development."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1bnzyxyeK9b6qmEntuPB16hbcHra_1rA-nvI-jYNEPLs",
+      "url": "https://docs.google.com/document/d/1bnzyxyeK9b6qmEntuPB16hbcHra_1rA-nvI-jYNEPLs/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000082/original/source.docx",
+      "sha256": "b6630fb981c6e6ba257e34e29934feaa17846f709ec705be745b44eeb4f49d29",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 1984529
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000082/revisions.jsonl",
+      "sha256": "54186c5c4fb1e5522e1b6abf7d632c75953c8167be609be5700100047ef97f41",
+      "mime_type": "application/json",
+      "size_bytes": 2020
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000082/source.md",
+      "sha256": "d73f5452ae5e11a168965cc1b126c1627e66caf9040bbad92c1db73c1a336bab",
+      "mime_type": "text/markdown",
+      "size_bytes": 11384
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The source gives week-by-week cryptid challenge ratings for the five-week Roanoke structure and writes creature entries such as the Pukwudgie.",
+        "support_refs": [
+          "BCS-000082"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The source states cryptid writing guidelines and includes stat blocks.",
+        "support_refs": [
+          "BCS-000082"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000082",
+    "canonical_corpus_id": "BCS-000082",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

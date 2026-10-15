@@ -1,0 +1,89 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000124",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Day 13 Golden Dawn Sabotage",
+  "source_role": "prepared_event",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-cited-event-modules",
+  "original_filename": "Day 13 Golden Dawn Sabotage.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T02:00:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "BCS-000029 labels this link as rob's notes. This pass does not assign the document to Brendon.",
+    "project_ownership_context": "Cited by a Roanoke Season 3 week document."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1sYN7P7Hygexi5rlvLMzvE4qL5bCkX8Nn0UhtYINrzOk",
+      "url": "https://docs.google.com/document/d/1sYN7P7Hygexi5rlvLMzvE4qL5bCkX8Nn0UhtYINrzOk/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000124/original/source.docx",
+      "sha256": "b768d0dd3e4ab2c43806a4d493d76b0da5eb7f6f95c826022b79015574fb70cb",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9117
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000124/source.md",
+      "sha256": "d403853f28abb3796247a78001e21ca874d062cbfd6a1beb05bab82f54122555",
+      "mime_type": "text/markdown",
+      "size_bytes": 4001
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX. Comments and revision history were not retrieved.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Paragraph extraction drops drawings, tables layout, and comment anchors.",
+      "Embedded images stay inside the DOCX and were not written out as separate files."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_DOCX_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "BCS-000029 links this Drive document as rob's notes, and that week document is Season 3.",
+        "support_refs": [
+          "BCS-000124",
+          "BCS-000029"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is a prepared Day 13 engine-room sabotage. The week sheet's label is not proof the event was run.",
+        "support_refs": [
+          "BCS-000124"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run."
+      }
+    ]
+  },
+  "source_links": []
+}

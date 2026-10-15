@@ -1,0 +1,475 @@
+{
+  "project": "Saturday D&D",
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "project_access": "PARTIAL_SEARCH_BASED",
+  "generated_on": "2026-10-05",
+  "conversation_inventory": [
+    {
+      "key": "2026-04-07-neverwinter-evernight",
+      "date_range": "2026-04-07",
+      "status": "PARTIAL",
+      "notes": "Neverwinter / Evernight setting discussion; exact title and native conversation ID unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000164"
+    },
+    {
+      "key": "2026-05-14-house-measured-coin",
+      "date_range": "2026-05-14",
+      "status": "PARTIAL",
+      "notes": "Neverwinter/Evernight campaign discussion including House of Measured Coin and Tasha head-in-jar material; exact title unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000165"
+    },
+    {
+      "key": "2026-05-24-tasha-voice",
+      "date_range": "2026-05-24",
+      "status": "PARTIAL",
+      "notes": "Tasha head-in-jar voice material surfaced by historical-context search; exact title unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000166"
+    },
+    {
+      "key": "2026-05-28-31-witch-jar-bank-heist",
+      "date_range": "2026-05-28/2026-05-31",
+      "status": "PARTIAL",
+      "repo_source": "BCS-000163",
+      "notes": "Batch 1. Partial search-recovered source; exact titles/message IDs/full bodies unavailable."
+    },
+    {
+      "key": "2026-05-29-neverwinter-druid",
+      "date_range": "2026-05-29",
+      "status": "PARTIAL",
+      "notes": "Circle of Stars druid rooting in Neverwinter; exact title unavailable. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000167"
+    },
+    {
+      "key": "2026-05-30-water-peculiar",
+      "date_range": "2026-05-30",
+      "status": "PARTIAL",
+      "notes": "Water Peculiar encounter; discovered during recovery and deferred to a later announced batch. Batch 2 source container added; recovery remains partial.",
+      "repo_source": "BCS-000168"
+    },
+    {
+      "key": "2026-06-13-tasha-tarot",
+      "date_range": "2026-06-13",
+      "status": "PARTIAL",
+      "notes": "Tasha head-in-jar / tarot material; exact title unavailable. Batch 3 source container added; recovery remains partial.",
+      "repo_source": "BCS-000169"
+    },
+    {
+      "key": "2026-06-27-measured-coin-portfolio",
+      "date_range": "2026-06-27",
+      "status": "PARTIAL",
+      "notes": "House of Measured Coin vault clues, Tasha portfolio, and related Neverwinter material; exact title unavailable. Batch 3 source container added; recovery remains partial.",
+      "repo_source": "BCS-000170"
+    },
+    {
+      "key": "2026-07-11-evernight-house-dungeon",
+      "date_range": "2026-07-11",
+      "status": "PARTIAL",
+      "notes": "Evernight mirrored House dungeon crawl, memory deposits, new PC, correspondence mechanism; exact title unavailable. Batch 4 source container added; recovery remains partial.",
+      "repo_source": "BCS-000171"
+    },
+    {
+      "key": "2026-07-29-30-neris-tasha",
+      "date_range": "2026-07-29/2026-07-30",
+      "status": "PARTIAL",
+      "notes": "Neris Quill, Secrets Taken to the Grave, Tasha portfolio/item description. Raw turns are available in current conversation context. Batch 5: same visible current-conversation segment preserved in BCS-000172.",
+      "repo_source": "BCS-000172"
+    },
+    {
+      "key": "2026-08-08-vault-custodian",
+      "date_range": "2026-08-08",
+      "status": "PARTIAL",
+      "notes": "Vault Custodian boss fight, combat tracker, loot, portal escape, deep-dark-secrets table. Raw turns are available in current conversation context. Batch 5: same visible current-conversation segment preserved in BCS-000172.",
+      "repo_source": "BCS-000172"
+    }
+  ],
+  "project_file_inventory": [
+    {
+      "id": "file_0000000024e871f88a7211f8d27dfcfa",
+      "name": "a_dark_cinematic_fantasy_cityscape_concept_art_sc.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 4,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000482471fdad193a9a3bc4fa90",
+      "name": "a_detailed_illustrated_fantasy_map_set_piece_a_hi.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 5,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000299871fd9906c743377aacc0",
+      "name": "a_detailed_fantasy_rpg_battle_map_city_map_poste.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 6,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_000000004ae071fd8697884db6c32c50",
+      "name": "top_down_isometric_orthographic_fantasy_city_stree.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 7,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000083a871fd90ba2352489e6dcc",
+      "name": "top_down_detailed_fantasy_city_map_battle_map_s.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 7,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000071dc71fdb6acbe82acb36712",
+      "name": "a_top_down_highly_detailed_fantasy_d_d_battlemap.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 8,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000a510722f9c18995360bca2fd",
+      "name": "4955.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-05-23T16:01:28.462236+00:00",
+      "user_turn_index": 16,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000c74c722fbc6f1647077ca54c",
+      "name": "4957.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-05-23T16:01:28.462236+00:00",
+      "user_turn_index": 16,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000ba80722f829561f42f6033b0",
+      "name": "4959.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-05-23T16:01:28.462236+00:00",
+      "user_turn_index": 16,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000c4a4722f83161a353934be8b",
+      "name": "4961.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-05-23T16:01:28.462236+00:00",
+      "user_turn_index": 16,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000a910722fb7ad14931e84a5e1",
+      "name": "4963.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-05-23T16:01:28.462236+00:00",
+      "user_turn_index": 16,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000ef94722fa0dcdcc57c7c7126",
+      "name": "4965.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-05-23T16:01:28.462236+00:00",
+      "user_turn_index": 16,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000f610720c83c996daaabfe8b5",
+      "name": "a_dark_atmospheric_fantasy_scene_in_a_large_stone.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 20,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000bbc8722fa012ebba9034ca09",
+      "name": "47cf4723-258d-4733-9d52-255bac8f671d.png",
+      "source_kind": "imported",
+      "uploaded_at": "2026-05-30T21:37:51.668000+00:00",
+      "user_turn_index": 21,
+      "library_file_id": "libfile_e7be566322cc8191bb79b5081a0af097",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000b4d0720c80aaa765536da48b",
+      "name": "a_dark_fantasy_highly_detailed_cinematic_scene_se.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 21,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000a94471f590b30cbe2dccd394",
+      "name": "a_dramatic_cinematic_fantasy_tomb_armory_chamber.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 22,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000097ac722fb8775dcd0125c96c",
+      "name": "a_dramatic_realistic_fantasy_medieval_interior_sc.png",
+      "source_kind": "generated",
+      "uploaded_at": null,
+      "user_turn_index": 22,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000a3f471fd8a5515e0777e9be0",
+      "name": "46033b40-4a07-4a4e-9c3b-e1a6304d26be.png",
+      "source_kind": "upload",
+      "uploaded_at": "2026-06-13T21:08:19.771000+00:00",
+      "user_turn_index": 31,
+      "library_file_id": "libfile_5e635e134ee48191827b088c6d1da60f",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000701c71f886708132fd436c09",
+      "name": "a_dark_fantasy_illustrated_map_poster_wide_landsc.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-06-13T21:08:25.846257+00:00",
+      "user_turn_index": 31,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_000000003c1471fdb4bad2a31a833f14",
+      "name": "a_highly_detailed_dark_fantasy_illustrated_map_sce.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-06-13T21:12:07.774032+00:00",
+      "user_turn_index": 32,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000761471fd86b3c6577e21d2e5",
+      "name": "a_highly_detailed_dark_fantasy_illustrated_map_b.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-06-13T21:28:36.004156+00:00",
+      "user_turn_index": 34,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_000000002b0071fd929fa5a1fde66ab7",
+      "name": "5419.png",
+      "source_kind": "upload",
+      "uploaded_at": "2026-06-27T20:34:44.918772+00:00",
+      "user_turn_index": 57,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000829c71f89b8dce60e3e86fbd",
+      "name": "a_highly_detailed_illustrated_dungeon_map_layout_i.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T20:08:34.042223+00:00",
+      "user_turn_index": 81,
+      "library_file_id": "libfile_b6972b6dde488191b90c7b13605beef3",
+      "status": "QUEUED",
+      "library_name": "The house of the measuring coin.png",
+      "library_created_at": "2026-07-11T20:08:35.171014+00:00",
+      "related_source": "BCS-000171"
+    },
+    {
+      "id": "file_00000000e0b471fd90f2f25591422e9c",
+      "name": "a_highly_detailed_top_down_fantasy_dungeon_map_ill.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T20:10:50.080684+00:00",
+      "user_turn_index": 83,
+      "library_file_id": "libfile_c79a19fae4c08191b369b0550c4cd965",
+      "status": "QUEUED",
+      "library_name": "Arcane temple dungeon map.png",
+      "library_created_at": "2026-07-11T20:10:51.092094+00:00",
+      "related_source": "BCS-000171"
+    },
+    {
+      "id": "file_00000000793c71fd90b45865746b6ef2",
+      "name": "Wild West Saloon - Everyday - Floor 1 - Day - 16x22 - 72 DPI.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-07-11T20:14:30.287000+00:00",
+      "user_turn_index": 85,
+      "library_file_id": "libfile_e63fa2aae3588191a0271e9a35462f2c",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000072e871fdb26fa90c28920c9d",
+      "name": "Dungeon Jail (22x16) Base Map, Dark.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-07-11T20:14:30.287000+00:00",
+      "user_turn_index": 85,
+      "library_file_id": "libfile_e131437e2f4481918ee40dae702b19f0",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000001e472309ce73e6352c8cc2a",
+      "name": "Desert Ruins - Flooded - 23x16.jpg",
+      "source_kind": "upload",
+      "uploaded_at": "2026-07-11T20:14:30.287000+00:00",
+      "user_turn_index": 85,
+      "library_file_id": "libfile_7985170587f88191805ec15b8b98d979",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000039ec71fd9c250fa5dc7f7def",
+      "name": "top_down_overhead_dungeon_fortress_map_illustrati.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T20:15:09.636012+00:00",
+      "user_turn_index": 85,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000e6a871f8ac48f7af9cc61ff3",
+      "name": "top_down_fantasy_rpg_dungeon_temple_complex_map_il.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T20:19:25.710293+00:00",
+      "user_turn_index": 86,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000729471fdb7365bf9b55bec3e",
+      "name": "a_fantasy_d_d_style_illustrated_page_layout_overa.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T21:00:50.313154+00:00",
+      "user_turn_index": 93,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000e43c71fdbfbbd05f942f4f89",
+      "name": "a_wide_cinematic_moody_fantasy_interior_scene_a.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T21:06:26.510389+00:00",
+      "user_turn_index": 94,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_000000008e0871fd9e6d2fe0128cc89a",
+      "name": "426b83fe-d9d1-4eb7-8f08-d1a1f400d801.png",
+      "source_kind": "upload",
+      "uploaded_at": "2026-07-11T21:10:52.375000+00:00",
+      "user_turn_index": 96,
+      "library_file_id": "libfile_79a1b366a24c8191a4e43c59d93e5115",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000fb487230856724eef9e64c06",
+      "name": "a_circular_cleanly_framed_fantasy_sci_fi_characte.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T21:11:31.878521+00:00",
+      "user_turn_index": 96,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000761871f899f0900e19caceee",
+      "name": "88e4c2e1-bca0-43ae-a014-d0e8967ab959.png",
+      "source_kind": "upload",
+      "uploaded_at": "2026-07-11T21:15:30.352000+00:00",
+      "user_turn_index": 97,
+      "library_file_id": "libfile_28bfec4f0f2c8191ad90d8ddcbafd53f",
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_00000000c85471fdb95a2b73ddd6a881",
+      "name": "a_close_up_highly_detailed_stylized_fantasy_port.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T21:16:08.469208+00:00",
+      "user_turn_index": 97,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_000000003c7071fd966d62169ac1f72b",
+      "name": "a_close_up_highly_detailed_realistic_cgi_style_s.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-11T21:45:10.537225+00:00",
+      "user_turn_index": 102,
+      "library_file_id": null,
+      "status": "QUEUED"
+    },
+    {
+      "id": "file_0000000077f881fd8477220afd017865",
+      "name": "a_close_up_richly_detailed_still_life_prop_scene.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-07-30T05:23:57.743232+00:00",
+      "user_turn_index": 116,
+      "library_file_id": null,
+      "status": "REFERENCED",
+      "related_source": "BCS-000172"
+    },
+    {
+      "id": "file_00000000ee7081fbb432ea29fc6872fc",
+      "name": "a_meticulously_detailed_hand_painted_fantasy_styl.png",
+      "source_kind": "generated",
+      "uploaded_at": "2026-08-08T20:38:18.069512+00:00",
+      "user_turn_index": 124,
+      "library_file_id": null,
+      "status": "REFERENCED",
+      "related_source": "BCS-000172"
+    },
+    {
+      "id": "file_00000000e21881fba9d4cf82c0e624f0",
+      "name": "tasha_vault_custodian_combat_tracker.html",
+      "source_kind": "generated",
+      "uploaded_at": "2026-08-08T20:54:44.471519+00:00",
+      "user_turn_index": 128,
+      "library_file_id": null,
+      "status": "REFERENCED",
+      "related_source": "BCS-000172"
+    },
+    {
+      "id": "file_00000000280c81fb8939295ca5996091",
+      "name": "tasha_vault_custodian_combat_tracker.zip",
+      "source_kind": "generated",
+      "uploaded_at": "2026-08-08T20:54:44.471519+00:00",
+      "user_turn_index": 128,
+      "library_file_id": null,
+      "status": "REFERENCED",
+      "related_source": "BCS-000172"
+    },
+    {
+      "id": "file_0000000071d48230a30d213b005450f7",
+      "name": "Pasted text.txt",
+      "source_kind": "imported",
+      "uploaded_at": "2026-10-05T02:50:40.583000+00:00",
+      "user_turn_index": 132,
+      "library_file_id": "libfile_edd1fde011348191a394459c6816f1de",
+      "status": "OUT_OF_SCOPE"
+    }
+  ],
+  "limitations": [
+    "The current interface does not expose an exhaustive native list of all project conversations.",
+    "Exact titles and stable ChatGPT message IDs are unavailable for recovered historical clusters.",
+    "Conversation search can recover bounded excerpts/context but not a bulk raw export.",
+    "Project file enumeration is stronger than conversation enumeration: the current project surface exposed 41 file/asset records.",
+    "No item is represented as COMPLETE PROJECT EXPORT."
+  ],
+  "last_batch_completed": 5,
+  "last_updated": "2026-10-05"
+}

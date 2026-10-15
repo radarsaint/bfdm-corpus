@@ -1,0 +1,116 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000026",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S3 Main Map.docx",
+  "source_role": "campaign_map",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S3 Main Map.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1JtHOTWBk4RXA_6DSIQVJ5ZSbyjxeFac0OHG0nH1zC9g",
+      "url": "https://docs.google.com/document/d/1JtHOTWBk4RXA_6DSIQVJ5ZSbyjxeFac0OHG0nH1zC9g/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_5bb8cd83a6a08191ac9ae2062d58ddd2",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke S3 Main Map.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "PRESERVED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-cartography",
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET",
+      "path": "sources/roanoke/BCS-000026/assets/media/image1.png",
+      "sha256": "b5e309a94574fed1810fa552eada326e4efff1b80d391010e772eca60fe40fb1",
+      "mime_type": "image/png",
+      "size_bytes": 3883195
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000026/comments.json",
+      "sha256": "ed5d1a3388a7ed9ac3423b950374fdaebbcdac0c3eac4d9b847f3da84fd698ee",
+      "mime_type": "application/json",
+      "size_bytes": 117
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000026/original/source.docx",
+      "sha256": "4d35700f7a31fa5a3a77c3bb641d4ed737c01765874b3e4aed52429d39e9e6fb",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 4202403
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000026/source.md",
+      "sha256": "e90ca2df012fdf5bfd4ef2a0cad0cbac023fcb199d73dee72ba8b18e9d0fd994",
+      "mime_type": "text/markdown",
+      "size_bytes": 2648
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The source is the Roanoke S3 main map and its hex index matches the separate map key.",
+        "support_refs": [
+          "BCS-000026",
+          "BCS-000081"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The document is the prepared island map and hex index.",
+        "support_refs": [
+          "BCS-000026"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000026",
+    "canonical_corpus_id": "BCS-000026",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

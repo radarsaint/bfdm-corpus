@@ -1,0 +1,29 @@
+{
+  "file": "/mnt/data/brendon-corpus-raw/roanoke/Roanoke Crafting.docx",
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Robert Hubbard",
+      "date": "2018-07-26T00:58:53Z",
+      "initials": null,
+      "resolved": false,
+      "text": "I would say no. This is an ability meant to be fair to all. Not affected by class abilities or feats at all.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Many items are far more difficult to find and have a much higher DC. You can search for them yourself, or recruit the help of others. You can assist another character. Spend your roll to grant them ad"
+            },
+            {
+              "where": "end",
+              "text": "Many items are far more difficult to find and have a much higher DC. You can search for them yourself, or recruit the help of others. You can assist another character. Spend your roll to grant them ad"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

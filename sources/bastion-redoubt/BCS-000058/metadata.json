@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000058",
+  "project": "Bastion/Redoubt",
+  "project_slug": "bastion-redoubt",
+  "title": "BaR Character creation",
+  "source_role": "character_creation_guide",
+  "source_kind": "google_drive_native",
+  "original_filename": "BaR Character creation.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1JzhnsCZ4JQ0XKXgebCjYbyBwVsGulmHPqwLUK4G4xj8",
+      "url": "https://docs.google.com/document/d/1JzhnsCZ4JQ0XKXgebCjYbyBwVsGulmHPqwLUK4G4xj8/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "bastion-redoubt-campaign",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/bastion-redoubt/BCS-000058/comments.json",
+      "sha256": "d0c7557ec2fc137d9a93d2a20083a1f0e01eec788dbd8beef744bab2a7493b62",
+      "mime_type": "application/json",
+      "size_bytes": 93
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/bastion-redoubt/BCS-000058/original/source.docx",
+      "sha256": "098378c80c22de3808ffca28b19cb573f083218986e195ab2dde1af79b73ec70",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8186
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/bastion-redoubt/BCS-000058/source.md",
+      "sha256": "006e8b48c17e868e6c8195bfd26705b6017cdd5bbb30d8261c8d41118c7adec3",
+      "mime_type": "text/markdown",
+      "size_bytes": 2821
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "bastion-redoubt",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The guide welcomes players to Bastion and Redoubt and assigns them to the city guard.",
+        "support_refs": [
+          "BCS-000058"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "CONFIRMED",
+        "basis": "The source is a player character-creation guide.",
+        "support_refs": [
+          "BCS-000058"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000057",
+      "confidence": "STRONG",
+      "basis": "The character guide repeats the introduction's growth items and requisition rules. It is the procedure, not a replacement introduction.",
+      "support_refs": [
+        "BCS-000058",
+        "BCS-000057"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000058",
+    "canonical_corpus_id": "BCS-000058",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

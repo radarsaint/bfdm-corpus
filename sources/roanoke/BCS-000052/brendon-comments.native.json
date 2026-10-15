@@ -1,0 +1,24 @@
+{
+  "corpus_id": "BCS-000052",
+  "source": "google_drive_native_comments",
+  "author_filter": "Brendon Faulkner",
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": "AAAAJc5CYX4",
+      "content": "Break this story up over many days.",
+      "createdTime": "2020-04-23T09:13:20.829Z",
+      "modifiedTime": "2020-04-24T17:01:50.668Z",
+      "resolved": true,
+      "quoted": "A jackalope arrives and sets down a stone etched with stars in the shape of the big dipper.",
+      "replies": [
+        {
+          "author": "Brendon Faulkner",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-04-24T17:01:50.668Z"
+        }
+      ]
+    }
+  ]
+}

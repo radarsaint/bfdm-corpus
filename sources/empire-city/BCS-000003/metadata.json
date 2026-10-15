@@ -1,0 +1,151 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000003",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Backlog Notes",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-operations",
+  "original_filename": "Empire City Backlog Notes.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-06-21T19:44:01.982Z",
+  "modified_at": "2021-07-12T17:09:17.609Z",
+  "ingested_at": "2026-10-03T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; Drive ownership/location are not treated as authorship evidence.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1s_zHpWDL1NOGDNVNUqbYGMo2-A7ixyy6bopoSbnfKsk",
+      "url": "https://docs.google.com/document/d/1s_zHpWDL1NOGDNVNUqbYGMo2-A7ixyy6bopoSbnfKsk/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_080fcc48fbe08191a6e2a5cdc1e2163c",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Backlog Notes.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/empire-city/BCS-000003/comments.jsonl",
+      "sha256": "8dae134c0934d6261a8bfc5ba9304a14aeff2e11f825d58c2498897db9f79b11",
+      "mime_type": "application/json",
+      "size_bytes": 924
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000003/original/source.docx",
+      "sha256": "28cd4e117495b9155e5cdb7de9aa2d96293682f1ee7031e14f66f51c3c3ac543",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 13858
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000003/revisions.jsonl",
+      "sha256": "cbdbd9a72b0210415f54660b07fd9280c75ad1663057116d45b391c3c705b2f7",
+      "mime_type": "application/json",
+      "size_bytes": 1598
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000003/revisions/1.md",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "mime_type": "text/markdown",
+      "size_bytes": 3
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000003/revisions/764.md",
+      "sha256": "ef1c3818eb204d2630bb3684f3abf957a5428787fe77e99505076755a9829ee2",
+      "mime_type": "text/markdown",
+      "size_bytes": 3039
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000003/revisions/766.md",
+      "sha256": "3c165ec9ac778f10c276630bf920b50d93148d861a1099a3ddf869b2be23134a",
+      "mime_type": "text/markdown",
+      "size_bytes": 3056
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000003/source.md",
+      "sha256": "3c165ec9ac778f10c276630bf920b50d93148d861a1099a3ddf869b2be23134a",
+      "mime_type": "text/markdown",
+      "size_bytes": 3056
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "CAPTURED_ALL_LISTED",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY",
+    "revision_body_integrity": "PER_BODY_SHA256_BACKFILL_PENDING"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "Empire City Backlog Notes labels Week One, Day One as July 10, which is the registered Season 4 start, and lists the borough schedule.",
+        "support_refs": [
+          "BCS-000003",
+          "registry:roanoke-s4"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is a week-by-week production backlog for the Empire City dates.",
+        "support_refs": [
+          "BCS-000003"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000072",
+      "confidence": "STRONG",
+      "basis": "The backlog and the Season 4 directory use the same July 10 start and the same boroughs. The backlog is not a later edition of the directory.",
+      "support_refs": [
+        "BCS-000003",
+        "BCS-000072"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000003",
+    "canonical_corpus_id": "BCS-000003",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

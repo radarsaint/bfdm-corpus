@@ -1,0 +1,52 @@
+{
+  "file": "/mnt/data/Second draft at wars end.docx",
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Brendon Faulkner",
+      "date": "2024-10-21T17:59:59Z",
+      "initials": null,
+      "resolved": false,
+      "text": "This chapter needs more work. The action sequence isn't right yet. The mechanics of what actually happens on the soldiers end on during the confrontation might. Help. Map out the action in a way that makes sense. Maybe name the spell she's using with her song.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Chapter 10: Reasons to tip well."
+            },
+            {
+              "where": "end",
+              "text": "Chapter 10: Reasons to tip well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "author": "Brendon Faulkner",
+      "date": "2024-10-25T16:36:10Z",
+      "initials": null,
+      "resolved": false,
+      "text": "I need to add more of the soveld Spires army earlier in the story.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Chapter 23:"
+            },
+            {
+              "where": "end",
+              "text": "Chapter 23:"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

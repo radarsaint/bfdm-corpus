@@ -1,0 +1,181 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000173",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "Ferrytown Master Doc",
+  "source_role": "borough_master",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s4-ferrytown",
+  "original_filename": "Ferrytown Master Doc",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2021-08-18T18:37:07.755Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "File search reports the owner as Darrylynn Penney. The borough prose is not assigned to Brendon from ownership.",
+    "project_ownership_context": "Drive owner reported by file search: Darrylynn Penney."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1M2Lj_bTH3fKQxAsnnyDg8C5p_jf59FEC4d4IOVIioJM",
+      "url": "https://docs.google.com/document/d/1M2Lj_bTH3fKQxAsnnyDg8C5p_jf59FEC4d4IOVIioJM/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image1.png",
+      "sha256": "10ee9f29e40a2aa995dc88f926ca3ca1191577d4994aef18f46fbb86f8f7bff5",
+      "mime_type": "image/png",
+      "size_bytes": 185825
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image2.png",
+      "sha256": "2bf43aa3fc731f0a9f942defc6fb1c77f379c18647199722bea12d325a1947a4",
+      "mime_type": "image/png",
+      "size_bytes": 132227
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image3.png",
+      "sha256": "ee1740d038ed1fccd849572569f2ea3eec251032968eac0caa48e5bd21a4d755",
+      "mime_type": "image/png",
+      "size_bytes": 160810
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image4.png",
+      "sha256": "64b0f765b8ca1e52f07d46f05f78e5221e7ccae4fe001c170cef78f85254a172",
+      "mime_type": "image/png",
+      "size_bytes": 133114
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image5.png",
+      "sha256": "ab37ceb3b0d154cb5e3e9b4bc2dbda2e3809fc70b1758ec6df85269043f58b94",
+      "mime_type": "image/png",
+      "size_bytes": 166770
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image6.png",
+      "sha256": "d7250b6a043e020bbe0b2ac2c9030d2e143791d78c73d9522c2aca5ba014f87e",
+      "mime_type": "image/png",
+      "size_bytes": 211125
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image7.png",
+      "sha256": "7aa366080e69463abdb667aae1859dd7309c8159a5d6bd06c1359e3cd911c9d0",
+      "mime_type": "image/png",
+      "size_bytes": 152626
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image8.png",
+      "sha256": "21f3803e7a47697c5c4c5ad6f68ae753ed56a587106c3197919645ccc9bccbad",
+      "mime_type": "image/png",
+      "size_bytes": 251130
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image9.png",
+      "sha256": "a001297f5361623dd78cf3148f457b1147134adf8b669a671e7edd04ffec744f",
+      "mime_type": "image/png",
+      "size_bytes": 172166
+    },
+    {
+      "kind": "EMBEDDED_ASSET_FROM_MARKDOWN_EXPORT",
+      "path": "sources/empire-city/BCS-000173/assets/image10.png",
+      "sha256": "7df330eea78eea26b8e3ff59b6240b6cccb71f7f3a77e8a18022333b84cba20a",
+      "mime_type": "image/png",
+      "size_bytes": 181914
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000173/source.md",
+      "sha256": "eff2b92c144e541e4cce7926290157c09637c7e266b34e7b569f422f0c2e6b18",
+      "mime_type": "text/markdown",
+      "size_bytes": 23845
+    }
+  ],
+  "normalization": {
+    "method": "Google rejected a DOCX export as too large (reported size 19421214 bytes). The markdown export is the captured current text. Embedded images were extracted from that export.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "DOCX export returned exportSizeLimitExceeded.",
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "Comments were requested and the comment list was empty."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_MARKDOWN_EXPORT",
+    "comments": "EMPTY",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EXTRACTED_FROM_MARKDOWN_EXPORT"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The body describes Ferrytown as a borough of Empire City, with Illo'fae, ports, and a five-week breakdown. The title does not itself say Season 4.",
+        "support_refs": [
+          "BCS-000173"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The body is borough description, cast, and weekly breakdowns. A master document is not a record that the week was run.",
+        "support_refs": [
+          "BCS-000173"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Preserving this file does not show that it was run at the table."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000131",
+      "confidence": "STRONG",
+      "basis": "Ferrytown's weeks use the same borough-week frame as the Season 4 master timeline. They are not one file.",
+      "support_refs": [
+        "BCS-000173",
+        "BCS-000131"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000140",
+      "confidence": "STRONG",
+      "basis": "BCS-000140 is the Ferrytown main-event schedule, a different Drive id from this master document.",
+      "support_refs": [
+        "BCS-000173",
+        "BCS-000140"
+      ]
+    }
+  ],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2021-08-18T18:37:07.755Z"
+}

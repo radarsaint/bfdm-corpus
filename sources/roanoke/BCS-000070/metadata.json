@@ -1,0 +1,105 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000070",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Master Timeline",
+  "source_role": "campaign_planning",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-timeline",
+  "original_filename": "Master Timeline.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-19T06:45:35.687Z",
+  "modified_at": "2020-08-22T08:54:39.484Z",
+  "ingested_at": "2026-10-04T14:35:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Project-source identity is clear from document content and Drive context, but whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 project source."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "18MFeXk_-bq1RUj_RSknXpdy-hfEjrf2HNM_D-JNmg6w",
+      "url": "https://docs.google.com/document/d/18MFeXk_-bq1RUj_RSknXpdy-hfEjrf2HNM_D-JNmg6w/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000070/original/source.docx",
+      "sha256": "a69e18b9f17a03d85166ba0d6bde21a17e3b1432f5d89ed0263a2de1af0cf964",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8813
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000070/revisions.jsonl",
+      "sha256": "d5ab10e075ca28335d627915b53ebf54a3040ce96ce990cb9f5a6431f4de5090",
+      "mime_type": "application/json",
+      "size_bytes": 6443
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000070/source.md",
+      "sha256": "dfcd7735cc568746e9bae06eb4e3dd661299fc00bed086449d710d4af27bd918",
+      "mime_type": "text/markdown",
+      "size_bytes": 2430
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to source.md; exact current Google-native DOCX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction may lose visual formatting, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The timeline starts Week 1 on 2020-07-18, the researched Season 3 live-window start, and the Season 3 directory lists this Master Timeline.",
+        "support_refs": [
+          "BCS-000070",
+          "BCS-000069",
+          "registry:roanoke-s3"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "CONFIRMED",
+        "basis": "The source states a design goal that one day must lead into the next. It is the planned calendar, not a record that each day happened as written.",
+        "support_refs": [
+          "BCS-000070"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000070",
+    "canonical_corpus_id": "BCS-000070",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

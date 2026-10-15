@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000119",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Halfwudgie Verbatim",
+  "source_role": "public_lore_render_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-halwudgie-lore",
+  "original_filename": "The Halfwudgie Verbatim.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-12T00:31:43.143Z",
+  "modified_at": "2020-05-12T01:05:04.587Z",
+  "ingested_at": "2026-10-04T19:45:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 formatted lore source; whole-document authorship is not explicitly established in the source.",
+    "project_ownership_context": "Roanoke Season 3 Halfwudgie public-lore material."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "14vVz2fIl3qBSOzVLn-EwerVU1LRjAJT-gDjbhzRQET0",
+      "url": "https://docs.google.com/document/d/14vVz2fIl3qBSOzVLn-EwerVU1LRjAJT-gDjbhzRQET0/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_QUERIED_THIS_PASS",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; EXTERNAL_IMAGE LINKS REMAIN IN SOURCE"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000119/original/source.docx",
+      "sha256": "b513dfbd8b7432e2e337606720d991171a4843e975992c885bc86930ca81a3bf",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 10468
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000119/revisions.jsonl",
+      "sha256": "ed2bb8544e9b839a5c2a0883b9854983b9fc7f0d71ec87008c1b78722b35d8cb",
+      "mime_type": "application/json",
+      "size_bytes": 1010
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000119/source.md",
+      "sha256": "91a7401b91b2dcfcc36f083b7e843abc00bd9ad99370f71125b61d4274e55240",
+      "mime_type": "text/markdown",
+      "size_bytes": 6788
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The player-facing Halfwudgie text is set against the Urucokra on Roanoke and names the same people as the internal Uru/Halfwudgie design notes.",
+        "support_refs": [
+          "BCS-000119",
+          "BCS-000086"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The text is a player ancestry option, with traits and a second-person address. No separate published copy was identified.",
+        "support_refs": [
+          "BCS-000119"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000086",
+      "confidence": "STRONG",
+      "basis": "The internal notes design Uru and Halfwudgie encounters. This is the player-facing Halfwudgie writeup. Name spelling differs between the two sources and is not reconciled here.",
+      "support_refs": [
+        "BCS-000119",
+        "BCS-000086"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000091",
+    "canonical_corpus_id": "BCS-000119",
+    "id_collision_remap": true,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

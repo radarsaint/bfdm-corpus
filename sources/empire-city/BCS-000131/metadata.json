@@ -1,0 +1,97 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000131",
+  "project": "Roanoke",
+  "project_slug": "empire-city",
+  "title": "S4 Master Timeline.",
+  "source_role": "operations_schedule",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s4-master-timeline",
+  "original_filename": "S4 Master Timeline.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2020-08-24T02:03:05.693Z",
+    "modified": "2021-08-16T05:30:20.601Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The Drive file is owned by Brendon Faulkner. The schedule names Radar on some days and does not say who wrote each line.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Lk2IkEgh1aHjuUl35g1Huk7oxjNSjhmfsKKaHDL1_K8",
+      "url": "https://docs.google.com/document/d/1Lk2IkEgh1aHjuUl35g1Huk7oxjNSjhmfsKKaHDL1_K8/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000131/original/source.docx",
+      "sha256": "ecac2288e169fae0a883b4cfa3ad9416703d9937c688484ebf48cbf0d5bdb897",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8213
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000131/source.md",
+      "sha256": "e505b197324bb92e2bdbb2ea800d0f277d4d55a15aedf0d7bae2747ee4990b0b",
+      "mime_type": "text/markdown",
+      "size_bytes": 2700
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Comments were requested and the comment list was empty.",
+      "Revision bodies were not retrieved. There is no revision-list tool in this pass."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "EMPTY",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The Drive title is S4 Master Timeline. The body is a five-week July-August borough schedule naming Ferrytown, Hampstead, Kingsbridge Noir, and The City. The body does not itself contain the words Season 4.",
+        "support_refs": [
+          "BCS-000131"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The body is a day-by-day schedule with featured boroughs and named main events. A schedule is not a record that the day was run.",
+        "support_refs": [
+          "BCS-000131"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Nothing in this schedule shows which planned events occurred or that every DM used it."
+      },
+      {
+        "question": "governed_every_table",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Some days are marked Radar and some are not. That is not evidence about other DMs' compliance."
+      }
+    ]
+  },
+  "source_links": []
+}

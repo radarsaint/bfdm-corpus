@@ -1,0 +1,101 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000020",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke Crafting.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Roanoke Crafting.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000020/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000020/source.md",
+      "sha256": "1622a884420455054e78bd64ee00a36cef3c50a1da4d0343b0ac84da4774d0e0",
+      "size_bytes": 5382
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000020/original/source.docx",
+      "sha256": "ebdb894ff99acfa11fe924342c1760c032f1c0e1791e864d7d80572b5d7f28ee",
+      "size_bytes": 12309
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000020/comments.json",
+      "sha256": "7ce6af8af4fba4387d56222000ba97c6f75400a4dba0ecda9dccb36262b29ed3",
+      "size_bytes": 1086
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke Crafting.docx",
+    "original_filename": "Roanoke Crafting.docx",
+    "original_sha256": "ebdb894ff99acfa11fe924342c1760c032f1c0e1791e864d7d80572b5d7f28ee",
+    "normalized_file": "source.md",
+    "normalized_sha256": "1622a884420455054e78bd64ee00a36cef3c50a1da4d0343b0ac84da4774d0e0",
+    "normalized_line_count": 96,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The body is a Roanoke crafting draft: one crafting roll per day, harvester and crafter jobs, and DCs. It does not say which season, and it is not ordered against Crafting with Class.",
+        "support_refs": [
+          "BCS-000020"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The crafting draft does not name a season. It is in the crafting family with BCS-000080, which is also unplaced, and it is not a version of Crafting with Class."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": []
+}

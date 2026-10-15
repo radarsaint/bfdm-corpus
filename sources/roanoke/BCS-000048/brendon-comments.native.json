@@ -1,0 +1,64 @@
+{
+  "corpus_id": "BCS-000048",
+  "source": "google_drive_native_comments",
+  "author_filter": "Brendon Faulkner",
+  "comment_count": 4,
+  "comments": [
+    {
+      "id": "AAAAGZpRzzs",
+      "content": "Keep this?",
+      "createdTime": "2020-04-14T02:37:25.269Z",
+      "modifiedTime": "2020-04-14T04:45:47.514Z",
+      "resolved": true,
+      "quoted": "Per Noah's notes: Knights looking for a group to reclaim an artifact stolen from the temple in the night by a group of Werewolves that killed several members of the order before leaving with the holy symbol of the Sun King with a secret message in code hidden in it (possible downtime puzzle for players to solve). Florian Chapelle seeks out adventurers to help track the werewolves down, defeat him, and reclaim the relic. If the quest is successfully completed, Florian will elect to have the players join to defend the secrets and bring it to the new world. Howls are heard in the night and the sound of alarm bells go off. Shouts come from the Chateau. >Florian Chapelle comes running outside after alarm bells go off in order to find adventurers to help track down a murdering thief.",
+      "replies": [
+        {
+          "author": "Noah Carr",
+          "content": "For now until I finish writing the day's adventure",
+          "action": null,
+          "createdTime": "2020-04-14T04:45:45.691Z"
+        },
+        {
+          "author": "Noah Carr",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-04-14T04:45:47.514Z"
+        }
+      ]
+    },
+    {
+      "id": "AAAAGZpRzzM",
+      "content": "Do you want to keep this noah? or can we cut this copypasta block of text?",
+      "createdTime": "2020-04-14T02:23:39.981Z",
+      "modifiedTime": "2020-04-14T04:46:55.830Z",
+      "resolved": true,
+      "quoted": "Per Noah's Notes: Players follow a blood trail down into the tunnels into some haphazardly laid traps in this mini dungeon. If they get to the end in time, they will corner a group of Wounded Werewolves hiding within an old Hag’s ritual chambers. Werewolves proceed to attack players. Combat ensues against this powerful enemy. [Victory Conditions] When werewolves are killed the room is able to be explored to see gory sacrifices and witch runes throughout the walls and chambers. Scratch marks are seen prying at the back of a secret door as if there was a hidden compartment. Inside is the holy symbol in the midst of an altar to be corrupted. Symbols that tell a story about the gods fighting Cthulhu line the walls and seem to tell of its power. Florian will tell the players about the order and ask them to consider joining on Friday and to seek out others that may want to join. {Holy Symbol contains two puzzles. 1st is to unlock the compartment with a set of physical puzzles with symbols …",
+      "replies": [
+        {
+          "author": "Noah Carr",
+          "content": "",
+          "action": "resolve",
+          "createdTime": "2020-04-14T04:46:55.830Z"
+        }
+      ]
+    },
+    {
+      "id": "AAAAJXsj19w",
+      "content": "Rob",
+      "createdTime": "2020-04-04T02:19:02.564Z",
+      "modifiedTime": "2020-04-04T02:19:02.564Z",
+      "resolved": false,
+      "quoted": null,
+      "replies": []
+    },
+    {
+      "id": "AAAAJXsj19s",
+      "content": "noah",
+      "createdTime": "2020-04-04T02:18:32.385Z",
+      "modifiedTime": "2020-04-04T02:18:32.385Z",
+      "resolved": false,
+      "quoted": "Content Needed.",
+      "replies": []
+    }
+  ]
+}

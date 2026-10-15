@@ -1,0 +1,163 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000135",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Player race edits.",
+  "source_role": "design_change_notes",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-race-edit-notes",
+  "original_filename": "Player race edits.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2020-05-11T19:59:38.578Z",
+    "modified": "2020-05-12T05:47:59.591Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The Tatankan section says a casino analogy was 'not my intent, but it has been commented on.' File ownership is Brendon Faulkner. Commenters are not named in the export.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "11GF5rYImy_jdf7NxAtf5gI-OW2DCTlxjgZCOHLnC3cY",
+      "url": "https://docs.google.com/document/d/11GF5rYImy_jdf7NxAtf5gI-OW2DCTlxjgZCOHLnC3cY/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000135/original/source.docx",
+      "sha256": "8bf1787879751e62be65dcfe5612db33cb0e9e1cb3f32c9b56bb7df89cecb760",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 6754350
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000135/source.md",
+      "sha256": "35d988b84eef01b822853c668e8ddfeba9ce38ff8295b5fa9fb336949710ffbe",
+      "mime_type": "text/markdown",
+      "size_bytes": 4558
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text. The DOCX is about 6.7 MB because images were not extracted.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Homebrewery URLs and screenshots stay in the DOCX.",
+      "Revision bodies were not retrieved. The file's modified time is the day after creation, so the captured text is a one-day window, not a later 2023 race text."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_DOCX_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The note hyperlinks race documents later cataloged under Season 3, and it has no season label of its own. May 2020 is not treated as Season 3 membership.",
+        "support_refs": [
+          "BCS-000135"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The body is a list of mechanical changes: Tatankan gore and reputation, Halfwudgie size and quills, Urucokra talons and flight, Jackalope movement, and Chinnokin spells.",
+        "support_refs": [
+          "BCS-000135"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "An edit note does not show the changed rule being used at the table."
+      },
+      {
+        "question": "edit_is_the_text_of_the_later_verbatim",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The note links verbatim documents. Those files were still modified years later. This note is not proof of their final wording."
+      },
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The note has no season label. A relation to Season 3 race files is not membership in that season."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000119",
+      "confidence": "STRONG",
+      "basis": "The edits document hyperlinks the Halfwudgie Verbatim and has a Halfwudgie section of proposed wording. That is context for the race text, not a REVISES edge.",
+      "support_refs": [
+        "BCS-000135",
+        "BCS-000119",
+        "drive:14vVz2fIl3qBSOzVLn-EwerVU1LRjAJT-gDjbhzRQET0"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000120",
+      "confidence": "STRONG",
+      "basis": "The edits document hyperlinks the Urucokra Verbatim and has an Urucokra section. Not a claim that this note is the parent file.",
+      "support_refs": [
+        "BCS-000135",
+        "BCS-000120",
+        "drive:1dgcRxEFwq3PYSz3JqPhaGp2a0J73-odlYJWaE-5b8QQ"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000121",
+      "confidence": "STRONG",
+      "basis": "The edits document hyperlinks the Jackalope Verbatim and has a Jackalope section.",
+      "support_refs": [
+        "BCS-000135",
+        "BCS-000121",
+        "drive:1M2gzmzpBIjliR1Sdmyude5SDt4SlRLSruIkgDHBP2wI"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000138",
+      "confidence": "STRONG",
+      "basis": "The edits document hyperlinks The Tatankan Verbatim and records wording changes for that race.",
+      "support_refs": [
+        "BCS-000135",
+        "BCS-000138",
+        "drive:1bDpgesAcJxYDr9NkUU3ARQ4wEoW0Aghxx91QYnKL22g"
+      ]
+    },
+    {
+      "link_type": "REVISION_CONTEXT_FOR_SOURCE_FAMILY",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000139",
+      "confidence": "STRONG",
+      "basis": "The edits document hyperlinks The Chinnokin Verbatim and ends on Chinnokin wording.",
+      "support_refs": [
+        "BCS-000135",
+        "BCS-000139",
+        "drive:1VL9WEghmy1wdPncLgLm91lNeOEgllqWxtiSUb0nJp7E"
+      ]
+    }
+  ]
+}

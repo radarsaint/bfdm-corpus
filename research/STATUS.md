@@ -1,162 +1,174 @@
 # Research Status
 
-## Source archive
+**Current as of:** 2026-10-08  
+**Canonical branch:** `main`
 
-### Roanoke Season 3 Discord
-Available in the private corpus:
+This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
 
-`discord/roanoke-season-3/roanoke-season-3.sqlite`
+## State legend
 
-Verified harvest:
-- 197,013 messages;
-- 194 text channels;
-- 1,421 / 1,421 attachments;
-- window: 2020-07-18 through 2020-08-22;
-- Brendon identity used in research: `DM radar` / `bfdm`, Discord user `313689699627696139`.
+- **LANDED ON MAIN** — canonical repository state.
+- **OPEN PR** — work exists but is not canonical until merged.
+- **IDENTIFIED BACKLOG** — known candidate work, not yet admitted source material.
+- **EVIDENCE GAP** — source exists but does not establish the desired historical fact.
+- **ARCHIVE GAP** — a known artifact/source representation is missing or unreadable.
 
-### Google Drive / project material
-A large body of campaign planning, worldbuilding, homebrew races/classes, writing, revision history, and other D&D work is available through connected sources. Full ingestion into the private corpus is still in progress.
+## LANDED ON MAIN — source substrate
 
-The intended next archive step is to store Google/project material in:
-- machine-searchable form (including SQLite/indexed metadata where appropriate);
-- human-readable form;
-- with source IDs, Drive IDs, timestamps, authorship, provenance, and revision relationships retained.
+### Discord retrieval
 
-### Roanoke Season 4 / Empire City Discord
-Available in the private corpus:
+Model-facing Discord retrieval is complete and validated.
 
-`discord/empire-city/empire-city.sqlite`
+Canonical SQLite remains under `discord/`; model-facing retrieval uses `model-index/discord/<server>/` with byte-capped JSONL message shards and deterministic term-to-shard routing. GitHub code search is not required.
 
-Verified harvest:
-- server ID: `850779382791536640`;
-- 189,761 messages;
-- 247 text channels;
-- 52 threads;
-- 3,528 / 3,528 attachments;
-- observed server message range: 2021-06-05 through 2026-10-01.
+Major mirrored archives:
+- Roanoke Season 3 — 197,013 messages;
+- Empire City / Season 4 — 189,761 messages;
+- Empire City Dev — 12,692 messages.
 
-The server README explicitly identifies the campaign as **Season 4, Empire City**.
+See `MODEL_RETRIEVAL.md`.
 
-Do not treat the observed server message range as the campaign live window. The server contains later activity that can outlive the campaign. Brendon is account-ID confirmed in this server as Discord user `313689699627696139`, username `bfdm`, display name `DM radar`.
+### Drive/source-history integration
 
-### Remaining Discord servers
-Additional game servers still need harvesting. S3 and Empire City now provide two major live/server datasets, but cross-season conclusions should still remain provisional until broader coverage exists.
+PR #25 — **Connect Drive documents into campaign source histories** — merged into `main` at merge commit `3310c19cce17a04cea87562118b7e3b8e871c459`.
 
-## Empire City / Season 4 research pass
+The old state "51-source staging body blocked on binary transfer" is obsolete.
 
-The first deep direct SQLite/document analysis pass is complete; targeted evidence gaps remain.
+Landed work includes:
+- reconciliation/preservation of legacy source containers;
+- stable BCS identity reuse and donor-collision cleanup;
+- exact project/stage/family placement where evidence supports it;
+- explicit unknowns where placement is not established;
+- source-history traversal tooling;
+- source-readiness vs longitudinal-readiness reporting;
+- Empire City operations and publication material;
+- Roanoke week operations and cited event modules;
+- bounded prep→live links where message/channel evidence exists;
+- Season 5 Drive→publication relationships;
+- Week 5 map `BCS-000130`;
+- explicit recognition that `BCS-000022` is blank at the source rather than a failed extraction.
 
-Current S4 artifacts:
-- `research/empire-city/README.md` — source footing, Work GPT start order, and targeted gaps;
-- `research/empire-city/design-method-synthesis-v1.md` — current bounded S4 design-method model;
-- `research/empire-city/decision-cases-v1.md` — 8 bounded local DM decision cases;
-- `research/empire-city/longitudinal-decision-cases-v1.md` — 17 prep→play→aftermath cases plus cross-case distillation;
-- `research/empire-city/source-fragment-map-v1.md` — historical/folkloric seed→transformation map;
-- `research/empire-city/player-feedback-v1.md` — small end-of-season player evaluation sample;
-- `research/creative-method/historical-mythologization-v1.md` and `cryptids-s3-s4-v1.md` — bounded cross-season creative-method leads.
+### Reconciled source corpus (2026-10-05)
 
-Important corrections/findings:
-- Brendon's S4 Discord identity is now immutable-ID confirmed as user `313689699627696139`, username `bfdm`, display name `DM radar`;
-- `BCS-000003` explicitly establishes July 10, 2021 as Week One / Day One;
-- late-season evidence documents roughly 15 active players including mods, 5–8 players on quests, and Brendon's statement that remaining content had been designed assuming about 30 people would remain;
-- attendance decline caused the DM group to move the finale earlier and immediately informed stated S5 plans to advertise and shorten the season.
+PR #31 and PR #36 merged the initial canonical source-container family through `BCS-000172`. That was the earlier milestone, not the current corpus ceiling.
 
-These are campaign-specific/developmental findings. Cross-S3 recurrence has been noted as a research lead, not promoted to general doctrine.
+Landed additions:
+- research-critical historical Drive sources, `BCS-000131`–`BCS-000151`;
+- Earthfall contemporary DM-workbench Project history, `BCS-000152`–`BCS-000162`, partial recovery, same Earthfall project;
+- Saturday D&D contemporary DM-workbench Project history, `BCS-000163`–`BCS-000172`, partial recovery, separate project.
 
-## Completed research passes
+Donor PRs #32, #34, and #35 were closed without merge. Their provisional numbering must not be reintroduced. #36 is the canonical integration path. Combined `indexes/documents.sqlite` is the rebuilt non-Discord index.
 
-### S3 decision cases v1
-Branch: `derived/s3-decision-cases-v1`  
-PR #2 — closed as superseded by merged PR #5
 
-Focus:
-- single decision moments;
-- what Brendon noticed;
-- values in tension;
-- intervention;
-- result;
-- reusable judgment.
+### Scoped archive completion (2026-10-08)
 
-### S3 longitudinal cases v2
-Branch: `derived/s3-longitudinal-cases-v2`  
-PR #3 — closed as superseded by merged PR #5
+PR #40 merged to main at `dc0d558188c3e492f69c34a8e278e0cf9e17373b`. The catalog now contains **195 BCS identities through BCS-000195**, and the rebuilt document index contains **193 source containers**. BCS-000059 is context-only and BCS-000068 is an excerpt, not a missing pair of indexed source bodies. The repaired builder retrieves available source modification times, indexes historical comment sidecars (99 comments) and 90 preserved revision bodies; **259 revision rows lack fetched bodies**, with explicit warning/status rather than fabricated text. Authorship and Pigeon Lord provenance were corrected, and recoverable document structure was restored.
 
-Focus:
-- prepared expectation;
-- live signal;
-- adaptation;
-- downstream consequence.
+These repairs preserve, but do not solve, the missing historical revisions, Rowing Oak guide images, unreadable Bodfish Google Site, partial Earthfall/Saturday Project histories, and known-source gaps. They are capability-dependent archival follow-ups, not reasons to redo PR #40. Source readiness remains distinct from source-verified BFDM research and demonstrated Kit quality. The project's missing-consumer/early-completion repair is tracked in dnd-solo issue #118; the Project Gardener still requires an actual invoked reconciliation, not merely a status checker.
 
-### S3 revision-family pass v3
-Branch: `derived/s3-revision-family-v3`  
-PR #4 — closed as superseded by merged PR #5
+Primary current source-history/readiness files:
+- `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`;
+- `research/drive-inventory/2026-10-03/TRIAGE_PASS_2026-10-05.md`;
+- `scripts/query_source_history.py`.
 
-Focus:
-- prep-driven change vs live response;
-- Google Drive revision history;
-- causal classification;
-- source-of-truth rules.
+### Readiness meanings
 
-Important correction produced by this pass:
-Week 5's lower authored density was substantially **prepared adaptability**, not merely an emergency decompression during live play.
+`SOURCE_RESEARCH_READY` means a researcher can tell what a source is, where it is placed (or that placement is explicitly unknown), its production stage (or explicit unknown), and whether live use has been tied to a message/channel. It does **not** mean the research has been done, and it does **not** mean a history can be followed.
 
-## S3 source reconciliation correction
+`LONGITUDINAL_RESEARCH_READY` currently establishes the presence of at least one qualifying trajectory edge: a revision relation or a bounded live-contact relation. It does not establish a complete longitudinal chain. It does not mean every version is ordered, that prep, play, and aftermath are all present, or that the family is representative enough to sample as a finished history. Revision is not play. Publication is not play. A companion relation is not a trajectory. `REVISION_CONTEXT_FOR_SOURCE_FAMILY` is a weaker, separate path and does not by itself make a family longitudinally ready.
 
-The revision-family pass initially described Week 2 and Week 4 as source-container gaps. The legacy staging manifest later confirmed they were already normalized:
+A source can therefore be source-ready while still carrying a longitudinal research gap.
 
-- `BCS-000029` — Roanoke S3 v2 W2 Breakdown;
-- `BCS-000037` — Roanoke s3w4 Break down.
+## IDENTIFIED BACKLOG — Drive candidates
 
-The remaining task is to **reconcile/migrate those staged containers into the canonical `bfdm-corpus` source layout**, not to create new BCS records.
+The Drive candidate pool is no longer "134 unreviewed candidates."
 
-## Newly surfaced non-S3 evidence
+Every candidate in the preserved 2026-10-03 ledger received a first-pass open attempt or a documented read failure. The result is a classified backlog, not admitted sources.
 
-### Bowling Event
-Google Drive document: `Bowling Event:`  
-Drive ID: `1bn1YBXqQyD22XfbyIme_S-AvBI7hLT92GCC2Jt4f5b4`
+The research-critical names from that triage pass — Ferrytown, Hampstead, Pigeon Lord, Mirabelle, Daysong, Rowing Oak, and the Arcanian almanac/lore — are now containers in BCS-000131–BCS-000151. Other triaged candidates remain a classified backlog, not admitted sources.
 
-This is a 2018 Brendon-authored conversion of real-world bowling into a D&D resolution system.
+Five candidates remain unreadable/unavailable for documented reasons:
+- three Drive 404s;
+- one image-style PDF with no text layer;
+- one DOCX the connector would not return as text.
 
-Observed design features include:
-- pins knocked down become damage to the enemy;
-- pins left standing become damage to the player;
-- strikes become critical damage;
-- spares generate gold;
-- encounters occupy bowling frames;
-- monster abilities key off bowling states;
-- D&D class abilities become physical bowling behaviors;
-- five groups of five were intended to compete over a ten-frame adventure.
+Candidate ≠ source. Do not assign BCS IDs merely because a triage row looks useful.
 
-Research value:
-This may be evidence about how Brendon experiments with the **boundary and physical form of D&D**, not merely how he adjudicates ordinary play.
+## EVIDENCE / ARCHIVE GAPS
 
-Do not generalize from it yet. It should enter a broader creative-method research pass after more of the archive is normalized.
+Important current gaps include:
+- broader live-play coverage outside S3/S4;
+- Season 5 live play;
+- Season 2 live play;
+- Earthfall live-play evidence sufficient for honest decision-trajectory confirmation;
+- passage-level authorship in collaborative material where not established;
+- exact prep→live links for many source families;
+- unreadable/404 Drive candidates above;
+- known blank source `BCS-000022`;
+- later Area 6c human-test transcript remains unrecovered in full.
 
-## Numbered cleanup state
+Archive gap and evidence gap are not interchangeable.
 
-- Points 1–3 are complete: attributable retrospective evidence, the Work GPT ingestion contract, and machine-readable project/identity registries.
-- Point 4 remains open: reconciliation logic/audit are complete, but the 86.9 MB binary source-container transfer is blocked by the current chat runtime's lack of an authenticated binary Git transport.
-- Point 5 is complete: deliberate review passed and PR #5 is merged into `main`; see `research/PR5_REVIEW_2026-10-02.md`.
-- Point 6 remains open: recover the complete later Area 6c human-test transcript.
-- Point 7 is complete and governing: archive-first corpus preservation; Kit is one consumer.
+## OPEN PR — forensic derived-research integrity audit
 
-## Current constraints / handoff state
+PR #38 — **Audit and repair BFDM derived-research evidence chains** — is an active draft.
 
-- Work GPT is expected to resume Google/project-file ingestion.
-- Grok is expected to resume lower-level Kit/GitHub work and Discord harvesting.
-- Current GPT research should avoid competing with those ingestion/runtime tasks.
-- The useful work now is organization, methodology, source-gap identification, and preparing cross-campaign research questions.
+It exists because mechanically valid locators/citations are not enough to establish that a derived proposition is semantically supported by the cited source at the claimed scope. Treat un-audited derived research as potentially unverified until its evidence chain has been reconstructed or explicitly downgraded.
 
-## Next research phases after source coverage improves
+This does not rewrite canonical source truth on `main`. It changes the trust posture for derived artifacts while the audit is active.
 
-1. Finish remaining ingestion/harvest coverage.
-2. Refine the now-machine-readable campaign/source chronology as stronger live-date and scale evidence arrives.
-3. Run comparable research passes across multiple eras, including Empire City.
-4. Search for persistence, evolution, abandonment, and format-specific behavior.
-5. Only then write a broad human-readable synthesis for Kit and Brendon to discuss.
+## OPEN PR — strategic planning handoff
 
-S3 should remain a methodology testbed until those comparisons exist.
+PR #37 — **Preserve strategic BFDM and Kit planning handoff** — is an open draft containing project direction, architecture sequencing, and operational planning. It is not historical BFDM evidence and is not canonical until merged.
 
-## Legacy staging verification
+## OPEN PR — Phase 2
 
-The 51-record legacy staging manifest is now preserved under `research/legacy-staging/manifest.all.jsonl` for source-ID reconciliation. The old handoff's proposed `radarsaint/brendon-corpus` target is superseded; `radarsaint/bfdm-corpus` is canonical.
+PR #28 — **Phase 2: decision contrast families** — is open as a draft on branch `research/phase2-decision-trajectories`.
+
+Primary artifact:
+- `research/phase2/contrast-families-v1.md`
+
+The draft also contains a stress pass and updates the research index.
+
+Phase 2 has two lanes. No Phase 2B research artifact has landed.
+
+**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Claims about table decisions require live-decision evidence. The current draft is PR #28, `research/phase2/contrast-families-v1.md` and its stress pass, on `research/phase2-decision-trajectories`. S3 and S4 are the same large Roanoke-lineage multi-DM format. Do not edit those contrast files from substrate work.
+
+**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can support world-model and revision claims. None of those texts establish how the design performed at the table.
+
+Three research scopes, which are not the same word "ready":
+
+- Broad BFDM judgment claims: `NOT_READY`. The corpus is not representative across eras and formats.
+- Bounded live-judgment research: `READY_WITH_SCOPE_LIMITS`. Source-traceable S3/S4 work may continue if the lineage concentration and the missing evidence stay explicit.
+- Creative-method / worldbuilding research: `READY_WITH_SOURCE_LIMITS`. Design artifacts may support design claims. They are not evidence of live implementation.
+
+A Discord phrase search that returns zero, with `zero_match_means_absence`, establishes that the phrase is absent from the exhaustively searched Discord projection. It does not establish that a Drive document does not exist. The Season 4 Master Timeline was posted as a bare URL. The title is not in the message text.
+
+## OPEN PR — next research drafts
+
+PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
+
+PR #28 (`research/phase2-decision-trajectories`) is the Phase 2 contrast-family draft. Earthfall and Saturday D&D workbench sources are now on main for a later cross-format pass. That pass has not been done.
+
+## OPEN PR — older Drive branches
+
+PR #24 and PR #26 are **closed without merge** as superseded by merged PR #25; their history remains readable. Neither contains a source body missing from merged PR #25:
+- #24 is the older relationship-registry/pilot path;
+- #26 is an older Drive-history integration path whose useful candidate-ledger work was incorporated into #25.
+
+They are retained as branch/PR history and should not be treated as the current integration path.
+
+## Immediate owning work after the completion correction
+
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. For research, PR #38 must semantically verify the dependency claims that matter to downstream Phase 2; only then adversarially test PR #28's proposed contrast families using Earthfall/Saturday workbench evidence with preparation/play limits. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+
+## Research roadmap
+
+Current program position is the Stage 1 → Stage 2 transition:
+
+1. **Stage 1 — Research substrate:** source accessibility, Drive integration, historical relationships, gap accounting, research usability.
+2. **Stage 2 — Reconstruct judgment,** in two lanes. **Phase 2A** is live judgment and needs live-decision evidence. **Phase 2B** is creative method and worldbuilding. Design artifacts can support design claims without live-play confirmation. No Phase 2B result set has landed.
+3. **Stage 3 — Minimal cognition tests:** decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
+4. **Stage 4 — Architect from observed failures:** campaign cognition, durable memory/workflows, strategic/local execution, entity cognition, learning/consolidation.
+
+Do not build precedent-card infrastructure or finalize cognitive architecture while Phase 2 and remaining substrate hardening are still establishing what the system actually needs.

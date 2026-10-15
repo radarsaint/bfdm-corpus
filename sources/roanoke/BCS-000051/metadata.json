@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000051",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "RoanokeS3W2 Cast.docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "RoanokeS3W2 Cast.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1Zy1rM5aWEzFMdBWE81FmbB76EAAYVf3IgQ2mGYbhpH8",
+      "url": "https://docs.google.com/document/d/1Zy1rM5aWEzFMdBWE81FmbB76EAAYVf3IgQ2mGYbhpH8/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 2 cast",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000051/comments.json",
+      "sha256": "1151200343edc10a75f5a6e31d7977af456b73dab79e0a8d444215ca38584fa3",
+      "mime_type": "application/json",
+      "size_bytes": 114
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000051/original/source.docx",
+      "sha256": "ac474f4e0519aba0c8e64498d655503f36deb22361da8857fea0805aa414d786",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 320134
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000051/source.md",
+      "sha256": "c68b7626689e7a340b50f36fbf20a3fc44f726f1282d6ac4646b6b472c2329f7",
+      "mime_type": "text/markdown",
+      "size_bytes": 5822
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 2 cast). The source is the week 2 cast for the Tir Na Nog.",
+        "support_refs": [
+          "BCS-000051"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the week 2 cast for the Tir Na Nog.",
+        "support_refs": [
+          "BCS-000051"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000051",
+    "canonical_corpus_id": "BCS-000051",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000138",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "The Tatankan Verbatim",
+  "source_role": "player_facing_race_text",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-tatankan-verbatim",
+  "original_filename": "The Tatankan Verbatim",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T03:20:00Z",
+  "native_dates": {
+    "created": "2020-05-12T01:11:16.627Z",
+    "modified": "2023-05-30T00:13:07.160Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner is Brendon Faulkner and the 2023 last modifier is Brendon Faulkner. The race text does not identify a sole author.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1bDpgesAcJxYDr9NkUU3ARQ4wEoW0Aghxx91QYnKL22g",
+      "url": "https://docs.google.com/document/d/1bDpgesAcJxYDr9NkUU3ARQ4wEoW0Aghxx91QYnKL22g/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000138/original/source.docx",
+      "sha256": "5e4225559b62175e1b3b7dfb2ca48ff99ba2d40812972c3f7208bf795caaf6e6",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9221
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000138/source.md",
+      "sha256": "068149ef9747911f8c06befeb8fecb299b47227e6e436c34a48d185aa81a8612",
+      "mime_type": "text/markdown",
+      "size_bytes": 4617
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX, which is the 2023-05-30 state. source.md is paragraph text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "The May 2020 edit note is a different file. This export is not that day's wording.",
+      "Revision bodies were not retrieved."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "Player race edits, written the same night this file was created, hyperlinks it beside Season 3 race verbatims. This file's own text was not given a season label in this pass.",
+        "support_refs": [
+          "BCS-000138",
+          "BCS-000135"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The file is titled a verbatim race text, matching the role of the other admitted race verbatims. The current export is the 2023 modified state.",
+        "support_refs": [
+          "BCS-000138"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A race text being written is not evidence it was the text used at the table."
+      },
+      {
+        "question": "exact_season",
+        "status": "NOT_ESTABLISHED",
+        "basis": "Creation in May 2020 and a 2023 modification do not by themselves assign a season."
+      },
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The Tatankan text does not name a season. The Season 3 relation is only the edit-note hyperlink."
+      }
+    ]
+  },
+  "source_links": []
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000117",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Island games draft",
+  "source_role": "event_design_draft",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-island-games",
+  "original_filename": "Island games draft.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-01T05:40:18.588Z",
+  "modified_at": "2020-05-02T08:25:55.130Z",
+  "ingested_at": "2026-10-04T19:25:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 event-design draft; whole-document authorship is not explicitly established in the source.",
+    "project_ownership_context": "Roanoke Season 3 Island Games event design."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1p9Z1Q-lTk8I06-eYd3DA8hkYJ_j2uMzAepe6otfXNcQ",
+      "url": "https://docs.google.com/document/d/1p9Z1Q-lTk8I06-eYd3DA8hkYJ_j2uMzAepe6otfXNcQ/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000117/original/source.docx",
+      "sha256": "17983b678be44083bd7debfb505aaff4f1e7e7a5d6224f6092010516011e57e2",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8345
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000117/revisions.jsonl",
+      "sha256": "502604f573669a04bbae4ef9968a97333901fa85954eedba2fb9ef3a28d29367",
+      "mime_type": "application/json",
+      "size_bytes": 2024
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000117/source.md",
+      "sha256": "f053ae8564f0eba6add29c8ad8a4686095786ac492e4ae52eb279e95521baa54",
+      "mime_type": "text/markdown",
+      "size_bytes": 2399
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The run-of-show is the island games at the Lake of the Woes, which the Season 3 map key labels Island Olympics.",
+        "support_refs": [
+          "BCS-000117",
+          "BCS-000081"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The text tells a DM what to prompt and warn. An @everyone draft is not evidence the message was posted.",
+        "support_refs": [
+          "BCS-000117"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000081",
+      "confidence": "STRONG",
+      "basis": "The map key names hex L, Lake of the Woes, as Island Olympics. This source is the island-games run-of-show at that lake.",
+      "support_refs": [
+        "BCS-000117",
+        "BCS-000081"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000089",
+    "canonical_corpus_id": "BCS-000117",
+    "id_collision_remap": true,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

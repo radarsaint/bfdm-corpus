@@ -1,0 +1,106 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000028",
+  "project": "Roanoke Season 3",
+  "project_slug": "roanoke-s3",
+  "title": "Roanoke S3 Social Media.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-s3-publicity",
+  "original_filename": "Roanoke S3 Social Media.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000028/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000028/source.md",
+      "sha256": "88b021d16db6af6d64ad3772c7a5f93ab507887af2c58a05708bd511150a1572",
+      "size_bytes": 7204
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000028/original/source.docx",
+      "sha256": "41f371f082ff71bdb8da4e392047756bce8416ff40b43ab19ab46f2f4d561a35",
+      "size_bytes": 10843
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000028/comments.json",
+      "sha256": "d5d0338e86cddeee573937df351d25a4bdc91aaf6cce8411562e7d4a3b8f05fc",
+      "size_bytes": 121
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "NONE_LISTED"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Roanoke S3 Social Media.docx",
+    "original_filename": "Roanoke S3 Social Media.docx",
+    "original_sha256": "41f371f082ff71bdb8da4e392047756bce8416ff40b43ab19ab46f2f4d561a35",
+    "normalized_file": "source.md",
+    "normalized_sha256": "88b021d16db6af6d64ad3772c7a5f93ab507887af2c58a05708bd511150a1572",
+    "normalized_line_count": 76,
+    "assets": [],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The title is Roanoke S3 Social Media, and the body is the press and recruitment list for that season.",
+        "support_refs": [
+          "BCS-000028"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The body is a publicity plan: page links, hashtags, and a press package. It is not a week breakdown and it is not the posts themselves.",
+        "support_refs": [
+          "BCS-000028"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": []
+}

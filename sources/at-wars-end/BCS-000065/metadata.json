@@ -1,0 +1,111 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000065",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "at wars end outline",
+  "source_role": "narrative_outline",
+  "source_kind": "google_drive_native",
+  "original_filename": "at wars end outline.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "128BltD2VK70w_Vt56GCYvIMfsLBa99POSSmj00cnS2Y",
+      "url": "https://docs.google.com/document/d/128BltD2VK70w_Vt56GCYvIMfsLBa99POSSmj00cnS2Y/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "at-wars-end-outline",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/at-wars-end/BCS-000065/comments.json",
+      "sha256": "fefafef76aa93ffa2d950afcf831d67731fd3a0021eebc24c9f30f5c71748125",
+      "mime_type": "application/json",
+      "size_bytes": 90
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/at-wars-end/BCS-000065/original/source.docx",
+      "sha256": "321c426b7d7e34e334d39e8f81285df329913b56eff1872f85dd04259622d49c",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 350909
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000065/source.md",
+      "sha256": "20db91b05377e28b6f5866d9d543539149f580aa751fedb7274ac3e2edd1af8b",
+      "mime_type": "text/markdown",
+      "size_bytes": 44435
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "at-wars-end",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The outline is headed 'An Aubade of Queen Seraphine,' the chapter title of draft 5.",
+        "support_refs": [
+          "BCS-000065",
+          "BCS-000063"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No campaign production stage is stored. A filename, draft number, or project placement is not a stage."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000063",
+      "confidence": "STRONG",
+      "basis": "The outline and draft 5 share the Aubade chapter. Which was written first is not established, and the other outline is a different scope rather than a rejected winner.",
+      "support_refs": [
+        "BCS-000065",
+        "BCS-000063"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000065",
+    "canonical_corpus_id": "BCS-000065",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

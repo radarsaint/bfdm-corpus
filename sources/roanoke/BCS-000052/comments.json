@@ -1,0 +1,121 @@
+{
+  "file": "/mnt/data/brendon-corpus-raw/roanoke/RoanokeS3W3 Breakdown.docx",
+  "comment_count": 5,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Noah Carr",
+      "date": "2020-04-30T22:31:15Z",
+      "initials": null,
+      "resolved": false,
+      "text": "For note, this isn't a direct fight. This is a harassing attack so that the coven may haunt several players in their sleep each night and possibly wound a few without getting caught.\nSave a lucky crit/clever trap, the Hags should not be rolling initiative for this encounter.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Main Event Hag attack during the evening block."
+            },
+            {
+              "where": "end",
+              "text": "Main Event Hag attack during the evening block."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "author": "Noah Carr",
+      "date": "2020-04-30T22:05:30Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Hags also have the glowing red eyes, so who knows what they're really seeing ;)",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "On the outskirts of the city a pair of red glowing eyes can be seen. Mothman/Hag red herring."
+            },
+            {
+              "where": "end",
+              "text": "On the outskirts of the city a pair of red glowing eyes can be seen. Mothman/Hag red herring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "author": "Noah Carr",
+      "date": "2020-04-30T22:33:01Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Also pairs well with Hag requirement to have seen a creature before they Haunt them. This will probably have to do with the trigger for Sleeper cell players disguised as Hags.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "On the outskirts of the city a pair of red glowing eyes can be seen. Mothman/Hag red herring."
+            },
+            {
+              "where": "end",
+              "text": "On the outskirts of the city a pair of red glowing eyes can be seen. Mothman/Hag red herring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "author": "Noah Carr",
+      "date": "2020-04-30T22:13:44Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Town name, instead of Drisdem. Directly Translates to New Hope. This town is a Spanish missionary colony that, through evil deeds with the local populace, was decimated without mercy. Many hags were hanged from a large tree here, or burned at the stake and dumped into a hidden pond.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Nueva Esperanza"
+            },
+            {
+              "where": "end",
+              "text": "Nueva Esperanza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "author": "Brendon Faulkner",
+      "date": "2020-04-30T22:22:21Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Good reskin. Noted",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Nueva Esperanza"
+            },
+            {
+              "where": "end",
+              "text": "Nueva Esperanza"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

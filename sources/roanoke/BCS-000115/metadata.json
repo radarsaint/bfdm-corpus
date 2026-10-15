@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000115",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Timeline disambiguation",
+  "source_role": "campaign_flow_design",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-campaign-structure",
+  "original_filename": "Timeline disambiguation.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-14T05:50:05.099Z",
+  "modified_at": "2020-04-23T06:22:57.602Z",
+  "ingested_at": "2026-10-04T19:15:00Z",
+  "authorship": {
+    "status": "MIXED_OR_PARTIALLY_VERIFIED",
+    "basis": "Google revision metadata attributes the document's first six preserved revisions to Brendon Faulkner; the latest preserved revision has no identified modifier, so sole authorship is not asserted.",
+    "project_ownership_context": "Roanoke Season 3 campaign-flow planning."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1c4pQmwAXT0HQd1VKwJXgHM4rMSEiPUqkDCFwz0DjyVc",
+      "url": "https://docs.google.com/document/d/1c4pQmwAXT0HQd1VKwJXgHM4rMSEiPUqkDCFwz0DjyVc/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000115/original/source.docx",
+      "sha256": "afbad2b5b3a12963bb75dc8b80cf23e372cc81eb198e414798352e76dc12539a",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8472
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000115/revisions.jsonl",
+      "sha256": "9d0334c828fdf8759803acae9d4d6c224be98f02841577d88b09f1f8aaeba080",
+      "mime_type": "application/json",
+      "size_bytes": 3393
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000115/source.md",
+      "sha256": "d17b845edb664636cc178f52cbf4bd8c35f0b3cc4944dad94e397244aa205853",
+      "mime_type": "text/markdown",
+      "size_bytes": 2538
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The notes repair day-to-day movement among Halfwudgie Hollow, the Uru, and Roanoke hexes, and they mention getting the crafting system down.",
+        "support_refs": [
+          "BCS-000115",
+          "BCS-000070"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The notes solve transitions between already planned days. They do not replace the master timeline.",
+        "support_refs": [
+          "BCS-000115"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "REVISES",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000070",
+      "confidence": "STRONG",
+      "basis": "The master timeline says each day must lead into the next. These notes are the disambiguation of specific later days, including why the group moves toward the Uru. They are not a newer timeline.",
+      "support_refs": [
+        "BCS-000115",
+        "BCS-000070"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000087",
+    "canonical_corpus_id": "BCS-000115",
+    "id_collision_remap": true,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

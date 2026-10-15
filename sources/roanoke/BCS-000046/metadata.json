@@ -1,0 +1,153 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000046",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke Season3 Change Log.docx",
+  "source_role": "production_changelog",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke Season3 Change Log.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "MIXED_OR_PARTIALLY_VERIFIED",
+    "basis": "Brendon owns the native document; all seven surviving comments are Brendon's. Revision history is overwhelmingly Brendon-modified but includes non-Brendon/anonymous revisions. Whole-document authorship is not assumed."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1rX3drh0uGXMASZSYqistWxEaX1wzeS55rv3YmXaL594",
+      "url": "https://docs.google.com/document/d/1rX3drh0uGXMASZSYqistWxEaX1wzeS55rv3YmXaL594/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_e1bd0386858481919436787b17c88caa",
+      "source_path": "/Dnd solo source imports/Roanoke/Roanoke Season3 Change Log.docx"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-changelog",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000046/brendon-comments.native.json",
+      "sha256": "85d0a7620560269bfb2cc362ebff2658970f93e5e16cd34ba41527e6e2bb8977",
+      "mime_type": "application/json",
+      "size_bytes": 4008
+    },
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000046/comments.json",
+      "sha256": "97e65057bdb2d9b4ceaeac6f5c30e25044b3a8563752c97fe48136caba4ba0ad",
+      "mime_type": "application/json",
+      "size_bytes": 821
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000046/original/source.docx",
+      "sha256": "3e64db1b439a8d538d3152eba5f2c3df2dcc1b709ca22d9dfb59e33807be9a7b",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 17692
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000046/source.md",
+      "sha256": "4580ddd36c9c8a96fb86bf46b05f70a108f66aba917263934c91a22c6a6e2853",
+      "mime_type": "text/markdown",
+      "size_bytes": 11260
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The document is the Season 3 change log and its tasks are the five-week Roanoke production list, including week structures and the public-option deadline.",
+        "support_refs": [
+          "BCS-000046",
+          "BCS-000043"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The body is a working task list for weeks, encounters, and player-option proofing, not a rules publication.",
+        "support_refs": [
+          "BCS-000046"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000044",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000046",
+        "BCS-000044",
+        "drive:1Zv89EdvTPRuHB155hQXVVzjW4nnWYKbwD4-FbPluN7U"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000085",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000046",
+        "BCS-000085",
+        "drive:1nytbHJ9gMKpBdYAW9V4DlamAoB3TaO9rqQjgJ1BqkgY"
+      ]
+    },
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000086",
+      "confidence": "CONFIRMED",
+      "basis": "This source's body contains the other source's native Google Drive id.",
+      "support_refs": [
+        "BCS-000046",
+        "BCS-000086",
+        "drive:1oLsfcQKG8MDA6pKsPbiSEoXP5qm_raAt58xY1Ytj3Ns"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000046",
+    "canonical_corpus_id": "BCS-000046",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

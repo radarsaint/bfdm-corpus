@@ -1,0 +1,57 @@
+# Reconciliation note (2026-10-05)
+
+These Saturday D&D ChatGPT-history sources were provisionally allocated BCS-000131 through BCS-000140 on donor PR #34. After reconciliation, the final ids are BCS-000163 through BCS-000172.
+
+Mapping (original provisional id -> final reconciled id):
+131 -> 163, 132 -> 164, 133 -> 165, 134 -> 166, 135 -> 167, 136 -> 168, 137 -> 169, 138 -> 170, 139 -> 171, 140 -> 172.
+
+Partial recovery boundaries are unchanged. Renumbering did not repartition sources. BCS-000172 retains the multiple recovered visible segments that donor BCS-000140 documented.
+
+
+{
+  "local_date": "2026-10-04",
+  "repository_utc_date": "2026-10-05",
+  "project": "Saturday D&D",
+  "branch": "ingest/chatgpt-project-saturday-dnd-history",
+  "base_branch": "main",
+  "base_sha": "7e6b2dccf73efe70a01caf69ecd4a6e39e4c3f53",
+  "batch": 2,
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "source_units": [
+    "BCS-000164",
+    "BCS-000165",
+    "BCS-000166",
+    "BCS-000167",
+    "BCS-000168"
+  ],
+  "counts": {
+    "new_bcs": 5,
+    "total_catalog_rows_after_batch": 136,
+    "manifest_conversation_clusters": 11,
+    "clusters_moved_queued_to_partial": 5,
+    "assets_copied": 0,
+    "comments_captured": 0,
+    "revision_metadata_rows": 0,
+    "revision_bodies": 0,
+    "bce_minted": 0
+  },
+  "source_hashes": {
+    "BCS-000164": "c5a7b5655ad04c4d4cef5b73431ae8a7a8bb6020803130ad15d0d9c20728a42d",
+    "BCS-000165": "ae167f7ab140469483a2a2d3d9b7ede036c0ef73806676bbac9ed58b28ee85d4",
+    "BCS-000166": "44447fe757a09a2e5b54f21c708cddcfc3334c32e95eebef46ab1ce365e7dad6",
+    "BCS-000167": "7224dff1b46a33f3a5ca25d8c8badfa9be72c1f2ff28f32794f5546f85705135",
+    "BCS-000168": "667f2b0b91fcaf42480e5a6eb382ccdf080ce46c6a538b6b85a5b8cfa853d706"
+  },
+  "validation_not_claimed": [
+    "python ingest/validate_ingest.py",
+    "python registry/validate_registry.py",
+    "indexes/documents.sqlite rebuild/integrity/FTS"
+  ],
+  "judgments_minted": {
+    "bce": false,
+    "personality": false,
+    "training_examples": false,
+    "precedent_cards": false,
+    "phase2_claims": false
+  }
+}

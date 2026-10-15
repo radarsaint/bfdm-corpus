@@ -1,0 +1,29 @@
+{
+  "file": "/mnt/data/brendon-corpus-raw/roanoke/Roanoke Season3 Change Log.docx",
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": "0",
+      "author": "Brendon Faulkner",
+      "date": "2020-04-12T23:16:19Z",
+      "initials": null,
+      "resolved": false,
+      "text": "Please fill in your content for secret societies.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraphs": [
+            {
+              "where": "start",
+              "text": "Started building week 2 in the breakdown. Please fill in your content for secret societies."
+            },
+            {
+              "where": "end",
+              "text": "Started building week 2 in the breakdown. Please fill in your content for secret societies."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

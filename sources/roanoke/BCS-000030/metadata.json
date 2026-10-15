@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000030",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Roanoke S3W1 Set List..docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "Roanoke S3W1 Set List..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "12hf1fE7KqLg8uaaKde9LvKmSDt1DcF1RY6aSMYgIeS4",
+      "url": "https://docs.google.com/document/d/12hf1fE7KqLg8uaaKde9LvKmSDt1DcF1RY6aSMYgIeS4/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 1 set list",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000030/comments.json",
+      "sha256": "e507d1fd03d928b0faba585db35aec4224951bf6faa481d6c302cdc3bfe03fb4",
+      "mime_type": "application/json",
+      "size_bytes": 120
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000030/original/source.docx",
+      "sha256": "fdcf74175c89b0ebf90080f4880bb39efb4382c81c15dab1bc821c87fc017679",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8876
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000030/source.md",
+      "sha256": "c046a78d118fc7b32a182203f7a9ef419226be172d85fbf3045176fb9e10c9f9",
+      "mime_type": "text/markdown",
+      "size_bytes": 2338
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 1 set list). The source is the Week One set list for Roanoke S3 2.1, naming player hubs and society locations.",
+        "support_refs": [
+          "BCS-000030"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the Week One set list for Roanoke S3 2.1, naming player hubs and society locations.",
+        "support_refs": [
+          "BCS-000030"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000030",
+    "canonical_corpus_id": "BCS-000030",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

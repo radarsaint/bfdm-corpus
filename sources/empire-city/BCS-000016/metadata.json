@@ -1,0 +1,372 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000016",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City RP Sign Up. (Responses)",
+  "source_role": "signup_responses",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-operations",
+  "original_filename": "Empire City RP Sign Up. (Responses).xlsx",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "created_at": "2020-08-25T19:28:30.470Z",
+  "modified_at": "2022-05-04T06:45:19.873Z",
+  "ingested_at": "2026-10-03T18:55:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; this is a collaborative form-response sheet.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_spreadsheet",
+      "native_id": "1QZCPt1wXvxA0lX_duCOitv7EIpOb7GZoNeDM6kGNf74",
+      "url": "https://docs.google.com/spreadsheets/d/1QZCPt1wXvxA0lX_duCOitv7EIpOb7GZoNeDM6kGNf74/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_bcaeb2a67acf8191be21477f041d03ab",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City RP Sign Up. (Responses).xlsx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000016/original/source.xlsx",
+      "sha256": "53b2f85f028f2e320cb7e7804eb44f929fd8c950a167a4afb9840a4c50bd29ee",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 16295
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions.jsonl",
+      "sha256": "9f0b79a22b5c0a1fd3ae687a15aa1b615084e41d2481572d7cf1366102e65a45",
+      "mime_type": "application/json",
+      "size_bytes": 16396
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/1.csv",
+      "sha256": "7d36f2b86ae0ec53e3c2d7f15bccbc29f2bb0661f32f8ba399e6830cdedc0d0f",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 243
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/26.csv",
+      "sha256": "bc78fd06fe10bdfaf7a083f7c1a2131d925dc425042a78b3fa61777c6fa31c65",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 997
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/27.csv",
+      "sha256": "47239e4d380a7a9e64d58b521b49a534a78decdc1b1c08a49359c7da3d936c24",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1538
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/28.csv",
+      "sha256": "82aa5088dd3fda38772bdacb2d38f4fd47fc122f99a1f03da95ced9e700171d4",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1665
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/29.csv",
+      "sha256": "85e911d51bd19b183f62f5335c77c11a4fa9531d258b53d3ac6a9b179ee679e8",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1899
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/31.csv",
+      "sha256": "446fb846f97e5b02ef5b9b1b6e8e2afca612bfc0f7af5b4b662466edd9a697f8",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1344
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/32.csv",
+      "sha256": "73299f74dfdd7973c5f2c2fc01441ce2608013338ab760fad0ee3c5fdd4d5faf",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1414
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/33.csv",
+      "sha256": "54732df62e9c16a32f071cbff7970ff261e2aad08a29ab62ae4e264050ab5b2b",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1488
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/34.csv",
+      "sha256": "03476ff4811235497aeef9092ab4ebae7e8516e915876e394ae08aaf2e34e0a3",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1551
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/37.csv",
+      "sha256": "03476ff4811235497aeef9092ab4ebae7e8516e915876e394ae08aaf2e34e0a3",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1551
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/38.csv",
+      "sha256": "03233d746492c20b406da699bb5c374509c195d1899d245565af7e2c77290962",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 1623
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/39.csv",
+      "sha256": "266b7a29056e95993a090e20ec5134cc0aeff1d662d8174bceb2a780940c8421",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 2232
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/40.csv",
+      "sha256": "b9dcb05195cb7ec2bc3db28666ce36c4e8b4357437ec58cc0b54d05470500df9",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 2493
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/41.csv",
+      "sha256": "f93551d04efbff99a7fb26c85cd468766185530e41d8a3440c89fd52f68fa306",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 5328
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/42.csv",
+      "sha256": "b5b624008fbf44c448d3641bac39390447f59a1c8dc419a17272a981bc963ee2",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 5977
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/43.csv",
+      "sha256": "321400fd87fe71bfedf0f3d412222a5ec213804681f7be080dde054023a6cc04",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 7165
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/44.csv",
+      "sha256": "5fb29119abba36011be91ff7642ec33c3eb10ef79a7632667ee01beaf768bbf4",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 8323
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/45.csv",
+      "sha256": "2e62d9a6e05509a748c133e2295ac06ec8ba8a72fa751a14a0801d1badae1a79",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 8832
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/50.csv",
+      "sha256": "2e62d9a6e05509a748c133e2295ac06ec8ba8a72fa751a14a0801d1badae1a79",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 8832
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/53.csv",
+      "sha256": "f16ca3424c89ca67722814305d7d6e270d26cc2c9232ae71b477fd1fb8f83280",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 9047
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/55.csv",
+      "sha256": "dc02870de5ffd20d274c2223667a26495b92b24917bb43b0ebc0466dfbed18f3",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 9620
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/56.csv",
+      "sha256": "ba52679367f064ade5a5b639a48f0846f1eb6820f2c3cecd143f132407f50d26",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 10584
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/57.csv",
+      "sha256": "6efb0269716e904941ac324f7a3b421a7b79deb22874091169f378591f6f54b3",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 13187
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/58.csv",
+      "sha256": "501883753391f95d4bef619e67a2cd48f088c923e1d82516b0ac985d9c0c41fc",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 15057
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/59.csv",
+      "sha256": "aac56a3ecf44b0ca22c49b0da15c53a6f154494ee9af5b33b4744d3611fa1c36",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 15498
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/6.csv",
+      "sha256": "8925b25215428174673ef495edd66b88f3dbeff8387a66128a89364a7c30f609",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 805
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/60.csv",
+      "sha256": "17058bbcf0125578244bf93ea06c048773655559470f3b44a01f3dd21527a8f6",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 15940
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/61.csv",
+      "sha256": "322d89b77e2d297020fcd15d59f80a6eb24dd124a1d3ae7930acf7eda0240571",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 16001
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/62.csv",
+      "sha256": "cef27e3749dbe2e51c35869db26b7b717ebccb78dee92cdb1b5013673966922f",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 17236
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/63.csv",
+      "sha256": "ae183b987caddd602dbcdedffeb546d56df6cd9e4183dadf725a4d3c3bc3dc7a",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 17821
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/64.csv",
+      "sha256": "badb22f4e6faa1f8d6ffe1ae36d8480bc985832c4b82df8a4fbc21493717512a",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 18015
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/65.csv",
+      "sha256": "c8258d846b4001f15190b4fc3db8ed2087dafb3d5607abd0ce7f26a637811e0b",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 18165
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/66.csv",
+      "sha256": "a2a97272d089cd3734a4ef58286fe26d05b0af79336e046d2fd9aacba3586cef",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 18366
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/67.csv",
+      "sha256": "d6171c8d92ee9910d7c8c7d5cc493e6ccf656e326589c1f63d730466b215b416",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 20534
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000016/revisions/68.csv",
+      "sha256": "ccb4280d4e1520120ceeca75d36dd997950006f41676fc29516322ca1547cc3f",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 20937
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000016/source.md",
+      "sha256": "1919185de2db86be4e9ab3255b308f392724e77966077e38e68f1b007ab22fb3",
+      "mime_type": "text/markdown",
+      "size_bytes": 21201
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive spreadsheet text extraction to CSV-like line-oriented source.md; exact current XLSX export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Spreadsheet formulas, formatting, validation, comments, hidden cells/sheets, and rich cell objects may not be represented in the text extraction."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "PRESERVED",
+    "assets": "NONE_EXTRACTED"
+  },
+  "spreadsheet": {
+    "title": "Empire City RP Sign Up. (Responses)",
+    "locale": "en_US",
+    "time_zone": "America/Los_Angeles",
+    "sheets": [
+      {
+        "sheetId": 964356642,
+        "title": "Form Responses 1",
+        "index": 0,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 134,
+          "columnCount": 16,
+          "frozenRowCount": 1
+        }
+      }
+    ]
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The form is the Empire City RP sign-up and asks whether the person played in any of the three Roanoke seasons. Responses are not a cast list and do not show who actually played.",
+        "support_refs": [
+          "BCS-000016"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is a signup response sheet. A response is not evidence of attendance or of what that character did.",
+        "support_refs": [
+          "BCS-000016"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000016",
+    "canonical_corpus_id": "BCS-000016",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000080",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Crafting, another attempt",
+  "source_role": "system_design_predecessor",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-crafting-system",
+  "original_filename": "Crafting, another attempt.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2019-04-04T05:25:57.273Z",
+  "modified_at": "2019-04-20T03:26:38.886Z",
+  "ingested_at": "2026-10-04T18:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Earlier Roanoke crafting-system document; whole-document authorship is not established.",
+    "project_ownership_context": "Earlier Roanoke crafting-system source predating the S3 Crafting with Class documents."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1KLBZFOXVqy5dC65F8MsxQv7piPsx6QvHrlWHso6Ikx8",
+      "url": "https://docs.google.com/document/d/1KLBZFOXVqy5dC65F8MsxQv7piPsx6QvHrlWHso6Ikx8/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "NONE_RETURNED",
+    "revision_bodies": "NONE_AVAILABLE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000080/source.md",
+      "sha256": "5eb3f96fd65eb8ff1adce993c45edeab1a2e99c824dbfe8f3b6c5ca3fd52c8d4",
+      "mime_type": "text/markdown",
+      "size_bytes": 16076
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000080/original/source.docx",
+      "sha256": "e0eda590671889f8e3650dfb95e3ebe8252a1760c681f3f625f1e17b18fad566",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 15344
+    }
+  ],
+  "normalization": {
+    "method": "Exact donor normalized body reconciled from ingest/drive-project-v3; source wording was not rewritten.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The source develops a Roanoke crafting/building economy with crafting points, skills, buildings, and resource transformations.",
+        "support_refs": [
+          "BCS-000080"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "Exact Roanoke season membership for this 2019 predecessor is not established by the source, so no BELONGS_TO_PROJECT assertion is made."
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This 2019 Roanoke crafting attempt predates Crafting with Class, but the source does not establish which season it belongs to."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "PREDECESSOR_OF",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000077",
+      "confidence": "STRONG",
+      "basis": "This 2019 Roanoke crafting design predates the 2020 Crafting with Class development source and is identified in the donor archive as the earlier member of the same roanoke-crafting-system family.",
+      "support_refs": [
+        "BCS-000080",
+        "BCS-000077"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000080",
+    "donor_git_blob_shas": {
+      "source_md": "28f4cb452d44929494ea236ca90e6bb3410c784a",
+      "metadata_json": "a11bc9639c378e3bb6660d51a40763386e291ed8",
+      "original_docx": "41aab843eb7a13aaca56509d6a7f3f97bd2af99e"
+    },
+    "preservation_note": "Native Drive identity and captured source artifacts preserved while metadata was normalized to the current-main ingestion contract."
+  }
+}

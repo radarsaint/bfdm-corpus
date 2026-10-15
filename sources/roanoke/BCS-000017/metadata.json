@@ -1,0 +1,109 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000017",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Leaf and Rockman's Roanoke Epilogue.docx",
+  "source_role": "historical_source",
+  "source_kind": "preserved_library_original",
+  "document_family_id": "roanoke-character-epilogue",
+  "original_filename": "Leaf and Rockman's Roanoke Epilogue.docx",
+  "mime_type": null,
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion."
+  },
+  "locators": [
+    {
+      "provider": "corpus_library",
+      "locator_type": "preserved_original",
+      "source_path": "sources/roanoke/BCS-000017/original/source.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000017/source.md",
+      "sha256": "b5f5b4b960f1c388c45456d871efc2dc29f66ddc29d77cef7530d0cb3f7fb1c5",
+      "size_bytes": 38418
+    },
+    {
+      "kind": "ORIGINAL_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000017/original/source.docx",
+      "sha256": "230628d07f0fdb546ac49105f13d265645c643fecfb78fc2b9ac45d4a343b5b8",
+      "size_bytes": 6394612
+    },
+    {
+      "kind": "COMMENTS_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000017/comments.json",
+      "sha256": "24280bc765f9e25e88691b07e1626fe8f443d2a62b32a00b639121ea36775454",
+      "size_bytes": 133
+    }
+  ],
+  "normalization": {
+    "method": "Legacy donor metadata reconciled to bfdm_source_metadata/v1. Source bodies, exports, comments, and revision files were not rewritten.",
+    "tool": "drive history integration",
+    "warnings": [
+      "Legacy donor metadata had no schema_version; required contract fields were added around the preserved donor fields."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "UNKNOWN",
+    "assets": "LISTED_IN_DONOR_METADATA"
+  },
+  "donor_metadata": {
+    "project": "Roanoke",
+    "title": "Leaf and Rockman's Roanoke Epilogue.docx",
+    "original_filename": "Leaf and Rockman's Roanoke Epilogue.docx",
+    "original_sha256": "230628d07f0fdb546ac49105f13d265645c643fecfb78fc2b9ac45d4a343b5b8",
+    "normalized_file": "source.md",
+    "normalized_sha256": "b5f5b4b960f1c388c45456d871efc2dc29f66ddc29d77cef7530d0cb3f7fb1c5",
+    "normalized_line_count": 220,
+    "assets": [
+      "assets/media/image1.jpg",
+      "assets/media/image10.jpg",
+      "assets/media/image11.jpg",
+      "assets/media/image2.jpg",
+      "assets/media/image3.jpg",
+      "assets/media/image4.jpg",
+      "assets/media/image5.jpg",
+      "assets/media/image6.png",
+      "assets/media/image7.jpg",
+      "assets/media/image8.jpg",
+      "assets/media/image9.jpg"
+    ],
+    "comments_file": "comments.json",
+    "warnings": [],
+    "provenance_note": "Original file materialized from Brendon corpus Library import; authorship is not implied by inclusion.",
+    "brendon_native_comments_file": null,
+    "original_stored_as": "original/source.docx"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The scene is dated 12:29, August 21 1632. The Season 3 player FAQ ends on August 21 2020. The shared calendar day is not season membership."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The body is a character scene. A scene is not a campaign production stage."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation or a text. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": []
+}

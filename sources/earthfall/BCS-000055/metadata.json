@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000055",
+  "project": "Earthfall",
+  "project_slug": "earthfall",
+  "title": "Rod script",
+  "source_role": "operator_prompt",
+  "source_kind": "google_drive_native",
+  "original_filename": "Rod script.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T00:40:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not yet established. File access/ownership is not treated as authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "14PPosE_BXQUJBatDQnswH5A5Fs5029XK6IwYJrRut70",
+      "url": "https://docs.google.com/document/d/14PPosE_BXQUJBatDQnswH5A5Fs5029XK6IwYJrRut70/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte except a corpus_id frontmatter remap when required.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": [
+      "Google-native DOCX is an export snapshot, not the native Google document."
+    ]
+  },
+  "document_family_id": "earthfall-rod",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/earthfall/BCS-000055/comments.json",
+      "sha256": "a6f2672cd1153c8d1802c29c078d369aed8ae41c243a62a90f3e88b7c47d0d8b",
+      "mime_type": "application/json",
+      "size_bytes": 81
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/earthfall/BCS-000055/original/source.docx",
+      "sha256": "b990a6def7af19a011a2f67c1c188f8381f2792366183cc9a1a04845c14d2046",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 18607
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/earthfall/BCS-000055/source.md",
+      "sha256": "6c81fc2520e2e6528ce89dc9dd0b57d07600acbb88e0779de0d55ff90d1f6903",
+      "mime_type": "text/markdown",
+      "size_bytes": 18877
+    }
+  ],
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "earthfall",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The prompt says it generates R.O.D. output for Earthfall: Live.",
+        "support_refs": [
+          "BCS-000055"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The prompt is the operator text for the R.O.D. voice defined by the communication system.",
+        "support_refs": [
+          "BCS-000055",
+          "BCS-000054"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000054",
+      "confidence": "STRONG",
+      "basis": "The system document defines the two-layer R.O.D. broadcast. This prompt tells an operator to produce that broadcast. It is not a second edition of the rules.",
+      "support_refs": [
+        "BCS-000055",
+        "BCS-000054"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000055",
+    "canonical_corpus_id": "BCS-000055",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

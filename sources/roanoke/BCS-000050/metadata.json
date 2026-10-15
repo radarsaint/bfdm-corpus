@@ -1,0 +1,102 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000050",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "RoanokeS3W1 Passdown..docx",
+  "source_kind": "google_drive_native",
+  "original_filename": "RoanokeS3W1 Passdown..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Not established; uploader and file ownership do not establish authorship."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1p2B4g9pRWr2TYvEAKO7b5CtyPO6h-3ROmCK79woPz0Y",
+      "url": "https://docs.google.com/document/d/1p2B4g9pRWr2TYvEAKO7b5CtyPO6h-3ROmCK79woPz0Y/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "roanoke-s3-week-operations",
+  "source_role": "week 1 passdown",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000050/comments.json",
+      "sha256": "cef277539f936acb0e960c8637e6750a82d0175be37ed86682979c71053da432",
+      "mime_type": "application/json",
+      "size_bytes": 119
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000050/original/source.docx",
+      "sha256": "cba635243627da603434c2977e0b20471afa08024304b0f625352d5f08bd7f12",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 7353
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000050/source.md",
+      "sha256": "a41c9e5360cdbd1b80defeecc32747c4051b4a93376f7d580c66273e14240eb7",
+      "mime_type": "text/markdown",
+      "size_bytes": 931
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The preserved opening identifies this as Roanoke S3 material (week 1 passdown). The source is the week 1 handoff form for other DMs. It contains one recruitment note and is not a log of the week.",
+        "support_refs": [
+          "BCS-000050"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The source is the week 1 handoff form for other DMs. It contains one recruitment note and is not a log of the week.",
+        "support_refs": [
+          "BCS-000050"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The week 1 passdown records one note, that Ozgur Tepiderez was recruited to the Tir Na Nog crew by Rob. That note is not evidence for the rest of the week's schedule."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000050",
+    "canonical_corpus_id": "BCS-000050",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000059",
+  "project": "Exploration Impossible",
+  "project_slug": "exploration-impossible",
+  "title": "Exploration Impossible (Manuscript)",
+  "source_kind": "google_drive_native",
+  "original_filename": "Exploration Impossible (Manuscript)",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": null,
+  "modified_at": null,
+  "ingested_at": "2026-10-05T18:10:00Z",
+  "authorship": {
+    "status": "OTHER_AUTHOR",
+    "basis": "The manuscript is credited to Michael Kennish and is not Brendon-authored creative work. The preserved comments file contains editorial notes, including notes attributed to Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1t4xOCSj7E6WlEDNyHuBrsBkqwui0IRgMIzTaUCqOy_g",
+      "url": "https://docs.google.com/document/d/1t4xOCSj7E6WlEDNyHuBrsBkqwui0IRgMIzTaUCqOy_g/edit?usp=drivesdk"
+    }
+  ],
+  "normalization": {
+    "method": "Donor normalized body preserved byte-for-byte.",
+    "tool": "BFDM operational-source port",
+    "warnings": [
+      "Google-native export is a snapshot, not the live Google document."
+    ]
+  },
+  "document_family_id": "exploration-impossible-context",
+  "source_role": "CONTEXT_ONLY_THIRD_PARTY",
+  "seed_eligibility": "CONTEXT_ONLY",
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "context/exploration-impossible/BCS-000059/comments.json",
+      "sha256": "a59c5fde13a1d4e774a4fd66080e8a3ef7bd29a85c71a83c6e522a0d8e9562a0",
+      "mime_type": "application/json",
+      "size_bytes": 26818
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "context/exploration-impossible/BCS-000059/original/source.docx",
+      "sha256": "711afb388f97a47719fcc11c2f97e2551297b14705f154751b993ce4d835154d",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 49859
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "context/exploration-impossible/BCS-000059/source.md",
+      "sha256": "43d0dab96437adf2799e6118b08e905639b38f53829f748793db316719cb6bcd",
+      "mime_type": "text/markdown",
+      "size_bytes": 73428
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "PRESERVED",
+    "revision_metadata": "NOT_PRESENT",
+    "revision_bodies": "NOT_PRESENT",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "exploration-impossible",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "This is the Exploration Impossible manuscript. Placement here does not make the prose Brendon-authored or BFDM precedent.",
+        "support_refs": [
+          "BCS-000059"
+        ]
+      }
+    ],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "brendon_authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The manuscript is credited to Michael Kennish. Comments attributed to Brendon Faulkner in the preserved comments file are editorial context, not authorship of the manuscript."
+      },
+      {
+        "question": "production_stage",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The manuscript's own drafting stage is not a BFDM production stage and is not assigned."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000059",
+    "canonical_corpus_id": "BCS-000059",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}

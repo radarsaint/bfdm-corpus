@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000084",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Complete Manuscript.",
+  "source_role": "campaign_manuscript",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-master-material",
+  "original_filename": "Complete Manuscript..docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-05-29T21:37:22.982Z",
+  "modified_at": "2020-05-29T21:48:20.200Z",
+  "ingested_at": "2026-10-04T19:05:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Direct Roanoke S3 campaign manuscript; whole-document authorship is not established.",
+    "project_ownership_context": "Roanoke Season 3 master/campaign material."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1fvvQodFXjtmwh8UNJv8rXL9yjtHJ_j7ZjGBZZCvBJIk",
+      "url": "https://docs.google.com/document/d/1fvvQodFXjtmwh8UNJv8rXL9yjtHJ_j7ZjGBZZCvBJIk/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000084/original/source.docx",
+      "sha256": "0f7aa4430e032b3393e56d732c36fc4d4df60f1163eec9986cf1a39a84c6a645",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 14773
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000084/revisions.jsonl",
+      "sha256": "2eb953fe20eb5c0f5de6c9a8bcae2a3159640b8ae435ed1d036edab0778f69a8",
+      "mime_type": "application/json",
+      "size_bytes": 1009
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000084/source.md",
+      "sha256": "cf035459d28ab299fa8f24947becccb9b5f2e24702eb25edca950fcc29a19c46",
+      "mime_type": "text/markdown",
+      "size_bytes": 13318
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The day manuscript begins Week 1 on 2020-07-18, Opening day, matching the Season 3 timeline.",
+        "support_refs": [
+          "BCS-000084",
+          "BCS-000070"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "The body is a dated set and scene list for the planned days, not a claim that every scene was performed.",
+        "support_refs": [
+          "BCS-000084"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000070",
+      "confidence": "STRONG",
+      "basis": "Both open Week 1 on 2020-07-18, Opening day. The timeline is the day spine and this manuscript is the scene material for those days.",
+      "support_refs": [
+        "BCS-000084",
+        "BCS-000070"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000084",
+    "canonical_corpus_id": "BCS-000084",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

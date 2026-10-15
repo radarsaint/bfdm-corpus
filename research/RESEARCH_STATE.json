@@ -1,284 +1,228 @@
 {
-  "schema": "bfdm_research_state/v1",
-  "as_of": "2026-10-02",
-  "canonical_private_repo": "radarsaint/bfdm-corpus",
-  "research_workspace": {
-    "branch": "research/organize-current-work-v1",
-    "draft_pr": 5,
-    "title": "Organize current BFDM research and Kit evaluation",
-    "merge_policy": "do_not_merge_without_deliberate_review",
-    "deliberate_review": {
-      "status": "PASSED_AND_MERGED",
-      "report": "research/PR5_REVIEW_2026-10-02.md",
-      "validation_run_id": 37085994361,
-      "validation_conclusion": "success"
-    },
-    "status": "MERGED_TO_MAIN",
-    "merged_pr": 5,
-    "merge_commit": "186a66cd75fceb966b38a56b12dc6602c55d501f"
+  "schema": "bfdm_research_state/v2",
+  "as_of": "2026-10-08",
+  "canonical_repo": "radarsaint/bfdm-corpus",
+  "canonical_branch": "main",
+  "program_position": "STAGE_1_HARDENED_STAGE_2_NOT_DONE",
+  "discord_retrieval": {
+    "status": "COMPLETE_AND_VALIDATED",
+    "canonical": "discord/<server>/<server>.sqlite",
+    "model_projection": "model-index/discord/<server>/",
+    "major_message_counts": {
+      "roanoke_s3": 197013,
+      "empire_city_s4": 189761,
+      "empire_city_dev": 12692
+    }
   },
-  "source_archive": {
-    "roanoke_s3_discord": {
-      "path": "discord/roanoke-season-3/roanoke-season-3.sqlite",
-      "messages": 197013,
-      "text_channels": 194,
-      "attachments": "1421/1421",
-      "window": "2020-07-18 through 2020-08-22",
-      "brendon_discord_user_id": "313689699627696139"
+  "drive_history": {
+    "status": "LANDED_ON_MAIN",
+    "merged_pr": 25,
+    "historical_branch": "ingest/drive-history-v1",
+    "head_sha": "ffd4ec2c83231e62244082f1452ba3ead9a5018a",
+    "merge_commit": "3310c19cce17a04cea87562118b7e3b8e871c459",
+    "legacy_51_source_state": "RECONCILED",
+    "readiness_report": "research/drive-integration/RESEARCH_READINESS_2026-10-05.md",
+    "triage_report": "research/drive-inventory/2026-10-03/TRIAGE_PASS_2026-10-05.md",
+    "source_history_tool": "scripts/query_source_history.py",
+    "week5_map": "BCS-000130",
+    "bcs_000022": "GENUINELY_BLANK_AT_SOURCE",
+    "reconciled_source_ingest": {
+      "status": "LANDED_ON_MAIN",
+      "substrate_pr": 31,
+      "substrate_merge": "c4569a0111d47356ec3f9bcc4dde912bff1d2103",
+      "integration_pr": 36,
+      "integration_merge": "8c56d17247fad8feae0a4b465516c4f794fb6393",
+      "canonical_bcs_range": "BCS-000001-BCS-000172",
+      "historical_recovery": "BCS-000131-BCS-000151",
+      "earthfall_project_history": "BCS-000152-BCS-000162",
+      "saturday_dnd_project_history": "BCS-000163-BCS-000172",
+      "earthfall_and_saturday_recovery": "PARTIAL",
+      "document_index": "indexes/documents.sqlite",
+      "superseded_donor_prs_closed_without_merge": [
+        32,
+        34,
+        35
+      ]
+    }
+  },
+  "research_lanes": {
+    "broad_bfdm_judgment_claims": "NOT_READY",
+    "bounded_live_judgment": "READY_WITH_SCOPE_LIMITS",
+    "creative_method_worldbuilding": "READY_WITH_SOURCE_LIMITS"
+  },
+  "readiness": {
+    "SOURCE_RESEARCH_READY": "source/family is oriented enough for research; this does not mean longitudinal history exists",
+    "LONGITUDINAL_RESEARCH_READY": "at least one qualifying trajectory edge; not a complete longitudinal chain; revision is not play"
+  },
+  "drive_candidate_backlog": {
+    "status": "CLASSIFIED_BACKLOG",
+    "first_pass_triage_complete": true,
+    "unreadable_or_unavailable": 5,
+    "rule": "candidate != admitted source"
+  },
+  "open_prs": {
+    "24": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
+    "26": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
+    "27": "OPEN_DISCORD_RETRIEVAL_MAINTENANCE_REQUIRES_SEPARATE_CONFLICT_RESOLUTION",
+    "28": "OPEN_DRAFT_PHASE2_DECISION_CONTRAST_RESEARCH_NOT_YET_UPDATED_FOR_EARTHFALL_SATURDAY",
+    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS",
+    "37": "OPEN_DRAFT_STRATEGIC_KIT_BFDM_PLANNING_NOT_HISTORICAL_EVIDENCE",
+    "38": "OPEN_DRAFT_ACTIVE_FORENSIC_DERIVED_RESEARCH_INTEGRITY_AUDIT_FAIL_CLOSED",
+    "39": "OPEN_DRAFT_CROSS_REPO_CONTROL_NEEDS_POST_PR40_RECONCILIATION"
+  },
+  "research_stages": {
+    "stage_1": {
+      "name": "RESEARCH_SUBSTRATE",
+      "status": "SUBSTANTIALLY_LANDED_BOUNDED_HARDENING_REMAINS"
     },
-    "legacy_staging": {
-      "library_archive": "/Brendon Corpus Staging/Current/brendon-corpus-staging.zip",
-      "library_file_id": "libfile_ed602fffc384819192d72433c61efdb4",
-      "containers_total": 51,
-      "projects": {
-        "Roanoke": 37,
-        "Earthfall": 2,
-        "Bastion/Redoubt": 3,
-        "At War's End": 8,
-        "Exploration Impossible context": 1
+    "stage_2": {
+      "name": "RECONSTRUCT_JUDGMENT",
+      "status": "TWO_LANES",
+      "phase_2a_live_judgment": {
+        "requires": "appropriate live-decision evidence",
+        "status": "UNDERWAY_ON_DRAFT_PR28",
+        "artifact_landed": false,
+        "note": "Contrast files live on the open draft branch, not as a merged result set."
       },
-      "assets_total": 75,
-      "export_comments_total": 62,
-      "native_brendon_comment_supplements": 17,
-      "canonical_repo_reconciliation_pending": true,
-      "archive_sha256": "cebe18692ba3b8a2fe220d164cb722e18d81766edcc03f39ae0f18174350ea7a",
-      "record_files_total": 284,
-      "originals_total": 51,
-      "normalized_source_md_total": 51,
-      "metadata_files_total": 51,
-      "comments_files_total": 51,
-      "native_brendon_comment_files": 5,
-      "cataloged_ids": "51/51",
-      "canonical_source_bodies": "0/51",
-      "point_4_status": "IN_PROGRESS_BINARY_TRANSFER_PENDING",
-      "reconciler": "ingest/reconcile_legacy_staging.py",
-      "reconciliation_baseline": "research/legacy-staging/RECONCILIATION_2026-10-02.md",
-      "definition_of_point_4_done": "Final reconciliation dry-run against canonical checkout reports all 51 legacy records ALREADY_RECONCILED with no checksum conflicts.",
-      "transport_boundary": "The current chat runtime can materialize and verify the 86.9 MB Library ZIP, but has no authenticated/networked binary Git path; the GitHub connector's low-level blob API accepts content strings rather than container file references. Canonical binary transfer therefore remains pending."
-    },
-    "early_roanoke_2018": {
-      "status": "verified_pre_season_2_lineage_formal_season_1_label_unresolved",
-      "rowing_oak_drive_id": "11QDOazLzTM3Mv0E4hnPyFpY1wyYweeCoG-ZX8eyX6ho",
-      "guide_drive_id": "1JqDKaRTEx89rAUcNrtSg4I6ZD7XAHRkFTWqDRRCroHw",
-      "opening_window_evidence": "2018-07-12 through 2018-07-13",
-      "evidence_note": "Guide calls this the initial test of this style; S2 later describes matching job/barter mechanics as the previous incarnation."
-    },
-    "empire_city_s4_discord": {
-      "path": "discord/empire-city/empire-city.sqlite",
-      "server_id": "850779382791536640",
-      "server_name": "Empire City.",
-      "campaign_label": "Season 4, Empire City",
-      "messages": 189761,
-      "text_channels": 247,
-      "threads": 52,
-      "attachments": "3528/3528",
-      "observed_message_window": "2021-06-05T16:53:58.434000Z through 2026-10-01T19:24:27.206000Z",
-      "harvest_date": "2026-10-02",
-      "caution": "Observed server message range is not treated as campaign live window.",
-      "brendon_discord_user_id": "313689699627696139",
-      "brendon_username": "bfdm",
-      "brendon_display_name": "DM radar",
-      "brendon_message_count": 9399,
-      "brendon_observed_message_window": "2021-06-05T16:54:03.917000Z through 2023-07-27T05:17:37.599000Z",
-      "live_start_evidence": {
-        "date": "2021-07-10",
-        "basis": "BCS-000003 / Empire City Backlog Notes explicitly labels July 10 as Week One, Day One."
+      "phase_2b_creative_method": {
+        "uses": "design artifacts directly for design claims",
+        "does_not_prove": "live implementation",
+        "artifact_landed": false,
+        "available_without_live_confirmation": [
+          "Earthfall",
+          "Bastion/Redoubt",
+          "At War's End"
+        ]
       }
+    },
+    "stage_3": {
+      "name": "MINIMAL_COGNITION_TESTS",
+      "status": "NOT_CURRENT",
+      "includes": [
+        "decision classification",
+        "precedent cards",
+        "simple retrieval",
+        "context assembly",
+        "deferred binding",
+        "attention representation"
+      ]
+    },
+    "stage_4": {
+      "name": "ARCHITECT_FROM_OBSERVED_FAILURES",
+      "status": "NOT_CURRENT"
     }
   },
-  "s3_research": [
-    {
-      "pr": 2,
-      "branch": "derived/s3-decision-cases-v1",
-      "status": "closed_superseded_by_pr5_unmerged",
-      "kind": "local decision cases"
-    },
-    {
-      "pr": 3,
-      "branch": "derived/s3-longitudinal-cases-v2",
-      "status": "closed_superseded_by_pr5_unmerged",
-      "kind": "longitudinal cases"
-    },
-    {
-      "pr": 4,
-      "branch": "derived/s3-revision-family-v3",
-      "status": "closed_superseded_by_pr5_unmerged",
-      "kind": "revision-family causality"
-    }
+  "current_gaps": {
+    "evidence": [
+      "broader live-play coverage beyond S3/S4",
+      "Season 5 live play",
+      "Season 2 live play",
+      "Earthfall live evidence sufficient for Phase 2A confirmation; this does not block Phase 2B design-method claims",
+      "many source families lack bounded prep-to-live links",
+      "Earthfall and Saturday D&D Project histories are partial recoveries, not complete transcripts"
+    ],
+    "archive": [
+      "259 indexed revision records remain without a preserved body; historical revision access missing",
+      "Rowing Oak guide images omitted from oversized DOCX export",
+      "the separate Bodfish Boom Town Google Site is unreadable; not BCS-000177",
+      "Earthfall and Saturday D&D ChatGPT Project histories remain partial",
+      "named MISSING_KNOWN_SOURCE artifacts remain inaccessible",
+      "five previously triaged Drive candidates unreadable/unavailable",
+      "complete later Area 6c human-test transcript unrecovered"
+    ]
+  },
+  "epistemic_rules": [
+    "source present != live use established",
+    "preparation != play",
+    "publication != play",
+    "revision trajectory != live trajectory",
+    "archive gap != evidence gap",
+    "candidate != admitted source",
+    "source research ready != longitudinal research ready",
+    "one trajectory edge != a complete longitudinal chain",
+    "missing live evidence != design artifacts unusable for design-method claims",
+    "discord phrase zero != historical nonexistence outside that projection",
+    "context source != BFDM precedent",
+    "later version != automatically superseding",
+    "open PR != canonical main",
+    "recorded status or validated component != downstream consumption or demonstrated outcome"
   ],
-  "confirmed_s3_bcs_map": {
-    "rough_draft": "BCS-000045",
-    "change_log": "BCS-000046",
-    "w1_breakdown": "BCS-000048",
-    "w2_breakdown": "BCS-000029",
-    "w3_breakdown": "BCS-000052",
-    "w4_breakdown": "BCS-000037",
-    "w5_breakdown": "BCS-000053"
+  "current_handoff": "research/NEXT_HANDOFF.md",
+  "superseded_handoff": "research/HANDOFF_AND_BACKLOG.md",
+  "closed_superseded_prs": {
+    "32": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
+    "34": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36",
+    "35": "CLOSED_WITHOUT_MERGE_SUPERSEDED_BY_PR36"
   },
-  "prior_dnd_solo_research": {
-    "pr23": {
-      "branch": "kit-modeled-personality",
-      "status": "open_draft_unmerged"
-    },
-    "pr36": {
-      "branch": "kit-decision-extraction",
-      "status": "open_draft_unmerged"
-    },
-    "pr38": {
-      "branch": "kit-creative-social-requirements-audit",
-      "status": "open_draft_unmerged"
+  "coordination": {
+    "project_control": "PROJECT_CONTROL.md",
+    "contract": "COORDINATION.md",
+    "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
+    "sibling_repo": "radarsaint/dnd-solo",
+    "rule": "verify live main; issues/PRs own live task state; open PR != canonical main"
+  },
+  "derived_research_trust": {
+    "status": "ACTIVE_FORENSIC_AUDIT",
+    "pr": 38,
+    "rule": "citation_or_locator_presence_does_not_equal_semantic_source_verification",
+    "default_for_unaudited_claims": "DO_NOT_ASSUME_VERIFIED",
+    "head_sha": "db69c938d26416f062cc68c8930bd2e10aef0b80",
+    "first_tranche": {
+      "derived_cases": 20,
+      "propositions": 120,
+      "semantic_status": "ALL_UNVERIFIED_AT_AUDIT_OBSERVATION",
+      "interpretation": "unverified != false; semantic certification has not yet been earned"
     }
   },
-  "current_workstreams": {
-    "work_gpt": "Google Drive/project ingestion into searchable and human-readable corpus forms",
-    "grok": "additional Discord harvesting and lower-level Kit/runtime engineering",
-    "research_gpt": "research organization, provenance, corrections, methodology, cross-source/cross-era analysis",
-    "brendon": "source access and direct evaluation/corrections; not routine terminal operator"
+  "readiness_axes": {
+    "source_substrate_readiness": "Can the relevant primary evidence be found, oriented, and retrieved?",
+    "derived_research_trust_readiness": "Have the specific reused propositions/hypotheses been semantically reconstructed from primary evidence at the claimed scope/confidence?",
+    "rule": "source readiness does not imply derived-research trust readiness"
   },
-  "synthesis_policy": [
-    "coverage before grand synthesis",
-    "S3 is a methodology-rich case study, not universal doctrine",
-    "preserve chronology and campaign scale",
-    "separate source, evidence, research interpretation, and current project directives",
-    "do not infer importance from evidence density",
-    "preserve corrections and negative results"
-  ],
-  "research_leads": {
-    "homebrew_lineages": [
-      {
-        "title": "The Arcanian Almanac",
-        "drive_id": "1To_48fHi0RuYoeov-qWBXUgSDaB8LN7WkXkX8hJFREI",
-        "year": 2019
-      },
-      {
-        "title": "Player race edits.",
-        "drive_id": "11GF5rYImy_jdf7NxAtf5gI-OW2DCTlxjgZCOHLnC3cY",
-        "year": 2020
-      },
-      {
-        "title": "Clerrook Subclass",
-        "drive_id": "1A0TDh8s4QRhji1b6kFlUOm8b-L47rQ88memK6S5vN8E",
-        "year": 2020
-      },
-      {
-        "title": "Races for the isakei",
-        "drive_id": "1NIK4fF4Zc676Q9zEWIN0KYjcirS3bTW4N6iSqYCskEg",
-        "year": 2026
-      }
+  "friday_work_posture": {
+    "bottleneck": "EPISTEMIC_TRUST_AND_ADVERSARIAL_RESEARCH",
+    "top_jobs": [
+      "after verified Gardener activation, verify only current high-leverage research dependencies",
+      "semantic verification of Phase-2-critical dependency surface",
+      "Earthfall/Saturday adversarial attack on PR28 hypotheses",
+      "restraint and negative-space research",
+      "failure-diagnosis-correction-later-behavior trajectories",
+      "bounded Phase 2B cross-format creative-method contrast"
     ],
-    "developmental_case": "research/longitudinal/roanoke-economy-2018-to-s2.md"
+    "avoid": [
+      "generic corpus expansion",
+      "human-object index expansion with scarce Work",
+      "precedent infrastructure before verified cases",
+      "GraphRAG or elaborate retrieval",
+      "final cognition architecture"
+    ]
   },
-  "open_uncertainties_file": "research/KNOWN_UNCERTAINTIES.md",
-  "identity_resolution": {
-    "canonical_person": "Brendon Faulkner",
-    "user_confirmed_aliases": [
-      "DM radar"
+  "current_archive": {
+    "status": "LANDED_ON_MAIN_SCOPED_COMPLETION",
+    "merged_pr": 40,
+    "merge_commit": "dc0d558188c3e492f69c34a8e278e0cf9e17373b",
+    "canonical_bcs_range": "BCS-000001-BCS-000195",
+    "catalog_identity_count": 195,
+    "indexed_source_container_count": 193,
+    "context_only_exclusion": "BCS-000059",
+    "excerpt_without_source_container": "BCS-000068",
+    "preserved_indexed_comments": 99,
+    "indexed_preserved_revision_bodies": 90,
+    "revision_records_without_preserved_bodies": 259,
+    "gaps_not_closed": [
+      "historical revision bodies",
+      "Rowing Oak guide images",
+      "unreadable separate Bodfish Google Site",
+      "partial Earthfall and Saturday D&D Project histories",
+      "other known-source gaps"
     ],
-    "known_s3_discord_identity": {
-      "user_id": "313689699627696139",
-      "username": "bfdm",
-      "display_name": "DM radar"
-    },
-    "policy_file": "research/IDENTITY_RESOLUTION.md",
-    "note": "Screen names may change between seasons; resolve per platform/server/date and prefer immutable IDs."
+    "rule": "Archive/index accessibility does not certify BFDM-derived semantics or Kit player quality."
   },
-  "methodology": {
-    "current": "research/METHOD.md",
-    "audit": "research/METHODOLOGY_AUDIT_2026-10-02.md",
-    "key_correction": "Evidence confidence and claim scope are separate dimensions."
-  },
-  "corpus_charter": "CORPUS_CHARTER.md",
-  "actions_artifact": {
-    "run_id": 36947061174,
-    "artifact_id": 11202896590,
-    "name": "roanoke-s3-db",
-    "size_in_bytes": 21994415,
-    "expires_at": "2026-10-03T00:39:37Z",
-    "note": "Temporary duplicate of S3 SQLite. Connector can inspect but does not expose artifact deletion; it is scheduled to expire automatically."
-  },
-  "private_evidence_registry": {
-    "path": "evidence/",
-    "current_max_ids": {
-      "source_container": "BCS-000068",
-      "attributable_evidence": "BCE-000014",
-      "relation": "BCR-000013"
-    },
-    "retrospective_source": "BCS-000068",
-    "evidence_ids": [
-      "BCE-000005",
-      "BCE-000006",
-      "BCE-000007",
-      "BCE-000008",
-      "BCE-000009",
-      "BCE-000010",
-      "BCE-000011",
-      "BCE-000012",
-      "BCE-000013",
-      "BCE-000014"
-    ],
-    "portability_note": "BCS-000068 is a curated verbatim ChatGPT excerpt snapshot with exact UTC timestamps; stable native message IDs are unavailable through the current connector.",
-    "public_sync": "Do not copy private conversation excerpts/evidence into public dnd-solo without explicit review."
-  },
-  "corpus_invariant": {
-    "directive_evidence_id": "BCE-000013",
-    "text": "bfdm-corpus is not primarily a training dataset. It is the durable research archive of Brendon's D&D creative history. Kit is one consumer of it.",
-    "operational_rule": "Archive integrity and long-term research value outrank convenience for any current Kit implementation; model-facing datasets are downstream derivatives."
-  },
-  "work_gpt_ingestion_contract": {
-    "binding_contract": "INGESTION_CONTRACT.md",
-    "executable_task": "ingest/WORK_GPT_TASK.md",
-    "sqlite_schema": "ingest/document_archive_schema.sql",
-    "source_metadata_schema": "ingest/source_metadata.schema.json",
-    "ingest_report_schema": "ingest/ingest_report.schema.json",
-    "validator": "ingest/validate_ingest.py",
-    "planned_sqlite": "indexes/documents.sqlite",
-    "branch_rule": "Base new Work GPT ingestion/reconciliation work on current main.",
-    "scope_rule": "Archive source history first; no BCE/personality/training synthesis during ingestion."
-  },
-  "machine_registry": {
-    "root": "registry/",
-    "projects": "registry/projects.jsonl",
-    "project_relations": "registry/project_relations.jsonl",
-    "people": "registry/people.jsonl",
-    "identities": "registry/identities.jsonl",
-    "discord_servers": "registry/discord_servers.jsonl",
-    "validator": "registry/validate_registry.py",
-    "counts": {
-      "projects": 11,
-      "series": 1,
-      "project_relations": 4,
-      "people": 4,
-      "identity_assertions": 4,
-      "discord_servers": 2
-    },
-    "identity_note": "S3 and Empire City / Season 4 now both resolve Brendon to immutable Discord user ID 313689699627696139 (username bfdm, display name DM radar) within their harvested server scopes.",
-    "chronology_note": "Human-readable chronology remains research narrative; machine registry stores canonical names/aliases, source-activity versus live dates, format, scale uncertainty, source relationships, coverage, staff, series context, server links, and developmental ordering.",
-    "series": "registry/series.jsonl",
-    "series_schema": "registry/series.schema.json",
-    "point_3_status": "COMPLETE",
-    "scale_note": "The retrospective Roanoke 30–100 concurrent-player range is stored only on registry/series.jsonl. Individual seasons remain UNKNOWN until season-specific evidence exists."
-  },
-  "empire_city_research": {
-    "status": "FIRST_DEEP_PASS_COMPLETE_TARGETED_GAPS_REMAIN",
-    "start_here": [
-      "research/empire-city/design-method-synthesis-v1.md",
-      "research/empire-city/longitudinal-decision-cases-v1.md",
-      "research/empire-city/decision-cases-v1.md",
-      "research/empire-city/source-fragment-map-v1.md",
-      "research/creative-method/historical-mythologization-v1.md",
-      "research/creative-method/cryptids-s3-s4-v1.md"
-    ],
-    "longitudinal_cases": 17,
-    "direct_local_cases": 8,
-    "stock_market_mechanism": "RESOLVED_RANDOM_BASELINE_PLUS_AUTHORED_PLOT_ADJUSTMENTS",
-    "stock_sheet_drive_id": "125_rxx6iP7rQg4oZq7T13n9jGSwPJd81ju0yrWJsHVo",
-    "seat_of_empire_evidence": "Exact naming explanation survives in live Discord on 2021-07-11; pre-launch 2021-06-09 city material already says 'heart of Empire', but no pre-launch copy of the exact naming line has been found.",
-    "targeted_gaps": [
-      "Direct final Continental Congress ratification/result source",
-      "Passage-level authorship in collaborative borough documents",
-      "Broader S2 comparison before comprehensive S2→S3→S4 claims",
-      "Voice/off-platform evidence remains unavailable"
-    ],
-    "retrospective_method_evidence": "BCE-000014"
-  }
+  "priority_after_project_continuity": [
+    "FIRST: dnd-solo #118 Gardener actual invocation/reconciliation and cold-start consumption",
+    "ENGINEERING: BFDM #27 conflicts and retrieval-validation separately",
+    "RESEARCH: BFDM #38 high-leverage semantic chain verification",
+    "RESEARCH: BFDM #28 hypothesis contrasts adversarially tested only with verified/appropriately scoped evidence",
+    "LATER: Stage 3 minimal cognition and held-out Kit consumer evaluation when trusted research exists"
+  ]
 }

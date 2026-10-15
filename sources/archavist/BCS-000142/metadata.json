@@ -1,0 +1,87 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000142",
+  "project": "Archavist",
+  "project_slug": "archavist",
+  "title": "Archavist Daysong Timeline.",
+  "source_role": "operations_schedule",
+  "source_kind": "google_drive_native",
+  "document_family_id": "archavist-daysong",
+  "original_filename": "Archavist Daysong Timeline.",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T04:10:00Z",
+  "native_dates": {
+    "created": "2020-05-14T21:00:27.381Z",
+    "modified": "2020-05-14T21:47:29.165Z"
+  },
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Drive owner and the only recorded modifier are Brendon Faulkner. The schedule does not sign an author.",
+    "project_ownership_context": "Drive owner is Brendon Faulkner."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1piQYukqWRPQNlSaR0gJhTLnvmCIg-D7Ezz6yLZx8mFI",
+      "url": "https://docs.google.com/document/d/1piQYukqWRPQNlSaR0gJhTLnvmCIg-D7Ezz6yLZx8mFI/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/archavist/BCS-000142/original/source.docx",
+      "sha256": "92d0093290bd5bdd66c76e4b325c0a89687fa54e9dfc4362f7251c015e9a9629",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8795
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/archavist/BCS-000142/source.md",
+      "sha256": "293558aa9f9a95e34a6602e919e6775c563b67040aa3362a057715f84656792f",
+      "mime_type": "text/markdown",
+      "size_bytes": 2251
+    }
+  ],
+  "normalization": {
+    "method": "Current Google file exported and converted to text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Revision bodies were not retrieved.",
+      "Embedded images, where present, stayed in the export and were not described."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "FILE_TIMESTAMPS_ONLY",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_EXPORT_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "CAMPAIGN_OPERATIONS",
+        "confidence": "STRONG",
+        "basis": "A dated scene list from an opening day through a line that says Game Over, written in one sitting on 2020-05-14.",
+        "support_refs": [
+          "BCS-000142"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The title is Archavist Daysong. It was not assigned to Roanoke. The July and August 2020 dates are inside the schedule; the file was last modified in May 2020."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A planned calendar, including the note 'Player made epilogues,' does not contain those epilogues and does not show the days were run."
+      }
+    ]
+  },
+  "source_links": []
+}

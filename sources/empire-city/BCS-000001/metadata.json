@@ -1,0 +1,115 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000001",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Crafting in Empire City",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-crafting",
+  "original_filename": "Crafting in Empire City.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-07-03T13:13:25.365Z",
+  "modified_at": "2022-05-24T21:55:00.193Z",
+  "ingested_at": "2026-10-03T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; Drive ownership/location are not treated as authorship evidence.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1I35lWE2O12_dD9DggHH3YLpG3BwccCCDh-rBsaN0C6k",
+      "url": "https://docs.google.com/document/d/1I35lWE2O12_dD9DggHH3YLpG3BwccCCDh-rBsaN0C6k/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_5f79d3b35ff48191b31f6ebfbc44aec1",
+      "source_path": "/Dnd solo source imports/Empire City/Crafting in Empire City.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000001/original/source.docx",
+      "sha256": "15352c50aa82b9be74e837c0e0ea21ca78440f009b4418ba22e815febf761f62",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 10678
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000001/source.md",
+      "sha256": "be65f4d32b1aa71e52a9468acc3464830d47543710cb5f2d3c469cc7b188c10c",
+      "mime_type": "text/markdown",
+      "size_bytes": 6311
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_NONE_RETURNED",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "NONE_AVAILABLE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The source titles the system Empire City Crafting and says Season 4.",
+        "support_refs": [
+          "BCS-000001"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "CONFIRMED",
+        "basis": "The body is the Season 4 essence-crafting procedure. It names a Discord channel as the approval step, which is not the same as a captured live post.",
+        "support_refs": [
+          "BCS-000001"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "rule_by_rule_live_identity",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The approval channel is identified and the posting procedure was used there. Harvesting checks, conversion in #advanced-crafting, and airship-upgrade rules are not established by the messages cited on the channel link."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "IMPLEMENTED_IN",
+      "target_kind": "DISCORD_CHANNEL",
+      "external_locator": "discord://850779382791536640/channel/852796889194954762",
+      "confidence": "STRONG",
+      "basis": "Empire City #essence-crafting is channel 852796889194954762. No other harvested server has a channel by that name. Message 862921268666957844 restates this document's post format, Sane Magical Prices cost, quality-matched double value, and DM approval before use. Later posts use that format and some are marked approved. This is the approval step, not proof that harvesting, conversion, or airship upgrades were used as written.",
+      "support_refs": [
+        "discord:850779382791536640:862921268666957844",
+        "discord:850779382791536640:862924750561083412",
+        "discord:850779382791536640:865374650828849214"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000001",
+    "canonical_corpus_id": "BCS-000001",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

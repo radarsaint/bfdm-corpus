@@ -1,0 +1,89 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000122",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Tir Na Nog",
+  "source_role": "prepared_event",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-cited-event-modules",
+  "original_filename": "Tir Na Nog.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-05T02:00:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "The week 2 breakdown links this vehicle stat block. Whole-document authorship is not established.",
+    "project_ownership_context": "Cited by a Roanoke Season 3 week document."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1PaDpQNqaX-6uTxQCmDkNqjqpVJcquSaYtRkCNSzHcd0",
+      "url": "https://docs.google.com/document/d/1PaDpQNqaX-6uTxQCmDkNqjqpVJcquSaYtRkCNSzHcd0/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000122/original/source.docx",
+      "sha256": "e1e6653d820b69977ad0753ed531eed90e7575564e099604054fd7dc726bce06",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 8383
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000122/source.md",
+      "sha256": "a56dfc5d70e24220cad04ad2304a7d90bafeb42ff1cb1bba709e5adebfa5d255",
+      "mime_type": "text/markdown",
+      "size_bytes": 1716
+    }
+  ],
+  "normalization": {
+    "method": "Current Google Doc exported as DOCX. source.md is paragraph text from that DOCX. Comments and revision history were not retrieved.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Paragraph extraction drops drawings, tables layout, and comment anchors.",
+      "Embedded images stay inside the DOCX and were not written out as separate files."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "EMBEDDED_IN_DOCX_NOT_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "BCS-000029 links this Drive document as Tir Na Nog stats, and that week document is Season 3.",
+        "support_refs": [
+          "BCS-000122",
+          "BCS-000029"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "The body is the Tir Na Nog vehicle stat block and crew manifest, prepared for the voyage. It is not the week schedule.",
+        "support_refs": [
+          "BCS-000122"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A week sheet can schedule an event and link its module. Neither shows what players did or that the prepared text was the text that was run."
+      }
+    ]
+  },
+  "source_links": []
+}

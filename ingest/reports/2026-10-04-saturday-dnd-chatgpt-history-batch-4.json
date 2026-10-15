@@ -1,0 +1,57 @@
+# Reconciliation note (2026-10-05)
+
+These Saturday D&D ChatGPT-history sources were provisionally allocated BCS-000131 through BCS-000140 on donor PR #34. After reconciliation, the final ids are BCS-000163 through BCS-000172.
+
+Mapping (original provisional id -> final reconciled id):
+131 -> 163, 132 -> 164, 133 -> 165, 134 -> 166, 135 -> 167, 136 -> 168, 137 -> 169, 138 -> 170, 139 -> 171, 140 -> 172.
+
+Partial recovery boundaries are unchanged. Renumbering did not repartition sources. BCS-000172 retains the multiple recovered visible segments that donor BCS-000140 documented.
+
+
+{
+  "local_date": "2026-10-04",
+  "repository_utc_date": "2026-10-05",
+  "project": "Saturday D&D",
+  "branch": "ingest/chatgpt-project-saturday-dnd-history",
+  "batch": 4,
+  "recovery_status": "PROJECT_HISTORY_RECOVERY_PARTIAL",
+  "source_units": [
+    "BCS-000171"
+  ],
+  "counts": {
+    "new_bcs": 1,
+    "total_catalog_rows_after_batch": 139,
+    "clusters_moved_queued_to_partial": 1,
+    "project_file_records_enriched": 2,
+    "assets_copied": 0,
+    "bce_minted": 0,
+    "phase2_claims": 0
+  },
+  "source_hashes": {
+    "BCS-000171": "faf90ddf307773718639b454ba229594838330b669e0654f23740d7a00fff54c"
+  },
+  "related_assets": [
+    {
+      "file_id": "file_00000000829c71f89b8dce60e3e86fbd",
+      "library_file_id": "libfile_b6972b6dde488191b90c7b13605beef3",
+      "library_name": "The house of the measuring coin.png"
+    },
+    {
+      "file_id": "file_00000000e0b471fd90f2f25591422e9c",
+      "library_file_id": "libfile_c79a19fae4c08191b369b0550c4cd965",
+      "library_name": "Arcane temple dungeon map.png"
+    }
+  ],
+  "validation_not_claimed": [
+    "python ingest/validate_ingest.py",
+    "python registry/validate_registry.py",
+    "indexes/documents.sqlite rebuild/integrity/FTS"
+  ],
+  "judgments_minted": {
+    "bce": false,
+    "personality": false,
+    "training_examples": false,
+    "precedent_cards": false,
+    "phase2_claims": false
+  }
+}

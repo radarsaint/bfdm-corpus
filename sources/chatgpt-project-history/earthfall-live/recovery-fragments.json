@@ -1,0 +1,92 @@
+{
+  "schema_version": "bfdm_chatgpt_history_recovery_fragments/v1",
+  "project": "Earthfall:live",
+  "source_status": "RETRIEVAL_NAVIGATION_NOT_TRANSCRIPT",
+  "fragments": [
+    {
+      "date": "2026-02-21",
+      "label": "Early premise / naming",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Vertical, timed escalating dungeon structure; Mad Mage architectural foundation; rotating D&D settings; every third floor Waterdeep.",
+        "Naming discussion included Fall of Earth: Live and EARTHFALL: LIVE."
+      ],
+      "boundary_note": "May overlap an adjacent Feb 21 conversation; exact conversation identity unavailable."
+    },
+    {
+      "date": "2026-02-21",
+      "label": "Broadcast / audience / sponsor system",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Reality-TV survival show framing; Viewer Index, sponsors, audience mechanics, Waterdeep intermissions.",
+        "R.O.D. runs floor logic, loot, timers, and balance; Sigil-side broadcast/advertising administration discussed."
+      ],
+      "boundary_note": "Conversation title and ID unavailable."
+    },
+    {
+      "date": "2026-02-22",
+      "label": "Tasha / Guvner’s Multiversal / Pale Night development",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Showrunner discussion, global telepathic announcement, Pale Night/psychic gestalt premise, Guvner’s Multiversal administration."
+      ],
+      "boundary_note": "Conversation title and ID unavailable."
+    },
+    {
+      "date": "2026-02-24",
+      "label": "R.O.D. voice / Floor 1 Baatorasaka",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "R.O.D. voice established as snarky/petulant and engagement-driven.",
+        "Floor 1 Avernus/Baatorasaka sponsorship and corporate-hell mechanics developed."
+      ],
+      "boundary_note": "Conversation title and ID unavailable."
+    },
+    {
+      "date": "2026-03-09",
+      "label": "Strict premise extraction / correction",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Thread extraction covered artifacts, curse DCs, numeric hazards, Pale Night, Guvner’s Multiversal, contestants.",
+        "User explicitly required strict use of discussed information without invented detail."
+      ],
+      "boundary_note": "Conversation title and ID unavailable."
+    },
+    {
+      "date": "2026-03-10",
+      "label": "Baatorasaka Backrooms Level 1 rewrite",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Earthfall Baatorasaka Backrooms Level 1 rewrite requested and developed using Mad Mage structure."
+      ],
+      "boundary_note": "Conversation title and ID unavailable."
+    },
+    {
+      "date": "2026-03-10",
+      "label": "Master AI Game Engine / contestant setup",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Master AI Game Engine prompt developed; later contestant setup material appeared in the same retrieved cluster."
+      ],
+      "boundary_note": "Conversation boundary may include multiple adjacent threads; raw transcript unavailable."
+    },
+    {
+      "date": "2026-05-08",
+      "label": "The Service Door Under the World solo test",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Bespoke solo Earthfall session began with commoner setup and Tutorial Guild intake objective."
+      ],
+      "boundary_note": "Conversation title appears to have been Earthfall:live; exact ID unavailable."
+    },
+    {
+      "date": "2026-05-25",
+      "label": "Pre-Earthfall AR Gym Raid",
+      "status": "RAW_TRANSCRIPT_NOT_EXPOSED",
+      "retrieval_notes": [
+        "Pre-Earthfall phone/Discord AR game work; user rejected apocalypse imagery and required realistic phone-camera framing."
+      ],
+      "boundary_note": "Conversation title and ID unavailable."
+    }
+  ]
+}

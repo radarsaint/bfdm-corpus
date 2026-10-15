@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000085",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Player backgrounds",
+  "source_role": "player_background_design",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s3-player-backgrounds",
+  "original_filename": "Player backgrounds.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-04-12T20:48:08.246Z",
+  "modified_at": "2020-04-28T23:13:08.693Z",
+  "ingested_at": "2026-10-04T19:10:00Z",
+  "authorship": {
+    "status": "COLLABORATIVE",
+    "basis": "Roanoke S3 Directory credits Player Backgrounds to Brendon Faulkner and Jack Warren.",
+    "project_ownership_context": "Roanoke Season 3 player-background design."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1nytbHJ9gMKpBdYAW9V4DlamAoB3TaO9rqQjgJ1BqkgY",
+      "url": "https://docs.google.com/document/d/1nytbHJ9gMKpBdYAW9V4DlamAoB3TaO9rqQjgJ1BqkgY/edit?usp=drivesdk"
+    }
+  ],
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "CAPTURED_COMPLETE_PROVIDER_PAGESET",
+    "revision_metadata": "CAPTURED_COMPLETE_PROVIDER_RESPONSE",
+    "revision_bodies": "PENDING_REVISION_BODY_CAPTURE",
+    "assets": "PRESERVED_INSIDE_GOOGLE_NATIVE_EXPORT_SNAPSHOT; NOT_YET_EXTRACTED_SEPARATELY"
+  },
+  "representations": [
+    {
+      "kind": "COMMENTS",
+      "path": "sources/roanoke/BCS-000085/comments.jsonl",
+      "sha256": "a6570bbdc91353a657a929a84e9295400750fc8626f18e15ad8189bcf02ef3dd",
+      "mime_type": "application/json",
+      "size_bytes": 6369
+    },
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/roanoke/BCS-000085/original/source.docx",
+      "sha256": "4d841039deb6a8e0b6584f1316b59ef7660ec51461fd163b3cc546fc98672a4e",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 27779
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/roanoke/BCS-000085/revisions.jsonl",
+      "sha256": "3564aa0356f37a6804665850b5c236d87aae5020e14b4751fcb65d36cef5db00",
+      "mime_type": "application/json",
+      "size_bytes": 3048
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000085/source.md",
+      "sha256": "63db40be1bceb402d1e4cf6641ae74873711da882cd1b29050c5d4dae9ba72e2",
+      "mime_type": "text/markdown",
+      "size_bytes": 27558
+    }
+  ],
+  "normalization": {
+    "method": "Existing donor normalization retained.",
+    "tool": "BFDM donor-branch reconciliation",
+    "warnings": []
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s3",
+        "relation": "RELATES_TO_PROJECT",
+        "confidence": "STRONG",
+        "basis": "The guide lists Groundlings as a markdown project, and the Season 3 public-docs compilation contains that Groundlings background. The guide itself does not say Season 3.",
+        "support_refs": [
+          "BCS-000085",
+          "BCS-000116"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "SYSTEM_DEVELOPMENT",
+        "confidence": "STRONG",
+        "basis": "The source is a Homebrewery style guide and a list of background projects still being formatted.",
+        "support_refs": [
+          "BCS-000085"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This pass did not find a message-level or channel-level Discord locator for this source. Publication, preparation, or a later campaign is not treated as live use."
+      },
+      {
+        "question": "exact_project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The style guide is related to Season 3 because it lists the Groundlings background that appears in the Season 3 public-docs compilation. The guide itself does not name a season, so it is not marked BELONGS_TO_PROJECT."
+      }
+    ]
+  },
+  "source_links": [],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000085",
+    "canonical_corpus_id": "BCS-000085",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured source artifacts preserved. Source wording was not rewritten."
+  }
+}

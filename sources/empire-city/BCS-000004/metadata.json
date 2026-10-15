@@ -1,0 +1,177 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000004",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Empire City Into Video",
+  "source_role": "historical_source",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-player-orientation",
+  "original_filename": "Empire City Into Video.docx",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-06-22T04:45:39.704Z",
+  "modified_at": "2021-06-30T19:14:50.618Z",
+  "ingested_at": "2026-10-03T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Existing BCS catalog does not establish whole-document authorship; Drive ownership/location are not treated as authorship evidence.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1qj175xuPOnI0pxnN-4jgY-vGdYGVk_efjbSFqllLd0g",
+      "url": "https://docs.google.com/document/d/1qj175xuPOnI0pxnN-4jgY-vGdYGVk_efjbSFqllLd0g/edit?usp=drivesdk"
+    },
+    {
+      "provider": "chatgpt_library",
+      "locator_type": "library_import",
+      "library_file_id": "libfile_681323ef78e8819194adc0743b499072",
+      "source_path": "/Dnd solo source imports/Empire City/Empire City Into Video.docx"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/empire-city/BCS-000004/original/source.docx",
+      "sha256": "0176924e0293453e8204d45538ff1ca432975d856542490c62cc1dc983f5af19",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 9170
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions.jsonl",
+      "sha256": "e2cb03eac0b1c243199fa04371bf51feed59904368393a0194eb473c3998ce3e",
+      "mime_type": "application/json",
+      "size_bytes": 4616
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/1.md",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "mime_type": "text/markdown",
+      "size_bytes": 3
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/1073.md",
+      "sha256": "8af56472ed44cad86dc10c8573a1883cc8b1a3cb5716f9cf7d3aa924a4fad50e",
+      "mime_type": "text/markdown",
+      "size_bytes": 2950
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/1075.md",
+      "sha256": "96de55caa6143fafa2eb7e91678419d20a888f839d076e6cf0af2d8d9df1530b",
+      "mime_type": "text/markdown",
+      "size_bytes": 2585
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/1149.md",
+      "sha256": "6ce373bbc78663941766ca1939a74286a64b7a8849c7e6ca3b9b52807f1ba8ee",
+      "mime_type": "text/markdown",
+      "size_bytes": 2684
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/2229.md",
+      "sha256": "8f89781f3a5fa48f17654deace0c575cc56eb9bef69886946dea2087c01aae80",
+      "mime_type": "text/markdown",
+      "size_bytes": 4265
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/2384.md",
+      "sha256": "71e4cb88bac6718b7d1cc454bfdc3d01b93c19230e0d0f1abbdd3e31d9b8e5c8",
+      "mime_type": "text/markdown",
+      "size_bytes": 4485
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/2385.md",
+      "sha256": "42d62b675fe86d3c5f7154ca67554a60f73e5b8c8ca90cae54da95ac52439f14",
+      "mime_type": "text/markdown",
+      "size_bytes": 4486
+    },
+    {
+      "kind": "REVISION_RECORD",
+      "path": "sources/empire-city/BCS-000004/revisions/919.md",
+      "sha256": "75119a043bd396b09c9b3ec7d165d8c6e6c947cc5ebe26b502ae919de85c19cc",
+      "mime_type": "text/markdown",
+      "size_bytes": 2542
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000004/source.md",
+      "sha256": "42d62b675fe86d3c5f7154ca67554a60f73e5b8c8ca90cae54da95ac52439f14",
+      "mime_type": "text/markdown",
+      "size_bytes": 4486
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text extraction to line-oriented source.md; exact current Google-native export retained separately.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Text extraction preserves wording but may lose some visual formatting, list indentation, drawings, and embedded-object layout."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_PRESENT",
+    "revision_metadata": "PRESERVED",
+    "revision_bodies": "PRESERVED",
+    "assets": "NONE_EXTRACTED"
+  },
+  "historical_context": {
+    "project_links": [
+      {
+        "project_id": "roanoke-s4",
+        "relation": "BELONGS_TO_PROJECT",
+        "confidence": "CONFIRMED",
+        "basis": "The script welcomes the listener to Season 4 of Tales from Arcania and guides them through Empire City.",
+        "support_refs": [
+          "BCS-000004"
+        ]
+      }
+    ],
+    "production_stages": [
+      {
+        "stage": "PUBLIC_PLAYER_FACING_PUBLICATION",
+        "confidence": "STRONG",
+        "basis": "The source is a player-facing server orientation script. Delivery of the video is not established.",
+        "support_refs": [
+          "BCS-000004"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "This container is preparation, publication, or an operations form. It does not by itself show what players did, what a DM approved in play, or which planned events occurred."
+      }
+    ]
+  },
+  "source_links": [
+    {
+      "link_type": "COMPANION_TO",
+      "target_kind": "SOURCE",
+      "to_corpus_id": "BCS-000072",
+      "confidence": "STRONG",
+      "basis": "The script and the Season 4 directory describe the same event's boroughs. The script is not an edition of the directory.",
+      "support_refs": [
+        "BCS-000004",
+        "BCS-000072"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "donor_branch": "ingest/drive-project-v3",
+    "donor_corpus_id": "BCS-000004",
+    "canonical_corpus_id": "BCS-000004",
+    "id_collision_remap": false,
+    "preservation_note": "Native Drive identity and captured artifacts preserved. Source wording was not rewritten. project/project_slug may record filing location and are not a season assignment when project_links is empty."
+  }
+}
