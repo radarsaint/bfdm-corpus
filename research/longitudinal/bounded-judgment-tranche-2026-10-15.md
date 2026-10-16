@@ -1,6 +1,6 @@
 # Bounded judgment tranche — 2026-10-15
 
-This is one cross-case reading of primary records. It is not a model of how Brendon runs a game, not a frequency claim, and not Kit doctrine. The twenty Roanoke Season 3 decision cases on draft PR #38 are a different sample. Their reusable judgments were overclaimed. This file does not promote them.
+This is one cross-case reading of primary records. It is not a model of how Brendon runs a game, not a frequency claim, and not Kit doctrine. The twenty Roanoke Season 3 decision cases merged in PR #38 (`2b68820d445e9f6d99d021463bfd76b2f7bb257d`) are a different sample. Their reusable judgments were overclaimed. This file does not promote them.
 
 Draft PR #28 is a hypothesis map. Nothing here treats it as merged or as a gold label.
 
@@ -45,7 +45,7 @@ Kit's runtime reads a smaller curated subset through `dnd-solo` `runtime/kit_jud
 
 **Historical.** `744056939096571924`, 2020-08-15, Roanoke announcements: "I made a genuine mistake with my res rule. I'm going to have to nerf that ability for game balance reasons. Tonight's rez's still stand but the once per day rule can't stay in the game."
 
-The v1 case that cites this moment used a prep locator the unmerged PR #38 audit could not reconstruct. This tranche cites the Discord message, not that locator.
+The v1 case that cites this moment used a prep locator the PR #38 audit could not reconstruct. That audit is now on main at `2b68820d`. This tranche cites the Discord message, not that locator.
 
 **What is supported.** He called that rule a mistake, ended the once-per-day version going forward, and left that night's resurrections in place.
 
@@ -59,7 +59,7 @@ The v1 case that cites this moment used a prep locator the unmerged PR #38 audit
 
 **Historical.** `746253583552479272`, 2020-08-21: "So 4 at depleted resources. My gut says don't take you into the preplanned fight." Eloise says Rockman and Copper are basically full. DCJJ says he is topped up. Web has one spell slot of each level. Brendon: "I could run this mostly rp" / "but only if thats satisfying." / "otherwise, I can throw mobs instead of bosses, but it will be too long for vee" (`746253900490735686`, `746254025883779113`, `746254092011175968`). Eloise wants some kind of fight (`746254154774872094`). He says "got it."
 
-The v1 prep locator for this case is the broken BCS-000045 chain on draft PR #38. The Discord lines above were read directly.
+The v1 prep locator for this case is the broken BCS-000045 chain recorded by PR #38, now on main at `2b68820d`. The Discord lines above were read directly.
 
 **What is supported.** He reconsidered a prepared boss from a gut read of the party, and he treated that offer as conditional on whether it would be satisfying. Players corrected the depleted read in the next lines.
 
@@ -83,7 +83,7 @@ The v1 prep locator for this case is the broken BCS-000045 chain on draft PR #38
 
 **Kind.** In-the-moment apology. Not a demonstrated change of practice.
 
-**Historical.** `736688057113378928`, 2020-07-25, after he offered to write a dating-sim module and nut_wizard said the dating sim was the players' job: "right. sorry. player agency. I just get excited trying to accommodate." The next lines are jokes. No message in that window shows a module started or withdrawn. Draft PR #38 reached the same limit on BDC-S3-011.
+**Historical.** `736688057113378928`, 2020-07-25, after he offered to write a dating-sim module and nut_wizard said the dating sim was the players' job: "right. sorry. player agency. I just get excited trying to accommodate." The next lines are jokes. No message in that window shows a module started or withdrawn. Draft PR #38 reached the same limit on BDC-S3-011. That review is now on main at `2b68820d`.
 
 **Status.** The apology is `VERIFIED_NARROW`. Downstream change: `UNPROVEN`. `NOT_CONSUMED`. One apology is not a rule about accommodation.
 
@@ -91,7 +91,7 @@ The v1 prep locator for this case is the broken BCS-000045 chain on draft PR #38
 
 **Kind.** He stops himself before choosing for a player.
 
-**Historical.** `737569808396058654`, 2020-07-28, Golden Dawn: "(lets let web have some player agency I'm meta gaming and its a slippery slope)". He had just been shaping whether Web could be a witness. The following lines do not show the scene's result. Draft PR #38's BDC-S3-013 review is the same window.
+**Historical.** `737569808396058654`, 2020-07-28, Golden Dawn: "(lets let web have some player agency I'm meta gaming and its a slippery slope)". He had just been shaping whether Web could be a witness. The following lines do not show the scene's result. The BDC-S3-013 review, now on main at `2b68820d`, is the same window.
 
 **Status.** The self-stop is `VERIFIED_NARROW`. The scene after it: `UNPROVEN`. `NOT_CONSUMED`. It is not a general metagame policy.
 
@@ -99,7 +99,7 @@ The v1 prep locator for this case is the broken BCS-000045 chain on draft PR #38
 
 **Kind.** Announced redesign. Success not shown.
 
-**Historical.** `743967418824523836` states a theme of coming together as friends rather than through governance. `745737396804518020`, 2020-08-19, announces that two DMs becoming less active left a winner-take-all faction game, and that he and Noah are changing the ending so the town has a reason to work together. The announcement is not a finished finale. Draft PR #38's BDC-S3-017 review matches the announcement and does not show the finale being played.
+**Historical.** `743967418824523836` states a theme of coming together as friends rather than through governance. `745737396804518020`, 2020-08-19, announces that two DMs becoming less active left a winner-take-all faction game, and that he and Noah are changing the ending so the town has a reason to work together. The announcement is not a finished finale. The BDC-S3-017 review, now on main at `2b68820d`, matches the announcement and does not show the finale being played.
 
 **Status.** Announcement `VERIFIED_NARROW`. Successful finale: `UNPROVEN`. `NOT_CONSUMED`.
 
