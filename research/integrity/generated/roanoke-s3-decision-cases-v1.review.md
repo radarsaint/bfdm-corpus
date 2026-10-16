@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:0653e72b7ff5461a3133995bef641343f8497e309208bcfd23f90b733ba233d6", "packet_state_sha256": "sha256:1debaafb9a62aa9ce7cc10d9c9a2813697d080e22f7f148c4e6bb56698e99fa1", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:067828f17c7380e66512c182d35a5c2eda5ddc2bfe58d5bf343bb7e4bce201a1", "packet_state_sha256": "sha256:9d4f052f83ee0a26c1c85321b9f9d0b55d1825265ecb83eda248775a284222a0", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -955,37 +955,37 @@ Legacy confidence: high.
 **Situation.** The written document still contained a day-by-day Week 5 spine, but four weeks of actual play had produced player priorities, unfinished business, and invitationals.
 - audit: audit:BDC-S3-009:situation
 - proposition: sha256:d5ee8142f725616973bf69a8253b63b94fc8ff219e6b10b4a4324b147fab397b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** Accumulated live history had become a better source of relevant content than filling every remaining day with fixed authored material.
 - audit: audit:BDC-S3-009:noticed
 - proposition: sha256:e61e7cfee7035b4441540cb9f9072a13e858a304a3593d249c82e1bdcd2128ba
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** player-led payoff, responsiveness, finale structure.
 - audit: audit:BDC-S3-009:values
 - proposition: sha256:7a964383c58395adb92746d4a761cb875285e54f2aec5e936e081ac82e890800
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon asked players to DM what they wanted to explore or accomplish and stated that Week 5 was deliberately less written so players could lead and DMs could accommodate more invitationals, while retaining selected major fights.
 - audit: audit:BDC-S3-009:intervention
 - proposition: sha256:f4ec35a95cdc87e9278299eebab97ee2c9ab2fd8e0bdd4a1d4bd05bfb1cd206e
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** Players were later given a menu of outstanding goals and asked to set priorities rather than being marched through a complete fixed schedule.
 - audit: audit:BDC-S3-009:observed_result
 - proposition: sha256:89ea1900ce3fa880cb16678037d1ae06636e2a1b36dd22bab63b9d39f413be0d
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** Front-load structure when campaign history is thin. As meaningful history accumulates, leave increasing prep capacity available to answer what actually happened.
 - audit: audit:BDC-S3-009:reusable_judgment
 - proposition: sha256:5f586ef37a9fbe6566a0026f4656919892cdda9cc40b68729beaceb5d091f27c
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** BCS-000045:L1569-L1587, BCS-000045:L1880-L1884, BCS-000045:L2840-L2856
@@ -1132,10 +1132,13 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1569-L1587: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L1880-L1884: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L2840-L2856: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1569-L1587: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L1880-L1884: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L2840-L2856: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 742807774383046666
+- The three locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current lines include the week-five spine. They do not record the August choice to run less of it.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -1921,37 +1924,37 @@ Legacy confidence: very-high.
 **Situation.** Season 3 was designed around four active faction stories, but two DMs became less active. The remaining structure collapsed into a binary, winner-take-all rivalry that was generating real table drama.
 - audit: audit:BDC-S3-017:situation
 - proposition: sha256:5a4644e7fea5d392ad70cbbfabdb7933982ff45a67efb9d1bbf951cf6f2ec856
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The original ending architecture no longer produced the intended multi-faction experience because its staffing assumptions had failed.
 - audit: audit:BDC-S3-017:noticed
 - proposition: sha256:caf0f71c443b6d070522aa259487497f559a7a9837d9076e3ad7454cd08b1981
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: CAUSALITY_CLAIM, NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** table health, campaign ending, faction meaning, cooperation.
 - audit: audit:BDC-S3-017:values
 - proposition: sha256:ee8de36aa62545566277f1e2933fc7571926316e82bd901d756ba5836cf525c6
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon and Noah explicitly removed the bipartisan structure and rewrote the Mason and Knight endings so they could function as complementary defense and offense instead of mutually exclusive winners.
 - audit: audit:BDC-S3-017:intervention
 - proposition: sha256:ffbb580d381b9bac8065c686f67be0c0cdde218fa477e33ccf944014cb8dec78
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The finale acquired an in-world reason for the town to cooperate while preserving distinct faction contributions.
 - audit: audit:BDC-S3-017:observed_result
 - proposition: sha256:2be145c94aa7f42e6de2b92578ddef07c798ebf06526aa17ee108611bb934c28
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** When an implementation assumption fails, preserve the purpose of the design rather than its original topology. Rewrite the structure that is now producing the wrong experience.
 - audit: audit:BDC-S3-017:reusable_judgment
 - proposition: sha256:a1886a1e7a70e26b4b53945801118577ba38a423ed5a793135694a1924bd95e5
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** BCS-000045:L1603-L1618, BCS-000045:L1680-L1705
@@ -2037,9 +2040,12 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1603-L1618: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L1680-L1705: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1603-L1618: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L1680-L1705: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 745737396804518020
+- Both locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current lines are the four organizations and their week notes, not the August 19 rewrite.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -2058,37 +2064,37 @@ Legacy confidence: high.
 **Situation.** Town politics and the mayoral race had become a dominant emergent activity, while the intended Mason through-line was about building, fellowship, and eventually the Tinker ending.
 - audit: audit:BDC-S3-018:situation
 - proposition: sha256:c39c0d83521b6bdba96b9eda71f94007dc8213540b5ae6c4f296fcdff42b1f97
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The political layer was becoming all-or-nothing and pulling attention away from the relationship/family theme Brendon wanted the season to resolve around.
 - audit: audit:BDC-S3-018:noticed
 - proposition: sha256:bc0f03396d32812bacfc95ac183d34defc97b4992eb5b941be9b346272492e6b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What mattered.** theme, table cohesion, faction identity, emergent play.
 - audit: audit:BDC-S3-018:values
 - proposition: sha256:0b27cc06a60aa4d171e3c267dfa349e44191d4abb465899b22eef340125807c9
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon articulated that the season's focus was bringing people together as friends and family, moved the Mason symbolism toward the rebuilt pub rather than governance, and resisted blame-focused politics in the final week.
 - audit: audit:BDC-S3-018:intervention
 - proposition: sha256:3be003f6642aaad35716b18223a95c6a3d1c40fb2c184e03a2965328d5c9f478
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The Mason story was reframed around rebuilding/community while final-week messaging emphasized coming back together.
 - audit: audit:BDC-S3-018:observed_result
 - proposition: sha256:97f2b13cd6fb0b3db0027e90ff6059d16405dfcf5a7292321300335db3ac7573
-- semantic status: UNVERIFIED
+- semantic status: CONTEXT_CHANGES_INTERPRETATION
 - flags: none
 
 **Reusable judgment.** Let emergent systems grow while they enrich the campaign. Redirect them when they begin cannibalizing the story's central concern or damaging table cohesion.
 - audit: audit:BDC-S3-018:reusable_judgment
 - proposition: sha256:3c27f0ab03ef40ffd86bd4aefe05f7c8b0ec7a027bd92c427fca6ba5af95180c
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579, BCS-000045:L1680-L1685
@@ -2180,9 +2186,12 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L1680-L1685: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1576-L1579: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L1680-L1685: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 745054916850221076
+- L1576-L1579 was already inspected. L1680-L1685 is the Mason week list through the tinker rite.
+- Neither records this conversation.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -2201,37 +2210,37 @@ Legacy confidence: high.
 **Situation.** A resurrection house rule proved too strong in actual play.
 - audit: audit:BDC-S3-019:situation
 - proposition: sha256:4f08536939513150366c3f1937109de1d7ab5f5d07da647c6d84ac2333b86a1b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The rule was creating a balance problem that could not remain in the campaign as written.
 - audit: audit:BDC-S3-019:noticed
 - proposition: sha256:2c491cb76c8b333911ef7fc2e9bbc2b3cd28a010f7c56dde2341ec597225c7d5
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** game balance, fairness, trust in rulings.
 - audit: audit:BDC-S3-019:values
 - proposition: sha256:8acc540721dd98058fb57090ba2f29a00be86c022ff0999067d4926cbdd71d2b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon publicly called the rule a genuine mistake, nerfed it going forward, and explicitly let that night's resurrections stand.
 - audit: audit:BDC-S3-019:intervention
 - proposition: sha256:38384fd1a149d5e325793cf1986ff1e62ef5a8b465ad5c92ae348ac04dca67d7
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The system changed without retroactively invalidating player outcomes that had been legal when they occurred.
 - audit: audit:BDC-S3-019:observed_result
 - proposition: sha256:8fb273b0d65a2b71f139c98864bcf2c1554642aada7ac8c9c6785ca59f2b0fa2
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** When a house rule fails in live play, fix it. Prefer prospective correction and preserve already-resolved outcomes unless the existing result is itself intolerable.
 - audit: audit:BDC-S3-019:reusable_judgment
 - proposition: sha256:b31a59dc34a60f818b342d36c25777840f5c8796da59adf8b0c450f0d990d5b9
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** No direct pre-session rule located; runtime evidence only.
@@ -2256,6 +2265,8 @@ Bounded same-channel context:
 ### Mechanical warnings / lineage
 
 - representative-message match: 744056939096571924
+- The case states that no pre-session rule was located. No locator was added in this review.
+- Representation drift is not established.
 
 ### Semantic review questions
 

@@ -1,7 +1,7 @@
-## Steering, skips, and announced selectors
+## Structure, theme, and a house rule
 
-Touched by BDC-S3-002, BDC-S3-006, BDC-S3-007, and BDC-S3-010.
+Touched by BDC-S3-009, BDC-S3-017, BDC-S3-018, and BDC-S3-019.
 
-When asked for the agenda after card talk, he points at the Chinnokin thread and a visitor already in the fiction. After a rite, he skips the walk back and the table agrees. He offers fast shopping or a later scene; the purchase itself is not completed in the lines. He announces that the town's internal or external focus will decide the day's problem. The announcement is not followed, in the inspected lines, by that choice happening.
+He says week 5 is less written, asks what players want, and later posts a menu. The written spine is still in the preparation file, and he still promises major fights. On August 19 he announces that four faction endings have become a toxic two-side contest because two DMs were less active, and that Masons and Knights will defend and attack instead of one winner. That is a real rewrite announcement. It is not shown here as the finale being played. On August 14 and 17 he says the season is friends and family, the pub rather than government, and that blame would bring toxicity back. The council argument continues after he says it. On August 15 he says the resurrection rule was a mistake, tonight's results stand, and once per day cannot stay.
 
-Supported: one redirect, one agreed skip, two offers. Weakened: any of these as the cause of later play, except the skip, which is immediate. Untested: a practice of always reconnecting old threads, always cutting low-value minutes, or always letting attention pick the scene.
+Supported: the announced faction rewrite, the resurrection correction, the week-5 menu, and the theme speech. Weakened: theme as something the table then followed, and less-written week 5 as a measured change to the document. Untested: any of these as a reusable design rule. No contrast in this file is certified. PR #28 was not edited.
