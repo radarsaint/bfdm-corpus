@@ -116,3 +116,5 @@ Before a generalized model is attempted, a separate sampling and comparison phas
 Historical sources, verified propositions, cross-case notes, representative findings, and Kit-consumable behavior are different things. A research file on canonical main does not authorize or configure Kit. This audit does not edit Kit's runtime.
 
 BFDM remains a research system. This layer only makes later curation able to ask what proposition was reviewed, against what evidence, with what scope, and whether that judgment is stale.
+
+The original case Markdown, the Roanoke S3 README, and `research/INDEX.md` point here. The JSONL file opens with one `audit_pointer` record. That record is navigation back to this ledger. It is not a case, and it is not a second status system. The `confidence` field on a case row remains the original label.

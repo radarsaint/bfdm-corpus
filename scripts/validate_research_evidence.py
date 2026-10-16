@@ -144,7 +144,51 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
 
 
 def parse_cases_jsonl(path: Path) -> dict[str, dict[str, Any]]:
-    return {row["id"]: row for row in read_jsonl(path)}
+    rows = []
+    for row in read_jsonl(path):
+        if row.get("record_type") == "audit_pointer":
+            continue
+        rows.append(row)
+    return {row["id"]: row for row in rows}
+
+
+AUDIT_POINTER_REQUIREMENT = (
+    "Consult the audit ledger before treating any original proposition or confidence label as verified."
+)
+REUSABLE_JUDGMENT_RESULT = (
+    "All 20 original reusable judgments were found overclaimed. None is certified as a standing DM practice."
+)
+
+
+def check_audit_pointer(path: Path) -> list[str]:
+    pointers = [row for row in read_jsonl(path) if row.get("record_type") == "audit_pointer"]
+    if len(pointers) != 1:
+        return [f"{path}: expected one audit_pointer record, found {len(pointers)}"]
+    pointer = pointers[0]
+    errors = []
+    if pointer.get("ledger") != LEDGER.as_posix():
+        errors.append(f"{path}: audit_pointer ledger must be {LEDGER.as_posix()}")
+    if pointer.get("contract") != "research/integrity/README.md":
+        errors.append(f"{path}: audit_pointer contract must be research/integrity/README.md")
+    if pointer.get("requirement") != AUDIT_POINTER_REQUIREMENT:
+        errors.append(f"{path}: audit_pointer must require the existing ledger before treating propositions as verified")
+    return errors
+
+
+def check_entry_notices(root: Path) -> list[str]:
+    """A reader who opens the original research must be able to find the audit."""
+    checks = (
+        (TRANCHE_MD, ("../integrity/audit_ledger.jsonl", "../integrity/README.md", REUSABLE_JUDGMENT_RESULT, AUDIT_POINTER_REQUIREMENT)),
+        (Path("research/roanoke-s3/README.md"), ("../integrity/audit_ledger.jsonl", "../integrity/README.md", REUSABLE_JUDGMENT_RESULT)),
+        (Path("research/INDEX.md"), ("integrity/audit_ledger.jsonl", "integrity/README.md", REUSABLE_JUDGMENT_RESULT)),
+    )
+    errors = []
+    for rel, required in checks:
+        text = (root / rel).read_text(encoding="utf-8") if (root / rel).exists() else ""
+        for snippet in required:
+            if snippet not in text:
+                errors.append(f"{rel}: entry path does not lead to the semantic audit ({snippet})")
+    return errors
 
 
 def parse_cases_markdown(path: Path) -> dict[str, dict[str, Any]]:
@@ -383,6 +427,8 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
     md = parse_cases_markdown(root / TRANCHE_MD)
     js = parse_cases_jsonl(root / TRANCHE_JSONL)
     errors.extend(compare_markdown_json(md, js))
+    errors.extend(check_audit_pointer(root / TRANCHE_JSONL))
+    errors.extend(check_entry_notices(root))
 
     records = read_jsonl(ledger_path)
     by_unit = {r.get("artifact", {}).get("unit_id"): r for r in records}

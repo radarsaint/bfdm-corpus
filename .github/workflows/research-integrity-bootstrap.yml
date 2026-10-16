@@ -8,9 +8,16 @@ on:
       - "scripts/build_research_review_packet.py"
       - "scripts/validate_research_evidence.py"
       - ".github/workflows/research-integrity-bootstrap.yml"
+      - "research/roanoke-s3/decision-cases-v1.md"
+      - "research/roanoke-s3/decision-cases-v1.jsonl"
+      - "research/roanoke-s3/README.md"
+      - "research/INDEX.md"
+      - "research/integrity/README.md"
+      - "research/integrity/audit_ledger.jsonl"
+      - "research/integrity/generated/roanoke-s3-decision-cases-v1.review.md"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   bootstrap:
@@ -26,16 +33,7 @@ jobs:
           python-version: "3.12"
       - name: Compile integrity tooling
         run: python -m py_compile scripts/validate_research_evidence.py scripts/build_research_review_packet.py
-      - name: Build initial ledger and review packet
+      - name: Validate the reviewed tranche
         run: |
-          python scripts/build_research_review_packet.py --refresh-ledger
           python scripts/validate_research_evidence.py
-      - name: Commit generated first-tranche staging
-        run: |
-          set -euo pipefail
-          git config user.name "bfdm-integrity-stager"
-          git config user.email "actions@users.noreply.github.com"
-          git add research/integrity/audit_ledger.jsonl research/integrity/generated/roanoke-s3-decision-cases-v1.review.md
-          git diff --cached --quiet && exit 0
-          git commit -m "Stage S3 first-tranche evidence packet"
-          git push origin HEAD:audit/derived-research-integrity-2026-10-05
+          python scripts/build_research_review_packet.py --check
