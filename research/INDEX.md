@@ -111,6 +111,10 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 - [creative-method/cryptids-s3-s4-v1.md](creative-method/cryptids-s3-s4-v1.md)
 - [creative-method/mythic-institutions-s3-s4-v1.md](creative-method/mythic-institutions-s3-s4-v1.md)
 
+## Direct reading
+
+- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — draft ordinary-post sample. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Five precommitted windows. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. The funeral line and the observation-deck PvP line were already on main and were not reopened.
+
 ## Kit evaluation
 
 - [kit-evaluation/README.md](kit-evaluation/README.md)
