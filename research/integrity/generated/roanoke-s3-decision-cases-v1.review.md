@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:cf4efb3a811700aa5b752ee7cb2da5b2d3dc9f8fd1f50b5fae910f57b7540cb4", "packet_state_sha256": "sha256:52b35239d43ee32de3d605ac27d482563b7b9f0a0fb3c458ba2c0e46da283dca", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:7283a0504e87da42cfa5db9037d143873d768d3c41823a37a19b6fc0e6cf95c9", "packet_state_sha256": "sha256:ae7b0a2f709bbcc72ebc53cf70f251cd9d2e662eb5a916051c6d552525ff401f", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -1260,37 +1260,37 @@ Legacy confidence: medium-high.
 **Situation.** Players were joking that creating the dating-sim layer was their job, while Brendon was excitedly offering to build more of it.
 - audit: audit:BDC-S3-011:situation
 - proposition: sha256:614a6051304d2dfd924a5c2656d6999e7ae194d48e267122c3f1c2bb260c77c0
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** His instinct to accommodate could cross from enabling player play into authoring the activity for them.
 - audit: audit:BDC-S3-011:noticed
 - proposition: sha256:4575f5d66de86f0431d6bce2466222bf66886d7b06aa151d52f3352859ae2a40
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** player ownership, DM enthusiasm, restraint.
 - audit: audit:BDC-S3-011:values
 - proposition: sha256:6d4028c5d2dedcd6740297a90518896ae413af07610a7851619aeeadd4a8fc02
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon explicitly caught himself and backed off: player agency came first, and he recognized that excitement to accommodate was driving the overreach.
 - audit: audit:BDC-S3-011:intervention
 - proposition: sha256:b218955cef9551268c862882b6300076686371ead32bb17e4022160ae332f1ae
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The players retained ownership of the emergent dating-sim behavior.
 - audit: audit:BDC-S3-011:observed_result
 - proposition: sha256:1192136d0565ea51e0f9716308037d98cd1eae9132f1b61429589e2c6400e425
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Reusable judgment.** Accommodation is not automatically good. If helping starts replacing the player's authorship of the thing they enjoy doing, stop helping and give it back.
 - audit: audit:BDC-S3-011:reusable_judgment
 - proposition: sha256:5ec945f73ffacb977b023e815655ec0cd0a4f1d70999da0cb18696da5b82d423
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L4420-L4422
@@ -1331,8 +1331,11 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L4420-L4422: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L4420-L4422: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 736688057113378928
+- The locator is in the first case text at 22c1b645, which has no BCS-000045 file.
+- BDC-S3-004 already inspected this locator. Current lines 4420-4422 are the creative-team biography.
+- Representation drift is not established. The Discord exchange does not repair the citation.
 
 ### Semantic review questions
 
