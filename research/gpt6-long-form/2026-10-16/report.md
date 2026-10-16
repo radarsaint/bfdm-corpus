@@ -31,7 +31,7 @@ The researcher report is copied below unchanged. This section is the preservatio
 | 13 | Not opened. PR #48 W4-20261016-010 and PR #47 W2-20261016-11 already hold the banner-then-persona split. |
 | 14 | Opened as a negative caution only. It does not change catalog authorship and it is not a DM trait. |
 
-PR #38 is merged. Its finding stands: all 20 original Season 3 reusable judgments were overclaimed. None of these rows upgrades them. PR #28, PR #43, PR #47, and PR #48 were not edited.
+PR #38 is merged. Its finding stands: all 20 original Season 3 reusable judgments were overclaimed. None of these rows upgrades them. PR #28, PR #43, PR #47, and PR #48 were not edited. The copied report calls PR #43 a draft. It is open and unmerged, and it is not a draft. PR #28 is the open draft.
 
 ## Locator exceptions
 
