@@ -88,6 +88,7 @@ The original Season 3 decision cases have a completed semantic audit. All 20 ori
 - [roanoke-s3/longitudinal-decision-cases-v2.md](roanoke-s3/longitudinal-decision-cases-v2.md)
 - [roanoke-s3/revision-family-v3.md](roanoke-s3/revision-family-v3.md)
 - [roanoke-s3/README.md](roanoke-s3/README.md)
+- [longitudinal/roanoke-s3-resurrection-followthrough-2026-10-15.md](longitudinal/roanoke-s3-resurrection-followthrough-2026-10-15.md) — event-specific BDC-S3-019 follow-up: a preserved scheduled resurrection is played afterward; replacement-rule implementation remains unresolved.
 
 Historical draft PRs #2–#4 remain provenance; their useful products were organized into the merged research baseline.
 
