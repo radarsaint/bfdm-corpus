@@ -99,6 +99,20 @@ Generated packets may be deleted after the audit and rebuilt from canonical stat
 
 This is deliberately narrow. It does not claim the whole corpus is audited.
 
-## Relationship to Kit
+## Sample boundary
 
-BFDM remains a research system. An audited finding does not automatically become Kit behavior. This layer only makes later curation able to ask what proposition/version was reviewed, against what evidence/version, with what confidence/scope/status, and whether that judgment is stale.
+The twenty cases in this tranche are a historically curated sample. The original selection procedure is not documented well enough to establish that they represent Brendon's Dungeon Master judgment.
+
+A semantic status says whether the cited evidence supports that proposition, and how far the wording may reach. It does not say how often the behavior occurs, how important it is, whether it is typical, or whether it transfers to another table.
+
+Neither one case nor the finished set of twenty is a comprehensive model.
+
+A reusable judgment that survives review is still a research candidate. The validator rejects a verified status on `reusable_judgment` inside this tranche. An independent test, able to falsify the judgment, has to come from outside this sample.
+
+Passing an evidence chain does not put the claim into Kit. Rejected, overclaimed, and contradicted readings stay in the ledger and in the review packet.
+
+Before a generalized model is attempted, a separate sampling and comparison phase is required. This audit does not do that work. The phase has to include more than one campaign and period, more than one format, ordinary and unsuccessful decisions, restraint and contradiction, written selection rules and coverage limits, tests that can fail, and held-out sources handled under `research/held-out/README.md` and `research/METHOD.md`.
+
+Historical sources, verified propositions, cross-case notes, representative findings, and Kit-consumable behavior are different things. A research file on canonical main does not authorize or configure Kit. This audit does not edit Kit's runtime.
+
+BFDM remains a research system. This layer only makes later curation able to ask what proposition was reviewed, against what evidence, with what scope, and whether that judgment is stale.

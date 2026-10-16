@@ -24,6 +24,16 @@ BCS45_META = Path("sources/roanoke/BCS-000045/metadata.json")
 DISCORD_DB = Path("discord/roanoke-season-3/roanoke-season-3.sqlite")
 DISCORD_PROJECTION = Path("model-index/discord/roanoke-season-3")
 IDENTITIES = Path("registry/identities.jsonl")
+# Curated cases are not a model of practice. The review packet must carry this
+# sentence, and a reusable judgment in the tranche cannot be verified from it.
+SAMPLE_BOUNDARY = (
+    "The 20 Roanoke S3 decision cases are a historically curated, nonrepresentative sample. "
+    "Verification scopes a proposition. It does not establish frequency, prevalence, importance, typicality, or transfer. "
+    "The set is not a comprehensive model of Brendon's Dungeon Master judgment. "
+    "A reusable judgment remains a research candidate until an independent test. "
+    "A passed evidence chain does not authorize Kit to use the claim. "
+    "Rejected and contradicted readings stay in the record."
+)
 BRENDON_S3_IDENTITY = "identity:brendon:discord:313689699627696139:roanoke-s3"
 BRENDON_DISCORD_ID = "313689699627696139"
 
@@ -428,6 +438,11 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
                 coverage = prop.get("negative_coverage") or {}
                 if not coverage.get("complete"):
                     errors.append(f"{case_id}:{field}: negative claim has insufficient searched coverage")
+            if field == "reusable_judgment" and status in VERIFIED_STATUSES:
+                errors.append(
+                    f"{case_id}:reusable_judgment: curated sample cannot verify a reusable judgment; "
+                    "it stays a research candidate until an independent test"
+                )
 
         expected_prep = [
             (x["source_id"], x["line_start"], x["line_end"])
@@ -543,6 +558,9 @@ def validate_repo(root: Path, ledger_path: Path | None = None, packet_path: Path
                 if semantic.get("status") in VERIFIED_STATUSES:
                     if semantic.get("review_packet_state_sha256") != current_global:
                         errors.append(f"{prop.get('audit_id')}: stale verdict integration")
+        packet_text = packet_path.read_text(encoding="utf-8") if packet_path.exists() else ""
+        if SAMPLE_BOUNDARY not in packet_text:
+            errors.append("review packet is missing the curated-sample boundary")
 
     return ValidationResult(errors, warnings)
 

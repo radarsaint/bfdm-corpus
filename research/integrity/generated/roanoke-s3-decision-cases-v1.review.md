@@ -1,12 +1,14 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:067828f17c7380e66512c182d35a5c2eda5ddc2bfe58d5bf343bb7e4bce201a1", "packet_state_sha256": "sha256:9d4f052f83ee0a26c1c85321b9f9d0b55d1825265ecb83eda248775a284222a0", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:92d952124adb7d9fee9523c878196e89421d2d30d92a49333a479c67b6407e90", "packet_state_sha256": "sha256:9d4f052f83ee0a26c1c85321b9f9d0b55d1825265ecb83eda248775a284222a0", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
 
 Generated view only. Historical truth remains in BCS/native sources; canonical audit state remains in research/integrity/audit_ledger.jsonl.
 
-Every proposition is UNVERIFIED unless its nested ledger verdict explicitly says otherwise. Mechanical reconstruction does not certify motive, causality, scope, transfer, or expert principle.
+The 20 Roanoke S3 decision cases are a historically curated, nonrepresentative sample. Verification scopes a proposition. It does not establish frequency, prevalence, importance, typicality, or transfer. The set is not a comprehensive model of Brendon's Dungeon Master judgment. A reusable judgment remains a research candidate until an independent test. A passed evidence chain does not authorize Kit to use the claim. Rejected and contradicted readings stay in the record.
+
+A ledger verdict scopes that proposition. Mechanical reconstruction does not certify motive, causality, frequency, typicality, transfer, or a Kit instruction.
 
 ## Tranche facts
 
