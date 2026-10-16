@@ -1,6 +1,6 @@
 # Next Handoff
 
-**Current as of:** 2026-10-07  
+**Current as of:** 2026-10-16  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
@@ -11,17 +11,15 @@ For any task that can affect Kit/runtime decisions, read repository-root `PROJEC
 
 GitHub issues/PRs own live task state. Dated handoffs are orientation/history and must not silently outrank newer `main` or an explicitly named active draft.
 
-### Active integrity work — PR #38
+### First-tranche integrity review — merged
 
-PR #38, **Audit and repair BFDM derived-research evidence chains**, is an active draft updated 2026-10-07.
+PR #38 merged to `main` as `2b68820d445e9f6d99d021463bfd76b2f7bb257d`.
 
-Its governing rule is:
+The reviewed set is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are `SCOPE_OVERCLAIMED`. None is a certified standing practice. The sample boundary in `research/integrity/README.md` still holds: this is not a model of how Brendon runs a game, and it does not authorize Kit.
 
-> a derived claim is not source-verified merely because it contains a citation; the cited source content must be retrieved and shown to support the claim at the stated scope and confidence.
+A citation is still not semantic verification. BDC-S3-004's prep locators remain unrecovered. Do not restamp the ledger because a later edit is nearby. Untouched research stays `UNVERIFIED`.
 
-Until the forensic audit settles a derived artifact, do not use polish or citation density as proof that its propositions are verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support.
-
-PR #38 is not canonical `main`, but it materially changes how current researchers should treat un-audited derived work.
+The old audit branch is history. The gate that checks a pull request is `.github/workflows/research-integrity.yml` once that repair is on `main`. Until then, run `scripts/validate_research_evidence.py` against the revision you changed, with the Discord database left as its Git LFS pointer.
 
 ### Strategic planning draft — PR #37
 
@@ -33,7 +31,7 @@ Use scarce Work capacity for evidence-heavy investigations that ordinary GPT sho
 
 Priority order:
 
-1. **Phase-2-critical semantic verification.** Extend/finish only the PR #38 proposition set actually required by downstream Phase 2/Stage 3 work. Skip if the active integrity thread has already completed the same dependency surface.
+1. **Do not reopen the finished first tranche.** Those 120 propositions are reviewed. A new case is a new tranche, not a restamp. Skip work that repeats PR #38.
 2. **Earthfall/Saturday adversarial attack on PR #28.** Treat the ten contrast families as hypotheses. Independently reconstruct primary evidence and classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE.
 3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
 4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.

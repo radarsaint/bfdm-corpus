@@ -109,11 +109,11 @@ Important current gaps include:
 
 Archive gap and evidence gap are not interchangeable.
 
-## LANDED ON MAIN — first-tranche derived-research integrity staging
+## LANDED ON MAIN — first-tranche derived-research review
 
 PR #38 — **Audit and repair BFDM derived-research evidence chains** — merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16).
 
-First-tranche staging only (20 Roanoke S3 cases). No corpus-wide semantic certification. Mechanically valid locators/citations are not semantic verification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; the live Discord event is recoverable but does not repair the citations. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments in the tranche are not verified for transfer and do not go into Kit. Untouched research stays UNVERIFIED.
+The first tranche is 20 Roanoke S3 cases and 120 reviewed propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 `reusable_judgment` propositions are `SCOPE_OVERCLAIMED`. None is certified as a standing DM practice. The set is a curated sample, not a model, and it does not go into Kit. No corpus-wide semantic certification. Mechanically valid locators are not semantic verification. BDC-S3-004 prep locators remain `ORIGINAL_REPRESENTATION_UNAVAILABLE` / `SUPPORT_NOT_FOUND`. Untouched research stays `UNVERIFIED`. Do not restamp these verdicts because a later commit touches a nearby file.
 
 ## OPEN PR — strategic planning handoff
 
