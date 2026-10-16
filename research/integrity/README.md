@@ -79,7 +79,7 @@ Therefore the bounded forensic result is:
 - current cited support: `SUPPORT_NOT_FOUND`;
 - representation drift: **not established**.
 
-The live Discord message itself is reconstructable from the canonical S3 harvest and its projection, and it carries Brendon's confirmed immutable author ID. The semantic reviews are `research/integrity/BDC-S3-004-review.md`, `research/integrity/BDC-S3-005-review.md`, `research/integrity/BDC-S3-008-review.md`, and `research/integrity/BDC-S3-011-review.md`. The prep chains were not repaired from those messages. `research/integrity/CF-01-dependency.md` says the proposed two-case contrast is unsupported. `research/integrity/BDC-S3-005-later-play.md` finds no demonstrated later effect of the July 26 trial-versus-allegiance limit. `research/integrity/CF-02-dependency.md` says neither reviewed case establishes that contrast. The other sixteen cases remain `UNVERIFIED`.
+The live Discord message itself is reconstructable from the canonical S3 harvest and its projection, and it carries Brendon's confirmed immutable author ID. Semantic reviews are the `BDC-S3-*-review.md` files in this directory. The prep chains were not repaired from the Discord messages. Contrast notes are `CF-01-dependency.md`, `CF-02-dependency.md`, and `phase2-dependency.md`. `BDC-S3-005-later-play.md` finds no demonstrated later effect of the July 26 trial-versus-allegiance limit. Twelve cases remain `UNVERIFIED`.
 
 ## Markdown and JSONL
 

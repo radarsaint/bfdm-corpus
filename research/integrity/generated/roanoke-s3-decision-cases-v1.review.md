@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:23c13d413ceefd12685cd5bc2635b46d64ef0c82a0547b045a5c8ba7ee0e0191", "packet_state_sha256": "sha256:5612e19de9733ba2b371f627e49d2f750d87597967038d7fe934e70074fabaf8", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:2cdd7bdc85a4d16d41b1c4213e8c9a768ab27d683f994309f62d2708cbc737bb", "packet_state_sha256": "sha256:1a6fcc9400fede80fe096d7098d1142962c884ec24d653ae365fa38d665b753a", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -30,37 +30,37 @@ Legacy confidence: high.
 **Situation.** A scheduled adventure hook was available, but the players appeared tired and might skip it.
 - audit: audit:BDC-S3-001:situation
 - proposition: sha256:4ea65e0e474ba802af77778968a8fa913afdd0ac964d24162b9b2b5d31c608c5
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** Player energy/availability mattered more than forcing the day's prepared content.
 - audit: audit:BDC-S3-001:noticed
 - proposition: sha256:7dbaa2bb33dd64bc08dda7ccadf08193ff19d33dde5d0a13b2f8af36312ad3c6
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** player choice, campaign continuity, consequences.
 - audit: audit:BDC-S3-001:values
 - proposition: sha256:7a769f5306c3f073c0bcd40d7846665776805f0da0bc03ef72cfefad55c4cdf2
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon explicitly told the group they did not have to adventure and noted that he already had a fail condition for leaving the situation unchecked.
 - audit: audit:BDC-S3-001:intervention
 - proposition: sha256:6a7c6df0f3c6ee3e04665397422637373e839810e7dd7bbae45d874cbebdbd44
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** Players immediately volunteered to go; the hook remained voluntary, while the world consequence remained credible.
 - audit: audit:BDC-S3-001:observed_result
 - proposition: sha256:86ff46a931ecb2f47c880a9a20bf67f2caa456a6330eefb10cde0e57a14370f8
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** Make participation optional while keeping the situation consequential. A hook can be declined; the world does not freeze when it is.
 - audit: audit:BDC-S3-001:reusable_judgment
 - proposition: sha256:d5f9540048f1234f0a72e05ac4d8b669197cf5de70488314ec46dc33ffb741c9
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1911-L1923
@@ -111,8 +111,11 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1911-L1923: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1911-L1923: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 741819860043956335
+- Locator is in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current L1911-L1923 is the Château werewolf hook, not the August 9 break offer.
+- Representation drift is not established. The Discord lines do not repair the citations.
 
 ### Semantic review questions
 
@@ -264,37 +267,37 @@ Legacy confidence: high.
 **Situation.** Four players were available late in the final week, with mixed resource depletion, and a preplanned fight was ready.
 - audit: audit:BDC-S3-003:situation
 - proposition: sha256:450c64bf6f29f582f3b3af95a534a4ff73c797c7e9bd362add0f1caf4aea60d7
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The planned encounter assumptions no longer matched the actual party state and available time.
 - audit: audit:BDC-S3-003:noticed
 - proposition: sha256:04dea366b2e520647d90d2cd4537f73db3db19b47b51040c01c58f5827334a3f
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** felt challenge, satisfaction, fairness, time.
 - audit: audit:BDC-S3-003:values
 - proposition: sha256:46d62480906c1f974988c74cfe8be17e57d4aa2c3676325ee2620dc625885750
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon declined to default into the preplanned fight and instead considered a mostly-RP version or mobs rather than bosses, explicitly asking whether that would be satisfying.
 - audit: audit:BDC-S3-003:intervention
 - proposition: sha256:90c17baa7f52274fd1a0dfe347b787e1ac756724f8c142876f6ce3652ea1ad25
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The group discussed what kind of play would feel worthwhile rather than being pushed into the scheduled boss structure.
 - audit: audit:BDC-S3-003:observed_result
 - proposition: sha256:ae426832373ad381354a65e1a64bc745b1ea679ae1a47d693b31d5d2b5732de8
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** Re-evaluate prepared encounters at the moment of delivery. Preserve the intended experience, not the mere fact that an encounter was prepared.
 - audit: audit:BDC-S3-003:reusable_judgment
 - proposition: sha256:ca3ce3a2a6b6c22cecf9ef7aca06b2d61b526935e29f4d86d15767c513092eea
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L2840-L2857
@@ -350,8 +353,11 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L2840-L2857: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L2840-L2857: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 746253583552479272
+- Locator is in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current L2840-L2857 is the week-five spelljammer calendar, not the Uru fight.
+- Representation drift is not established. The Discord lines do not repair the citations.
 
 ### Semantic review questions
 
@@ -1751,37 +1757,37 @@ Legacy confidence: high.
 **Situation.** After a difficult interpersonal/mental-health discussion, a scheduled hunt was still due to happen.
 - audit: audit:BDC-S3-016:situation
 - proposition: sha256:a118d82300c3b4ec8b42e134760f6717ffcbe69feff4f53616b63f3b8af77486
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** Continuing the event would turn the schedule itself into a roadblock and the DM was no longer in a good state to run it.
 - audit: audit:BDC-S3-016:noticed
 - proposition: sha256:a0a8328e48ab25d327a792962eb70ebbdebc8cdb608b27528d46b7e623b26df5
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** table health, future play, schedule flexibility.
 - audit: audit:BDC-S3-016:values
 - proposition: sha256:38131cf45972c2324689b621d751fe578df0c8bab7a7411dbe4b82daed787b01
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon offered a mulligan on a painful memory if needed, deferred to the player about their own story, then canceled the night's event rather than forcing the timetable.
 - audit: audit:BDC-S3-016:intervention
 - proposition: sha256:64cb24c1c333d6149dff14c65feb3aa2746a48c38b8b70d38a880d45f1d47b11
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** Players accepted postponement and explicitly suggested returning to the game later.
 - audit: audit:BDC-S3-016:observed_result
 - proposition: sha256:957105f8d3aea88e267048b27c1f828312575f4cd62e08e99782cd067bdb3438
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** A schedule coordinates play; it does not outrank the humans playing. Cancel or defer content when the current table state would make running it destructive.
 - audit: audit:BDC-S3-016:reusable_judgment
 - proposition: sha256:3796f667e321481cc6f8e28e69112d3f036363f98bd5f3a83c1e8a507e768c6c
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1569-L1587, BCS-000045:L1880-L1884
@@ -1870,9 +1876,12 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1569-L1587: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L1880-L1884: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1569-L1587: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L1880-L1884: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: None
+- Both locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current lines are season dates and the opening day list, not the August 4 cancellation.
+- Representation drift is not established. The Discord lines do not repair the citations.
 
 ### Semantic review questions
 
@@ -2244,37 +2253,37 @@ Legacy confidence: high.
 **Situation.** A dangerous tree encounter was planned, but the available player count was uncertain.
 - audit: audit:BDC-S3-020:situation
 - proposition: sha256:f5758a86869f86086b336939509feef9098feb1d6c4927cb5ab616d3b4fa43f7
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The encounter's combat form depended on enough participants to make the risk and pacing work.
 - audit: audit:BDC-S3-020:noticed
 - proposition: sha256:3c64e3f167be08091078bb953fa30a70d7a6670e4e976d638b87beb24c8add99
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** challenge validity, attendance, continuity.
 - audit: audit:BDC-S3-020:values
 - proposition: sha256:1fdc120ab7f42142974f25e296a68b7cd415ce0135c2f3ff2e60c85673f272ee
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Intervention.** Brendon declared in advance that insufficient turnout would convert the event to exploration only and that the fight could be skipped until later.
 - audit: audit:BDC-S3-020:intervention
 - proposition: sha256:6b91c0a2a03fadf15641cb1adf979ba1b43cf0870af70fb4ed06642b5f72af4e
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The world remained explorable without forcing an understrength party into the combat merely because the encounter was scheduled.
 - audit: audit:BDC-S3-020:observed_result
 - proposition: sha256:3d84cd9a8805b4be5e6a088888214a03b2e2ffc3d0d239f29e43f8a40cf53a9c
-- semantic status: UNVERIFIED
+- semantic status: CONTEXT_CHANGES_INTERPRETATION
 - flags: CAUSALITY_CLAIM, NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** Treat encounter mode as conditional on the table state. If the group cannot support the intended challenge, preserve exploration/information and defer the fight.
 - audit: audit:BDC-S3-020:reusable_judgment
 - proposition: sha256:de5f63025374443e46596bd503d3d18bae85842726285a7a318f2cf7b360d571
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L2802-L2815
@@ -2326,8 +2335,11 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L2802-L2815: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L2802-L2815: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 740004240600072299
+- Locator is in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current L2802-L2815 is the Ozark Howler, not the tree turnout condition.
+- Representation drift is not established. The Discord lines do not repair the citations.
 
 ### Semantic review questions
 
