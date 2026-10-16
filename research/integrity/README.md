@@ -79,7 +79,7 @@ Therefore the bounded forensic result is:
 - current cited support: `SUPPORT_NOT_FOUND`;
 - representation drift: **not established**.
 
-The live Discord message itself is reconstructable from the canonical S3 harvest and its projection, and it carries Brendon's confirmed immutable author ID. Semantic reviews are the `BDC-S3-*-review.md` files in this directory. The prep chains were not repaired from the Discord messages. Contrast notes are `CF-01-dependency.md`, `CF-02-dependency.md`, and `phase2-dependency.md`. `BDC-S3-005-later-play.md` finds no demonstrated later effect of the July 26 trial-versus-allegiance limit. Twelve cases remain `UNVERIFIED`.
+The live Discord message itself is reconstructable from the canonical S3 harvest and its projection, and it carries Brendon's confirmed immutable author ID. Semantic reviews are the `BDC-S3-*-review.md` files in this directory. The prep chains were not repaired from the Discord messages. Contrast notes are `CF-01-dependency.md`, `CF-02-dependency.md`, and `phase2-dependency.md`. `BDC-S3-005-later-play.md` finds no demonstrated later effect of the July 26 trial-versus-allegiance limit. Eight cases remain `UNVERIFIED`.
 
 ## Markdown and JSONL
 

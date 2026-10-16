@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:2cdd7bdc85a4d16d41b1c4213e8c9a768ab27d683f994309f62d2708cbc737bb", "packet_state_sha256": "sha256:1a6fcc9400fede80fe096d7098d1142962c884ec24d653ae365fa38d665b753a", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:b842f3ee93422322395d8ba1966f69ff3f442af11dc45fd75b44276c39e55db8", "packet_state_sha256": "sha256:c97b30e5a354de9ab09097666f068ba2db745a1acf1a314132d9480450cabcdb", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -1364,37 +1364,37 @@ Legacy confidence: high.
 **Situation.** PvP conflict emerged in a persistent social game where players could otherwise attempt many actions.
 - audit: audit:BDC-S3-012:situation
 - proposition: sha256:eb2e0de99105ecaf0d0a1e16a01654f8d77c4761f569b801c02116f16fbd0d0e
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** Treating unwanted PvP as an ordinary contested check would make a safety boundary depend on dice.
 - audit: audit:BDC-S3-012:noticed
 - proposition: sha256:7bc336787642eb824361bdee7296a7bd25bc3e8bdfcb02c4ba6cfeb29a2a4ea1
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** consent, player control, fair adjudication.
 - audit: audit:BDC-S3-012:values
 - proposition: sha256:4186edb600faba0f4daca2f80d0eb5808a3c7279cf6f3f75b2a206d95429474e
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon established that PvP required both players' consent plus a DM, then later applied the rule by refusing even to roll whether one PC could physically stop another when consent had not been granted.
 - audit: audit:BDC-S3-012:intervention
 - proposition: sha256:c85ac8bf542932019103f6dbe31386068f98bb40a2a85241f457cb1b7069761c
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** The scene proceeded through allowed actions such as following rather than converting the dispute into unauthorized PvP.
 - audit: audit:BDC-S3-012:observed_result
 - proposition: sha256:0bc86042853576a7be3fb8652fd1a490ca4c74325a96df9445d383a53eb10709
-- semantic status: UNVERIFIED
+- semantic status: CONTEXT_CHANGES_INTERPRETATION
 - flags: none
 
 **Reusable judgment.** Some table boundaries are preconditions for adjudication, not modifiers to it. If consent is absent, do not roll to see whether the prohibited interaction happens.
 - audit: audit:BDC-S3-012:reusable_judgment
 - proposition: sha256:5fa252f259c530ee4f5ef0bd057be626ca45df50e239e8926e470b40d34eb4d9
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579
@@ -1453,8 +1453,10 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1576-L1579: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 737751675762114581
+- L1576-L1579 was already inspected. Current text is the general Roanoke description, not the PvP rule.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -1473,37 +1475,37 @@ Legacy confidence: high.
 **Situation.** Brendon was helping reason through who could serve as a witness in a conspiracy/trial thread and realized his DM knowledge could determine another player's involvement.
 - audit: audit:BDC-S3-013:situation
 - proposition: sha256:3b08c0a82e3e84fe950672c2a0e8d58c549448ec8bd99cc0f78dad1a99abad19
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** His meta-level problem solving was starting to substitute for the player's own decision.
 - audit: audit:BDC-S3-013:noticed
 - proposition: sha256:875f0fc8004710c86f62a830f6afd006ebe225ac018a7405139980e0c2eeb89b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What mattered.** agency, information boundaries, immersion.
 - audit: audit:BDC-S3-013:values
 - proposition: sha256:2275f9798e06388d82fbdc4630f45180e6f9bb0088aa2431f185a250ae6113ed
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** He stopped the meta-solving, explicitly called it a slippery slope, and put the choice to Web's player instead.
 - audit: audit:BDC-S3-013:intervention
 - proposition: sha256:ed9d2c8f51f42f5050d164b543e39cf43868fc3ada2a4555c2ab67796c3dea84
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The player answered for the character and the channel returned to RP-only mode.
 - audit: audit:BDC-S3-013:observed_result
 - proposition: sha256:0d8e9835c686de6d0dde7d5ca8d076db7f153783955e8b0730e98358fd802247
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** Use DM knowledge to maintain the world, not to solve player decisions. When you notice yourself optimizing a player's move from behind the screen, hand the decision back.
 - audit: audit:BDC-S3-013:reusable_judgment
 - proposition: sha256:ffac88bd0f6943e94226a37e81ae484038b4a3149b3de1b3270c58b7eca80b65
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1644-L1647
@@ -1545,8 +1547,11 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1644-L1647: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1644-L1647: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 737569808396058654
+- Locator is in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current L1644-L1647 is subplot through-lines, not the witness exchange.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -1565,37 +1570,37 @@ Legacy confidence: high.
 **Situation.** A player proposed stacking effects to create a visually spectacular oversized battlefield creature.
 - audit: audit:BDC-S3-014:situation
 - proposition: sha256:34e102d05b75ddd1616361c989b2770742d6b649cdf0d6caf8b3a7a547b804c5
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The proposal was exciting but its mechanical implications were unclear and approving it would change precedent.
 - audit: audit:BDC-S3-014:noticed
 - proposition: sha256:1b51728946da0b9de7bafdcf665ab327ea14afdc40c590d041db567bd6774a69
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What mattered.** coherence, rules consistency, co-DM alignment, player creativity.
 - audit: audit:BDC-S3-014:values
 - proposition: sha256:b4abda72ac597fd443291bf359d9a9a38dfcdfd4364994266d9af7fd792c1c06
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon expressed enthusiasm for the image but withheld approval pending rules research and Noah's input, weighting the answer toward no because it conflicted with established gameplay.
 - audit: audit:BDC-S3-014:intervention
 - proposition: sha256:cef98edc51e83738bd8c7acf3e28342405d8ca580da0f6778e01624076befa7b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: CAUSALITY_CLAIM, NEGATIVE_OR_ABSENCE_CLAIM
 
 **Observed result.** The player accepted the ruling without the cool idea being treated as automatically valid.
 - audit: audit:BDC-S3-014:observed_result
 - proposition: sha256:c141b2472fba8047b0dd7e200139440bb1075724c4eb10b682980f6b5dad750d
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** Reward creativity by seriously considering it, not by automatically approving it. Check implications, precedent, and shared-GM consistency before changing the world to fit the image.
 - audit: audit:BDC-S3-014:reusable_judgment
 - proposition: sha256:a9b0786338c5983d5d2d845aa1d73372be0f617dce471219fe328369b0b9812d
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579
@@ -1637,8 +1642,10 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1576-L1579: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 746496793772163183
+- L1576-L1579 was already inspected. It is not the creature-size answer.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -1657,37 +1664,37 @@ Legacy confidence: high.
 **Situation.** A dangerous sequence caused distress, and players questioned whether the campaign's pressure was becoming harmful or unfair.
 - audit: audit:BDC-S3-015:situation
 - proposition: sha256:c6c398a7a92393f4de3abfc8cbfdb95973143e645453e511b4f52c5ea8c1668d
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: CAUSALITY_CLAIM
 
 **What Brendon noticed.** The danger itself fit the campaign's intended pressure, but the fictional signaling had not made the lethality legible enough.
 - audit: audit:BDC-S3-015:noticed
 - proposition: sha256:7fd25a3617f81898559595de1b02411b5ec4500365f756ed914be3950f76c4a0
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** challenge, trust, telegraphing, player experience.
 - audit: audit:BDC-S3-015:values
 - proposition: sha256:1c8a19ef4cb67ebe7e79b592e56d4d2a354e8628cd3e248182cc42666c533eaf
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon kept the legitimate consequence, acknowledged that he should have signaled the danger better through RP, and shifted to transparent discussion of intent.
 - audit: audit:BDC-S3-015:intervention
 - proposition: sha256:344861d9e77ad8e90b6fb43f38b441d35919b3f1d656cf2ab21a7d7e7419ccd1
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The conversation moved from arguing the outcome toward rebuilding trust and clarifying what kind of pressure the campaign was trying to create.
 - audit: audit:BDC-S3-015:observed_result
 - proposition: sha256:9d8105b21d9885c55c082ae83ab0671efb81d427110bfd590de6c5c80e2ad16f
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** If a dangerous outcome surprises players for the wrong reason, diagnose the information failure. Improve future telegraphing before deciding that the consequence itself must be undone.
 - audit: audit:BDC-S3-015:reusable_judgment
 - proposition: sha256:ba26f5f1c47c7ef277f018ff7acfd3eb613f2c83a41b6f5e7c2099d78bf3928a
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** BCS-000045:L4113-L4124
@@ -1737,8 +1744,11 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L4113-L4124: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L4113-L4124: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: None
+- Locator is in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current L4113-L4124 is London atmosphere and paste-up instructions, not the August 4 discussion.
+- Representation drift is not established.
 
 ### Semantic review questions
 

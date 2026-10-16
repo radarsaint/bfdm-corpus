@@ -1,19 +1,7 @@
-# Phase 2 dependency notes
+## Consent, knowledge, and spectacle
 
-This file does not change PR #28 and does not add a rule to Kit. Statuses here are research notes, not audit verdicts.
+Touched by BDC-S3-012, BDC-S3-013, BDC-S3-014, and BDC-S3-015. Not a certified contrast.
 
-## Prepared content and the state of the table
+He restates that PvP needs both players and a DM, and he refuses to roll one attempt to stop another character. Minutes later he calls a contested roll to block a door. The "do not roll" rule is said and not kept for that block. He also catches himself using Web's missing memory as a witness tactic, names metagaming, and lets the player answer. That handback is one moment. Separately, he wants a giant-creature image, will not approve it without Noah, and the player accepts the wait. After Wren's player says the game is trying to kill them, he keeps a crit in his account of it and says he should have signaled the danger better. No later scene was inspected in which the signaling actually changed.
 
-Touched by BDC-S3-001, BDC-S3-003, BDC-S3-016, and BDC-S3-020. Untested as a reusable rule.
-
-He sometimes says prepared play can wait. On August 9 he offers a break and names a fail condition; the players go anyway. On August 21 he says not to take a depleted party into a preplanned boss and offers other shapes; the delivered scene is not in the inspected lines. On August 4 he states that a low turnout would make the tree exploration only; later play reaches the tree without recording that the condition fired. The same morning, after a player leaves and he says he cannot DM, he cancels the hunt. That cancellation is the one demonstrated stop.
-
-Supported: one cancellation, and three stated options. Weakened: the idea that a declined hook was shown advancing to failure, or that encounter mode was shown changing because of turnout. Untested: a general rule that prepared content yields whenever the table is tired, short, or depleted.
-
-## Player investment and DM control
-
-See `research/integrity/CF-02-dependency.md`. Still untested. BDC-S3-011 is an apology. BDC-S3-008 is a returned invitational used once, with the DM keeping the authority to refuse.
-
-## Handwaves and spell limits
-
-See `research/integrity/CF-01-dependency.md`. The proposed contrast is unsupported.
+Supported as statements: a consent rule, one stopped suggestion, one withheld spectacle, one admission about telegraphing. Weakened: consent as something he never then rolled, and telegraphing as a demonstrated fix. Untested: either idea as a reusable practice.
