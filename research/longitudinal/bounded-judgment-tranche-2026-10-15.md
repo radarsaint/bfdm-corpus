@@ -127,6 +127,6 @@ The v1 prep locator for this case is the broken BCS-000045 chain on draft PR #38
 
 **Status.** The diagnosis and the moved finale are `VERIFIED_NARROW` as announcements. The next season's result: `UNPROVEN`. `NOT_CONSUMED`.
 
-## What Kit is allowed to receive
+## What a runtime may consult
 
-Only BJ-001, BJ-002, BJ-003, BJ-004, and BJ-005, and only when a player line matches the situation. BJ-004 is also the case where "skip the prepared fight" is the wrong simplification. The runtime copy lives in `dnd-solo` and names these ids. The other cases stay visible here so a rejected or unfinished reading is not deleted.
+BJ-001, BJ-002, BJ-003, BJ-004, and BJ-005 are the only records eligible to be pinned. Eligibility is not injection. A player sentence does not establish the situation. BJ-004 does not order a fight to be run or skipped: the window does not show which encounter was played. The other records stay in this file so a rejected or unfinished reading is not deleted. Nothing here is a standing practice.
