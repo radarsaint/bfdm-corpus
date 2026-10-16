@@ -87,7 +87,7 @@
         "project_id": "roanoke-s5-legends",
         "relation": "BELONGS_TO_PROJECT",
         "confidence": "STRONG",
-        "basis": "The filename says S5 Materials Draft. Owner is darknessemerald, so this is not recorded as Brendon's craft rules.",
+        "basis": "The filename says S5 Materials Draft. Drive file owner at capture was darknessemerald. Authorship is the owner attestation, not that file owner.",
         "support_refs": [
           "BCS-000195"
         ]

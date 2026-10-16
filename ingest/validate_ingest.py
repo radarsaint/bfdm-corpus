@@ -224,8 +224,20 @@ def validate_sqlite(repo: Path, errors: list[str], warnings: list[str]) -> set[s
             WHERE attribution_basis_kind = 'owner_attestation'
             """
         ).fetchall()
-        if len(attested) != 171:
-            fail(errors, f"SQLite owner-attestation rows: {len(attested)}; expected 171")
+        catalog_ids = set()
+        catalog_path = repo / "evidence" / "catalog.jsonl"
+        for line in catalog_path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if row.get("attribution_basis_kind") == "owner_attestation":
+                catalog_ids.add(row["corpus_id"])
+        attested_ids = {row[0] for row in attested}
+        if attested_ids != catalog_ids:
+            missing = sorted(catalog_ids - attested_ids)
+            extra = sorted(attested_ids - catalog_ids)
+            fail(errors, "SQLite owner-attestation rows do not match the catalog: "
+                 f"missing {missing[:10]} extra {extra[:10]}")
         for corpus_id, status, copyright_owner, creator, archival_status in attested:
             if status != "BRENDON":
                 fail(errors, f"{corpus_id}: index authorship_status {status!r} is not BRENDON")

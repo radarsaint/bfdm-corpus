@@ -52,10 +52,15 @@ class OwnerAttestationTest(unittest.TestCase):
 
     def test_inventory_count(self):
         records = self.report["records"]
-        self.assertEqual(self.report["before_unknown_authorship"], 171)
-        self.assertEqual(self.report["records_corrected"], 171)
-        self.assertEqual(len(records), 171)
-        self.assertEqual(len({row["corpus_id"] for row in records}), 171)
+        counted = len(records)
+        self.assertEqual(self.report["before_unknown_authorship"], counted)
+        self.assertEqual(self.report["records_corrected"], counted)
+        self.assertEqual(len({row["corpus_id"] for row in records}), counted)
+        catalog = [
+            json.loads(line) for line in (ROOT / "evidence" / "catalog.jsonl").read_text().splitlines()
+            if line.strip() and json.loads(line).get("attribution_basis_kind") == "owner_attestation"
+        ]
+        self.assertEqual({row["corpus_id"] for row in catalog}, {row["corpus_id"] for row in records})
 
     def test_attested_records_are_brendon_and_archival_gaps_stay_gaps(self):
         self.assertEqual(self.result["integrity_check"], "ok")
@@ -78,6 +83,9 @@ class OwnerAttestationTest(unittest.TestCase):
                 self.assertEqual(authorship["status"], "BRENDON")
             catalog = catalog_row(corpus_id)
             self.assertEqual(catalog["authorship"], "BRENDON")
+            policy = (catalog.get("context_policy") or "").casefold()
+            self.assertNotIn("not brendon", policy)
+            self.assertNotIn("another dm", policy)
             self.assertEqual(catalog["creator"], "Brendon Faulkner")
             self.assertEqual(catalog["copyright_owner"], "Brendon Faulkner")
             self.assertNotEqual(catalog["authorship"], "UNKNOWN")

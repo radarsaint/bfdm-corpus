@@ -86,7 +86,7 @@
         "project_id": "roanoke-s4",
         "relation": "BELONGS_TO_PROJECT",
         "confidence": "STRONG",
-        "basis": "The text is an Empire City aftermath: rebuilding Hampstead and the Speaker's return to named people. Owner is not Brendon.",
+        "basis": "The text is an Empire City aftermath: rebuilding Hampstead and the Speaker's return to named people. The Drive file owner is not the authorship record.",
         "support_refs": [
           "BCS-000185"
         ]
