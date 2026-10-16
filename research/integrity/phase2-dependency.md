@@ -1,7 +1,7 @@
-## Consent, knowledge, and spectacle
+## Steering, skips, and announced selectors
 
-Touched by BDC-S3-012, BDC-S3-013, BDC-S3-014, and BDC-S3-015. Not a certified contrast.
+Touched by BDC-S3-002, BDC-S3-006, BDC-S3-007, and BDC-S3-010.
 
-He restates that PvP needs both players and a DM, and he refuses to roll one attempt to stop another character. Minutes later he calls a contested roll to block a door. The "do not roll" rule is said and not kept for that block. He also catches himself using Web's missing memory as a witness tactic, names metagaming, and lets the player answer. That handback is one moment. Separately, he wants a giant-creature image, will not approve it without Noah, and the player accepts the wait. After Wren's player says the game is trying to kill them, he keeps a crit in his account of it and says he should have signaled the danger better. No later scene was inspected in which the signaling actually changed.
+When asked for the agenda after card talk, he points at the Chinnokin thread and a visitor already in the fiction. After a rite, he skips the walk back and the table agrees. He offers fast shopping or a later scene; the purchase itself is not completed in the lines. He announces that the town's internal or external focus will decide the day's problem. The announcement is not followed, in the inspected lines, by that choice happening.
 
-Supported as statements: a consent rule, one stopped suggestion, one withheld spectacle, one admission about telegraphing. Weakened: consent as something he never then rolled, and telegraphing as a demonstrated fix. Untested: either idea as a reusable practice.
+Supported: one redirect, one agreed skip, two offers. Weakened: any of these as the cause of later play, except the skip, which is immediate. Untested: a practice of always reconnecting old threads, always cutting low-value minutes, or always letting attention pick the scene.

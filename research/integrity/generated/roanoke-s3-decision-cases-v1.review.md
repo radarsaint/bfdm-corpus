@@ -1,5 +1,5 @@
 <!-- BFDM_INTEGRITY_PACKET_META
-{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:b842f3ee93422322395d8ba1966f69ff3f442af11dc45fd75b44276c39e55db8", "packet_state_sha256": "sha256:c97b30e5a354de9ab09097666f068ba2db745a1acf1a314132d9480450cabcdb", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
+{"dependency_commit": "bdfbbf1a34e142b63b7e752033c67d5b7176c9b2", "evidence_dependency_summary": {"bcs_000045_metadata_sha256": "9a6721f0af2bcdadfcecc1ae943f882809befef823aa4f2db5d21a988aef4055", "bcs_000045_sha256": "adb0a8dbfe38fea3aa1c9eebf09a4a1f9c577bbd3c478b294454305c2488e166", "discord_s3_database_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d", "identity_assertion_digest": "sha256:24186e4a5215e2d03a38b165067b20cb3ac12b948d4fcc87971d08b2607ea1c9"}, "packet_payload_sha256": "sha256:0653e72b7ff5461a3133995bef641343f8497e309208bcfd23f90b733ba233d6", "packet_state_sha256": "sha256:1debaafb9a62aa9ce7cc10d9c9a2813697d080e22f7f148c4e6bb56698e99fa1", "proposition_count": 120, "schema": "bfdm_integrity_review_packet/v1", "tranche": "research/roanoke-s3/decision-cases-v1.jsonl", "unit_count": 20}
 -->
 
 # Roanoke S3 decision cases v1 — semantic review packet
@@ -134,37 +134,37 @@ Legacy confidence: high.
 **Situation.** Play had drifted and the group asked what was on the agenda.
 - audit: audit:BDC-S3-002:situation
 - proposition: sha256:c2027bf361eb8bd45ad62b5d6cec6ab017798f0c792cf1e858d9e165055b783c
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The game needed direction, but an existing Chinnokin thread was already alive in the fiction.
 - audit: audit:BDC-S3-002:noticed
 - proposition: sha256:7c9c30461b8983dae88001fc6e14b0d2b9a0654b48cc283adab464739792a900
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** momentum, planned through-line, continuity.
 - audit: audit:BDC-S3-002:values
 - proposition: sha256:a7c8cb356af21773ead54431f4c1c6a69228606a3bd3f83e38f67877ba956d18
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon chose the Chinnokin storyline as the fastest way back toward planned content, then pointed to the in-world visitor at Fathoms Bridge instead of inventing a new quest.
 - audit: audit:BDC-S3-002:intervention
 - proposition: sha256:790e7c2113443a34c7c5b53d08be8f0203fc9b3c404d886c2935d39150896d21
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** Players immediately recognized the thread and began discussing how to pursue it.
 - audit: audit:BDC-S3-002:observed_result
 - proposition: sha256:3e43e4c6f5aff0453bdd7a932cecc18fdf4f883dcdb261f2c8cb72b2205d7289
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** When play drifts, steer first through an unresolved thread already present in the world. Prefer reconnection over replacement.
 - audit: audit:BDC-S3-002:reusable_judgment
 - proposition: sha256:469d8a20575b2be3da2b97de2c8d887032b6ca7c9b91bf1389660c5f497fe086
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Claimed prep evidence.** BCS-000045:L1636-L1647, BCS-000045:L2821-L2825
@@ -246,9 +246,12 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1636-L1647: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L2821-L2825: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1636-L1647: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L2821-L2825: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 740653504682786826
+- Both locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current lines name a Chinnokin conflict and a day-19 encounter. They do not record the August 5 redirect.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -628,37 +631,37 @@ Legacy confidence: high.
 **Situation.** A scene had reached the point where the party only needed to return to town, while real-world session time was running short.
 - audit: audit:BDC-S3-006:situation
 - proposition: sha256:0dfc3737921f80891bb35254f2a243c4bd890546f535e04d31ebe4d63b9a100f
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The trip no longer promised a meaningful choice or payoff proportional to the time it would consume.
 - audit: audit:BDC-S3-006:noticed
 - proposition: sha256:b5d39e6171220170a91c9ba32aff7a6b4f0eb748b3abbbeea3bf8eebf92c106d
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** momentum, time, scene value.
 - audit: audit:BDC-S3-006:values
 - proposition: sha256:91282c401a50533745bde179b4e18fc2ac85278e0f2cbe2e6ae037865d671e20
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon handwaved the trip back to town specifically for time concerns.
 - audit: audit:BDC-S3-006:intervention
 - proposition: sha256:9df883440e41574fdba33968e4d86fe591667ff5e0a57b77f40e5ad206ebd95b
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** Players immediately agreed and play moved on.
 - audit: audit:BDC-S3-006:observed_result
 - proposition: sha256:a903bdc39c701ec7a8a34b40b2e3a361b060c33c0daf31204ced3104f4b72894
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Reusable judgment.** Skip transitions once their remaining play value is lower than the time they consume. Persistent worlds do not require simulating every minute.
 - audit: audit:BDC-S3-006:reusable_judgment
 - proposition: sha256:5418dd37fabac9173cb4ac454da0cadbe020b8e39e6dec6e4eb714f5805c451d
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L4104-L4104, BCS-000045:L4124-L4124
@@ -708,9 +711,12 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L4104-L4104: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L4124-L4124: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L4104-L4104: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L4124-L4124: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 745533785805815829
+- Both locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current L4104 is a design note about table time. L4124 is the book structure. Neither is this trip.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -729,37 +735,37 @@ Legacy confidence: high.
 **Situation.** A player wanted routine healing potions while Brendon had only a few minutes available.
 - audit: audit:BDC-S3-007:situation
 - proposition: sha256:01d89317560c97982a7ee1bf4ee71cb0632941b2596d8e8d6905cbfa11151ddf
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **What Brendon noticed.** The transaction mattered to inventory, but the player might or might not value the shopping interaction itself.
 - audit: audit:BDC-S3-007:noticed
 - proposition: sha256:63c9bc4fcab33f7d5c6584efca0fa3c44aeddb37fa9992f5f1fdb2b316b8ce22
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What mattered.** access, player preference, time, immersion.
 - audit: audit:BDC-S3-007:values
 - proposition: sha256:3dbec057d1c064e01b290cff13cb8ecbc2a37ced826c993f072648c8d426e0f4
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Intervention.** Brendon offered a fast handwaved purchase at listed prices now, or a full shopping interaction later.
 - audit: audit:BDC-S3-007:intervention
 - proposition: sha256:ab25120292c635d90358707bedd1ea680268740c9e4bff0245401297bcb6fcfb
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The player chose the simple transaction and got the items without consuming a full scene.
 - audit: audit:BDC-S3-007:observed_result
 - proposition: sha256:55fcce169fd94ba8d11a493a33d3d0b0c19b33f9d3a38fe377d79de9a65702b9
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Reusable judgment.** For low-stakes procedures, offer resolution at the level of detail the player actually values. Do not confuse simulation detail with roleplay quality.
 - audit: audit:BDC-S3-007:reusable_judgment
 - proposition: sha256:689674ed7bc8cc09ca368f64adff89a1c48c82dfd6da67fa1b6bcf1ef83036f6
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1576-L1579
@@ -801,8 +807,10 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1576-L1579: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1576-L1579: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: None
+- L1576-L1579 was already inspected. It is the general Roanoke description, not this shopping offer.
+- Representation drift is not established.
 
 ### Semantic review questions
 
@@ -1146,37 +1154,37 @@ Legacy confidence: high.
 **Situation.** Roanoke contained simultaneous internal political problems and external threats, and Brendon was not running a single fixed main event that day.
 - audit: audit:BDC-S3-010:situation
 - proposition: sha256:72f8bd1a365d5936cb2bdff06971e0cd6008376669832c2b01c02ba4fa416196
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **What Brendon noticed.** The group had already generated competing priorities through earlier decisions.
 - audit: audit:BDC-S3-010:noticed
 - proposition: sha256:c4223221d55d9ca117eb84803fb14b51ea5c61ef6616f3cadc81d2e46a1a510d
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **What mattered.** consequences, collective attention, world responsiveness.
 - audit: audit:BDC-S3-010:values
 - proposition: sha256:13322489fde0bfbd111737de523f7fdf46526823762091c62fd0d1b9406d41fb
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Intervention.** Brendon stated that if the town focused on internal problems, an internal problem would arise; if it focused externally, the day's pressure would emerge there instead.
 - audit: audit:BDC-S3-010:intervention
 - proposition: sha256:63996510072314dc6f922d45446485e3145d8b161d76a72a711636139e9560b9
-- semantic status: UNVERIFIED
+- semantic status: PARTIALLY_SUPPORTED
 - flags: none
 
 **Observed result.** The group's own focus became the selector for which prepared pressure moved on-screen.
 - audit: audit:BDC-S3-010:observed_result
 - proposition: sha256:6b431aac787e86d8cd005db651dc5bdba6c6120b604317f78b3de444edd49fb7
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: none
 
 **Reusable judgment.** When several legitimate pressures exist, let sustained player attention decide which becomes foreground. Do not force every prepared problem onto the stage at once.
 - audit: audit:BDC-S3-010:reusable_judgment
 - proposition: sha256:811f2e53fc72c2e9cb3490113b9a695e6def087ae4e317912a68d1cb76d2f7c2
-- semantic status: UNVERIFIED
+- semantic status: SCOPE_OVERCLAIMED
 - flags: NEGATIVE_OR_ABSENCE_CLAIM
 
 **Claimed prep evidence.** BCS-000045:L1630-L1636, BCS-000045:L2821-L2838
@@ -1249,9 +1257,12 @@ Bounded same-channel context:
 
 ### Mechanical warnings / lineage
 
-- BCS-000045:L1630-L1636: UNRESOLVED; current support UNRESOLVED; representation drift established false.
-- BCS-000045:L2821-L2838: UNRESOLVED; current support UNRESOLVED; representation drift established false.
+- BCS-000045:L1630-L1636: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
+- BCS-000045:L2821-L2838: ORIGINAL_REPRESENTATION_UNAVAILABLE; current support SUPPORT_NOT_FOUND; representation drift established false.
 - representative-message match: 742806909660168193
+- Both locators are in the first case text at 22c1b645, which has no BCS-000045 file.
+- Current lines are the hag setup and a multi-day calendar, not the attention rule.
+- Representation drift is not established.
 
 ### Semantic review questions
 
