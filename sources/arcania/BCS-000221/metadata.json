@@ -1,0 +1,81 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000221",
+  "project": "Arcania",
+  "project_slug": "arcania",
+  "title": "\ud835\udd3e\ud835\udd66\ud835\udd5a\ud835\udd55\ud835\udd56 \ud835\udd65\ud835\udd60 \ud835\udd4b\ud835\udd59\ud835\udd56 \ud835\udd58\ud835\udd60\ud835\udd55\ud835\udd64",
+  "source_role": "setting_document",
+  "source_kind": "google_drive_presentation",
+  "document_family_id": "amber-mound",
+  "original_filename": "\ud835\udd3e\ud835\udd66\ud835\udd5a\ud835\udd55\ud835\udd56 \ud835\udd65\ud835\udd60 \ud835\udd4b\ud835\udd59\ud835\udd56 \ud835\udd58\ud835\udd60\ud835\udd55\ud835\udd64",
+  "mime_type": "application/vnd.google-apps.presentation",
+  "created_at": "2025-10-14T23:40:55.843Z",
+  "modified_at": "2026-07-12T00:37:48.471Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: chasingghosts1999 (chasingghosts1999@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1mMZksLmve8FLobuTklxuAVG-eTdkWPJRWL8R-IkHdm4",
+      "url": "https://docs.google.com/presentation/d/1mMZksLmve8FLobuTklxuAVG-eTdkWPJRWL8R-IkHdm4/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/arcania/BCS-000221/source.md",
+      "sha256": "e759be72a4f23280a442565969458c4363cdd851740fa074f0048ba7998c1deb",
+      "mime_type": "text/markdown",
+      "size_bytes": 17988
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text or Markdown export to source.md. A separate DOCX export was not stored.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

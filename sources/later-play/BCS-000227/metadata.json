@@ -1,0 +1,88 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000227",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "The Vigil.pdf",
+  "source_role": "module",
+  "source_kind": "google_drive_pdf",
+  "document_family_id": "vigil-of-siege-perilous",
+  "original_filename": "The Vigil.pdf",
+  "mime_type": "application/pdf",
+  "created_at": "2020-07-04T00:53:15.747Z",
+  "modified_at": "2020-05-04T22:07:04.000Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: Brendon Faulkner (email not returned)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1uLOY594gwD3Kri4fNmQ4Zq4FsodOScNC",
+      "url": null
+    }
+  ],
+  "representations": [
+    {
+      "kind": "ORIGINAL_FILE",
+      "path": "sources/later-play/BCS-000227/original/source.pdf",
+      "sha256": "ba1f35cc015a99844bf336b434b06ae8a718bb67cb5a4217e76ef6a011d1e49a",
+      "mime_type": "application/pdf",
+      "size_bytes": 1688335
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000227/source.md",
+      "sha256": "865d2646b45de61a64e2688793db319cdb248a14504a82b532b896d3cc2505ab",
+      "mime_type": "text/markdown",
+      "size_bytes": 5906
+    }
+  ],
+  "normalization": {
+    "method": "Original PDF bytes downloaded. source.md is pypdf text extraction. Layout and images are not reproduced.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_TEXT_EXTRACTION",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "ORIGINAL_FILE_PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

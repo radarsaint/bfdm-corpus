@@ -1,0 +1,81 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000250",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Arcania \u2014 Empire City Founding Lore",
+  "source_role": "setting_paragraph",
+  "source_kind": "google_drive_native",
+  "document_family_id": "empire-city-founding",
+  "original_filename": "Arcania \u2014 Empire City Founding Lore",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-05-25T22:26:44.241Z",
+  "modified_at": "2026-10-13T20:28:15.231Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: Brendon Faulkner (befaulkner@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "14r_9Sq46QSgswZik0qaBv_xZeXxKuxfNZkTIdF6VU0I",
+      "url": "https://docs.google.com/document/d/14r_9Sq46QSgswZik0qaBv_xZeXxKuxfNZkTIdF6VU0I/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000250/source.md",
+      "sha256": "e6728e018a10abb8f48eb32bc9494fbe6f6725da8d04ad90fe948d10d11f680a",
+      "mime_type": "text/markdown",
+      "size_bytes": 937
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text or Markdown export to source.md. A separate DOCX export was not stored.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

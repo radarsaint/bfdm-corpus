@@ -1,0 +1,88 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000224",
+  "project": "Empire City",
+  "project_slug": "empire-city",
+  "title": "Highgate hunt club.pdf",
+  "source_role": "module",
+  "source_kind": "google_drive_pdf",
+  "document_family_id": "highgate-hunting-club",
+  "original_filename": "Highgate hunt club.pdf",
+  "mime_type": "application/pdf",
+  "created_at": "2020-07-04T00:53:03.449Z",
+  "modified_at": "2020-05-04T21:52:40.000Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: Brendon Faulkner (email not returned)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1RIKWeCIENCRX5m98Ea5uK5MQd7yN7W34",
+      "url": null
+    }
+  ],
+  "representations": [
+    {
+      "kind": "ORIGINAL_FILE",
+      "path": "sources/empire-city/BCS-000224/original/source.pdf",
+      "sha256": "9b5cf02198f967d40b35545c7ca8dd9cb5a82af1f44a218ce5c922f6990b40aa",
+      "mime_type": "application/pdf",
+      "size_bytes": 3044898
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/empire-city/BCS-000224/source.md",
+      "sha256": "78d725d424c1e927cc97499d9cf9886ae6cae262a65381b4e916c9a18b55a547",
+      "mime_type": "text/markdown",
+      "size_bytes": 4920
+    }
+  ],
+  "normalization": {
+    "method": "Original PDF bytes downloaded. source.md is pypdf text extraction. Layout and images are not reproduced.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED_TEXT_EXTRACTION",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "ORIGINAL_FILE_PRESERVED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

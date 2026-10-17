@@ -1,0 +1,81 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000233",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "POPULATION OF FORT FELLION",
+  "source_role": "population_sheet",
+  "source_kind": "google_drive_spreadsheet",
+  "document_family_id": "fort-fellion",
+  "original_filename": "POPULATION OF FORT FELLION",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "created_at": "2020-07-11T17:28:57.977Z",
+  "modified_at": "2021-02-01T21:17:42.747Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: jacobtalbot182 (jacobtalbot182@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1PwGily3J7vXyd5luNJ8XXfX0UgnY0FrcpzNLca5SDkI",
+      "url": "https://docs.google.com/spreadsheets/d/1PwGily3J7vXyd5luNJ8XXfX0UgnY0FrcpzNLca5SDkI/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000233/source.md",
+      "sha256": "d388358913da6c02b9fd3bf07d10ed65b632c1b57febb22b77436824c161ec84",
+      "mime_type": "text/markdown",
+      "size_bytes": 54236
+    }
+  ],
+  "normalization": {
+    "method": "Google Sheets current text export. Every returned tab is in source.md as CSV-style text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

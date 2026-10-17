@@ -1,0 +1,694 @@
+{
+  "admitted": [
+    {
+      "corpus_id": "BCS-000196",
+      "drive_id": "1AExoPA7iQpZOgvt1mPmQ1a-B6a6VgPbNy1fQ4jA8P3E",
+      "title": "100 random quick city encounters",
+      "project": "Unresolved",
+      "bytes": 21618,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000197",
+      "drive_id": "1WvzRYmInq_DmD8QYRCP9MVxQGdOqEMgKz2A1EfNo_4M",
+      "title": "5/18/24",
+      "project": "Bastion/Redoubt",
+      "bytes": 9937,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000198",
+      "drive_id": "1Df7sdQle4qSIMU50AhoNxGvnrYBydYywZCZKMt0NA5g",
+      "title": "Coney Island",
+      "project": "Empire City",
+      "bytes": 17142,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000199",
+      "drive_id": "1TS_KZM04enW_kmq6uCU06ChSa_VJK8FhXgZTta0okYs",
+      "title": "Familiar Crimes Report",
+      "project": "Unresolved",
+      "bytes": 14556,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000200",
+      "drive_id": "1maYmGHI43chHHXDD33mO-v_4WlvRS2KBeURTwxMoJYg",
+      "title": "Hampsteed updated info",
+      "project": "Empire City",
+      "bytes": 19625,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000201",
+      "drive_id": "1ld9JILeiJi2t4KXnpD1DWYFXbDjsBc_XCs1VyDb2zLk",
+      "title": "Johnny apple seed.",
+      "project": "Empire City",
+      "bytes": 34695,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000202",
+      "drive_id": "13wsxDVG0H1jtRQlDX6BKvBtqa-J3xpD7as7M0MFjCOs",
+      "title": "Kimmelian",
+      "project": "Empire City",
+      "bytes": 5335,
+      "sibling_drive_id": "1hHvaL6A9HEaWM1AqLsOr0NngkSbxzntj"
+    },
+    {
+      "corpus_id": "BCS-000203",
+      "drive_id": "1Z1ZQHx30Z7dNpDN1A2OvCgnedJLTKXtpwLljS8YmhmI",
+      "title": "Lilia's Ending",
+      "project": "Roanoke",
+      "bytes": 2852,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000204",
+      "drive_id": "18OgfS8Vo-VL-3280aEDTHZ_-k3GDleg-Gv8qsvPrLd4",
+      "title": "Manuscript for anna",
+      "project": "Roanoke",
+      "bytes": 27975,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000205",
+      "drive_id": "1E3ZsL-wnk2nFNUZeQ3M3GfZ3ayAevy09f8uLUjvQfdY",
+      "title": "S4 Jack's. Weapons",
+      "project": "Roanoke",
+      "bytes": 41210,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000206",
+      "drive_id": "184tisei6L42s5SwVf4pbWTRw4MdgWL1Kuaz5yhuRMro",
+      "title": "s4 valentines day one shot.",
+      "project": "Roanoke",
+      "bytes": 4830,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000207",
+      "drive_id": "1CvqyUm74P8OYmAaZdqP7F-m40C5c6cQVsFz0jtA_r9A",
+      "title": "Sacrificing love",
+      "project": "Roanoke",
+      "bytes": 8815,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000208",
+      "drive_id": "1lHeOZyqKo82vLfBVBlDWmism5OCDmcDhH4PSwLRahUQ",
+      "title": "Solo Player Primer",
+      "project": "Unresolved",
+      "bytes": 3844,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000209",
+      "drive_id": "18hvQ0nednA5ibnM2PcO2NSH1NeMdGXXKFflmi1MAhDk",
+      "title": "Starlight Rails Campaign Basic Information",
+      "project": "Unresolved",
+      "bytes": 19906,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000210",
+      "drive_id": "17MGEfajU9Hfzbu9uVn96Iaf4EHDPvZaaDbyeaAVoejc",
+      "title": "Tales from Arcania- Items",
+      "project": "Arcania",
+      "bytes": 45866,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000211",
+      "drive_id": "1Ndha8tgWoMN2YK8DhLPcidTwu9_Aum0pAPhfiN0kRBc",
+      "title": "The Amber-Mound: Master-Doc",
+      "project": "Arcania",
+      "bytes": 9376,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000212",
+      "drive_id": "1P5g7tfuZt73XUmcne4xrTw-jEVr9YEStveK5zI0ovH4",
+      "title": "The catalog",
+      "project": "Empire City",
+      "bytes": 43538,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000213",
+      "drive_id": "1j7hT1c1i_E2RS5drv-0afoYAOGkULDXF3XGmsUO6qgk",
+      "title": "The city and Noir items",
+      "project": "Empire City",
+      "bytes": 15340,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000214",
+      "drive_id": "1BwfyAhGjzNGgUkrF62kkMZEO7qVFSxhaYr2Cynlqdb4",
+      "title": "The Mender's story",
+      "project": "Empire City",
+      "bytes": 2876,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000215",
+      "drive_id": "1P8ioaAIWf8M8nGrfJH20a0UpPp49b9YjO6aB-r_sdos",
+      "title": "The treaty of the wilds.",
+      "project": "Unresolved",
+      "bytes": 4748,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000216",
+      "drive_id": "1JwEXYz7mb-8tazz5_iU5Mj9ZeoNEBcchS35Ol7qdP84",
+      "title": "The Urucokra",
+      "project": "Roanoke",
+      "bytes": 5377,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000217",
+      "drive_id": "1r1OUHeNxVIIueMWtsQ7J5xwL2szoHMa5",
+      "title": "Corrected Homebrewery.pdf",
+      "project": "Roanoke",
+      "bytes": 26770,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000218",
+      "drive_id": "1oXbwcummGVyxPqx0pWBGFyc49RtunTJHne3teo2fhXo",
+      "title": "week 3 resources.",
+      "project": "Roanoke",
+      "bytes": 691,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000219",
+      "drive_id": "1x6U4cTZzOaGz9rzEazt5QiBPBKiadlxREVolvPHoM_I",
+      "title": "Welcome to Tyboria",
+      "project": "Unresolved",
+      "bytes": 83390,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000220",
+      "drive_id": "1g6ZQhzVoAWzFikAoTYJfqUJIyBwMmpgZojidn57tOu0",
+      "title": "Wellsprings phb",
+      "project": "Unresolved",
+      "bytes": 107844,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000221",
+      "drive_id": "1mMZksLmve8FLobuTklxuAVG-eTdkWPJRWL8R-IkHdm4",
+      "title": "\ud835\udd3e\ud835\udd66\ud835\udd5a\ud835\udd55\ud835\udd56 \ud835\udd65\ud835\udd60 \ud835\udd4b\ud835\udd59\ud835\udd56 \ud835\udd58\ud835\udd60\ud835\udd55\ud835\udd64",
+      "project": "Arcania",
+      "bytes": 17988,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000222",
+      "drive_id": "173rSeRdWEA5FqYUrMytMhA7Lq3SsG56fWNq6IZ5C4N8",
+      "title": "Crui's Essence Crafting Spreadsheet",
+      "project": "Roanoke",
+      "bytes": 256249,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000223",
+      "drive_id": "11KM9wyCWoy8zTBasYDj07Elx7C5VRHUV",
+      "title": "Charter.pdf",
+      "project": "Roanoke",
+      "bytes": 4523,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000224",
+      "drive_id": "1RIKWeCIENCRX5m98Ea5uK5MQd7yN7W34",
+      "title": "Highgate hunt club.pdf",
+      "project": "Empire City",
+      "bytes": 4920,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000225",
+      "drive_id": "1MxUWNhFH0nl0kdqq_P1yGq-PL-0popu8",
+      "title": "Lazurus.pdf",
+      "project": "Unresolved",
+      "bytes": 6660,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000226",
+      "drive_id": "1uCmXxATWhujYynnGEqCvr44-5lGHWPjx",
+      "title": "Subclass - Druid - Circle of the Storm - The Homebrewery.pdf",
+      "project": "Unresolved",
+      "bytes": 6714,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000227",
+      "drive_id": "1uLOY594gwD3Kri4fNmQ4Zq4FsodOScNC",
+      "title": "The Vigil.pdf",
+      "project": "Unresolved",
+      "bytes": 5906,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000228",
+      "drive_id": "1bfwIQZSJl0BRMgKOhBuK3atP_pzyOx4pZvpBYCZ1_jU",
+      "title": "calico",
+      "project": "Unresolved",
+      "bytes": 61359,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000229",
+      "drive_id": "1GXjRHth9UCXV_5-3HSqhw3OwV5jMtNf2V3uoo7OUgKM",
+      "title": "Order of Kairo- Collection of Works",
+      "project": "Roanoke",
+      "bytes": 6722,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000230",
+      "drive_id": "1eNjXaRy-RjsGb9i4h9sC-likswy_m0VZ7mckMeibuqk",
+      "title": "player handout",
+      "project": "Roanoke Season 5 / Legends",
+      "bytes": 19693,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000231",
+      "drive_id": "1YGFusYTvS-6B1lMEVsO51hMFocono3-p5AbhbxJ6HGI",
+      "title": "Player's handbook.",
+      "project": "Arcania",
+      "bytes": 688,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000232",
+      "drive_id": "1w5NtyzyzhX6LJTmu3rdqSF6the8e3dr0mSBc3zgVY5Y",
+      "title": "Poor richard's letter",
+      "project": "Roanoke",
+      "bytes": 3435,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000233",
+      "drive_id": "1PwGily3J7vXyd5luNJ8XXfX0UgnY0FrcpzNLca5SDkI",
+      "title": "POPULATION OF FORT FELLION",
+      "project": "Roanoke",
+      "bytes": 54236,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000234",
+      "drive_id": "1JzUhy3WKLAc3OpTlZZyNaAScwHaoX9mul2oAoJcRnOQ",
+      "title": "Pudwudgie Enforcer",
+      "project": "Roanoke",
+      "bytes": 85726,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000235",
+      "drive_id": "1TnZHEIC3TkYMqyolAxbBleLUfq2NAxAA9ETTYe6lmUY",
+      "title": "Rax, Jig - Partners in Chaos Featuring ||Redacted|| >:3",
+      "project": "Unresolved",
+      "bytes": 6248,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000236",
+      "drive_id": "1qyfc7XC0qMIhDIjGb05Ognp-anXofgx8oHQPyCCAQoU",
+      "title": "(OLD) Dungeons & Dragons: The Mortal Trials",
+      "project": "Unresolved",
+      "bytes": 40594,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000237",
+      "drive_id": "1e8SOv_8nenpRnWdVwH_m88RaTlL17yVzyxBTjdwJLIs",
+      "title": "Asari (Mass Effect)",
+      "project": "Unresolved",
+      "bytes": 11995,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000238",
+      "drive_id": "1YXPxljifxzlil-Ksb43LYK3YD0jbhLwo",
+      "title": "Player handouts and backgrounds.pdf",
+      "project": "Arcania",
+      "bytes": 41674,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000239",
+      "drive_id": "1GdV1jwvujK8WX5Z0eaBMCkmWKdBewyW7",
+      "title": "Player handouts.docx",
+      "project": "Unresolved",
+      "bytes": 14221,
+      "sibling_drive_id": "1zHfoUOAxds-Z6EAIylPAzQ7i1TxRUB9Y"
+    },
+    {
+      "corpus_id": "BCS-000240",
+      "drive_id": "1A0TDh8s4QRhji1b6kFlUOm8b-L47rQ88memK6S5vN8E",
+      "title": "Clerrook Subclass",
+      "project": "Unresolved",
+      "bytes": 9939,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000241",
+      "drive_id": "1kQ8hwS44600ZRF-So4vKVi_vM2Q6L2XKvCpMjfMQWTs",
+      "title": "Arcania \u2014 Setting Book Planning Notes",
+      "project": "Arcania",
+      "bytes": 3940,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000242",
+      "drive_id": "1arW3PfeD6kDTGLdfHGS7_v7oTORCOMkZ3D1R4FuepVY",
+      "title": "S4 Char Gen",
+      "project": "Roanoke",
+      "bytes": 7487,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000243",
+      "drive_id": "1ulVL-K6OWwYlL58U6-Jc8o55UsSapoEesCaTt_Aw_xA",
+      "title": "jarvis, balance this class",
+      "project": "Unresolved",
+      "bytes": 9250,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000244",
+      "drive_id": "1MI1PU-AuXmmli1EGj7XQFPnC5hJi52yE4yepdK1KCJs",
+      "title": "Dcc like classes",
+      "project": "Unresolved",
+      "bytes": 5789,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000245",
+      "drive_id": "1w5QR5YiMsyb3I-sv4NOJlhEIGVrJhhH7gK7EGrSWcKE",
+      "title": "S5 crafting",
+      "project": "Roanoke Season 5 / Legends",
+      "bytes": 12665,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000246",
+      "drive_id": "1GEt3IcbRsfbRwmXFGk7xYIMQbdnseL-iXb2RqyOJD8Q",
+      "title": "Manticore fight",
+      "project": "Roanoke",
+      "bytes": 4235,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000247",
+      "drive_id": "1Tih6QGIHfkUmVcrjVjpAPipsaJ1yH0lHlG1kskPyRi4",
+      "title": "KRS Artifacts",
+      "project": "Roanoke",
+      "bytes": 10346,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000248",
+      "drive_id": "12x9hz_mOEGvEf3boTpggrd1xPvnRUoZrHOx7pxzaoSA",
+      "title": "Untitled document",
+      "project": "Roanoke",
+      "bytes": 554,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000249",
+      "drive_id": "13YMPowhu9zAQh3ZN0jrf_ORRCC4W22iIeomQRBUE9Q8",
+      "title": "Roanoke \u2014 Three-Season Historical Note",
+      "project": "Roanoke",
+      "bytes": 114,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000250",
+      "drive_id": "14r_9Sq46QSgswZik0qaBv_xZeXxKuxfNZkTIdF6VU0I",
+      "title": "Arcania \u2014 Empire City Founding Lore",
+      "project": "Empire City",
+      "bytes": 937,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000251",
+      "drive_id": "1cICMcrUkYvrcOzylUcaKrveGGY71JVH4E1JMXR_HN-Y",
+      "title": "Untitled document",
+      "project": "Roanoke",
+      "bytes": 6151,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000252",
+      "drive_id": "1CS0BHuuUGT6K8QD1d62mFkMcAeBuDDV-y4u1cQePj5M",
+      "title": "Untitled document",
+      "project": "Roanoke",
+      "bytes": 679,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000253",
+      "drive_id": "1KKWpjcJs1Bfi-wqjO7gY0BNVuW_CE6tplF4ZWdoETEA",
+      "title": "Roanoke \u2014 Player FAQ Draft",
+      "project": "Roanoke",
+      "bytes": 7069,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000254",
+      "drive_id": "1PN5cqTatq6o9c2vSyfQVriLT4p15NRCnEoL3I6MuIIo",
+      "title": "Untitled document",
+      "project": "Roanoke",
+      "bytes": 177,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000255",
+      "drive_id": "1rmvauuB8RYk9nW8cDyMN11FRrC1nR-U0XEyuLnwa8F4",
+      "title": "Artifact-Hunting RPG \u2014 Brainstorm Conversation Log",
+      "project": "Unresolved",
+      "bytes": 31448,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000256",
+      "drive_id": "1WtXK2UuWqa5YjK5HOk3tvAENRJVyr7SAJpH4t04BuKg",
+      "title": "At War's End \u2014 Three-Act Story Outline",
+      "project": "At War's End",
+      "bytes": 12577,
+      "sibling_drive_id": null
+    },
+    {
+      "corpus_id": "BCS-000257",
+      "drive_id": "1AV4piqqYZHTJFP66_zjhQQwD1zHGaxrhhxZgUquoDOo",
+      "title": "Break down Template.",
+      "project": "Roanoke",
+      "bytes": 249,
+      "sibling_drive_id": null
+    }
+  ],
+  "same_text": [
+    {
+      "drive_id": "1hHvaL6A9HEaWM1AqLsOr0NngkSbxzntj",
+      "corpus_id": "BCS-000202",
+      "reason": "same retrieved text"
+    },
+    {
+      "drive_id": "1zHfoUOAxds-Z6EAIylPAzQ7i1TxRUB9Y",
+      "corpus_id": "BCS-000239",
+      "reason": "same retrieved text"
+    }
+  ],
+  "not_admitted": [
+    {
+      "drive_id": "1oJxfLF66bNPa7NPQjwW6GDzUVjJLRs30PWdvuQatrMU",
+      "reason": "Same week-1 text as BCS-000048 (token overlap 0.98). Different Drive id. No second container."
+    },
+    {
+      "drive_id": "1FU3wM280ZKvRHic9aF4XbSJeFkZ80AWcDZqBM9KBamY",
+      "reason": "Essay on radio, film, and television. Not campaign material."
+    },
+    {
+      "drive_id": "1x7x8Eo2683LcC-oPohu_BUQy9L-amqyDpUeSbmNCCr8",
+      "reason": "Essay on news framing. Not campaign material."
+    },
+    {
+      "drive_id": "1W_f8hohY2jW9d0QmLPy6C8eWbuKy0y4K_oZEaiOhLhU",
+      "reason": "Personal poems. Not campaign material."
+    },
+    {
+      "drive_id": "1MRB4vk13UdbGbaIYX4AWFegHtTyabjxyYuqXdIsAuTY",
+      "reason": "Notes copied from the Wizards of the Coast Mad Mage module. Third-party text was not copied into the repo."
+    },
+    {
+      "drive_id": "1IRulndYy5cmnydgTb1Zh6aavuLNmhrfzkx1LogJrYtU",
+      "reason": "Mad Mage module notes. Third-party text was not copied into the repo."
+    },
+    {
+      "drive_id": "12maW91jrJyVeQLySgQaRyYzDUsEmVln47CFzjoyUIE4",
+      "reason": "Audio-script directory, not a campaign source."
+    },
+    {
+      "drive_id": "1Oa3mMmc9BpxjjVgNyDm_5dlewCwOE4wkQFR3CeFYv88",
+      "reason": "Audio-script index, not a campaign source."
+    },
+    {
+      "drive_id": "175kpAkPhR3-6QDBwiPF4wcMkbxm3o-HxuZJvKHabnuo",
+      "reason": "Audio-library index, not a campaign source."
+    },
+    {
+      "drive_id": "10u_HSRTrhUY9VdTIaKlK3cbhFic8RzgsDlyreqduXFI",
+      "reason": "Audio-library index, not a campaign source."
+    },
+    {
+      "drive_id": "1vO-xNvxHA4m94bgWurKhCxsFiOYMsE_QM-EehUKP2do",
+      "reason": "Personal performance script. Not campaign material."
+    },
+    {
+      "drive_id": "1pJ5kq8fFEG7EsAPNZb-IpIWMXGeOAAM-rfGFht2Pslk",
+      "reason": "Non-campaign fiction script."
+    },
+    {
+      "drive_id": "1RTo_rUKNZqqZY-5BTP6MxKwq727cH0BLeLMrRBKON38",
+      "reason": "Non-campaign fiction. Sequel to Softworn, not a table source."
+    },
+    {
+      "drive_id": "1AI2WK3wtQyykHBfVILKj9Er8de7nwBZE",
+      "reason": "Spelljammer ships PDF. The file names Wizards of the Coast copyright. Text was not copied into the repo."
+    },
+    {
+      "drive_id": "1F-MN26HhvSJoqrudfwihTX_qo6SDBGQTfc-Unb78Sp8",
+      "reason": "Nocturne fiction beta draft. Not campaign material. Same text as the other Beta Readers file."
+    },
+    {
+      "drive_id": "1ogpdboF_bfvRUDUJUs0OrRtTcptYFo8ponEqca2L0qE",
+      "reason": "Same text as the other Beta Readers file. Nocturne fiction. Not campaign material."
+    },
+    {
+      "drive_id": "1m4FSYqpmE1z0NbFFSyaUiXICjlV8M34045beKN3biZw",
+      "reason": "Mortem chapter 2. Not campaign material."
+    },
+    {
+      "drive_id": "1JVh2UM0Ka33X70aUamnKBRc9DTFyBBnI-XFIBDHYdxA",
+      "reason": "Four-line product pitch. Not a campaign record."
+    },
+    {
+      "drive_id": "0B7TcIEIiRnBZQmZmRjBNVzZlVm8",
+      "reason": "nome.docx is the shoemaker's-daughter letter. Not campaign material."
+    },
+    {
+      "drive_id": "0B7TcIEIiRnBZVjZTRk9qWFJYT1E",
+      "reason": "the shoemaker's daughter letter. Not campaign material."
+    },
+    {
+      "drive_id": "1ei7yQNVXVy49qCrL-BLlVMu7wmOPcP6kz4k85y4ZIu4",
+      "reason": "Household budget. Not campaign material."
+    },
+    {
+      "drive_id": "1tVS8LiI6I-ieO1Jvxo22tDMT7L8ffYDNrH-5d2GkIbI",
+      "reason": "Pokemon personality quiz. Not campaign material."
+    },
+    {
+      "drive_id": "1HAQ3YgnzENFUq5-xdFMwUYqKZFvRGZngV9W10XPeRoc",
+      "reason": "Game of Thrones index. Not campaign material."
+    },
+    {
+      "drive_id": "10yOH-Cdlqqf21UI2pp1wp0wqvod7mxyx-3aaDYVknkI",
+      "reason": "Final Fantasy XV weapon list. Third-party game data was not copied."
+    },
+    {
+      "drive_id": "1LvnApieueH0As0wmsecWtDAKiPcobnGHl0AKi-HRX1s",
+      "reason": "Official-style magic-item purchasing catalogue. Third-party reference was not copied."
+    },
+    {
+      "drive_id": "1M06ef6ayGAwDwJlBL9PU0Zn40_mvlY8_-xTJyx4pVPU",
+      "reason": "Copy of the magic-item purchasing catalogue. Third-party reference was not copied."
+    },
+    {
+      "drive_id": "1gWD4TpBnDrd_xqrePhW3UrMu8x2-Utpw9TUXCdpJoJk",
+      "reason": "SRD magic-item table. Third-party reference was not copied."
+    },
+    {
+      "drive_id": "19JlD3vbbQkGoXTmCjBd8hRqHFPzwSwa1MTcpoa0doSg",
+      "reason": "Blank Tintagel character-sheet template. Not a filled sheet."
+    },
+    {
+      "drive_id": "1xdoNnPMub2ZXbouUZgnpHZiA-EH2BGxYq6sbYKzp4o4",
+      "reason": "Blank Tintagel character-sheet template. Not a filled sheet."
+    },
+    {
+      "drive_id": "1fWt0mfV3B9B7ddWbycz6TCss074fL_PsIZWsu0laSNs",
+      "reason": "SRD 5.1 equipment chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "12CHpj2nNEXhYMGu6Wm3vnLStLELKVSj7zAc2pVfYJP0",
+      "reason": "SRD 5.1 abilities chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "1UCzcTDPPHvplY6q_KcclhB6LyHrPjtRq4ocS4zgOC3Q",
+      "reason": "SRD 5.1 gamemastering chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "1574oRQN42MHHLSwevICSQA_nZKHe73d54vrh5qOOci4",
+      "reason": "SRD 5.1 treasure chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "1BHnEs2tMtosA8DLr0cuNKPYS5w9feGbZCcxcdJ7fPLc",
+      "reason": "SRD 5.1 monsters chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "1f8J5snAKUTh5O1ImZMGTzTRtRNLB5IMf_1yS9t93tp4",
+      "reason": "SRD 5.1 creatures chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "1KrmfdG1-fFgCH8kS6KwlzgBj3mwbDQsv61EtnbZyfaA",
+      "reason": "SRD 5.1 NPCs chapter. Third-party text was not copied."
+    },
+    {
+      "drive_id": "10THcwJAq7Vlwidn2NcwGirOUSJ4mPqsY",
+      "reason": "Mad Mage PDF. Third-party module text was not copied."
+    },
+    {
+      "drive_id": "1cJO7g1Ibj_jB35WI2OM1AvuGyftaHgtt",
+      "reason": "Mad Mage PDF. Third-party module text was not copied."
+    },
+    {
+      "drive_id": "1LTZ0i-lvO7QcgV-vjtzYohXCEX6HsF-z",
+      "reason": "Mad Mage PDF. Third-party module text was not copied."
+    },
+    {
+      "drive_id": "1NVMCZTrzGQcz2RIcj5wINTLDXdeMCSwo",
+      "reason": "Mad Mage PDF. Third-party module text was not copied."
+    },
+    {
+      "drive_id": "1TKz-deIdh49AkSJNEgO9ZZcyvAjRCaku",
+      "reason": "Spelljammer Giff page. Third-party text was not copied."
+    },
+    {
+      "drive_id": "1t4xBiApKq0Yw-CqbmzlB1cYajdb1GYrG",
+      "reason": "Tarokka card-meaning resource. Third-party reference was not copied."
+    },
+    {
+      "drive_id": "174l3B6vFI77IaXciz0cAJPx5pHxZEydT",
+      "reason": "Journal of the Red Ram.pdf is 22742795 bytes. Download cap is 10 MB. No text was invented."
+    },
+    {
+      "drive_id": "1pvXV2yqH_oVtk16i5rRTQFY2KPKllcHg",
+      "reason": "Player Races Final.pdf is 52351233 bytes. Download cap is 10 MB. No text was invented."
+    },
+    {
+      "drive_id": "0B8XAiXpOfz9cMWt1RTBicmpmUDg",
+      "reason": "Sane Magical Prices. Named third-party price table. Text was not copied."
+    }
+  ]
+}

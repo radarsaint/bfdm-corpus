@@ -1,0 +1,82 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000242",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "S4 Char Gen",
+  "source_role": "rules",
+  "source_kind": "google_drive_native",
+  "document_family_id": "roanoke-s4-chargen",
+  "original_filename": "S4 Char Gen",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2021-06-23T13:21:32.721Z",
+  "modified_at": "2021-07-29T06:42:11.066Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: hekiryuu (hekiryuu@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1arW3PfeD6kDTGLdfHGS7_v7oTORCOMkZ3D1R4FuepVY",
+      "url": "https://docs.google.com/document/d/1arW3PfeD6kDTGLdfHGS7_v7oTORCOMkZ3D1R4FuepVY/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000242/source.md",
+      "sha256": "c0a8e68a289d7b6f41d8a2996348b98eadf1b03d9b88d34c652018db0bead4f7",
+      "mime_type": "text/markdown",
+      "size_bytes": 7487
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text or Markdown export to source.md. A separate DOCX export was not stored.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched.",
+      "Markdown or text export contained embedded image or binary payloads. Those payloads were omitted from source.md. Wording was not rewritten."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

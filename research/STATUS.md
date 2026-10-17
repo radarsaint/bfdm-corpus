@@ -64,7 +64,9 @@ Donor PRs #32, #34, and #35 were closed without merge. Their provisional numberi
 
 ### Scoped archive completion (2026-10-08)
 
-PR #40 merged to main at `dc0d558188c3e492f69c34a8e278e0cf9e17373b`. The catalog now contains **195 BCS identities through BCS-000195**, and the rebuilt document index contains **193 source containers**. BCS-000059 is context-only and BCS-000068 is an excerpt, not a missing pair of indexed source bodies. The repaired builder retrieves available source modification times, indexes historical comment sidecars (99 comments) and 90 preserved revision bodies; **259 revision rows lack fetched bodies**, with explicit warning/status rather than fabricated text. Authorship and Pigeon Lord provenance were corrected, and recoverable document structure was restored.
+PR #40 merged to main at `dc0d558188c3e492f69c34a8e278e0cf9e17373b`. That pass left **195 BCS identities through BCS-000195** and **193 indexed source containers**. BCS-000059 is context-only and BCS-000068 is an excerpt, not a missing pair of indexed source bodies. The repaired builder retrieves available source modification times, indexes historical comment sidecars (99 comments) and 90 preserved revision bodies; **259 revision rows lack fetched bodies**, with explicit warning/status rather than fabricated text. Authorship and Pigeon Lord provenance were corrected, and recoverable document structure was restored.
+
+On 2026-10-17 the retrievable campaign backlog was admitted as **BCS-000196–BCS-000257** (62 containers). The catalog is **257** identities. The index count is **255** source containers. New containers are authorship UNKNOWN. They are sources, not judgments. Two Drive files that repeat an admitted text (the Kimmelian PDF, and Player handouts.pdf) share the container of that text. The week-1 file `1oJxfLF66bNPa7NPQjwW6GDzUVjJLRs30PWdvuQatrMU` repeats BCS-000048 and did not get a second id. The record is `research/drive-inventory/2026-10-17/admission.json`.
 
 These repairs preserve, but do not solve, the missing historical revisions, Rowing Oak guide images, unreadable Bodfish Google Site, partial Earthfall/Saturday Project histories, and known-source gaps. They are capability-dependent archival follow-ups, not reasons to redo PR #40. Source readiness remains distinct from source-verified BFDM research and demonstrated Kit quality. The project's missing-consumer/early-completion repair is tracked in dnd-solo issue #118; the Project Gardener still requires an actual invoked reconciliation, not merely a status checker.
 
@@ -83,18 +85,17 @@ A source can therefore be source-ready while still carrying a longitudinal resea
 
 ## IDENTIFIED BACKLOG — Drive candidates
 
-The Drive candidate pool is no longer "134 unreviewed candidates."
+The 2026-10-03 ledger is no longer an unreviewed pool. Campaign bodies that could be retrieved are containers (BCS-000131–BCS-000151, then BCS-000173–BCS-000195, then BCS-000196–BCS-000257).
 
-Every candidate in the preserved 2026-10-03 ledger received a first-pass open attempt or a documented read failure. The result is a classified backlog, not admitted sources.
+What was not given a container, and why, is in `research/drive-inventory/2026-10-17/admission.json`:
 
-The research-critical names from that triage pass — Ferrytown, Hampstead, Pigeon Lord, Mirabelle, Daysong, Rowing Oak, and the Arcanian almanac/lore — are now containers in BCS-000131–BCS-000151. Other triaged candidates remain a classified backlog, not admitted sources.
+- household, quiz, audio-library, and non-campaign fiction rows;
+- SRD chapters, magic-item catalogues, blank Tintagel templates, Mad Mage copies, Spelljammer Giff, Tarokka, and the Spelljammer ships PDF (third-party text was not copied);
+- `1oJxfLF66bNPa7NPQjwW6GDzUVjJLRs30PWdvuQatrMU`, the same week-1 text as BCS-000048;
+- `Player Races Final.pdf` (`1pvXV2yqH_oVtk16i5rRTQFY2KPKllcHg`), 52,351,233 bytes, over the 10 MB download cap;
+- `Journal of the Red Ram.pdf` (`174l3B6vFI77IaXciz0cAJPx5pHxZEydT`), 22,742,795 bytes, over the 10 MB download cap.
 
-Five candidates remain unreadable/unavailable for documented reasons:
-- three Drive 404s;
-- one image-style PDF with no text layer;
-- one DOCX the connector would not return as text.
-
-Candidate ≠ source. Do not assign BCS IDs merely because a triage row looks useful.
+No text was invented for the two files over the cap.
 
 ## EVIDENCE / ARCHIVE GAPS
 
@@ -105,7 +106,7 @@ Important current gaps include:
 - Earthfall live-play evidence sufficient for honest decision-trajectory confirmation;
 - passage-level authorship in collaborative material where not established;
 - exact prep→live links for many source families;
-- unreadable/404 Drive candidates above;
+- Player Races Final.pdf and Journal of the Red Ram.pdf, both over the 10 MB download cap;
 - known blank source `BCS-000022`;
 - later Area 6c human-test transcript remains unrecovered in full.
 
@@ -115,7 +116,7 @@ Archive gap and evidence gap are not interchangeable.
 
 PR #38 — **Audit and repair BFDM derived-research evidence chains** — merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16).
 
-First-tranche staging only (20 Roanoke S3 cases). No corpus-wide semantic certification. Mechanically valid locators/citations are not semantic verification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; the live Discord event is recoverable but does not repair the citations. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments in the tranche are not verified for transfer and do not go into Kit. Untouched research stays UNVERIFIED.
+One audited tranche of 20 Roanoke S3 cases, inside the container set. The 20 are not the corpus. No corpus-wide semantic certification. Mechanically valid locators/citations are not semantic verification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; the live Discord event is recoverable but does not repair the citations. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments in the tranche are not verified for transfer and do not go into Kit. Untouched research stays UNVERIFIED.
 
 ## OPEN PR — strategic planning handoff
 

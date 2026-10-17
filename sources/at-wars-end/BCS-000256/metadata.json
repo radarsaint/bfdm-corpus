@@ -1,0 +1,81 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000256",
+  "project": "At War's End",
+  "project_slug": "at-wars-end",
+  "title": "At War's End \u2014 Three-Act Story Outline",
+  "source_role": "outline",
+  "source_kind": "google_drive_native",
+  "document_family_id": "at-wars-end-three-act",
+  "original_filename": "At War's End \u2014 Three-Act Story Outline",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2025-02-25T03:29:05.852Z",
+  "modified_at": "2026-10-13T20:18:18.989Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: Brendon Faulkner (befaulkner@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1WtXK2UuWqa5YjK5HOk3tvAENRJVyr7SAJpH4t04BuKg",
+      "url": "https://docs.google.com/document/d/1WtXK2UuWqa5YjK5HOk3tvAENRJVyr7SAJpH4t04BuKg/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/at-wars-end/BCS-000256/source.md",
+      "sha256": "4d4af3b24fc1ff427937a6e88a9728856ed4f448fe9f99d328ee52a8cd03e63e",
+      "mime_type": "text/markdown",
+      "size_bytes": 12577
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text or Markdown export to source.md. A separate DOCX export was not stored.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

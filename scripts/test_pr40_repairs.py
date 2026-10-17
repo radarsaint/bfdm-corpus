@@ -56,8 +56,8 @@ class PR40RepairTest(unittest.TestCase):
     def test_index_integrity(self):
         self.assertEqual(self.result["integrity_check"], "ok")
         self.assertEqual(self.result["foreign_key_check"], 0)
-        self.assertEqual(self.result["containers"], 193)
-        self.assertEqual(self.conn.execute("SELECT COUNT(*) FROM source_containers").fetchone()[0], 193)
+        self.assertEqual(self.result["containers"], 255)
+        self.assertEqual(self.conn.execute("SELECT COUNT(*) FROM source_containers").fetchone()[0], 255)
         self.assertIsNone(self.conn.execute("SELECT corpus_id FROM source_containers WHERE corpus_id = 'BCS-000059'").fetchone())
         self.assertIsNone(self.conn.execute("SELECT corpus_id FROM source_containers WHERE corpus_id = 'BCS-000068'").fetchone())
 

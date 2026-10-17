@@ -1,0 +1,4 @@
+*Our war of revolution was evenly matched against our Monarchal oppressors. But our shores comprised the theater of war. Four times previous our capitals have fallen, and we have scrambled to fortify the lesser cities of the middle colonies. Upon seeing New Amsterdam our leader, that beloved hero George Washington said “surely this is the seat of the Arcanian Empire.”. And so Empire City was born. The last great refuge and strong hold in the north. A shining city on the Hudson, the city teams with life resting assured that Fort washington which sits at the mouth of the Hudson on Governors island stands between us and King George.*
+
+The city is made up of five boroughs.  
+The industrious Hampstead, the merchants of Ferrytown, Kingsbridge and it's impossible to navigate no-mans land called “The Noir”, The City (known to elves as Llewellynfen and to the dwarfs as Dregendeep) and the last bastion of english loyalists  

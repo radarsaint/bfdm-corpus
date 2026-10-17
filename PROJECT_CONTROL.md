@@ -25,6 +25,7 @@ Kit is one consumer.
 At the inspected `main`:
 
 - PR #40 merged on 2026-10-08: **195 canonical BCS catalog records through BCS-000195**, with **193 indexed source containers** (BCS-000059 context-only, BCS-000068 excerpt-only);
+- 2026-10-17 container admission: **BCS-000196–BCS-000257** (62 retrieved Drive bodies). Catalog identities are **257**. Indexed source containers are **255**. Authorship on the new containers is UNKNOWN. A container is not a judgment. Record: `research/drive-inventory/2026-10-17/admission.json`.
 - PR #41 merged: Brendon attested 2026-10-09 that the 171 containers previously UNKNOWN authorship are his work. Those records are now BRENDON via owner_attestation. Archival lineage gaps remain unresolved and distinct from authorship. See ingest/reports/2026-10-09-owner-attestation.md.
 - Discord model-facing retrieval is complete and validated;
 - historical Drive/source integration and the scoped high-priority archive-completion pass are landed; the repaired index includes searchable comments and preserved revision bodies, but inaccessible historical revisions remain unfetched;
@@ -43,7 +44,7 @@ Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STA
 
 The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. The first-tranche integrity staging from #38 is on main, and the contrast-family adversarial pass is on main. Neither makes a standing practice. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
 
-Friday ChatGPT Work should not be spent on broad ingestion, searchability, generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
+The container set is the corpus. The 20 Season 3 decision cases are one audited tranche inside it. They are not the boundary of the archive, and they are not a sample to keep pointing at. Retrieved campaign sources that can exist as containers are containers. Do not spend the next pass re-auditing those 20 cases, and do not spend it on generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
 
 Highest-value Work targets are:
 
@@ -61,7 +62,7 @@ If PR #38 has already completed a needed semantic review by launch time, do not 
 
 Open draft PRs are not canonical main, but some are important current work:
 
-- **#38 — forensic derived-research integrity audit.** Merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16). First-tranche staging of 20 S3 decision cases. No corpus-wide certification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; Discord does not repair them. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments are not verified for transfer.
+- **#38 — forensic derived-research integrity audit.** Merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16). One audited tranche of 20 S3 decision cases, inside a larger container set. No corpus-wide certification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; Discord does not repair them. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments are not verified for transfer.
 - **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged. The draft's confidence labels are not verdicts. The canonical classification is `research/integrity/contrast-family-verdicts.jsonl`: no family is standing practice or authorized for Kit.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
 - **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.

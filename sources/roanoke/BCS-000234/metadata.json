@@ -1,0 +1,81 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000234",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Pudwudgie Enforcer",
+  "source_role": "character_sheet",
+  "source_kind": "google_drive_spreadsheet",
+  "document_family_id": "filled-character-sheets",
+  "original_filename": "Pudwudgie Enforcer",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "created_at": "2023-01-18T02:32:33.465Z",
+  "modified_at": "2023-06-21T03:15:32.560Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: robdor (robdor@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "drive_file",
+      "native_id": "1JzUhy3WKLAc3OpTlZZyNaAScwHaoX9mul2oAoJcRnOQ",
+      "url": "https://docs.google.com/spreadsheets/d/1JzUhy3WKLAc3OpTlZZyNaAScwHaoX9mul2oAoJcRnOQ/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000234/source.md",
+      "sha256": "1ffa41b4a3ac7497b4f982fcfb83dc7ebd1b8f9358a8ae333666ace5f7a65829",
+      "mime_type": "text/markdown",
+      "size_bytes": 85726
+    }
+  ],
+  "normalization": {
+    "method": "Google Sheets current text export. Every returned tab is in source.md as CSV-style text.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000207",
+  "project": "Roanoke",
+  "project_slug": "roanoke",
+  "title": "Sacrificing love",
+  "source_role": "module",
+  "source_kind": "google_drive_native",
+  "document_family_id": "sacrificing-love",
+  "original_filename": "Sacrificing love",
+  "mime_type": "application/vnd.google-apps.document",
+  "created_at": "2020-02-01T22:18:59.456Z",
+  "modified_at": "2020-02-14T21:08:49.546Z",
+  "ingested_at": "2026-10-17T18:30:00Z",
+  "authorship": {
+    "status": "UNKNOWN",
+    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
+    "project_ownership_context": "Drive file owner at capture: Brendon Faulkner (befaulkner@gmail.com)."
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship",
+      "revision_bodies",
+      "comments"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1CvqyUm74P8OYmAaZdqP7F-m40C5c6cQVsFz0jtA_r9A",
+      "url": "https://docs.google.com/document/d/1CvqyUm74P8OYmAaZdqP7F-m40C5c6cQVsFz0jtA_r9A/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/roanoke/BCS-000207/source.md",
+      "sha256": "a354f382125b66993ab4a7bdd3a78a1098f9c26b201bc5bdf22f78117da6f2fb",
+      "mime_type": "text/markdown",
+      "size_bytes": 8815
+    }
+  ],
+  "normalization": {
+    "method": "Google Drive current text or Markdown export to source.md. A separate DOCX export was not stored.",
+    "tool": "Google Drive connector",
+    "warnings": [
+      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
+      "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
+      "Revision bodies and native comments were not fetched."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NOT_CAPTURED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [],
+    "not_established": [
+      {
+        "question": "authorship",
+        "status": "NOT_ESTABLISHED",
+        "basis": "No owner attestation covers this container."
+      },
+      {
+        "question": "live_use",
+        "status": "NOT_ESTABLISHED",
+        "basis": "A retrieved file is not play."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository admission on 2026-10-17. Not a Drive capture time."
+}
