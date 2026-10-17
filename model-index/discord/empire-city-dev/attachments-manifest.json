@@ -1,0 +1,15 @@
+{
+  "attachment_count": 639,
+  "bytes": 273589,
+  "canonical_database": "discord/empire-city-dev/empire-city-dev.sqlite",
+  "fields_omitted": [
+    "url",
+    "content",
+    "file_bytes"
+  ],
+  "path": "model-index/discord/empire-city-dev/attachments.jsonl",
+  "server_slug": "empire-city-dev",
+  "sha256": "277ad8d4135fab0bb85d498b95cf77c72a23c859686273ff3e52e529d468f474",
+  "source_database_sha256": "a339a26de8e01d63e608c9d5cdedc494d40fbde76c7d8fa19b482a6f8584aaab",
+  "subordinate_to": "discord/empire-city-dev/empire-city-dev.sqlite"
+}
