@@ -1,7 +1,7 @@
 # Project Control — BFDM corpus and research
 
-**Updated:** 2026-10-16  
-**Canonical main inspected:** `2b68820d445e9f6d99d021463bfd76b2f7bb257d`  
+**Updated:** 2026-10-17  
+**Canonical main inspected:** `abe036c5584b8ecbb2977128f8fef92728a0673d`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
 For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
@@ -25,6 +25,7 @@ Kit is one consumer.
 At the inspected `main`:
 
 - PR #40 merged on 2026-10-08: **195 canonical BCS catalog records through BCS-000195**, with **193 indexed source containers** (BCS-000059 context-only, BCS-000068 excerpt-only);
+- PR #41 merged: Brendon attested 2026-10-09 that the 171 containers previously UNKNOWN authorship are his work. Those records are now BRENDON via owner_attestation. Archival lineage gaps remain unresolved and distinct from authorship. See ingest/reports/2026-10-09-owner-attestation.md.
 - Discord model-facing retrieval is complete and validated;
 - historical Drive/source integration and the scoped high-priority archive-completion pass are landed; the repaired index includes searchable comments and preserved revision bodies, but inaccessible historical revisions remain unfetched;
 - Earthfall and Saturday D&D workbench recoveries are canonical but partial; historical revision bodies, Rowing Oak guide images, the separate Bodfish Google Site, and other named missing sources remain explicitly capability-blocked;
