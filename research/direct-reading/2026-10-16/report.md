@@ -723,15 +723,255 @@ Every stored post is in [sequence-windows.jsonl](sequence-windows.jsonl). A turn
 
 **KIT_CONSUMPTION.** NOT_APPROVED.
 
+## The rest of the two harvests
+
+The counter sequence left the other shard indexes unread. Those files were then cut in index order. Same rule. `empire-city-dev` was not opened.
+
+568 windows. 140 contain a post of his. 15 contain none inside the cut, and he had posted in that channel within 15 minutes; those posts were stored. 197 contain none, and he was in another channel; those sentences were not stored. 216 contain none in that shard within 15 minutes. That was not called a choice.
+
+Three files had lines that are not valid JSON. Those lines were skipped, not repaired: 14 in Season 3 `messages-0143`, 13 in `messages-0144`, and 2 in Empire City `messages-0242`. The other rows in those files were read.
+
+Every stored post is in [rest-windows.jsonl](rest-windows.jsonl). Turn-calls and scene lines stay there. The records below are the sentences that set a limit. They do not expand the twenty.
+
+## DR-20261016-31 — Blooming is not producing
+
+**Type.** One spell reading, outside the cut.
+
+**Context.** `🙋-out-of-character`, 2020-07-19, within 15 minutes before the line-100 cut. Read because the cut itself had no post from him.
+
+**References.** `734249740803506221`.
+
+**Supported facts.** He writes "You arent even producing the flowers, your just making them bloom per the wording of the spell. Totally cool."
+
+**Interpretation.** For that spell, in that exchange, making flowers bloom is allowed and is not the same as producing them. Spellings are his.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not apply this reading to a different spell.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-32 — The manor lamp, and lore he does not know
+
+**Type.** Two separate limits.
+
+**References.** `734514829175554149` in `🏚-twilight-manor`, 2020-07-19. `735449559890919525` in the same channel, 2020-07-22.
+
+**Supported facts.** "A new Gas lamp appears next to the manor. Gas lamp for gas lighting. No one will be able to remember future attacks on the Manor even when I'm not on the server." "(I can only give out lore that I know. If its from another dm, I may have to recluse myself)".
+
+**Interpretation.** The lamp sentence is what the new lamp does, including attacks he is not present for. The later parenthetical limits lore to what he knows, and says another DM's lore may make him recuse himself. "Recluse" is his spelling.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC. Two days, not one policy manual.
+
+**Exclusions.** Do not erase memory of every attack in every building. Do not treat recusal as automatic.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-33 — The White Hart is not tracked
+
+**Type.** One parenthetical.
+
+**Context.** `highgate-cemetery`, 2020-07-22.
+
+**References.** `735399230406918214`.
+
+**Supported facts.** "(Baeshra will never find tracks, the White Hart can only be hunted by those who are not looking)".
+
+**Interpretation.** In this sentence Baeshra's tracking fails, and the hunt is restricted to people who are not looking.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not make every hunt fail for a tracker.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-34 — Duck points, meta, and a one-use vial
+
+**Type.** Three small corrections.
+
+**References.** `738234461057056808` in `duckton`, 2020-07-30. `738250294693199926` in `🎛-engine-room`, the same night. `743879427607363685` in `the-wastewater-weaver`, 2020-08-14.
+
+**Supported facts.** "per the raw they do not. Call it a duck point instead". "(no more meta)". "(This is a one use small vial. Dont worry about other things)".
+
+**Interpretation.** Something in the rules text does not apply, and he renames the remainder a duck point. Meta talk is stopped in that engine-room moment. The vial is one use, and he declines the other questions.
+
+**Confidence.** DIRECT. The thing the RAW does not do is the prior line, which is a question, not restated here.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not invent a duck-point economy. Do not ban table talk from one parenthetical.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-35 — The meteorite, locked to Baeshra
+
+**Type.** An item, then a lock.
+
+**Context.** `town-square`, 2020-08-14. The lock line is outside the cut, same channel, within 15 minutes. The item line is inside the cut.
+
+**References.** `743926717105700924`, `743927902218748025`.
+
+**Supported facts.** "(locked for Baeshra only)". "When Identified and attuned, this meteorite of the Kaiju will allow you to cast Enlarge/reduce 2 times per day. As well as dragon's breath 4 times per day."
+
+**Interpretation.** That meteorite has those two daily limits, and he had just locked it to Baeshra.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not hand the meteorite to anyone else from this window.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-36 — A reaction still requires the save
+
+**Type.** One ruling, labeled by him.
+
+**Context.** `hex-e-falling-skies`, 2020-08-18.
+
+**References.** `745098518317891585`.
+
+**Supported facts.** "(this is causing a bottle neck, and going against the spirit of suggestion. dm rulling, you can't take a reaction with out making the save. otherwise I'd have to let everyone else use your reasoning.)"
+
+**Interpretation.** He calls this a DM ruling for that bottleneck. A reaction is not available unless the save is made. "Rulling" is his spelling. The spell named in the sentence is suggestion.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not extend this to every spell that offers a save.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-37 — One coupon, and the sandwich job
+
+**Type.** Two Empire City limits.
+
+**References.** `863520655952576512` in `the-dock`, 2021-07-10. `863527523894558731` and `863527778467840012` in `coppers-sandwiches-🥪`, the same night.
+
+**Supported facts.** "(There was only 1 coupon, no more need to roll)". "(You may have a job here that earns 2 gold per day 5 days a week, you may not moon light at other establishments. Maximum 1 despondent server, 1 sus janitor, and 1 overwhelmed cook.)" "(Yes, 8 hours for 2 gold, cannot overlap with your long rest.)"
+
+**Interpretation.** The coupon does not get another roll. The job pays 2 gold for 8 hours, five days, does not share a clock with a long rest, and forbids a second job. The staff caps are those three roles.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not set every wage in Empire City from this shop.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-38 — Rule 1 applies to him
+
+**Type.** Server-time rule.
+
+**Context.** `fountain-of-spam`, 2021-07-12.
+
+**References.** `864145755031470081`, `864146577438015498`, `864146910449369098`.
+
+**Supported facts.** He writes "Rule one". Then "Tim. If you don't get 8 hours off the server, Bo will take a rank of exhaustion." Then "But rule 1 is for even me."
+
+**Interpretation.** Missing 8 hours off the server costs Bo one rank of exhaustion, and he says the rule binds him too.
+
+**Confidence.** DIRECT. The text of server rule 1 is not pasted in these three posts.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not invent ranks beyond the one he named.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-39 — Puns are not illegal
+
+**Type.** One correction of a joke.
+
+**Context.** `out-of-character`, 2021-07-12.
+
+**References.** `864250822446940250`.
+
+**Supported facts.** "The running joke is that puns are banable depending on how groan worthy they are. It is not actually illegal. Just remember, if you entertain yourself by making us groan, I reserve the right to entertain myself by making you groan."
+
+**Interpretation.** He separates the joke from a rule. Puns are not illegal. He keeps a right to answer a groan with a groan.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not write a punishment table for puns.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-40 — Obstacles are not there to stop play
+
+**Type.** Two posts and a link.
+
+**Context.** `out-of-character`, 2021-07-16. Both posts are outside the line-100 cut, same channel, within 15 minutes.
+
+**References.** `865474136716345365`, `865474608361766920`.
+
+**Supported facts.** "I don't put obstacles out there to keep you from playing." "This sounds like you are intimidated. Not that there was in game reasons. I can't have a game with out players. And I direct you to server rule 1 https://discord.com/channels/850779382791536640/850795683534602251/850795988486586448"
+
+**Interpretation.** He denies that the obstacles are meant to stop play, says he cannot run a game without players, and points at server rule 1. The page at that link was not opened.
+
+**Confidence.** DIRECT for the two sentences. Not for the rule text behind the link.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not remove obstacles from play because of this denial.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-41 — The 25% / 75% rule
+
+**Type.** Three posts about what this server is not.
+
+**Context.** `fountain-of-esteem`, 2021-07-16.
+
+**References.** `865744435732283392`, `865745512719974410`, `865746119207026715`.
+
+**Supported facts.** "The 25% 75% percent rule is my way of begging the community to understand that this is not dominion level play. That we have to have some linear rails. That we are telling a story and that story sometimes means that despite their exploits and tricks, the game must move forward and can't always swing to adjust for players who can out wit us? I'm absolutely not as good at this game as some of my players. Noah, devon, ethan. But just Because, I might not be able to out wit them on the fly, should major game play plans be scrapped on the fly?" Then "And its not their fault that this game can't swerve like a home game". Then "But it can't ever be real dnd. The expectations are something I have tried to address. I poured my heart into the server rules. And I don't know how to commicate it better? We might be bumping up against my autism here."
+
+**Interpretation.** He names a 25% / 75% rule as his plea for rails: the story moves, and a plan is not scrapped on the fly because a player outwits him. He says that is not the players' fault, and that this game cannot swerve like a home game and cannot be "real dnd." He does not, in these three posts, define which 25% or which 75%.
+
+**Confidence.** DIRECT for the sentences. The percentage split is not defined here.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not invent the missing split. Do not treat "not real dnd" as a ban on using the books.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-42 — No wild shape, no persuasion, silence fails, plots stay hidden
+
+**Type.** Four separate sentences.
+
+**References.** `867288868185440296` in `kingsbridge-ring-road-lamps`, 2021-07-21: "(no wild shape)". `868006105786232852` in `sandys-umbral-cup`, 2021-07-23: "go for it apgan. (dox, in this case this person is being unreasonable and therefor cannot be persuaded. Perhaps in a moment rephrase as an intimidation or deception.)" `879587149727539211` in `fontaine-de-florian`, 2021-08-24: "silence doesnt work". `879471038461796442` in `out-of-character`, 2021-08-23: "Dont give away plots".
+
+**Supported facts.** Those four sentences.
+
+**Interpretation.** Wild shape is refused in that lamp scene. That person cannot be persuaded, and he offers intimidation or deception instead. Silence does not work on Finny in that moment. Plots are not to be given away in that scheduling talk.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC. Four windows.
+
+**Exclusions.** Do not ban wild shape, persuasion, or the silence spell at every table.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
 ## Not read, on purpose
 
-The rest of each Sample A and Sample B shard. Season 2 live play, Season 5 live play, voice beyond the rows inside these cuts, and the held-out partition. The look-out-hill, free-masons, gigglewood, interrogation, and dice-tower posts from the early windows were counted and not written up.
+The rest of each Sample A and Sample B shard. Season 2 live play, Season 5 live play, `empire-city-dev`, voice beyond the rows inside these cuts, and the held-out partition.
 
-The beach, the oasis, the treehouse scene, the `#quotes` alliteration, and his other-channel posts in the 0101 and 0201 spans.
+The beach, the oasis, the treehouse scene, the `#quotes` alliteration, and the other-channel sentences already left unstored.
 
-Sample D and Sample E other-channel sentences, as already stated.
-
-For this closed sequence, other-channel sentences in the 72 elsewhere-windows were counted and not stored. Shards whose indexes are outside the counters were not opened.
+The unparseable lines in `messages-0143`, `messages-0144`, and Empire City `messages-0242`.
 
 ## Validation commands
 
@@ -742,6 +982,7 @@ For this closed sequence, other-channel sentences in the 72 elsewhere-windows we
 
 The last script guards the Season 3 audit entry path. A pass does not verify these rows.
 
-Results on this branch, before the sequence commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+Results on this branch, before the rest-of-harvest commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+
 
 
