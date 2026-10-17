@@ -448,7 +448,7 @@ For BFDM work, distinguish:
 
 A source family may be ready to research while the existing paper written about it remains unverified.
 
-Current example: S3/S4 live-judgment material is source-researchable, while PR #38 is still auditing whether existing derived case propositions deserve semantic trust.
+Current example: S3/S4 live-judgment material is source-researchable. PR #38's first tranche is merged and reviewed. Those 120 propositions are not unverified, and they are not a model. Research outside that sample stays unverified until its own tranche.
 
 When a downstream task depends on a derived claim, name which axis is satisfied and which is still open.
 

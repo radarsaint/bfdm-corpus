@@ -158,7 +158,7 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. For research, PR #38 must semantically verify the dependency claims that matter to downstream Phase 2; only then adversarially test PR #28's proposed contrast families using Earthfall/Saturday workbench evidence with preparation/play limits. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28's contrast families can be tested against Earthfall and Saturday workbench evidence with preparation/play limits without waiting on #38. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 

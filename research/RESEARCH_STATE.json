@@ -167,7 +167,7 @@
     "merge_commit": "2b68820d445e9f6d99d021463bfd76b2f7bb257d",
     "rule": "citation_or_locator_presence_does_not_equal_semantic_source_verification",
     "default_for_unaudited_claims": "DO_NOT_ASSUME_VERIFIED",
-    "head_sha": "2b68820d445e9f6d99d021463bfd76b2f7bb257d",
+    "head_sha": "d28d6547ed0d2ef6c8a806904dc816777d1047cf",
     "first_tranche": {
       "derived_cases": 20,
       "propositions": 120,

@@ -104,7 +104,7 @@ The candidate pool is a classified backlog. It is not "134 unreviewed files" any
 
 ## Stage 1 after the 2026-10-05 consolidation
 
-PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. Canonical BCS range is BCS-000001–BCS-000172.
+PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. That consolidation's range is BCS-000001–BCS-000172. The catalog has since continued through BCS-000195. `BCS-000172` is not the current ceiling.
 
 The reconciled additions are research-critical historical Drive sources (BCS-000131–BCS-000151), Earthfall contemporary DM-workbench Project history (BCS-000152–BCS-000162), and Saturday D&D contemporary DM-workbench Project history (BCS-000163–BCS-000172). Earthfall and Saturday histories remain partial recoveries. Donor PRs #32, #34, and #35 are closed without merge and are not active ingestion paths.
 
