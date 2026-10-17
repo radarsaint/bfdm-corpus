@@ -13,13 +13,17 @@ For any task that can affect Kit/runtime decisions, read repository-root `PROJEC
 
 GitHub issues/PRs own live task state. Dated handoffs are orientation/history and must not silently outrank newer `main` or an explicitly named active draft.
 
-### Integrity work — PR #38 is merged
+### First-tranche integrity review — merged
 
-PR #38, **Audit and repair BFDM derived-research evidence chains**, merged to main on 2026-10-16 as first-tranche staging. It is not an open draft. Its governing rule remains:
+PR #38 merged to `main` as `2b68820d445e9f6d99d021463bfd76b2f7bb257d`. It is not an open draft.
 
-> a derived claim is not source-verified merely because it contains a citation; the cited source content must be retrieved and shown to support the claim at the stated scope and confidence.
+The reviewed set is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are `SCOPE_OVERCLAIMED`. None is a certified standing practice. The sample boundary in `research/integrity/README.md` still holds: this is not a model of how Brendon runs a game, and it does not authorize Kit.
 
-The first tranche is on main as staging, not as a model of practice. Do not use polish or citation density as proof that an unaudited proposition is verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support. Unaudited derived work stays UNVERIFIED.
+A citation is still not semantic verification. BDC-S3-004's prep locators remain unrecovered. Do not restamp the ledger because a later edit is nearby. Untouched research stays `UNVERIFIED`.
+
+The first tranche is on main as a reviewed sample, not as a model of practice. Do not use polish or citation density as proof that an unaudited proposition is verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support. Unaudited derived work stays UNVERIFIED.
+
+The old audit branch is history. The gate that checks a pull request is `.github/workflows/research-integrity.yml`. Run `scripts/validate_research_evidence.py` against the revision you changed, with the Discord database left as its Git LFS pointer.
 
 ### Strategic planning draft — PR #37
 
@@ -31,7 +35,7 @@ Use scarce Work capacity for evidence-heavy investigations that ordinary GPT sho
 
 Priority order:
 
-1. **Phase-2-critical semantic verification.** The 20-case Season 3 tranche is finished and its reusable judgments are overclaimed. Do not rerun it. A further verification needs a new named surface and a new ledger row.
+1. **Do not reopen the finished first tranche.** Those 120 propositions are reviewed. A new case is a new tranche, not a restamp. Skip work that repeats PR #38.
 2. **Earthfall/Saturday adversarial attack on PR #28.** Done on 2026-10-17. The record is `research/integrity/contrast-family-adversarial-v1.md`. CF-08 is LIMIT. The other nine families are NOT_COMPARABLE on `BCS-000152`–`BCS-000172`. No family was certified. Do not redo the pass against the same surface, and do not adopt the draft confidence labels.
 3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
 4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
@@ -104,7 +108,7 @@ The candidate pool is a classified backlog. It is not "134 unreviewed files" any
 
 ## Stage 1 after the 2026-10-05 consolidation
 
-PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. Canonical BCS range is BCS-000001–BCS-000172.
+PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. That consolidation's range is BCS-000001–BCS-000172. The catalog has since continued through BCS-000195. `BCS-000172` is not the current ceiling.
 
 The reconciled additions are research-critical historical Drive sources (BCS-000131–BCS-000151), Earthfall contemporary DM-workbench Project history (BCS-000152–BCS-000162), and Saturday D&D contemporary DM-workbench Project history (BCS-000163–BCS-000172). Earthfall and Saturday histories remain partial recoveries. Donor PRs #32, #34, and #35 are closed without merge and are not active ingestion paths.
 

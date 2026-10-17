@@ -63,12 +63,12 @@
   "open_prs": {
     "24": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
     "26": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
-    "27": "OPEN_DISCORD_RETRIEVAL_MAINTENANCE_REQUIRES_SEPARATE_CONFLICT_RESOLUTION",
+    "27": "OPEN_RECONCILED_TO_MAIN_AT_21b0508b_NOT_MERGED",
     "28": "OPEN_DRAFT_PHASE2_HYPOTHESES_CONFIDENCE_LABELS_NOT_ADOPTED",
     "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS",
     "37": "OPEN_DRAFT_STRATEGIC_KIT_BFDM_PLANNING_NOT_HISTORICAL_EVIDENCE",
-    "38": "MERGED_2026_10_16_FIRST_TRANCHE_STAGING_REUSABLE_JUDGMENTS_OVERCLAIMED",
-    "39": "MERGED_CROSS_REPO_COORDINATION"
+    "38": "MERGED_2b68820d_FIRST_TRANCHE_REVIEWED_REUSABLE_JUDGMENTS_OVERCLAIMED",
+    "39": "MERGED_CROSS_REPO_CONTROL"
   },
   "research_stages": {
     "stage_1": {
@@ -170,11 +170,18 @@
     "practice_status": "NOT_A_STANDING_PRACTICE",
     "kit_status": "NOT_AUTHORIZED",
     "pr": 38,
+    "merge_commit": "2b68820d445e9f6d99d021463bfd76b2f7bb257d",
     "first_tranche": {
       "derived_cases": 20,
       "propositions": 120,
+      "PARTIALLY_SUPPORTED": 78,
+      "SCOPE_OVERCLAIMED": 38,
+      "CONTEXT_CHANGES_INTERPRETATION": 4,
+      "reusable_judgments": "ALL_20_SCOPE_OVERCLAIMED",
+      "standing_dm_judgments": 0,
+      "sample_boundary": "curated_nonrepresentative_not_a_model",
       "semantic_status": "REVIEWED_REUSABLE_JUDGMENTS_OVERCLAIMED",
-      "interpretation": "a reviewed proposition is not standing practice and is not a Kit instruction"
+      "interpretation": "A semantic status scopes one proposition. It does not certify frequency, transfer, or Kit use. Untouched research stays UNVERIFIED."
     },
     "contrast_families": {
       "source_branch": "research/phase2-decision-trajectories",
@@ -233,8 +240,8 @@
   },
   "priority_after_project_continuity": [
     "FIRST: dnd-solo #118 Gardener actual invocation/reconciliation and cold-start consumption",
-    "ENGINEERING: BFDM #27 conflicts and retrieval-validation separately",
-    "RESEARCH: BFDM #38 first tranche is merged; reusable judgments stay overclaimed",
+    "ENGINEERING: BFDM #27 is reconciled to main at 21b0508b and is not merged",
+    "RESEARCH: first tranche of BFDM #38 is reviewed on main; do not restamp it; reusable judgments stay overclaimed",
     "RESEARCH: BFDM #28 hypotheses were adversarially classified and none is standing practice",
     "LATER: Stage 3 minimal cognition and held-out Kit consumer evaluation when trusted research exists"
   ]
