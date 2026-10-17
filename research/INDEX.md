@@ -111,6 +111,10 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 - [creative-method/cryptids-s3-s4-v1.md](creative-method/cryptids-s3-s4-v1.md)
 - [creative-method/mythic-institutions-s3-s4-v1.md](creative-method/mythic-institutions-s3-s4-v1.md)
 
+## Long-form preservation drafts
+
+- [gpt6-long-form/2026-10-16/report.md](gpt6-long-form/2026-10-16/report.md) — draft GPT-6 DM-expertise tranche. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `BFDM-RC-2026-10-16-*` ids are research-record ids, not BCS, BCE, or BCR identities. Most proposed records were not opened: they duplicate landed notes or open PRs #43, #47, and #48. Opened rows are the Flivver scene, an Aldessa supplement, and an authorship-exclusion caution. Machine rows: [gpt6-long-form/2026-10-16/records.jsonl](gpt6-long-form/2026-10-16/records.jsonl).
+
 ## Kit evaluation
 
 - [kit-evaluation/README.md](kit-evaluation/README.md)
