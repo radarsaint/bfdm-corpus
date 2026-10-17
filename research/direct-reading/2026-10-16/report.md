@@ -383,15 +383,87 @@ The beach, the oasis, the treehouse scene, the `#quotes` alliteration, and his o
 
 Sample D's falling-skies loot lines, the tent's neighboring channels, and the look-out-hill posts outside the 40-row cut. Counted or skipped. Not records.
 
-## Sample E, named and not opened
+Sample E's London, Roseline, Auntie Mavis, broom closet, Kvatch, lamplighter, and Golden Voice sentences. The engine-room rows inside the cut are other people. Not records.
+
+## Sample E
+
+Same cut. These files were named before the read.
+
+| Window | Channel | His posts inside the cut | Check |
+|---|---|---|---|
+| S3 0052, line 100, 40 messages, 2020-07-22 23:56Z–2020-07-23 00:04Z | `🌁-london` | 0 | Within 15 minutes he posts in other channels in this shard. Those sentences were not written up. |
+| S3 0152, line 100, 40 messages, 2020-07-31 01:36–01:46Z | `🎛-engine-room` | 0 | About 10 minutes before the cut, in this channel, he closes initiative. Those four posts were read. The cut itself is other people. |
+| S3 0252, line 100, 40 messages, 2020-08-09 03:45–03:54Z | `hex-r-look-out-hill` | 18 | He is in the cut. Further posts of his in this channel outside the cut were counted, not read. |
+| S3 0352, line 100, 14 messages, 2020-08-18 05:03–05:34Z | `town-square` | 0 | Within 15 minutes this shard has no post from him. The channel runs out at 14 messages. Other shards were not opened. |
+| EC 0150, line 100, 40 messages, 2021-07-22 17:51–18:19Z | `the-golden-voice` | 0 | Within 15 minutes he is posting in other channels in this shard. Those sentences were not written up. |
+
+## DR-20261016-15 — One cut is empty because he is elsewhere, one is empty in the shard
+
+**Type.** Sample result. Not a DM trait.
+
+**Supported facts.** The table above. Town square's speakers are `nobleindie`, a deleted account, and `sketchybee`.
+
+**Interpretation.** London and the Golden Voice are the case where he is in another channel. Town square is the case where this shard does not show him. The engine room is neither: he spoke there before the cut.
+
+**Confidence.** DIRECT for these five files only.
+
+**Scope.** These windows.
+
+**Exclusions.** Do not call the town-square gap a choice.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-16 — Initiative closed, no late entries
+
+**Type.** Two posts read while checking an empty cut. Not inside the 40 rows.
+
+**Context.** `🎛-engine-room`, 2020-07-31, about ten minutes before line 100.
+
+**References.** `738567761436999731`, `738567780881924148`, `738568127641813102`, `738568159673712720`.
+
+**Supported facts.** He posts the names "Baeshra Nico Wren Castor Pierce Wynne Traxim Web Rigatony". The next post has empty `content`. He writes "(closing init. No late entries.)" The next post is empty again. This projection stores no embed on either empty row.
+
+**Interpretation.** He closes that initiative and says no late entries. The forty rows after line 100 do not contain another post from him.
+
+**Confidence.** DIRECT for those four posts.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not turn one close into a rule that late arrivals never join a fight. Do not fill the empty posts.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-17 — Later on Look Out Hill
+
+**Type.** One combat slice. Not the pudding exchange.
+
+**Context.** `hex-r-look-out-hill`, 2020-08-09, 03:45–03:54Z. `DR-20261016-14` is earlier the same night and was not reopened. `hekiryuu` asks how large the cleanroom is.
+
+**References.** `741864858097811477`, `741865667720118293`, `741865752650448938`, `741865820975530085`, `741865846544269382`, `741866014920146975`, `741866066908807279`, `741866266268270606`, `741866330579271743`, `741866361663520798`, `741866378184622261`, `741866422510026758`, `741866948375347243`.
+
+**Supported facts.** He answers "20X20". After "Flurry of Chomp" he writes "hit, it tastes soapy" and "bashra washes their mouth out with detergent". `hekiryuu` describes a silent image on the walls and floor of a 15×15×15 corner. He answers "(sure)". Asked "(Is the monster making concentration checks?)" he answers "(the monster actually doesn't need to)". He writes "Roll d20+!" and then "Roll 1d20+1". Avrae shows `1d20 (2) + 1`, total 3, on his user id. He writes "it fails" and "Kloroxx yells nooooooo". After Kloroxx targets Sandi, a hit is called by `hekiryuu`, and an `8d8` total of 34 is shown, he writes "(he doesn't use eyes to see)".
+
+**Interpretation.** The room size, the soapy bite, the waived concentration check, the failed roll, and the eyes line are this slice. The parenthetical does not name who "he" is. The posts before it are Kloroxx's attack. No difficulty class is stated for the roll of 3.
+
+**Confidence.** DIRECT for the quotes. The two Avrae totals are the rows as stored.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Limitations.** Posts outside this cut were not read. Turn-calls in the cut ("pass", "hit", "got it", "bae", "web") are not separate claims.
+
+**Exclusions.** Do not export 20×20, detergent, or eyeless sight to other fights. Do not merge this with the pudding ruling.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## Sample F, named and not opened
 
 Same cut. Not read in this commit.
 
-- `model-index/discord/roanoke-season-3/messages-0052.jsonl`
-- `model-index/discord/roanoke-season-3/messages-0152.jsonl`
-- `model-index/discord/roanoke-season-3/messages-0252.jsonl`
-- `model-index/discord/roanoke-season-3/messages-0352.jsonl`
-- `model-index/discord/empire-city/messages-0150.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0053.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0153.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0253.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0353.jsonl`
+- `model-index/discord/empire-city/messages-0350.jsonl`
 
 ## Validation commands
 
@@ -402,5 +474,5 @@ Same cut. Not read in this commit.
 
 The last script guards the Season 3 audit entry path. A pass does not verify these rows.
 
-Results on this branch, before the Sample D commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+Results on this branch, before the Sample E commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
 
