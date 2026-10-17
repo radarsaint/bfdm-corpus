@@ -113,7 +113,7 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 
 ## Direct reading
 
-- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — draft ordinary-post sample. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Samples A through E, line-100 windows. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. A dice-bot cut that contains none of his rows is not absence either. One Empire City cut has no post from him in that shard at all, and that was not called a choice. The funeral line and the observation-deck PvP line were already on main and were not reopened.
+- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — draft ordinary-post sample. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Samples A through E, then the counter sequence through Season 3 indexes 53–99, 153–199, 253–299, and 353–395, plus Empire City `0050` and `0350`. 186 windows. His posts are stored. Limits from those posts are records. The twenty Season 3 judgments were not expanded. Shards outside the counters were not opened. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. A dice-bot cut that contains none of his rows is not absence either. One Empire City cut has no post from him in that shard at all, and that was not called a choice. The funeral line and the observation-deck PvP line were already on main and were not reopened.
 
 ## Kit evaluation
 

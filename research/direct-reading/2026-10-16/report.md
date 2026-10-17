@@ -455,15 +455,283 @@ Same cut. These files were named before the read.
 
 **KIT_CONSUMPTION.** NOT_APPROVED.
 
-## Sample F, named and not opened
+## Sequence closed
 
-Same cut. Not read in this commit.
+Sample F was the next named cut. After it, the same cut was applied to every remaining file in the four counters, and to the two Empire City files still on the 50-step.
 
-- `model-index/discord/roanoke-season-3/messages-0053.jsonl`
-- `model-index/discord/roanoke-season-3/messages-0153.jsonl`
-- `model-index/discord/roanoke-season-3/messages-0253.jsonl`
-- `model-index/discord/roanoke-season-3/messages-0353.jsonl`
-- `model-index/discord/empire-city/messages-0350.jsonl`
+- Sample F: Season 3 `messages-0053`, `0153`, `0253`, `0353`, and Empire City `messages-0350`.
+- Then Season 3 indexes 54–99, 154–199, 254–299, and 354–395, where the file exists.
+- Empire City `messages-0050`.
+
+`messages-0395.jsonl` has 13 lines. It has no line 100. That is the short file.
+
+186 windows. 66 contain a post of his. 12 contain none, but he posted in that same channel within 15 minutes, and those posts were stored. 72 contain none, and he posted in another channel in the shard; those other-channel sentences were not stored. 35 contain none, and this shard has no post from him within 15 minutes. That last class was not called a choice.
+
+Every stored post is in [sequence-windows.jsonl](sequence-windows.jsonl). A turn-call ("hit", "got it", a name) stays there and is not given its own record below. The records are the sentences that set a limit. They are not a model, and they do not expand the twenty Season 3 judgments.
+
+## DR-20261016-18 — The counters are finished
+
+**Type.** Sample result. Not a DM trait.
+
+**Supported facts.** The counts above. The file list is the JSONL.
+
+**Interpretation.** This is the end of this counter sequence. It is not a reading of every shard.
+
+**Confidence.** DIRECT for these 186 files only.
+
+**Scope.** These windows.
+
+**Exclusions.** Do not treat a shard with no post from him as silence. Shards outside these indexes were not opened.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-19 — The banner's gift does not destroy the chisel
+
+**Type.** Parentheticals after a pasted item.
+
+**Context.** `leafs-lookout`, 2020-08-09. He posts a long banner description, message `741920057021562913`, including a Gift of Battle that destroys the banner after 8 hours.
+
+**References.** `741920316082618380`, `741920617766322232`, `741920737555775550`.
+
+**Supported facts.** He writes "(the chisel is not destroyed however for the gift of battle)", "(this one of the most powerful artifacts in the game)", and "(you can use the gift more than once. it just takes 8 hours of set up)". He also writes "(welcome to the masons)" and "(the hunger)".
+
+**Interpretation.** The parentheticals change the pasted gift: the chisel survives, and the gift can be used again after another 8 hours. "The hunger" is two words. They do not say what the hunger is.
+
+**Confidence.** DIRECT for those sentences. The banner paragraph is his paste, not a book checked here.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not give this banner to another table from this window.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-20 — Nothing hidden, and still something off
+
+**Type.** One bunny scene.
+
+**Context.** `a-hatch`, 2020-08-18. He has described 30 bunnies and "This is fine."
+
+**References.** `745385629629546567`, `745385663767249056`, `745385811301892200`, `745386419253542954`.
+
+**Supported facts.** He asks "true sight doesn't give you information about creatures, right?" He then writes "there is nothing hidden or invisible" and "but there is something off about these bunnies". A later check in the same cut is "dc 19".
+
+**Interpretation.** The question is a question. The two statements are what he asserts about that scene: nothing hidden or invisible, and something off about the bunnies. The DC is for the sleight-of-hand call just before it.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not answer his question about truesight from this window. Do not export DC 19.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-21 — A commoner is all 10s
+
+**Type.** Out-of-character stat directions.
+
+**Context.** `🙋-out-of-character`, 2020-08-09.
+
+**References.** `742127507536347186`, `742127694300446771`, `742128077089276061`, `742128296266825900`, `742128319247679538`.
+
+**Supported facts.** He writes "it be all 10s", "get ready to die to some cr 1/4", "Make sure to take a set of tools", posts `https://roll20.net/compendium/dnd5e/Commoner#content`, and "feel free to roll for hp". He also writes "actually I need to adjust one thing" with no statement of the adjustment in that post.
+
+**Interpretation.** For this commoner, the abilities are 10s, tools are required, and hit points may be rolled. The adjustment is unnamed here.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not treat "die to some cr 1/4" as a promise about every fight.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-22 — Call the end of your turn, and the plant is not blind
+
+**Type.** Two combat asides.
+
+**Context.** `a-hatch`, 2020-08-18, later than the bunnies.
+
+**References.** `745407684018438145`, `745407878051004456`.
+
+**Supported facts.** He writes "you never called eot" and then "go ahead". He writes "(tremorsense and truesight. I don't do blind as plantman)".
+
+**Interpretation.** In this stretch, skipping the end-of-turn call is noticed, and the turn is allowed to continue. The sense line is about the plantman in this fight.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not make "never blind" a rule for every plant.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-23 — Consent to contest is not consent to be rescued
+
+**Type.** One parenthetical. Not the observation-deck case.
+
+**Context.** `hex-b-leviathans-call`, 2020-08-03. The same cut includes a dexterity comparison, "who wants to call it, high or low", "web called first", people pushed back, and "35 feet and counting."
+
+**References.** `739693279901122560`.
+
+**Supported facts.** He writes "(lol consent to contest. not consent to be rescued.)"
+
+**Interpretation.** This sentence splits contesting from being rescued. `BDC-S3-012` is a different day and a different sentence. Its reusable judgment stays overclaimed. This line does not revive it.
+
+**Confidence.** DIRECT for this sentence.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not promote this to a standing consent rule. Do not merge it into the twenty.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-24 — Pairs in the woods
+
+**Type.** One aside during a drag.
+
+**Context.** `hex-m-howling-woods`, 2020-08-03.
+
+**References.** `739952415637504001`.
+
+**Supported facts.** He writes "(Roanoke is dangerous. pairs of people walking in the woods are likely to get killed with smaller party sizes. I threw out dire bears and other such things yesterday.)"
+
+**Interpretation.** He describes that day's woods and says he used dire bears the day before. "Likely" is his word for small parties. It is not a measured rate.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not spawn dire bears because this sentence exists.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-25 — The lake's clock
+
+**Type.** Four limits in one underwater stretch.
+
+**Context.** `hex-l-lake-of-woes`, 2020-08-12.
+
+**References.** `743242729487859853`, `743243763404636291`, `743244812471238767`, `743244923662499944`.
+
+**Supported facts.** He writes "make a death save, don't roll a 1". He writes "(underwater, drowning rules begin, don't worry minutes take forever in dnd)". He writes "(end encounter until 6, take a short rest)" and "(max healing on hit die)".
+
+**Interpretation.** The death-save line tells the player what not to roll; it does not show the die. Drowning starts, and he says minutes are long in the game. The encounter stops until 6, with a short rest and maximum healing on hit dice.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not apply maximum hit-dice healing to every rest.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-26 — The mainland entrance, and sinking is not receding
+
+**Type.** Place and schedule.
+
+**Context.** `town-hall`, 2020-08-12, and `hex-l-lake-of-woes`, 2020-08-13.
+
+**References.** `743203172532748321`, `743307210721067119`, `743307278220001321`, `743307547900903496`.
+
+**Supported facts.** He writes "(the closest entrance to the feywild is on the main land.)" He writes "The island has stopped sinking." Then "(but this isn't the same as the waters receeding)" and "(for times sake, yes, lets not have endless meetings.)"
+
+**Interpretation.** One entrance is named, on the mainland. Stopping the sink is distinguished from the water receding. The meeting line is about that day's time.
+
+**Confidence.** DIRECT. Spellings are his: "main land", "receeding".
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not invent other feywild entrances. Do not treat the meeting line as a ban on planning.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-27 — Inside the hunger
+
+**Type.** One voice-event round.
+
+**Context.** `week-5-voice-event-main`, 2020-08-22.
+
+**References.** `746559816515977358`, `746560671977701486`, `746561550634188821`, `746561777722195989`.
+
+**Supported facts.** He writes "Ozgur is inside the beast." "You will take bite damage for entering." "(at the top of the hunger's turn if you are still inside, skitter and ozgur take 3d6 acid.)" "(ozgur is still blinded and restrained, but for his bold courage, skitter is not.)"
+
+**Interpretation.** Entering costs a bite. Staying inside until the hunger's turn costs 3d6 acid to those two. Ozgur stays blinded and restrained. Skitter does not, and the reason he gives is "bold courage."
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not reuse 3d6 or "bold courage" for a different creature.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-28 — Solomon, Rah, and a question for Rob
+
+**Type.** Two parentheticals. Not the observation-deck PvP case.
+
+**Context.** `🔭-the-observation-deck`, 2020-07-31.
+
+**References.** `738662396838543373`, `738662553529352213`.
+
+**Supported facts.** He writes "(Solomon isn't done with you. The precedent set with Rah for spilling secrets is rough.)" and "(I'll talk to rob and get his input)".
+
+**Interpretation.** He points at a prior precedent and says he will ask Rob. The precedent is not quoted here. `BDC-S3-012` was not reopened.
+
+**Confidence.** DIRECT for the two sentences. What Rah did is not in this cut.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not invent the Rah scene. Do not record Rob's answer. It is not in this window.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-29 — No one in melee
+
+**Type.** One targeting sentence.
+
+**Context.** `hex-i-wychwood-forest`, 2020-08-03. He has asked "(who is in melee?)".
+
+**References.** `739968197603754086`.
+
+**Supported facts.** He writes "with no one claiming melee, the beast scampers up to the last person to attack it."
+
+**Interpretation.** In this round, an unclaimed melee means the beast goes to the last attacker.
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not make "last attacker" the default for every monster.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-30 — Meteorites, demons, and co-DMing
+
+**Type.** Three separate asides. Not one doctrine.
+
+**References.** `742109487137292420` in `⚒-free-masons`, 2020-08-09. `736790327322476644`, `736790623365103646`, and `736791077293522945` in `🌚-bulwark-hallways`, 2020-07-26. `743267369761112125`, `743267432273150062`, `743267468310740996`, `743267487264669736`, and `743267528926691440` in `🙋-out-of-character`, 2020-08-13.
+
+**Supported facts.** "(meteorites aren't stars, copper)". "the contract is so magical that its hard to see anything else". "(no, im just playing the world)". "(to be clear. the lesser demons give valuble things)". "Where as there is a novel of world building just sitting in mason chat". "secrets". "I know what noah is doing." "and its good story telling". "I have never been so happy to co-dm with some one".
+
+**Interpretation.** Meteorites are not stars, in that correction. The contract hides other details. Lesser demons give valuable things, spelled as he spelled it. He says he is playing the world, not a character, in the Astella aside. He praises Noah's storytelling and says he is happy to co-DM. He does not describe Noah's method beyond "secrets" and "good story telling."
+
+**Confidence.** DIRECT.
+
+**Scope.** EVENT_SPECIFIC. Three windows, not one practice.
+
+**Exclusions.** Do not turn the co-DM sentence into a division of authority. Do not stock every demon with treasure from this line.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## Not read, on purpose
+
+The rest of each Sample A and Sample B shard. Season 2 live play, Season 5 live play, voice beyond the rows inside these cuts, and the held-out partition. The look-out-hill, free-masons, gigglewood, interrogation, and dice-tower posts from the early windows were counted and not written up.
+
+The beach, the oasis, the treehouse scene, the `#quotes` alliteration, and his other-channel posts in the 0101 and 0201 spans.
+
+Sample D and Sample E other-channel sentences, as already stated.
+
+For this closed sequence, other-channel sentences in the 72 elsewhere-windows were counted and not stored. Shards whose indexes are outside the counters were not opened.
 
 ## Validation commands
 
@@ -474,5 +742,6 @@ Same cut. Not read in this commit.
 
 The last script guards the Season 3 audit entry path. A pass does not verify these rows.
 
-Results on this branch, before the Sample E commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+Results on this branch, before the sequence commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+
 
