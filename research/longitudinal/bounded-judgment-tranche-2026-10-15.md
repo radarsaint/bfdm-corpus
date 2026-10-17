@@ -45,13 +45,15 @@ Kit's runtime reads a smaller curated subset through `dnd-solo` `runtime/kit_jud
 
 **Historical.** `744056939096571924`, 2020-08-15, Roanoke announcements: "I made a genuine mistake with my res rule. I'm going to have to nerf that ability for game balance reasons. Tonight's rez's still stand but the once per day rule can't stay in the game."
 
-The v1 case that cites this moment used a prep locator the PR #38 audit could not reconstruct. That audit is now on main at `2b68820d`. This tranche cites the Discord message, not that locator.
+Before that post he scheduled the order: "Clover will res Viola, then percy, then abbadon" and "one hour per" (`744034814075600899`, `744034861823557694`). After the announcement, Percival's player narrates "Percival Gasps back to life" (`744064912656957481`). Viola's return is a player report from before the announcement (`744053132228558898`). Abbadon's return is not in these lines.
 
-**What is supported.** He called that rule a mistake, ended the once-per-day version going forward, and left that night's resurrections in place.
+`BDC-S3-019` names no preparation locator. The merged review says none was added. This row cites the Discord messages.
 
-**What is not supported.** A policy for every failed house rule. Any later resurrection practice.
+**What is supported.** He called that rule a mistake, ended the once-per-day version going forward, and left that night's resurrections in place. The scheduled return of Percival is then played by the player. That is follow-through on the commitment, not a second ruling from him.
 
-**Status.** `VERIFIED_NARROW`.
+**What is not supported.** A policy for every failed house rule. The replacement rule's frequency, cost, or a later ruling that cites it. Later Revivify scroll use, which players were already asking for before this announcement. Kit card BJ-003 on dnd-solo #126 still describes only the announcement. This note does not change that card.
+
+**Status.** `VERIFIED_NARROW`. The evidence list on the record stays the announcement. The schedule and the played return are follow-through, recorded here, and are not a wider status.
 
 ## BJ-004 — Prepared fight against the live party
 
