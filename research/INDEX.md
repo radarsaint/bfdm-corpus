@@ -33,7 +33,7 @@ Status: landed and validated on `main`.
 - `scripts/query_source_history.py` — source-family/history traversal.
 - [legacy-staging/README.md](legacy-staging/README.md) and [legacy-staging/manifest.all.jsonl](legacy-staging/manifest.all.jsonl) — staging provenance/history, no longer the current migration blocker.
 
-Status: PR #25, PR #31, and PR #36 are merged. Canonical containers run through BCS-000172, including historical Drive recovery and partial Earthfall/Saturday DM-workbench histories. Stage 1 is substantially broader and hardened, not exhaustive. Unreadable candidates, missing live evidence, and broader live coverage remain. Donor PRs #32, #34, and #35 are closed without merge.
+Status: PR #25, PR #31, and PR #36 are merged. That consolidation ran through `BCS-000172`, including historical Drive recovery and partial Earthfall/Saturday DM-workbench histories. The catalog on this branch continues through `BCS-000195`. `BCS-000172` is not the current ceiling. Stage 1 is substantially broader and hardened, not exhaustive. Unreadable candidates, missing live evidence, and broader live coverage remain. Donor PRs #32, #34, and #35 are closed without merge.
 
 ## Stage 2 — Reconstruct expert judgment
 

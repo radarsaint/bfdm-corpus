@@ -109,11 +109,11 @@ Important current gaps include:
 
 Archive gap and evidence gap are not interchangeable.
 
-## LANDED ON MAIN — first-tranche derived-research integrity staging
+## LANDED ON MAIN — first-tranche derived-research review
 
 PR #38 — **Audit and repair BFDM derived-research evidence chains** — merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16).
 
-First-tranche staging only (20 Roanoke S3 cases). No corpus-wide semantic certification. Mechanically valid locators/citations are not semantic verification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; the live Discord event is recoverable but does not repair the citations. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments in the tranche are not verified for transfer and do not go into Kit. Untouched research stays UNVERIFIED.
+The first tranche is 20 Roanoke S3 cases and 120 reviewed propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 `reusable_judgment` propositions are `SCOPE_OVERCLAIMED`. None is certified as a standing DM practice. The set is a curated sample, not a model, and it does not go into Kit. No corpus-wide semantic certification. Mechanically valid locators are not semantic verification. BDC-S3-004 prep locators remain `ORIGINAL_REPRESENTATION_UNAVAILABLE` / `SUPPORT_NOT_FOUND`. Untouched research stays `UNVERIFIED`. Do not restamp these verdicts because a later commit touches a nearby file.
 
 ## OPEN PR — strategic planning handoff
 
@@ -158,7 +158,7 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. For research, PR #38 must semantically verify the dependency claims that matter to downstream Phase 2; only then adversarially test PR #28's proposed contrast families using Earthfall/Saturday workbench evidence with preparation/play limits. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28's contrast families can be tested against Earthfall and Saturday workbench evidence with preparation/play limits without waiting on #38. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 

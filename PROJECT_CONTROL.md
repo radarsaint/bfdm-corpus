@@ -47,7 +47,7 @@ Friday ChatGPT Work should not be spent on broad ingestion, searchability, gener
 
 Highest-value Work targets are:
 
-1. semantically verify only the high-leverage derived propositions that downstream Phase 2 / Stage 3 work actually depends upon;
+1. semantically verify high-leverage derived propositions that are outside the finished 120;
 2. adversarially attack PR #28's candidate families with independently reconstructed Earthfall/Saturday workbench evidence;
 3. search for deliberate restraint / non-intervention cases that visible-action-heavy research is likely to miss;
 4. reconstruct bounded failure -> diagnosis -> correction -> later-behavior trajectories;
@@ -55,13 +55,13 @@ Highest-value Work targets are:
 
 Every Work task should have a finite question, finite evidence domain, explicit stopping rule, scope limit, and invalidation condition.
 
-If PR #38 has already completed a needed semantic review by launch time, do not duplicate it.
+The finished first tranche is PR #38, merged as `2b68820d445e9f6d99d021463bfd76b2f7bb257d`. Do not duplicate those 120 reviews.
 
 ## Active draft state that materially affects trust
 
 Open draft PRs are not canonical main, but some are important current work:
 
-- **#38 — forensic derived-research integrity audit.** Merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16). First-tranche staging of 20 S3 decision cases. No corpus-wide certification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; Discord does not repair them. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments are not verified for transfer.
+- **#38 is not a draft.** It merged. The review is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are overclaimed. Not a model. Not Kit.
 - **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
 - **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
