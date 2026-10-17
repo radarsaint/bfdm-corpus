@@ -89,6 +89,8 @@ The original Season 3 decision cases have a completed semantic audit. All 20 ori
 - [roanoke-s3/revision-family-v3.md](roanoke-s3/revision-family-v3.md)
 - [roanoke-s3/README.md](roanoke-s3/README.md)
 
+One later cross-case reading, not a model of practice: [longitudinal/bounded-judgment-tranche-2026-10-15.md](longitudinal/bounded-judgment-tranche-2026-10-15.md). It keeps unsupported outcomes in view. It is not the Season 3 decision-case sample.
+
 Historical draft PRs #2–#4 remain provenance; their useful products were organized into the merged research baseline.
 
 ## Empire City / Season 4
