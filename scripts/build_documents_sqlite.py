@@ -40,12 +40,19 @@ def sha256_file(path: Path) -> str:
 
 
 def authorship_status(meta: dict) -> str:
+    """Read creator attribution. A missing status uses the standing owner default.
+
+    UNKNOWN is not invented here. An explicit non-Brendon status is returned
+    unchanged so collaborator and third-party records stay as recorded.
+    """
     authorship = meta.get("authorship")
     if isinstance(authorship, dict):
-        return str(authorship.get("status") or "UNKNOWN")
-    if isinstance(authorship, str) and authorship:
+        status = authorship.get("status")
+        if status:
+            return str(status)
+    elif isinstance(authorship, str) and authorship:
         return authorship
-    return "UNKNOWN"
+    return "BRENDON"
 
 
 def authorship_basis(meta: dict) -> str | None:

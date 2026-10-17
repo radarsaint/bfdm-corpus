@@ -92,7 +92,9 @@
             "BRENDON",
             "COLLABORATIVE",
             "OTHER_AUTHOR",
-            "UNKNOWN"
+            "MIXED_OR_PARTIALLY_VERIFIED",
+            "MIXED_CONVERSATION_PARTIAL",
+            "MIXED_ROLE_TRANSCRIPT"
           ]
         },
         "basis": {
@@ -117,13 +119,13 @@
           "required": [
             "basis_kind",
             "attested_by",
-            "attested_on",
             "scope"
           ],
           "properties": {
             "basis_kind": {
               "enum": [
                 "owner_attestation",
+                "standing_owner_declaration",
                 "document_statement",
                 "comment_attribution",
                 "revision_comparison"

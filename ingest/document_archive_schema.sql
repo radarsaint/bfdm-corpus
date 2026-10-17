@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS source_containers (
     title TEXT NOT NULL,
     source_role TEXT,
     source_kind TEXT,
-    authorship_status TEXT NOT NULL DEFAULT 'UNKNOWN',
+    authorship_status TEXT NOT NULL DEFAULT 'BRENDON',
     authorship_basis TEXT,
     creator TEXT,
     copyright_owner TEXT,

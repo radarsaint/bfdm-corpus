@@ -17,6 +17,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DONOR = "origin/ingest/drive-project-v3"
 INGESTED_AT = "2026-10-05T18:10:00Z"
 
+import sys
+
+sys.path.insert(0, str(ROOT / "ingest"))
+from authorship_policy import container_authorship  # noqa: E402
+
 LIVE_GAP = {
     "question": "live_use",
     "status": "NOT_ESTABLISHED",
@@ -565,12 +570,10 @@ def build_metadata(item: dict, files: dict[str, bytes], donor_meta: dict) -> dic
             "created_at": None,
             "modified_at": None,
             "ingested_at": INGESTED_AT,
-            "authorship": {
-                "status": catalog.get("authorship") or "UNKNOWN",
-                "basis": catalog.get("authorship_basis")
-                or donor_meta.get("provenance_note")
-                or "Whole-document authorship was not established by this port.",
-            },
+            "authorship": container_authorship(
+                catalog.get("authorship"),
+                catalog.get("authorship_basis") or donor_meta.get("provenance_note"),
+            ),
             "locators": locators,
             "normalization": {
                 "method": "Donor normalized body preserved byte-for-byte.",
@@ -702,7 +705,7 @@ def upsert_catalog(rows: list[dict], meta: dict, dest_prefix: str) -> list[dict]
                 "project": meta.get("project"),
                 "source_role": meta.get("source_role"),
                 "source_kind": meta.get("source_kind"),
-                "authorship": (meta.get("authorship") or {}).get("status", "UNKNOWN"),
+                "authorship": (meta.get("authorship") or {}).get("status") or "BRENDON",
                 "authorship_basis": (meta.get("authorship") or {}).get("basis", ""),
                 "approximate_source_date": meta.get("created_at"),
                 "partition": "DISCOVERY",

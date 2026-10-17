@@ -13,9 +13,20 @@
   "modified_at": "2023-07-14T04:35:25.762Z",
   "ingested_at": "2026-10-17T18:30:00Z",
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship.",
-    "project_ownership_context": "Drive file owner at capture: not.a.kenku (not.a.kenku@gmail.com)."
+    "status": "BRENDON",
+    "basis": "Standing owner declaration: Brendon Faulkner is the creator and copyright owner of first-party BFDM creative work. The 2026-10-09 attestation corrected an earlier batch. It is not the boundary of ownership. Drive custody and missing archival lineage are not authorship.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "standing_owner_declaration",
+      "attested_by": "Brendon Faulkner",
+      "scope": "first-party BFDM creative sources. Membership in the 2026-10-09 correction batch is not required."
+    },
+    "project_ownership_context": "Drive file owner at capture: not.a.kenku (not.a.kenku@gmail.com).",
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "Admitted 2026-10-17 from a retrieved Drive body. This file is not in the 2026-10-09 owner-attestation set. Drive ownership, file location, and campaign relevance are not authorship."
+    }
   },
   "archival_provenance": {
     "status": "PARTIAL",
@@ -48,7 +59,6 @@
     "method": "Google Drive current text or Markdown export to source.md. A separate DOCX export was not stored.",
     "tool": "Google Drive connector",
     "warnings": [
-      "Authorship is UNKNOWN. This file is not in the 2026-10-09 owner-attestation set. A Drive owner is not an author.",
       "A container is a retrieved source. It is not a verified judgment, a standing practice, or a Kit instruction.",
       "Revision bodies and native comments were not fetched."
     ]
@@ -64,11 +74,6 @@
     "project_links": [],
     "production_stages": [],
     "not_established": [
-      {
-        "question": "authorship",
-        "status": "NOT_ESTABLISHED",
-        "basis": "No owner attestation covers this container."
-      },
       {
         "question": "live_use",
         "status": "NOT_ESTABLISHED",

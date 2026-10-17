@@ -17,6 +17,10 @@ Deliver both:
 
 Do not do personality synthesis, DM-decision extraction, or training-data construction during this task.
 
+## Authorship
+
+First-party BFDM creative containers are `BRENDON` under the standing owner declaration in [../INGESTION_CONTRACT.md](../INGESTION_CONTRACT.md) section 8. Do not leave a new container `UNKNOWN` because it is outside the 2026-10-09 attestation report. Do not copy a missing date, path, or relationship into authorship. Keep a specifically established collaborator or third-party attribution. Do not ask Brendon to attest the same ownership again.
+
 ## Branch
 
 PR #5 has been merged.

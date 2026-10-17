@@ -326,39 +326,36 @@ Do not convert every Brendon-authored comment into BCE automatically. Store sour
 
 ## 8. Authorship and ownership
 
-Default source-level authorship is `UNKNOWN` unless supported.
+First-party BFDM creative sources are attributed to Brendon Faulkner by default. He is the creator and copyright owner of this project and its first-party creative work. That standing owner declaration is project policy. It is recorded as `authorship.attribution.basis_kind = standing_owner_declaration` with `authorship.status = BRENDON`. A new ingestion batch does not need a new per-file attestation, and the container does not need to be added to a historical file list.
 
-Never infer whole-document authorship from:
+The 2026-10-09 owner attestation corrected an earlier set of containers that had been left `UNKNOWN`. That date is the record of the correction. It is not the boundary of his ownership. A container admitted after that date is still his first-party work unless a collaborator or third-party attribution is already specifically established.
 
-- Drive ownership;
-- file location;
-- inclusion in Brendon's project;
-- last modifying user;
-- campaign ownership;
-- title/voice resemblance.
+Do not set `authorship.status` to `UNKNOWN` because:
 
-Use supported statuses such as:
+- the file is absent from the 2026-10-09 attestation report;
+- a native date, original filename, source path, native id, URL, source relationship, or revision history is missing;
+- the Drive file owner, last modifier, or folder is someone else.
+
+Those facts stay on `archival_provenance`, locators, or `project_ownership_context`. Missing archival metadata must not reset ownership.
+
+Specifically established collaborator, other-author, and mixed-speaker attributions stay as recorded. Do not relabel that prose as sole Brendon authorship. Comment authorship and revision modifiers stay on their own records.
+
+Drive custody is not the reason for the attribution. The standing declaration is. Do not infer a different author from file location, last modifier, campaign folder, or title resemblance, and do not use those facts to withhold the standing declaration from a first-party container.
+
+Supported statuses include:
 
 - `BRENDON`
 - `COLLABORATIVE`
 - `OTHER_AUTHOR`
-- `UNKNOWN`
+- `MIXED_OR_PARTIALLY_VERIFIED`
+- `MIXED_CONVERSATION_PARTIAL`
+- `MIXED_ROLE_TRANSCRIPT`
 
-Owner attestation is a supported basis. It is an owner-declared fact about creator and copyright owner. It is not inferred from Drive ownership, file location, last modifier, or inclusion in a project. When `authorship.attribution.basis_kind` is `owner_attestation`, `authorship.status` records that declaration. `creator` and `copyright_owner` travel with it.
+`UNKNOWN` is not the default for a first-party source container.
 
-Archival provenance is a different fact. A missing original filename, native or acquisition timestamp, source path, native id, URL, or source-to-source relationship is recorded on `archival_provenance` and left unresolved. Do not copy that gap into `authorship.status`. Custody of a Drive file is not authorship. Comment authorship and revision modifiers stay on their own records.
+When `authorship.attribution.basis_kind` is `owner_attestation`, that record is the 2026-10-09 correction batch. `creator` and `copyright_owner` travel with either basis. `archival_provenance_status = UNKNOWN` means missing lineage. It is not an authorship label.
 
-Keep separate:
-
-- project ownership/authority;
-- source authorship;
-- copyright owner;
-- archival provenance;
-- comment authorship;
-- revision modifier;
-- delegated implementation.
-
-Third-party source material can remain in the archive as `CONTEXT_ONLY_THIRD_PARTY`.
+Third-party reference material that was never admitted as a first-party creative source can remain outside the archive as `CONTEXT_ONLY_THIRD_PARTY`.
 
 ## 9. Project/Library file policy
 
@@ -410,7 +407,7 @@ Schema is defined in:
 - SQLite integrity check must pass;
 - FTS index must rebuild successfully.
 
-`source_containers.authorship_status` is creator attribution. `creator`, `copyright_owner`, `attribution_basis_kind`, and `attested_on` carry an owner attestation when one exists. `archival_provenance_status` is missing lineage. Do not read `archival_provenance_status = 'UNKNOWN'` as unknown authorship.
+`source_containers.authorship_status` is creator attribution. The column default is `BRENDON`, matching the standing owner declaration. `creator`, `copyright_owner`, and `attribution_basis_kind` carry either that declaration or the 2026-10-09 `owner_attestation` correction. `archival_provenance_status` is missing lineage. Do not read `archival_provenance_status = 'UNKNOWN'` as unknown authorship.
 
 The SQLite file is stored through Git LFS under existing `*.sqlite` rules.
 

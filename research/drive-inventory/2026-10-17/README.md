@@ -4,7 +4,7 @@ Retrieved campaign Drive bodies are source containers `BCS-000196` through `BCS-
 
 The machine record is `admission.json`. It lists every admitted id, the two Drive files that share an existing text and did not get a second id, and every candidate that was not admitted.
 
-Authorship on these containers is `UNKNOWN`. They are not in the 2026-10-09 owner-attestation set. A Drive owner is not an author. A container is not a verified judgment, a standing practice, or a Kit instruction.
+Authorship on these containers is `BRENDON` under the standing owner declaration. The 2026-10-09 attestation corrected an earlier batch. It is not the boundary of ownership, and these files do not need a separate attestation. A Drive owner is not what decides authorship. A container is not a verified judgment, a standing practice, or a Kit instruction.
 
 The 20 Season 3 decision cases remain one audited tranche. They are not the boundary of the corpus.
 

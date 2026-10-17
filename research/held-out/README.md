@@ -31,7 +31,7 @@ Items go in `items.jsonl` in this directory, which is created with the first ite
 
 ## Historical held-out candidate (not designated)
 
-At War's End (`BCS-000060`–`BCS-000067`) is the least-read historical family. Only titles and dates appear in the research. It was not designated because its bodies were normalized in the legacy staging bundle, its authorship is `UNKNOWN`, and it is prep material, not live play. Brendon can designate it separately if he wants a historical held-out set as well.
+At War's End (`BCS-000060`–`BCS-000067`) is the least-read historical family. Only titles and dates appear in the research. It was not designated because its bodies were normalized in the legacy staging bundle and it is prep material, not live play. Its authorship is `BRENDON`. Brendon can designate it separately if he wants a historical held-out set as well.
 
 ## Voided sets
 

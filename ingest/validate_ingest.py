@@ -15,6 +15,9 @@ import sqlite3
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from authorship_policy import CREATOR, ESTABLISHED_OTHER, OBSOLETE_BOILERPLATE  # noqa: E402
+
 BCS_RE = re.compile(r"^BCS-\d{6}$")
 SHA_RE = re.compile(r"^[0-9a-fA-F]{64}$")
 
@@ -140,6 +143,7 @@ def validate_metadata(repo: Path, errors: list[str], warnings: list[str]) -> dic
                 if not isinstance(meta.get(field), list) or not meta[field]:
                     fail(errors, f"{meta_path}: {field} must be a non-empty list")
             validate_owner_attestation(meta_path, meta, errors)
+            validate_standing_authorship(meta_path, meta, errors)
 
     if not records:
         warnings.append("no metadata.json source containers found; validator may be running before ingestion")
@@ -175,6 +179,46 @@ def validate_owner_attestation(meta_path: Path, meta: dict, errors: list[str]) -
         fail(errors, f"{meta_path}: missing original_filename was treated as unknown authorship")
     if archival.get("status") == "UNKNOWN" and status == "UNKNOWN":
         fail(errors, f"{meta_path}: unknown archival provenance was copied onto authorship")
+
+
+def validate_standing_authorship(meta_path: Path, meta: dict, errors: list[str]) -> None:
+    """First-party containers use the standing declaration. Other statuses stay."""
+    authorship = meta.get("authorship")
+    if not isinstance(authorship, dict):
+        return
+    status = authorship.get("status")
+    if status in ESTABLISHED_OTHER:
+        return
+    if status != "BRENDON":
+        fail(
+            errors,
+            f"{meta_path}: authorship status {status!r} is not BRENDON and is not a "
+            "specifically established collaborator or third-party attribution",
+        )
+    public = {key: value for key, value in authorship.items() if key != "superseded_authorship_record"}
+    normalization = meta.get("normalization") if isinstance(meta.get("normalization"), dict) else {}
+    history = meta.get("historical_context") if isinstance(meta.get("historical_context"), dict) else {}
+    blob = json.dumps(
+        {
+            "authorship": public,
+            "warnings": normalization.get("warnings"),
+            "not_established": history.get("not_established"),
+        },
+        ensure_ascii=False,
+    )
+    for phrase in OBSOLETE_BOILERPLATE:
+        if phrase in blob:
+            fail(errors, f"{meta_path}: obsolete attestation-set rule is still live: {phrase}")
+    attribution = authorship.get("attribution")
+    if not isinstance(attribution, dict) or attribution.get("basis_kind") != "standing_owner_declaration":
+        return
+    if authorship.get("creator") != CREATOR or authorship.get("copyright_owner") != CREATOR:
+        fail(errors, f"{meta_path}: standing owner declaration requires creator and copyright_owner {CREATOR}")
+    if attribution.get("attested_on"):
+        fail(errors, f"{meta_path}: standing owner declaration is not a per-file attestation date")
+    archival = meta.get("archival_provenance")
+    if isinstance(archival, dict) and authorship.get("status") == archival.get("status"):
+        fail(errors, f"{meta_path}: authorship status duplicates archival provenance status")
 
 
 def validate_sqlite(repo: Path, errors: list[str], warnings: list[str]) -> set[str]:
@@ -245,6 +289,36 @@ def validate_sqlite(repo: Path, errors: list[str], warnings: list[str]) -> set[s
                 fail(errors, f"{corpus_id}: index creator/copyright_owner is not Brendon Faulkner")
             if status == archival_status:
                 fail(errors, f"{corpus_id}: index copied archival provenance onto authorship")
+        standing = conn.execute(
+            """
+            SELECT corpus_id, authorship_status, copyright_owner, creator,
+                   archival_provenance_status, attested_on
+            FROM source_containers
+            WHERE attribution_basis_kind = 'standing_owner_declaration'
+            """
+        ).fetchall()
+        standing_catalog = set()
+        for line in catalog_path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if row.get("attribution_basis_kind") == "standing_owner_declaration":
+                standing_catalog.add(row["corpus_id"])
+        standing_ids = {row[0] for row in standing}
+        if standing_ids != standing_catalog:
+            missing = sorted(standing_catalog - standing_ids)
+            extra = sorted(standing_ids - standing_catalog)
+            fail(errors, "SQLite standing-owner rows do not match the catalog: "
+                 f"missing {missing[:10]} extra {extra[:10]}")
+        for corpus_id, status, copyright_owner, creator, archival_status, attested_on in standing:
+            if status != "BRENDON":
+                fail(errors, f"{corpus_id}: standing declaration index status {status!r} is not BRENDON")
+            if copyright_owner != "Brendon Faulkner" or creator != "Brendon Faulkner":
+                fail(errors, f"{corpus_id}: standing declaration creator/copyright_owner is not Brendon Faulkner")
+            if attested_on:
+                fail(errors, f"{corpus_id}: standing declaration was stored as a per-file attestation date")
+            if status == archival_status:
+                fail(errors, f"{corpus_id}: index copied archival provenance onto authorship")
         return db_bcs
     finally:
         conn.close()
@@ -299,6 +373,16 @@ def main() -> int:
                 fail(errors, f"{cid}: catalog creator does not match metadata")
             if row.get("authorship") == "UNKNOWN":
                 fail(errors, f"{cid}: catalog still labels owner-attested work as unknown authorship")
+        if isinstance(authorship, dict) and authorship.get("attribution", {}).get("basis_kind") == "standing_owner_declaration":
+            row = catalog_by_id[cid]
+            if row.get("attribution_basis_kind") != "standing_owner_declaration":
+                fail(errors, f"{cid}: catalog is missing the standing owner declaration")
+            if row.get("authorship") != "BRENDON":
+                fail(errors, f"{cid}: catalog does not record the standing owner declaration")
+            if row.get("creator") != authorship.get("creator") or row.get("copyright_owner") != authorship.get("copyright_owner"):
+                fail(errors, f"{cid}: catalog creator/copyright_owner does not match the standing declaration")
+            if row.get("attribution_attested_on"):
+                fail(errors, f"{cid}: catalog turned the standing declaration into a per-file attestation date")
 
     for cid in db_bcs:
         if cid not in catalog_ids:

@@ -6,7 +6,7 @@ Conservative rules:
 - archive records must agree with the preserved legacy manifest;
 - existing target bytes are never overwritten;
 - any differing target file is a hard conflict;
-- source-container membership does not imply Brendon authorship.
+- a specifically established collaborator or third-party attribution is not relabeled.
 
 Dry-run is the default. Use --apply only after reviewing the report.
 """
