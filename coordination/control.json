@@ -10,6 +10,7 @@
   "handoff_template": "coordination/HANDOFF_TEMPLATE.md",
   "research_entrypoints": [
     "research/integrity/JUDGMENT_TRUST.md",
+    "research/drive-inventory/2026-10-17/README.md",
     "research/STATUS.md",
     "research/RESEARCH_STATE.json",
     "research/NEXT_HANDOFF.md"
@@ -30,6 +31,7 @@
     ],
     "contrast_family_draft_confidence": "NOT_A_VERDICT",
     "derived_judgment": "NOT_A_STANDING_PRACTICE",
+    "s3_decision_tranche": "TWENTY_CASES_ARE_NOT_THE_CONTAINER_BOUNDARY",
     "visibility": "NOT_PART_OF_AUTHORITY"
   },
   "ownership": {
