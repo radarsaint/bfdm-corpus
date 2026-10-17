@@ -1,9 +1,9 @@
 # Derived research integrity
 
-**Status:** first-tranche staging only. No corpus-wide semantic certification has been performed.
+**Status:** first-tranche review is on canonical `main`. No corpus-wide semantic certification has been performed.
 
-**Audit baseline:** canonical `main` at `65513f294e72a3eb961d5699c21ddc1f14ceef2c`.  
-**Audit branch:** `audit/derived-research-integrity-2026-10-05`.  
+**Reviewed revision:** `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (PR #38). Later commits do not re-review those propositions by themselves.  
+**Historical audit branch:** `audit/derived-research-integrity-2026-10-05`. It is not the revision the gate checks out.  
 **First tranche:** `research/roanoke-s3/decision-cases-v1.md` and `.jsonl`.
 
 This layer exists because a citation can resolve syntactically while failing to reconstruct the evidence chain for the proposition that cites it. Source/substrate validity is therefore not semantic verification.
@@ -95,7 +95,9 @@ Generated packets may be deleted after the audit and rebuilt from canonical stat
 
 ## Automatic guard
 
-`.github/workflows/research-integrity.yml` is the automatic first-tranche gate. It runs the validator and adversarial tests when the audited artifacts, audit ledger, relevant evidence/source representations, identity dependencies, projection tooling/state, or integrity tooling change.
+`.github/workflows/research-integrity.yml` is the automatic first-tranche gate. On a pull request or a push to `main` that touches the audited artifacts, the ledger, the review packet, the BCS-000045 representation, the Season 3 Discord projection, the identity dependency, or the integrity tooling, it checks out that revision with Git LFS left as pointers. It runs the validator, the packet check, and `scripts/test_integrity_revalidation.py`.
+
+The test proves two things and does not rewrite the ledger. Unchanged reviewed evidence passes. A changed proposition digest, a changed evidence representation hash, or a changed identity dependency fails closed. A material change still needs a review. The gate does not restamp semantic verdicts.
 
 This is deliberately narrow. It does not claim the whole corpus is audited.
 
