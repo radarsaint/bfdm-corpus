@@ -1,0 +1,1526 @@
+{
+  "record_type": "bounded_research_followup",
+  "title": "Roanoke S3 resurrection correction: follow-through",
+  "review_date": "2026-10-15",
+  "review_timezone": "America/Los_Angeles",
+  "repository": "radarsaint/bfdm-corpus",
+  "source_commit": "2a650a735d8e39251979b157cf7aace9f8e443ef",
+  "canonical_database_path": "discord/roanoke-season-3/roanoke-season-3.sqlite",
+  "canonical_lfs_oid": "sha256:16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d",
+  "sqlite_hydrated": false,
+  "related_case": "BDC-S3-019",
+  "related_proposed_case": {
+    "pr": 43,
+    "commit": "bf56ca4f9b0f4b410b37c5601a6e49b33627eecb",
+    "label": "BJ-003"
+  },
+  "scope": {
+    "question": "After the 2020-08-15 resurrection correction, what later captured S3 evidence establishes communication, acceptance, application, or reversal of the replacement rule?",
+    "anchor": "744056939096571924",
+    "anchor_time": "2020-08-15T04:56:38.190000Z",
+    "end": "2020-08-22T06:59:43.567000Z",
+    "base": "2a650a735d8e39251979b157cf7aace9f8e443ef",
+    "scope": "All message shards 0320–0395; lexical discovery across every row after anchor, followed by channel-context review. Earlier evidence only to establish the correction baseline.",
+    "exclusions": "No prospective held-out Kit rulings, no corpus-wide frequency claim, no runtime changes, no audit-ledger edits."
+  },
+  "coverage": {
+    "post_announcement_inclusive_rows": 37074,
+    "post_announcement_exclusive_rows": 37073,
+    "full_read_rows": 37513,
+    "later_files": 76,
+    "earlier_additional_files": 34,
+    "earlier_candidate_rows": 46,
+    "broad_later_candidates": 63,
+    "named_later_candidates": 14,
+    "dm_later_candidates": 76,
+    "brendon_announcements": 9,
+    "read_failures": [],
+    "semantic_review_is_selective": true
+  },
+  "searches": {
+    "broad": {
+      "regex": "\\bre[sz]{1,3}(?:['’]s|es|ed|ing)?\\b|\\bresurrect\\w*\\b|\\breviv(?:ify|ified|ification|al|e|ed|ing)\\b|\\braise dead\\b|\\bonce per day\\b|\\b(?:back to life|return to life|returned to life|bring.{0,20}back|brought.{0,20}back)\\b",
+      "flags": "i",
+      "fields": [
+        "content"
+      ],
+      "candidate_ids": [
+        "744056939096571924",
+        "744058218631921677",
+        "744059093181923329",
+        "744064912656957481",
+        "744112438181363722",
+        "744268038488064001",
+        "744331009075576953",
+        "744346282860216381",
+        "744355677442408448",
+        "744361307595079746",
+        "744400855683563540",
+        "744486954485415946",
+        "744646482342445146",
+        "744722542861746197",
+        "744731736482643978",
+        "744734892704923668",
+        "744735575629889627",
+        "744841759502106624",
+        "744847051648401488",
+        "745053207327277106",
+        "745058204853207201",
+        "745154477727678527",
+        "745174035628949546",
+        "745534722582773801",
+        "745540972170969108",
+        "745681865121464400",
+        "745737396804518020",
+        "745745540083613706",
+        "745774361163858001",
+        "745837354631299236",
+        "745841821539762287",
+        "745848309284864012",
+        "745851065899024535",
+        "745854649210372136",
+        "745858163894517780",
+        "746072854751084614",
+        "746073061262098433",
+        "746073331530465370",
+        "746073905596334081",
+        "746140014093795490",
+        "746140619549966427",
+        "746177200801316935",
+        "746177812309737513",
+        "746191034790182974",
+        "746219305825206364",
+        "746221960803123230",
+        "746242936949440645",
+        "746245058717679717",
+        "746245357494730793",
+        "746273525450539060",
+        "746341634693791804",
+        "746409193292169228",
+        "746409405800644638",
+        "746413401282183301",
+        "746452167778631756",
+        "746454622763220993",
+        "746499135976505365",
+        "746598892166053898",
+        "746603161569198100",
+        "746619638506455041",
+        "746620291022717037",
+        "746620977361715300",
+        "746622978850029588"
+      ]
+    },
+    "named": {
+      "regex": "\\bclover\\b|\\btatank(?:an|ans|a|ans')?\\b",
+      "flags": "i",
+      "candidate_ids": [
+        "744312935450673194",
+        "744342485710536844",
+        "744343821340377099",
+        "745788164454482091",
+        "745788985888079882",
+        "745852460165365892",
+        "745858443545673778",
+        "745859322109755416",
+        "746083283422543993",
+        "746117437543415818",
+        "746299141360975913",
+        "746433612282462250",
+        "746468459122131055",
+        "746476181880045580"
+      ]
+    },
+    "dm_followup": {
+      "author_id": "313689699627696139",
+      "regex": "\\b(?:nerf|once|death|die|dead|clover|resurrect\\w*|reviv\\w*|rez\\w*|res)\\b",
+      "flags": "i",
+      "candidate_ids": [
+        "744056939096571924",
+        "744283830407659540",
+        "744312935450673194",
+        "744325951805980673",
+        "744334971677835345",
+        "744335795275694212",
+        "744400855683563540",
+        "744402907545337946",
+        "744403175758626846",
+        "744405037283016875",
+        "744431340837011476",
+        "744469823374884954",
+        "744477464138350663",
+        "744479094300868668",
+        "744639189387051052",
+        "744645657821708370",
+        "744648816531341352",
+        "744652669926375522",
+        "744662792119779368",
+        "744673863400423456",
+        "744735170971697187",
+        "744739508024508498",
+        "744746888049197169",
+        "744758975962021890",
+        "744762658326183967",
+        "744777259029757983",
+        "744779812773560410",
+        "744999146557145148",
+        "745001756462809118",
+        "745003018742792514",
+        "745006542750744724",
+        "745015136246431755",
+        "745043118956478535",
+        "745048617596747826",
+        "745058342929432668",
+        "745084354879029279",
+        "745135240254586881",
+        "745135558644203591",
+        "745137527383392277",
+        "745345125596659812",
+        "745379451172421644",
+        "745387572594868335",
+        "745412835118416044",
+        "745433186720284733",
+        "745471942383108228",
+        "745482749091119115",
+        "745486593590296646",
+        "745509885227302943",
+        "745532736537886830",
+        "745532811989221459",
+        "745566186808541276",
+        "745573628053291070",
+        "745579760456826941",
+        "745580856084529222",
+        "745696967455408198",
+        "745698033446027398",
+        "745857504776290324",
+        "745859926471082066",
+        "745872143002239006",
+        "746095566748123168",
+        "746098871398039585",
+        "746104528666886305",
+        "746108010232938548",
+        "746115139874455703",
+        "746121303798317177",
+        "746122463661916262",
+        "746126654291705986",
+        "746158444070830091",
+        "746270065250271252",
+        "746287947195875388",
+        "746288233113059389",
+        "746290576684744735",
+        "746481902873083953",
+        "746540585707634808",
+        "746564734102536294",
+        "746602962016665660"
+      ]
+    },
+    "earlier": {
+      "buckets": [
+        "res",
+        "rez",
+        "rev"
+      ],
+      "selected_term_routes": [
+        {
+          "message_count": 7,
+          "shards": [
+            "messages-0162.jsonl",
+            "messages-0166.jsonl",
+            "messages-0178.jsonl",
+            "messages-0223.jsonl",
+            "messages-0320.jsonl"
+          ],
+          "token": "res"
+        },
+        {
+          "message_count": 11,
+          "shards": [
+            "messages-0020.jsonl",
+            "messages-0103.jsonl",
+            "messages-0163.jsonl",
+            "messages-0220.jsonl",
+            "messages-0248.jsonl",
+            "messages-0268.jsonl",
+            "messages-0302.jsonl",
+            "messages-0306.jsonl",
+            "messages-0370.jsonl",
+            "messages-0394.jsonl"
+          ],
+          "token": "resurrect"
+        },
+        {
+          "message_count": 2,
+          "shards": [
+            "messages-0320.jsonl"
+          ],
+          "token": "resurrected"
+        },
+        {
+          "message_count": 3,
+          "shards": [
+            "messages-0233.jsonl",
+            "messages-0234.jsonl",
+            "messages-0268.jsonl"
+          ],
+          "token": "resurrection"
+        },
+        {
+          "message_count": 2,
+          "shards": [
+            "messages-0018.jsonl"
+          ],
+          "token": "resurrections"
+        },
+        {
+          "message_count": 1,
+          "shards": [
+            "messages-0078.jsonl"
+          ],
+          "token": "resurrects"
+        },
+        {
+          "message_count": 3,
+          "shards": [
+            "messages-0196.jsonl",
+            "messages-0202.jsonl",
+            "messages-0394.jsonl"
+          ],
+          "token": "rez"
+        },
+        {
+          "message_count": 1,
+          "shards": [
+            "messages-0320.jsonl"
+          ],
+          "token": "rez's"
+        },
+        {
+          "message_count": 1,
+          "shards": [
+            "messages-0320.jsonl"
+          ],
+          "token": "reviv"
+        },
+        {
+          "message_count": 3,
+          "shards": [
+            "messages-0252.jsonl",
+            "messages-0317.jsonl",
+            "messages-0328.jsonl"
+          ],
+          "token": "revive"
+        },
+        {
+          "message_count": 5,
+          "shards": [
+            "messages-0272.jsonl",
+            "messages-0290.jsonl",
+            "messages-0309.jsonl",
+            "messages-0320.jsonl",
+            "messages-0325.jsonl"
+          ],
+          "token": "revived"
+        },
+        {
+          "message_count": 2,
+          "shards": [
+            "messages-0097.jsonl",
+            "messages-0285.jsonl"
+          ],
+          "token": "revivified"
+        },
+        {
+          "message_count": 27,
+          "shards": [
+            "messages-0109.jsonl",
+            "messages-0236.jsonl",
+            "messages-0237.jsonl",
+            "messages-0238.jsonl",
+            "messages-0241.jsonl",
+            "messages-0248.jsonl",
+            "messages-0294.jsonl",
+            "messages-0299.jsonl",
+            "messages-0304.jsonl",
+            "messages-0319.jsonl",
+            "messages-0320.jsonl",
+            "messages-0347.jsonl",
+            "messages-0376.jsonl",
+            "messages-0381.jsonl",
+            "messages-0382.jsonl",
+            "messages-0385.jsonl",
+            "messages-0386.jsonl"
+          ],
+          "token": "revivify"
+        },
+        {
+          "message_count": 1,
+          "shards": [
+            "messages-0369.jsonl"
+          ],
+          "token": "reviving"
+        }
+      ],
+      "regex": "\\bre[sz]{1,3}(?:['’]s|es|ed|ing)?\\b|\\bresurrect\\w*\\b|\\breviv(?:ify|ified|ification|al|e|ed|ing)\\b",
+      "flags": "i",
+      "candidate_ids": [
+        "734587806998855812",
+        "734588016512729098",
+        "734616507241201725",
+        "736402428286730260",
+        "736983250530205748",
+        "737099779225550979",
+        "737208760229036122",
+        "738908724785184798",
+        "738917347204792351",
+        "738918622919131177",
+        "738980195930865704",
+        "739533223591149600",
+        "740019369941401651",
+        "740133094463504434",
+        "740701641254371429",
+        "740776642921627751",
+        "741183251661455391",
+        "741198735488319499",
+        "741370878406688879",
+        "741401630699945984",
+        "741440548375625729",
+        "741499346272387143",
+        "741756401331863562",
+        "741766468261249064",
+        "741875764529594410",
+        "742316337858084975",
+        "742388839502577715",
+        "742545054123688096",
+        "742935268478287912",
+        "743079591853424732",
+        "743246850588672112",
+        "743354523552055326",
+        "743393198860271737",
+        "743582906932396094",
+        "743602292611088436",
+        "743648402285395979",
+        "743971426293252236",
+        "744028063121014915",
+        "744029082072776777",
+        "744030178145075310",
+        "744034497640529920",
+        "744034814075600899",
+        "744038953287417870",
+        "744040343821090916",
+        "744052902049349662",
+        "744053132228558898"
+      ]
+    }
+  },
+  "file_reads": [
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0320.jsonl",
+      "count": 500,
+      "first": "2020-08-15T03:04:03.178000Z",
+      "last": "2020-08-15T05:06:57.616000Z",
+      "sha": "942e0eea309f4d6b4dd1d1be3ef9617124d747b3",
+      "bytes": 209779
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0321.jsonl",
+      "count": 500,
+      "first": "2020-08-15T05:07:02.963000Z",
+      "last": "2020-08-15T06:36:59.497000Z",
+      "sha": "078d9ee98debd60da0bda16f05fced099c35edc0",
+      "bytes": 212956
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0322.jsonl",
+      "count": 500,
+      "first": "2020-08-15T06:37:10.939000Z",
+      "last": "2020-08-15T08:28:04.959000Z",
+      "sha": "31e72db61eefe7751853bcb087be59fb8f937c93",
+      "bytes": 209412
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0323.jsonl",
+      "count": 500,
+      "first": "2020-08-15T08:28:13.894000Z",
+      "last": "2020-08-15T09:41:22.656000Z",
+      "sha": "b6ad8e1972167e33aeed2c94c6c0055d4c3c56c7",
+      "bytes": 198406
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0324.jsonl",
+      "count": 500,
+      "first": "2020-08-15T09:41:28.837000Z",
+      "last": "2020-08-15T18:49:15.692000Z",
+      "sha": "7dbae4cefe461e76bdb70560bcc17319b5b622ae",
+      "bytes": 214970
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0325.jsonl",
+      "count": 500,
+      "first": "2020-08-15T18:49:15.769000Z",
+      "last": "2020-08-15T20:08:07.679000Z",
+      "sha": "0c996954efde13368589e9924713f8d703297509",
+      "bytes": 202115
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0326.jsonl",
+      "count": 500,
+      "first": "2020-08-15T20:08:31.864000Z",
+      "last": "2020-08-15T22:49:43.213000Z",
+      "sha": "97cad1274f9d34ee85f33861ee1f8bda868a90ed",
+      "bytes": 205551
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0327.jsonl",
+      "count": 500,
+      "first": "2020-08-15T22:49:46.922000Z",
+      "last": "2020-08-16T00:33:28.083000Z",
+      "sha": "cfb43fcdc87f8008ba63302c1477eeca1d3b1554",
+      "bytes": 210113
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0328.jsonl",
+      "count": 500,
+      "first": "2020-08-16T00:34:55.286000Z",
+      "last": "2020-08-16T02:16:48.201000Z",
+      "sha": "38ef4457eec6aacd2ced8b9f3a7f3ef67fc964b6",
+      "bytes": 203447
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0329.jsonl",
+      "count": 500,
+      "first": "2020-08-16T02:16:56.972000Z",
+      "last": "2020-08-16T03:51:34.901000Z",
+      "sha": "27e65d2a88eda07adad5db50db110044e1279dc7",
+      "bytes": 204871
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0330.jsonl",
+      "count": 500,
+      "first": "2020-08-16T03:51:46.049000Z",
+      "last": "2020-08-16T04:42:50.058000Z",
+      "sha": "15a657bb53fabc05cedda104758a58879cfae015",
+      "bytes": 198183
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0331.jsonl",
+      "count": 500,
+      "first": "2020-08-16T04:42:58.222000Z",
+      "last": "2020-08-16T05:50:52.682000Z",
+      "sha": "cd8ec6b182ab371bafdb12bab879f0cff34eec24",
+      "bytes": 206939
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0332.jsonl",
+      "count": 500,
+      "first": "2020-08-16T05:50:59.365000Z",
+      "last": "2020-08-16T07:13:13.725000Z",
+      "sha": "9d9f4cfa61c631b27f845c5242f94eab8b3f3b45",
+      "bytes": 209033
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0333.jsonl",
+      "count": 500,
+      "first": "2020-08-16T07:13:24.923000Z",
+      "last": "2020-08-16T08:32:48.683000Z",
+      "sha": "40f3bb7c36582cbf38a69eee13f701981181dce4",
+      "bytes": 198803
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0334.jsonl",
+      "count": 500,
+      "first": "2020-08-16T08:32:49.681000Z",
+      "last": "2020-08-16T10:56:19.049000Z",
+      "sha": "36280cb19e469e05e4e750b780652c4f3cffd41a",
+      "bytes": 206546
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0335.jsonl",
+      "count": 500,
+      "first": "2020-08-16T11:00:23.684000Z",
+      "last": "2020-08-16T19:41:47.476000Z",
+      "sha": "b7488b8e378dca16f88d7e6129ec920cc5c78a1f",
+      "bytes": 206188
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0336.jsonl",
+      "count": 500,
+      "first": "2020-08-16T19:41:48.708000Z",
+      "last": "2020-08-16T21:29:58.201000Z",
+      "sha": "ed79ac1534b68a8a0e22e6aa7e510327abad062c",
+      "bytes": 203489
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0337.jsonl",
+      "count": 500,
+      "first": "2020-08-16T21:30:02.729000Z",
+      "last": "2020-08-16T23:41:54.854000Z",
+      "sha": "640e037a91e562c3c62aa87412f8500ab87a4904",
+      "bytes": 201022
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0338.jsonl",
+      "count": 500,
+      "first": "2020-08-16T23:41:56.382000Z",
+      "last": "2020-08-17T01:08:53.215000Z",
+      "sha": "12cb2930dfe0431c553a197a75552d72abcdfc47",
+      "bytes": 206370
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0339.jsonl",
+      "count": 500,
+      "first": "2020-08-17T01:09:10.590000Z",
+      "last": "2020-08-17T02:23:24.505000Z",
+      "sha": "7300d7496747dc8d43531db7c423da14780bb2dc",
+      "bytes": 211401
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0340.jsonl",
+      "count": 500,
+      "first": "2020-08-17T02:23:37.023000Z",
+      "last": "2020-08-17T03:58:53.402000Z",
+      "sha": "48fe468cba17f9298c4849287edf615bbc463146",
+      "bytes": 197523
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0341.jsonl",
+      "count": 500,
+      "first": "2020-08-17T03:59:06.480000Z",
+      "last": "2020-08-17T05:42:03.128000Z",
+      "sha": "6f5da5e6cf2de5b9f001b89011ae0c97b1fa89c6",
+      "bytes": 197766
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0342.jsonl",
+      "count": 500,
+      "first": "2020-08-17T05:42:27.110000Z",
+      "last": "2020-08-17T07:25:59.470000Z",
+      "sha": "12ea4739a4f32ff2553bd3a3cf726d75b83a73b2",
+      "bytes": 204088
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0343.jsonl",
+      "count": 500,
+      "first": "2020-08-17T07:26:08.961000Z",
+      "last": "2020-08-17T08:49:36.470000Z",
+      "sha": "83a32422fde340e61fbd522156a90dbd13979bfd",
+      "bytes": 205363
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0344.jsonl",
+      "count": 500,
+      "first": "2020-08-17T08:49:38.385000Z",
+      "last": "2020-08-17T11:13:37.646000Z",
+      "sha": "3f1a20d3ad482e2b112a42330a51022b6ceb8b0d",
+      "bytes": 216113
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0345.jsonl",
+      "count": 500,
+      "first": "2020-08-17T11:59:46.249000Z",
+      "last": "2020-08-17T20:25:41.530000Z",
+      "sha": "92c443f8c37ceb1381302ac8c931cdcbd5c58d7e",
+      "bytes": 213352
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0346.jsonl",
+      "count": 500,
+      "first": "2020-08-17T20:26:00.090000Z",
+      "last": "2020-08-17T22:59:55.963000Z",
+      "sha": "6138b51da7e423f918cdd4b7ad0b000ae5418045",
+      "bytes": 213377
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0347.jsonl",
+      "count": 500,
+      "first": "2020-08-17T23:00:13.461000Z",
+      "last": "2020-08-18T00:35:29.083000Z",
+      "sha": "4742feef21a1e05c46346f6451808da24ba0f227",
+      "bytes": 202892
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0348.jsonl",
+      "count": 500,
+      "first": "2020-08-18T00:35:39.317000Z",
+      "last": "2020-08-18T01:41:03.504000Z",
+      "sha": "818c41f3923b8714557b792d9b35e5ebbb800b4f",
+      "bytes": 197792
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0349.jsonl",
+      "count": 500,
+      "first": "2020-08-18T01:41:15.450000Z",
+      "last": "2020-08-18T02:51:36.822000Z",
+      "sha": "0baee9b4367233dc3771e04e2eff8818bed06baf",
+      "bytes": 197986
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0350.jsonl",
+      "count": 500,
+      "first": "2020-08-18T02:51:42.036000Z",
+      "last": "2020-08-18T04:07:51.074000Z",
+      "sha": "f2033ad60d2cf4721d00d76959aa109056a91180",
+      "bytes": 208586
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0351.jsonl",
+      "count": 500,
+      "first": "2020-08-18T04:07:57.199000Z",
+      "last": "2020-08-18T04:54:19.616000Z",
+      "sha": "84ee07e8d5f8d2202c3b48d4a3ff74541e5ca025",
+      "bytes": 199301
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0352.jsonl",
+      "count": 500,
+      "first": "2020-08-18T04:54:20.915000Z",
+      "last": "2020-08-18T06:21:18.428000Z",
+      "sha": "0dec19de6e5fa6690fd9f7b08e8e9302237f085e",
+      "bytes": 209198
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0353.jsonl",
+      "count": 500,
+      "first": "2020-08-18T06:21:18.573000Z",
+      "last": "2020-08-18T07:38:26.336000Z",
+      "sha": "55d90fba3fcaf525cb6a49b829f551cc995d0925",
+      "bytes": 207619
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0354.jsonl",
+      "count": 500,
+      "first": "2020-08-18T07:38:27.656000Z",
+      "last": "2020-08-18T18:50:00.564000Z",
+      "sha": "be7db0b65484d23623cc56b7cc5e345f8c10e586",
+      "bytes": 218772
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0355.jsonl",
+      "count": 500,
+      "first": "2020-08-18T18:50:04.533000Z",
+      "last": "2020-08-18T20:34:45.219000Z",
+      "sha": "c1d765d4c9a15714a2b7a89e80488789cdec8052",
+      "bytes": 202060
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0356.jsonl",
+      "count": 500,
+      "first": "2020-08-18T20:34:52.393000Z",
+      "last": "2020-08-18T22:05:03.679000Z",
+      "sha": "0eb12511247d2ede079bb47064f4a632901174b4",
+      "bytes": 198359
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0357.jsonl",
+      "count": 500,
+      "first": "2020-08-18T22:05:16.529000Z",
+      "last": "2020-08-18T23:50:04.779000Z",
+      "sha": "fcc87d214f331ff49d5faf9a47598bed469b6892",
+      "bytes": 188876
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0358.jsonl",
+      "count": 500,
+      "first": "2020-08-18T23:50:11.550000Z",
+      "last": "2020-08-19T01:25:59.727000Z",
+      "sha": "8b2b1ec0b0ec6f2693bd3778609f46e4b1d26eec",
+      "bytes": 202867
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0359.jsonl",
+      "count": 500,
+      "first": "2020-08-19T01:26:12.042000Z",
+      "last": "2020-08-19T03:03:31.307000Z",
+      "sha": "836c85874e4cd3e6c6992dd0d22d4ff71e2108fc",
+      "bytes": 190965
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0360.jsonl",
+      "count": 500,
+      "first": "2020-08-19T03:03:39.257000Z",
+      "last": "2020-08-19T04:31:39.788000Z",
+      "sha": "f60578ad87729c18928cc3653ff7462d8aacd9a2",
+      "bytes": 187982
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0361.jsonl",
+      "count": 500,
+      "first": "2020-08-19T04:31:46.827000Z",
+      "last": "2020-08-19T05:37:56.129000Z",
+      "sha": "c2306987d810b0dee942c8769dc2ce87bff141e3",
+      "bytes": 187206
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0362.jsonl",
+      "count": 500,
+      "first": "2020-08-19T05:37:58.047000Z",
+      "last": "2020-08-19T06:28:58.026000Z",
+      "sha": "1e53d89abd112994d5f6fb42b152bed74afdca2c",
+      "bytes": 190165
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0363.jsonl",
+      "count": 500,
+      "first": "2020-08-19T06:29:10.829000Z",
+      "last": "2020-08-19T08:11:09.230000Z",
+      "sha": "4603dac3087ec1e19a4f63377b59ce3e15a54ea5",
+      "bytes": 206567
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0364.jsonl",
+      "count": 500,
+      "first": "2020-08-19T08:11:38.137000Z",
+      "last": "2020-08-19T17:53:15.457000Z",
+      "sha": "7bafb9c64ed7a75e3eec79775fd0acd0792b6ac5",
+      "bytes": 218345
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0365.jsonl",
+      "count": 500,
+      "first": "2020-08-19T17:53:17.969000Z",
+      "last": "2020-08-19T20:30:22.396000Z",
+      "sha": "c2e8b0950ea13b5600cd06403260382c06e18286",
+      "bytes": 211822
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0366.jsonl",
+      "count": 500,
+      "first": "2020-08-19T20:30:27.471000Z",
+      "last": "2020-08-19T21:47:21.980000Z",
+      "sha": "10be4fb9eb0865756da4449cad4ffdf69af2868b",
+      "bytes": 203475
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0367.jsonl",
+      "count": 500,
+      "first": "2020-08-19T21:47:41.876000Z",
+      "last": "2020-08-19T23:04:41.921000Z",
+      "sha": "4aeb6f16000130aed816c040593d72996d14d60e",
+      "bytes": 204557
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0368.jsonl",
+      "count": 500,
+      "first": "2020-08-19T23:04:44.919000Z",
+      "last": "2020-08-20T01:18:51.924000Z",
+      "sha": "ccba12cbb06137af8492d925652dd6738b1d2ddb",
+      "bytes": 206273
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0369.jsonl",
+      "count": 500,
+      "first": "2020-08-20T01:18:55.199000Z",
+      "last": "2020-08-20T03:05:55.641000Z",
+      "sha": "97a9c12ca7d30ce0c7d19d30d6bc9e371ec5d959",
+      "bytes": 208573
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0370.jsonl",
+      "count": 500,
+      "first": "2020-08-20T03:06:10.724000Z",
+      "last": "2020-08-20T04:15:57.573000Z",
+      "sha": "d90f3e294f496caeb1b9b3fca52de0b82a06b6da",
+      "bytes": 207142
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0371.jsonl",
+      "count": 500,
+      "first": "2020-08-20T04:16:03.152000Z",
+      "last": "2020-08-20T05:07:23.400000Z",
+      "sha": "8f14fd42bb0094c2acfff9c7b306cba6784a63ae",
+      "bytes": 199028
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0372.jsonl",
+      "count": 500,
+      "first": "2020-08-20T05:07:32.877000Z",
+      "last": "2020-08-20T05:53:35.970000Z",
+      "sha": "d205202805f19ef990810a3e8a90b261da48b21e",
+      "bytes": 198033
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0373.jsonl",
+      "count": 500,
+      "first": "2020-08-20T05:53:41.670000Z",
+      "last": "2020-08-20T06:43:41.419000Z",
+      "sha": "185f652a05ea896a9b332be31f6e173598682f8b",
+      "bytes": 201003
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0374.jsonl",
+      "count": 500,
+      "first": "2020-08-20T06:43:53.776000Z",
+      "last": "2020-08-20T08:06:37.401000Z",
+      "sha": "fa3a65dc72bcf5b7f11fac1143ae2f092f46f48f",
+      "bytes": 203565
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0375.jsonl",
+      "count": 500,
+      "first": "2020-08-20T08:06:50.007000Z",
+      "last": "2020-08-20T18:07:47.365000Z",
+      "sha": "22e7ffbea64ab5057b0f17c35e77233af8036849",
+      "bytes": 219500
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0376.jsonl",
+      "count": 500,
+      "first": "2020-08-20T18:07:58.808000Z",
+      "last": "2020-08-20T20:05:43.417000Z",
+      "sha": "e71951d8b97cf2935992fd51c3fe8c17e3295c4f",
+      "bytes": 203303
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0377.jsonl",
+      "count": 500,
+      "first": "2020-08-20T20:05:54.869000Z",
+      "last": "2020-08-20T22:01:16.500000Z",
+      "sha": "0b6e5412e3890a7997e2cb1df4241b50fedd6bf8",
+      "bytes": 212470
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0378.jsonl",
+      "count": 500,
+      "first": "2020-08-20T22:01:16.840000Z",
+      "last": "2020-08-21T00:51:32.233000Z",
+      "sha": "ce949d21cb7d674bfc7fdf2e53bbc1341a9269c1",
+      "bytes": 210623
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0379.jsonl",
+      "count": 500,
+      "first": "2020-08-21T00:51:32.510000Z",
+      "last": "2020-08-21T02:15:01.136000Z",
+      "sha": "7767c5384957692e11b9463bc6b82e472c73ebae",
+      "bytes": 208002
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0380.jsonl",
+      "count": 500,
+      "first": "2020-08-21T02:15:09.471000Z",
+      "last": "2020-08-21T03:24:12.029000Z",
+      "sha": "462e5546e5acee78a26dfe98a3e4fb1d7b1583fb",
+      "bytes": 209455
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0381.jsonl",
+      "count": 500,
+      "first": "2020-08-21T03:24:14.512000Z",
+      "last": "2020-08-21T05:00:23.681000Z",
+      "sha": "dc826e6e2c04e597ea7ea95984d66aa22a895bee",
+      "bytes": 200482
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0382.jsonl",
+      "count": 500,
+      "first": "2020-08-21T05:00:25.860000Z",
+      "last": "2020-08-21T06:20:12.176000Z",
+      "sha": "6e3a85e9c4ad453ddce9ab24442fca2ab7a004fe",
+      "bytes": 201706
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0383.jsonl",
+      "count": 500,
+      "first": "2020-08-21T06:20:22.540000Z",
+      "last": "2020-08-21T07:30:40.633000Z",
+      "sha": "26e8feeea539fba7a0e4861f374811099e84674e",
+      "bytes": 206666
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0384.jsonl",
+      "count": 500,
+      "first": "2020-08-21T07:30:48.583000Z",
+      "last": "2020-08-21T09:45:53.747000Z",
+      "sha": "cb0dc56325885a632adea268b56f258009cfd16d",
+      "bytes": 213905
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0385.jsonl",
+      "count": 500,
+      "first": "2020-08-21T09:46:01.772000Z",
+      "last": "2020-08-21T18:11:50.813000Z",
+      "sha": "4d88b198087049e250c948114dbaa720b5a78d1f",
+      "bytes": 204485
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0386.jsonl",
+      "count": 500,
+      "first": "2020-08-21T18:11:57.906000Z",
+      "last": "2020-08-21T20:55:03.329000Z",
+      "sha": "68cd42c42bde127ddd85708de4b12ae5c903fa51",
+      "bytes": 204922
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0387.jsonl",
+      "count": 500,
+      "first": "2020-08-21T20:55:07.377000Z",
+      "last": "2020-08-21T22:44:19.350000Z",
+      "sha": "b4cbca8e444d88fa7fbe6f3d5ad5a4ccc7af155f",
+      "bytes": 212901
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0388.jsonl",
+      "count": 500,
+      "first": "2020-08-21T22:44:21.753000Z",
+      "last": "2020-08-22T00:05:36.197000Z",
+      "sha": "1b622585f4d1e9cc56d019be39fbac36a9573329",
+      "bytes": 205367
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0389.jsonl",
+      "count": 500,
+      "first": "2020-08-22T00:05:44.200000Z",
+      "last": "2020-08-22T01:18:58.444000Z",
+      "sha": "a93a76830bb787ccf3925b041030a81f73357b8c",
+      "bytes": 209829
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0390.jsonl",
+      "count": 500,
+      "first": "2020-08-22T01:19:13.335000Z",
+      "last": "2020-08-22T02:26:58.977000Z",
+      "sha": "a1e7f79a3dce4855e9d72cd9aaddbe521feadbf4",
+      "bytes": 201635
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0391.jsonl",
+      "count": 500,
+      "first": "2020-08-22T02:27:02.981000Z",
+      "last": "2020-08-22T03:46:31.305000Z",
+      "sha": "7d9f391df32f646aba030196096b562f9bfc045b",
+      "bytes": 203432
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0392.jsonl",
+      "count": 500,
+      "first": "2020-08-22T03:47:28.800000Z",
+      "last": "2020-08-22T04:44:46.388000Z",
+      "sha": "a10b7c1a8b71859ac9a56c1cf81537cbe696be54",
+      "bytes": 197894
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0393.jsonl",
+      "count": 500,
+      "first": "2020-08-22T04:44:55.724000Z",
+      "last": "2020-08-22T05:33:11.283000Z",
+      "sha": "04ec29fb85022936d9140486d99a35fc3d851692",
+      "bytes": 199632
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0394.jsonl",
+      "count": 500,
+      "first": "2020-08-22T05:33:11.665000Z",
+      "last": "2020-08-22T06:56:33.962000Z",
+      "sha": "f158b69d54c762728bf2fd12d83a30bf052b2cef",
+      "bytes": 205416
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0395.jsonl",
+      "count": 13,
+      "first": "2020-08-22T06:56:47.750000Z",
+      "last": "2020-08-22T06:59:43.567000Z",
+      "sha": "e0cf48c5ca4b2a3ac5f3a63fe90eea2b2323b271",
+      "bytes": 5039
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0018.jsonl",
+      "rows": 500,
+      "sha": "c908962eef67224cb883ab0b39c0eff36cbbedcc"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0020.jsonl",
+      "rows": 500,
+      "sha": "a83af54c82c87a59c610aca8be166d1c8c476c31"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0078.jsonl",
+      "rows": 500,
+      "sha": "ac4cc4ee06db94bfbdcf8b1f3e9a03baceb2590e"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0097.jsonl",
+      "rows": 500,
+      "sha": "8b88b9c60fc889448850defe4244ded7476155a3"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0103.jsonl",
+      "rows": 500,
+      "sha": "cf9270d3319da64312b8dfa42b72d39f2ca57b89"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0109.jsonl",
+      "rows": 500,
+      "sha": "18d7a987875ef868e378858dd91358274e8f0ee2"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0162.jsonl",
+      "rows": 500,
+      "sha": "492484236911a47579dbf70d605dfe2b771acfb4"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0163.jsonl",
+      "rows": 500,
+      "sha": "5afaffc45735742300bde96a8231ade07e4b7b6a"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0166.jsonl",
+      "rows": 500,
+      "sha": "ac1847f212190f69a7fbdeecaf8488500ae69862"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0178.jsonl",
+      "rows": 500,
+      "sha": "01bb86bfd8bfc1fb26ae2c8c8e437104ab6593b4"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0196.jsonl",
+      "rows": 500,
+      "sha": "b99c05581cabd21e4f45f1d4887658b5dff6fd82"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0202.jsonl",
+      "rows": 500,
+      "sha": "3e6a6706df5362347b5b67e56212f27fd718784a"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0220.jsonl",
+      "rows": 500,
+      "sha": "2790ab7b9ee1ec64d360abcf2a18fdc84cacefaa"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0223.jsonl",
+      "rows": 500,
+      "sha": "f3482ff26c5ad715f21fc23798f4b7fd88d422ba"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0233.jsonl",
+      "rows": 500,
+      "sha": "4df53bba3c6da484a296c117e76324a17f89589d"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0234.jsonl",
+      "rows": 500,
+      "sha": "4984b5e15ff72811cc4d19a5a305ccf13f0e1a5e"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0236.jsonl",
+      "rows": 500,
+      "sha": "622f82a379ac34f09752e2e5547bd94742bd0864"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0237.jsonl",
+      "rows": 500,
+      "sha": "7dede7cff275273d6add58678973a9feeb971cd0"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0238.jsonl",
+      "rows": 500,
+      "sha": "1911596ab755a56afb55d10a01ddcd0752d7c55b"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0241.jsonl",
+      "rows": 500,
+      "sha": "9b1a6ab14349837967982cda98220042b5525c2e"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0248.jsonl",
+      "rows": 500,
+      "sha": "6718150ed7f348a429e53ad73c7a3156185ac0d1"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0252.jsonl",
+      "rows": 500,
+      "sha": "6367bc3b4d7f89569d06f6e75f87020de3661795"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0268.jsonl",
+      "rows": 500,
+      "sha": "ac26e6a8a0bc2e1ee2431042a4afb48878bdedb9"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0272.jsonl",
+      "rows": 500,
+      "sha": "0c8b3e3a4c67c46de584c6c6f543eb5dd171e490"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0285.jsonl",
+      "rows": 500,
+      "sha": "32d506f8ff3495c19f5d4bb7d534c32d126339d0"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0290.jsonl",
+      "rows": 500,
+      "sha": "458850e44f10a55d1d275db39bf8a150d7366f54"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0294.jsonl",
+      "rows": 500,
+      "sha": "a1aeae5803bbe21640fd69ad38f346c0422455f9"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0299.jsonl",
+      "rows": 500,
+      "sha": "28620b7c6f42ff5388cfdd1673c75c7f241483ba"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0302.jsonl",
+      "rows": 500,
+      "sha": "bf0c6151c15631c07991a32e9038eaf66255f40d"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0304.jsonl",
+      "rows": 500,
+      "sha": "fa04a4ceebbd57d66e49149998258c5fbfd21513"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0306.jsonl",
+      "rows": 500,
+      "sha": "022cff65235aae67b03da6a4b1caaae9ffb2d17f"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0309.jsonl",
+      "rows": 500,
+      "sha": "b558383fe5f54449a84f6fa9decd1daa9d337efc"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0317.jsonl",
+      "rows": 500,
+      "sha": "f4fe22bd4f56521654768cc37845903f2bbef539"
+    },
+    {
+      "path": "model-index/discord/roanoke-season-3/messages-0319.jsonl",
+      "rows": 500,
+      "sha": "839f86bdfc206a31f57d31bbb073341200d5804a"
+    }
+  ],
+  "evidence": [
+    {
+      "label": "queue",
+      "message_id": "744034814075600899",
+      "created_at": "2020-08-15T03:28:43.174000Z",
+      "author_id": "313689699627696139",
+      "username_at_capture": "bfdm",
+      "channel_id": "733827380849672322",
+      "channel": "hex-g-sleepers-shoreline",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0320.jsonl",
+      "projection_line": 196,
+      "projection_git_blob_sha": "942e0eea309f4d6b4dd1d1be3ef9617124d747b3",
+      "observation": "Brendon schedules Clover to resurrect Viola, Percival, and Abbadon.",
+      "note": "one hour per person is in the next message"
+    },
+    {
+      "label": "queue-duration",
+      "message_id": "744034861823557694",
+      "created_at": "2020-08-15T03:28:54.558000Z",
+      "author_id": "313689699627696139",
+      "username_at_capture": "bfdm",
+      "channel_id": "733827380849672322",
+      "channel": "hex-g-sleepers-shoreline",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0320.jsonl",
+      "projection_line": 197,
+      "projection_git_blob_sha": "942e0eea309f4d6b4dd1d1be3ef9617124d747b3",
+      "observation": "Brendon specifies one hour per resurrection."
+    },
+    {
+      "label": "viola-report",
+      "message_id": "744053132228558898",
+      "created_at": "2020-08-15T04:41:30.562000Z",
+      "author_id": "436232470242000916",
+      "username_at_capture": "knightofcydonia21",
+      "channel_id": "636012145204527127",
+      "channel": "🙋-out-of-character",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0320.jsonl",
+      "projection_line": 396,
+      "projection_git_blob_sha": "942e0eea309f4d6b4dd1d1be3ef9617124d747b3",
+      "observation": "Percival's player reports Viola already resurrected and Percival next."
+    },
+    {
+      "label": "correction",
+      "message_id": "744056939096571924",
+      "created_at": "2020-08-15T04:56:38.190000Z",
+      "author_id": "313689699627696139",
+      "username_at_capture": "bfdm",
+      "channel_id": "734250210057912344",
+      "channel": "❕announcements",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0320.jsonl",
+      "projection_line": 440,
+      "projection_git_blob_sha": "942e0eea309f4d6b4dd1d1be3ef9617124d747b3",
+      "observation": "Brendon announces the balance correction and preserves that night's resurrections."
+    },
+    {
+      "label": "percy-countdown",
+      "message_id": "744059093181923329",
+      "created_at": "2020-08-15T05:05:11.764000Z",
+      "author_id": "436232470242000916",
+      "username_at_capture": "knightofcydonia21",
+      "channel_id": "636012145204527127",
+      "channel": "🙋-out-of-character",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0320.jsonl",
+      "projection_line": 484,
+      "projection_git_blob_sha": "942e0eea309f4d6b4dd1d1be3ef9617124d747b3",
+      "observation": "Percival's player says his return is 23 minutes away."
+    },
+    {
+      "label": "percy-return",
+      "message_id": "744064912656957481",
+      "created_at": "2020-08-15T05:28:19.235000Z",
+      "author_id": "436232470242000916",
+      "username_at_capture": "knightofcydonia21",
+      "channel_id": "733827380849672322",
+      "channel": "hex-g-sleepers-shoreline",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0321.jsonl",
+      "projection_line": 78,
+      "projection_git_blob_sha": "078d9ee98debd60da0bda16f05fced099c35edc0",
+      "observation": "Percival's player narrates his return to life."
+    },
+    {
+      "label": "percy-after",
+      "message_id": "744064990922801272",
+      "created_at": "2020-08-15T05:28:37.895000Z",
+      "author_id": "436232470242000916",
+      "username_at_capture": "knightofcydonia21",
+      "channel_id": "733827380849672322",
+      "channel": "hex-g-sleepers-shoreline",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0321.jsonl",
+      "projection_line": 80,
+      "projection_git_blob_sha": "078d9ee98debd60da0bda16f05fced099c35edc0",
+      "observation": "Percival speaks immediately after returning."
+    },
+    {
+      "label": "scroll-before-request",
+      "message_id": "741370878406688879",
+      "created_at": "2020-08-07T19:03:11.417000Z",
+      "author_id": "361351593292988425",
+      "username_at_capture": "nobleindie",
+      "channel_id": "739055206330793994",
+      "channel": "cobblepot-and-rosewood",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0236.jsonl",
+      "projection_line": 283,
+      "projection_git_blob_sha": "622f82a379ac34f09752e2e5547bd94742bd0864",
+      "observation": "Lilia's player requests three Revivify scrolls on August 7."
+    },
+    {
+      "label": "scroll-before-purchase",
+      "message_id": "741440548375625729",
+      "created_at": "2020-08-07T23:40:02.032000Z",
+      "author_id": "436232470242000916",
+      "username_at_capture": "knightofcydonia21",
+      "channel_id": "739336027386282065",
+      "channel": "happy-buzz-meadery",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0238.jsonl",
+      "projection_line": 332,
+      "projection_git_blob_sha": "1911596ab755a56afb55d10a01ddcd0752d7c55b",
+      "observation": "Percival's player asks to purchase a Revivify scroll on August 7."
+    },
+    {
+      "label": "death-later",
+      "message_id": "746220990912135308",
+      "created_at": "2020-08-21T04:15:48.349000Z",
+      "author_id": "321508500138360843",
+      "username_at_capture": "ozenannwn",
+      "channel_id": "733827680490881095",
+      "channel": "hex-q-nueva-esperanza",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0381.jsonl",
+      "projection_line": 317,
+      "projection_git_blob_sha": "dc826e6e2c04e597ea7ea95984d66aa22a895bee",
+      "observation": "Selene's player says dead dead in the later combat."
+    },
+    {
+      "label": "scroll-later",
+      "message_id": "746221960803123230",
+      "created_at": "2020-08-21T04:19:39.589000Z",
+      "author_id": "361351593292988425",
+      "username_at_capture": "nobleindie",
+      "channel_id": "733827680490881095",
+      "channel": "hex-q-nueva-esperanza",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0381.jsonl",
+      "projection_line": 333,
+      "projection_git_blob_sha": "dc826e6e2c04e597ea7ea95984d66aa22a895bee",
+      "observation": "Lilia's player uses a Revivify scroll on Selene and states return to 1 HP."
+    },
+    {
+      "label": "selene-after",
+      "message_id": "746222970627948616",
+      "created_at": "2020-08-21T04:23:40.350000Z",
+      "author_id": "321508500138360843",
+      "username_at_capture": "ozenannwn",
+      "channel_id": "733827680490881095",
+      "channel": "hex-q-nueva-esperanza",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0381.jsonl",
+      "projection_line": 345,
+      "projection_git_blob_sha": "dc826e6e2c04e597ea7ea95984d66aa22a895bee",
+      "observation": "The revived player's account later posts 17/29 HP in the same combat."
+    },
+    {
+      "label": "scroll-planning",
+      "message_id": "746409193292169228",
+      "created_at": "2020-08-21T16:43:39.293000Z",
+      "author_id": "361351593292988425",
+      "username_at_capture": "nobleindie",
+      "channel_id": "636012145204527127",
+      "channel": "🙋-out-of-character",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0385.jsonl",
+      "projection_line": 127,
+      "projection_git_blob_sha": "4d88b198087049e250c948114dbaa720b5a78d1f",
+      "observation": "Lilia's player asks whether four scrolls make preparing Revivify unnecessary."
+    },
+    {
+      "label": "slot-anxiety",
+      "message_id": "746409405800644638",
+      "created_at": "2020-08-21T16:44:29.959000Z",
+      "author_id": "594008151779573762",
+      "username_at_capture": "nut_wizard",
+      "channel_id": "636012145204527127",
+      "channel": "🙋-out-of-character",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0385.jsonl",
+      "projection_line": 131,
+      "projection_git_blob_sha": "4d88b198087049e250c948114dbaa720b5a78d1f",
+      "observation": "Another player describes third-level-slot anxiety associated with preserving Revivify access."
+    },
+    {
+      "label": "different-return",
+      "message_id": "746619638506455041",
+      "created_at": "2020-08-22T06:39:53.342000Z",
+      "author_id": "366565198284324868",
+      "username_at_capture": "damnzam",
+      "channel_id": "733826617524224050",
+      "channel": "week-5-voice-event-main",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0394.jsonl",
+      "projection_line": 414,
+      "projection_git_blob_sha": "f158b69d54c762728bf2fd12d83a30bf052b2cef",
+      "observation": "Vee's player reports a later return to life and the end of a tether; mechanism is not established as Clover's rule."
+    },
+    {
+      "label": "clover-later",
+      "message_id": "744312935450673194",
+      "created_at": "2020-08-15T21:53:52.477000Z",
+      "author_id": "313689699627696139",
+      "username_at_capture": "bfdm",
+      "channel_id": "709304697713852446",
+      "channel": "🍻heki-broken-sub-pub",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0326.jsonl",
+      "projection_line": 280,
+      "projection_git_blob_sha": "97cad1274f9d34ee85f33861ee1f8bda868a90ed",
+      "observation": "Brendon later places Clover in the pub; the line does not establish a replacement resurrection rule."
+    },
+    {
+      "label": "voice-limit",
+      "message_id": "745851065899024535",
+      "created_at": "2020-08-20T03:45:51.353000Z",
+      "author_id": "594008151779573762",
+      "username_at_capture": "nut_wizard",
+      "channel_id": "733827832635195424",
+      "channel": "hex-w-the-bubbling-maw",
+      "projection_path": "model-index/discord/roanoke-season-3/messages-0370.jsonl",
+      "projection_line": 320,
+      "projection_git_blob_sha": "d90f3e294f496caeb1b9b3fca52de0b82a06b6da",
+      "observation": "A player asks about joining voice chat to resurrect someone; this does not establish that resurrection occurred."
+    }
+  ],
+  "claims": [
+    {
+      "label": "commitment_followthrough",
+      "type": "STRONGLY_RECONSTRUCTED",
+      "scope": "EVENT_SPECIFIC",
+      "claim": "Percival's previously authorized resurrection is played after the correction preserves that night's resurrections.",
+      "evidence": [
+        "queue",
+        "queue-duration",
+        "correction",
+        "percy-countdown",
+        "percy-return",
+        "percy-after"
+      ],
+      "limits": [
+        "Player narration under prior DM authorization, not a second DM confirmation.",
+        "No claim that every scheduled return completed or that no later reversal ever happened."
+      ]
+    },
+    {
+      "label": "later_scroll_use",
+      "type": "DIRECT",
+      "scope": "EVENT_SPECIFIC",
+      "claim": "A later captured combat records use of a Revivify scroll on the account that reports being dead, followed by a positive HP report.",
+      "evidence": [
+        "death-later",
+        "scroll-later",
+        "selene-after"
+      ],
+      "limits": [
+        "Run by a different DM account; does not establish replacement-rule adjudication by Brendon."
+      ]
+    },
+    {
+      "label": "posthoc_causality_rejected",
+      "type": "DIRECT_COUNTEREVIDENCE_TO_INFERENCE",
+      "scope": "EVENT_SPECIFIC",
+      "claim": "Requests to acquire Revivify scrolls predate the correction, so later use alone cannot show the correction caused a switch to scrolls.",
+      "evidence": [
+        "scroll-before-request",
+        "scroll-before-purchase",
+        "scroll-later",
+        "scroll-planning"
+      ],
+      "limits": [
+        "Does not prove the correction had no effect."
+      ]
+    },
+    {
+      "label": "replacement_rule",
+      "type": "UNRESOLVED",
+      "scope": "BOUNDED_SEARCH",
+      "claim": "No exact replacement rule or explicit later application of that replacement was identified in this search.",
+      "evidence": [
+        "correction",
+        "clover-later"
+      ],
+      "limits": [
+        "Lexical selection and captured text have gaps; voice, deletions, and alternative wording remain possible.",
+        "This is not historical nonexistence."
+      ]
+    },
+    {
+      "label": "transfer",
+      "type": "NOT_ESTABLISHED",
+      "scope": "GENERAL_CURRENT_PRACTICE",
+      "claim": "This event does not establish a standing rule about every mistaken house rule.",
+      "evidence": [
+        "correction",
+        "percy-return"
+      ],
+      "limits": [
+        "The existing SCOPE_OVERCLAIMED reusable-judgment verdict is unchanged."
+      ]
+    }
+  ],
+  "excluded_candidate_examples": [
+    {
+      "message_id": "745851065899024535",
+      "disposition": "Voice-chat resurrection question; no completed resurrection established in the surrounding text."
+    },
+    {
+      "message_id": "746242936949440645",
+      "disposition": "Counterfactual discussion of a character as antagonist, not an actual Revivify prohibition."
+    },
+    {
+      "message_id": "746619638506455041",
+      "disposition": "Different return-to-life circumstance; not evidence of Clover's removed daily rule."
+    },
+    {
+      "message_id": "742316337858084975",
+      "disposition": "Quoted hymn, not game-rule evidence."
+    },
+    {
+      "message_id": "744361307595079746",
+      "disposition": "Word 'revive' occurs in a payment context, not a resurrection."
+    }
+  ],
+  "partition": "DISCOVERY",
+  "runtime_promotion": "NOT_PERFORMED",
+  "later_judgments": [],
+  "limitations": [
+    "No complete semantic review of every row.",
+    "No claim of a replacement rule's historical absence.",
+    "No corpus-wide or cross-campaign generalization.",
+    "No runtime testing or demonstrated player benefit.",
+    "No integrity-ledger verdicts changed."
+  ]
+}
