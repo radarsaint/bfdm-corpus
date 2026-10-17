@@ -113,7 +113,7 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 
 ## Direct reading
 
-- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — draft ordinary-post sample. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Five precommitted windows. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. The funeral line and the observation-deck PvP line were already on main and were not reopened.
+- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — draft ordinary-post sample. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. A second round adds five line-100 windows. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. A dice-bot cut that contains none of his rows is not absence either: he was in that channel before and after the cut. The funeral line and the observation-deck PvP line were already on main and were not reopened.
 
 ## Kit evaluation
 

@@ -153,9 +153,137 @@ File-adjacent rows are not one channel. A missing post in the anchored channel i
 
 **KIT_CONSUMPTION.** NOT_APPROVED.
 
+## Sample C, named before this read
+
+Same cut as Sample A. The message on file line 100, then at most 40 later messages in that same channel inside the same shard.
+
+- `model-index/discord/roanoke-season-3/messages-0101.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0201.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0301.jsonl`
+- `model-index/discord/roanoke-season-3/messages-0375.jsonl`
+- `model-index/discord/empire-city/messages-0300.jsonl`
+
+These five were the next round indexes after Samples A and B. They were not opened to find a scene.
+
+| Window | Channel | His posts inside the 40-row cut | Check against a false absence |
+|---|---|---|---|
+| S3 0101, line 100, 40 messages, 2020-07-26 22:02–22:32Z | `⚒-free-masons` | 18 | Not required. He is in the cut. |
+| S3 0201, line 100, 29 messages, 2020-08-04 07:39–08:19Z | `🙋-out-of-character` | 14 | Not required. He is the line-100 post. |
+| S3 0301, line 100, 40 messages, 2020-08-13 07:56–08:00Z | `château-de-léclipse` | 0 | He posted in that same channel 8 minutes before the cut and again 7 minutes after it. |
+| S3 0375, line 100, 3 messages, 2020-08-20 08:50–15:38Z | `the-treehouse` | 0 | The channel has only those 3 messages from line 100 to the end of the shard. Within 15 minutes of the anchor, this shard has no post from him. |
+| EC 0300, line 100, 21 messages, 2021-08-18 20:21–23:05Z | `public-library` | 9 | Not required. He is in the cut. The channel runs out at 21 messages. |
+
+Thirty of the forty `château-de-léclipse` rows are Avrae dice lines. A cut full of dice is not a decision to leave the scene. The treehouse cut is too sparse to call absence or presence. No other shard was opened to fill it.
+
+## DR-20261016-06 — A dice cut is not absence
+
+**Type.** Sample result. Not a DM trait.
+
+**Supported facts.** The table above.
+
+**Interpretation.** Sample A showed that a line-100 anchor can open a channel he is not in. Sample C's château cut shows the opposite mistake: he can be in the channel and still be missing from the 40 rows, because the rows are the dice bot.
+
+**Confidence.** DIRECT for these five shard files only.
+
+**Scope.** These windows. Not a rate.
+
+**Limitations.** The treehouse check stopped at this shard.
+
+**Exclusions.** Do not teach Kit that a quiet stretch of the log is him choosing silence.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-07 — One Free Masons stretch
+
+**Type.** One-channel inventory.
+
+**Context.** `⚒-free-masons`, 2020-07-26, the Sample C cut. The line-100 post is a deleted account speaking Ebuc, not him.
+
+**References.** `737067493625036822`, `737067755660116108`, `737067835603550228`, `737068074347528355`, `737068137236660245`, `737068757784199198`, `737069413139742823`, `737069706279649340`, `737069833362866245`, `737070131984859207`, `737071050608607242`, `737071226543144982`, `737071795043303495`, `737071922419990639`, `737072783527510156`, `737072991866847333`, `737073565173678160`, `737074097015619676`.
+
+**Supported facts.** He asks "(roll deception?)" and "Traxim passive insight?" Traxim's player answers "(14)". He writes "(You notice the tell tale signs of deceit.)" The Archivist tells Ebuc to go on, names Sir Percival rather than Lugh as the more likely tormentor, and stoops with Ebuc. He writes "THEY ATE IT! STARS AND STONES!" and "(stars and stones is his curse word)". He asks "(hows the kit work, does he get to save?)". The Archivist gives the Grail sentence, says "Not for now Ebuc", and turns to Traxim's questions. Parentheticals: "(he helps Ebuc up)", "He waits until Ebuc is gone", "(cool. if you want to wait on the writing on the window, let me know. Can I go play amaya?)", and "got it". Traxim's player answers "(Yeah. Just @ me when someone needs to hammer on his head until he realizes he didn’t just find a riddle written on a window)". He pings user id `360967589511561218`. The Avrae row in this cut has empty `content`. This projection has no embed field.
+
+**Interpretation.** In this stretch he runs the Archivist's lines, calls for two checks, and asks the player a question about a kit and a save. The save is not given a result here. "Kit" in that sentence is not identified as anything but the word he typed.
+
+**Confidence.** DIRECT for the quotes. The deception result is not in this projection.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Limitations.** Lines outside the 40-row cut were not used.
+
+**Exclusions.** Do not turn "stars and stones" into a table rule. Do not invent the missing roll. Do not treat the Amaya question as a record that he left.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-08 — An item list is not a ban
+
+**Type.** Ordinary out-of-character posts.
+
+**Context.** `🙋-out-of-character`, 2020-08-04. The post on the line before the cut is also his: `740111490618621974`, a list that starts "Haste>Instant fortress>" and ends with counterspell.
+
+**References.** `740111584676020226`, `740111637230649364`, `740111815333117982`, `740111891031916685`, `740112260986306610`, `740112602696384522`, `740112932754554880`.
+
+**Supported facts.** Inside the cut he posts "Sword of Zariel", "Staff of the Magi", "He doesn't have to attack to win", "DORMOMU I HAVE COME TO BARGIN", "From inside I can hit you with magic mouth and skywrite to say what ever I want.", "Or if I wanted I could cast fabricate just to make a chili dog stand", and "magic circle, force cage and globe of invulnerability should be banned". Later in the same cut, after other people ask about Daysong, Solomon, Rope Trick, and Grimlock, he posts ">.>", "the real questions over here", "Shenanigens", "yes this", "I saw", "Thanks for adding to it", and "This is good." Those later lines answer `nobleindie`, not the item list.
+
+**Interpretation.** "Should be banned" is one sentence in a list of item and spell jokes. This window does not show those spells removed from play.
+
+**Confidence.** DIRECT for the quotes. "He" in "He doesn't have to attack to win" has no name in these posts.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Exclusions.** Do not ban magic circle, forcecage, or globe of invulnerability from this sentence. Do not merge the Grimlock replies into the item list.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-09 — Two books, one per week
+
+**Type.** One library exchange.
+
+**Context.** Empire City `public-library`, 2021-08-18. `king.crusader` has Finn ask, by sign language, for Mason history, current Mason public works, the sending spell, and whether the library accommodates bardic knowledge.
+
+**References.** `877673357913505843`, `877673610259628033`, `877674146610421781`, `877674239782690816`, `877675736922750987`, `877678300296777819`, `877679116512550924`, `877684243428425758`.
+
+**Supported facts.** He offers two titles: "The Clock Tower conspiracy" and "The Grand Lodge of New Amsterdam." He writes "The spells available are any spells a wizard can learn with out taking extra feats." "Histories of the Masons are conspicuously missing." "One book per week may be researched." Asked "(do retainers get extras?)" he answers "(I'm not giving a lore dump for people's puppets, or every familiar and kegbot or boxdog will show up here.)" He then posts two paragraphs of the clocktower book: built overnight, traps and treasure, Elk's lodge acolytes and Oddfellows, doors at random times, "the most viscous traps", wealth, a possible test. Finn's player strikes a second checkout and writes "(wait nevermind, if only 1 book per week may be researched then he just has the clocktower to look through)". He answers "(Correct)".
+
+**Interpretation.** The limit he states here is one book in a week, and he refuses the extra for retainers, familiars, and the two named puppet types. The clocktower paragraphs are the text he supplied for that book. They are not a separate ruling.
+
+**Confidence.** DIRECT for those posts.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Limitations.** Later library visits were not searched.
+
+**Exclusions.** Do not apply one-book-a-week to every library. Do not treat the clocktower paragraph as a fact he asserted outside the book he was reading aloud.
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
+## DR-20261016-10 — Pie, before the dice cut
+
+**Type.** Two sentences read while checking the château cut.
+
+**Context.** `château-de-léclipse`, 2020-08-13, about eight minutes before line 100. The 40-row cut after that line is the pie fight's dice. These two sentences are not inside the cut. They were read because a zero-post cut had to be checked against the same channel.
+
+**References.** `743375563460182037`, `743375912690778173`.
+
+**Supported facts.** He writes "pie pvp is only enable against people who pick up a pie." Next he writes "(in the morning this will be clean and the building repaired, because warden reasons.)"
+
+**Interpretation.** The first sentence sets who can be hit with a pie in this fight. The second says the mess is gone by morning and gives "warden reasons" as the because. Neither sentence states a rule for other fights or other damage.
+
+**Confidence.** DIRECT for the two sentences.
+
+**Scope.** EVENT_SPECIFIC.
+
+**Limitations.** Not members of the 40-row sample. `BDC-S3-012` is a different day and a different sentence. It was not reopened.
+
+**Exclusions.** Do not extend this to weapons, spells, or consent beyond pie. Do not invent what a warden is from the two words "warden reasons."
+
+**KIT_CONSUMPTION.** NOT_APPROVED.
+
 ## Not read, on purpose
 
-The rest of each shard. Season 2 live play, Season 5 live play, voice, and the held-out partition. The look-out-hill, free-masons, gigglewood, interrogation, and dice-tower posts were counted and not written up.
+The rest of each Sample A and Sample B shard. Season 2 live play, Season 5 live play, voice, and the held-out partition. The look-out-hill, free-masons, gigglewood, interrogation, and dice-tower posts from those windows were counted and not written up.
+
+The beach, the oasis, the treehouse scene, the `#quotes` alliteration, and his other-channel posts in the 0101 and 0201 spans. Those were counted or skipped. Their sentences are not records.
 
 ## Validation commands
 
@@ -166,4 +294,5 @@ The rest of each shard. Season 2 live play, Season 5 live play, voice, and the h
 
 The last script guards the Season 3 audit entry path. A pass does not verify these rows.
 
-Results on this branch, before commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+Results on this branch, before the Sample C commit: `validate_registry.py` PASS; `validate_source_history.py` PASS (194 containers, 82 families); `validate_model_index.py` PASS; `validate_research_evidence.py` PASS.
+
