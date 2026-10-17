@@ -13,9 +13,26 @@
   "modified_at": "2021-07-21T05:50:36.226Z",
   "ingested_at": "2026-10-03T18:45:00Z",
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "Not established; uploader and file ownership do not establish authorship.",
-    "project_ownership_context": "Empire City / Roanoke Season 4 source context."
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Empire City / Roanoke Season 4 source context.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "Not established; uploader and file ownership do not establish authorship."
+    }
+  },
+  "archival_provenance": {
+    "status": "COMPLETE",
+    "unresolved_fields": [],
+    "note": "Checked archival lineage fields are present. This status is not an authorship status."
   },
   "locators": [
     {

@@ -55,6 +55,26 @@ def authorship_basis(meta: dict) -> str | None:
     return meta.get("authorship_basis")
 
 
+def authorship_object(meta: dict) -> dict:
+    authorship = meta.get("authorship")
+    return authorship if isinstance(authorship, dict) else {}
+
+
+def attribution_fields(meta: dict) -> tuple[str | None, str | None, str | None, str | None, str | None]:
+    authorship = authorship_object(meta)
+    attribution = authorship.get("attribution")
+    attribution = attribution if isinstance(attribution, dict) else {}
+    archival = meta.get("archival_provenance")
+    archival = archival if isinstance(archival, dict) else {}
+    return (
+        authorship.get("creator"),
+        authorship.get("copyright_owner"),
+        attribution.get("basis_kind"),
+        attribution.get("attested_on"),
+        archival.get("status"),
+    )
+
+
 def native_dates(meta: dict) -> dict:
     value = meta.get("native_dates")
     return value if isinstance(value, dict) else {}
@@ -427,7 +447,7 @@ def build(repo: Path, db_path: Path) -> dict:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript(schema)
-    run_id = "archive-completion-pr40-repairs-2026-10-08"
+    run_id = "owner-attestation-2026-10-09"
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     conn.execute(
         """
@@ -439,10 +459,11 @@ def build(repo: Path, db_path: Path) -> dict:
             run_id,
             now,
             now,
-            "grok-archive-completion",
-            "non-discord source containers including BCS-000173 through BCS-000195",
-            "Rebuilt after PR #40 review repairs. native_dates.modified fills modified_at. "
-            "Comment sidecars and revisions.jsonl are indexed. Unfetched revision bodies stay NOT_FETCHED. "
+            "owner-attestation",
+            "non-discord source containers",
+            "Rebuilt after the 2026-10-09 owner attestation. "
+            "authorship_status is creator attribution. "
+            "archival_provenance_status is missing lineage and is not authorship. "
             "Context containers such as BCS-000059 are not in this index. BCS-000068 has no source container.",
         ),
     )
@@ -454,14 +475,17 @@ def build(repo: Path, db_path: Path) -> dict:
         body = primary_body(repo, meta, meta_path)
         body_text = body.read_text(encoding="utf-8", errors="replace") if body else ""
         modified = container_modified_at(meta)
+        creator, copyright_owner, basis_kind, attested_on, archival_status = attribution_fields(meta)
         conn.execute(
             """
             INSERT INTO source_containers (
                 corpus_id, project, project_slug, title, source_role, source_kind,
-                authorship_status, authorship_basis, partition_name, created_at,
+                authorship_status, authorship_basis, creator, copyright_owner,
+                attribution_basis_kind, attested_on, archival_provenance_status,
+                partition_name, created_at,
                 modified_at, normalized_path, primary_representation_path,
                 normalized_sha256, document_family_id, ingest_run_id
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 cid,
@@ -472,6 +496,11 @@ def build(repo: Path, db_path: Path) -> dict:
                 meta.get("source_kind"),
                 authorship_status(meta),
                 authorship_basis(meta),
+                creator,
+                copyright_owner,
+                basis_kind,
+                attested_on,
+                archival_status,
                 meta.get("partition"),
                 container_created_at(meta),
                 modified,

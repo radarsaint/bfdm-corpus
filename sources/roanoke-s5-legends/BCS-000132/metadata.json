@@ -15,9 +15,28 @@
     "modified": "2022-02-13T08:53:14.341Z"
   },
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "The opening thanks players for playing and states setting rules in the first person plural. File ownership is Brendon Faulkner. That does not assign every sentence.",
-    "project_ownership_context": "Drive owner and last modifier on 2022-02-13 are Brendon Faulkner."
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Drive owner and last modifier on 2022-02-13 are Brendon Faulkner.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "The opening thanks players for playing and states setting rules in the first person plural. File ownership is Brendon Faulkner. That does not assign every sentence."
+    }
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
   },
   "locators": [
     {
