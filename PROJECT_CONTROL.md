@@ -1,7 +1,7 @@
 # Project Control — BFDM corpus and research
 
 **Updated:** 2026-10-17  
-**Canonical main inspected:** `abe036c5584b8ecbb2977128f8fef92728a0673d`  
+**Canonical main inspected:** `16c05a9fa528381a06df48b098c6bbe8e2a9337c`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
 For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
@@ -41,14 +41,14 @@ Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STA
 
 **Continuity/actual-use repair comes first:** dnd-solo issue #118 tracks downstream-consumer acceptance. The coordination contract, Project Brain, Gardener checkpoint, and context-status checker are on canonical main after Brendon-approved merges of dnd-solo #113 (`aba505351edf61df62445a4961090b4839435dc6`), dnd-solo #117 (`ea74255559faa57dc2b044f01731f61e0f85079d`), and this repo's #39 (`c18796a2e988d91353707b33377c8ea0e670974d`). They are not proposed. A status-checker warning is not completion. Issue #118 G4 and C2 are accepted from comment 6068887374 and recorded on dnd-solo main by #119 (`6d97381210454654950fcb339f438a5d432cc9f1`). G5 repeatability remains unmet. G2's stated evidence is met: on 2026-10-09 the dnd-solo checker on main `e12b97fc925b2be9281fd11828b0bb61a964452f` (#120) reported `REVIEWED_CURRENT` / `CHECKPOINT_ONLY` against reviewed `cf3547e9`, with this repo still `54a20938` and inbox cursor `6065921827`. The Brain record is dnd-solo `7e4c75e8445338ff051cebd1b2175bfacf15e413`. G6 remains a manual Project-UI change.
 
-The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. The first-tranche integrity staging from #38 is now on main. Continue with adversarial work on PR #28 and remaining high-leverage verification outside the sample. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
+The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. The first-tranche integrity staging from #38 is on main, and the contrast-family adversarial pass is on main. Neither makes a standing practice. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
 
 Friday ChatGPT Work should not be spent on broad ingestion, searchability, generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
 
 Highest-value Work targets are:
 
 1. semantically verify only the high-leverage derived propositions that downstream Phase 2 / Stage 3 work actually depends upon;
-2. adversarially attack PR #28's candidate families with independently reconstructed Earthfall/Saturday workbench evidence;
+2. hold the landed Earthfall/Saturday classification fail-closed: CF-08 is LIMIT, the other nine families are NOT_COMPARABLE, and none is certified;
 3. search for deliberate restraint / non-intervention cases that visible-action-heavy research is likely to miss;
 4. reconstruct bounded failure -> diagnosis -> correction -> later-behavior trajectories;
 5. only after enough cases are semantically trusted, build structural contrast/recognition benchmarks.
@@ -62,7 +62,7 @@ If PR #38 has already completed a needed semantic review by launch time, do not 
 Open draft PRs are not canonical main, but some are important current work:
 
 - **#38 — forensic derived-research integrity audit.** Merged to main as `2b68820d445e9f6d99d021463bfd76b2f7bb257d` (2026-10-16). First-tranche staging of 20 S3 decision cases. No corpus-wide certification. BDC-S3-004 prep locators remain ORIGINAL_REPRESENTATION_UNAVAILABLE / SUPPORT_NOT_FOUND; Discord does not repair them. Several propositions are PARTIALLY_SUPPORTED or SCOPE_OVERCLAIMED. Reusable judgments are not verified for transfer.
-- **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged.
+- **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged. The draft's confidence labels are not verdicts. The canonical classification is `research/integrity/contrast-family-verdicts.jsonl`: no family is standing practice or authorized for Kit.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
 - **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
 
@@ -90,6 +90,8 @@ Preserve these distinctions:
 - archive gap != evidence gap;
 - open PR != canonical main;
 - citation != semantic verification;
+- confidence label != verdict;
+- contrast family != standing practice;
 - generated AI text != Brendon authorship;
 - request != acceptance != implementation.
 

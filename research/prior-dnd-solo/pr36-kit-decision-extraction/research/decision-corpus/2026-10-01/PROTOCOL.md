@@ -1,4 +1,6 @@
 # Decision extraction: first evidence batch
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. Historical snapshot only.
+
 
 Authorized by Brendon: “Push what you already did to git then begin” (2026-10-01 UTC). The earlier work was published first in PR #23. This project follows Brendon's extraction brief in the current conversation.
 

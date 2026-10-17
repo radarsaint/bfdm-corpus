@@ -1,4 +1,6 @@
 # Early Longitudinal Case — Roanoke Economy: 2018 → Season 2
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Research class:** developmental design case  
 **Confidence:** high for the local change; medium for broader generalization  

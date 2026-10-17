@@ -1,4 +1,6 @@
 # Mythic Institutions and Secret Societies Across S3 and S4 — v1
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Status:** bounded cross-season comparison.  
 **Scope:** Roanoke S3 and Empire City / S4.  

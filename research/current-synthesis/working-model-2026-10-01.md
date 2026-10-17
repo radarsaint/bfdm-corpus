@@ -1,4 +1,6 @@
 # Working Synthesis — 2026-10-01
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Status:** provisional research notes.  
 **Authority:** interpretation, not source truth.  
@@ -68,6 +70,8 @@ A candidate developmental pattern to test is:
 Do not yet universalize this from S3. Search for comparable examples across seasons.
 
 ## 5. Current S3 judgment hypotheses
+
+These are hypotheses. The Season 3 audit did not certify them as standing practice, and the contrast-family pass did not confirm them against Earthfall or Saturday D&D. The list below is the 2026-10-01 wording, kept so the later correction stays visible.
 
 The strongest current hypotheses include:
 

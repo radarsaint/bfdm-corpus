@@ -1,4 +1,6 @@
 ## Structure, theme, and a house rule
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Touched by BDC-S3-009, BDC-S3-017, BDC-S3-018, and BDC-S3-019.
 

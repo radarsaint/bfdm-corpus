@@ -1,4 +1,6 @@
 # Empire City — Brendon DM Decision Cases v1
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Purpose: recover bounded DM judgment from Roanoke Season 4 / Empire City without turning campaign lore or Brendon's prose into the target.
 

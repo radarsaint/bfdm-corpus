@@ -1,4 +1,6 @@
 # Empire City — Design Method Synthesis v1
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Campaign:** Roanoke Season 4 / Empire City
 **Primary live source:** `discord/empire-city/empire-city.sqlite`

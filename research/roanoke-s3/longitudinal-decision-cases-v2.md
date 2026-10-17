@@ -1,4 +1,6 @@
 # Roanoke Season 3 — Longitudinal Brendon DM Decision Cases v2
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Purpose: recover **how a prepared campaign changes after players touch it**. These cases follow a chain over hours or days: prepared expectation → live signal → Brendon intervention → downstream change. They are intended to teach DM judgment, not Brendon’s prose style and not Roanoke lore.
 

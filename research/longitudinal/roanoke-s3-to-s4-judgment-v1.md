@@ -1,4 +1,6 @@
 # Roanoke S3 → Empire City S4 Judgment Comparison v1
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Status:** provisional developmental comparison.  
 **Scope:** two consecutive Roanoke-lineage campaigns with broadly similar persistent, large, multi-DM Discord operating conditions.

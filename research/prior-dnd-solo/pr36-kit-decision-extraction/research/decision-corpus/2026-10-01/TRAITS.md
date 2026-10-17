@@ -1,4 +1,6 @@
 # Cross-project trait evidence
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. Historical snapshot only.
+
 
 These are hypotheses. Counts refer only to this batch; repeated versions and aliases do not create independent projects. Source strength differs. Full exceptions and provenance: [trait-evidence.json](trait-evidence.json).
 

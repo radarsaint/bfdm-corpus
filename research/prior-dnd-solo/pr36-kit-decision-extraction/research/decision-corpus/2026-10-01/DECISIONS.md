@@ -1,4 +1,6 @@
 # Brendon Decision Records — first batch
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Each interpretation carries its basis. HIGH confidence in a local correction does not imply a universal DM rule. Full machine-readable records: [decisions.jsonl](decisions.jsonl). Source locators: [source-index.json](source-index.json).
 

@@ -1,4 +1,6 @@
 # Empire City / Roanoke Season 4 Research
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Campaign:** Season 4, Empire City  
 **Primary live source:** `discord/empire-city/empire-city.sqlite`  
@@ -81,7 +83,7 @@ A repeated pattern between S3 and S4 is a stronger developmental lead than a sin
 
 ## Current high-signal findings
 
-The first deep pass supports these bounded S4 findings:
+The first deep pass wrote these as bounded S4 readings. They are not a semantic audit, not standing practice, and not confirmed by the contrast-family pass. The bullets below are the original wording:
 
 - culturally charged history/folklore is repeatedly converted into playable systems rather than used only as reference;
 - the five boroughs function as distinct play modes held together by shared campaign pressures;

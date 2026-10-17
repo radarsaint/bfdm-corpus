@@ -20,6 +20,7 @@ Scope:
 Findings / result:
 - strongest result first
 - distinguish executable fact, source fact, research inference, and proposal
+- a judgment claim stays NOT_A_STANDING_PRACTICE unless `research/integrity/` records a verdict
 
 Changes made:
 - files / PR / issue

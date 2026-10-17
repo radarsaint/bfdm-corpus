@@ -1,5 +1,7 @@
 # Research Method
 
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. See [`integrity/JUDGMENT_TRUST.md`](integrity/JUDGMENT_TRUST.md).
+
 ## Research purpose
 
 The original narrow question remains useful:

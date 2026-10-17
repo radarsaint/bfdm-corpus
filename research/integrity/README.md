@@ -1,6 +1,8 @@
 # Derived research integrity
 
-**Status:** first-tranche staging only. No corpus-wide semantic certification has been performed.
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. The fail-closed contract is [`JUDGMENT_TRUST.md`](JUDGMENT_TRUST.md).
+
+**Status:** first-tranche staging only. No corpus-wide semantic certification has been performed. Contrast families CF-01–CF-10 are not certified; see [`contrast-family-adversarial-v1.md`](contrast-family-adversarial-v1.md).
 
 **Audit baseline:** canonical `main` at `65513f294e72a3eb961d5699c21ddc1f14ceef2c`.  
 **Audit branch:** `audit/derived-research-integrity-2026-10-05`.  

@@ -1,9 +1,11 @@
 # Next Handoff
 
-**Current as of:** 2026-10-07  
+**Current as of:** 2026-10-17  
 **Canonical branch:** `main`
 
-This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. Contrast-family verdicts are `research/integrity/contrast-family-verdicts.jsonl`. Source status is `research/STATUS.md`. Older sentences in this file that tell a worker to leave PR #28's conclusions unchanged, or that call PR #38 an active draft, are superseded.
+
+This is the current operational handoff for source mechanics. Judgment trust is not in the older sections below. Older dated handoffs/audits are historical unless this file explicitly points to them.
 
 ## Cross-repository coordination
 
@@ -11,17 +13,13 @@ For any task that can affect Kit/runtime decisions, read repository-root `PROJEC
 
 GitHub issues/PRs own live task state. Dated handoffs are orientation/history and must not silently outrank newer `main` or an explicitly named active draft.
 
-### Active integrity work — PR #38
+### Integrity work — PR #38 is merged
 
-PR #38, **Audit and repair BFDM derived-research evidence chains**, is an active draft updated 2026-10-07.
-
-Its governing rule is:
+PR #38, **Audit and repair BFDM derived-research evidence chains**, merged to main on 2026-10-16 as first-tranche staging. It is not an open draft. Its governing rule remains:
 
 > a derived claim is not source-verified merely because it contains a citation; the cited source content must be retrieved and shown to support the claim at the stated scope and confidence.
 
-Until the forensic audit settles a derived artifact, do not use polish or citation density as proof that its propositions are verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support.
-
-PR #38 is not canonical `main`, but it materially changes how current researchers should treat un-audited derived work.
+The first tranche is on main as staging, not as a model of practice. Do not use polish or citation density as proof that an unaudited proposition is verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support. Unaudited derived work stays UNVERIFIED.
 
 ### Strategic planning draft — PR #37
 
@@ -33,8 +31,8 @@ Use scarce Work capacity for evidence-heavy investigations that ordinary GPT sho
 
 Priority order:
 
-1. **Phase-2-critical semantic verification.** Extend/finish only the PR #38 proposition set actually required by downstream Phase 2/Stage 3 work. Skip if the active integrity thread has already completed the same dependency surface.
-2. **Earthfall/Saturday adversarial attack on PR #28.** Treat the ten contrast families as hypotheses. Independently reconstruct primary evidence and classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE.
+1. **Phase-2-critical semantic verification.** The 20-case Season 3 tranche is finished and its reusable judgments are overclaimed. Do not rerun it. A further verification needs a new named surface and a new ledger row.
+2. **Earthfall/Saturday adversarial attack on PR #28.** Done on 2026-10-17. The record is `research/integrity/contrast-family-adversarial-v1.md`. CF-08 is LIMIT. The other nine families are NOT_COMPARABLE on `BCS-000152`–`BCS-000172`. No family was certified. Do not redo the pass against the same surface, and do not adopt the draft confidence labels.
 3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
 4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
 5. **Phase 2B cross-format creative-method contrast.** Use direct design/revision evidence and do not claim table success.
@@ -147,7 +145,7 @@ Title: **Phase 2: decision contrast families**
 Primary artifact:
 `research/phase2/contrast-families-v1.md`
 
-Phase 2A is the live-judgment draft. Its current contrast families are not yet updated for the newly canonical Earthfall and Saturday D&D workbench sources. Those sources are partial recoveries and are available for a later SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE pass. That pass has not been done. Bastion/Redoubt and At War's End remain eligible for Phase 2B design-method claims. A design claim is not evidence the material was run.
+Phase 2A is the live-judgment draft. The Earthfall and Saturday workbench pass has been done and is fail-closed: see `research/integrity/contrast-family-adversarial-v1.md`. Draft confidence labels on this branch were not adopted. Bastion/Redoubt and At War's End remain eligible for Phase 2B design-method claims. A design claim is not evidence the material was run.
 
 `zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
 

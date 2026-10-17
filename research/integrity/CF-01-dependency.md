@@ -1,4 +1,6 @@
 # CF-01 dependency after BDC-S3-004 and BDC-S3-005
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 This note is only about those two reviewed cases. It does not change PR #28. It is not a Kit rule.
 

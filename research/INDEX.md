@@ -1,5 +1,7 @@
 # BFDM Research Index
 
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. Contrast-family status is [`integrity/contrast-family-verdicts.jsonl`](integrity/contrast-family-verdicts.jsonl).
+
 This index points to current research artifacts and distinguishes canonical main from open draft research.
 
 ## Current state and method
@@ -37,7 +39,7 @@ Status: PR #25, PR #31, and PR #36 are merged. Canonical containers run through 
 
 ## Stage 2 — Reconstruct expert judgment
 
-Phase 2 has two lanes. The contrast files are on draft PR #28 until it merges. No Phase 2B research artifact has landed.
+Phase 2 has two lanes. The contrast files are on draft PR #28 until it merges. Their confidence labels are not verdicts. The fail-closed classification against Earthfall and Saturday workbench sources is [integrity/contrast-family-adversarial-v1.md](integrity/contrast-family-adversarial-v1.md): no family is certified. No Phase 2B research artifact has landed.
 
 **Phase 2A — Live judgment** is the open draft. It asks what condition makes one intervention happen rather than another during play. It needs live-decision evidence. Current files, on the draft branch until PR #28 merges:
 - `research/phase2/contrast-families-v1.md`;

@@ -1,7 +1,9 @@
 # Research Status
 
-**Current as of:** 2026-10-16  
+**Current as of:** 2026-10-17  
 **Canonical branch:** `main`
+
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim. The contrast-family record is `research/integrity/contrast-family-verdicts.jsonl`.
 
 This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
 
@@ -146,7 +148,7 @@ A Discord phrase search that returns zero, with `zero_match_means_absence`, esta
 
 PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
 
-PR #28 (`research/phase2-decision-trajectories`) is the Phase 2 contrast-family draft. Earthfall and Saturday D&D workbench sources are now on main for a later cross-format pass. That pass has not been done.
+PR #28 (`research/phase2-decision-trajectories`) is the Phase 2 contrast-family draft. Its confidence labels are not verdicts and were not adopted. The Earthfall and Saturday workbench pass is on main in `research/integrity/contrast-family-adversarial-v1.md`. CF-08 is LIMIT. The other nine families are NOT_COMPARABLE on that partial surface. No family is certified, standing practice, or authorized for Kit.
 
 ## OPEN PR — older Drive branches
 
@@ -158,7 +160,7 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. For research, PR #38 must semantically verify the dependency claims that matter to downstream Phase 2; only then adversarially test PR #28's proposed contrast families using Earthfall/Saturday workbench evidence with preparation/play limits. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. The first-tranche audit and the contrast-family adversarial pass are on main. Neither certifies a standing practice. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives. Do not promote a contrast family, a reusable judgment, or a high confidence label without a new integrity verdict.
 
 ## Research roadmap
 

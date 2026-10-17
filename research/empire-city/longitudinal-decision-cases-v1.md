@@ -1,4 +1,6 @@
 # Empire City — Longitudinal Brendon DM Decision Cases v1
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Purpose: follow Empire City decisions that changed preparation, campaign structure, or future-season design over multiple days.
 

@@ -1,0 +1,26 @@
+name: Judgment trust
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  judgment-trust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reject derived wording treated as standing practice
+        run: |
+          python scripts/test_judgment_trust.py
+          python scripts/validate_judgment_trust.py
+          python scripts/validate_research_evidence.py

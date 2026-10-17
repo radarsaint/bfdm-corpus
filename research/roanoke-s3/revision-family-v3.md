@@ -1,4 +1,6 @@
 # Roanoke Season 3 — Revision-Family DM Judgment Pass v3
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Purpose: distinguish **changes Brendon made because preparation itself needed repair** from **changes caused by live player behavior**. This pass compares the rough draft, week breakdowns, change log, Google Drive revision history, and private Discord harvest. It is designed to keep false causal lessons out of Kit's judgment corpus.
 

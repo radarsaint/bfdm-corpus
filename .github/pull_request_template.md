@@ -63,6 +63,7 @@ If not `NONE`, update the appropriate canonical context surface in this PR or ex
 - [ ] If this invalidates or supersedes an old path, I named that path explicitly.
 - [ ] If this affects the sibling repo, I recorded the cross-repo consequence instead of assuming another agent will infer it.
 - [ ] I did not equate passing tests/citations/component success with product-level success.
+- [ ] I did not treat a citation, confidence label, reusable judgment, or draft contrast as verified practice. New judgment wording is registered in `research/integrity/judgment-claim-register.jsonl` and carries `NOT_A_STANDING_PRACTICE`.
 - [ ] I included a durable handoff using `coordination/HANDOFF_TEMPLATE.md` when the work is substantial.
 - [ ] I classified project-context impact and persisted any durable delta instead of leaving it only in chat history.
 

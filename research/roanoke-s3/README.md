@@ -1,4 +1,6 @@
 # Roanoke Season 3 Research
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 Roanoke Season 3 is currently the richest live-play dataset in the BFDM corpus, but it must not be mistaken for a complete model of Brendon.
 

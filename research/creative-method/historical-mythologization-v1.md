@@ -1,4 +1,6 @@
 # Historical Mythologization — Creative Method v1
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Status:** early cross-season finding, supported by direct retrospective self-report plus contemporaneous S3/S4 sources.  
 **Primary comparison:** Roanoke S3 ↔ Empire City / S4.  

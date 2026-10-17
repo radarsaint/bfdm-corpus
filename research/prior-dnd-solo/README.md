@@ -1,4 +1,6 @@
 # Prior `dnd-solo` Research Snapshots
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 This directory centralizes research artifacts that were originally developed in `radarsaint/dnd-solo`.
 

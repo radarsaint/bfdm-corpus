@@ -153,7 +153,8 @@ def parse_cases_jsonl(path: Path) -> dict[str, dict[str, Any]]:
 
 
 AUDIT_POINTER_REQUIREMENT = (
-    "Consult the audit ledger before treating any original proposition or confidence label as verified."
+    "Consult the audit ledger before treating any original proposition or confidence label as verified. "
+    "NOT_A_STANDING_PRACTICE."
 )
 REUSABLE_JUDGMENT_RESULT = (
     "All 20 original reusable judgments were found overclaimed. None is certified as a standing DM practice."

@@ -1,4 +1,6 @@
 # Creative-Method Lead — Bowling Event
+> **Judgment status: NOT_A_STANDING_PRACTICE.** A citation, a confidence label, or a reusable-judgment sentence is derived wording. It is not a semantic verdict and it does not authorize Kit to use the claim.
+
 
 **Source:** Google Drive document `Bowling Event:`  
 **Drive ID:** `1bn1YBXqQyD22XfbyIme_S-AvBI7hLT92GCC2Jt4f5b4`  
