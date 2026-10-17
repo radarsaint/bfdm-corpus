@@ -21,11 +21,11 @@ Kit's runtime reads a smaller curated subset through `dnd-solo` `runtime/kit_jud
 
 **Historical.** On 2021-07-16 in Empire City admin chat, hekiryuu relays that a player asks to clear rubble at the money changer (`865565663296225280`). Brendon, `865565818481279018`: "I mean, I hadn't planned on it. But players helping rebuild the server is a healing thing." He agrees the player may post (`865565932783796255`), says "this has all the support" (`865566464831258674`), then "Don't worry I'm going to drive this narative" and "just waiting for his post" (`865567436970786836`). Hekiryuu later says the player posted without being prodded. Brendon agrees he saw the same.
 
-**What is supported.** He allowed an unplanned repair he had not prepared, and he waited for the player's post rather than describing the result first.
+**What is supported.** He allowed an unplanned repair he had not prepared, and he waited for the player's post rather than describing the result first. The next post in `#money-changer` is versil, 2021-07-16 12:28Z, `865570499333062677`: Roy starts moving the rubble. Brendon then narrates people joining that work (`865571955645874226`, `865572445783457832`). The same day at 23:09Z he writes "The money changer is now back to service the people of empire. The exchange rate is lowered to 3 %" (`865731824340566046`).
 
-**What is not supported.** That the fiction which followed was good. That every offer to build should be allowed. The housing refusal below is the counterexample.
+**What is not supported.** That every offer to build should be allowed. The housing refusal below is the counterexample. The admin chat says "V" and does not name versil; the sequence is the permission to post in that channel, then versil's post. The 3% rate is this reopening, not a rate for every shop. Kit card BJ-001 still stops at the admin chat.
 
-**Status.** `VERIFIED_NARROW`.
+**Status.** `VERIFIED_NARROW`. The evidence list stays the admin messages. The rebuild posts are follow-through.
 
 ## BJ-002 — Designed vulnerability kept
 
@@ -35,9 +35,11 @@ Kit's runtime reads a smaller curated subset through `dnd-solo` `runtime/kit_jud
 
 **What is supported.** He refused a private exception that would erase a vulnerability the season was using, and he named fairness across later asks.
 
-**What is not supported.** A ban on every homeward detail, or on the rubble-clearing in BJ-001.
+**What is not supported.** A ban on every homeward detail, or on the rubble-clearing in BJ-001. A later grant of the spare room. This search did not find one.
 
-**Status.** `VERIFIED_NARROW`.
+**Follow-through.** The same night, 23:24Z, thatpersonlogan posts in `#the-vestige`, `863561461930655744`: the Vestige is a small airship, restaurant below, and Adon rents the top floor as a studio. No post of his in that channel answers the rental. His next post there, the next morning, `863675853232537601`, is a painted pigeon, not the room. The transparency log has no second entry granting the house.
+
+**Status.** `VERIFIED_NARROW`. The evidence list stays the one log post. The rental is the player's later description, not his reversal and not his approval.
 
 ## BJ-003 — Resurrection corrected forward only
 
@@ -63,11 +65,11 @@ Before that post he scheduled the order: "Clover will res Viola, then percy, the
 
 The v1 prep locator for this case is the broken BCS-000045 chain recorded by PR #38, now on main at `2b68820d`. The Discord lines above were read directly.
 
-**What is supported.** He reconsidered a prepared boss from a gut read of the party, and he treated that offer as conditional on whether it would be satisfying. Players corrected the depleted read in the next lines.
+**What is supported.** He reconsidered a prepared boss from a gut read of the party, and he treated that offer as conditional on whether it would be satisfying. Players corrected the depleted read in the next lines. Eloise says they are meeting in the outskirts. He answers "got it" (`746254506500554762`). At 06:31Z in `hex-n-outskirts-of-new-roanoke` he writes "There is rustling in the woods behind you" (`746255033196216371`) and later "(escort quest accepted. escort flivver through leviathans call)" (`746257514823417897`). In `hex-b-leviathans-call` he then runs tooth fairies and a bear, including "The bear uses SHARKENFIST" (`746271322312802304`).
 
-**What is not supported.** That the boss was replaced. That "skip the prepared fight" is the lesson. Applying that simplification to a party the table says is fresh would contradict this window.
+**What is not supported.** That this scene is the preplanned boss, or the mobs he offered instead. He does not say which. That "skip the prepared fight" is the lesson. Applying that simplification to a party the table says is fresh would contradict this window. Kit card BJ-004 still says the encounter after the window is not in the record.
 
-**Status.** `NARROWED`. Delivered encounter: `UNPROVEN`.
+**Status.** `NARROWED`. The scene after "got it" is these posts. Which fight it was remains unstated. The evidence list is unchanged.
 
 ## BJ-005 — Do not give the NPC a fact the table did not give
 
@@ -75,11 +77,11 @@ The v1 prep locator for this case is the broken BCS-000045 chain recorded by PR 
 
 **Historical.** `sources/chatgpt-project-history/saturday-dnd/BCS-000172/source.md`. Brendon says the party missed the clues to Tasha's portfolio and proposes a way forward. The draft then has Neris realize they know the name Tasha. Brendon: "you are asuming they mentioned tasha. they didnt and they are just baricaded him in a room." The next draft drops that inference.
 
-**What is supported.** He refused a draft in which the NPC acted on a name the players had not said.
+**What is supported.** He refused a draft in which the NPC acted on a name the players had not said. The next draft in the same file drops that inference: Neris does not know anything about Tasha and acts because they lied and barricaded him.
 
-**What is not supported.** That the replacement was run at the table. The file is a partial project recovery.
+**What is not supported.** That the replacement draft was run at the table. The file is a partial project recovery. On August 8 he asks for a boss at "the end of the bank heist" while about to recover Tasha's documents. That says the heist had reached the vault. It does not quote the corrected Neris scene as played. No harvested Discord shard in this repo contains the token "neris". Kit card BJ-005 is unchanged.
 
-**Status.** `VERIFIED_NARROW` for the correction of the draft. Table outcome: `UNPROVEN`.
+**Status.** `VERIFIED_NARROW` for the correction of the draft. Table outcome of that correction: `UNPROVEN`.
 
 ## BJ-006 — Dating-sim apology
 
