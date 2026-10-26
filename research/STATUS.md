@@ -135,6 +135,10 @@ Phase 2 has two lanes. Landing is not certification.
 
 **Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. The tranche's Part C holds five scoped hypotheses from Earthfall, Bastion/Redoubt, and Saturday workbench texts. They are on `main`. They are not principles. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can still support world-model and revision claims and was not read for this tranche. None of those texts establish how the design performed at the table.
 
+## OPEN PR — Phase 2 consolidation
+
+[PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52), branch `research/phase2-consolidation-longitudinal-2026-10-26`, holds `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged. It records RL-01 through RL-06, a crosswalk against open PRs #43 and #46–#50, and a qualification of the CF-04 substitution sentence. It does not rewrite the contrast files and it does not merge those other PRs.
+
 Three research scopes, which are not the same word "ready":
 
 - Broad BFDM judgment claims: `NOT_READY`. The corpus is not representative across eras and formats.
