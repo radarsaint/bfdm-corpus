@@ -1,7 +1,7 @@
 # Project Control — BFDM corpus and research
 
-**Updated:** 2026-10-17  
-**Canonical main inspected:** `abe036c5584b8ecbb2977128f8fef92728a0673d`  
+**Updated:** 2026-10-26  
+**Canonical main inspected:** `fc3376c1fa3a02a5cda061768b172008352bd2dd`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
 For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
@@ -34,6 +34,7 @@ At the inspected `main`:
 - bounded S3/S4 live-judgment research is only ready with lineage/scope limits;
 - creative-method/worldbuilding research is ready only for bounded design claims;
 - Stage 3 minimal cognition tests and Stage 4 architecture are intentionally later.
+- PR #37 merged: preserves the 2026-10-05 strategic planning snapshot as `research/STRATEGIC_HANDOFF_2026-10-05.md`. Dated snapshot only; not current direction or historical BFDM evidence. Catalog ceiling recorded as BCS-000172 is not current.
 
 Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STATE.json` for detailed canonical state.
 
@@ -64,7 +65,7 @@ Open draft PRs are not canonical main, but some are important current work:
 - **#38 is not a draft.** It merged. The review is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are overclaimed. Not a model. Not Kit.
 - **#28 is not a draft.** It merged as `a6a84d902a995e53b3ceb72bd535b909429493f9`. The contrast families, the stress pass, and `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` are on `main`. They do not confirm the ten families, do not restate PR #38, and are not Kit-consumed research. The tranche was checked against the then-current BFDM `main` `f5f6e4d48aed32e3f4ddfdf70cbdcd5fe6e27b2d` and Kit `main` `bebaa6e8613e3f29787e66188be66684acf06a1c`.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
-- **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
+- **#37 is not a draft.** It merged as `fc3376c1fa3a02a5cda061768b172008352bd2dd`. The 2026-10-05 strategic handoff is a dated planning snapshot only; not current direction, not historical BFDM evidence, catalog ceiling BCS-000172 is not current. Operational files unchanged.
 
 Any worker relying on one of these must name the PR and branch explicitly.
 
