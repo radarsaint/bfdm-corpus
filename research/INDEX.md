@@ -117,6 +117,16 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 - [creative-method/mythic-institutions-s3-s4-v1.md](creative-method/mythic-institutions-s3-s4-v1.md)
 - [creative-method/worker-4-cross-format-research-2026-10-16.md](creative-method/worker-4-cross-format-research-2026-10-16.md) — draft Worker 4 cross-format tranche. Machine rows: [creative-method/worker-4-cross-format-research-2026-10-16.jsonl](creative-method/worker-4-cross-format-research-2026-10-16.jsonl). Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `W4-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Overlaps are annotated in the report. They do not replace the bowling lead, the mythologization note, the institutions note, or the Empire City design synthesis.
 
+## Worker 2 long-form preservation — 2026-10-16
+
+Draft preservation of one bounded research tranche. Not canonical until the preserving pull request merges. Every record is `KIT_CONSUMPTION=NOT_APPROVED`. `W2-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. This is not a Kit change and not a representative sample. Where a record overlaps older research, the overlap note says so; it does not replace that research.
+
+- [worker2-long-form/2026-10-16/records.md](worker2-long-form/2026-10-16/records.md) — 15 interpretive candidates and 2 negative findings.
+- [worker2-long-form/2026-10-16/records.jsonl](worker2-long-form/2026-10-16/records.jsonl) — the same records in a machine-readable index. The first row is a pointer, not a verdict.
+- [worker2-long-form/2026-10-16/validation-and-coverage.md](worker2-long-form/2026-10-16/validation-and-coverage.md) — locator checks and coverage limits.
+- [worker2-long-form/2026-10-16/overlap-and-exclusions.md](worker2-long-form/2026-10-16/overlap-and-exclusions.md) — relationships to existing research, including what was not treated as independent evidence.
+- [worker2-long-form/2026-10-16/CURRENT_STATE.md](worker2-long-form/2026-10-16/CURRENT_STATE.md) — unapproved for runtime consumption. `FULL_REPORT_NOT_IMPORTED`.
+
 ## Kit evaluation
 
 - [kit-evaluation/README.md](kit-evaluation/README.md)
