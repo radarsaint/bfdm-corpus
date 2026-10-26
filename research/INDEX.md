@@ -127,6 +127,10 @@ Draft preservation of one bounded research tranche. Not canonical until the pres
 - [worker2-long-form/2026-10-16/overlap-and-exclusions.md](worker2-long-form/2026-10-16/overlap-and-exclusions.md) — relationships to existing research, including what was not treated as independent evidence.
 - [worker2-long-form/2026-10-16/CURRENT_STATE.md](worker2-long-form/2026-10-16/CURRENT_STATE.md) — unapproved for runtime consumption. `FULL_REPORT_NOT_IMPORTED`.
 
+## Long-form preservation drafts
+
+- [gpt6-long-form/2026-10-16/report.md](gpt6-long-form/2026-10-16/report.md) — draft GPT-6 DM-expertise tranche. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `BFDM-RC-2026-10-16-*` ids are research-record ids, not BCS, BCE, or BCR identities. Most proposed records were not opened: they duplicate landed notes or open PRs #43, #47, and #48. Opened rows are the Flivver scene, an Aldessa supplement, and an authorship-exclusion caution. Machine rows: [gpt6-long-form/2026-10-16/records.jsonl](gpt6-long-form/2026-10-16/records.jsonl).
+
 ## Kit evaluation
 
 - [kit-evaluation/README.md](kit-evaluation/README.md)
