@@ -1,6 +1,6 @@
 # Worker 4 cross-format research — 2026-10-16
 
-**Status.** Draft preservation of a bounded research tranche. Not canonical until this pull request merges. Not a representative sample. Not Kit configuration.
+**Status.** Landed on main with PR #48 (2026-10-26). Not a certified practice. Not a representative sample. Not Kit configuration. `KIT_CONSUMPTION=NOT_APPROVED`.
 
 **Consumption.** `KIT_CONSUMPTION=NOT_APPROVED` on every record below. Nothing here was given to Kit. `dnd-solo` was not edited. Kit pull request #126 was not edited.
 
