@@ -37,13 +37,15 @@ Status: PR #25, PR #31, and PR #36 are merged. That consolidation ran through `B
 
 ## Stage 2 — Reconstruct expert judgment
 
-Phase 2 has two lanes. The contrast files are on draft PR #28 until it merges. No Phase 2B research artifact has landed.
+Phase 2 has two lanes. The contrast files, the stress pass, and the 2026-10-25 cross-format tranche are on draft PR #28 until it merges. No Phase 2 result set has landed. The tranche is not a rewrite of the ten families and it is not a Kit input.
 
 **Phase 2A — Live judgment** is the open draft. It asks what condition makes one intervention happen rather than another during play. It needs live-decision evidence. Current files, on the draft branch until PR #28 merges:
-- `research/phase2/contrast-families-v1.md`;
-- `research/phase2/contrast-families-v1-stress.md`.
 
-**Phase 2B — Creative method / worldbuilding** has no research artifact yet. Design texts may support design claims without a live-play edge. Earthfall, Bastion/Redoubt, and At War's End are eligible. Those claims are not table results.
+- `research/phase2/contrast-families-v1.md`;
+- `research/phase2/contrast-families-v1-stress.md`;
+- `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — Earthfall/Saturday attack on those ten families. Zero BREAK inside the cited spans. Not a confirmation of the families. Not merged.
+
+**Phase 2B — Creative method / worldbuilding** has a labeled draft section inside that same tranche (hypotheses H1–H5 and the DESIGN cases). It has not landed. Design-only cases are marked DESIGN and are not live adjudication. Earthfall, Bastion/Redoubt, and the Saturday workbench are used there with partial-recovery limits. At War's End was not part of this tranche and remains eligible. Those claims are not table results.
 
 Broad BFDM judgment claims are `NOT_READY`. Bounded S3/S4 live-judgment work is `READY_WITH_SCOPE_LIMITS`. Creative-method research is `READY_WITH_SOURCE_LIMITS`.
 

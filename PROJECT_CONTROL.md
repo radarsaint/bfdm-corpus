@@ -62,7 +62,7 @@ The finished first tranche is PR #38, merged as `2b68820d445e9f6d99d021463bfd76b
 Open draft PRs are not canonical main, but some are important current work:
 
 - **#38 is not a draft.** It merged. The review is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are overclaimed. Not a model. Not Kit.
-- **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged.
+- **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged. As of 2026-10-25 the branch also carries `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`, an unmerged Earthfall/Saturday cross-format draft. That file does not confirm the ten families, does not restate PR #38, and is not Kit-consumed research. This sentence does not replace the 2026-10-17 inspection header above. The tranche was checked against BFDM `main` `f5f6e4d48aed32e3f4ddfdf70cbdcd5fe6e27b2d` and Kit `main` `bebaa6e8613e3f29787e66188be66684acf06a1c`.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
 - **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
 

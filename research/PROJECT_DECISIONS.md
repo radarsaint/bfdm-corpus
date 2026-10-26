@@ -39,7 +39,7 @@ The project has deliberately moved away from jumping directly from "archive" to 
 
 ### Stage 2 — Reconstruct expert judgment
 
-Two lanes. No Phase 2B result set has landed.
+Two lanes. An unmerged Phase 2B draft section is on PR #28. No Phase 2B result set has landed.
 
 **Phase 2A — Live judgment.** Requires appropriate live-decision evidence. The useful unit is a contrastable decision trajectory: what happened, what intervention or restraint occurred, what changed, and which condition explains the difference. Underway on draft PR #28. Not more generic "Brendon DM principles."
 
