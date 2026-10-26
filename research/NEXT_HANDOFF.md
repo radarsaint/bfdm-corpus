@@ -1,6 +1,6 @@
 # Next Handoff
 
-**Current as of:** 2026-10-07  
+**Current as of:** 2026-10-16  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
@@ -11,17 +11,15 @@ For any task that can affect Kit/runtime decisions, read repository-root `PROJEC
 
 GitHub issues/PRs own live task state. Dated handoffs are orientation/history and must not silently outrank newer `main` or an explicitly named active draft.
 
-### Active integrity work — PR #38
+### First-tranche integrity review — merged
 
-PR #38, **Audit and repair BFDM derived-research evidence chains**, is an active draft updated 2026-10-07.
+PR #38 merged to `main` as `2b68820d445e9f6d99d021463bfd76b2f7bb257d`.
 
-Its governing rule is:
+The reviewed set is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are `SCOPE_OVERCLAIMED`. None is a certified standing practice. The sample boundary in `research/integrity/README.md` still holds: this is not a model of how Brendon runs a game, and it does not authorize Kit.
 
-> a derived claim is not source-verified merely because it contains a citation; the cited source content must be retrieved and shown to support the claim at the stated scope and confidence.
+A citation is still not semantic verification. BDC-S3-004's prep locators remain unrecovered. Do not restamp the ledger because a later edit is nearby. Untouched research stays `UNVERIFIED`.
 
-Until the forensic audit settles a derived artifact, do not use polish or citation density as proof that its propositions are verified. Preserve fail-closed statuses and distinguish mechanical locator validity from semantic evidentiary support.
-
-PR #38 is not canonical `main`, but it materially changes how current researchers should treat un-audited derived work.
+The old audit branch is history. The gate that checks a pull request is `.github/workflows/research-integrity.yml` once that repair is on `main`. Until then, run `scripts/validate_research_evidence.py` against the revision you changed, with the Discord database left as its Git LFS pointer.
 
 ### Strategic planning draft — PR #37
 
@@ -33,10 +31,10 @@ Use scarce Work capacity for evidence-heavy investigations that ordinary GPT sho
 
 Priority order:
 
-1. **Phase-2-critical semantic verification.** Extend/finish only the PR #38 proposition set actually required by downstream Phase 2/Stage 3 work. Skip if the active integrity thread has already completed the same dependency surface.
-2. **Earthfall/Saturday adversarial attack on PR #28.** Treat the ten contrast families as hypotheses. Independently reconstruct primary evidence and classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE.
+1. **Do not reopen the finished first tranche.** Those 120 propositions are reviewed. A new case is a new tranche, not a restamp. Skip work that repeats PR #38.
+2. **Earthfall/Saturday adversarial attack.** The first pass landed with PR #28: `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`. It is not doctrine and not a restamp of PR #38. Do not quote its dispositions as verified practice. A further pass may still classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE against containers this tranche did not cite.
 3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
-4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
+4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference. A draft consolidation of the repeated cases, including the CF-04 qualification, is [PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52): `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged and not doctrine.
 5. **Phase 2B cross-format creative-method contrast.** Use direct design/revision evidence and do not claim table success.
 6. **Selective authorship/acceptance reconstruction** only for workbench claims used by the substantive research above.
 
@@ -106,7 +104,7 @@ The candidate pool is a classified backlog. It is not "134 unreviewed files" any
 
 ## Stage 1 after the 2026-10-05 consolidation
 
-PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. Canonical BCS range is BCS-000001–BCS-000172.
+PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. That consolidation's range is BCS-000001–BCS-000172. The catalog has since continued through BCS-000195. `BCS-000172` is not the current ceiling.
 
 The reconciled additions are research-critical historical Drive sources (BCS-000131–BCS-000151), Earthfall contemporary DM-workbench Project history (BCS-000152–BCS-000162), and Saturday D&D contemporary DM-workbench Project history (BCS-000163–BCS-000172). Earthfall and Saturday histories remain partial recoveries. Donor PRs #32, #34, and #35 are closed without merge and are not active ingestion paths.
 
@@ -139,19 +137,21 @@ Title: **Prototype corpus-wide human-object index**
 
 The original seed is architectural. It has not been expanded across the reconciled corpus. Next GPT work can expand it across BCS-000001–BCS-000172. Do not treat the seed as a completed human-object index.
 
-### PR #28 — OPEN DRAFT
+### PR #28 — MERGED
 
-Branch: `research/phase2-decision-trajectories`  
+Merge: `a6a84d902a995e53b3ceb72bd535b909429493f9`  
 Title: **Phase 2: decision contrast families**
 
-Primary artifact:
-`research/phase2/contrast-families-v1.md`
+Landed artifacts:
+- `research/phase2/contrast-families-v1.md`
+- `research/phase2/contrast-families-v1-stress.md`
+- `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`
 
-Phase 2A is the live-judgment draft. Its current contrast families are not yet updated for the newly canonical Earthfall and Saturday D&D workbench sources. Those sources are partial recoveries and are available for a later SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE pass. That pass has not been done. Bastion/Redoubt and At War's End remain eligible for Phase 2B design-method claims. A design claim is not evidence the material was run.
+Phase 2A is on `main` and is not confirmed practice. The ten contrast families and the stress pass were not rewritten by the 2026-10-25 tranche. That tranche records zero BREAK inside its cited Earthfall and Saturday spans, ten dispositions, and explicit UNKNOWN endings. It does not confirm the families. Bastion/Redoubt design claims and five Phase 2B hypotheses sit in labeled sections of the same file. They are not table results and they are not principles. At War's End was not read for the tranche and remains eligible for a later design-method claim. A design claim is not evidence the material was run.
 
 `zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
 
-Do not merge, rewrite, or expand PR #28 as part of ordinary substrate cleanup unless the task explicitly targets Phase 2.
+Do not rewrite the landed contrast files from substrate cleanup. A new Phase 2 pass is a new artifact. Do not edit `contrast-families-v1.md` or `contrast-families-v1-stress.md` except to preserve their history.
 
 ### PR #24 — OPEN DRAFT, older path
 
@@ -172,11 +172,11 @@ Source accessibility, Drive integration, historical relationships, gap accountin
 
 ### Stage 2 — Reconstruct expert judgment
 
-Two lanes. No Phase 2B research artifact has landed.
+Two lanes. Both are on `main` after PR #28. The Phase 2B section is hypotheses, not a confirmed method.
 
-**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Requires live-decision evidence. Underway on draft PR #28. Do not edit `research/phase2/contrast-families-v1.md` or `contrast-families-v1-stress.md` from substrate work.
+**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Requires live-decision evidence. Landed. Not confirmed practice. Do not edit `research/phase2/contrast-families-v1.md` or `contrast-families-v1-stress.md` from substrate work.
 
-**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? Earthfall, Bastion/Redoubt, and At War's End can support design claims from the texts that exist. They cannot establish table performance without separate live evidence.
+**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? The tranche's Part C is a hypothesis set on `main`, not a confirmed method. Earthfall, Bastion/Redoubt, and At War's End can support design claims from the texts that exist. They cannot establish table performance without separate live evidence. Saturday workbench design corrections in the tranche are partial recoveries, not session transcripts.
 
 ### Stage 3 — Minimal cognition tests
 Decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
@@ -197,8 +197,8 @@ For substrate work:
 4. maintain the readiness distinction in `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`.
 
 For research work:
-1. continue Phase 2A only on its dedicated draft branch/PR;
-2. Phase 2B may use Earthfall, Bastion/Redoubt, and At War's End for design-method claims without waiting for live play, and must not present those claims as live confirmation;
+1. Phase 2A is on `main`. Further attacks are new artifacts, not edits that rewrite the ten families;
+2. Phase 2B hypotheses are on `main`. Further design-method claims may use Earthfall, Bastion/Redoubt, and At War's End, and must not present those claims as live confirmation;
 3. do not treat broad BFDM judgment claims as ready. Bounded S3/S4 live-judgment research may continue only with the lineage limit written down;
 4. keep cases source-traceable and falsifiable;
 5. do not convert Phase 2 directly into precedent cards yet.
@@ -210,7 +210,7 @@ For research work:
 - broad Drive integration already merged via PR #25;
 - the first-pass Drive candidate triage;
 - broad Empire City discovery;
-- Phase 2 contrast-family work unless working directly on PR #28;
+- Phase 2 contrast-family files, except a new pass that does not rewrite the landed families;
 - precedent cards/runtime retrieval infrastructure;
 - Kit cognitive architecture.
 

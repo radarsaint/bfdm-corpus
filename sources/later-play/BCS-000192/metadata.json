@@ -15,9 +15,30 @@
     "modified": "2026-04-29T00:22:50.356Z"
   },
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "File search reports the owner as bghooper88. A rulings sheet is not assigned to Brendon from an earlier triage label.",
-    "project_ownership_context": "Drive owner reported by file search: bghooper88."
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Drive owner reported by file search: bghooper88.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "File search reports the owner as bghooper88. A rulings sheet is not assigned to Brendon from an earlier triage label."
+    }
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "created_timestamp",
+      "locator.source_path",
+      "source_relationship"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
   },
   "locators": [
     {

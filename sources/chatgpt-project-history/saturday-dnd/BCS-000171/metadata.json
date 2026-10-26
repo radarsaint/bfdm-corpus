@@ -44,8 +44,36 @@
       "relationship": "SAME_PROJECT_DATE_ARTIFACT"
     }
   ],
-  "authorship": "UNKNOWN",
-  "authorship_basis": "Mixed-speaker ChatGPT Project history recovery plus related artifacts. User/assistant roles and artifact provenance remain distinct.",
+  "authorship": {
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "Mixed-speaker ChatGPT Project history recovery plus related artifacts. User/assistant roles and artifact provenance remain distinct."
+    }
+  },
+  "archival_provenance": {
+    "status": "UNKNOWN",
+    "unresolved_fields": [
+      "original_filename",
+      "created_timestamp",
+      "modified_timestamp",
+      "locator.source_path",
+      "locator.native_id",
+      "locator.url",
+      "source_relationship"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "authorship_basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
   "normalization_method": "Exact wording and artifact text are preserved only where exposed. Search-recovered context is segregated and labeled nonverbatim.",
   "extraction_warnings": [
     "Not a complete project export.",
