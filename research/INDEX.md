@@ -134,6 +134,10 @@ Draft preservation of one bounded research tranche. Not canonical until the pres
 
 - [gpt6-long-form/2026-10-16/report.md](gpt6-long-form/2026-10-16/report.md) — draft GPT-6 DM-expertise tranche. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `BFDM-RC-2026-10-16-*` ids are research-record ids, not BCS, BCE, or BCR identities. Most proposed records were not opened: they duplicate landed notes or open PRs #43, #47, and #48. Opened rows are the Flivver scene, an Aldessa supplement, and an authorship-exclusion caution. Machine rows: [gpt6-long-form/2026-10-16/records.jsonl](gpt6-long-form/2026-10-16/records.jsonl).
 
+## Direct reading
+
+- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — ordinary-post sample, landed only as an unapproved draft. Not a certified practice. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. The line-100 cut now covers every `roanoke-season-3` and `empire-city` shard. `empire-city-dev`, Season 2, and Season 5 were not opened. The twenty Season 3 judgments were not expanded. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. A dice-bot cut that contains none of his rows is not absence either. One Empire City cut has no post from him in that shard at all, and that was not called a choice. The funeral line and the observation-deck PvP line were already on main and were not reopened. DR-20261016-41 is the same three Empire City posts as RL-03 in `research/phase2/consolidation-longitudinal-2026-10-26.md`, not a second event.
+
 ## Kit evaluation
 
 - [kit-evaluation/README.md](kit-evaluation/README.md)
