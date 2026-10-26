@@ -1,6 +1,7 @@
 # Next Handoff
 
-**Current as of:** 2026-10-16  
+**Current as of:** 2026-10-16 for the stage narrative below.  
+**Queue corrected:** 2026-10-26 against `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. That correction lists live pull requests. It does not rewrite historical reports, and it does not advance the shared Gardener checkpoint.  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
@@ -135,7 +136,7 @@ Readiness discipline:
 Branch: `research/human-object-index-v0`  
 Title: **Prototype corpus-wide human-object index**
 
-The original seed is architectural. It has not been expanded across the reconciled corpus. Next GPT work can expand it across BCS-000001–BCS-000172. Do not treat the seed as a completed human-object index.
+The original seed is architectural. It has not been expanded, and expansion is not current scarce-Work. The catalog ceiling is BCS-000195, not BCS-000172. Do not treat the seed as a completed human-object index.
 
 ### PR #28 — MERGED
 
@@ -149,19 +150,36 @@ Landed artifacts:
 
 Phase 2A is on `main` and is not confirmed practice. The ten contrast families and the stress pass were not rewritten by the 2026-10-25 tranche. That tranche records zero BREAK inside its cited Earthfall and Saturday spans, ten dispositions, and explicit UNKNOWN endings. It does not confirm the families. Bastion/Redoubt design claims and five Phase 2B hypotheses sit in labeled sections of the same file. They are not table results and they are not principles. At War's End was not read for the tranche and remains eligible for a later design-method claim. A design claim is not evidence the material was run.
 
-`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
+`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance and, as of 2026-10-26, merges cleanly onto `df47554633`. It is still unmerged. Do not rebase it for a conflict that is not there, and do not change its retrieval semantics from a substrate branch.
 
 Do not rewrite the landed contrast files from substrate cleanup. A new Phase 2 pass is a new artifact. Do not edit `contrast-families-v1.md` or `contrast-families-v1-stress.md` except to preserve their history.
 
-### PR #24 — OPEN DRAFT, older path
+### PR #24 — CLOSED WITHOUT MERGE
 
-Older Drive relationship-registry/pilot approach. It contains no source body missing from merged PR #25.
+Closed 2026-10-07, not an open draft. Superseded by merged PR #25. The branch remains readable. It has no source body missing from #25. The landed relationship model rejects #24's competing source-relations registry.
 
-### PR #26 — OPEN DRAFT, older path
+### PR #26 — CLOSED WITHOUT MERGE
 
-Older Drive-history integration approach. Its useful candidate-ledger material was incorporated into merged PR #25.
+Closed 2026-10-07, not an open draft. Superseded by merged PR #25. Useful candidate-ledger material from that path was incorporated into #25. Do not revive it.
 
-Do not treat #24 or #26 as the active Drive integration path.
+## Open queue on 2026-10-26
+
+Inspected `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. No open issues. These pull requests are proposed state, not canonical, and none is approved for Kit. Repeated readings of one event are not independent corroboration. `KIT_CONSUMPTION` stays unapproved, including where dnd-solo #126 names a subset of #43. That Kit pull request is open, unmerged, and pins corpus commit `bf56ca4f`, not #43's head.
+
+| PR | Head | Disposition |
+| --- | --- | --- |
+| #27 | `21b0508b7c74a81658a38420771649e884def357` | READY_FOR_BRENDON_REVIEW. Retrieval maintenance. Merges clean. |
+| #29 | `f2b1c27eb9a9bd3776e3e451e714a04e4f262ddf` | DEFERRED. Do not merge. Recommendations are already on main via #31, #36, and #40. The branch still holds the pre-admission triage rows. |
+| #33 | `9cf3d9172bddabc5e2dd7ab16346d6bfb1204ffa` | DEFERRED. Seed only. Not obsolete. Do not expand it in grooming. |
+| #37 | `d2b95f910c9ff93e92b7395f184fe2de1f276383` | NEEDS_CHANGES. The strategic file is unique planning, not evidence. Merging the pull request as opened conflicts with current `STATUS.md`. |
+| #42 | `21e1a5fa0bab372e264bb57d6b12a459a57b9d81` | READY_FOR_BRENDON_REVIEW. Player-option inventory. Publication is not play. |
+| #43 | `ccaadec878dd8f720eefc0340adf925128e2230d` | READY_FOR_BRENDON_REVIEW. Bounded judgments. `consumed: true` in the JSON is not demonstrated Kit use. |
+| #46 | `039772af287c2a5f88f84481415e38dbaf902be1` | READY_FOR_BRENDON_REVIEW. Resurrection follow-through. Same announcement as BJ-003, plus the scroll limit. |
+| #47 | `1656002f88994650d9bdc205e6d05aabc48c4b8d` | READY_FOR_BRENDON_REVIEW. `FULL_REPORT_NOT_IMPORTED` blocks calling it the long report. It does not block preserving the payload. |
+| #48 | `fa9591ee576a74d34eb38c96777307cc24b30078` | READY_FOR_BRENDON_REVIEW. Cross-format capsules. Overlaps are marked. |
+| #49 | `7348c0931486260f2f9422e30e53acf7d28f8644` | READY_FOR_BRENDON_REVIEW. Most rows are pointers. Aldessa and the id corrections are the unique opened text. |
+| #50 | `89b66f2145e62d016244568824dead2e26fdbe72` | NEEDS_CHANGES. Body still cites an older head for the validator PASS. |
+| #52 | `4f8057bcf34dba005f06c5d3777fdb190d55e671` | READY_FOR_BRENDON_REVIEW. Consolidation. The full researcher report was not imported. It does not rewrite the contrast files. |
 
 ## Research program sequence
 

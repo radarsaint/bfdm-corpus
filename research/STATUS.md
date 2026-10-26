@@ -1,6 +1,7 @@
 # Research Status
 
-**Current as of:** 2026-10-16  
+**Current as of:** 2026-10-16 for the landed-substrate narrative.  
+**Queue corrected:** 2026-10-26 against `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. The open-queue section at the end is the live list. Earlier sentences that still say PR #28 is a draft are historical if they appear in dated audits; this file's Phase 2 section already records the merge.  
 **Canonical branch:** `main`
 
 This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
@@ -159,7 +160,7 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). That proof is not this queue correction. PR #27 merges cleanly onto `df47554633` as of 2026-10-26 and remains unmerged; do not treat conflict resolution as the remaining task. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 
@@ -171,3 +172,7 @@ Current program position is the Stage 1 → Stage 2 transition:
 4. **Stage 4 — Architect from observed failures:** campaign cognition, durable memory/workflows, strategic/local execution, entity cognition, learning/consolidation.
 
 Do not build precedent-card infrastructure or finalize cognitive architecture while Phase 2 and remaining substrate hardening are still establishing what the system actually needs.
+
+## OPEN PR queue — 2026-10-26
+
+No open issues. Heads and dispositions are in `research/NEXT_HANDOFF.md`. Short form: #27 and #42, #43, #46, #47, #48, #49, and #52 are waiting on Brendon and are not Kit-approved. #50 needs its validator claim rerun on head `89b66f21`. #37 must not be merged over current status text. #33 stays a draft seed. #29 must not be merged onto main; its recommendations already landed, and the branch still holds the pre-admission triage. #24 and #26 are closed without merge. #45 is merged; its pull-request body had still said "Not merged" at the start of this correction.
