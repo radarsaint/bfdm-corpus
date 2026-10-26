@@ -1,6 +1,6 @@
 # Phase 2 — Earthfall / Saturday cross-format tranche
 
-**Status:** open draft on PR #28 (`research/phase2-decision-trajectories`). Not merged. Not canonical. Not a Kit prompt, memory, or precedent card.  
+**Status:** landed on `main` by Brendon's approval of PR #28, merge `a6a84d902a995e53b3ceb72bd535b909429493f9` (2026-10-26). Not doctrine. Not a confirmation of the ten families. Not a Kit prompt, memory, or precedent card.  
 **Recorded:** 2026-10-25.  
 **Does not replace:** `contrast-families-v1.md`, `contrast-families-v1-stress.md`, or the PR #38 review of 20 cases and 120 propositions.
 

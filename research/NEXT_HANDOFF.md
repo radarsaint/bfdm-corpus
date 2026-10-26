@@ -32,7 +32,7 @@ Use scarce Work capacity for evidence-heavy investigations that ordinary GPT sho
 Priority order:
 
 1. **Do not reopen the finished first tranche.** Those 120 propositions are reviewed. A new case is a new tranche, not a restamp. Skip work that repeats PR #38.
-2. **Earthfall/Saturday adversarial attack on PR #28.** A draft of that attack is now on the PR #28 branch: `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`. It is not merged, not doctrine, and not a restamp of PR #38. Treat its dispositions as recorded hypotheses under test. Do not quote them as verified practice. A further pass may still classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE against containers this tranche did not cite.
+2. **Earthfall/Saturday adversarial attack.** The first pass landed with PR #28: `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`. It is not doctrine and not a restamp of PR #38. Do not quote its dispositions as verified practice. A further pass may still classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE against containers this tranche did not cite.
 3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
 4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
 5. **Phase 2B cross-format creative-method contrast.** Use direct design/revision evidence and do not claim table success.
@@ -137,21 +137,21 @@ Title: **Prototype corpus-wide human-object index**
 
 The original seed is architectural. It has not been expanded across the reconciled corpus. Next GPT work can expand it across BCS-000001–BCS-000172. Do not treat the seed as a completed human-object index.
 
-### PR #28 — OPEN DRAFT
+### PR #28 — MERGED
 
-Branch: `research/phase2-decision-trajectories`  
+Merge: `a6a84d902a995e53b3ceb72bd535b909429493f9`  
 Title: **Phase 2: decision contrast families**
 
-Primary artifacts:
+Landed artifacts:
 - `research/phase2/contrast-families-v1.md`
 - `research/phase2/contrast-families-v1-stress.md`
 - `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`
 
-Phase 2A is the live-judgment draft. The ten contrast families and the stress pass are unchanged by the 2026-10-25 tranche. That tranche records an unmerged cross-format attack: zero BREAK inside its cited Earthfall and Saturday spans, ten dispositions, and explicit UNKNOWN endings. It does not confirm the families. Bastion/Redoubt design claims and five Phase 2B hypotheses sit in labeled sections of the same file. They are not table results. At War's End was not read for the tranche and remains eligible for a later design-method claim. A design claim is not evidence the material was run.
+Phase 2A is on `main` and is not confirmed practice. The ten contrast families and the stress pass were not rewritten by the 2026-10-25 tranche. That tranche records zero BREAK inside its cited Earthfall and Saturday spans, ten dispositions, and explicit UNKNOWN endings. It does not confirm the families. Bastion/Redoubt design claims and five Phase 2B hypotheses sit in labeled sections of the same file. They are not table results and they are not principles. At War's End was not read for the tranche and remains eligible for a later design-method claim. A design claim is not evidence the material was run.
 
 `zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
 
-Do not merge, rewrite, or expand PR #28 as part of ordinary substrate cleanup unless the task explicitly targets Phase 2. Do not edit `contrast-families-v1.md` or `contrast-families-v1-stress.md` except as Phase 2 work that preserves their history.
+Do not rewrite the landed contrast files from substrate cleanup. A new Phase 2 pass is a new artifact. Do not edit `contrast-families-v1.md` or `contrast-families-v1-stress.md` except to preserve their history.
 
 ### PR #24 — OPEN DRAFT, older path
 
@@ -172,11 +172,11 @@ Source accessibility, Drive integration, historical relationships, gap accountin
 
 ### Stage 2 — Reconstruct expert judgment
 
-Two lanes. A Phase 2B draft section exists on unmerged PR #28. No Phase 2B result set has landed.
+Two lanes. Both are on `main` after PR #28. The Phase 2B section is hypotheses, not a confirmed method.
 
-**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Requires live-decision evidence. Underway on draft PR #28. Do not edit `research/phase2/contrast-families-v1.md` or `contrast-families-v1-stress.md` from substrate work.
+**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Requires live-decision evidence. Landed. Not confirmed practice. Do not edit `research/phase2/contrast-families-v1.md` or `contrast-families-v1-stress.md` from substrate work.
 
-**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? The unmerged tranche's Part C is a draft hypothesis set, not a landed method. Earthfall, Bastion/Redoubt, and At War's End can support design claims from the texts that exist. They cannot establish table performance without separate live evidence. Saturday workbench design corrections in the tranche are partial recoveries, not session transcripts.
+**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? The tranche's Part C is a hypothesis set on `main`, not a confirmed method. Earthfall, Bastion/Redoubt, and At War's End can support design claims from the texts that exist. They cannot establish table performance without separate live evidence. Saturday workbench design corrections in the tranche are partial recoveries, not session transcripts.
 
 ### Stage 3 — Minimal cognition tests
 Decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
@@ -197,8 +197,8 @@ For substrate work:
 4. maintain the readiness distinction in `research/drive-integration/RESEARCH_READINESS_2026-10-05.md`.
 
 For research work:
-1. continue Phase 2A only on its dedicated draft branch/PR;
-2. Phase 2B may use Earthfall, Bastion/Redoubt, and At War's End for design-method claims without waiting for live play, and must not present those claims as live confirmation;
+1. Phase 2A is on `main`. Further attacks are new artifacts, not edits that rewrite the ten families;
+2. Phase 2B hypotheses are on `main`. Further design-method claims may use Earthfall, Bastion/Redoubt, and At War's End, and must not present those claims as live confirmation;
 3. do not treat broad BFDM judgment claims as ready. Bounded S3/S4 live-judgment research may continue only with the lineage limit written down;
 4. keep cases source-traceable and falsifiable;
 5. do not convert Phase 2 directly into precedent cards yet.
@@ -210,7 +210,7 @@ For research work:
 - broad Drive integration already merged via PR #25;
 - the first-pass Drive candidate triage;
 - broad Empire City discovery;
-- Phase 2 contrast-family work unless working directly on PR #28;
+- Phase 2 contrast-family files, except a new pass that does not rewrite the landed families;
 - precedent cards/runtime retrieval infrastructure;
 - Kit cognitive architecture.
 

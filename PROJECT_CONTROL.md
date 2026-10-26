@@ -41,14 +41,14 @@ Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STA
 
 **Continuity/actual-use repair comes first:** dnd-solo issue #118 tracks downstream-consumer acceptance. The coordination contract, Project Brain, Gardener checkpoint, and context-status checker are on canonical main after Brendon-approved merges of dnd-solo #113 (`aba505351edf61df62445a4961090b4839435dc6`), dnd-solo #117 (`ea74255559faa57dc2b044f01731f61e0f85079d`), and this repo's #39 (`c18796a2e988d91353707b33377c8ea0e670974d`). They are not proposed. A status-checker warning is not completion. Issue #118 G4 and C2 are accepted from comment 6068887374 and recorded on dnd-solo main by #119 (`6d97381210454654950fcb339f438a5d432cc9f1`). G5 repeatability remains unmet. G2's stated evidence is met: on 2026-10-09 the dnd-solo checker on main `e12b97fc925b2be9281fd11828b0bb61a964452f` (#120) reported `REVIEWED_CURRENT` / `CHECKPOINT_ONLY` against reviewed `cf3547e9`, with this repo still `54a20938` and inbox cursor `6065921827`. The Brain record is dnd-solo `7e4c75e8445338ff051cebd1b2175bfacf15e413`. G6 remains a manual Project-UI change.
 
-The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. The first-tranche integrity staging from #38 is now on main. Continue with adversarial work on PR #28 and remaining high-leverage verification outside the sample. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
+The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. The first-tranche integrity staging from #38 is now on main. PR #28 merged as `a6a84d902a995e53b3ceb72bd535b909429493f9`: the contrast families and the Earthfall/Saturday tranche are on main, not doctrine, and not Kit-consumed. Further adversarial passes are new work. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
 
 Friday ChatGPT Work should not be spent on broad ingestion, searchability, generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
 
 Highest-value Work targets are:
 
 1. semantically verify high-leverage derived propositions that are outside the finished 120;
-2. adversarially attack PR #28's candidate families with independently reconstructed Earthfall/Saturday workbench evidence;
+2. the first Earthfall/Saturday attack on those families is on main in `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`; it is not certification, and a further attack is a new pass;
 3. search for deliberate restraint / non-intervention cases that visible-action-heavy research is likely to miss;
 4. reconstruct bounded failure -> diagnosis -> correction -> later-behavior trajectories;
 5. only after enough cases are semantically trusted, build structural contrast/recognition benchmarks.
@@ -62,7 +62,7 @@ The finished first tranche is PR #38, merged as `2b68820d445e9f6d99d021463bfd76b
 Open draft PRs are not canonical main, but some are important current work:
 
 - **#38 is not a draft.** It merged. The review is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are overclaimed. Not a model. Not Kit.
-- **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged. As of 2026-10-25 the branch also carries `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`, an unmerged Earthfall/Saturday cross-format draft. That file does not confirm the ten families, does not restate PR #38, and is not Kit-consumed research. This sentence does not replace the 2026-10-17 inspection header above. The tranche was checked against BFDM `main` `f5f6e4d48aed32e3f4ddfdf70cbdcd5fe6e27b2d` and Kit `main` `bebaa6e8613e3f29787e66188be66684acf06a1c`.
+- **#28 is not a draft.** It merged as `a6a84d902a995e53b3ceb72bd535b909429493f9`. The contrast families, the stress pass, and `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` are on `main`. They do not confirm the ten families, do not restate PR #38, and are not Kit-consumed research. The tranche was checked against the then-current BFDM `main` `f5f6e4d48aed32e3f4ddfdf70cbdcd5fe6e27b2d` and Kit `main` `bebaa6e8613e3f29787e66188be66684acf06a1c`.
 - **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
 - **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
 
@@ -75,7 +75,7 @@ Important refinement: `READY_WITH_SCOPE_LIMITS` in source/readiness documentatio
 - Historical/pinned Kit or BFDM documents may call themselves canonical while describing an older state.
 - The in-repo BFDM mirror inside `dnd-solo` is not canonical research truth.
 - BFDM PRs #24 and #26 were closed on 2026-10-07 as superseded by merged PR #25. Landed `research/drive-integration/SOURCE_RELATIONSHIP_MODEL_V1.md` is the relationship model and explicitly rejects a competing source-relations registry. #24's leftovers were that rejected registry plus pilot notes, not missing primary sources. #26's leftovers were an old validator and workflow, not missing primary sources. The branches remain readable. Do not revive either path.
-- PR #28 and PR #33 are active drafts, not landed research products.
+- PR #28 merged. It is landed research, not doctrine. PR #33 remains an active draft, not a landed index.
 - Repository visibility is not part of corpus authority; stale “private” wording in Kit-side artifacts must not affect which repo is canonical.
 
 ## Research discipline

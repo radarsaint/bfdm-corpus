@@ -16,7 +16,7 @@ The project is now at the **Stage 1 → Stage 2 transition**.
 
 Stage 1 source accessibility/integration is substantially landed on `main`: Discord model retrieval works; PR #25's Drive/source-history integration is merged; source readiness and longitudinal readiness are explicitly distinguished; and the remaining Drive candidate pool is a classified backlog.
 
-Stage 2 has two lanes. Phase 2A, live judgment, is underway on draft PR #28 and needs live-decision evidence. Phase 2B, creative method and worldbuilding, has an unmerged draft section on that same PR (`research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`). No Phase 2B result set has landed. A design claim is not proof the material was run.
+Stage 2 has two lanes. Phase 2A, live judgment, and a Phase 2B hypothesis section landed on `main` when PR #28 merged (`a6a84d902a995e53b3ceb72bd535b909429493f9`). The hypotheses are not principles. A design claim is not proof the material was run. The ten contrast families are not confirmed.
 
 Stage 3 precedent cards/minimal cognition tests and Stage 4 architecture are deliberately later. Do not build them merely because the archive is easier to inspect.
 

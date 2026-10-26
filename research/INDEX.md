@@ -37,15 +37,15 @@ Status: PR #25, PR #31, and PR #36 are merged. That consolidation ran through `B
 
 ## Stage 2 — Reconstruct expert judgment
 
-Phase 2 has two lanes. The contrast files, the stress pass, and the 2026-10-25 cross-format tranche are on draft PR #28 until it merges. No Phase 2 result set has landed. The tranche is not a rewrite of the ten families and it is not a Kit input.
+Phase 2 has two lanes. PR #28 merged to `main` as `a6a84d902a995e53b3ceb72bd535b909429493f9`. The contrast files, the stress pass, and the 2026-10-25 cross-format tranche are on `main`. They are not doctrine and not a Kit input. Zero BREAK does not confirm the ten families.
 
-**Phase 2A — Live judgment** is the open draft. It asks what condition makes one intervention happen rather than another during play. It needs live-decision evidence. Current files, on the draft branch until PR #28 merges:
+**Phase 2A — Live judgment** asks what condition makes one intervention happen rather than another during play. It needs live-decision evidence. Landed files:
 
 - `research/phase2/contrast-families-v1.md`;
 - `research/phase2/contrast-families-v1-stress.md`;
-- `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — Earthfall/Saturday attack on those ten families. Zero BREAK inside the cited spans. Not a confirmation of the families. Not merged.
+- `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — Earthfall/Saturday attack on those ten families. Zero BREAK inside the cited spans. Not a confirmation of the families.
 
-**Phase 2B — Creative method / worldbuilding** has a labeled draft section inside that same tranche (hypotheses H1–H5 and the DESIGN cases). It has not landed. Design-only cases are marked DESIGN and are not live adjudication. Earthfall, Bastion/Redoubt, and the Saturday workbench are used there with partial-recovery limits. At War's End was not part of this tranche and remains eligible. Those claims are not table results.
+**Phase 2B — Creative method / worldbuilding** has a labeled section inside that same tranche (hypotheses H1–H5 and the DESIGN cases). Those hypotheses are on `main` and are still hypotheses, not a confirmed result set. Design-only cases are marked DESIGN and are not live adjudication. Earthfall, Bastion/Redoubt, and the Saturday workbench are used there with partial-recovery limits. At War's End was not part of this tranche and remains eligible. Those claims are not table results.
 
 Broad BFDM judgment claims are `NOT_READY`. Bounded S3/S4 live-judgment work is `READY_WITH_SCOPE_LIMITS`. Creative-method research is `READY_WITH_SOURCE_LIMITS`.
 

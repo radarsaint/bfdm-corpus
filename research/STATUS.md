@@ -119,21 +119,21 @@ The first tranche is 20 Roanoke S3 cases and 120 reviewed propositions: 78 `PART
 
 PR #37 — **Preserve strategic BFDM and Kit planning handoff** — is an open draft containing project direction, architecture sequencing, and operational planning. It is not historical BFDM evidence and is not canonical until merged.
 
-## OPEN PR — Phase 2
+## LANDED ON MAIN — Phase 2
 
-PR #28 — **Phase 2: decision contrast families** — is open as a draft on branch `research/phase2-decision-trajectories`.
+PR #28 — **Phase 2: decision contrast families** — merged to `main` as `a6a84d902a995e53b3ceb72bd535b909429493f9` after Brendon approved it on 2026-10-26.
 
-Primary artifacts, none of them canonical until the PR merges:
+Landed artifacts:
 
 - `research/phase2/contrast-families-v1.md`
 - `research/phase2/contrast-families-v1-stress.md`
-- `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — 2026-10-25 cross-format draft. Eighteen evidence cases, dispositions for the existing ten families, five Phase 2B hypotheses, five trajectories. Not a rewrite of the two files above. Not merged.
+- `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — eighteen evidence cases, dispositions for the existing ten families, five Phase 2B hypotheses, five trajectories. Not a rewrite of the two files above.
 
-Phase 2 has two lanes. No Phase 2 result set has landed on `main`.
+Phase 2 has two lanes. Landing is not certification.
 
-**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Claims about table decisions require live-decision evidence. The current draft is PR #28. The contrast files are unchanged by the 2026-10-25 tranche. That tranche's Part B records zero BREAK against Earthfall and Saturday workbench evidence and does not confirm the families. S3 and S4 remain the same large Roanoke-lineage multi-DM format. Do not edit the contrast files from substrate work.
+**Phase 2A — Live judgment.** What conditions make one intervention happen rather than another during actual play? Claims about table decisions require live-decision evidence. The contrast files are on `main`. The tranche's Part B records zero BREAK against Earthfall and Saturday workbench evidence and does not confirm the families. S3 and S4 remain the same large Roanoke-lineage multi-DM format.
 
-**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. The tranche's Part C holds five scoped hypotheses from Earthfall, Bastion/Redoubt, and Saturday workbench texts. They are not principles and they are not landed. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can still support world-model and revision claims and was not read for this tranche. None of those texts establish how the design performed at the table.
+**Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. The tranche's Part C holds five scoped hypotheses from Earthfall, Bastion/Redoubt, and Saturday workbench texts. They are on `main`. They are not principles. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can still support world-model and revision claims and was not read for this tranche. None of those texts establish how the design performed at the table.
 
 Three research scopes, which are not the same word "ready":
 
@@ -143,11 +143,11 @@ Three research scopes, which are not the same word "ready":
 
 A Discord phrase search that returns zero, with `zero_match_means_absence`, establishes that the phrase is absent from the exhaustively searched Discord projection. It does not establish that a Drive document does not exist. The Season 4 Master Timeline was posted as a bare URL. The title is not in the message text.
 
+PR #28 merged. The contrast families, the stress pass, and the 2026-10-25 Earthfall/Saturday tranche are on `main`. The tranche does not reclassify the finished PR #38 sample and does not confirm the ten families. Earthfall and Saturday histories remain partial recoveries.
+
 ## OPEN PR — next research drafts
 
 PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
-
-PR #28 (`research/phase2-decision-trajectories`) is the Phase 2 contrast-family draft. A 2026-10-25 Earthfall/Saturday cross-format tranche is on that branch and is not merged. It does not reclassify the finished PR #38 sample. Earthfall and Saturday histories remain partial recoveries.
 
 ## OPEN PR — older Drive branches
 
@@ -159,14 +159,14 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28's contrast families can be tested against Earthfall and Saturday workbench evidence with preparation/play limits without waiting on #38. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 
 Current program position is the Stage 1 → Stage 2 transition:
 
 1. **Stage 1 — Research substrate:** source accessibility, Drive integration, historical relationships, gap accounting, research usability.
-2. **Stage 2 — Reconstruct judgment,** in two lanes. **Phase 2A** is live judgment and needs live-decision evidence. **Phase 2B** is creative method and worldbuilding. Design artifacts can support design claims without live-play confirmation. PR #28 now carries an unmerged Phase 2B draft section. No Phase 2B result set has landed.
+2. **Stage 2 — Reconstruct judgment,** in two lanes. **Phase 2A** is live judgment and needs live-decision evidence. **Phase 2B** is creative method and worldbuilding. Design artifacts can support design claims without live-play confirmation. PR #28 has landed both lanes on `main`. The Phase 2B section is hypotheses, not a confirmed result set.
 3. **Stage 3 — Minimal cognition tests:** decision classification, precedent cards, simple retrieval, context assembly, deferred binding, attention representation.
 4. **Stage 4 — Architect from observed failures:** campaign cognition, durable memory/workflows, strategic/local execution, entity cognition, learning/consolidation.
 
