@@ -46,7 +46,7 @@ Phase 2 has two lanes. PR #28 merged to `main` as `a6a84d902a995e53b3ceb72bd535b
 - `research/phase2/contrast-families-v1-stress.md`;
 - `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — Earthfall/Saturday attack on those ten families. Zero BREAK inside the cited spans. Not a confirmation of the families.
 
-Open draft, not on `main` until its PR merges: [PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52), `research/phase2/consolidation-longitudinal-2026-10-26.md` on branch `research/phase2-consolidation-longitudinal-2026-10-26`. It consolidates repeated cases and qualifies the CF-04 substitution sentence. It does not rewrite `contrast-families-v1.md`. The CF-04 claim that the escort replaced the preplanned boss is not established. Read the qualification there.
+Landed with PR #52: [consolidation-longitudinal-2026-10-26.md](phase2/consolidation-longitudinal-2026-10-26.md). It consolidates repeated cases and qualifies the CF-04 substitution sentence. It is not doctrine. It does not rewrite `contrast-families-v1.md`. The CF-04 claim that the escort replaced the preplanned boss is not established. Read the qualification there.
 
 **Phase 2B — Creative method / worldbuilding** has a labeled section inside that same tranche (hypotheses H1–H5 and the DESIGN cases). Those hypotheses are on `main` and are still hypotheses, not a confirmed result set. Design-only cases are marked DESIGN and are not live adjudication. Earthfall, Bastion/Redoubt, and the Saturday workbench are used there with partial-recovery limits. At War's End was not part of this tranche and remains eligible. Those claims are not table results.
 
@@ -122,7 +122,7 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 
 ## Worker 2 long-form preservation — 2026-10-16
 
-Draft preservation of one bounded research tranche. Not canonical until the preserving pull request merges. Every record is `KIT_CONSUMPTION=NOT_APPROVED`. `W2-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. This is not a Kit change and not a representative sample. Where a record overlaps older research, the overlap note says so; it does not replace that research.
+Draft preservation of one bounded research tranche. Landed with PR #47. Not a certified practice. Every record is `KIT_CONSUMPTION=NOT_APPROVED`. `W2-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. This is not a Kit change and not a representative sample. Where a record overlaps older research, the overlap note says so; it does not replace that research.
 
 - [worker2-long-form/2026-10-16/records.md](worker2-long-form/2026-10-16/records.md) — 15 interpretive candidates and 2 negative findings.
 - [worker2-long-form/2026-10-16/records.jsonl](worker2-long-form/2026-10-16/records.jsonl) — the same records in a machine-readable index. The first row is a pointer, not a verdict.
@@ -132,7 +132,7 @@ Draft preservation of one bounded research tranche. Not canonical until the pres
 
 ## Long-form preservation drafts
 
-- [gpt6-long-form/2026-10-16/report.md](gpt6-long-form/2026-10-16/report.md) — draft GPT-6 DM-expertise tranche. Not canonical until its pull request merges. `KIT_CONSUMPTION=NOT_APPROVED`. `BFDM-RC-2026-10-16-*` ids are research-record ids, not BCS, BCE, or BCR identities. Most proposed records were not opened: they duplicate landed notes or open PRs #43, #47, and #48. Opened rows are the Flivver scene, an Aldessa supplement, and an authorship-exclusion caution. Machine rows: [gpt6-long-form/2026-10-16/records.jsonl](gpt6-long-form/2026-10-16/records.jsonl).
+- [gpt6-long-form/2026-10-16/report.md](gpt6-long-form/2026-10-16/report.md) — GPT-6 DM-expertise tranche, landed with PR #49. Not a certified practice. `KIT_CONSUMPTION=NOT_APPROVED`. `BFDM-RC-2026-10-16-*` ids are research-record ids, not BCS, BCE, or BCR identities. Most proposed records were not opened: they duplicate landed notes or PRs #43, #47, and #48, which are now merged. Opened rows are the Flivver scene, an Aldessa supplement, and an authorship-exclusion caution. Machine rows: [gpt6-long-form/2026-10-16/records.jsonl](gpt6-long-form/2026-10-16/records.jsonl).
 
 ## Direct reading
 

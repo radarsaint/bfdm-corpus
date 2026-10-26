@@ -1,6 +1,7 @@
 # Research Status
 
-**Current as of:** 2026-10-16  
+**Current as of:** 2026-10-16 for the landed-substrate narrative.  
+**Queue corrected:** 2026-10-26 against `main` `a12d854c9089b9565d59f08552c11e61f185a4d7`. The queue section at the end is the resolved list. Earlier sentences that still say a later-merged pull request is a draft are historical if they appear in dated audits.  
 **Canonical branch:** `main`
 
 This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
@@ -151,7 +152,7 @@ PR #28 merged. The contrast families, the stress pass, and the 2026-10-25 Earthf
 
 ## OPEN PR — next research drafts
 
-PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
+PR #33 merged as `97909f81`. The human-object seed is 10 objects, 15 assertions, and 5 relations. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
 
 ## OPEN PR — older Drive branches
 
@@ -163,7 +164,7 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). In parallel only where appropriate, resolve PR #27's Discord retrieval conflicts separately through Grok Build. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). That proof is not this queue correction. PR #27 merged as `30558849`. Do not redo retrieval maintenance. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 
@@ -175,3 +176,7 @@ Current program position is the Stage 1 → Stage 2 transition:
 4. **Stage 4 — Architect from observed failures:** campaign cognition, durable memory/workflows, strategic/local execution, entity cognition, learning/consolidation.
 
 Do not build precedent-card infrastructure or finalize cognitive architecture while Phase 2 and remaining substrate hardening are still establishing what the system actually needs.
+
+## Queue resolved — 2026-10-26
+
+No open issues. The ready pull requests merged: #27, #42, #43, #46, #47, #48, #49, #52, then #37 as a dated snapshot, #33 as a 10-object seed, and #50 after the four validators were re-run on `37b0674c`. None of that is Kit-approved. #29 was closed without merge. Branch `cursor/research-substrate-audit-081d` at `f2b1c27` stays. Do not delete it, and do not copy its 132-row triage onto main. #24 and #26 stay closed without merge. #45 is merged.

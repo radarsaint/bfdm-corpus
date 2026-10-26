@@ -1,6 +1,7 @@
 # Next Handoff
 
-**Current as of:** 2026-10-16  
+**Current as of:** 2026-10-16 for the stage narrative below.  
+**Queue corrected:** 2026-10-26 against `main` `a12d854c9089b9565d59f08552c11e61f185a4d7`. The ready pull requests were merged. #29 was closed without merge and its branch was kept. This does not rewrite historical reports, and it does not advance the shared Gardener checkpoint.  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
@@ -23,7 +24,7 @@ The old audit branch is history. The gate that checks a pull request is `.github
 
 ### Strategic planning draft — PR #37
 
-PR #37 preserves current Kit/BFDM strategic planning, including Stage 1–4 sequencing and tool allocation. It is project direction, not historical BFDM evidence, and remains an unmerged draft.
+PR #37 merged as `fc3376c1fa3a02a5cda061768b172008352bd2dd`. `research/STRATEGIC_HANDOFF_2026-10-05.md` is a dated planning snapshot. It is not current direction and not historical BFDM evidence. The catalog ceiling it records, BCS-000172, is not current.
 
 ## Friday ChatGPT Work queue
 
@@ -130,12 +131,12 @@ Readiness discipline:
 
 ## Current open PRs relevant to this handoff
 
-### PR #33 — OPEN DRAFT
+### PR #33 — MERGED
 
-Branch: `research/human-object-index-v0`  
+Merge: `97909f8168cdf36414158d6d2e0db03d032e52b3`  
 Title: **Prototype corpus-wide human-object index**
 
-The original seed is architectural. It has not been expanded across the reconciled corpus. Next GPT work can expand it across BCS-000001–BCS-000172. Do not treat the seed as a completed human-object index.
+The landed seed is 10 objects, 15 assertions, and 5 relations. It is not an inventory of the reconciled corpus. Expansion is not current scarce-Work. Do not treat the seed as a completed human-object index.
 
 ### PR #28 — MERGED
 
@@ -149,19 +150,36 @@ Landed artifacts:
 
 Phase 2A is on `main` and is not confirmed practice. The ten contrast families and the stress pass were not rewritten by the 2026-10-25 tranche. That tranche records zero BREAK inside its cited Earthfall and Saturday spans, ten dispositions, and explicit UNKNOWN endings. It does not confirm the families. Bastion/Redoubt design claims and five Phase 2B hypotheses sit in labeled sections of the same file. They are not table results and they are not principles. At War's End was not read for the tranche and remains eligible for a later design-method claim. A design claim is not evidence the material was run.
 
-`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance. Do not change its semantics from a substrate branch.
+`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 merged as `305588490f0148169dd42ec0f9b35531423f6081`. Do not redo retrieval maintenance, and do not change its semantics from a substrate branch.
 
 Do not rewrite the landed contrast files from substrate cleanup. A new Phase 2 pass is a new artifact. Do not edit `contrast-families-v1.md` or `contrast-families-v1-stress.md` except to preserve their history.
 
-### PR #24 — OPEN DRAFT, older path
+### PR #24 — CLOSED WITHOUT MERGE
 
-Older Drive relationship-registry/pilot approach. It contains no source body missing from merged PR #25.
+Closed 2026-10-07, not an open draft. Superseded by merged PR #25. The branch remains readable. It has no source body missing from #25. The landed relationship model rejects #24's competing source-relations registry.
 
-### PR #26 — OPEN DRAFT, older path
+### PR #26 — CLOSED WITHOUT MERGE
 
-Older Drive-history integration approach. Its useful candidate-ledger material was incorporated into merged PR #25.
+Closed 2026-10-07, not an open draft. Superseded by merged PR #25. Useful candidate-ledger material from that path was incorporated into #25. Do not revive it.
 
-Do not treat #24 or #26 as the active Drive integration path.
+## Queue resolved on 2026-10-26
+
+Inspected after the merges below. `main` at the correction was `a12d854c9089b9565d59f08552c11e61f185a4d7`. No open issues. None of these merges approves Kit. Repeated readings of one event are not independent corroboration. `KIT_CONSUMPTION` stays unapproved, including where dnd-solo #126 names a subset of #43. That Kit pull request was open and unmerged at this correction, and it pins corpus commit `bf56ca4f`, not #43's head.
+
+| PR | Result |
+| --- | --- |
+| #27 | Merged `305588490f0148169dd42ec0f9b35531423f6081`. Retrieval maintenance. |
+| #29 | Closed without merge. Branch `cursor/research-substrate-audit-081d` at `f2b1c27` is kept. Do not delete it. The 132-row triage stays there. |
+| #33 | Merged `97909f8168cdf36414158d6d2e0db03d032e52b3`. Ten-object seed. Not an inventory. |
+| #37 | Merged `fc3376c1fa3a02a5cda061768b172008352bd2dd`. Dated 2026-10-05 snapshot. Not current direction. |
+| #42 | Merged `92acc3000ea204141281f782e9742a473f2542d5`. Player-option inventory. Publication is not play. |
+| #43 | Merged `74df26ff90413d965189da8a97acf3bdf0750f68`. Bounded judgments. Not demonstrated Kit use. |
+| #46 | Merged. Resurrection follow-through. Same announcement as BJ-003, plus the scroll limit. |
+| #47 | Merged. Worker 2 payload. `FULL_REPORT_NOT_IMPORTED`. |
+| #48 | Merged. Worker 4 capsules. The report text was restored in #55 after a stub replaced it. Not a certified practice. |
+| #49 | Merged. GPT-6 preservation. Most rows are pointers. |
+| #50 | Merged `a12d854c9089b9565d59f08552c11e61f185a4d7`. Ordinary-post sample. Validators re-ran on `37b0674c`. DR-20261016-41 is RL-03, not a second event. |
+| #52 | Merged `e0ab29027a8b4f4697b808b130060cf24f081c6d`. Consolidation. The full researcher report was not imported. |
 
 ## Research program sequence
 
