@@ -1,9 +1,65 @@
 # Next Handoff
 
-**Current as of:** 2026-10-05  
+**Current as of:** 2026-10-16  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
+
+## Cross-repository coordination
+
+For any task that can affect Kit/runtime decisions, read repository-root `PROJECT_CONTROL.md` and `COORDINATION.md` first, then verify live `main` in both this repo and `radarsaint/dnd-solo` when the task crosses the boundary.
+
+GitHub issues/PRs own live task state. Dated handoffs are orientation/history and must not silently outrank newer `main` or an explicitly named active draft.
+
+### First-tranche integrity review — merged
+
+PR #38 merged to `main` as `2b68820d445e9f6d99d021463bfd76b2f7bb257d`.
+
+The reviewed set is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are `SCOPE_OVERCLAIMED`. None is a certified standing practice. The sample boundary in `research/integrity/README.md` still holds: this is not a model of how Brendon runs a game, and it does not authorize Kit.
+
+A citation is still not semantic verification. BDC-S3-004's prep locators remain unrecovered. Do not restamp the ledger because a later edit is nearby. Untouched research stays `UNVERIFIED`.
+
+The old audit branch is history. The gate that checks a pull request is `.github/workflows/research-integrity.yml` once that repair is on `main`. Until then, run `scripts/validate_research_evidence.py` against the revision you changed, with the Discord database left as its Git LFS pointer.
+
+### Strategic planning draft — PR #37
+
+PR #37 preserves current Kit/BFDM strategic planning, including Stage 1–4 sequencing and tool allocation. It is project direction, not historical BFDM evidence, and remains an unmerged draft.
+
+## Friday ChatGPT Work queue
+
+Use scarce Work capacity for evidence-heavy investigations that ordinary GPT should not do interactively.
+
+Priority order:
+
+1. **Do not reopen the finished first tranche.** Those 120 propositions are reviewed. A new case is a new tranche, not a restamp. Skip work that repeats PR #38.
+2. **Earthfall/Saturday adversarial attack on PR #28.** Treat the ten contrast families as hypotheses. Independently reconstruct primary evidence and classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE.
+3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
+4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
+5. **Phase 2B cross-format creative-method contrast.** Use direct design/revision evidence and do not claim table success.
+6. **Selective authorship/acceptance reconstruction** only for workbench claims used by the substantive research above.
+
+Wait until dependencies are satisfied before:
+- structural same-nouns/different-decision benchmarks;
+- decision recognition/classification experiments;
+- scaled context-blindfold studies;
+- precedent cards or retrieval systems.
+
+Wrong use of Work:
+- human-object index expansion;
+- generic object lookup;
+- normal source checks;
+- corpus mechanics;
+- GraphRAG/vector/reranker work;
+- final cognition architecture.
+
+Every Work run must have:
+- exact repo/PR refs;
+- finite evidence domain;
+- exact stopping rule;
+- required output artifact;
+- scope limit;
+- invalidation conditions;
+- explicit do-not-duplicate instruction for active corpus-prep and PR #38 work.
 
 ## What is complete on main
 
@@ -48,7 +104,7 @@ The candidate pool is a classified backlog. It is not "134 unreviewed files" any
 
 ## Stage 1 after the 2026-10-05 consolidation
 
-PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. Canonical BCS range is BCS-000001–BCS-000172.
+PR #31 (substrate/readiness hardening) and PR #36 (reconciled source ingests) are merged. That consolidation's range is BCS-000001–BCS-000172. The catalog has since continued through BCS-000195. `BCS-000172` is not the current ceiling.
 
 The reconciled additions are research-critical historical Drive sources (BCS-000131–BCS-000151), Earthfall contemporary DM-workbench Project history (BCS-000152–BCS-000162), and Saturday D&D contemporary DM-workbench Project history (BCS-000163–BCS-000172). Earthfall and Saturday histories remain partial recoveries. Donor PRs #32, #34, and #35 are closed without merge and are not active ingestion paths.
 

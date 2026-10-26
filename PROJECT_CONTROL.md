@@ -1,0 +1,162 @@
+# Project Control — BFDM corpus and research
+
+**Updated:** 2026-10-17  
+**Canonical main inspected:** `abe036c5584b8ecbb2977128f8fef92728a0673d`  
+**Sibling repo:** `radarsaint/dnd-solo`
+
+For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
+
+This file is the **current BFDM state layer**, not the complete project memory. Do not duplicate the shared project brain in this repo.
+
+Legacy ChatGPT Project attachments are not corpus authority. The ten audited filenames, and the homes already verified on `dnd-solo` `main`, are listed in dnd-solo `docs/KIT_PROJECT_START_HERE.md`. Stage 4 remains hypothesis space.
+
+This file is deliberately short and rewritable. Git history, issues, PRs, and dated research artifacts preserve history.
+
+## What this repo is
+
+`bfdm-corpus` is the durable research archive of Brendon's D&D creative history and the environment for source-grounded BFDM research.
+
+It is not primarily a training dataset.
+
+Kit is one consumer.
+
+## Canonical main state
+
+At the inspected `main`:
+
+- PR #40 merged on 2026-10-08: **195 canonical BCS catalog records through BCS-000195**, with **193 indexed source containers** (BCS-000059 context-only, BCS-000068 excerpt-only);
+- PR #41 merged: Brendon attested 2026-10-09 that the 171 containers previously UNKNOWN authorship are his work. Those records are now BRENDON via owner_attestation. Archival lineage gaps remain unresolved and distinct from authorship. See ingest/reports/2026-10-09-owner-attestation.md.
+- Discord model-facing retrieval is complete and validated;
+- historical Drive/source integration and the scoped high-priority archive-completion pass are landed; the repaired index includes searchable comments and preserved revision bodies, but inaccessible historical revisions remain unfetched;
+- Earthfall and Saturday D&D workbench recoveries are canonical but partial; historical revision bodies, Rowing Oak guide images, the separate Bodfish Google Site, and other named missing sources remain explicitly capability-blocked;
+- Stage 1 is substantially landed with bounded hardening/gaps;
+- broad BFDM judgment claims are **NOT_READY**;
+- bounded S3/S4 live-judgment research is only ready with lineage/scope limits;
+- creative-method/worldbuilding research is ready only for bounded design claims;
+- Stage 3 minimal cognition tests and Stage 4 architecture are intentionally later.
+
+Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STATE.json` for detailed canonical state.
+
+## Current research posture
+
+**Continuity/actual-use repair comes first:** dnd-solo issue #118 tracks downstream-consumer acceptance. The coordination contract, Project Brain, Gardener checkpoint, and context-status checker are on canonical main after Brendon-approved merges of dnd-solo #113 (`aba505351edf61df62445a4961090b4839435dc6`), dnd-solo #117 (`ea74255559faa57dc2b044f01731f61e0f85079d`), and this repo's #39 (`c18796a2e988d91353707b33377c8ea0e670974d`). They are not proposed. A status-checker warning is not completion. Issue #118 G4 and C2 are accepted from comment 6068887374 and recorded on dnd-solo main by #119 (`6d97381210454654950fcb339f438a5d432cc9f1`). G5 repeatability remains unmet. G2's stated evidence is met: on 2026-10-09 the dnd-solo checker on main `e12b97fc925b2be9281fd11828b0bb61a964452f` (#120) reported `REVIEWED_CURRENT` / `CHECKPOINT_ONLY` against reviewed `cf3547e9`, with this repo still `54a20938` and inbox cursor `6065921827`. The Brain record is dnd-solo `7e4c75e8445338ff051cebd1b2175bfacf15e413`. G6 remains a manual Project-UI change.
+
+The BFDM research bottleneck is increasingly **epistemic rather than mechanical**. The first-tranche integrity staging from #38 is now on main. Continue with adversarial work on PR #28 and remaining high-leverage verification outside the sample. PR #27's Discord retrieval conflict resolution is a separate engineering task; its improvements remain unmerged.
+
+Friday ChatGPT Work should not be spent on broad ingestion, searchability, generic BFDM principles, human-object expansion, precedent infrastructure, GraphRAG, or final cognition design.
+
+Highest-value Work targets are:
+
+1. semantically verify high-leverage derived propositions that are outside the finished 120;
+2. adversarially attack PR #28's candidate families with independently reconstructed Earthfall/Saturday workbench evidence;
+3. search for deliberate restraint / non-intervention cases that visible-action-heavy research is likely to miss;
+4. reconstruct bounded failure -> diagnosis -> correction -> later-behavior trajectories;
+5. only after enough cases are semantically trusted, build structural contrast/recognition benchmarks.
+
+Every Work task should have a finite question, finite evidence domain, explicit stopping rule, scope limit, and invalidation condition.
+
+The finished first tranche is PR #38, merged as `2b68820d445e9f6d99d021463bfd76b2f7bb257d`. Do not duplicate those 120 reviews.
+
+## Active draft state that materially affects trust
+
+Open draft PRs are not canonical main, but some are important current work:
+
+- **#38 is not a draft.** It merged. The review is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are overclaimed. Not a model. Not Kit.
+- **#28 — Phase 2 decision contrast families.** Draft live-judgment research; not doctrine and not merged.
+- **#33 — human-object index prototype.** Draft projection, not source truth and not complete.
+- **#37 — strategic BFDM / Kit planning handoff.** Project direction/planning, not historical BFDM evidence and not canonical main.
+
+Any worker relying on one of these must name the PR and branch explicitly.
+
+Important refinement: `READY_WITH_SCOPE_LIMITS` in source/readiness documentation means the evidence surface can be researched. It does **not** certify that existing derived summaries/cases over that evidence have passed semantic review.
+
+## Authority traps
+
+- Historical/pinned Kit or BFDM documents may call themselves canonical while describing an older state.
+- The in-repo BFDM mirror inside `dnd-solo` is not canonical research truth.
+- BFDM PRs #24 and #26 were closed on 2026-10-07 as superseded by merged PR #25. Landed `research/drive-integration/SOURCE_RELATIONSHIP_MODEL_V1.md` is the relationship model and explicitly rejects a competing source-relations registry. #24's leftovers were that rejected registry plus pilot notes, not missing primary sources. #26's leftovers were an old validator and workflow, not missing primary sources. The branches remain readable. Do not revive either path.
+- PR #28 and PR #33 are active drafts, not landed research products.
+- Repository visibility is not part of corpus authority; stale “private” wording in Kit-side artifacts must not affect which repo is canonical.
+
+## Research discipline
+
+Preserve these distinctions:
+
+- source present != live use established;
+- preparation != play;
+- publication != play;
+- revision trajectory != live trajectory;
+- candidate != admitted source;
+- archive gap != evidence gap;
+- open PR != canonical main;
+- citation != semantic verification;
+- generated AI text != Brendon authorship;
+- request != acceptance != implementation.
+
+Prefer explicit UNKNOWN over invented continuity.
+
+## Relationship to current Kit quality evidence
+
+The 2026-10-07 Kit quality audit found that current runtime implementation has advanced significantly beyond the last serious human player-facing evaluation.
+
+BFDM research does **not** close that gap. Even excellent source-grounded research cannot establish that current Kit has acquired or successfully expresses the corresponding DM skill.
+
+Current rule:
+
+> do not use BFDM research quality as a proxy for current Kit play quality.
+
+Where a BFDM finding is proposed as useful DM intelligence, later Kit evaluation should test whether it changes the right decision or improves the lived experience in a held-out/current-build situation.
+
+## Four-audit synthesis
+
+The October 7 runtime, quality, research-readiness, and project-truth audits converge on one governing correction:
+
+> **proxy evidence is not demonstrated truth.**
+
+For BFDM specifically:
+- retrievable source != verified derived claim;
+- polished/cited research != semantically trusted research;
+- research trust != evidence that current Kit performs the skill;
+- current planning docs != canonical history.
+
+Keep executable truth, player-experience evidence, research trust, and coordination authority distinct.
+
+## Product relationship
+
+BFDM research exists to improve Kit's craft and understanding, but BFDM is not the product.
+
+**Kit is the product. The total experience is the acceptance layer.**
+
+Research should improve what Kit can recognize, understand, decide, create, remember, or avoid. A research artifact succeeding on its own terms does not prove that Kit's player experience improved.
+
+## Completed scoped ingestion and remaining work
+
+The high-priority archive-completion pass was executed and merged in PR #40. **Do not repeat that ingestion or treat missing inaccessible history as a failed PR #40 merge.** Keep the unrecovered revision bodies, Rowing Oak imagery, separate Bodfish Site, ChatGPT Project histories, and known-source gaps in the existing archival ledger. Resume the individual items only when required access exists.
+
+Temporary audits:
+
+- GPT 1 — project truth / contradiction audit (complete; incorporated);
+- GPT 2 — Kit quality / failure-localization audit (complete; incorporated);
+- GPT 3 — BFDM research-readiness / ChatGPT Work queue (complete; preserved in `research/audits/2026-10-07-chatgpt-work-readiness.md`);
+- Grok Build — executable `dnd-solo` runtime audit (complete);
+- control-room thread — cross-report synthesis.
+
+These assignments are temporary. Future ownership lives in current issues/PRs. A report, passing validator, mergeable PR, or completed archive stage is not sufficient downstream acceptance: name the consumer, invocation/owner, observed use, and result. The missing-consumer failure mode was demonstrated when PR #40 merged while the semantic delta remained in #115 and the Project Brain was not yet reconciled; issue #118 governs closing that loop.
+
+## Cross-repo rules
+
+Use `dnd-solo main` for executable runtime truth.
+
+Do not infer current Kit behavior from corpus planning artifacts, old runtime mirrors, Project ZIPs, or historical playtest branches.
+
+When research is proposed for runtime hardening, preserve the evidence/provenance chain and current confidence/scope.
+
+## Start points
+
+For corpus/research state: this file -> `research/NEXT_HANDOFF.md` -> owning issue/PR.
+
+For cross-agent protocol: `COORDINATION.md`.
+
+For machine-readable research state: `research/RESEARCH_STATE.json`.
+
+For historical context: dated audits/handoffs only when needed.

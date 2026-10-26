@@ -33,7 +33,7 @@ Status: landed and validated on `main`.
 - `scripts/query_source_history.py` — source-family/history traversal.
 - [legacy-staging/README.md](legacy-staging/README.md) and [legacy-staging/manifest.all.jsonl](legacy-staging/manifest.all.jsonl) — staging provenance/history, no longer the current migration blocker.
 
-Status: PR #25, PR #31, and PR #36 are merged. Canonical containers run through BCS-000172, including historical Drive recovery and partial Earthfall/Saturday DM-workbench histories. Stage 1 is substantially broader and hardened, not exhaustive. Unreadable candidates, missing live evidence, and broader live coverage remain. Donor PRs #32, #34, and #35 are closed without merge.
+Status: PR #25, PR #31, and PR #36 are merged. That consolidation ran through `BCS-000172`, including historical Drive recovery and partial Earthfall/Saturday DM-workbench histories. The catalog on this branch continues through `BCS-000195`. `BCS-000172` is not the current ceiling. Stage 1 is substantially broader and hardened, not exhaustive. Unreadable candidates, missing live evidence, and broader live coverage remain. Donor PRs #32, #34, and #35 are closed without merge.
 
 ## Stage 2 — Reconstruct expert judgment
 
@@ -82,7 +82,9 @@ This is not current implementation work.
 
 ## Existing S3 research
 
-- [roanoke-s3/decision-cases-v1.md](roanoke-s3/decision-cases-v1.md)
+The original Season 3 decision cases have a completed semantic audit. All 20 original reusable judgments were found overclaimed. None is certified as a standing DM practice. Start at [integrity/audit_ledger.jsonl](integrity/audit_ledger.jsonl) and [integrity/README.md](integrity/README.md), not at the original confidence labels.
+
+- [roanoke-s3/decision-cases-v1.md](roanoke-s3/decision-cases-v1.md) — original wording. The verdicts are in the ledger above.
 - [roanoke-s3/longitudinal-decision-cases-v2.md](roanoke-s3/longitudinal-decision-cases-v2.md)
 - [roanoke-s3/revision-family-v3.md](roanoke-s3/revision-family-v3.md)
 - [roanoke-s3/README.md](roanoke-s3/README.md)

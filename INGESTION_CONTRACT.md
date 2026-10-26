@@ -344,10 +344,16 @@ Use supported statuses such as:
 - `OTHER_AUTHOR`
 - `UNKNOWN`
 
+Owner attestation is a supported basis. It is an owner-declared fact about creator and copyright owner. It is not inferred from Drive ownership, file location, last modifier, or inclusion in a project. When `authorship.attribution.basis_kind` is `owner_attestation`, `authorship.status` records that declaration. `creator` and `copyright_owner` travel with it.
+
+Archival provenance is a different fact. A missing original filename, native or acquisition timestamp, source path, native id, URL, or source-to-source relationship is recorded on `archival_provenance` and left unresolved. Do not copy that gap into `authorship.status`. Custody of a Drive file is not authorship. Comment authorship and revision modifiers stay on their own records.
+
 Keep separate:
 
 - project ownership/authority;
 - source authorship;
+- copyright owner;
+- archival provenance;
 - comment authorship;
 - revision modifier;
 - delegated implementation.
@@ -403,6 +409,8 @@ Schema is defined in:
 - `VACUUM` before commit;
 - SQLite integrity check must pass;
 - FTS index must rebuild successfully.
+
+`source_containers.authorship_status` is creator attribution. `creator`, `copyright_owner`, `attribution_basis_kind`, and `attested_on` carry an owner attestation when one exists. `archival_provenance_status` is missing lineage. Do not read `archival_provenance_status = 'UNKNOWN'` as unknown authorship.
 
 The SQLite file is stored through Git LFS under existing `*.sqlite` rules.
 

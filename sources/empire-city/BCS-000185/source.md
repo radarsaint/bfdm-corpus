@@ -1,0 +1,50 @@
+---
+corpus_id: BCS-000185
+project: Roanoke
+source_title: "The Speaker of the Dead's Epilogue"
+normalization: docx-blocks-v1
+---
+
+The war is over but the world still moves on. Life at Empire City slowly but surely gets back on track. First order of business; rebuilding Hampstead. The speaker didn’t spend too much time here but a project such as rebuilding an entire borough would need all the help it can get. Amidst the rebuilding, the Speaker tries to pay as much homage and respect to the dead as he can.
+
+	Amidst all the busywork, the Speaker manages to hangout with his friends in the city. He meditates in Murry Hill Park and helps with the Mender and Sabrine. He debates with Vivica Midask about philosophy and politics. And he reconnects with his first friend, Irynx. It was a long and arduous adventure to get to where they were now. Things between them will never be the same and that’s good. The Speaker has grown and matured and his relationships reflect this. Once naive and lost now wisened and hardened by loss.
+
+	Irynx leaves their Airship, now christened as the Raven Queen, under the Speaker’s care. Ace Pilot Wings heavy in his pocket, the Speaker agrees gladly. He gives away his old airship and moves into the Queen. While remodeling and rearranging, the Speaker comes across a fairly surprising discovery. In a small crack by the airship walls lies an extradimensional captain’s quarters with none other but Meorys inside. Meorys was using some Nolzur’s Marvelous Pigments to counterfeit some coin, both continental currency and British pounds and stockpiling them in a box labeled ‘Just in case the revolution fails’. In her paranoia, Meorys has missed the revolution.
+
+	The Speaker bids farewell to all of his friends at the city and embarks on his first trip out of Arcania borders. He journeys south for Meorys’s hometown to drop her off there. Meorys tells the Speaker that they both came from here and that the Speaker was once a noble of this lands, the Faranells she said. The Speaker has no memories of this whatsoever but one this is for sure, the person that left this place for Empire city is no longer. That person died long ago and now the Speaker, a brand new person, stands in their place. Meorys and the Speaker bid each other farewell, marking the end to the Ball Eater crew.
+
+	The Speaker embarks on his next adventure. Time to finish up his deal with a dragon. He lays out his tarot deck in front of him, the world card face up serving to strengthen his connection to the spirit world as he calls out for Nidhogg. Invoking the name of Nidhogg with the intention to speak with him gives the Speaker the feeling of his cold breath wrapping around your skin. A low growl rumbles against his chest, the dragon of Yggdrasil is listening.
+
+The Speaker takes a deep breath to collect his thoughts. "The war against Britain is over, Arcania has won. Though I assume you already know this. I am here to hold up my end of the bargain. I am awaiting your orders." The Speaker speaks with forced politeness. "Cross you the eastern Ocean. Bring yourself to bear against my enemies, Ephemeral." The Speaker grins mentally. "Nice timing, I was about to go there myself." He then scolds himself as he regains seriousness. "Enemies? Odin?"
+
+"The Aesir move against the once and future king. My people enslaved by the Hanging one, the one eyed God of Thieves and Heroes is bringing the berzerker rage against the Knights of the Round. The war is pitched and laying waste to all of the lands between them. Gods who call themselves good ignore the Gods who call themselves evil to make war against one another. And in the midst of these battles, Arthur's Dragon Merlin moves against my people. My servants among the living."
+
+"And this is where I step in." The Speaker lets out a breath of relief. He was bracing himself for Nidhogg ordering him to do unspeakable atrocities, continuing the fight against Britain is no such thing. "Who am I fighting with? Is there a representative of your people I am to meet up with?"
+
+"Saint George the Dragon Slayer is named among the great heroes of Britannia. Morgana Le fey would see Merlin destroyed. Aid her in this and then she shall aid you in the defeat of Saint George. Without his dragon lance, my people: the trolls, the dark elves, the giants shall no longer fear that Jörmungandr be slain."
+
+The Speaker nods. "I understand. I will head out for Britain, seek out these people, and defeat the king's dragon. I shall do this to uphold our agreement and to help your people. Evil, good, or anything else I shall not let anyone be oppressed by the British no longer. I'll be meeting you once more after this is all over, in one way or another."
+
+"You will not meet me again. You are my unshackling. You have bound yourself to my service. And that service extends into your death. At the time of your death, I will finally abdicate Hel and name you my successor. Foolish mortal. Your death will be an unending task of tending to the unwanted dead."
+
+The Speaker flinches and nearly falls to the ground. This is the catch he's been expecting, but in all his wildest imaginations, this wasn't in them. He is speechless.
+
+Nidhogg fades. His command is complete.
+
+He remembers all he's been through to put him in this situation and regains his composure. He starts speaking to no one in particular. "As Speaker for the Dead, I accept this." Not like he had a choice. "Unwanted the souls under me may be, but voiceless they will not. I shall serve as a warning for those who unnecessarily give away parts of themselves. Those who purposely throw away themselves shall end up under the watch of the Nameless Speaker."
+
+With a heavy heart, the speaker sails for Britain.
+
+	Before anything else, the Speaker first assembles a crew. A ship needs more than just a pilot, especially when fighting a dragon. The Speaker rounds up those not loyal to the crown, those who have a bone to settle with the monarchy. The frivolous behavior of the former King George saw to the Speaker seeing no shortage of able helpers. He calls on the help of a young inventor, a kenku priestess of a god of trickery, a shady gunslinger, a loxodon folk singer, and brutish barbarian. With a ramshackle crew under his command, the Speaker flies for Morgana Le Fey, sworn enemy to the dragon Merlin.
+
+	Finding Morgana was easy enough, she wasn’t exactly subtle with her actions. Convincing her to join was the hard part. Morgana is a powerful sorceress, as stubborn as she is talented. She believed that no one was worthy to be deemed on her level and only she alone can take on the challenge of fighting Merlin. Fortunately, playing the role of one below another is something the Speaker is highly familiar with. With some clever words and silvered promises of a ship, Morgana Le Fey joins the crew of the Raven Queen. She grows tired of working in dingy castles and dungeons, a flying base of operations would be a much better replacement.
+
+	With his crew now assembled and a powerful sorceress at his side. Merlin’s time is coming to an end. The Raven Queen flies south, it flies for Wales.
+
+	Without Morgana’s long accrued knowledge of Merlin and its weaknesses, the Speaker wouldn’t be able to take out the dragon and without the Speaker and his crew Morgana would’ve lacked the needed firepower and resilience to outmatch Merlin. It is only through their cooperation that Merin would fall. Through the help of the spirits and the brute strength of the nordic dead, Merlin is flushed out of his lair. Morgana’s magicks keep him distracted and bogged down while the artillery fire of the Raven Queen tears away at his defenses. Taking a page out of Captain Midask’s book the Speaker constructs a volatile creation using the leftovers of Meorys’s pigments, tempered with the expertise of the mechanic onboard. With this ramshackle contraption of oil flasks and ball bearings, Merlin is laid to rest. The wings of Arthur fall and the forces of Odin descend upon the British isles. The speaker’s job isn’t over yet however, there is still one foe that stands between him and his duty. Saint George the Dragonslayer needs to be cast down.
+
+	The fight with Merlin renders the Raven Queen grounded and its crew busy. The Speaker and Morgana alone face the saint. This battle plays out differently from the clash with Merlin. Without his ship around them, the Speaker and Morgana are vulnerable and Saint George proves to be a highly competent combatant. It is only through sheer luck and with the strength of spirits, quite literally, that the Speaker continues to fight. With berserkers surrounding him and Morgana’s magic manipulating the tides of the battle, Saint George is almost beaten, but his aim proves true and his dragonlance punches through dragon-like flesh as it skewers the Speaker. The Speaker doesn’t go without a fight however as a well time point blank shatter spell manages to break apart the lance of Saint George and renders him open towards Morgana’s attacks.
+
+	Thus this is the end to the Speaker’s tale. A sorceress beside him, promising to take care of the airship and crew he leaves behind and finally giving it the proper chance to be more than just a vessel for war, a large hole in his chest letting out blood at an alarming rate, and no raven, fey, mad scientist, or mender in site to bring his spirit back. The Speaker’s eyes go dull and lifeless and his spirit goes straight down to hell.
+
+	Our story now changes perspective. We shift focus to a ferryman of souls, a changeling with a pseudodragon on his shoulder. Bo Harkness is delivering the soul of a rather unremarkable someone. This soul is on his way to the realm where all those unwanted go, Bo is journeying to Hel. And at the end of the ferryman’s journey, where the soul aboard his carpet departs for the beyond he would see a familiar reptilian figure. Bo would meet yet another person he fought with in Empire City, but on the other side of the veil. A kobold smiles at Bo, a kazoo on one hand and a deck of cards on the other. “Greetings Mr. Harkness, I’m the new Speaker of Hel.”

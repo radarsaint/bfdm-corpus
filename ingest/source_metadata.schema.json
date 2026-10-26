@@ -103,6 +103,68 @@
             "string",
             "null"
           ]
+        },
+        "creator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "copyright_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attribution": {
+          "type": "object",
+          "required": [
+            "basis_kind",
+            "attested_by",
+            "attested_on",
+            "scope"
+          ],
+          "properties": {
+            "basis_kind": {
+              "enum": [
+                "owner_attestation",
+                "document_statement",
+                "comment_attribution",
+                "revision_comparison"
+              ]
+            },
+            "attested_by": {
+              "type": "string",
+              "minLength": 1
+            },
+            "attested_on": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            },
+            "scope": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "superseded_authorship_record": {
+          "type": "object",
+          "required": [
+            "former_status",
+            "former_basis"
+          ],
+          "properties": {
+            "former_status": {
+              "type": "string"
+            },
+            "former_basis": {
+              "type": "string"
+            },
+            "removed_not_established": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          },
+          "additionalProperties": false
         }
       },
       "additionalProperties": true
@@ -268,6 +330,32 @@
         }
       },
       "additionalProperties": true
+    },
+    "archival_provenance": {
+      "type": "object",
+      "required": [
+        "status",
+        "unresolved_fields"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "COMPLETE",
+            "PARTIAL",
+            "UNKNOWN"
+          ]
+        },
+        "unresolved_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": true

@@ -83,8 +83,12 @@ class SubstrateQueryTest(unittest.TestCase):
         labeled = [json.loads(line) for line in triage.read_text(encoding="utf-8").splitlines() if line.strip()]
         self.assertEqual({row["candidate"] for row in labeled}, unreviewed)
         actions = {row["recommended_action"] for row in labeled}
-        self.assertIn("HIGH_PRIORITY_INGEST", actions)
         self.assertIn("NEEDS_MANUAL_REVIEW", actions)
+        self.assertNotIn(
+            "1M2Lj_bTH3fKQxAsnnyDg8C5p_jf59FEC4d4IOVIioJM",
+            unreviewed,
+            "Ferrytown Master Doc was admitted and must leave the unreviewed candidate set",
+        )
 
 
 if __name__ == "__main__":

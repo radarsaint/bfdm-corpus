@@ -1,0 +1,114 @@
+{
+  "schema_version": "bfdm_source_metadata/v1",
+  "corpus_id": "BCS-000188",
+  "project": "Unresolved",
+  "project_slug": "later-play",
+  "title": "Elijah",
+  "source_role": "character_handoff",
+  "source_kind": "google_drive_native",
+  "document_family_id": "elijah-character-handoff",
+  "original_filename": "Elijah",
+  "mime_type": "application/vnd.google-apps.document",
+  "ingested_at": "2026-10-08T11:37:42Z",
+  "native_dates": {
+    "created": null,
+    "modified": "2024-01-23T18:15:25.068Z"
+  },
+  "authorship": {
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Drive owner reported by file search: larahazboun.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "File search reports the owner as larahazboun. That owner stays in project_ownership_context. The character description does not name its author, so source authorship is UNKNOWN rather than OTHER_AUTHOR.",
+      "removed_not_established": [
+        {
+          "question": "brendon_authorship",
+          "status": "NOT_ESTABLISHED",
+          "basis": "Owner is larahazboun."
+        }
+      ]
+    }
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "created_timestamp",
+      "locator.source_path",
+      "source_relationship"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
+  },
+  "locators": [
+    {
+      "provider": "google_drive",
+      "locator_type": "native_document",
+      "native_id": "1ZDOarJzjMFEwYM025VrV_APxZvTVlSri-ydjprGsXC8",
+      "url": "https://docs.google.com/document/d/1ZDOarJzjMFEwYM025VrV_APxZvTVlSri-ydjprGsXC8/edit?usp=drivesdk"
+    }
+  ],
+  "representations": [
+    {
+      "kind": "GOOGLE_NATIVE_EXPORT_SNAPSHOT",
+      "path": "sources/later-play/BCS-000188/original/source.docx",
+      "sha256": "492c12edbd3dca5460d4648dfc173e143e0d759b3fa0e687c37aadfd3932ad48",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 14291
+    },
+    {
+      "kind": "NORMALIZED_HUMAN_READABLE",
+      "path": "sources/later-play/BCS-000188/source.md",
+      "sha256": "7d9e7339490b6520dd6522ee1f492030094f72ac85bbd90158a3dfa253b30fd0",
+      "mime_type": "text/markdown",
+      "size_bytes": 9487
+    }
+  ],
+  "normalization": {
+    "method": "Preserved DOCX. source.md keeps paragraph breaks, heading styles, and multi-cell table rows. Single-cell tables are paragraphs. Embedded drawings with an extracted asset are image references.",
+    "tool": "local DOCX/XLSX block extraction from the preserved export",
+    "warnings": [
+      "Created time was not returned by file search. There is no revision-list tool, so earlier wording was not fetched.",
+      "No project id is inferred from a character sheet.",
+      "Native Drive comment list was not retrieved for this file.",
+      "2026-10-08 review repair: source.md was regenerated from the preserved DOCX. Paragraphs keep internal line breaks. Heading styles are marked. Multi-cell tables are markdown rows. Single-cell tables are paragraphs. Wording was not rewritten."
+    ]
+  },
+  "capture_status": {
+    "current_body": "CAPTURED",
+    "comments": "NOT_CAPTURED",
+    "revision_metadata": "NOT_CAPTURED",
+    "revision_bodies": "NOT_CAPTURED",
+    "assets": "NONE_SEPARATED"
+  },
+  "historical_context": {
+    "project_links": [],
+    "production_stages": [
+      {
+        "stage": "PREPRODUCTION",
+        "confidence": "STRONG",
+        "basis": "Character concept and appearance notes. Not a session log.",
+        "support_refs": [
+          "BCS-000188"
+        ]
+      }
+    ],
+    "not_established": [
+      {
+        "question": "project",
+        "status": "NOT_ESTABLISHED",
+        "basis": "The file does not name Roanoke, Empire City, Earthfall, or another registry project."
+      }
+    ]
+  },
+  "source_links": [],
+  "ingested_at_meaning": "repository_admission of commit fd72c385fb2d9ee130c3b01cd4835c2abe9b5e29, which first added this container. Not a Drive capture time. Placeholder 2026-10-08T12:00:00Z was later than that commit and is withdrawn.",
+  "modified_at": "2024-01-23T18:15:25.068Z"
+}
