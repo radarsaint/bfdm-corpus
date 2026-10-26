@@ -13,9 +13,29 @@
   "modified_at": "2023-06-26T02:47:26.832Z",
   "ingested_at": "2026-10-04T20:00:00Z",
   "authorship": {
-    "status": "UNKNOWN",
-    "basis": "Direct Roanoke lore render source, but whole-document authorship is not explicitly established.",
-    "project_ownership_context": "Roanoke lore source with later post-S3 modification."
+    "status": "BRENDON",
+    "basis": "Direct owner attestation by Brendon Faulkner on 2026-10-09: he is the creator and copyright owner of this work. This is an owner-declared fact. It is not an inference from Drive ownership, file location, last modifier, inclusion in a project, or from missing archival lineage.",
+    "project_ownership_context": "Roanoke lore source with later post-S3 modification.",
+    "creator": "Brendon Faulkner",
+    "copyright_owner": "Brendon Faulkner",
+    "attribution": {
+      "basis_kind": "owner_attestation",
+      "attested_by": "Brendon Faulkner",
+      "attested_on": "2026-10-09",
+      "scope": "creator_and_copyright_owner"
+    },
+    "superseded_authorship_record": {
+      "former_status": "UNKNOWN",
+      "former_basis": "Direct Roanoke lore render source, but whole-document authorship is not explicitly established."
+    }
+  },
+  "archival_provenance": {
+    "status": "PARTIAL",
+    "unresolved_fields": [
+      "locator.source_path",
+      "source_relationship"
+    ],
+    "note": "Unresolved archival lineage is recorded here. It is not an authorship status."
   },
   "locators": [
     {

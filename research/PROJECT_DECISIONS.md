@@ -15,9 +15,13 @@ Operational interpretation:
 
 ## Desired outcome for Kit
 
-Kit should eventually be useful as both:
-1. a competent solo/small-table Dungeon Master;
-2. a creative design partner capable of reasoning across Brendon's historical work rather than cloning its prose.
+**Kit is the product. The total experience is the acceptance layer.**
+
+The target is not merely competent DM judgment or successful retrieval. Kit should become an exceptionally satisfying Dungeon Master and creative partner across moment-to-moment play, sessions, campaigns, long-term relationship/continuity, campaign co-design, and eventually large-scale operation.
+
+Judgment, cognition, memory, BFDM fidelity, runtime correctness, personality, latency, visuals, and UI are means. None is allowed to become the project goal by proxy.
+
+BFDM should help Kit reason across Brendon's historical work without cloning its prose, while preserving source truth and uncertainty independently of whatever Kit architecture exists at the time.
 
 ## Current research sequence
 
@@ -35,9 +39,9 @@ The project has deliberately moved away from jumping directly from "archive" to 
 
 ### Stage 2 — Reconstruct expert judgment
 
-Two lanes. No Phase 2B result set has landed.
+Two lanes. PR #28 landed both on `main` (`a6a84d90`). The Phase 2B section is hypotheses, not a confirmed result set.
 
-**Phase 2A — Live judgment.** Requires appropriate live-decision evidence. The useful unit is a contrastable decision trajectory: what happened, what intervention or restraint occurred, what changed, and which condition explains the difference. Underway on draft PR #28. Not more generic "Brendon DM principles."
+**Phase 2A — Live judgment.** Requires appropriate live-decision evidence. The useful unit is a contrastable decision trajectory: what happened, what intervention or restraint occurred, what changed, and which condition explains the difference. The ten families and the first cross-format tranche are on `main` and are not confirmed practice. Not more generic "Brendon DM principles."
 
 **Phase 2B — Creative method / worldbuilding.** Design artifacts can support bounded design claims without a live-play edge. Earthfall's R.O.D. documents, Bastion/Redoubt, and At War's End are eligible now. They do not establish how those designs performed at the table.
 

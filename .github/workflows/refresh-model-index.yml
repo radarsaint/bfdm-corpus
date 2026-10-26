@@ -7,6 +7,9 @@ on:
     paths:
       - "discord/**/*.sqlite"
       - "scripts/export_discord_model_index.py"
+      - "scripts/export_discord_attachments.py"
+      - "scripts/discord_index.py"
+      - "scripts/verify_discord_retrieval.py"
       - "scripts/sync_inventory_from_model_index.py"
       - "scripts/validate_model_index.py"
       - "registry/discord_servers.jsonl"
@@ -35,6 +38,7 @@ jobs:
           for db in discord/*/*.sqlite; do
             [ -f "$db" ] || continue
             python scripts/export_discord_model_index.py "$db"
+            python scripts/export_discord_attachments.py "$db"
           done
       - name: Synchronize accessibility inventory
         run: python scripts/sync_inventory_from_model_index.py
@@ -42,6 +46,8 @@ jobs:
         run: |
           python scripts/validate_model_index.py
           python scripts/audit_inventory.py
+          python -m unittest scripts.test_discord_retrieval -v
+          python scripts/verify_discord_retrieval.py
       - name: Commit changed projections
         run: |
           set -euo pipefail

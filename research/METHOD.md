@@ -200,6 +200,8 @@ Before making absence/frequency claims across eras, check whether the compared p
 
 S3's density must not masquerade as importance or frequency.
 
+The twenty decision cases in `research/roanoke-s3/decision-cases-v1` are a curated sample. How they were chosen is not documented well enough to call them representative. `research/integrity/README.md` is the contract that keeps that sample from being treated as a model, and it records the separate sampling phase required before any generalized judgment. This method does not start that phase.
+
 ## Derived-research independence
 
 Do not count multiple analyses of the same underlying source as independent confirmation.
@@ -239,7 +241,7 @@ Do not choose one use early and discard information needed for others.
 
 ## Promotion into Kit
 
-No research artifact becomes Kit behavior automatically.
+No research artifact becomes Kit behavior automatically. A verified evidence chain is not that permission, and a file on canonical main is not Kit configuration.
 
 Future promotion should be deliberate and traceable:
 

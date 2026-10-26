@@ -9,6 +9,8 @@ Source pair:
 
 Each case records: situation → what Brendon noticed → what he cared about → intervention → observed result → reusable judgment.
 
+> **Historical status.** This file is the original derived wording. It is not the semantic audit. The authoritative result is the ledger [`../integrity/audit_ledger.jsonl`](../integrity/audit_ledger.jsonl), under the contract [`../integrity/README.md`](../integrity/README.md). All 20 original reusable judgments were found overclaimed. None is certified as a standing DM practice. Consult the audit ledger before treating any original proposition or confidence label as verified. The Confidence lines below are the original claims.
+
 ## Cases
 
 ### BDC-S3-001 — A declined hook advances to its failure state

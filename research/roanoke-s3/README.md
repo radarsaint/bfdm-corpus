@@ -33,6 +33,8 @@ The volume of S3 evidence also creates a weighting problem: evidence density mus
 A set of local decision reconstructions:
 situation → what Brendon noticed → competing values → intervention → observed result → reusable judgment.
 
+The original writeup is historical wording. All 20 original reusable judgments were found overclaimed. None is certified as a standing DM practice. Read the ledger [`../integrity/audit_ledger.jsonl`](../integrity/audit_ledger.jsonl) and the contract [`../integrity/README.md`](../integrity/README.md) before using it.
+
 ### v2 — Longitudinal cases
 Follows chains across time:
 prepared expectation → live signal → intervention/adaptation → downstream consequence.
