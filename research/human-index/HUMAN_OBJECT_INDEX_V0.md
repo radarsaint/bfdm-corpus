@@ -1,7 +1,7 @@
 # BFDM Human-Object Index v0
 
 **Status:** experimental substrate design  
-**Branch:** `research/human-object-index-v0`  
+**Coverage:** 10 objects, 15 assertions, and 5 relations. This is the architectural seed. It is not an inventory of the reconciled corpus.  
 **Purpose:** make the corpus navigable by the people, places, organizations, systems, events, items, creatures, and concepts Brendon actually remembers.
 
 ## Problem
@@ -47,7 +47,7 @@ exact source
 
 ## Scope
 
-The index is corpus-wide from the beginning.
+The index is corpus-wide from the beginning. That sentence is the design rule: no campaign is the default universe. The landed seed is still the 10 objects below.
 
 Coverage may be uneven, but no campaign is the default mental universe. Empire City and Roanoke S3 are not privileged merely because their current retrieval substrate is dense.
 

@@ -11,6 +11,7 @@ This index points to current research artifacts and distinguishes canonical main
 - [METHOD.md](METHOD.md) — research discipline and causality rules.
 - [KNOWN_UNCERTAINTIES.md](KNOWN_UNCERTAINTIES.md) — explicit unresolved questions.
 - [PROJECT_MAP.md](PROJECT_MAP.md) — where corpus, research, and runtime work belong.
+- [human-index/HUMAN_OBJECT_INDEX_V0.md](human-index/HUMAN_OBJECT_INDEX_V0.md) — prototype resolver. The seed is 10 objects, 15 assertions, and 5 relations. Not an inventory of the reconciled corpus, and not source truth.
 - [CHRONOLOGY.md](CHRONOLOGY.md) — provisional source-anchored chronology.
 - [CORRECTIONS_LOG.md](CORRECTIONS_LOG.md) — preserved corrections so errors do not harden into doctrine.
 - [RESEARCH_STATE.json](RESEARCH_STATE.json) — machine-readable current-state snapshot.
