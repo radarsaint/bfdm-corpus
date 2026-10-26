@@ -137,7 +137,7 @@ Phase 2 has two lanes. Landing is not certification.
 
 ## OPEN PR — Phase 2 consolidation
 
-Branch `research/phase2-consolidation-longitudinal-2026-10-26` holds `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged. It records RL-01 through RL-06, a crosswalk against open PRs #43 and #46–#50, and a qualification of the CF-04 substitution sentence. It does not rewrite the contrast files and it does not merge those other PRs.
+[PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52), branch `research/phase2-consolidation-longitudinal-2026-10-26`, holds `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged. It records RL-01 through RL-06, a crosswalk against open PRs #43 and #46–#50, and a qualification of the CF-04 substitution sentence. It does not rewrite the contrast files and it does not merge those other PRs.
 
 Three research scopes, which are not the same word "ready":
 

@@ -45,7 +45,7 @@ Phase 2 has two lanes. PR #28 merged to `main` as `a6a84d902a995e53b3ceb72bd535b
 - `research/phase2/contrast-families-v1-stress.md`;
 - `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — Earthfall/Saturday attack on those ten families. Zero BREAK inside the cited spans. Not a confirmation of the families.
 
-Open draft, not on `main` until its PR merges: `research/phase2/consolidation-longitudinal-2026-10-26.md` on branch `research/phase2-consolidation-longitudinal-2026-10-26`. It consolidates repeated cases and qualifies the CF-04 substitution sentence. It does not rewrite `contrast-families-v1.md`. The CF-04 claim that the escort replaced the preplanned boss is not established. Read the qualification there.
+Open draft, not on `main` until its PR merges: [PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52), `research/phase2/consolidation-longitudinal-2026-10-26.md` on branch `research/phase2-consolidation-longitudinal-2026-10-26`. It consolidates repeated cases and qualifies the CF-04 substitution sentence. It does not rewrite `contrast-families-v1.md`. The CF-04 claim that the escort replaced the preplanned boss is not established. Read the qualification there.
 
 **Phase 2B — Creative method / worldbuilding** has a labeled section inside that same tranche (hypotheses H1–H5 and the DESIGN cases). Those hypotheses are on `main` and are still hypotheses, not a confirmed result set. Design-only cases are marked DESIGN and are not live adjudication. Earthfall, Bastion/Redoubt, and the Saturday workbench are used there with partial-recovery limits. At War's End was not part of this tranche and remains eligible. Those claims are not table results.
 
