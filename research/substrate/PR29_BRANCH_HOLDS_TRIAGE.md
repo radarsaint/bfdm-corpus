@@ -10,4 +10,4 @@ The audit narrative and the ported queries are already on `main`:
 
 What `main` does not contain is the pre-admission `candidate_triage.jsonl` from that branch (132 rows). The regenerated ledger on `main` has 99 rows and does not keep the dropped candidates' `basis` lines. Those lines are not an ingest mandate. Containers that were later admitted should be read from the catalog, not from the old "not yet a container" status.
 
-Keep the branch. Do not delete it to tidy the queue. If a later edit needs one of those `basis` sentences, copy that sentence onto the admitted source's own record and cite `f2b1c27`. Do not recreate the 132-row ledger on `main`.
+PR #29 was closed without merge on 2026-10-26. Keep the branch. Do not delete it to tidy the queue. If a later edit needs one of those `basis` sentences, copy that sentence onto the admitted source's own record and cite `f2b1c27`. Do not recreate the 132-row ledger on `main`.

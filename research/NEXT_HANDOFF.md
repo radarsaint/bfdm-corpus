@@ -1,7 +1,7 @@
 # Next Handoff
 
 **Current as of:** 2026-10-16 for the stage narrative below.  
-**Queue corrected:** 2026-10-26 against `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. That correction lists live pull requests. It does not rewrite historical reports, and it does not advance the shared Gardener checkpoint.  
+**Queue corrected:** 2026-10-26 against `main` `a12d854c9089b9565d59f08552c11e61f185a4d7`. The ready pull requests were merged. #29 was closed without merge and its branch was kept. This does not rewrite historical reports, and it does not advance the shared Gardener checkpoint.  
 **Canonical branch:** `main`
 
 This is the current operational handoff. Older dated handoffs/audits are historical unless this file explicitly points to them.
@@ -24,7 +24,7 @@ The old audit branch is history. The gate that checks a pull request is `.github
 
 ### Strategic planning draft — PR #37
 
-PR #37 preserves current Kit/BFDM strategic planning, including Stage 1–4 sequencing and tool allocation. It is project direction, not historical BFDM evidence, and remains an unmerged draft.
+PR #37 merged as `fc3376c1fa3a02a5cda061768b172008352bd2dd`. `research/STRATEGIC_HANDOFF_2026-10-05.md` is a dated planning snapshot. It is not current direction and not historical BFDM evidence. The catalog ceiling it records, BCS-000172, is not current.
 
 ## Friday ChatGPT Work queue
 
@@ -35,7 +35,7 @@ Priority order:
 1. **Do not reopen the finished first tranche.** Those 120 propositions are reviewed. A new case is a new tranche, not a restamp. Skip work that repeats PR #38.
 2. **Earthfall/Saturday adversarial attack.** The first pass landed with PR #28: `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md`. It is not doctrine and not a restamp of PR #38. Do not quote its dispositions as verified practice. A further pass may still classify SUPPORT / LIMIT / BREAK / NEW_DIMENSION / NOT_COMPARABLE against containers this tranche did not cite.
 3. **Restraint / negative-space sweep.** Find bounded cases where Brendon had an apparent opportunity to intervene, elaborate, rescue, promote, or intensify and deliberately did not. Absence claims require a defined searched surface.
-4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference.
+4. **Failure -> diagnosis -> correction -> later behavior trajectories.** Require chronology and evidence that the later behavior is actually analogous; do not infer `CORRECTED_BY` from mere difference. A draft consolidation of the repeated cases, including the CF-04 qualification, is [PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52): `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged and not doctrine.
 5. **Phase 2B cross-format creative-method contrast.** Use direct design/revision evidence and do not claim table success.
 6. **Selective authorship/acceptance reconstruction** only for workbench claims used by the substantive research above.
 
@@ -131,12 +131,12 @@ Readiness discipline:
 
 ## Current open PRs relevant to this handoff
 
-### PR #33 — OPEN DRAFT
+### PR #33 — MERGED
 
-Branch: `research/human-object-index-v0`  
+Merge: `97909f8168cdf36414158d6d2e0db03d032e52b3`  
 Title: **Prototype corpus-wide human-object index**
 
-The original seed is architectural. It has not been expanded, and expansion is not current scarce-Work. The catalog ceiling is BCS-000195, not BCS-000172. Do not treat the seed as a completed human-object index.
+The landed seed is 10 objects, 15 assertions, and 5 relations. It is not an inventory of the reconciled corpus. Expansion is not current scarce-Work. Do not treat the seed as a completed human-object index.
 
 ### PR #28 — MERGED
 
@@ -150,7 +150,7 @@ Landed artifacts:
 
 Phase 2A is on `main` and is not confirmed practice. The ten contrast families and the stress pass were not rewritten by the 2026-10-25 tranche. That tranche records zero BREAK inside its cited Earthfall and Saturday spans, ten dispositions, and explicit UNKNOWN endings. It does not confirm the families. Bastion/Redoubt design claims and five Phase 2B hypotheses sit in labeled sections of the same file. They are not table results and they are not principles. At War's End was not read for the tranche and remains eligible for a later design-method claim. A design claim is not evidence the material was run.
 
-`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 owns retrieval maintenance and, as of 2026-10-26, merges cleanly onto `df47554633`. It is still unmerged. Do not rebase it for a conflict that is not there, and do not change its retrieval semantics from a substrate branch.
+`zero_match_means_absence` on a Discord phrase search means the phrase is absent from the exhaustively searched projection. The Season 4 Master Timeline was posted as a bare URL (`748279131455881360`, `752645676260917248`). A zero for the title does not prove the Drive document does not exist. PR #27 merged as `305588490f0148169dd42ec0f9b35531423f6081`. Do not redo retrieval maintenance, and do not change its semantics from a substrate branch.
 
 Do not rewrite the landed contrast files from substrate cleanup. A new Phase 2 pass is a new artifact. Do not edit `contrast-families-v1.md` or `contrast-families-v1-stress.md` except to preserve their history.
 
@@ -162,24 +162,24 @@ Closed 2026-10-07, not an open draft. Superseded by merged PR #25. The branch re
 
 Closed 2026-10-07, not an open draft. Superseded by merged PR #25. Useful candidate-ledger material from that path was incorporated into #25. Do not revive it.
 
-## Open queue on 2026-10-26
+## Queue resolved on 2026-10-26
 
-Inspected `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. No open issues. These pull requests are proposed state, not canonical, and none is approved for Kit. Repeated readings of one event are not independent corroboration. `KIT_CONSUMPTION` stays unapproved, including where dnd-solo #126 names a subset of #43. That Kit pull request is open, unmerged, and pins corpus commit `bf56ca4f`, not #43's head.
+Inspected after the merges below. `main` at the correction was `a12d854c9089b9565d59f08552c11e61f185a4d7`. No open issues. None of these merges approves Kit. Repeated readings of one event are not independent corroboration. `KIT_CONSUMPTION` stays unapproved, including where dnd-solo #126 names a subset of #43. That Kit pull request was open and unmerged at this correction, and it pins corpus commit `bf56ca4f`, not #43's head.
 
-| PR | Head | Disposition |
-| --- | --- | --- |
-| #27 | `21b0508b7c74a81658a38420771649e884def357` | READY_FOR_BRENDON_REVIEW. Retrieval maintenance. Merges clean. |
-| #29 | `f2b1c27eb9a9bd3776e3e451e714a04e4f262ddf` | DEFERRED. Do not merge. Recommendations are already on main via #31, #36, and #40. The branch still holds the pre-admission triage rows. |
-| #33 | `9cf3d9172bddabc5e2dd7ab16346d6bfb1204ffa` | DEFERRED. Seed only. Not obsolete. Do not expand it in grooming. |
-| #37 | `d2b95f910c9ff93e92b7395f184fe2de1f276383` | NEEDS_CHANGES. The strategic file is unique planning, not evidence. Merging the pull request as opened conflicts with current `STATUS.md`. |
-| #42 | `21e1a5fa0bab372e264bb57d6b12a459a57b9d81` | READY_FOR_BRENDON_REVIEW. Player-option inventory. Publication is not play. |
-| #43 | `ccaadec878dd8f720eefc0340adf925128e2230d` | READY_FOR_BRENDON_REVIEW. Bounded judgments. `consumed: true` in the JSON is not demonstrated Kit use. |
-| #46 | `039772af287c2a5f88f84481415e38dbaf902be1` | READY_FOR_BRENDON_REVIEW. Resurrection follow-through. Same announcement as BJ-003, plus the scroll limit. |
-| #47 | `1656002f88994650d9bdc205e6d05aabc48c4b8d` | READY_FOR_BRENDON_REVIEW. `FULL_REPORT_NOT_IMPORTED` blocks calling it the long report. It does not block preserving the payload. |
-| #48 | `fa9591ee576a74d34eb38c96777307cc24b30078` | READY_FOR_BRENDON_REVIEW. Cross-format capsules. Overlaps are marked. |
-| #49 | `7348c0931486260f2f9422e30e53acf7d28f8644` | READY_FOR_BRENDON_REVIEW. Most rows are pointers. Aldessa and the id corrections are the unique opened text. |
-| #50 | `89b66f2145e62d016244568824dead2e26fdbe72` | NEEDS_CHANGES. Body still cites an older head for the validator PASS. |
-| #52 | `4f8057bcf34dba005f06c5d3777fdb190d55e671` | READY_FOR_BRENDON_REVIEW. Consolidation. The full researcher report was not imported. It does not rewrite the contrast files. |
+| PR | Result |
+| --- | --- |
+| #27 | Merged `305588490f0148169dd42ec0f9b35531423f6081`. Retrieval maintenance. |
+| #29 | Closed without merge. Branch `cursor/research-substrate-audit-081d` at `f2b1c27` is kept. Do not delete it. The 132-row triage stays there. |
+| #33 | Merged `97909f8168cdf36414158d6d2e0db03d032e52b3`. Ten-object seed. Not an inventory. |
+| #37 | Merged `fc3376c1fa3a02a5cda061768b172008352bd2dd`. Dated 2026-10-05 snapshot. Not current direction. |
+| #42 | Merged `92acc3000ea204141281f782e9742a473f2542d5`. Player-option inventory. Publication is not play. |
+| #43 | Merged `74df26ff90413d965189da8a97acf3bdf0750f68`. Bounded judgments. Not demonstrated Kit use. |
+| #46 | Merged. Resurrection follow-through. Same announcement as BJ-003, plus the scroll limit. |
+| #47 | Merged. Worker 2 payload. `FULL_REPORT_NOT_IMPORTED`. |
+| #48 | Merged. Worker 4 capsules. The report text was restored in #55 after a stub replaced it. Not a certified practice. |
+| #49 | Merged. GPT-6 preservation. Most rows are pointers. |
+| #50 | Merged `a12d854c9089b9565d59f08552c11e61f185a4d7`. Ordinary-post sample. Validators re-ran on `37b0674c`. DR-20261016-41 is RL-03, not a second event. |
+| #52 | Merged `e0ab29027a8b4f4697b808b130060cf24f081c6d`. Consolidation. The full researcher report was not imported. |
 
 ## Research program sequence
 

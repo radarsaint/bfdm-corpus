@@ -63,22 +63,22 @@
   "open_prs": {
     "24": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
     "26": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
-    "27": "OPEN_MERGES_CLEAN_ONTO_df475546_HEAD_21b0508b_NOT_MERGED",
+    "27": "MERGED_30558849_RETRIEVAL_MAINTENANCE",
     "28": "MERGED_a6a84d90_PHASE2_CONTRAST_FAMILIES_AND_EARTHFALL_SATURDAY_TRANCHE_NOT_DOCTRINE",
-    "29": "OPEN_DRAFT_DEFERRED_DO_NOT_MERGE_RECOMMENDATIONS_ON_MAIN_TRIAGE_ROWS_REMAIN_ON_BRANCH",
-    "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED",
-    "37": "OPEN_DRAFT_NEEDS_CHANGES_STRATEGIC_FILE_UNIQUE_CONTROL_EDITS_CONFLICT",
+    "29": "CLOSED_WITHOUT_MERGE_2026_10_26_BRANCH_RETAINED_f2b1c27_132_ROW_TRIAGE_NOT_AN_INGEST_MANDATE",
+    "33": "MERGED_97909f81_TEN_OBJECT_SEED_NOT_AN_INVENTORY",
+    "37": "MERGED_fc3376c1_DATED_2026_10_05_SNAPSHOT_NOT_CURRENT_DIRECTION",
     "38": "MERGED_2b68820d_FIRST_TRANCHE_REVIEWED",
     "39": "MERGED_CROSS_REPO_CONTROL",
-    "42": "OPEN_PLAYER_OPTION_INVENTORY_PUBLICATION_IS_NOT_PLAY",
-    "43": "OPEN_BOUNDED_JUDGMENT_NOT_KIT_CONSUMPTION",
+    "42": "MERGED_92acc300_PLAYER_OPTION_INVENTORY_PUBLICATION_IS_NOT_PLAY",
+    "43": "MERGED_74df26ff_BOUNDED_JUDGMENT_NOT_KIT_CONSUMPTION",
     "45": "MERGED_FIRST_TRANCHE_STATUS_CORRECTION",
-    "46": "OPEN_S3_RESURRECTION_FOLLOWTHROUGH_NOT_INDEPENDENT_OF_BJ003",
-    "47": "OPEN_DRAFT_W2_PAYLOAD_FULL_REPORT_NOT_IMPORTED",
-    "48": "OPEN_DRAFT_W4_CROSS_FORMAT_NOT_APPROVED",
-    "49": "OPEN_DRAFT_GPT6_PRESERVATION_NOT_APPROVED",
-    "50": "OPEN_DRAFT_NEEDS_VALIDATOR_RERUN_ON_89b66f21",
-    "52": "OPEN_CONSOLIDATION_FULL_REPORT_NOT_IMPORTED_NOT_DOCTRINE"
+    "46": "MERGED_RESURRECTION_FOLLOWTHROUGH_NOT_INDEPENDENT_OF_BJ003",
+    "47": "MERGED_W2_PAYLOAD_FULL_REPORT_NOT_IMPORTED",
+    "48": "MERGED_W4_CROSS_FORMAT_NOT_APPROVED_REPORT_RESTORED_IN_55",
+    "49": "MERGED_GPT6_PRESERVATION_NOT_APPROVED",
+    "50": "MERGED_a12d854c_VALIDATORS_RERUN_ON_37b0674c_RL03_IS_NOT_A_SECOND_EVENT",
+    "52": "MERGED_e0ab2902_CONSOLIDATION_FULL_REPORT_NOT_IMPORTED_NOT_DOCTRINE"
   },
   "research_stages": {
     "stage_1": {
@@ -238,7 +238,7 @@
   },
   "priority_after_project_continuity": [
     "FIRST: dnd-solo #118 Gardener actual invocation/reconciliation and cold-start consumption",
-    "ENGINEERING: BFDM #27 is reconciled to main at 21b0508b and is not merged",
+    "ENGINEERING: BFDM #27 merged as 30558849. Do not redo retrieval maintenance.",
     "RESEARCH: first tranche of BFDM #38 is reviewed on main; do not restamp it; a further tranche is new work",
     "RESEARCH: BFDM #28 merged as a6a84d90; the Earthfall/Saturday tranche is on main, is not verified doctrine, and does not reclassify the finished PR #38 sample",
     "LATER: Stage 3 minimal cognition and held-out Kit consumer evaluation when trusted research exists"
@@ -265,6 +265,6 @@
     "merged_at": "2026-10-26",
     "approved_by": "Brendon"
   },
-  "queue_corrected_against_main": "df47554633b20ba872bd8cd393c420bbef7140d1",
-  "queue_note": "Open-queue correction only. Does not restamp historical research and does not advance the Gardener checkpoint."
+  "queue_corrected_against_main": "a12d854c9089b9565d59f08552c11e61f185a4d7",
+  "queue_note": "Ready pull requests merged 2026-10-26. #29 closed without merge; branch retained. Not a research restamp and not a Gardener checkpoint."
 }

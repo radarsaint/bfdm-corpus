@@ -3,7 +3,7 @@
   "repo": "radarsaint/bfdm-corpus",
   "role": "HISTORICAL_ARCHIVE_AND_RESEARCH",
   "sibling_repo": "radarsaint/dnd-solo",
-  "last_verified_main": "df47554633b20ba872bd8cd393c420bbef7140d1",
+  "last_verified_main": "a12d854c9089b9565d59f08552c11e61f185a4d7",
   "verified_on": "2026-10-26",
   "current_entrypoint": "PROJECT_CONTROL.md",
   "coordination_contract": "COORDINATION.md",
@@ -22,20 +22,7 @@
       "26"
     ],
     "old_drive_prs_status": "CLOSED_2026_10_07_SUPERSEDED_BY_MERGED_25_NO_UNIQUE_PRIMARY_SOURCES_COMPETING_SOURCE_RELATIONS_REGISTRY_REJECTED",
-    "active_unmerged_research": [
-      "27",
-      "29",
-      "33",
-      "37",
-      "42",
-      "43",
-      "46",
-      "47",
-      "48",
-      "49",
-      "50",
-      "52"
-    ],
+    "active_unmerged_research": [],
     "visibility": "NOT_PART_OF_AUTHORITY"
   },
   "ownership": {
@@ -58,5 +45,5 @@
   "context_backflow": "Substantial work must record context impact AND demonstrate that its consumer was invoked and accepted the result; unresolved semantic deltas require an actually dispatched Gardener pass, not only a status check. Dnd-solo issue #118 owns closure.",
   "gardener_state": "radarsaint/dnd-solo/coordination/context_state.json",
   "gardener_state_role": "SINGLE_SHARED_RESUMABILITY_CURSOR_NOT_KNOWLEDGE_STORE",
-  "verification_scope": "OPEN_QUEUE_INSPECTION_NOT_GARDENER_CHECKPOINT"
+  "verification_scope": "QUEUE_RESOLUTION_NOT_GARDENER_CHECKPOINT"
 }

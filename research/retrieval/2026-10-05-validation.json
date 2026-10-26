@@ -1,0 +1,70 @@
+{
+  "base_main": "6795362e967e89230086afc28c04450cc7d0cce4",
+  "prior_pr_head": "f503bd853f7d6781268453a0a653950bc38f62a0",
+  "validated_on": "2026-10-15",
+  "determinism": {
+    "builds": 2,
+    "byte_identical": true,
+    "files": 13902
+  },
+  "harvests": [
+    {
+      "attachments": 1421,
+      "messages": 197013,
+      "server": "roanoke-season-3",
+      "source_parity": true,
+      "source_sha256": "16d47fa7c4f38d18670fc7fc2639614b0b61c31f716d8e6ecba86f1f87412b4d"
+    },
+    {
+      "attachments": 3528,
+      "messages": 189761,
+      "server": "empire-city",
+      "source_parity": true,
+      "source_sha256": "a0c71f99ff403e5a91d88c2dfb647326cbc332b4b943fa207cb080173a83f98e"
+    },
+    {
+      "attachments": 639,
+      "messages": 12692,
+      "server": "empire-city-dev",
+      "source_parity": true,
+      "source_sha256": "a339a26de8e01d63e608c9d5cdedc494d40fbde76c7d8fa19b482a6f8584aaab"
+    }
+  ],
+  "tests": {
+    "command": "python3.11 -m unittest scripts.test_discord_retrieval -v",
+    "passed": 18,
+    "skipped_after_hydration": 0
+  },
+  "sample": {
+    "independent_source": "SQLite message text, word-boundary or folded phrase; not FTS and not the term index",
+    "mismatch_count": 0,
+    "no_lfs_sandigil": {
+      "access": "jsonl_projection",
+      "count": 1153,
+      "database_state": "lfs_pointer",
+      "status": "EXHAUSTIVE"
+    },
+    "counts": {
+      "s3 Sandigil/Gil alias": 1153,
+      "s3 Gilbert": 1,
+      "s3 Gill": 120,
+      "s3 Gilligan": 2,
+      "s3 Croatoan": 84,
+      "s3 Eloise message text": 0,
+      "s3 of the Twin Vents": 6,
+      "s3 Gil's": 15,
+      "s3 map author 360967589511561218": 11,
+      "s3 Sandigil channel 738994547635519488": 79,
+      "s3 Croatoan channel château-de-léclipse": 3,
+      "s3 Sandigil attachments": 1,
+      "ec New Jersey": 12,
+      "ec hobos": 3,
+      "ec Cruithne author 150319814836092928": 3,
+      "ec noodles": 67,
+      "dev Boroughs": 15,
+      "dev homebrew races": 6,
+      "dev my": 608
+    }
+  },
+  "separate_github_gpt_consumer_observed": false
+}

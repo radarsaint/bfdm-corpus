@@ -11,6 +11,7 @@ This index points to current research artifacts and distinguishes canonical main
 - [METHOD.md](METHOD.md) — research discipline and causality rules.
 - [KNOWN_UNCERTAINTIES.md](KNOWN_UNCERTAINTIES.md) — explicit unresolved questions.
 - [PROJECT_MAP.md](PROJECT_MAP.md) — where corpus, research, and runtime work belong.
+- [human-index/HUMAN_OBJECT_INDEX_V0.md](human-index/HUMAN_OBJECT_INDEX_V0.md) — prototype resolver. The seed is 10 objects, 15 assertions, and 5 relations. Not an inventory of the reconciled corpus, and not source truth.
 - [CHRONOLOGY.md](CHRONOLOGY.md) — provisional source-anchored chronology.
 - [CORRECTIONS_LOG.md](CORRECTIONS_LOG.md) — preserved corrections so errors do not harden into doctrine.
 - [RESEARCH_STATE.json](RESEARCH_STATE.json) — machine-readable current-state snapshot.
@@ -44,6 +45,8 @@ Phase 2 has two lanes. PR #28 merged to `main` as `a6a84d902a995e53b3ceb72bd535b
 - `research/phase2/contrast-families-v1.md`;
 - `research/phase2/contrast-families-v1-stress.md`;
 - `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` — Earthfall/Saturday attack on those ten families. Zero BREAK inside the cited spans. Not a confirmation of the families.
+
+Landed with PR #52: [consolidation-longitudinal-2026-10-26.md](phase2/consolidation-longitudinal-2026-10-26.md). It consolidates repeated cases and qualifies the CF-04 substitution sentence. It is not doctrine. It does not rewrite `contrast-families-v1.md`. The CF-04 claim that the escort replaced the preplanned boss is not established. Read the qualification there.
 
 **Phase 2B — Creative method / worldbuilding** has a labeled section inside that same tranche (hypotheses H1–H5 and the DESIGN cases). Those hypotheses are on `main` and are still hypotheses, not a confirmed result set. Design-only cases are marked DESIGN and are not live adjudication. Earthfall, Bastion/Redoubt, and the Saturday workbench are used there with partial-recovery limits. At War's End was not part of this tranche and remains eligible. Those claims are not table results.
 
@@ -90,6 +93,9 @@ The original Season 3 decision cases have a completed semantic audit. All 20 ori
 - [roanoke-s3/longitudinal-decision-cases-v2.md](roanoke-s3/longitudinal-decision-cases-v2.md)
 - [roanoke-s3/revision-family-v3.md](roanoke-s3/revision-family-v3.md)
 - [roanoke-s3/README.md](roanoke-s3/README.md)
+- [longitudinal/roanoke-s3-resurrection-followthrough-2026-10-15.md](longitudinal/roanoke-s3-resurrection-followthrough-2026-10-15.md) — event-specific BDC-S3-019 follow-up: a preserved scheduled resurrection is played afterward; replacement-rule implementation remains unresolved.
+
+One later cross-case reading, not a model of practice: [longitudinal/bounded-judgment-tranche-2026-10-15.md](longitudinal/bounded-judgment-tranche-2026-10-15.md). It keeps unsupported outcomes in view. It is not the Season 3 decision-case sample.
 
 Historical draft PRs #2–#4 remain provenance; their useful products were organized into the merged research baseline.
 
@@ -112,6 +118,25 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 - [creative-method/historical-mythologization-v1.md](creative-method/historical-mythologization-v1.md)
 - [creative-method/cryptids-s3-s4-v1.md](creative-method/cryptids-s3-s4-v1.md)
 - [creative-method/mythic-institutions-s3-s4-v1.md](creative-method/mythic-institutions-s3-s4-v1.md)
+- [creative-method/worker-4-cross-format-research-2026-10-16.md](creative-method/worker-4-cross-format-research-2026-10-16.md) — draft Worker 4 cross-format tranche. Machine rows: [creative-method/worker-4-cross-format-research-2026-10-16.jsonl](creative-method/worker-4-cross-format-research-2026-10-16.jsonl). Canonical on main after PR #48 merge (2026-10-26); still KIT_CONSUMPTION=NOT_APPROVED. `KIT_CONSUMPTION=NOT_APPROVED`. `W4-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Overlaps are annotated in the report. They do not replace the bowling lead, the mythologization note, the institutions note, or the Empire City design synthesis.
+
+## Worker 2 long-form preservation — 2026-10-16
+
+Draft preservation of one bounded research tranche. Landed with PR #47. Not a certified practice. Every record is `KIT_CONSUMPTION=NOT_APPROVED`. `W2-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. This is not a Kit change and not a representative sample. Where a record overlaps older research, the overlap note says so; it does not replace that research.
+
+- [worker2-long-form/2026-10-16/records.md](worker2-long-form/2026-10-16/records.md) — 15 interpretive candidates and 2 negative findings.
+- [worker2-long-form/2026-10-16/records.jsonl](worker2-long-form/2026-10-16/records.jsonl) — the same records in a machine-readable index. The first row is a pointer, not a verdict.
+- [worker2-long-form/2026-10-16/validation-and-coverage.md](worker2-long-form/2026-10-16/validation-and-coverage.md) — locator checks and coverage limits.
+- [worker2-long-form/2026-10-16/overlap-and-exclusions.md](worker2-long-form/2026-10-16/overlap-and-exclusions.md) — relationships to existing research, including what was not treated as independent evidence.
+- [worker2-long-form/2026-10-16/CURRENT_STATE.md](worker2-long-form/2026-10-16/CURRENT_STATE.md) — unapproved for runtime consumption. `FULL_REPORT_NOT_IMPORTED`.
+
+## Long-form preservation drafts
+
+- [gpt6-long-form/2026-10-16/report.md](gpt6-long-form/2026-10-16/report.md) — GPT-6 DM-expertise tranche, landed with PR #49. Not a certified practice. `KIT_CONSUMPTION=NOT_APPROVED`. `BFDM-RC-2026-10-16-*` ids are research-record ids, not BCS, BCE, or BCR identities. Most proposed records were not opened: they duplicate landed notes or PRs #43, #47, and #48, which are now merged. Opened rows are the Flivver scene, an Aldessa supplement, and an authorship-exclusion caution. Machine rows: [gpt6-long-form/2026-10-16/records.jsonl](gpt6-long-form/2026-10-16/records.jsonl).
+
+## Direct reading
+
+- [direct-reading/2026-10-16/report.md](direct-reading/2026-10-16/report.md) — ordinary-post sample, landed only as an unapproved draft. Not a certified practice. `KIT_CONSUMPTION=NOT_APPROVED`. `DR-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. The line-100 cut now covers every `roanoke-season-3` and `empire-city` shard. `empire-city-dev`, Season 2, and Season 5 were not opened. The twenty Season 3 judgments were not expanded. Channel absence was checked against his other posts in the same minutes and was not treated as restraint. A dice-bot cut that contains none of his rows is not absence either. One Empire City cut has no post from him in that shard at all, and that was not called a choice. The funeral line and the observation-deck PvP line were already on main and were not reopened. DR-20261016-41 is the same three Empire City posts as RL-03 in `research/phase2/consolidation-longitudinal-2026-10-26.md`, not a second event.
 
 ## Kit evaluation
 

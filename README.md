@@ -4,7 +4,7 @@
 
 Canonical corpus and research repository for Brendon's D&D creative work and the live-play context around it.
 
-Repository visibility may change during active work; visibility is not part of corpus authority.
+Repository visibility may change during active work; visibility is not part of corpus authority. Brendon authorized public Discord retrieval projections on 2026-10-04 for multi-model work. Older private-archive labels describe the source context rather than an enforced access boundary.
 
 This repository must remain useful even if Kit's architecture changes completely or Kit is replaced. Training, retrieval, prompting, evaluation, and voice distillation are downstream uses of the archive—not the archive's organizing purpose.
 

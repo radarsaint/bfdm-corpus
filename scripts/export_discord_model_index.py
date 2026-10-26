@@ -40,6 +40,12 @@ def main():
                     help="Target maximum UTF-8 bytes per shard")
     args=ap.parse_args()
     db=Path(args.database)
+    if args.shard_messages < 1 or args.shard_bytes < 1:
+        ap.error("Shard limits must be positive")
+    with db.open("rb") as source:
+        if source.read(16) != b"SQLite format 3\x00":
+            ap.error("Hydrated SQLite bytes are required; an LFS pointer cannot be exported")
+    source_hash=hashlib.sha256(db.read_bytes()).hexdigest()
     slug=db.stem
     out=Path(args.out_root)/slug
     out.mkdir(parents=True, exist_ok=True)
@@ -123,11 +129,12 @@ def main():
         path=terms_dir/f"{prefix}.jsonl"
         data="".join(dump(entry)+"\n" for entry in entries)
         path.write_text(data,encoding="utf-8")
-        term_files.append({"prefix":prefix,"path":path.as_posix(),"terms":len(entries),"bytes":len(data.encode("utf-8"))})
+        term_files.append({"prefix":prefix,"path":path.as_posix(),"terms":len(entries),"bytes":len(data.encode("utf-8")),"sha256":hashlib.sha256(data.encode("utf-8")).hexdigest()})
 
     manifest={
-        "schema_version":3,
+        "schema_version":4,
         "source_database":db.as_posix(),
+        "source_database_sha256":source_hash,
         "server_slug":slug,
         "message_count":count,
         "date_coverage":{"first":first,"last":last},
@@ -142,6 +149,8 @@ def main():
         },
         "files":files
     }
+    if hashlib.sha256(db.read_bytes()).hexdigest() != source_hash:
+        raise RuntimeError("Canonical SQLite changed during export; rerun the export")
     (out/"manifest.json").write_text(
         json.dumps(manifest,ensure_ascii=False,indent=2,sort_keys=True)+"\n",
         encoding="utf-8"

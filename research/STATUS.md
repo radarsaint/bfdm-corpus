@@ -1,7 +1,7 @@
 # Research Status
 
 **Current as of:** 2026-10-16 for the landed-substrate narrative.  
-**Queue corrected:** 2026-10-26 against `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. The open-queue section at the end is the live list. Earlier sentences that still say PR #28 is a draft are historical if they appear in dated audits; this file's Phase 2 section already records the merge.  
+**Queue corrected:** 2026-10-26 against `main` `a12d854c9089b9565d59f08552c11e61f185a4d7`. The queue section at the end is the resolved list. Earlier sentences that still say a later-merged pull request is a draft are historical if they appear in dated audits.  
 **Canonical branch:** `main`
 
 This file describes current state. Dated audits and historical handoffs may intentionally describe older states.
@@ -136,6 +136,10 @@ Phase 2 has two lanes. Landing is not certification.
 
 **Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. The tranche's Part C holds five scoped hypotheses from Earthfall, Bastion/Redoubt, and Saturday workbench texts. They are on `main`. They are not principles. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can still support world-model and revision claims and was not read for this tranche. None of those texts establish how the design performed at the table.
 
+## OPEN PR — Phase 2 consolidation
+
+[PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52), branch `research/phase2-consolidation-longitudinal-2026-10-26`, holds `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged. It records RL-01 through RL-06, a crosswalk against open PRs #43 and #46–#50, and a qualification of the CF-04 substitution sentence. It does not rewrite the contrast files and it does not merge those other PRs.
+
 Three research scopes, which are not the same word "ready":
 
 - Broad BFDM judgment claims: `NOT_READY`. The corpus is not representative across eras and formats.
@@ -148,7 +152,7 @@ PR #28 merged. The contrast families, the stress pass, and the 2026-10-25 Earthf
 
 ## OPEN PR — next research drafts
 
-PR #33 (`research/human-object-index-v0`) is the human-object index draft. Its seed is architectural. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
+PR #33 merged as `97909f81`. The human-object seed is 10 objects, 15 assertions, and 5 relations. Broad expansion through the canonical BCS-000195 corpus has not been done and is not the immediate scarce-Work priority.
 
 ## OPEN PR — older Drive branches
 
@@ -160,7 +164,7 @@ They are retained as branch/PR history and should not be treated as the current 
 
 ## Immediate owning work after the completion correction
 
-First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). That proof is not this queue correction. PR #27 merges cleanly onto `df47554633` as of 2026-10-26 and remains unmerged; do not treat conflict resolution as the remaining task. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
+First prove the Project Gardener actually reconciles the PR #40/#115 semantic changes and that a fresh collaborator uses the revised Brain (dnd-solo #118). That proof is not this queue correction. PR #27 merged as `30558849`. Do not redo retrieval maintenance. PR #38 is merged. Do not reopen it and do not assign it more semantic work. The 120 reviewed propositions stay as reviewed. A later claim is a new tranche outside that sample. PR #28 has merged. Its first Earthfall/Saturday pass is on `main` and does not confirm the families. A further cross-format pass is new work. Leave image/revision/Project-history/other source gaps as explicit blocked archive tasks until needed access arrives.
 
 ## Research roadmap
 
@@ -173,6 +177,6 @@ Current program position is the Stage 1 → Stage 2 transition:
 
 Do not build precedent-card infrastructure or finalize cognitive architecture while Phase 2 and remaining substrate hardening are still establishing what the system actually needs.
 
-## OPEN PR queue — 2026-10-26
+## Queue resolved — 2026-10-26
 
-No open issues. Heads and dispositions are in `research/NEXT_HANDOFF.md`. Short form: #27 and #42, #43, #46, #47, #48, #49, and #52 are waiting on Brendon and are not Kit-approved. #50 needs its validator claim rerun on head `89b66f21`. #37 must not be merged over current status text. #33 stays a draft seed. #29 must not be merged onto main; its recommendations already landed, and the branch still holds the pre-admission triage. #24 and #26 are closed without merge. #45 is merged; its pull-request body had still said "Not merged" at the start of this correction.
+No open issues. The ready pull requests merged: #27, #42, #43, #46, #47, #48, #49, #52, then #37 as a dated snapshot, #33 as a 10-object seed, and #50 after the four validators were re-run on `37b0674c`. None of that is Kit-approved. #29 was closed without merge. Branch `cursor/research-substrate-audit-081d` at `f2b1c27` stays. Do not delete it, and do not copy its 132-row triage onto main. #24 and #26 stay closed without merge. #45 is merged.
