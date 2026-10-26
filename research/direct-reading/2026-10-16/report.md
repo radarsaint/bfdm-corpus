@@ -1,8 +1,10 @@
 # Direct reading — ordinary posts, 2026-10-16
 
-**Status.** Draft. Not canonical until this pull request merges. Not a sample of the corpus. Not Kit configuration.
+**Status.** Unapproved draft. Not a sample of the corpus. Not Kit configuration. Not a certified practice.
 
 **Consumption.** `KIT_CONSUMPTION=NOT_APPROVED` on every row. `dnd-solo` was not edited.
+
+**Overlap.** DR-20261016-41 is the same three Empire City posts as RL-03 in `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not a second event.
 
 **Identities.** `DR-20261016-*` ids are research-record ids. They are not BCS, BCE, or BCR ids. No source body, Discord projection, catalog row, or integrity verdict was edited.
 
