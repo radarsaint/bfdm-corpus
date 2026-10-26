@@ -1,7 +1,7 @@
 # Project Control — BFDM corpus and research
 
 **Updated:** 2026-10-26  
-**Canonical main inspected:** `a12d854c9089b9565d59f08552c11e61f185a4d7`  
+**Canonical main inspected:** `07ee8aba`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
 For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
@@ -35,6 +35,7 @@ At the inspected `main`:
 - creative-method/worldbuilding research is ready only for bounded design claims;
 - Stage 3 minimal cognition tests and Stage 4 architecture are intentionally later.
 - PR #37 merged: preserves the 2026-10-05 strategic planning snapshot as `research/STRATEGIC_HANDOFF_2026-10-05.md`. Dated snapshot only; not current direction or historical BFDM evidence. Catalog ceiling recorded as BCS-000172 is not current.
+- PR #33 merged: human-object index prototype (seed of 10 objects, 15 assertions, 5 relations) is on main as `research/human-index/HUMAN_OBJECT_INDEX_V0.md` and registry files. It is a derived projection, not source truth, not a corpus-wide inventory, and KIT_CONSUMPTION=NOT_APPROVED. Expansion stays off the scarce-work list.
 
 Use `research/NEXT_HANDOFF.md`, `research/STATUS.md`, and `research/RESEARCH_STATE.json` for detailed canonical state.
 
@@ -64,7 +65,7 @@ Open pull requests are not canonical main. The live list, heads, and disposition
 
 - **#38 is not a draft.** It merged. The review is 20 cases and 120 propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 reusable judgments are overclaimed. Not a model. Not Kit.
 - **#28 is not a draft.** It merged as `a6a84d902a995e53b3ceb72bd535b909429493f9`. The contrast families, the stress pass, and `research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md` are on `main`. They do not confirm the ten families, do not restate PR #38, and are not Kit-consumed research. The tranche was checked against the then-current BFDM `main` `f5f6e4d48aed32e3f4ddfdf70cbdcd5fe6e27b2d` and Kit `main` `bebaa6e8613e3f29787e66188be66684acf06a1c`.
-- **#33 is not a draft.** It merged as `97909f8168cdf36414158d6d2e0db03d032e52b3`. The seed is 10 objects, 15 assertions, and 5 relations. Not an inventory of the reconciled corpus. Not source truth.
+- **#33 is not a draft.** It merged as `97909f8168cdf36414158d6d2e0db03d032e52b3`. The seed is 10 objects, 15 assertions, and 5 relations. Not source truth, not a corpus-wide inventory, and not Kit-consumed. Expansion stays off the scarce-work list.
 - **#37 is not a draft.** It merged as `fc3376c1fa3a02a5cda061768b172008352bd2dd`. The 2026-10-05 strategic handoff is a dated planning snapshot only; not current direction, not historical BFDM evidence, catalog ceiling BCS-000172 is not current. Operational files unchanged.
 
 Any worker relying on one of these must name the PR and branch explicitly.
@@ -76,7 +77,7 @@ Important refinement: `READY_WITH_SCOPE_LIMITS` in source/readiness documentatio
 - Historical/pinned Kit or BFDM documents may call themselves canonical while describing an older state.
 - The in-repo BFDM mirror inside `dnd-solo` is not canonical research truth.
 - BFDM PRs #24 and #26 were closed on 2026-10-07 as superseded by merged PR #25. Landed `research/drive-integration/SOURCE_RELATIONSHIP_MODEL_V1.md` is the relationship model and explicitly rejects a competing source-relations registry. #24's leftovers were that rejected registry plus pilot notes, not missing primary sources. #26's leftovers were an old validator and workflow, not missing primary sources. The branches remain readable. Do not revive either path.
-- PR #28 merged. It is landed research, not doctrine. PR #33 merged as a 10-object prototype, not a corpus-wide inventory.
+- PR #28 merged. It is landed research, not doctrine. PR #33 merged as a 10-object seed, not a corpus-wide inventory.
 - Repository visibility is not part of corpus authority; stale “private” wording in Kit-side artifacts must not affect which repo is canonical.
 
 ## Research discipline
