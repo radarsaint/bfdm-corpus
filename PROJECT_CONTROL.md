@@ -1,7 +1,7 @@
 # Project Control — BFDM corpus and research
 
 **Updated:** 2026-10-26  
-**Canonical main inspected:** `07ee8aba`  
+**Canonical main inspected:** `c2a246c9702e333903402c13164b36c312bdad63`  
 **Sibling repo:** `radarsaint/dnd-solo`
 
 For substantial project work, start with `radarsaint/dnd-solo/PROJECT_BOOTSTRAP.md` on `dnd-solo` `main`. It routes to the shared durable mental model, agent/tool map, current-state controls, and the owning issue/PR. Do not use the retired context changelog as current memory.
