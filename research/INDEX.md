@@ -118,7 +118,7 @@ Do not restart broad Empire City discovery; return to primary sources for named 
 - [creative-method/historical-mythologization-v1.md](creative-method/historical-mythologization-v1.md)
 - [creative-method/cryptids-s3-s4-v1.md](creative-method/cryptids-s3-s4-v1.md)
 - [creative-method/mythic-institutions-s3-s4-v1.md](creative-method/mythic-institutions-s3-s4-v1.md)
-- [creative-method/worker-4-cross-format-research-2026-10-16.md](creative-method/worker-4-cross-format-research-2026-10-16.md) — draft Worker 4 cross-format tranche. Machine rows: [creative-method/worker-4-cross-format-research-2026-10-16.jsonl](creative-method/worker-4-cross-format-research-2026-10-16.jsonl). Canonical on main after PR #48 merge (2026-10-26); still KIT_CONSUMPTION=NOT_APPROVED. `KIT_CONSUMPTION=NOT_APPROVED`. `W4-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Overlaps are annotated in the report. They do not replace the bowling lead, the mythologization note, the institutions note, or the Empire City design synthesis.
+- [creative-method/worker-4-cross-format-research-2026-10-16.md](creative-method/worker-4-cross-format-research-2026-10-16.md) — Worker 4 cross-format tranche, landed with PR #48. Not a certified practice. Machine rows: [creative-method/worker-4-cross-format-research-2026-10-16.jsonl](creative-method/worker-4-cross-format-research-2026-10-16.jsonl). `KIT_CONSUMPTION=NOT_APPROVED`. `W4-20261016-*` ids are research-record ids, not BCS, BCE, or BCR identities. Overlaps are annotated in the report. They do not replace the bowling lead, the mythologization note, the institutions note, or the Empire City design synthesis.
 
 ## Worker 2 long-form preservation — 2026-10-16
 

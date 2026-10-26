@@ -116,9 +116,9 @@ PR #38 — **Audit and repair BFDM derived-research evidence chains** — merged
 
 The first tranche is 20 Roanoke S3 cases and 120 reviewed propositions: 78 `PARTIALLY_SUPPORTED`, 38 `SCOPE_OVERCLAIMED`, and 4 `CONTEXT_CHANGES_INTERPRETATION`. All 20 `reusable_judgment` propositions are `SCOPE_OVERCLAIMED`. None is certified as a standing DM practice. The set is a curated sample, not a model, and it does not go into Kit. No corpus-wide semantic certification. Mechanically valid locators are not semantic verification. BDC-S3-004 prep locators remain `ORIGINAL_REPRESENTATION_UNAVAILABLE` / `SUPPORT_NOT_FOUND`. Untouched research stays `UNVERIFIED`. Do not restamp these verdicts because a later commit touches a nearby file.
 
-## OPEN PR — strategic planning handoff
+## LANDED — 2026-10-05 strategic snapshot
 
-PR #37 — **Preserve strategic BFDM and Kit planning handoff** — is an open draft containing project direction, architecture sequencing, and operational planning. It is not historical BFDM evidence and is not canonical until merged.
+PR #37 merged as `fc3376c1fa3a02a5cda061768b172008352bd2dd`. `research/STRATEGIC_HANDOFF_2026-10-05.md` is a dated planning snapshot. It is not historical BFDM evidence and not current direction. The catalog ceiling it records, BCS-000172, is not current.
 
 ## LANDED ON MAIN — Phase 2
 
@@ -136,9 +136,9 @@ Phase 2 has two lanes. Landing is not certification.
 
 **Phase 2B — Creative method / worldbuilding.** How are concepts, constraints, lore, places, institutions, mechanics, and premises turned into playable worlds? A design artifact does not need a live-play edge to support a bounded design-method claim. The tranche's Part C holds five scoped hypotheses from Earthfall, Bastion/Redoubt, and Saturday workbench texts. They are on `main`. They are not principles. Earthfall's R.O.D. documents can support claims about how the broadcast premise is made systemic. Bastion/Redoubt can support claims about institutions, player role, public and private truth, requisition, and drop-in/drop-out design. At War's End can still support world-model and revision claims and was not read for this tranche. None of those texts establish how the design performed at the table.
 
-## OPEN PR — Phase 2 consolidation
+## LANDED — Phase 2 consolidation
 
-[PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52), branch `research/phase2-consolidation-longitudinal-2026-10-26`, holds `research/phase2/consolidation-longitudinal-2026-10-26.md`. It is not merged. It records RL-01 through RL-06, a crosswalk against open PRs #43 and #46–#50, and a qualification of the CF-04 substitution sentence. It does not rewrite the contrast files and it does not merge those other PRs.
+[PR #52](https://github.com/radarsaint/bfdm-corpus/pull/52) merged as `e0ab29027a8b4f4697b808b130060cf24f081c6d`. `research/phase2/consolidation-longitudinal-2026-10-26.md` is on `main`. It records RL-01 through RL-06, a crosswalk of the same cases as #43 and #46–#50, and a qualification of the CF-04 substitution sentence. It does not rewrite the contrast files. It is not doctrine. Those other pull requests have also merged. That does not make the readings independent, and it does not approve them for Kit.
 
 Three research scopes, which are not the same word "ready":
 

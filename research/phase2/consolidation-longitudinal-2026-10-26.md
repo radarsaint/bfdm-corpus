@@ -1,11 +1,11 @@
 # BFDM Phase 2 — Evidence consolidation and longitudinal research pass
 
-**Status:** open draft. Not merged. Not doctrine. Not a Kit prompt, memory, or precedent card.  
+**Status:** on `main` after PR #52. Not doctrine. Not a Kit prompt, memory, or precedent card.  
 **Recorded:** 2026-10-26.  
 **Base:** BFDM `main` `df47554633b20ba872bd8cd393c420bbef7140d1`. PR #28 is already merged at `a6a84d902a995e53b3ceb72bd535b909429493f9`.  
 **Import limit:** the full researcher-authored Markdown report was not in this execution environment. This file is the bounded repository record built from the integration instructions and from the primary sources checked below. It is not a claim that the full report was imported.
 
-This file does not rewrite `contrast-families-v1.md`, `contrast-families-v1-stress.md`, the 2026-10-25 cross-format tranche, or PR #38's integrity ledger. Open PRs #43 and #46–#50 stay open. Their case counts are not added to this one.
+This file does not rewrite `contrast-families-v1.md`, `contrast-families-v1-stress.md`, the 2026-10-25 cross-format tranche, or PR #38's integrity ledger. PRs #43 and #46–#50 later merged. Their case counts are not added to this one, and those merges are not a second event.
 
 Discord shard line numbers are file positions. A shard interleaves channels. A cited range is not one conversation. Brendon's account in these shards is `bfdm`, author id `313689699627696139`, display name DM radar. Message ids are the stable keys.
 
