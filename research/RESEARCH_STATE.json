@@ -64,7 +64,7 @@
     "24": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
     "26": "CLOSED_2026_10_07_UNMERGED_SUPERSEDED_BY_PR25",
     "27": "OPEN_RECONCILED_TO_MAIN_AT_21b0508b_NOT_MERGED",
-    "28": "OPEN_DRAFT_PHASE2_DECISION_CONTRAST_RESEARCH_NOT_YET_UPDATED_FOR_EARTHFALL_SATURDAY",
+    "28": "OPEN_DRAFT_PHASE2_CONTRAST_FAMILIES_PLUS_UNMERGED_EARTHFALL_SATURDAY_TRANCHE_NOT_CANONICAL",
     "33": "OPEN_DRAFT_HUMAN_OBJECT_INDEX_SEED_NOT_EXPANDED_ACROSS_RECONCILED_CORPUS",
     "37": "OPEN_DRAFT_STRATEGIC_KIT_BFDM_PLANNING_NOT_HISTORICAL_EVIDENCE",
     "38": "MERGED_2b68820d_FIRST_TRANCHE_REVIEWED",
@@ -92,7 +92,9 @@
           "Earthfall",
           "Bastion/Redoubt",
           "At War's End"
-        ]
+        ],
+        "draft_on_pr_28": "research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md",
+        "draft_status": "RECORDED_ON_OPEN_PR_NOT_MERGED_NOT_A_PRINCIPLE_SET"
       }
     },
     "stage_3": {
@@ -190,7 +192,7 @@
     "top_jobs": [
       "after verified Gardener activation, verify only current high-leverage research dependencies",
       "semantic verification of Phase-2-critical dependency surface",
-      "Earthfall/Saturday adversarial attack on PR28 hypotheses",
+      "Earthfall/Saturday adversarial attack is drafted on unmerged PR #28; do not treat it as verified doctrine or as a restamp of PR #38",
       "restraint and negative-space research",
       "failure-diagnosis-correction-later-behavior trajectories",
       "bounded Phase 2B cross-format creative-method contrast"
@@ -228,7 +230,26 @@
     "FIRST: dnd-solo #118 Gardener actual invocation/reconciliation and cold-start consumption",
     "ENGINEERING: BFDM #27 is reconciled to main at 21b0508b and is not merged",
     "RESEARCH: first tranche of BFDM #38 is reviewed on main; do not restamp it; a further tranche is new work",
-    "RESEARCH: BFDM #28 hypothesis contrasts adversarially tested only with verified/appropriately scoped evidence",
+    "RESEARCH: BFDM #28 carries an unmerged 2026-10-25 Earthfall/Saturday tranche; dispositions are not verified doctrine and do not reclassify the finished PR #38 sample",
     "LATER: Stage 3 minimal cognition and held-out Kit consumer evaluation when trusted research exists"
-  ]
+  ],
+  "phase2_crossformat_draft": {
+    "as_of": "2026-10-25",
+    "pr": 28,
+    "branch": "research/phase2-decision-trajectories",
+    "artifact": "research/phase2/earthfall-saturday-crossformat-tranche-2026-10-25.md",
+    "status": "DRAFT_NOT_MERGED",
+    "bfdm_main_pinned": "f5f6e4d48aed32e3f4ddfdf70cbdcd5fe6e27b2d",
+    "kit_main_pinned": "bebaa6e8613e3f29787e66188be66684acf06a1c",
+    "pr28_head_before_tranche": "f9083e399b1e5f724f2959ec442541f88ddc634d",
+    "cases": 18,
+    "contrast_family_break_findings": 0,
+    "hypotheses": 5,
+    "trajectories": 5,
+    "does_not": [
+      "rewrite contrast-families-v1 or the stress pass",
+      "reclassify PR #38's 120 propositions",
+      "authorize Kit consumption"
+    ]
+  }
 }
