@@ -8,7 +8,7 @@ This index points to current research artifacts and distinguishes canonical main
 - [STATUS.md](STATUS.md) — current source/research status.
 - [SOURCE_COVERAGE.md](SOURCE_COVERAGE.md) — source-family coverage, backlog, archive gaps, and evidence gaps.
 - [PROJECT_DECISIONS.md](PROJECT_DECISIONS.md) — current program guardrails; not historical evidence.
-- [METHOD.md](METHOD.md) — research discipline and causality rules.
+- [METHOD.md](METHOD.md) — research discipline and causality rules, including the distinction among observed behavior, reconstructed judgment, evaluated effectiveness, and transferable knowledge. Candy C is named there as a planned future destination, not a live repo. [PR #58](https://github.com/radarsaint/bfdm-corpus/pull/58) is an unapproved method example; it is not doctrine and is not restamped.
 - [KNOWN_UNCERTAINTIES.md](KNOWN_UNCERTAINTIES.md) — explicit unresolved questions.
 - [PROJECT_MAP.md](PROJECT_MAP.md) — where corpus, research, and runtime work belong.
 - [human-index/HUMAN_OBJECT_INDEX_V0.md](human-index/HUMAN_OBJECT_INDEX_V0.md) — prototype resolver. The seed is 10 objects, 15 assertions, and 5 relations. Not an inventory of the reconciled corpus, and not source truth.
