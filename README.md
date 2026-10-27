@@ -8,6 +8,8 @@ Repository visibility may change during active work; visibility is not part of c
 
 This repository must remain useful even if Kit's architecture changes completely or Kit is replaced. Training, retrieval, prompting, evaluation, and voice distillation are downstream uses of the archive—not the archive's organizing purpose.
 
+Completing BFDM research also has these explicit objectives: historical understanding of Brendon's methods and mistakes; archival extraction from large sources that contain unrelated material; portable preservation of the valuable research; eventual archive retirement under provenance constraints; deliberate research of knowledge that could later inform Candy C's contextual judgments; and investigation of why play succeeds or fails. **Candy C** (candidste c) is the planned future GitHub repository for Kit's planned Bayesian drive. It does not exist. Do not create it. Archival completion is not proof that drive works. Reproducing Brendon's historical choices is not the product success condition.
+
 It preserves and makes researchable:
 
 - campaign planning and operations;
@@ -53,7 +55,7 @@ Stage 1 source accessibility/integration is substantially broader and hardened o
 
 Stage 2 has two lanes and neither is certified. Phase 2A, live judgment, and the 2026-10-25 Earthfall/Saturday cross-format tranche landed when PR #28 merged (`a6a84d902a995e53b3ceb72bd535b909429493f9`). Zero BREAK in that tranche does not confirm the ten families. Phase 2B hypotheses in the same file may use design artifacts without treating them as proof the material was run. They are not a confirmed creative-method result set. The human-object index draft is PR #33 and has not been expanded across the reconciled corpus. Broad judgment claims are not ready.
 
-Stage 3 precedent cards/runtime retrieval and Stage 4 cognitive architecture are intentionally later work. Do not skip ahead merely because the source substrate is now much stronger.
+Stage 3 precedent cards/runtime retrieval and Stage 4 cognitive architecture are intentionally later work. Do not skip ahead merely because the source substrate is now much stronger. Do not implement Candy C or a Bayesian learning algorithm here. Current research should still investigate the knowledge those later stages would need, while keeping observed behavior, reconstructed judgment, evaluated effectiveness, and transferable knowledge distinct.
 
 ## Provenance
 

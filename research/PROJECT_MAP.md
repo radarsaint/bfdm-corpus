@@ -12,7 +12,8 @@ Use it for:
 - provenance, revisions, comments, and chronology;
 - derived BFDM research;
 - Kit evaluation records that belong with research history;
-- cross-campaign comparison.
+- cross-campaign comparison;
+- portable research that could later inform Candy C, without creating that repository here.
 
 Repository visibility may change during active work; visibility is not part of corpus authority.
 
@@ -21,9 +22,9 @@ Current canonical branch: `main`.
 Current operational handoff:
 - `research/NEXT_HANDOFF.md`
 
-Current open research branch:
-- `research/phase2-decision-trajectories`
-- draft PR #28 — Phase 2 decision contrast families.
+PR #28 merged. It is landed Phase 2 contrast-family research, not doctrine, and not an open draft. Do not treat this map's older "draft PR #28" wording as current queue state. Live `PROJECT_CONTROL.md` and `research/NEXT_HANDOFF.md` govern the open queue.
+
+**Candy C** (candidste c) is the planned future GitHub repository for Kit's planned Bayesian drive. It is not a current repository, not another AI personality, and not created by this map.
 
 ## `radarsaint/dnd-solo` — Kit product/runtime
 
@@ -51,15 +52,9 @@ Do not redo PR #25's source-history integration.
 
 ### Research work
 
-Stage 2 is active on draft PR #28:
-- decision trajectories;
-- contrasts;
-- restraint;
-- failures;
-- corrections;
-- boundary conditions.
+Stage 2 reconstructs expert judgment from decision trajectories, contrasts, restraint, failures, corrections, and boundary conditions. Landed Phase 2 files are hypotheses/research, not confirmed practice.
 
-Do not turn Stage 2 directly into runtime infrastructure.
+Keep observed behavior, reconstructed judgment, evaluated effectiveness, and transferable knowledge distinct. Do not turn Stage 2 directly into runtime infrastructure or into Candy C.
 
 ### Runtime/cognition work
 
@@ -69,15 +64,18 @@ Stage 3 and Stage 4 are later experimental/architectural work:
 - context assembly;
 - deferred binding;
 - attention representation;
-- only then heavier campaign cognition/memory architecture if experiments justify it.
+- only then heavier campaign cognition/memory architecture if experiments justify it;
+- the planned Bayesian drive / Candy C, which remains unimplemented.
+
+Current research may gather knowledge those later stages would need. It must not implement them.
 
 ## Current open PRs
 
-- **#28** — active draft Phase 2 research.
-- **#24** — older Drive relationship/pilot path; source bodies are not uniquely ahead of merged #25.
-- **#26** — older Drive-history path; useful candidate-ledger material was incorporated into merged #25.
+Open PRs are proposed state. Do not copy a stale numbered list into new work.
 
-PR #25 is merged and is the canonical Drive-history baseline.
+At the time this map was first written, #28 was an active Phase 2 draft and #24/#26 were older Drive paths. **#28, #25, #24, and #26 are no longer in that state:** #25 and #28 merged; #24 and #26 were closed as superseded. Use `research/NEXT_HANDOFF.md` for the live queue.
+
+Unapproved research PRs, including #58, are not doctrine and are not restamped by orientation updates.
 
 ## Non-duplication rule
 
@@ -94,5 +92,12 @@ Before creating a new source or research artifact:
 - Historical/evidence layer: **what can be attributed or linked?**
 - Research layer: **what might it mean?**
 - Runtime: **what is true/actionable in the current game?**
+- Planned Candy C: **does not exist yet.** Naming it does not create it.
+
+Inside the research layer, keep distinct:
+- observed behavior;
+- reconstructed judgment;
+- evaluated effectiveness;
+- transferable knowledge.
 
 No layer should silently impersonate another.

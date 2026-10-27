@@ -20,6 +20,8 @@ It is not primarily a training dataset.
 
 Kit is one consumer.
 
+BFDM research is being completed for historical understanding, archival extraction, portable preservation, eventual archive retirement, future Candy C knowledge, and satisfaction research. **Candy C** is the planned future GitHub name for Kit's planned Bayesian drive; it does not exist and is not created here. Completing extraction is not proof that drive works. Keep observed behavior, reconstructed judgment, evaluated effectiveness, and transferable knowledge distinct. Reproducing Brendon's historical choices is not the success condition. These are orientation statements, not new executable claims.
+
 ## Canonical main state
 
 At the inspected `main`:
