@@ -32,7 +32,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Verify no-LFS consumer and corruption regressions
-        run: python -m unittest scripts.test_discord_retrieval -v
+        run: python -m unittest scripts.test_discord_retrieval scripts.test_foundry_projection_publish -v
       - name: Hydrate canonical databases for full source parity
         run: git lfs pull --include="discord/*/*.sqlite" --exclude=""
       - name: Verify all source records and SQLite search parity
