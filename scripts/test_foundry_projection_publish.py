@@ -69,6 +69,11 @@ class ProjectionPublicationTests(unittest.TestCase):
         self.run_export(shard_messages=1)
         self.assertEqual(first, self.snapshot())
 
+    def test_module_import_keeps_working(self):
+        import importlib
+        module = importlib.import_module("scripts.export_discord_model_index")
+        self.assertTrue(callable(module.main))
+
     def test_failed_rebuild_preserves_every_previous_shard_and_manifest(self):
         self.run_export(shard_messages=1)
         before = self.snapshot()
