@@ -392,7 +392,7 @@ PASS_TITLE = {
     "Gil's Rebirth v1": row("HIGH_PRIORITY_INGEST", "HIGH", "HIGH", "UNRESOLVED", "design notes", "Full open calls this design notes.", "LOW", "TRIAGE_PASS_2026-10-05.md"),
     "Highgate hunt club.pdf": row("LIKELY_FAMILY_MEMBER", "MEDIUM", "MEDIUM", "UNRESOLVED", "location or faction", "Full open names Highgate Hunting Club.", "LOW", "TRIAGE_PASS_2026-10-05.md"),
     "Johnny apple seed.": row("LIKELY_FAMILY_MEMBER", "MEDIUM", "MEDIUM", "UNRESOLVED", "episode", "Full open names a Johnny Appleseed episode.", "LOW", "TRIAGE_PASS_2026-10-05.md"),
-    "Kore-A: THE CLOCK OF ETERNITY": row("HIGH_PRIORITY_INGEST", "HIGH", "HIGH", "2026 session, project unresolved", "session log", "Full open dates this as a session log on 30 Apr 2026.", "LOW", "TRIAGE_PASS_2026-10-05.md"),
+    "Kore-A: THE CLOCK OF ETERNITY": row("UNRELATED", "LOW", "HIGH", "not this corpus", "someone else's session", "Not Brendon's authored or contributed work. He participated in someone else's game once. Do not re-admit.", "HIGH", "TRIAGE_PASS_2026-10-05.md; withdrawn 2026-11-21, ingest/withdrawals/BCS-000190.md"),
     "Lilia's Ending": row("LIKELY_FAMILY_MEMBER", "MEDIUM", "MEDIUM", "UNRESOLVED", "ending", "Named in the full open.", "LOW", "TRIAGE_PASS_2026-10-05.md"),
     "Manuscript for anna": row("LIKELY_FAMILY_MEMBER", "HIGH", "HIGH", "roanoke race lore", "manuscript", "Full open: Urucokra / Canticle of the Canopy. Not the ingested verbatim.", "MEDIUM", "TRIAGE_PASS_2026-10-05.md"),
     "Monster Chess": row("HIGH_PRIORITY_INGEST", "HIGH", "HIGH", "UNRESOLVED", "rules", "Full open lists Monster Chess rules as campaign material.", "LOW", "TRIAGE_PASS_2026-10-05.md"),

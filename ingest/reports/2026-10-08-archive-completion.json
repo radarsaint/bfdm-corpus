@@ -22,5 +22,11 @@
     "state": "OPEN",
     "merge_state": "DIRTY",
     "action": "left to existing owner; not merge-ready; not duplicated"
+  },
+  "current_tree_withdrawal": {
+    "corpus_id": "BCS-000190",
+    "title": "Kore-A: THE CLOCK OF ETERNITY",
+    "withdrawn_on": "2026-11-21",
+    "note": "Removed from current HEAD after this 2026-10-08 report. new_bcs, catalog_bcs_rows, and sqlite_source_containers above remain the counts of that pass. The container is not in the current tree. Git history was not rewritten."
   }
 }

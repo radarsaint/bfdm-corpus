@@ -25,7 +25,7 @@ The openings that are real campaign material, and are still not containers, incl
 - Hampstead module, Hampstead player guide, Highgate Hunting Club, Johnny Appleseed episode
 - Home-brew Barber background, Season 4 home-brew backgrounds
 - Kimmelian race text
-- Kore-A session log dated 30 Apr 2026
+- Kore-A session log dated 30 Apr 2026 (withdrawn from the current corpus 2026-11-21; not Brendon's work; `ingest/withdrawals/BCS-000190.md`)
 - Lilia's ending
 - Order of Kairo member sheet
 - Pigeon Lord class, in draft and in a later writeup

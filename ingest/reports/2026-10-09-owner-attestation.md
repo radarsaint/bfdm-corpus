@@ -4,19 +4,21 @@ Brendon Faulkner attested on 2026-10-09 that the source containers below are his
 Creator and copyright owner are recorded from that attestation.
 The attestation is not an inference from corpus content, Drive custody, or archival lineage.
 
+BCS-000190, Kore-A: THE CLOCK OF ETERNITY, was removed from this current-tree list on 2026-11-21. It is not his work. See `ingest/withdrawals/BCS-000190.md`. Counts below are the remaining attested containers, not the 2026-10-09 total of 171.
+
 ## Counts
 
-- Before: 171 containers with authorship status UNKNOWN
-- After: 171 containers with authorship status BRENDON
-- Catalog rows updated: 171
+- Before: 170 containers with authorship status UNKNOWN
+- After: 170 containers with authorship status BRENDON
+- Catalog rows updated: 170
 - Remaining UNKNOWN authorship in this set: 0
-- Containers that still have unresolved archival lineage: 157
+- Containers that still have unresolved archival lineage: 156
 - Containers with complete archival lineage: 14
 
 ## Validators
 
-- `python3 scripts/build_documents_sqlite.py`: 193 containers, 99 comments, 90 revision bodies, integrity ok, foreign keys 0.
-- `python3 ingest/validate_ingest.py`: passed. Representation checksums matched. Index has 171 owner-attestation rows with authorship BRENDON.
+- `python3 scripts/build_documents_sqlite.py`: 192 containers after BCS-000190 was withdrawn from current HEAD. The 2026-10-09 run, before that withdrawal, reported 193 containers, 99 comments, 90 revision bodies, integrity ok, foreign keys 0.
+- `python3 ingest/validate_ingest.py`: passed on 2026-10-09. Representation checksums matched. Index then had 171 owner-attestation rows with authorship BRENDON. Current attestation rows: 170.
 - `python3 registry/validate_registry.py`: passed.
 - `python3 scripts/validate_source_history.py`: passed.
 - `python3 scripts/validate_model_index.py`: passed.
@@ -28,13 +30,13 @@ Source bytes, locators, representation hashes, dates, and evidence-claim confide
 
 These gaps stay unresolved. They are not authorship.
 
-- `created_timestamp`: 113
+- `created_timestamp`: 112
 - `locator.native_id`: 18
-- `locator.source_path`: 139
+- `locator.source_path`: 138
 - `locator.url`: 18
 - `modified_timestamp`: 92
 - `original_filename`: 35
-- `source_relationship`: 94
+- `source_relationship`: 93
 
 ## Changed records
 
@@ -98,7 +100,6 @@ These gaps stay unresolved. They are not authorship.
 - `BCS-000187` sources/empire-city/BCS-000187/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
 - `BCS-000188` sources/later-play/BCS-000188/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
 - `BCS-000189` sources/later-play/BCS-000189/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
-- `BCS-000190` sources/later-play/BCS-000190/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
 - `BCS-000191` sources/later-play/BCS-000191/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
 - `BCS-000192` sources/later-play/BCS-000192/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path, source_relationship
 - `BCS-000193` sources/later-play/BCS-000193/metadata.json — archival `PARTIAL`; unresolved: created_timestamp, locator.source_path
