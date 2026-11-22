@@ -56,10 +56,11 @@ class PR40RepairTest(unittest.TestCase):
     def test_index_integrity(self):
         self.assertEqual(self.result["integrity_check"], "ok")
         self.assertEqual(self.result["foreign_key_check"], 0)
-        self.assertEqual(self.result["containers"], 193)
-        self.assertEqual(self.conn.execute("SELECT COUNT(*) FROM source_containers").fetchone()[0], 193)
+        self.assertEqual(self.result["containers"], 192)
+        self.assertEqual(self.conn.execute("SELECT COUNT(*) FROM source_containers").fetchone()[0], 192)
         self.assertIsNone(self.conn.execute("SELECT corpus_id FROM source_containers WHERE corpus_id = 'BCS-000059'").fetchone())
         self.assertIsNone(self.conn.execute("SELECT corpus_id FROM source_containers WHERE corpus_id = 'BCS-000068'").fetchone())
+        self.assertIsNone(self.conn.execute("SELECT corpus_id FROM source_containers WHERE corpus_id = 'BCS-000190'").fetchone())
 
     def test_staaten_comments_are_searchable(self):
         rows = self.conn.execute(
@@ -134,7 +135,7 @@ class PR40RepairTest(unittest.TestCase):
             self.assertEqual(metadata(corpus_id)["native_dates"]["modified"], modified)
 
     def test_authorship_is_not_inferred_from_ownership(self):
-        attested = ["BCS-000180", "BCS-000185", "BCS-000187", "BCS-000188", "BCS-000190"]
+        attested = ["BCS-000180", "BCS-000185", "BCS-000187", "BCS-000188"]
         for corpus_id in attested:
             meta = metadata(corpus_id)
             authorship = meta["authorship"]
@@ -183,12 +184,28 @@ class PR40RepairTest(unittest.TestCase):
         self.assertIn("compared", catalog_row("BCS-000148")["context_policy"])
 
     def test_admission_timestamp_is_the_commit_not_the_placeholder(self):
-        for corpus_id in [f"BCS-{number:06d}" for number in range(173, 196)]:
+        withdrawn = {"BCS-000190"}
+        for corpus_id in [f"BCS-{number:06d}" for number in range(173, 196) if f"BCS-{number:06d}" not in withdrawn]:
             meta = metadata(corpus_id)
             self.assertEqual(meta["ingested_at"], ADMISSION)
             self.assertNotEqual(meta["ingested_at"], PLACEHOLDER)
             self.assertIn("repository_admission", meta["ingested_at_meaning"])
             self.assertIn("Not a Drive capture time", meta["ingested_at_meaning"])
+
+    def test_kore_a_clock_of_eternity_is_absent(self):
+        self.assertFalse(list(ROOT.glob("sources/**/BCS-000190/*")))
+        with self.assertRaises(AssertionError):
+            catalog_row("BCS-000190")
+        for table in ("source_fts", "revision_fts"):
+            hits = self.conn.execute(
+                f"SELECT rowid FROM {table} WHERE {table} MATCH ?",
+                ('"clock of eternity"',),
+            ).fetchall()
+            self.assertEqual(hits, [])
+        title_hits = self.conn.execute(
+            "SELECT corpus_id FROM source_containers WHERE title LIKE '%Kore-A%'"
+        ).fetchall()
+        self.assertEqual(title_hits, [])
 
     def test_normalized_bodies_keep_structure(self):
         season = source_text("BCS-000183")

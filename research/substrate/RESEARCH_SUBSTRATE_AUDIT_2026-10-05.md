@@ -93,6 +93,8 @@ The island bestiary `BCS-000022` is a different kind of gap. The native Google D
 
 The 28 high-priority rows are the ones that can change a later conclusion: Rowing Oak and its guide, the Almanac, Arcanian lore and the setting book, Ferrytown's schedule and master doc, Hampstead's module and player guide, the elevator gauntlet, Season 5 framing and the Legends signup, species-allowance and allowed-content sheets, Season 5 craft notes, Combat Field Scholar, Monster Chess, Gil's Rebirth notes, an Elijah handoff, a 2026 Kore-A session log, and an Empire City epilogue.
 
+The Kore-A session log in that 2026-10-05 list was later withdrawn from the current corpus. It is not Brendon's work. See `ingest/withdrawals/BCS-000190.md`. The sentence above remains the audit's count of 28.
+
 Seventeen rows stay manual: five could not be read (404 or failed extraction), and the full-open narrative did not give the others their own role. `All of Me` may be the Ox Rat sheet the pass mentions. That match is not made here.
 
 No opened candidate is a season postmortem. That absence is established for the opened set only.

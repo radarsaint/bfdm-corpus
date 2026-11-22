@@ -2,6 +2,8 @@
 
 Physical completion pass. Not BFDM research, not Kit design.
 
+**Current-tree withdrawal, 2026-11-21.** BCS-000190, Kore-A: THE CLOCK OF ETERNITY, was removed from current HEAD after this report. The table row below is the 2026-10-08 admission record only. The container is not in the current tree. See `ingest/withdrawals/BCS-000190.md`. Git history was not rewritten.
+
 ## SHAs
 
 - Starting `main`: `65513f294e72a3eb961d5699c21ddc1f14ceef2c`
@@ -48,7 +50,7 @@ All 18 rows still labeled `HIGH_PRIORITY_INGEST` were read and admitted. The nam
 | BCS-000187 | Staaten Island brain storming | `1sF0xLGCrJiEK5wxp5V9NjxKXPj3gadVWw1JwGIjpixM` | DOCX, text, 7 comments | Comments are from the DOCX comments part. Authors Brendon Faulkner and Jack Hagey. |
 | BCS-000188 | Elijah | `1ZDOarJzjMFEwYM025VrV_APxZvTVlSri-ydjprGsXC8` | DOCX and text | Owner larahazboun. Project unresolved. |
 | BCS-000189 | Races for the isakei | `1NIK4fF4Zc676Q9zEWIN0KYjcirS3bTW4N6iSqYCskEg` | DOCX and text | 2026 reskin notes. Not a Season 3 verbatim. |
-| BCS-000190 | Kore-A: THE CLOCK OF ETERNITY | `1Umg3gIBjuL6Mnr_hWLTZ-uQlF3fWlvBD5KZQWxk-hJw` | DOCX and text | Owner rhus93722. Session narrative. Not Brendon precedent. |
+| BCS-000190 | Kore-A: THE CLOCK OF ETERNITY | `1Umg3gIBjuL6Mnr_hWLTZ-uQlF3fWlvBD5KZQWxk-hJw` | DOCX and text, later removed from current HEAD | Owner rhus93722. Session narrative. Not Brendon precedent. Withdrawn 2026-11-21; not a live path. |
 | BCS-000191 | CFS.pdf | `1VZE5UOP2PcUYUMZhlI2C5i6sEKMZFaBs` | Original PDF and pypdf text | Creator's note mentions colonists of Roanoke and does not name a season. |
 | BCS-000192 | Content Rulings | `1XB5cnltZZkYerCBE4snXZsQa86vHaOW5aqY_l_Cgaeo` | XLSX and cell text | Owner bghooper88. Not a Brendon decision log. |
 | BCS-000193 | Dec 28 2025 Allowed Content | `1CQp9bSkAf9TPL4IPpldE6-pKpFZlMJ-gYtw_9QhH64A` | XLSX and cell text | Owner jamesridgwayjr. Not superseded by the May sheet. |
