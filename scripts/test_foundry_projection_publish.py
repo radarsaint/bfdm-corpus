@@ -74,6 +74,28 @@ class ProjectionPublicationTests(unittest.TestCase):
         module = importlib.import_module("scripts.export_discord_model_index")
         self.assertTrue(callable(module.main))
 
+    def test_rebuild_preserves_indexes_from_other_producers(self):
+        self.output.mkdir(parents=True)
+        sidecars = {
+            "aliases.jsonl": b'{"canonical":"Sandi"}\\n',
+            "attachments.jsonl": b'{"id":"a1"}\\n',
+            "attachments-manifest.json": b'{"source":"attachments"}\\n',
+        }
+        for name, content in sidecars.items():
+            (self.output / name).write_bytes(content)
+        (self.output / "custom").mkdir()
+        (self.output / "custom" / "human-notes.json").write_text("preserve me")
+        self.run_export()
+        for name, content in sidecars.items():
+            self.assertEqual((self.output / name).read_bytes(), content)
+        self.assertEqual((self.output / "custom" / "human-notes.json").read_text(), "preserve me")
+        before = self.snapshot()
+        self.run_export(shard_messages=1)
+        for name, content in sidecars.items():
+            self.assertEqual((self.output / name).read_bytes(), content)
+        self.assertEqual((self.output / "custom" / "human-notes.json").read_text(), "preserve me")
+        self.assertNotEqual(before["manifest.json"], self.snapshot()["manifest.json"])
+
     def test_failed_rebuild_preserves_every_previous_shard_and_manifest(self):
         self.run_export(shard_messages=1)
         before = self.snapshot()
