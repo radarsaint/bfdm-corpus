@@ -13,6 +13,8 @@ The purpose is to keep many agents from building against different versions of t
 
 Runtime correctness, judgment, cognition, memory, BFDM fidelity, personality, latency, visuals, and UI are means. None is allowed to become a proxy for the whole product.
 
+The planned Bayesian drive is a later KRABS extension, not the product. **Candy C** (candidste c) is the planned future repository name for that drive; it does not exist and is not another AI personality. Completing BFDM extraction is not proof that drive works. Reproducing Brendon's historical choices is not the success condition.
+
 ## Repository authority
 
 - **`dnd-solo main`** is canonical for current executable runtime behavior.
@@ -39,7 +41,10 @@ Examples:
 - architecture/specification != implemented capability;
 - a document labeling itself canonical != current authority;
 - BFDM research quality != current Kit quality;
-- DM judgment != the whole Kit experience.
+- DM judgment != the whole Kit experience;
+- observed behavior != reconstructed judgment != evaluated effectiveness != transferable knowledge;
+- archival completion != Bayesian drive working;
+- Candy C named != Candy C exists.
 
 When a claim matters, state what evidence actually demonstrates it and what remains inferred, historical, proposed, mechanically tested, or unknown.
 

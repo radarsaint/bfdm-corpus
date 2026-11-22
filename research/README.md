@@ -18,13 +18,15 @@ Stage 1 source accessibility/integration is substantially landed on `main`: Disc
 
 Stage 2 has two lanes. Phase 2A, live judgment, and a Phase 2B hypothesis section landed on `main` when PR #28 merged (`a6a84d902a995e53b3ceb72bd535b909429493f9`). The hypotheses are not principles. A design claim is not proof the material was run. The ten contrast families are not confirmed.
 
-Stage 3 precedent cards/minimal cognition tests and Stage 4 architecture are deliberately later. Do not build them merely because the archive is easier to inspect.
+Stage 3 precedent cards/minimal cognition tests and Stage 4 architecture are deliberately later. Do not build them merely because the archive is easier to inspect. Do not create Candy C or implement the planned Bayesian drive from this layer. Research should still target knowledge that could later inform that drive's contextual judgments and satisfaction questions.
 
 ## Current research objective
 
 The immediate objective is not to accumulate generic principles like "reward creativity."
 
-It is to find unusually informative decision trajectories where similar situations produce different interventions, or where an earlier judgment is later corrected/narrowed.
+It is to find unusually informative decision trajectories where similar situations produce different interventions, or where an earlier judgment is later corrected/narrowed. While reconstructing those trajectories, investigate knowledge relevant to future contextual creative judgment and satisfaction: what was done, what may explain it, what evidence of effect exists, and what (if anything) transfers. A finding may conclude the evidence is insufficient. Do not invent alternatives, probabilities, or scores to fill the gap.
+
+Unapproved actual-play research such as [PR #58](https://github.com/radarsaint/bfdm-corpus/pull/58) may be used as a method example of that distinction. It is not doctrine and is not restamped here.
 
 Useful cases include:
 - success versus failure;
@@ -47,6 +49,8 @@ Broad BFDM judgment claims are `NOT_READY`. Bounded S3/S4 live-judgment research
 - Preserve chronology.
 - Preserve authorship and provenance.
 - Separate observation from interpretation.
+- Keep observed behavior, reconstructed judgment, evaluated effectiveness, and transferable knowledge distinct.
+- Do not treat historical resemblance as the best DM decision, or archival completion as proof that Candy C works.
 - Preserve campaign format and scale.
 - Do not treat evidence density as importance.
 - Preserve explicit unknowns.

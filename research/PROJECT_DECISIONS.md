@@ -17,15 +17,19 @@ Operational interpretation:
 
 **Kit is the product. The total experience is the acceptance layer.**
 
-The target is not merely competent DM judgment or successful retrieval. Kit should become an exceptionally satisfying Dungeon Master and creative partner across moment-to-moment play, sessions, campaigns, long-term relationship/continuity, campaign co-design, and eventually large-scale operation.
+The target is not merely competent DM judgment or successful retrieval. Kit should become an exceptionally satisfying Dungeon Master and creative partner across moment-to-moment play, sessions, campaigns, long-term relationship/continuity, campaign co-design, and eventually large-scale operation. Kit is intended to become capable of surpassing Brendon's demonstrated expertise. Reproducing historical choices is not the success condition.
 
 Judgment, cognition, memory, BFDM fidelity, runtime correctness, personality, latency, visuals, and UI are means. None is allowed to become the project goal by proxy.
 
-BFDM should help Kit reason across Brendon's historical work without cloning its prose, while preserving source truth and uncertainty independently of whatever Kit architecture exists at the time.
+The **Bayesian drive** is a planned KRABS extension for context-sensitive, evidence-informed judgment about which DM interventions, including restraint, are most likely to produce satisfying play. **Candy C** (candidste c) is the planned future GitHub repository name for that drive. It does not exist. It is not another AI personality. Choosing a Bayesian approach does not establish the model, priors, likelihoods, update rules, or satisfaction measures.
+
+BFDM should help Kit reason across Brendon's historical work without cloning its prose, while preserving source truth and uncertainty independently of whatever Kit architecture exists at the time. Completing the archive is a legitimate milestone. It is not proof that the Bayesian drive works.
 
 ## Current research sequence
 
 The project has deliberately moved away from jumping directly from "archive" to "cognitive architecture."
+
+Cognition implementation, including Candy C and the Bayesian drive, remains deferred. Research in Stages 1–2 should still deliberately investigate knowledge those later stages will need: observed decisions, reconstructed judgment, evidence of satisfaction or failure, competing explanations, exceptions, and transferable versus non-transferable findings.
 
 ### Stage 1 — Make history researchable
 - Discord access;
@@ -60,7 +64,7 @@ Research scope, kept separate from the readiness labels:
 - deferred binding experiments;
 - attention representation.
 
-**Current state:** future work. Build the benchmark before building precedent infrastructure.
+**Current state:** future work. Build the benchmark before building precedent infrastructure. Do not implement Candy C, Bayesian mathematics, or a learning algorithm from this stage label.
 
 Start with the cheapest system that can falsify the hypothesis. No GraphRAG, learned reranker, spreading activation, or elaborate precedent graph unless simple methods fail.
 
@@ -111,7 +115,14 @@ Keep these distinctions explicit:
 - source research ready ≠ longitudinal research ready;
 - context source ≠ BFDM precedent;
 - later version ≠ automatically superseding;
-- open PR ≠ canonical main.
+- open PR ≠ canonical main;
+- observed behavior ≠ reconstructed judgment ≠ evaluated effectiveness ≠ transferable knowledge;
+- player-character reaction ≠ player evaluation;
+- stated intent ≠ inferred motive;
+- actual outcome ≠ imagined counterfactual;
+- archival completion ≠ Bayesian drive working;
+- historical resemblance ≠ best DM decision;
+- Candy C named ≠ Candy C exists.
 
 ## Development over time
 
@@ -132,9 +143,11 @@ A broad synthesis remains desirable, but not yet. Current work should build stro
 
 ## Implementation restraint
 
-Do not prematurely decide that Kit's corpus use must be RAG, fine-tuning, a static prompt, a graph, a simulated apprenticeship, or any other single mechanism.
+Do not prematurely decide that Kit's corpus use must be RAG, fine-tuning, a static prompt, a graph, a simulated apprenticeship, a Bayesian database, or any other single mechanism.
 
 The next architecture should be earned by experiments that expose actual failure modes.
+
+Do not resolve by assertion: satisfaction measurement; Bayesian representation or update; priors from selective incomplete history; candidate-intervention generation; reconciling competing objectives and player preferences; corpus-to-Candy-C transfer; or what evidence demonstrates improvement beyond imitating Brendon.
 
 ## Layer separation
 

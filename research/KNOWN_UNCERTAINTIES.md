@@ -160,11 +160,28 @@ Open implementation possibilities include:
 - preference/judgment seeding;
 - fine-tuning or adapter data;
 - formative/apprenticeship-style study;
-- design precedent library.
+- design precedent library;
+- later Candy C / Bayesian-drive knowledge, without implementing that drive here.
 
 No single use has been selected as the final answer.
 
 The archive should remain rich enough to support several.
+
+Candy C does not exist. Naming it does not choose a transfer method.
+
+## Planned Bayesian drive / Candy C / satisfaction (must remain unresolved)
+
+These are genuine design and research questions. Do not close them by assertion:
+
+- How should satisfaction be measured across players, sessions, and campaigns?
+- How should Bayesian beliefs be represented or updated?
+- How can useful priors be inferred from selective, incomplete historical evidence?
+- How should candidate creative interventions be generated?
+- How should competing objectives and player preferences be reconciled?
+- How should knowledge transfer from this private corpus into a future Candy C repository?
+- What evidence would demonstrate improvement beyond imitating Brendon's historical choices?
+
+Observed historical behavior is not automatically reconstructed judgment, demonstrated satisfaction, or transferable best practice.
 
 
 ## Empire City targeted evidence gaps

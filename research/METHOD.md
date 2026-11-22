@@ -27,14 +27,58 @@ Therefore research must never discard, flatten, or rewrite source material merel
 
 The method should answer research questions about Brendon's creative history on their own terms, including questions that may have no immediate Kit application.
 
+That archive-first constraint does **not** mean researchers should ignore Kit's future judgment needs. Completing BFDM has several explicit objectives, all of which matter:
+
+1. **Historical understanding.** Reconstruct Brendon's creative methods, demonstrated judgment, decisions, mistakes, development, and their circumstances.
+2. **Archival completion.** Extract useful knowledge from large historical sources that also contain substantial unrelated material.
+3. **Portable preservation.** Keep the valuable research in a durable form that does not require future systems to ingest the full historical archive.
+4. **Archive retirement.** Eventually permit the raw corpus to become private and active excavation to conclude, subject to preserving necessary evidence and provenance.
+5. **Future cognition.** Deliberately research knowledge that could inform Candy C's eventual contextual judgments and learning. Candy C, short for candidste c, is the planned name of a future GitHub repository for Kit's planned Bayesian drive. It does not exist. Do not create it. Do not treat a mention of it as an implementation.
+6. **Satisfaction.** Investigate why experiences succeed or fail for players, DMs, and Brendon. Distinguish intended effect, expressed preference, immediate response, and longer-term satisfaction.
+
+Completion of archival extraction is a legitimate milestone. It is not proof that the Bayesian drive works. Stage 3/4 cognition implementation remains deferred. Research should still target the future knowledge those stages will need.
+
+The planned Bayesian drive is a KRABS extension intended to support context-sensitive, evidence-informed judgment about which DM interventions, including restraint, are most likely to produce satisfying play. Choosing a Bayesian approach does not establish a model, priors, likelihoods, update rules, or satisfaction measures. Those remain unresolved. The drive is not all of Kit's cognition.
+
+## Observed behavior, reconstructed judgment, effectiveness, and transfer
+
+Keep these four questions distinct in every case, contrast, and synthesis:
+
+1. **Observed behavior.** What did Brendon demonstrably do? Quote or cite the action, restraint, timing, and circumstances from primary evidence.
+2. **Reconstructed judgment.** What circumstances and considerations may explain the choice? Separate contemporaneous statements of intent from later recollection and from inferred motive.
+3. **Evaluated effectiveness.** What evidence shows whether that choice produced a satisfying or otherwise desirable result? Distinguish player-character reactions from player evaluations, immediate response from longer-term satisfaction, and actual outcomes from imagined counterfactuals.
+4. **Transferable knowledge.** What, if anything, could another DM reasonably use in a different situation? A resemblance to historical Brendon is not automatically an example of the best DM decision.
+
+These must not collapse into one another.
+
+Historical choices are not automatically optimal. Kit is intended to become capable of surpassing Brendon's demonstrated expertise. Reproducing Brendon's historical choices is therefore insufficient as a research or product success condition.
+
+Researchers should explore competing explanations, failures, exceptions, and cases where different circumstances produced different interventions. A finding may legitimately conclude that the evidence is insufficient to determine which alternative would have been better.
+
+Do **not** require invented alternatives, numeric probabilities, satisfaction scores, or a premature machine-readable schema.
+
+Do not treat participation, laughter, completion, or continued play as proof of satisfaction.
+
+## Method example: BFDM PR #58 (unapproved)
+
+Use [PR #58](https://github.com/radarsaint/bfdm-corpus/pull/58) as a research-method example of the distinction above. Do not change, merge, restamp, or approve it from this method file. It is unapproved actual-play research, not doctrine, and not a Kit input.
+
+- The **Fishmother oasis** sequence shows a player-created institution receiving faction recognition and a labor-scaled reward.
+- The **Twilight Manor** sequence shows a high-investment emotional appeal receiving repeated nonresponses before a mundane development.
+- The **Clocktower** sequence shows Kit-relevant distinctions between preserving an obstacle, allowing consequences, and warning a player outside the fiction.
+
+These examples do not establish a universal rule about rewarding investment, refusing intervention, or warning players. They identify different contexts, actions, and possible research questions. No finding from them establishes probabilities of player satisfaction without adequate outcome evidence. An example resembling Brendon's historical behavior is not automatically an example of the best DM decision.
+
 ## Four-layer discipline
 
 Keep these layers separate:
 
 1. **Source archive** — what material exists?
 2. **Attributable evidence** — what bounded contribution can be tied to Brendon?
-3. **Derived research** — what might the evidence mean?
+3. **Derived research** — what might the evidence mean? Derived research must still mark whether a claim is observation, reconstructed judgment, evaluated effectiveness, or a transfer candidate.
 4. **Runtime curation** — what, if anything, should Kit actually use?
+
+The four-layer discipline and the four research questions above are complementary. A source can support an observation without supporting an effectiveness claim. A derived interpretation is not transferable knowledge merely because it is interesting.
 
 Use the existing provenance ontology where available:
 - `BCS-######` — source container
@@ -236,12 +280,15 @@ The corpus may support:
 - campaign-format reconstruction
 - longitudinal creative research
 - voice/style distillation
+- later Candy C / Bayesian-drive knowledge requirements, without implementing that drive here
 
 Do not choose one use early and discard information needed for others.
 
+The planned portable research destination is Candy C. Describe it; do not create it. Transfer method, schema, and selection rules remain unresolved.
+
 ## Promotion into Kit
 
-No research artifact becomes Kit behavior automatically. A verified evidence chain is not that permission, and a file on canonical main is not Kit configuration.
+No research artifact becomes Kit behavior automatically. A verified evidence chain is not that permission, and a file on canonical main is not Kit configuration. An example that resembles Brendon's historical behavior is not automatically an example of the best DM decision, and is not Candy C.
 
 Future promotion should be deliberate and traceable:
 

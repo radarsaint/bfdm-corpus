@@ -28,6 +28,8 @@ Consequences:
 - **Normalization must remain reversible in principle.** Searchable and human-readable forms may be added, but source lineage, originals, native IDs, revisions, comments, and attribution context must not be discarded merely to make data easier for a model to consume.
 - **Research questions may outlive today's product goals.** Preserve dead ends, failed experiments, third-party context, contradictions, and material whose future value is not yet understood.
 - **Kit-specific curation happens downstream.** Kit may consume selected evidence, research, summaries, retrieval indexes, or other exports. Her needs do not rewrite the archive.
+- **Portable research is a destination, not a replacement for the archive.** Valuable findings should be extractable into a durable form that later systems, including the planned Candy C repository, can use without ingesting the full historical archive. Candy C does not exist and must not be created from this charter.
+- **Archive retirement is a later objective, not a current deletion license.** Eventually the raw corpus may become private and active excavation may conclude, subject to preserving necessary evidence and provenance. Completing extraction is not proof that Kit's planned Bayesian drive works.
 
 When archive integrity and short-term Kit convenience conflict, preserve the archive and build a derived Kit-facing representation.
 
@@ -66,6 +68,8 @@ Question: What can reasonably be attributed to Brendon, and in what context?
 Decision cases, longitudinal studies, hypotheses, contradictions, developmental models, and evaluation assets.
 
 Question: What might the evidence mean?
+
+Derived research must keep distinct: observed behavior, reconstructed judgment, evaluated effectiveness, and transferable knowledge. A finding may conclude that the evidence is insufficient. Do not require invented alternatives, numeric probabilities, or satisfaction scores.
 
 ### 4. Runtime curation
 Deliberately selected material translated into Kit's live behavior, retrieval, evaluation, or other product mechanisms.
@@ -132,9 +136,10 @@ The corpus may eventually support:
 - preference/judgment seeding
 - voice/style distillation
 - campaign-format reconstruction
+- future Candy C / Bayesian-drive knowledge requirements, without implementing that drive here
 - future methods not yet chosen
 
-Preserve enough richness that later uses do not depend on today's assumptions.
+Preserve enough richness that later uses do not depend on today's assumptions. Completing extraction into portable research is a legitimate objective. Reproducing Brendon's historical choices is not.
 
 ## Current sequencing
 
@@ -148,4 +153,4 @@ Preserve enough richness that later uses do not depend on today's assumptions.
 
 ## Success condition
 
-The corpus succeeds if a future researcher or Kit can locate the source, see who produced it, reconstruct its context and chronology, distinguish source from interpretation, challenge a conclusion, and use the material for genuinely new work rather than merely imitate old prose.
+The corpus succeeds if a future researcher or Kit can locate the source, see who produced it, reconstruct its context and chronology, distinguish source from interpretation, distinguish observed behavior from reconstructed judgment, evaluated effectiveness, and transferable knowledge, challenge a conclusion, and use the material for genuinely new work rather than merely imitate old prose or freeze Brendon's historical choices as optimal.
