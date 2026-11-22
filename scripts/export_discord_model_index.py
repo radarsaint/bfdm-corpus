@@ -60,7 +60,9 @@ def main():
         if published.exists():
             for existing in published.iterdir():
                 if (existing.name in ("manifest.json", "terms")
-                        or re.fullmatch(r"messages-\\d+\\.jsonl", existing.name)):
+                        or (existing.name.startswith("messages-")
+                            and existing.name.endswith(".jsonl")
+                            and existing.name[9:-6].isdigit())):
                     continue
                 if existing.is_symlink() or (existing.is_dir() and
                         any(child.is_symlink() for child in existing.rglob("*"))):
