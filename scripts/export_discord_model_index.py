@@ -7,7 +7,10 @@ model route an exact term to the shard(s) containing it without depending on cod
 """
 from __future__ import annotations
 import argparse, hashlib, json, re, sqlite3
-from _foundry_publish import staged_directory
+if __package__:
+    from ._foundry_publish import staged_directory
+else:
+    from _foundry_publish import staged_directory
 from collections import Counter, defaultdict
 from pathlib import Path
 
