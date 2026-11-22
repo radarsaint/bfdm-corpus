@@ -6,7 +6,7 @@ Message shards are byte-capped for direct retrieval. The term index lets a GitHu
 model route an exact term to the shard(s) containing it without depending on code search.
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, sqlite3
+import argparse, hashlib, json, re, shutil, sqlite3
 if __package__:
     from ._foundry_publish import staged_directory
 else:
@@ -55,6 +55,22 @@ def main():
     # Never destroy the last verified projection while building its replacement.
     # Manifest paths name the published location, not the temporary staging dir.
     with staged_directory(published) as out:
+        # This generator owns only message shards, terms/, and manifest.json.
+        # Preserve independently generated aliases and attachment indexes.
+        if published.exists():
+            for existing in published.iterdir():
+                if (existing.name in ("manifest.json", "terms")
+                        or re.fullmatch(r"messages-\\d+\\.jsonl", existing.name)):
+                    continue
+                if existing.is_symlink() or (existing.is_dir() and
+                        any(child.is_symlink() for child in existing.rglob("*"))):
+                    raise ValueError("Unsafe projection sidecar symlink: " + str(existing))
+                if existing.is_dir():
+                    shutil.copytree(existing, out/existing.name)
+                elif existing.is_file():
+                    shutil.copy2(existing, out/existing.name)
+                else:
+                    raise ValueError("Unsupported projection sidecar: " + str(existing))
         terms_dir=out/"terms"
         terms_dir.mkdir()
         con=sqlite3.connect(f"file:{db}?mode=ro", uri=True)
